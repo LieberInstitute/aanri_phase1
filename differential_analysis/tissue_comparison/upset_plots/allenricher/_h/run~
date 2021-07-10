@@ -1,0 +1,24 @@
+#!/bin/bash
+
+SHARED="../../_m/BrainSeq_shared_degs_annotation.txt"
+SOFTWARE="/ceph/opt/AllEnricher-v1.0"
+
+echo "Enrichment for all shared DEG!"
+
+cut -f4 $SHARED | grep -v gene > all.glist
+perl $SOFTWARE/AllEnricher -l all.glist -s hsa -v v20210106 \
+     -o all/ -r /usr/bin/Rscript -i GO+KEGG+Reactome+DO+DisGeNET
+
+echo "Enrichment for all shared DEG!"
+awk -F'\t' -v OFS='\t' '$5 > 0 {print $4}' $SHARED | \
+    grep -v gene > up.glist
+perl $SOFTWARE/AllEnricher -l up.glist -s hsa -v v20210106 \
+     -o up/ -r /usr/bin/Rscript -i GO+KEGG+Reactome+DO+DisGeNET
+
+echo "Enrichment for all shared DEG!"
+awk -F'\t' -v OFS='\t' '$5 < 0 {print $4}' $SHARED | \
+    grep -v gene > down.glist
+perl $SOFTWARE/AllEnricher -l down.glist -s hsa -v v20210106 \
+     -o down/ -r /usr/bin/Rscript -i GO+KEGG+Reactome+DO+DisGeNET
+
+rm *glist
