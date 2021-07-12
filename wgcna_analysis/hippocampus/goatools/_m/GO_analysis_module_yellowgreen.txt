@@ -1,0 +1,16 @@
+GO:0033489 BP 1.29e-09    3/21     4/29107 D08 cholesterol biosynthetic process via desmosterol 1717.0, 1718.0, 6309.0 
+GO:0033490 BP 1.29e-09    3/21     4/29107 D08 cholesterol biosynthetic process via lathosterol 1717.0, 1718.0, 6309.0 
+GO:0006695 BP 1.16e-08   13/21    36/29107 D07 cholesterol biosynthetic process         47.0, 1717.0, 1718.0, 2222.0, 2224.0, 3156.0, 3157.0, 3422.0, 3638.0, 4597.0, 4598.0, 6307.0, 50814.0 
+GO:0008299 BP 2.71e-08    3/21     9/29107 D06 isoprenoid biosynthetic process          3156.0, 4597.0, 4598.0 
+GO:0006629 BP 4.42e-08    5/21   139/29107 D03 lipid metabolic process                  39.0, 3157.0, 3949.0, 6309.0, 6721.0 
+GO:0016126 BP 2.19e-07    6/21    17/29107 D06 sterol biosynthetic process              1717.0, 3156.0, 3638.0, 6307.0, 6309.0, 6713.0 
+GO:0008203 BP 2.62e-07    4/21    77/29107 D06 cholesterol metabolic process            3949.0, 6713.0, 6721.0, 50814.0 
+GO:0071404 BP 3.66e-07    3/21    20/29107 D06 cellular response to low-density lipoprotein particle stimulus 3157.0, 3949.0, 6721.0 
+GO:0042632 BP 6.11e-07    4/21    95/29107 D07 cholesterol homeostasis                  3156.0, 3638.0, 3949.0, 6721.0 
+GO:0019287 BP 1.49e-06    2/21     3/29107 D12 isopentenyl diphosphate biosynthetic process, mevalonate pathway 4597.0, 4598.0 
+GO:0015936 BP 4.95e-06    2/21     5/29107 D10 coenzyme A metabolic process             47.0, 3156.0 
+GO:0070508 BP 7.42e-06    2/21     6/29107 D08 cholesterol import                       3949.0, 134429.0 
+GO:0032933 BP 1.78e-05    2/21     9/29107 D06 SREBP signaling pathway                  3638.0, 6721.0 
+GO:0005789 CC 2.09e-07   11/21   973/29107 D04 endoplasmic reticulum membrane           1717.0, 1718.0, 2222.0, 3156.0, 3638.0, 6307.0, 6309.0, 6319.0, 6713.0, 6721.0, 50814.0 
+GO:0005783 CC 3.48e-07   11/21  1040/29107 D05 endoplasmic reticulum                    1717.0, 1718.0, 2222.0, 3156.0, 3638.0, 6307.0, 6319.0, 6713.0, 6721.0, 50814.0, 134429.0 
+GO:0032937 CC 1.49e-06    2/21     3/29107 D03 SREBP-SCAP-Insig complex                 3638.0, 6721.0 

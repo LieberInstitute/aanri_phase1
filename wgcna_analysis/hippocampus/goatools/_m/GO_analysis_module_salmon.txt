@@ -1,0 +1,10 @@
+GO:1904835 BP 3.77e-06    2/57     2/29107 D05 dorsal root ganglion morphogenesis       8828.0, 8829.0 
+GO:0021649 BP 3.77e-06    2/57     2/29107 D04 vestibulocochlear nerve structural organization 8828.0, 8829.0 
+GO:0097374 BP 1.13e-05    2/57     3/29107 D05 sensory neuron axon guidance             8828.0, 8829.0 
+GO:1903375 BP 1.13e-05    2/57     3/29107 D06 facioacoustic ganglion development       8828.0, 8829.0 
+GO:0021828 BP 2.25e-05    2/57     4/29107 D07 gonadotrophin-releasing hormone neuronal migration to the hypothalamus 8828.0, 8829.0 
+GO:1902285 BP 2.25e-05    2/57     4/29107 D07 semaphorin-plexin signaling pathway involved in neuron projection guidance 8828.0, 8829.0 
+GO:0097491 BP 2.25e-05    2/57     4/29107 D04 sympathetic neuron projection guidance   8828.0, 8829.0 
+GO:0097490 BP 2.25e-05    2/57     4/29107 D05 sympathetic neuron projection extension  8828.0, 8829.0 
+GO:0036486 BP 2.25e-05    2/57     4/29107 D08 ventral trunk neural crest cell migration 8828.0, 8829.0 
+GO:0061551 BP 3.75e-05    2/57     5/29107 D06 trigeminal ganglion development          8828.0, 8829.0 

@@ -1,0 +1,1 @@
+GO:0099151 BP 1.90e-06    3/61    12/29107 D08 regulation of postsynaptic density assembly 5802.0, 57622.0, 78999.0 

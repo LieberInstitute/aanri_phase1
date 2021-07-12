@@ -1,0 +1,52 @@
+GO:0140374 BP 1.65e-08    5/56    15/29107 D08 antiviral innate immune response         3434.0, 3627.0, 4599.0, 4938.0, 23586.0 
+GO:0045071 BP 2.25e-08   10/56    44/29107 D06 negative regulation of viral genome replication 3434.0, 4599.0, 4938.0, 4939.0, 4940.0, 8519.0, 8638.0, 9636.0, 64135.0, 91543.0 
+GO:0060700 BP 2.69e-08    4/56     4/29107 D07 regulation of ribonuclease activity      4938.0, 4939.0, 4940.0, 8638.0 
+GO:0060337 BP 3.68e-08    4/56    18/29107 D07 type I interferon signaling pathway      3429.0, 4939.0, 6772.0, 8519.0 
+GO:0060339 BP 5.82e-08    5/56    20/29107 D08 negative regulation of type I interferon-mediated signaling pathway 4938.0, 4940.0, 9636.0, 11274.0, 84166.0 
+GO:0009615 BP 7.07e-08   16/56   110/29107 D05 response to virus                        3434.0, 3437.0, 4599.0, 4600.0, 4938.0, 4939.0, 4940.0, 8519.0, 8638.0, 9636.0, 10346.0, 10561.0, 23586.0, 55601.0, 64135.0, 91543.0 
+GO:0051607 BP 1.34e-07   24/56   205/29107 D07 defense response to virus                2537.0, 3429.0, 3434.0, 3437.0, 3659.0, 4599.0, 4600.0, 4938.0, 4939.0, 4940.0, 6772.0, 8519.0, 8638.0, 9636.0, 10346.0, 10964.0, 23586.0, 51191.0, 55601.0, 64135.0, 83666.0, 84166.0, 91543.0, 151636.0 
+GO:0032020 BP 1.34e-07    3/56     6/29107 D07 ISG15-protein conjugation                9246.0, 9636.0, 51191.0 
+GO:0045087 BP 2.27e-07   20/56   461/29107 D06 innate immune response                   2537.0, 3106.0, 3429.0, 3430.0, 3437.0, 4599.0, 4600.0, 4940.0, 8542.0, 8638.0, 10346.0, 23586.0, 51191.0, 54625.0, 55601.0, 64135.0, 83666.0, 84166.0, 91543.0, 151636.0 
+GO:0070106 BP 2.35e-07    5/56     7/29107 D07 interleukin-27-mediated signaling pathway 4599.0, 4938.0, 4939.0, 6772.0, 8638.0 
+GO:0006952 BP 2.78e-07    5/56    72/29107 D03 defense response                         3106.0, 4599.0, 4600.0, 6772.0, 6890.0 
+GO:0002230 BP 3.72e-07    4/56    31/29107 D08 positive regulation of defense response to virus by host 6772.0, 23586.0, 83666.0, 151636.0 
+GO:0035456 BP 8.02e-07    3/56    10/29107 D05 response to interferon-beta              6772.0, 8519.0, 54739.0 
+GO:0032728 BP 9.61e-07    7/56    39/29107 D09 positive regulation of interferon-beta production 3659.0, 4938.0, 4939.0, 4940.0, 9636.0, 23586.0, 64135.0 
+GO:0006955 BP 1.42e-06    7/56   291/29107 D02 immune response                          567.0, 2537.0, 2634.0, 3106.0, 10346.0, 10561.0, 10964.0 
+GO:0140289 BP 1.47e-06    3/56    12/29107 D08 protein mono-ADP-ribosylation            54625.0, 64761.0, 83666.0 
+GO:0032760 BP 1.59e-06    5/56   102/29107 D09 positive regulation of tumor necrosis factor production 4938.0, 4939.0, 4940.0, 23586.0, 64135.0 
+GO:0098586 BP 3.10e-06    4/56    52/29107 D06 cellular response to virus               2537.0, 3627.0, 4938.0, 64135.0 
+GO:0034344 BP 3.64e-06    2/56     2/29107 D07 regulation of type III interferon production 23586.0, 64135.0 
+GO:0039528 BP 3.64e-06    2/56     2/29107 D08 cytoplasmic pattern recognition receptor signaling pathway in response to virus 23586.0, 64135.0 
+GO:0071360 BP 5.39e-06    3/56    18/29107 D07 cellular response to exogenous dsRNA     3434.0, 23586.0, 64135.0 
+GO:0042157 BP 7.51e-06    3/56    20/29107 D05 lipoprotein metabolic process            8542.0, 23780.0, 80830.0 
+GO:0032727 BP 1.01e-05    3/56    22/29107 D09 positive regulation of interferon-alpha production 6772.0, 23586.0, 64135.0 
+GO:0071659 BP 1.09e-05    2/56     3/29107 D09 negative regulation of IP-10 production  4938.0, 4940.0 
+GO:0035458 BP 1.16e-05    3/56    23/29107 D06 cellular response to interferon-beta     3659.0, 4938.0, 6772.0 
+GO:0039530 BP 2.18e-05    2/56     4/29107 D09 MDA-5 signaling pathway                  4940.0, 64135.0 
+GO:0009597 BP 5.43e-05    2/56     6/29107 D06 detection of virus                       23586.0, 64135.0 
+GO:0060335 BP 5.43e-05    2/56     6/29107 D09 positive regulation of interferon-gamma-mediated signaling pathway 83666.0, 84166.0 
+GO:2000342 BP 5.43e-05    2/56     6/29107 D09 negative regulation of chemokine (C-X-C motif) ligand 2 production 4938.0, 4940.0 
+GO:0060760 BP 7.59e-05    2/56     7/29107 D05 positive regulation of response to cytokine stimulus 23586.0, 64135.0 
+GO:0050688 BP 7.59e-05    2/56     7/29107 D06 regulation of defense response to virus  3434.0, 51191.0 
+GO:0039529 BP 7.59e-05    2/56     7/29107 D09 RIG-I signaling pathway                  4940.0, 23586.0 
+GO:0042742 BP 1.03e-04    4/56   126/29107 D06 defense response to bacterium            4938.0, 4939.0, 4940.0, 9636.0 
+GO:0019885 BP 1.30e-04    2/56     9/29107 D05 antigen processing and presentation of endogenous peptide antigen via MHC class I 567.0, 6890.0 
+GO:0034340 BP 1.30e-04    2/56     9/29107 D05 response to type I interferon            4599.0, 9636.0 
+GO:0005737 CC 4.37e-07   29/56  4681/29107 D02 cytoplasm                                2634.0, 3430.0, 3434.0, 3437.0, 3659.0, 4599.0, 4600.0, 4938.0, 4940.0, 5720.0, 6772.0, 8638.0, 9636.0, 10346.0, 10561.0, 10964.0, 23586.0, 51191.0, 54625.0, 54809.0, 55601.0, 64135.0, 80830.0, 83666.0, 84166.0, 85441.0, 115362.0, 151636.0, 219285.0 
+GO:0005829 CC 1.18e-06   32/56  5295/29107 D02 cytosol                                  567.0, 2634.0, 3430.0, 3434.0, 3437.0, 3659.0, 4599.0, 4600.0, 4938.0, 4939.0, 4940.0, 5696.0, 5720.0, 6772.0, 7052.0, 8638.0, 9246.0, 9636.0, 10346.0, 11274.0, 23586.0, 51056.0, 51191.0, 54625.0, 54739.0, 54809.0, 55008.0, 55601.0, 64135.0, 83666.0, 84166.0, 151636.0 
+GO:0016020 CC 1.50e-06   16/56  2120/29107 D02 membrane                                 567.0, 3106.0, 3430.0, 4599.0, 4600.0, 4938.0, 4939.0, 4940.0, 6890.0, 8519.0, 8638.0, 23780.0, 54625.0, 83666.0, 85441.0, 115362.0 
+GO:0042824 CC 1.01e-04    2/56     8/29107 D03 MHC class I peptide loading complex      567.0, 6890.0 
+GO:0042612 CC 1.01e-04    2/56     8/29107 D05 MHC class I protein complex              567.0, 3106.0 
+GO:0001730 MF 6.75e-09    3/56     3/29107 D06 2'-5'-oligoadenylate synthetase activity 4938.0, 4939.0, 4940.0 
+GO:0003724 MF 2.59e-07    5/56    71/29107 D04 RNA helicase activity                    23586.0, 55601.0, 64135.0, 85441.0, 91351.0 
+GO:0003725 MF 2.98e-07    7/56    73/29107 D05 double-stranded RNA binding              4938.0, 4939.0, 4940.0, 8638.0, 23586.0, 55601.0, 64135.0 
+GO:0005515 MF 1.93e-06   48/56 12418/29107 D02 protein binding                          567.0, 2537.0, 2634.0, 3106.0, 3429.0, 3430.0, 3434.0, 3437.0, 3601.0, 3627.0, 3659.0, 4599.0, 4600.0, 4938.0, 4939.0, 4940.0, 5696.0, 5720.0, 6373.0, 6772.0, 6890.0, 7052.0, 8519.0, 8542.0, 8638.0, 9246.0, 9636.0, 9976.0, 10346.0, 10561.0, 11274.0, 23586.0, 23780.0, 51056.0, 51191.0, 54625.0, 54739.0, 54809.0, 55601.0, 64135.0, 80830.0, 83666.0, 84166.0, 85441.0, 91543.0, 115362.0, 151636.0, 219285.0 
+GO:1990404 MF 3.71e-06    3/56    16/29107 D05 protein ADP-ribosylase activity          54625.0, 64761.0, 83666.0 
+GO:0042802 MF 3.89e-06   13/56  1494/29107 D03 identical protein binding                567.0, 2634.0, 3429.0, 3430.0, 3437.0, 4599.0, 6772.0, 7052.0, 9976.0, 10346.0, 23586.0, 64135.0, 115362.0 
+GO:0044389 MF 1.16e-05    3/56    23/29107 D04 ubiquitin-like protein ligase binding    6772.0, 83666.0, 151636.0 
+GO:0003950 MF 1.16e-05    3/56    23/29107 D05 NAD+ ADP-ribosyltransferase activity     54625.0, 64761.0, 83666.0 
+GO:0042296 MF 2.18e-05    2/56     4/29107 D04 ISG15 transferase activity               9246.0, 51191.0 
+GO:0048248 MF 3.62e-05    2/56     5/29107 D07 CXCR3 chemokine receptor binding         3627.0, 6373.0 
+GO:0005525 MF 8.05e-05    6/56   373/29107 D08 GTP binding                              2634.0, 4599.0, 4600.0, 7052.0, 10964.0, 115362.0 
+GO:0003727 MF 9.66e-05    3/56    46/29107 D05 single-stranded RNA binding              23586.0, 55601.0, 64135.0 

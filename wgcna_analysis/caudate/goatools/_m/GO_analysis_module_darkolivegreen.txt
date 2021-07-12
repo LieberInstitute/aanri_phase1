@@ -1,0 +1,24 @@
+GO:1902747 BP 1.07e-07    3/52     6/29107 D07 negative regulation of lens fiber cell differentiation 10253.0, 200734.0, 399473.0 
+GO:0070373 BP 2.86e-07    6/52    78/29107 D09 negative regulation of ERK1 and ERK2 cascade 1846.0, 1848.0, 10253.0, 81848.0, 200734.0, 399473.0 
+GO:0045944 BP 4.32e-07   12/52  1106/29107 D11 positive regulation of transcription by RNA polymerase II 1871.0, 1958.0, 1959.0, 1961.0, 2119.0, 3164.0, 3624.0, 6722.0, 8013.0, 8204.0, 10370.0, 266743.0 
+GO:0035914 BP 1.06e-06    4/52    43/29107 D04 skeletal muscle cell differentiation     1958.0, 1959.0, 3164.0, 10370.0 
+GO:0006357 BP 3.38e-06   13/52  1600/29107 D10 regulation of transcription by RNA polymerase II 1871.0, 1958.0, 1959.0, 1961.0, 2119.0, 2290.0, 3097.0, 3164.0, 3624.0, 6722.0, 8013.0, 49854.0, 266743.0 
+GO:0010801 BP 6.99e-06    3/52    21/29107 D10 negative regulation of peptidyl-threonine phosphorylation 10253.0, 200734.0, 399473.0 
+GO:0035970 BP 9.29e-06    3/52    23/29107 D08 peptidyl-threonine dephosphorylation     1846.0, 1848.0, 54704.0 
+GO:0090311 BP 1.87e-05    2/52     4/29107 D08 regulation of protein deacetylation      200734.0, 399473.0 
+GO:0035335 BP 2.89e-05    4/52    98/29107 D08 peptidyl-tyrosine dephosphorylation      1846.0, 1848.0, 11072.0, 84959.0 
+GO:0007616 BP 3.09e-05    3/52    34/29107 D07 long-term memory                         6722.0, 23237.0, 266743.0 
+GO:0071376 BP 3.12e-05    2/52     5/29107 D08 cellular response to corticotropin-releasing hormone stimulus 3164.0, 8013.0 
+GO:0010719 BP 3.38e-05    3/52    35/29107 D06 negative regulation of epithelial to mesenchymal transition 10253.0, 200734.0, 399473.0 
+GO:0000785 CC 1.01e-06   14/52   979/29107 D02 chromatin                                1871.0, 1958.0, 1959.0, 1961.0, 2119.0, 2290.0, 3164.0, 6722.0, 8013.0, 8204.0, 8932.0, 10370.0, 266743.0, 266812.0 
+GO:0005634 CC 4.40e-06   24/52  5368/29107 D05 nucleus                                  1846.0, 1871.0, 1958.0, 1959.0, 2119.0, 2290.0, 3097.0, 3164.0, 5997.0, 6722.0, 8013.0, 8204.0, 8932.0, 10253.0, 10370.0, 22822.0, 49854.0, 51277.0, 57162.0, 84959.0, 85463.0, 153769.0, 266743.0, 266812.0 
+GO:0005654 CC 1.57e-05   19/52  3805/29107 D02 nucleoplasm                              1846.0, 1848.0, 1871.0, 1958.0, 1959.0, 1961.0, 2119.0, 2290.0, 3097.0, 3164.0, 6722.0, 8013.0, 8204.0, 8932.0, 10370.0, 22822.0, 49854.0, 57132.0, 153769.0 
+GO:0001228 MF 1.15e-06    9/52   444/29107 D04 DNA-binding transcription activator activity, RNA polymerase II-specific 1871.0, 1958.0, 1959.0, 1961.0, 2119.0, 3164.0, 6722.0, 8013.0, 266743.0 
+GO:0000981 MF 1.45e-06   12/52  1241/29107 D03 DNA-binding transcription factor activity, RNA polymerase II-specific 1871.0, 1958.0, 1959.0, 1961.0, 2119.0, 2290.0, 3097.0, 3164.0, 6722.0, 8013.0, 49854.0, 266743.0 
+GO:0017017 MF 1.52e-06    3/52    13/29107 D08 MAP kinase tyrosine/serine/threonine phosphatase activity 1846.0, 1848.0, 11072.0 
+GO:0005515 MF 1.63e-06   46/52 12418/29107 D02 protein binding                          390.0, 1846.0, 1848.0, 1871.0, 1958.0, 1959.0, 1961.0, 2119.0, 2290.0, 2827.0, 3164.0, 3624.0, 5997.0, 6722.0, 8013.0, 8204.0, 8932.0, 9175.0, 9456.0, 9929.0, 10253.0, 10370.0, 10678.0, 11072.0, 22822.0, 23237.0, 28969.0, 49854.0, 51277.0, 54704.0, 55054.0, 57132.0, 57162.0, 57633.0, 58515.0, 59274.0, 79669.0, 81848.0, 84959.0, 85463.0, 153769.0, 200734.0, 254170.0, 266743.0, 266812.0, 285704.0 
+GO:0035259 MF 1.93e-06    3/52    14/29107 D07 glucocorticoid receptor binding          3164.0, 8013.0, 8204.0 
+GO:1990837 MF 5.98e-06    8/52   555/29107 D06 sequence-specific double-stranded DNA binding 1871.0, 1958.0, 1959.0, 1961.0, 2119.0, 2290.0, 3164.0, 6722.0 
+GO:0004725 MF 3.13e-05    4/52   100/29107 D07 protein tyrosine phosphatase activity    1846.0, 1848.0, 11072.0, 84959.0 
+GO:0000978 MF 3.81e-05   10/52  1178/29107 D09 RNA polymerase II cis-regulatory region sequence-specific DNA binding 1871.0, 1958.0, 1959.0, 1961.0, 3097.0, 3164.0, 6722.0, 8013.0, 8204.0, 266743.0 
+GO:0043565 MF 7.63e-05    5/52   245/29107 D05 sequence-specific DNA binding            1871.0, 1958.0, 1959.0, 1961.0, 49854.0 

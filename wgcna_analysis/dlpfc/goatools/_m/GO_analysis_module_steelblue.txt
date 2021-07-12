@@ -1,0 +1,19 @@
+GO:1902747 BP 1.58e-07    3/59     6/29107 D07 negative regulation of lens fiber cell differentiation 10253.0, 200734.0, 399473.0 
+GO:0070373 BP 5.42e-07    6/59    78/29107 D09 negative regulation of ERK1 and ERK2 cascade 1846.0, 1848.0, 10253.0, 81848.0, 200734.0, 399473.0 
+GO:0007623 BP 7.78e-06    4/59    62/29107 D02 circadian rhythm                         3398.0, 7071.0, 8553.0, 8864.0 
+GO:0042752 BP 8.83e-06    4/59    64/29107 D03 regulation of circadian rhythm           3398.0, 7071.0, 8553.0, 8864.0 
+GO:0010801 BP 1.03e-05    3/59    21/29107 D10 negative regulation of peptidyl-threonine phosphorylation 10253.0, 200734.0, 399473.0 
+GO:0032922 BP 1.13e-05    4/59    68/29107 D06 circadian regulation of gene expression  1958.0, 3398.0, 8553.0, 8864.0 
+GO:0030512 BP 1.84e-05    4/59    77/29107 D08 negative regulation of transforming growth factor beta receptor signaling pathway 10253.0, 83891.0, 200734.0, 399473.0 
+GO:0090311 BP 2.42e-05    2/59     4/29107 D08 regulation of protein deacetylation      200734.0, 399473.0 
+GO:0043153 BP 2.50e-05    3/59    28/29107 D06 entrainment of circadian clock by photoperiod 3398.0, 8553.0, 8864.0 
+GO:0000785 CC 3.76e-06   11/59   979/29107 D02 chromatin                                1749.0, 1958.0, 1959.0, 1961.0, 2119.0, 7022.0, 7071.0, 8013.0, 8553.0, 63974.0, 266743.0 
+GO:0005737 CC 5.53e-06   24/59  4681/29107 D02 cytoplasm                                384.0, 627.0, 1392.0, 1749.0, 1846.0, 1848.0, 1958.0, 1959.0, 2827.0, 3398.0, 4739.0, 8412.0, 8553.0, 8864.0, 9456.0, 10221.0, 23237.0, 28951.0, 81606.0, 81848.0, 84959.0, 121268.0, 122786.0, 400954.0 
+GO:0001228 MF 2.64e-07   10/59   444/29107 D04 DNA-binding transcription activator activity, RNA polymerase II-specific 1749.0, 1958.0, 1959.0, 1961.0, 2119.0, 7022.0, 7071.0, 8013.0, 63974.0, 266743.0 
+GO:0000981 MF 5.98e-06   12/59  1241/29107 D03 DNA-binding transcription factor activity, RNA polymerase II-specific 1749.0, 1958.0, 1959.0, 1961.0, 2119.0, 7022.0, 7071.0, 8013.0, 8553.0, 49854.0, 63974.0, 266743.0 
+GO:0055106 MF 1.21e-05    2/59     3/29107 D03 ubiquitin-protein transferase regulator activity 10221.0, 28951.0 
+GO:0005515 MF 1.49e-05   42/59 12418/29107 D02 protein binding                          384.0, 627.0, 1392.0, 1846.0, 1848.0, 1958.0, 1959.0, 1961.0, 2049.0, 2119.0, 2827.0, 3398.0, 4739.0, 7022.0, 7071.0, 7804.0, 7857.0, 8013.0, 8412.0, 8553.0, 8727.0, 8864.0, 9456.0, 9630.0, 10221.0, 10253.0, 23237.0, 25822.0, 26031.0, 28951.0, 49854.0, 64762.0, 79722.0, 81606.0, 81848.0, 84959.0, 121268.0, 122786.0, 200734.0, 254170.0, 254887.0, 266743.0 
+GO:1990837 MF 1.57e-05    8/59   555/29107 D06 sequence-specific double-stranded DNA binding 1749.0, 1958.0, 1959.0, 1961.0, 2119.0, 7022.0, 7071.0, 8553.0 
+GO:0003700 MF 3.07e-05    7/59   442/29107 D02 DNA-binding transcription factor activity 1958.0, 1959.0, 1961.0, 2119.0, 7022.0, 7071.0, 8553.0 
+GO:0004860 MF 4.13e-05    3/59    33/29107 D05 protein kinase inhibitor activity        10221.0, 28951.0, 81848.0 
+GO:0000976 MF 7.27e-05    5/59   213/29107 D07 transcription cis-regulatory region binding 1749.0, 1958.0, 1959.0, 2119.0, 8864.0 

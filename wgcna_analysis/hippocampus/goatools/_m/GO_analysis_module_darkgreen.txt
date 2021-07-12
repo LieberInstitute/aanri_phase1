@@ -1,0 +1,5 @@
+GO:0099151 BP 4.85e-07    4/39    12/29107 D08 regulation of postsynaptic density assembly 5802.0, 57622.0, 78999.0, 94030.0 
+GO:0099560 BP 3.36e-06    3/39    22/29107 D05 synaptic membrane adhesion               5802.0, 78999.0, 94030.0 
+GO:0099061 CC 5.13e-07    4/39    48/29107 D08 integral component of postsynaptic density membrane 5802.0, 57622.0, 78999.0, 94030.0 
+GO:0098978 CC 5.00e-06    6/39   332/29107 D04 glutamatergic synapse                    1487.0, 5802.0, 8541.0, 78999.0, 80728.0, 94030.0 
+GO:0098831 CC 6.26e-05    2/39     9/29107 D05 presynaptic active zone cytoplasmic component 1487.0, 8541.0 
