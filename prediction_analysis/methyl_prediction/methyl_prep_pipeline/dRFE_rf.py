@@ -125,7 +125,7 @@ def run_by_feature(args):
     outdir = '%s/%s' % (args.tissue, dirname)
     gene_id = dirname.replace("_", ".")
     mkdir_p(outdir)
-    df = pd.read_csv("%s/snps_onehot.csv" % args.fn, index_col=0)
+    df = pd.read_csv("%s/methylation.csv" % args.fn, index_col=0)
     X = df.drop([gene_id], axis=1)
     Y = df.loc[:, gene_id]
     y = pd.DataFrame(Y).merge(get_phenotypes(args.pheno_file), left_index=True,

@@ -4,7 +4,7 @@
 ## This script runs elastic net with alpha parameter turning with dynamic
 ## recusive feature elimination.
 ##
-## Input: Onehot encoded text file of SNPs for each features and tissue.
+## Input: Methylation text file of CpGs for each features and tissue.
 ##
 ## Output: dRFEtools output for elastic net.
 
@@ -12,7 +12,7 @@ PHENO_FILE="/path/to/merged_phenotypes.csv"
 
 mkdir log_files
 
-for TISSUE in 'caudate' 'dlpfc' 'hippocampus' 'dentateGyrus'; do
+for TISSUE in 'caudate' 'dlpfc'; do
     mkdir log_files/$TISSUE
     ls -d ../../_m/$TISSUE/ENSG*/ | while read -r FILE; do
         export geneid=`basename $FILE`

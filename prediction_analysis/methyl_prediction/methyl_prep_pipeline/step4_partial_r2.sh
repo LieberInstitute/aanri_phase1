@@ -6,15 +6,15 @@
 ##
 ## Input: Tissue, feature, ancestry file
 ##
-## Output: Text files for partial R2 for each individual SNP and for most
-## predictive smallest subset of SNPs using random forest dRFE
+## Output: Text files for partial R2 for each individual CpG and for most
+## predictive smallest subset of CpGs using random forest dRFE
 
 TARGET="/path/to/structure.out_ancestry_proportion_raceDemo_compare"
 PHENO_FILE="/path/to/phenotypes/merged_phenotypes.csv"
 RF_RESULT="/path/to/rf/results/"
 QSV_PATH="/path/to/qSV/directory/"
 
-for TISSUE in 'caudate' 'dlpfc' 'hippocampus' 'dentateGyrus'; do
+for TISSUE in 'caudate' 'dlpfc'; do
     mkdir $TISSUE
     qsub -V -N raffe_$TISSUE -o $TISSUE/raffe.log -e $TISSUE/raffe.log -cwd \
          -b y "module load R; Rscript ../_h/partial_r2.R --tissue $TISSUE --rf"
