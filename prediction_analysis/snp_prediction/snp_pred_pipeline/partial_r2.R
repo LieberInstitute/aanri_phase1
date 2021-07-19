@@ -58,6 +58,7 @@ calculate_idv_partial <- function(tissue, gname, target, qsv_dir, pheno_file,
     gene_id = gsub("_", ".", gname)
     dir.create(paste(tissue, gene_id, sep='/'))
     fn = paste(onehot_dir, tissue, gname, "snps_onehot.csv", sep="/")
+
     df = memPHENO(tissue_map(tissue), target, qsv_dir, pheno_file) %>%
         inner_join(data.table::fread(fn), by="V1") %>%
         column_to_rownames("V1") %>% rename_with(~gsub(":", "_", .), starts_with('chr'))

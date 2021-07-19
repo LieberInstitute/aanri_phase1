@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rsync -aczz --progress --exclude *svg --exclude *png --exclude *pdf \
+      --exclude *log --exclude log_files \
+      jbenjami@jhpce-transfer01.jhsph.edu:/dcs04/lieber/ds2b/users/kynon/aanri/control_ancestry/analysis/prediction_analysis/combined_prediction/*genes ..
