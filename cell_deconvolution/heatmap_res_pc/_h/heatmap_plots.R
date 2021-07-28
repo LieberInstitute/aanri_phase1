@@ -1,12 +1,11 @@
 ## Author: Louise Huuki
 ## Edited by KJ Benjamin
 
-library(DeconvoBuddies)
 library(tidyverse)
 
 ## Functions
 save_img <- function(image, fn, w=7, h=7){
-    for(ext in c(".svg", ".pdf", ".png")){
+    for(ext in c(".pdf", ".png")){
         ggsave(file=paste0(fn, ext), plot=image, width=w, height=h)
     }
 }
@@ -24,9 +23,10 @@ pca_norm_data <- function(tissue){
     norm_dt = pca_df %>% as.data.frame %>% rownames_to_column("sample") %>%
         select(c(sample, PC1, PC2, PC3, PC4, PC5, PC6, PC7, PC8, PC9, PC10)) %>%
         pivot_longer(-sample, names_to="PC", values_to="PC_values") %>%
-        mutate_if(is.character, as.factor)
+        mutate_if(is.character, as.factor) %>% rename("RNum"="sample")
     return(norm_dt)
 }
+memNORM <- memoise::memoise(pca_norm_data)
 
 pca_res_data <- function(tissue){
     ## Read in residualized data
@@ -38,9 +38,10 @@ pca_res_data <- function(tissue){
     res_dt = pca_df %>% as.data.frame %>% rownames_to_column("sample") %>%
         select(c(sample, PC1, PC2, PC3, PC4, PC5, PC6, PC7, PC8, PC9, PC10)) %>%
         pivot_longer(-sample, names_to="PC", values_to="PC_values") %>%
-        mutate_if(is.character, as.factor)
+        mutate_if(is.character, as.factor) %>% rename("RNum"="sample")
     return(res_dt)
 }
+memRES <- memoise::memoise(pca_res_data)
 
 map_tissue <- function(tissue){
     return(list("caudate"="Caudate", "dlpfc"="DLPFC",
@@ -78,84 +79,90 @@ get_cell_prop <- function(){
 }
 memPROP <- memoise::memoise(get_cell_prop)
 
-#### Load colors and plotting functions ####
-cell_colors <- create_cell_colors(pallet = "classic")
-cell_colors <- cell_colors[c("Astro", "Endo", "Micro", "Mural", "Oligo",
-                             "OPC", "Tcell", "Excit", "Inhib")]
+prep_data_prop <- function(tissue, func){
+    df = memPROP() %>% filter(Tissue == map_tissue(tissue)) %>%
+        mutate(RNum=sample)
+    est_df <- inner_join(df, func(tissue), by="RNum") %>%
+        select(RNum, cell_type, prop, PC, PC_values) %>%
+        rename("Variable"="prop")
+    est_df$PC <- factor(est_df$PC, levels = paste0('PC', 1:10))
+    return(est_df)
+}
+memEST_PROP <- memoise::memoise(prep_data_prop)
+
+prep_data <- function(covars, func, tissue){
+    df = covars %>%
+        pivot_longer(!RNum, names_to="Covariate", values_to="Variable")
+    est_df <- inner_join(df, func(tissue), by="RNum") %>%
+        select(RNum, Covariate, Variable, PC, PC_values)
+    est_df$PC <- factor(est_df$PC, levels = paste0('PC', 1:10))
+    return(est_df)
+}
+memEST <- memoise::memoise(prep_data)
+
+fit_model <- function(covars, fnc, tissue, celltype){
+    ## Calculate p-values
+    if(celltype){
+        est_fit0 <- memEST_PROP(tissue, fnc) %>% group_by(cell_type, PC) %>%
+            do(fitEST = broom::tidy(lm(Variable ~ PC_values, data=.)))
+    } else {
+        est_fit0 <- memEST(covars, fnc, tissue) %>% group_by(Covariate, PC) %>%
+            do(fitEST = broom::tidy(lm(Variable ~ PC_values, data = .)))
+    }
+    est_fit = est_fit0 %>% unnest(fitEST) %>% filter(term == "PC_values") %>%
+        mutate(p.bonf = p.adjust(p.value, "bonf"),
+               p.bonf.sig = p.bonf < 0.05,
+               p.bonf.cat = cut(p.bonf,
+                                breaks = c(1,0.05, 0.01, 0.005, 0),
+                                labels = c("<= 0.005","<= 0.01", "<= 0.05", "> 0.05"),
+                                include.lowest = TRUE),
+               p.fdr = p.adjust(p.value, "fdr"),
+               log.p.bonf = -log10(p.bonf))
+    print(est_fit %>% count(p.bonf.cat))
+    return(est_fit)
+}
+
+tile_plot <- function(covars, fnc, tissue, fn, label, celltype=TRUE){
+    ## Tile plot (heatmap)
+    my_breaks <- c(0.05, 0.01, 0.005, 0)
+    if(celltype){
+        xlabel = "Cell Type"
+        tile_plot <- fit_model(covars, fnc, tissue, celltype) %>%
+            ggplot(aes(x = cell_type, y = PC, fill = log.p.bonf,
+                       label = ifelse(p.bonf.sig,
+                                      format(round(log.p.bonf,1), nsmall=1), "")))
+        limits = c(0,55)
+    } else {
+        xlabel = "Covariate"
+        tile_plot <- fit_model(covars, fnc, tissue, celltype) %>%
+            ggplot(aes(x = Covariate, y = PC, fill = log.p.bonf,
+                       label = ifelse(p.bonf.sig,
+                                      format(round(log.p.bonf,1), nsmall=1), "")))
+        limits = c(0,30)
+    }
+    tile_plot <- tile_plot + geom_tile(color = "grey") +
+        ggfittext::geom_fit_text(contrast = TRUE) +
+        viridis::scale_color_viridis(option = "magma") +
+        viridis::scale_fill_viridis(name="-log10(p-value Bonf)", option="magma",
+                                    direction=-1, limits=limits) +
+        labs(x=xlabel, color="p-value Bonf\nsignificance",
+             y=paste(label, "Expression (PCs)")) +
+        ggpubr::theme_pubr(base_size = 15) +
+        theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+    save_img(tile_plot, paste0(tissue,"/tilePlot_",fn))
+}
+
 #### Correlation with expression PCs ####
 for(tissue in c("caudate", "dlpfc", "hippocampus", "dentateGyrus")){
     tname = tissue
-    df <- memPROP() %>% filter(Tissue == map_tissue(tissue)) %>%
-        mutate(RNum=sample)
+    dir.create(tname)
+    covarsCont = memPHENO() %>% select(-c("Region","BrNum","Sex","Race","Dx"))
     ## Normalized expression
-    norm_long <- pca_norm_data(tissue) %>% rename("RNum"="sample")
-    est_prop_norm <- inner_join(df, norm_long, by="RNum") %>%
-        select(RNum, cell_type, PC, PC_values, prop)
-    est_prop_norm$PC <- factor(est_prop_norm$PC, levels = paste0('PC', 1:10))
+    tile_plot(covarsCont, memNORM, tissue, "continous_norm", "Normalize", FALSE)
+    tile_plot(covarsCont, memNORM, tissue, "celltypes_norm", "Normalize", TRUE)
     ## Residualized expression
-    res_long <- pca_res_data(tissue) %>% rename("RNum"="sample")
-    est_prop_res <- inner_join(df, res_long, by="RNum") %>%
-        select(RNum, cell_type, PC, PC_values, prop)
-    est_prop_res$PC <- factor(est_prop_res$PC, levels = paste0('PC', 1:10))
-    ## Calculate p-values
-    print("Normalized:")
-    prop_norm_fit <- est_prop_norm %>% group_by(cell_type, PC) %>%
-        do(fitNORM = broom::tidy(lm(prop ~ PC_values, data = .))) %>%
-        unnest(fitNORM) %>% filter(term == "PC_values") %>%
-        mutate(p.bonf = p.adjust(p.value, "bonf"),
-               p.bonf.sig = p.bonf < 0.05,
-               p.bonf.cat = cut(p.bonf,
-                                breaks = c(1,0.05, 0.01, 0.005, 0),
-                                labels = c("<= 0.005","<= 0.01", "<= 0.05", "> 0.05"),
-                                include.lowest = TRUE),
-               p.fdr = p.adjust(p.value, "fdr"),
-               log.p.bonf = -log10(p.bonf))
-    print(prop_norm_fit %>% count(p.bonf.cat))
-    print("Residualized:")
-    prop_res_fit <- est_prop_res %>% group_by(cell_type, PC) %>%
-        do(fitRES = broom::tidy(lm(prop ~ PC_values, data = .))) %>%
-        unnest(fitRES) %>% filter(term == "PC_values") %>%
-        mutate(p.bonf = p.adjust(p.value, "bonf"),
-               p.bonf.sig = p.bonf < 0.05,
-               p.bonf.cat = cut(p.bonf,
-                                breaks = c(1,0.05, 0.01, 0.005, 0),
-                                labels = c("<= 0.005","<= 0.01", "<= 0.05", "> 0.05"),
-                                include.lowest = TRUE),
-               p.fdr = p.adjust(p.value, "fdr"),
-               log.p.bonf = -log10(p.bonf))
-    print(prop_res_fit %>% count(p.bonf.cat))
-    ## Tile plot (heatmap)
-    my_breaks <- c(0.05, 0.01, 0.005, 0)
-    tile_plot_norm <- prop_norm_fit %>%
-        ggplot(aes(x = cell_type, y = PC, fill = log.p.bonf)) +
-        geom_tile(color = "grey") +
-        geom_text(aes(label=ifelse(p.bonf.sig,
-                                   format(round(log.p.bonf,1), nsmall=1), ""),
-                      color=log.p.bonf),
-                  size=3, fontface="bold", show.legend=FALSE) +
-        viridis::scale_color_viridis(option = "magma") +
-        viridis::scale_fill_viridis(name="-log10(p-value Bonf)", option="magma",
-                                    direction=-1) +
-        labs(title ="p-values cell-type prop~Normalized Expression", x = 'Cell Type',
-             color ="p-value Bonf\nsignificance", y="Normalized Expression (PCs)") +
-        theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
-        ggpubr::theme_pubr(base_size = 15)
-    save_img(tile_plot_norm, paste0("norm_prop_fit_tileVal_", tname))
-    tile_plot_res <- prop_res_fit %>%
-        ggplot(aes(x = cell_type, y = PC, fill = log.p.bonf)) +
-        geom_tile(color = "grey") +
-        geom_text(aes(label=ifelse(p.bonf.sig,
-                                   format(round(log.p.bonf,1), nsmall=1), ""),
-                      color=log.p.bonf),
-                  size=3, fontface="bold", show.legend=FALSE) +
-        viridis::scale_color_viridis(option = "magma") +
-        viridis::scale_fill_viridis(name="-log10(p-value Bonf)", option="magma",
-                                    direction=-1) +
-        labs(title ="p-values cell-type prop~Residualized Expression", x = 'Cell Type',
-             color ="p-value Bonf\nsignificance", y="Residualized Expression (PCs)") +
-        theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
-        ggpubr::theme_pubr(base_size = 15)
-    save_img(tile_plot_res, paste0("res_prop_fit_tileVal_", tname))
+    tile_plot(covarsCont, memRES, tissue, "continous_res","Residualized", FALSE)
+    tile_plot(covarsCont, memRES, tissue, "celltypes_res","Residualized", TRUE)
 }
 
 #### Reproducibility information ####
