@@ -1,0 +1,25 @@
+#!/bin/sh
+set -o errexit -o pipefail
+
+COUNTS="../../../../input/leafcutter/_m"
+ANCESTRY="../../../../input/ancestry_structure"
+PHENO="../../../../input/phenotypes/_m/dg_phenotypes.csv"
+ANNOT="/ceph/genome/human/gencode26/gtf.ALL/leafcutter_annot/_m"
+GTF="/ceph/genome/human/gencode26/gtf.ALL/leafcutter_exons/_m"
+SOFTWARE="/ceph/opt/leafcutter"
+
+python ../_h/generate_group_cov.py \
+       --pheno_file $PHENO --counts_file $COUNTS/dg_hippo_counts.txt.gz \
+       --ancestry_file $ANCESTRY/structure.out_ancestry_proportion_raceDemo_compare
+
+$SOFTWARE/scripts/leafcutter_ds.R --num_threads 32 \
+                                  --exon_file=$GTF/gtf_v26_exons.txt.gz \
+                                  $COUNTS/dg_hippo_counts.txt.gz \
+                                  groups_cov_file.txt
+
+$SOFTWARE/leafviz/prepare_results.R --meta_data_file groups_cov_file.txt \
+                                    --code leafcutter --FDR 0.05 \
+                                    $COUNTS/dg_hippo_counts.txt.gz \
+                                    leafcutter_ds_cluster_significance.txt \
+                                    leafcutter_ds_effect_sizes.txt \
+                                    $ANNOT/gencode_v26_hg38
