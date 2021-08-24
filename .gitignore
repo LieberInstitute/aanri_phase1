@@ -9,3 +9,4 @@ inputs/*
 */dep/*
 gene2go
 go-basic.obo
+.pybiomart.sqlite
