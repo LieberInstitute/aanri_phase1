@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='432.00pt' height='432.00pt' viewBox='0 0 432.00 432.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw0MzIuMDB8MC4wMHw0MzIuMDA='>
+    <rect x='0.00' y='0.00' width='432.00' height='432.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw0MzIuMDB8MC4wMHw0MzIuMDA=)'>
+<rect x='0.00' y='0.00' width='432.00' height='432.00' style='stroke-width: 1.45; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpMTE5LjA3fDMxOC42Nnw3LjQ3fDM4OC43Nw=='>
+    <rect x='119.07' y='7.47' width='199.59' height='381.29' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMTE5LjA3fDMxOC42Nnw3LjQ3fDM4OC43Nw==)'>
+<rect x='119.07' y='7.47' width='199.59' height='381.29' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<polyline points='136.79,388.77 136.79,7.47 ' style='stroke-width: 0.73; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='189.79,388.77 189.79,7.47 ' style='stroke-width: 0.73; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='242.79,388.77 242.79,7.47 ' style='stroke-width: 0.73; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='295.78,388.77 295.78,7.47 ' style='stroke-width: 0.73; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='119.07,284.78 318.66,284.78 ' style='stroke-width: 1.45; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='119.07,111.46 318.66,111.46 ' style='stroke-width: 1.45; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='163.29,388.77 163.29,7.47 ' style='stroke-width: 1.45; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='216.29,388.77 216.29,7.47 ' style='stroke-width: 1.45; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='269.28,388.77 269.28,7.47 ' style='stroke-width: 1.45; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polygon points='303.23,284.78 309.59,278.42 315.94,284.78 309.59,291.13 ' style='stroke-width: 0.71; stroke: none; fill: #FF0000; fill-opacity: 0.80;' />
+<polygon points='249.29,111.46 250.72,110.04 252.14,111.46 250.72,112.88 ' style='stroke-width: 0.71; stroke: none; fill: #FF0000; fill-opacity: 0.80;' />
+<polygon points='248.81,284.78 255.57,278.02 262.33,284.78 255.57,291.53 ' style='stroke-width: 0.71; stroke: none; fill: #000000; fill-opacity: 0.80;' />
+<line x1='128.14' y1='388.77' x2='128.14' y2='7.47' style='stroke-width: 1.07; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;' />
+<rect x='119.07' y='7.47' width='199.59' height='381.29' style='stroke-width: 1.45; stroke: #333333;' />
+</g>
+<g clip-path='url(#cpMC4wMHw0MzIuMDB8MC4wMHw0MzIuMDA=)'>
+<text x='112.35' y='289.15' text-anchor='end' style='font-size: 12.00px; fill: #4D4D4D; font-family: DejaVu Sans;' textLength='42.70px' lengthAdjust='spacingAndGlyphs'>cytosol</text>
+<text x='112.35' y='115.84' text-anchor='end' style='font-size: 12.00px; fill: #4D4D4D; font-family: DejaVu Sans;' textLength='87.08px' lengthAdjust='spacingAndGlyphs'>mitochondrion</text>
+<polyline points='115.34,284.78 119.07,284.78 ' style='stroke-width: 1.45; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='115.34,111.46 119.07,111.46 ' style='stroke-width: 1.45; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='163.29,392.50 163.29,388.77 ' style='stroke-width: 1.45; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='216.29,392.50 216.29,388.77 ' style='stroke-width: 1.45; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='269.28,392.50 269.28,388.77 ' style='stroke-width: 1.45; stroke: #333333; stroke-linecap: butt;' />
+<text x='163.29' y='404.24' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: DejaVu Sans;' textLength='19.09px' lengthAdjust='spacingAndGlyphs'>1.5</text>
+<text x='216.29' y='404.24' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: DejaVu Sans;' textLength='19.09px' lengthAdjust='spacingAndGlyphs'>1.8</text>
+<text x='269.28' y='404.24' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: DejaVu Sans;' textLength='19.09px' lengthAdjust='spacingAndGlyphs'>2.1</text>
+<text x='218.86' y='421.41' text-anchor='middle' style='font-size: 15.00px; font-weight: bold; font-family: DejaVu Sans;' textLength='110.86px' lengthAdjust='spacingAndGlyphs'>-Log10 (FDR)</text>
+<rect x='333.60' y='93.70' width='90.93' height='122.87' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<text x='341.07' y='113.66' style='font-size: 15.00px; font-family: DejaVu Sans;' textLength='75.98px' lengthAdjust='spacingAndGlyphs'>geneRatio</text>
+<rect x='341.07' y='122.70' width='17.28' height='17.28' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<polygon points='346.33,131.34 349.71,127.95 353.10,131.34 349.71,134.72 ' style='stroke-width: 0.71; stroke: none; fill: #000000; fill-opacity: 0.80;' />
+<rect x='341.07' y='139.98' width='17.28' height='17.28' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<polygon points='345.17,148.62 349.71,144.07 354.26,148.62 349.71,153.16 ' style='stroke-width: 0.71; stroke: none; fill: #000000; fill-opacity: 0.80;' />
+<rect x='341.07' y='157.26' width='17.28' height='17.28' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<polygon points='344.34,165.90 349.71,160.52 355.09,165.90 349.71,171.27 ' style='stroke-width: 0.71; stroke: none; fill: #000000; fill-opacity: 0.80;' />
+<rect x='341.07' y='174.54' width='17.28' height='17.28' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<polygon points='343.65,183.18 349.71,177.12 355.77,183.18 349.71,189.23 ' style='stroke-width: 0.71; stroke: none; fill: #000000; fill-opacity: 0.80;' />
+<rect x='341.07' y='191.82' width='17.28' height='17.28' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<polygon points='343.06,200.46 349.71,193.80 356.37,200.46 349.71,207.11 ' style='stroke-width: 0.71; stroke: none; fill: #000000; fill-opacity: 0.80;' />
+<text x='365.83' y='135.71' style='font-size: 12.00px; font-family: DejaVu Sans;' textLength='19.09px' lengthAdjust='spacingAndGlyphs'>0.3</text>
+<text x='365.83' y='152.99' style='font-size: 12.00px; font-family: DejaVu Sans;' textLength='19.09px' lengthAdjust='spacingAndGlyphs'>0.4</text>
+<text x='365.83' y='170.27' style='font-size: 12.00px; font-family: DejaVu Sans;' textLength='19.09px' lengthAdjust='spacingAndGlyphs'>0.5</text>
+<text x='365.83' y='187.55' style='font-size: 12.00px; font-family: DejaVu Sans;' textLength='19.09px' lengthAdjust='spacingAndGlyphs'>0.6</text>
+<text x='365.83' y='204.83' style='font-size: 12.00px; font-family: DejaVu Sans;' textLength='19.09px' lengthAdjust='spacingAndGlyphs'>0.7</text>
+<rect x='333.60' y='231.51' width='85.44' height='71.03' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<text x='341.07' y='251.48' style='font-size: 15.00px; font-family: DejaVu Sans;' textLength='65.97px' lengthAdjust='spacingAndGlyphs'>Ancestry</text>
+<rect x='341.07' y='260.51' width='17.28' height='17.28' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<polygon points='347.76,269.15 349.71,267.19 351.67,269.15 349.71,271.10 ' style='stroke-width: 0.71; stroke: none; fill: #000000; fill-opacity: 0.80;' />
+<rect x='341.07' y='277.79' width='17.28' height='17.28' style='stroke-width: 1.45; stroke: none; fill: #FFFFFF;' />
+<polygon points='347.76,286.43 349.71,284.47 351.67,286.43 349.71,288.38 ' style='stroke-width: 0.71; stroke: none; fill: #FF0000; fill-opacity: 0.80;' />
+<text x='365.83' y='273.52' style='font-size: 12.00px; font-family: DejaVu Sans;' textLength='14.88px' lengthAdjust='spacingAndGlyphs'>All</text>
+<text x='365.83' y='290.80' style='font-size: 12.00px; font-family: DejaVu Sans;' textLength='45.75px' lengthAdjust='spacingAndGlyphs'>AA Bias</text>
+</g>
+</svg>
