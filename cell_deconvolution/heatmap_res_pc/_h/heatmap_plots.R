@@ -60,7 +60,7 @@ memPHENO <- memoise::memoise(get_pheno)
 
 get_cell_prop <- function(){
     ## Load Bisque Estimated Props
-    load("../../_m/est_prop_Bisque.Rdata")
+    load("../../_m/est_prop_Bisque.v2.Rdata")
     cc = est_prop_bisque$caudate$Est.prop.long %>%
         inner_join(memPHENO(), by=c("sample"="RNum")) %>%
         mutate(Tissue="Caudate")

@@ -14,7 +14,7 @@ get_pheno <- function(){
 memPHENO <- memoise::memoise(get_pheno)
 
 get_cell_prop <- function(){
-    load("../../_m/est_prop_Bisque.Rdata")
+    load("../../_m/est_prop_Bisque.v2.Rdata")
     cc = est_prop_bisque$caudate$Est.prop.long %>%
         inner_join(memPHENO(), by=c("sample"="RNum")) %>%
         mutate_if(is.character, as.factor) %>%
@@ -39,7 +39,7 @@ get_cell_prop <- function(){
 memPROP <- memoise::memoise(get_cell_prop)
 
 get_cell_types <- function(){
-    load("../../_m/est_prop_Bisque.Rdata")
+    load("../../_m/est_prop_Bisque.v2.Rdata")
     celltypes = unique(est_prop_bisque$caudate$Est.prop.long$cell_type)
     return(celltypes)
 }
