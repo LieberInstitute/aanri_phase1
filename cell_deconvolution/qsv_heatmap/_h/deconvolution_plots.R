@@ -106,15 +106,13 @@ for(tissue in c("Caudate", "DLPFC", "Hippocampus", "Dentate Gyrus")){
     ## Tile plots
     my_breaks <- c(0.05, 0.01, 0.005, 0)
     tile_plot_val <- prop_qSV_fit %>%
-        ggplot(aes(x = cell_type, y = qSV, fill = log.p.bonf)) +
-        geom_tile(color = "grey") +
-        geom_text(aes(label=ifelse(p.bonf.sig,
-                                   format(round(log.p.bonf,1), nsmall=1), ""),
-                      color=log.p.bonf),
-                  size=3, fontface="bold", show.legend=FALSE) +
+        ggplot(aes(x = cell_type, y = qSV, fill = log.p.bonf,
+                   label=ifelse(p.bonf.sig,
+                                format(round(log.p.bonf,1), nsmall=1), ""))) +
+        geom_tile(color = "grey") + ggfittext::geom_fit_text(contrast = TRUE) +
         scale_color_viridis(option = "magma") +
         scale_fill_viridis(name="-log10(p-value Bonf)", option="magma",
-                           direction=-1) +
+                           direction=-1, limits=c(0,50)) +
         labs(title ="p-values cell-type prop~qSV", x = 'Cell Type',
              color ="p-value Bonf\nsignificance") +
         theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+

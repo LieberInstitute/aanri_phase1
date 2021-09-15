@@ -61,7 +61,7 @@ bigdf %>% data.table::fwrite("celltype_proportion_confounders.tsv", sep='\t')
 
 ## Tile plot (heatmap)
 my_breaks <- c(0.05, 0.01, 0.005, 0)
-tile_plot <- bigdf %>%
+tile_plot <- bigdf %>% mutate(Region=gsub("HIPPO", "Hippocampus", Region)) %>%
     ggplot(aes(x = cell_type, y = term, fill = log.p.bonf,
                label = ifelse(p.bonf.sig,
                               format(round(log.p.bonf,1), nsmall=1), ""))) +
@@ -75,7 +75,7 @@ tile_plot <- bigdf %>%
     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
           axis.title = element_text(face="bold"))
 
-save_img(tile_plot, "tilePlot_confounders_vs_celltypes")
+save_img(tile_plot, "tilePlot_confounders_vs_celltypes", 8, 7)
 
 #### Reproducibility information ####
 print("Reproducibility information:")
