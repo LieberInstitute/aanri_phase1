@@ -1,0 +1,3571 @@
+Module_1	Module_2	Semantic_Similarity	Ont	Tissue
+greenyellow	brown	0.429	MF	Dentate Gyrus
+greenyellow	grey	0.583	MF	Dentate Gyrus
+greenyellow	blue	0.584	MF	Dentate Gyrus
+greenyellow	darkgreen	0.461	MF	Dentate Gyrus
+greenyellow	lightcyan	0.425	MF	Dentate Gyrus
+greenyellow	turquoise	0.456	MF	Dentate Gyrus
+greenyellow	pink	0.894	MF	Dentate Gyrus
+greenyellow	violet		MF	Dentate Gyrus
+greenyellow	magenta	0.568	MF	Dentate Gyrus
+greenyellow	salmon	1	MF	Dentate Gyrus
+greenyellow	royalblue	0.388	MF	Dentate Gyrus
+greenyellow	darkorange	1	MF	Dentate Gyrus
+greenyellow	saddlebrown		MF	Dentate Gyrus
+greenyellow	darkturquoise		MF	Dentate Gyrus
+greenyellow	yellow	0.894	MF	Dentate Gyrus
+greenyellow	darkgrey	1	MF	Dentate Gyrus
+greenyellow	black	1	MF	Dentate Gyrus
+greenyellow	green	0.392	MF	Dentate Gyrus
+greenyellow	plum1		MF	Dentate Gyrus
+greenyellow	tan	0.529	MF	Dentate Gyrus
+greenyellow	white	1	MF	Dentate Gyrus
+greenyellow	red	0.494	MF	Dentate Gyrus
+greenyellow	purple	0.599	MF	Dentate Gyrus
+greenyellow	skyblue		MF	Dentate Gyrus
+greenyellow	lightyellow	1	MF	Dentate Gyrus
+greenyellow	midnightblue	0.674	MF	Dentate Gyrus
+greenyellow	paleturquoise	0.487	MF	Dentate Gyrus
+greenyellow	cyan	0.638	MF	Dentate Gyrus
+greenyellow	orange		MF	Dentate Gyrus
+greenyellow	lightgreen	0.577	MF	Dentate Gyrus
+greenyellow	darkred	1	MF	Dentate Gyrus
+greenyellow	darkmagenta	0.579	MF	Dentate Gyrus
+greenyellow	yellowgreen	0.505	MF	Dentate Gyrus
+greenyellow	sienna3		MF	Dentate Gyrus
+brown	greenyellow	0.429	MF	Dentate Gyrus
+brown	grey	0.544	MF	Dentate Gyrus
+brown	blue	0.633	MF	Dentate Gyrus
+brown	darkgreen	0.306	MF	Dentate Gyrus
+brown	lightcyan	0.534	MF	Dentate Gyrus
+brown	turquoise	0.656	MF	Dentate Gyrus
+brown	pink	0.396	MF	Dentate Gyrus
+brown	violet		MF	Dentate Gyrus
+brown	magenta	0.5	MF	Dentate Gyrus
+brown	salmon	1	MF	Dentate Gyrus
+brown	royalblue	0.466	MF	Dentate Gyrus
+brown	darkorange	1	MF	Dentate Gyrus
+brown	saddlebrown		MF	Dentate Gyrus
+brown	darkturquoise		MF	Dentate Gyrus
+brown	yellow	0.396	MF	Dentate Gyrus
+brown	darkgrey	1	MF	Dentate Gyrus
+brown	black	1	MF	Dentate Gyrus
+brown	green	0.673	MF	Dentate Gyrus
+brown	plum1		MF	Dentate Gyrus
+brown	tan	0.528	MF	Dentate Gyrus
+brown	white	1	MF	Dentate Gyrus
+brown	red	0.596	MF	Dentate Gyrus
+brown	purple	0.477	MF	Dentate Gyrus
+brown	skyblue		MF	Dentate Gyrus
+brown	lightyellow	1	MF	Dentate Gyrus
+brown	midnightblue	0.376	MF	Dentate Gyrus
+brown	paleturquoise	0.386	MF	Dentate Gyrus
+brown	cyan	0.462	MF	Dentate Gyrus
+brown	orange		MF	Dentate Gyrus
+brown	lightgreen	0.402	MF	Dentate Gyrus
+brown	darkred	1	MF	Dentate Gyrus
+brown	darkmagenta	0.571	MF	Dentate Gyrus
+brown	yellowgreen	0.484	MF	Dentate Gyrus
+brown	sienna3		MF	Dentate Gyrus
+grey	greenyellow	0.583	MF	Dentate Gyrus
+grey	brown	0.544	MF	Dentate Gyrus
+grey	blue	0.648	MF	Dentate Gyrus
+grey	darkgreen	0.327	MF	Dentate Gyrus
+grey	lightcyan	0.474	MF	Dentate Gyrus
+grey	turquoise	0.524	MF	Dentate Gyrus
+grey	pink	0.561	MF	Dentate Gyrus
+grey	violet		MF	Dentate Gyrus
+grey	magenta	0.513	MF	Dentate Gyrus
+grey	salmon	1	MF	Dentate Gyrus
+grey	royalblue	0.467	MF	Dentate Gyrus
+grey	darkorange	1	MF	Dentate Gyrus
+grey	saddlebrown		MF	Dentate Gyrus
+grey	darkturquoise		MF	Dentate Gyrus
+grey	yellow	0.561	MF	Dentate Gyrus
+grey	darkgrey	1	MF	Dentate Gyrus
+grey	black	1	MF	Dentate Gyrus
+grey	green	0.503	MF	Dentate Gyrus
+grey	plum1		MF	Dentate Gyrus
+grey	tan	0.574	MF	Dentate Gyrus
+grey	white	1	MF	Dentate Gyrus
+grey	red	0.61	MF	Dentate Gyrus
+grey	purple	0.529	MF	Dentate Gyrus
+grey	skyblue		MF	Dentate Gyrus
+grey	lightyellow	1	MF	Dentate Gyrus
+grey	midnightblue	0.521	MF	Dentate Gyrus
+grey	paleturquoise	0.599	MF	Dentate Gyrus
+grey	cyan	0.645	MF	Dentate Gyrus
+grey	orange		MF	Dentate Gyrus
+grey	lightgreen	0.553	MF	Dentate Gyrus
+grey	darkred	1	MF	Dentate Gyrus
+grey	darkmagenta	0.57	MF	Dentate Gyrus
+grey	yellowgreen	0.447	MF	Dentate Gyrus
+grey	sienna3		MF	Dentate Gyrus
+blue	greenyellow	0.584	MF	Dentate Gyrus
+blue	brown	0.633	MF	Dentate Gyrus
+blue	grey	0.648	MF	Dentate Gyrus
+blue	darkgreen	0.465	MF	Dentate Gyrus
+blue	lightcyan	0.557	MF	Dentate Gyrus
+blue	turquoise	0.624	MF	Dentate Gyrus
+blue	pink	0.574	MF	Dentate Gyrus
+blue	violet		MF	Dentate Gyrus
+blue	magenta	0.675	MF	Dentate Gyrus
+blue	salmon	1	MF	Dentate Gyrus
+blue	royalblue	0.585	MF	Dentate Gyrus
+blue	darkorange	1	MF	Dentate Gyrus
+blue	saddlebrown		MF	Dentate Gyrus
+blue	darkturquoise		MF	Dentate Gyrus
+blue	yellow	0.574	MF	Dentate Gyrus
+blue	darkgrey	1	MF	Dentate Gyrus
+blue	black	1	MF	Dentate Gyrus
+blue	green	0.572	MF	Dentate Gyrus
+blue	plum1		MF	Dentate Gyrus
+blue	tan	0.656	MF	Dentate Gyrus
+blue	white	1	MF	Dentate Gyrus
+blue	red	0.652	MF	Dentate Gyrus
+blue	purple	0.573	MF	Dentate Gyrus
+blue	skyblue		MF	Dentate Gyrus
+blue	lightyellow	1	MF	Dentate Gyrus
+blue	midnightblue	0.545	MF	Dentate Gyrus
+blue	paleturquoise	0.507	MF	Dentate Gyrus
+blue	cyan	0.563	MF	Dentate Gyrus
+blue	orange		MF	Dentate Gyrus
+blue	lightgreen	0.579	MF	Dentate Gyrus
+blue	darkred	1	MF	Dentate Gyrus
+blue	darkmagenta	0.608	MF	Dentate Gyrus
+blue	yellowgreen	0.561	MF	Dentate Gyrus
+blue	sienna3		MF	Dentate Gyrus
+darkgreen	greenyellow	0.461	MF	Dentate Gyrus
+darkgreen	brown	0.306	MF	Dentate Gyrus
+darkgreen	grey	0.327	MF	Dentate Gyrus
+darkgreen	blue	0.465	MF	Dentate Gyrus
+darkgreen	lightcyan	0.39	MF	Dentate Gyrus
+darkgreen	turquoise	0.364	MF	Dentate Gyrus
+darkgreen	pink	0.398	MF	Dentate Gyrus
+darkgreen	violet		MF	Dentate Gyrus
+darkgreen	magenta	0.462	MF	Dentate Gyrus
+darkgreen	salmon	1	MF	Dentate Gyrus
+darkgreen	royalblue	0.326	MF	Dentate Gyrus
+darkgreen	darkorange	1	MF	Dentate Gyrus
+darkgreen	saddlebrown		MF	Dentate Gyrus
+darkgreen	darkturquoise		MF	Dentate Gyrus
+darkgreen	yellow	0.398	MF	Dentate Gyrus
+darkgreen	darkgrey	1	MF	Dentate Gyrus
+darkgreen	black	1	MF	Dentate Gyrus
+darkgreen	green	0.336	MF	Dentate Gyrus
+darkgreen	plum1		MF	Dentate Gyrus
+darkgreen	tan	0.416	MF	Dentate Gyrus
+darkgreen	white	1	MF	Dentate Gyrus
+darkgreen	red	0.349	MF	Dentate Gyrus
+darkgreen	purple	0.315	MF	Dentate Gyrus
+darkgreen	skyblue		MF	Dentate Gyrus
+darkgreen	lightyellow	1	MF	Dentate Gyrus
+darkgreen	midnightblue	0.394	MF	Dentate Gyrus
+darkgreen	paleturquoise	0.698	MF	Dentate Gyrus
+darkgreen	cyan	0.346	MF	Dentate Gyrus
+darkgreen	orange		MF	Dentate Gyrus
+darkgreen	lightgreen	0.37	MF	Dentate Gyrus
+darkgreen	darkred	1	MF	Dentate Gyrus
+darkgreen	darkmagenta	0.485	MF	Dentate Gyrus
+darkgreen	yellowgreen	0.372	MF	Dentate Gyrus
+darkgreen	sienna3		MF	Dentate Gyrus
+lightcyan	greenyellow	0.425	MF	Dentate Gyrus
+lightcyan	brown	0.534	MF	Dentate Gyrus
+lightcyan	grey	0.474	MF	Dentate Gyrus
+lightcyan	blue	0.557	MF	Dentate Gyrus
+lightcyan	darkgreen	0.39	MF	Dentate Gyrus
+lightcyan	turquoise	0.52	MF	Dentate Gyrus
+lightcyan	pink	0.41	MF	Dentate Gyrus
+lightcyan	violet		MF	Dentate Gyrus
+lightcyan	magenta	0.486	MF	Dentate Gyrus
+lightcyan	salmon	1	MF	Dentate Gyrus
+lightcyan	royalblue	0.412	MF	Dentate Gyrus
+lightcyan	darkorange	1	MF	Dentate Gyrus
+lightcyan	saddlebrown		MF	Dentate Gyrus
+lightcyan	darkturquoise		MF	Dentate Gyrus
+lightcyan	yellow	0.41	MF	Dentate Gyrus
+lightcyan	darkgrey	1	MF	Dentate Gyrus
+lightcyan	black	1	MF	Dentate Gyrus
+lightcyan	green	0.482	MF	Dentate Gyrus
+lightcyan	plum1		MF	Dentate Gyrus
+lightcyan	tan	0.451	MF	Dentate Gyrus
+lightcyan	white	1	MF	Dentate Gyrus
+lightcyan	red	0.48	MF	Dentate Gyrus
+lightcyan	purple	0.472	MF	Dentate Gyrus
+lightcyan	skyblue		MF	Dentate Gyrus
+lightcyan	lightyellow	1	MF	Dentate Gyrus
+lightcyan	midnightblue	0.409	MF	Dentate Gyrus
+lightcyan	paleturquoise	0.397	MF	Dentate Gyrus
+lightcyan	cyan	0.396	MF	Dentate Gyrus
+lightcyan	orange		MF	Dentate Gyrus
+lightcyan	lightgreen	0.406	MF	Dentate Gyrus
+lightcyan	darkred	1	MF	Dentate Gyrus
+lightcyan	darkmagenta	0.488	MF	Dentate Gyrus
+lightcyan	yellowgreen	0.407	MF	Dentate Gyrus
+lightcyan	sienna3		MF	Dentate Gyrus
+turquoise	greenyellow	0.456	MF	Dentate Gyrus
+turquoise	brown	0.656	MF	Dentate Gyrus
+turquoise	grey	0.524	MF	Dentate Gyrus
+turquoise	blue	0.624	MF	Dentate Gyrus
+turquoise	darkgreen	0.364	MF	Dentate Gyrus
+turquoise	lightcyan	0.52	MF	Dentate Gyrus
+turquoise	pink	0.442	MF	Dentate Gyrus
+turquoise	violet		MF	Dentate Gyrus
+turquoise	magenta	0.599	MF	Dentate Gyrus
+turquoise	salmon	1	MF	Dentate Gyrus
+turquoise	royalblue	0.435	MF	Dentate Gyrus
+turquoise	darkorange	1	MF	Dentate Gyrus
+turquoise	saddlebrown		MF	Dentate Gyrus
+turquoise	darkturquoise		MF	Dentate Gyrus
+turquoise	yellow	0.442	MF	Dentate Gyrus
+turquoise	darkgrey	1	MF	Dentate Gyrus
+turquoise	black	1	MF	Dentate Gyrus
+turquoise	green	0.621	MF	Dentate Gyrus
+turquoise	plum1		MF	Dentate Gyrus
+turquoise	tan	0.491	MF	Dentate Gyrus
+turquoise	white	1	MF	Dentate Gyrus
+turquoise	red	0.544	MF	Dentate Gyrus
+turquoise	purple	0.548	MF	Dentate Gyrus
+turquoise	skyblue		MF	Dentate Gyrus
+turquoise	lightyellow	1	MF	Dentate Gyrus
+turquoise	midnightblue	0.395	MF	Dentate Gyrus
+turquoise	paleturquoise	0.401	MF	Dentate Gyrus
+turquoise	cyan	0.557	MF	Dentate Gyrus
+turquoise	orange		MF	Dentate Gyrus
+turquoise	lightgreen	0.423	MF	Dentate Gyrus
+turquoise	darkred	1	MF	Dentate Gyrus
+turquoise	darkmagenta	0.512	MF	Dentate Gyrus
+turquoise	yellowgreen	0.397	MF	Dentate Gyrus
+turquoise	sienna3		MF	Dentate Gyrus
+pink	greenyellow	0.894	MF	Dentate Gyrus
+pink	brown	0.396	MF	Dentate Gyrus
+pink	grey	0.561	MF	Dentate Gyrus
+pink	blue	0.574	MF	Dentate Gyrus
+pink	darkgreen	0.398	MF	Dentate Gyrus
+pink	lightcyan	0.41	MF	Dentate Gyrus
+pink	turquoise	0.442	MF	Dentate Gyrus
+pink	violet		MF	Dentate Gyrus
+pink	magenta	0.556	MF	Dentate Gyrus
+pink	salmon	1	MF	Dentate Gyrus
+pink	royalblue	0.339	MF	Dentate Gyrus
+pink	darkorange	1	MF	Dentate Gyrus
+pink	saddlebrown		MF	Dentate Gyrus
+pink	darkturquoise		MF	Dentate Gyrus
+pink	yellow	1	MF	Dentate Gyrus
+pink	darkgrey	1	MF	Dentate Gyrus
+pink	black	1	MF	Dentate Gyrus
+pink	green	0.367	MF	Dentate Gyrus
+pink	plum1		MF	Dentate Gyrus
+pink	tan	0.503	MF	Dentate Gyrus
+pink	white	1	MF	Dentate Gyrus
+pink	red	0.466	MF	Dentate Gyrus
+pink	purple	0.579	MF	Dentate Gyrus
+pink	skyblue		MF	Dentate Gyrus
+pink	lightyellow	1	MF	Dentate Gyrus
+pink	midnightblue	0.671	MF	Dentate Gyrus
+pink	paleturquoise	0.443	MF	Dentate Gyrus
+pink	cyan	0.627	MF	Dentate Gyrus
+pink	orange		MF	Dentate Gyrus
+pink	lightgreen	0.543	MF	Dentate Gyrus
+pink	darkred	1	MF	Dentate Gyrus
+pink	darkmagenta	0.535	MF	Dentate Gyrus
+pink	yellowgreen	0.466	MF	Dentate Gyrus
+pink	sienna3		MF	Dentate Gyrus
+violet	greenyellow		MF	Dentate Gyrus
+violet	brown		MF	Dentate Gyrus
+violet	grey		MF	Dentate Gyrus
+violet	blue		MF	Dentate Gyrus
+violet	darkgreen		MF	Dentate Gyrus
+violet	lightcyan		MF	Dentate Gyrus
+violet	turquoise		MF	Dentate Gyrus
+violet	pink		MF	Dentate Gyrus
+violet	magenta		MF	Dentate Gyrus
+violet	salmon		MF	Dentate Gyrus
+violet	royalblue		MF	Dentate Gyrus
+violet	darkorange		MF	Dentate Gyrus
+violet	saddlebrown		MF	Dentate Gyrus
+violet	darkturquoise		MF	Dentate Gyrus
+violet	yellow		MF	Dentate Gyrus
+violet	darkgrey		MF	Dentate Gyrus
+violet	black		MF	Dentate Gyrus
+violet	green		MF	Dentate Gyrus
+violet	plum1		MF	Dentate Gyrus
+violet	tan		MF	Dentate Gyrus
+violet	white		MF	Dentate Gyrus
+violet	red		MF	Dentate Gyrus
+violet	purple		MF	Dentate Gyrus
+violet	skyblue		MF	Dentate Gyrus
+violet	lightyellow		MF	Dentate Gyrus
+violet	midnightblue		MF	Dentate Gyrus
+violet	paleturquoise		MF	Dentate Gyrus
+violet	cyan		MF	Dentate Gyrus
+violet	orange		MF	Dentate Gyrus
+violet	lightgreen		MF	Dentate Gyrus
+violet	darkred		MF	Dentate Gyrus
+violet	darkmagenta		MF	Dentate Gyrus
+violet	yellowgreen		MF	Dentate Gyrus
+violet	sienna3		MF	Dentate Gyrus
+magenta	greenyellow	0.568	MF	Dentate Gyrus
+magenta	brown	0.5	MF	Dentate Gyrus
+magenta	grey	0.513	MF	Dentate Gyrus
+magenta	blue	0.675	MF	Dentate Gyrus
+magenta	darkgreen	0.462	MF	Dentate Gyrus
+magenta	lightcyan	0.486	MF	Dentate Gyrus
+magenta	turquoise	0.599	MF	Dentate Gyrus
+magenta	pink	0.556	MF	Dentate Gyrus
+magenta	violet		MF	Dentate Gyrus
+magenta	salmon	1	MF	Dentate Gyrus
+magenta	royalblue	0.483	MF	Dentate Gyrus
+magenta	darkorange	1	MF	Dentate Gyrus
+magenta	saddlebrown		MF	Dentate Gyrus
+magenta	darkturquoise		MF	Dentate Gyrus
+magenta	yellow	0.556	MF	Dentate Gyrus
+magenta	darkgrey	1	MF	Dentate Gyrus
+magenta	black	1	MF	Dentate Gyrus
+magenta	green	0.463	MF	Dentate Gyrus
+magenta	plum1		MF	Dentate Gyrus
+magenta	tan	0.566	MF	Dentate Gyrus
+magenta	white	1	MF	Dentate Gyrus
+magenta	red	0.542	MF	Dentate Gyrus
+magenta	purple	0.544	MF	Dentate Gyrus
+magenta	skyblue		MF	Dentate Gyrus
+magenta	lightyellow	1	MF	Dentate Gyrus
+magenta	midnightblue	0.504	MF	Dentate Gyrus
+magenta	paleturquoise	0.501	MF	Dentate Gyrus
+magenta	cyan	0.555	MF	Dentate Gyrus
+magenta	orange		MF	Dentate Gyrus
+magenta	lightgreen	0.484	MF	Dentate Gyrus
+magenta	darkred	1	MF	Dentate Gyrus
+magenta	darkmagenta	0.592	MF	Dentate Gyrus
+magenta	yellowgreen	0.474	MF	Dentate Gyrus
+magenta	sienna3		MF	Dentate Gyrus
+salmon	greenyellow	1	MF	Dentate Gyrus
+salmon	brown	1	MF	Dentate Gyrus
+salmon	grey	1	MF	Dentate Gyrus
+salmon	blue	1	MF	Dentate Gyrus
+salmon	darkgreen	1	MF	Dentate Gyrus
+salmon	lightcyan	1	MF	Dentate Gyrus
+salmon	turquoise	1	MF	Dentate Gyrus
+salmon	pink	1	MF	Dentate Gyrus
+salmon	violet		MF	Dentate Gyrus
+salmon	magenta	1	MF	Dentate Gyrus
+salmon	royalblue	1	MF	Dentate Gyrus
+salmon	darkorange	1	MF	Dentate Gyrus
+salmon	saddlebrown		MF	Dentate Gyrus
+salmon	darkturquoise		MF	Dentate Gyrus
+salmon	yellow	1	MF	Dentate Gyrus
+salmon	darkgrey	1	MF	Dentate Gyrus
+salmon	black	1	MF	Dentate Gyrus
+salmon	green	1	MF	Dentate Gyrus
+salmon	plum1		MF	Dentate Gyrus
+salmon	tan	1	MF	Dentate Gyrus
+salmon	white	1	MF	Dentate Gyrus
+salmon	red	1	MF	Dentate Gyrus
+salmon	purple	1	MF	Dentate Gyrus
+salmon	skyblue		MF	Dentate Gyrus
+salmon	lightyellow	1	MF	Dentate Gyrus
+salmon	midnightblue	1	MF	Dentate Gyrus
+salmon	paleturquoise	1	MF	Dentate Gyrus
+salmon	cyan	1	MF	Dentate Gyrus
+salmon	orange		MF	Dentate Gyrus
+salmon	lightgreen	1	MF	Dentate Gyrus
+salmon	darkred	1	MF	Dentate Gyrus
+salmon	darkmagenta	1	MF	Dentate Gyrus
+salmon	yellowgreen	1	MF	Dentate Gyrus
+salmon	sienna3		MF	Dentate Gyrus
+royalblue	greenyellow	0.388	MF	Dentate Gyrus
+royalblue	brown	0.466	MF	Dentate Gyrus
+royalblue	grey	0.467	MF	Dentate Gyrus
+royalblue	blue	0.585	MF	Dentate Gyrus
+royalblue	darkgreen	0.326	MF	Dentate Gyrus
+royalblue	lightcyan	0.412	MF	Dentate Gyrus
+royalblue	turquoise	0.435	MF	Dentate Gyrus
+royalblue	pink	0.339	MF	Dentate Gyrus
+royalblue	violet		MF	Dentate Gyrus
+royalblue	magenta	0.483	MF	Dentate Gyrus
+royalblue	salmon	1	MF	Dentate Gyrus
+royalblue	darkorange	1	MF	Dentate Gyrus
+royalblue	saddlebrown		MF	Dentate Gyrus
+royalblue	darkturquoise		MF	Dentate Gyrus
+royalblue	yellow	0.339	MF	Dentate Gyrus
+royalblue	darkgrey	1	MF	Dentate Gyrus
+royalblue	black	1	MF	Dentate Gyrus
+royalblue	green	0.514	MF	Dentate Gyrus
+royalblue	plum1		MF	Dentate Gyrus
+royalblue	tan	0.66	MF	Dentate Gyrus
+royalblue	white	1	MF	Dentate Gyrus
+royalblue	red	0.535	MF	Dentate Gyrus
+royalblue	purple	0.316	MF	Dentate Gyrus
+royalblue	skyblue		MF	Dentate Gyrus
+royalblue	lightyellow	1	MF	Dentate Gyrus
+royalblue	midnightblue	0.428	MF	Dentate Gyrus
+royalblue	paleturquoise	0.46	MF	Dentate Gyrus
+royalblue	cyan	0.475	MF	Dentate Gyrus
+royalblue	orange		MF	Dentate Gyrus
+royalblue	lightgreen	0.47	MF	Dentate Gyrus
+royalblue	darkred	1	MF	Dentate Gyrus
+royalblue	darkmagenta	0.582	MF	Dentate Gyrus
+royalblue	yellowgreen	0.406	MF	Dentate Gyrus
+royalblue	sienna3		MF	Dentate Gyrus
+darkorange	greenyellow	1	MF	Dentate Gyrus
+darkorange	brown	1	MF	Dentate Gyrus
+darkorange	grey	1	MF	Dentate Gyrus
+darkorange	blue	1	MF	Dentate Gyrus
+darkorange	darkgreen	1	MF	Dentate Gyrus
+darkorange	lightcyan	1	MF	Dentate Gyrus
+darkorange	turquoise	1	MF	Dentate Gyrus
+darkorange	pink	1	MF	Dentate Gyrus
+darkorange	violet		MF	Dentate Gyrus
+darkorange	magenta	1	MF	Dentate Gyrus
+darkorange	salmon	1	MF	Dentate Gyrus
+darkorange	royalblue	1	MF	Dentate Gyrus
+darkorange	saddlebrown		MF	Dentate Gyrus
+darkorange	darkturquoise		MF	Dentate Gyrus
+darkorange	yellow	1	MF	Dentate Gyrus
+darkorange	darkgrey	1	MF	Dentate Gyrus
+darkorange	black	1	MF	Dentate Gyrus
+darkorange	green	1	MF	Dentate Gyrus
+darkorange	plum1		MF	Dentate Gyrus
+darkorange	tan	1	MF	Dentate Gyrus
+darkorange	white	1	MF	Dentate Gyrus
+darkorange	red	1	MF	Dentate Gyrus
+darkorange	purple	1	MF	Dentate Gyrus
+darkorange	skyblue		MF	Dentate Gyrus
+darkorange	lightyellow	1	MF	Dentate Gyrus
+darkorange	midnightblue	1	MF	Dentate Gyrus
+darkorange	paleturquoise	1	MF	Dentate Gyrus
+darkorange	cyan	1	MF	Dentate Gyrus
+darkorange	orange		MF	Dentate Gyrus
+darkorange	lightgreen	1	MF	Dentate Gyrus
+darkorange	darkred	1	MF	Dentate Gyrus
+darkorange	darkmagenta	1	MF	Dentate Gyrus
+darkorange	yellowgreen	1	MF	Dentate Gyrus
+darkorange	sienna3		MF	Dentate Gyrus
+saddlebrown	greenyellow		MF	Dentate Gyrus
+saddlebrown	brown		MF	Dentate Gyrus
+saddlebrown	grey		MF	Dentate Gyrus
+saddlebrown	blue		MF	Dentate Gyrus
+saddlebrown	darkgreen		MF	Dentate Gyrus
+saddlebrown	lightcyan		MF	Dentate Gyrus
+saddlebrown	turquoise		MF	Dentate Gyrus
+saddlebrown	pink		MF	Dentate Gyrus
+saddlebrown	violet		MF	Dentate Gyrus
+saddlebrown	magenta		MF	Dentate Gyrus
+saddlebrown	salmon		MF	Dentate Gyrus
+saddlebrown	royalblue		MF	Dentate Gyrus
+saddlebrown	darkorange		MF	Dentate Gyrus
+saddlebrown	darkturquoise		MF	Dentate Gyrus
+saddlebrown	yellow		MF	Dentate Gyrus
+saddlebrown	darkgrey		MF	Dentate Gyrus
+saddlebrown	black		MF	Dentate Gyrus
+saddlebrown	green		MF	Dentate Gyrus
+saddlebrown	plum1		MF	Dentate Gyrus
+saddlebrown	tan		MF	Dentate Gyrus
+saddlebrown	white		MF	Dentate Gyrus
+saddlebrown	red		MF	Dentate Gyrus
+saddlebrown	purple		MF	Dentate Gyrus
+saddlebrown	skyblue		MF	Dentate Gyrus
+saddlebrown	lightyellow		MF	Dentate Gyrus
+saddlebrown	midnightblue		MF	Dentate Gyrus
+saddlebrown	paleturquoise		MF	Dentate Gyrus
+saddlebrown	cyan		MF	Dentate Gyrus
+saddlebrown	orange		MF	Dentate Gyrus
+saddlebrown	lightgreen		MF	Dentate Gyrus
+saddlebrown	darkred		MF	Dentate Gyrus
+saddlebrown	darkmagenta		MF	Dentate Gyrus
+saddlebrown	yellowgreen		MF	Dentate Gyrus
+saddlebrown	sienna3		MF	Dentate Gyrus
+darkturquoise	greenyellow		MF	Dentate Gyrus
+darkturquoise	brown		MF	Dentate Gyrus
+darkturquoise	grey		MF	Dentate Gyrus
+darkturquoise	blue		MF	Dentate Gyrus
+darkturquoise	darkgreen		MF	Dentate Gyrus
+darkturquoise	lightcyan		MF	Dentate Gyrus
+darkturquoise	turquoise		MF	Dentate Gyrus
+darkturquoise	pink		MF	Dentate Gyrus
+darkturquoise	violet		MF	Dentate Gyrus
+darkturquoise	magenta		MF	Dentate Gyrus
+darkturquoise	salmon		MF	Dentate Gyrus
+darkturquoise	royalblue		MF	Dentate Gyrus
+darkturquoise	darkorange		MF	Dentate Gyrus
+darkturquoise	saddlebrown		MF	Dentate Gyrus
+darkturquoise	yellow		MF	Dentate Gyrus
+darkturquoise	darkgrey		MF	Dentate Gyrus
+darkturquoise	black		MF	Dentate Gyrus
+darkturquoise	green		MF	Dentate Gyrus
+darkturquoise	plum1		MF	Dentate Gyrus
+darkturquoise	tan		MF	Dentate Gyrus
+darkturquoise	white		MF	Dentate Gyrus
+darkturquoise	red		MF	Dentate Gyrus
+darkturquoise	purple		MF	Dentate Gyrus
+darkturquoise	skyblue		MF	Dentate Gyrus
+darkturquoise	lightyellow		MF	Dentate Gyrus
+darkturquoise	midnightblue		MF	Dentate Gyrus
+darkturquoise	paleturquoise		MF	Dentate Gyrus
+darkturquoise	cyan		MF	Dentate Gyrus
+darkturquoise	orange		MF	Dentate Gyrus
+darkturquoise	lightgreen		MF	Dentate Gyrus
+darkturquoise	darkred		MF	Dentate Gyrus
+darkturquoise	darkmagenta		MF	Dentate Gyrus
+darkturquoise	yellowgreen		MF	Dentate Gyrus
+darkturquoise	sienna3		MF	Dentate Gyrus
+yellow	greenyellow	0.894	MF	Dentate Gyrus
+yellow	brown	0.396	MF	Dentate Gyrus
+yellow	grey	0.561	MF	Dentate Gyrus
+yellow	blue	0.574	MF	Dentate Gyrus
+yellow	darkgreen	0.398	MF	Dentate Gyrus
+yellow	lightcyan	0.41	MF	Dentate Gyrus
+yellow	turquoise	0.442	MF	Dentate Gyrus
+yellow	pink	1	MF	Dentate Gyrus
+yellow	violet		MF	Dentate Gyrus
+yellow	magenta	0.556	MF	Dentate Gyrus
+yellow	salmon	1	MF	Dentate Gyrus
+yellow	royalblue	0.339	MF	Dentate Gyrus
+yellow	darkorange	1	MF	Dentate Gyrus
+yellow	saddlebrown		MF	Dentate Gyrus
+yellow	darkturquoise		MF	Dentate Gyrus
+yellow	darkgrey	1	MF	Dentate Gyrus
+yellow	black	1	MF	Dentate Gyrus
+yellow	green	0.367	MF	Dentate Gyrus
+yellow	plum1		MF	Dentate Gyrus
+yellow	tan	0.503	MF	Dentate Gyrus
+yellow	white	1	MF	Dentate Gyrus
+yellow	red	0.466	MF	Dentate Gyrus
+yellow	purple	0.579	MF	Dentate Gyrus
+yellow	skyblue		MF	Dentate Gyrus
+yellow	lightyellow	1	MF	Dentate Gyrus
+yellow	midnightblue	0.671	MF	Dentate Gyrus
+yellow	paleturquoise	0.443	MF	Dentate Gyrus
+yellow	cyan	0.627	MF	Dentate Gyrus
+yellow	orange		MF	Dentate Gyrus
+yellow	lightgreen	0.543	MF	Dentate Gyrus
+yellow	darkred	1	MF	Dentate Gyrus
+yellow	darkmagenta	0.535	MF	Dentate Gyrus
+yellow	yellowgreen	0.466	MF	Dentate Gyrus
+yellow	sienna3		MF	Dentate Gyrus
+darkgrey	greenyellow	1	MF	Dentate Gyrus
+darkgrey	brown	1	MF	Dentate Gyrus
+darkgrey	grey	1	MF	Dentate Gyrus
+darkgrey	blue	1	MF	Dentate Gyrus
+darkgrey	darkgreen	1	MF	Dentate Gyrus
+darkgrey	lightcyan	1	MF	Dentate Gyrus
+darkgrey	turquoise	1	MF	Dentate Gyrus
+darkgrey	pink	1	MF	Dentate Gyrus
+darkgrey	violet		MF	Dentate Gyrus
+darkgrey	magenta	1	MF	Dentate Gyrus
+darkgrey	salmon	1	MF	Dentate Gyrus
+darkgrey	royalblue	1	MF	Dentate Gyrus
+darkgrey	darkorange	1	MF	Dentate Gyrus
+darkgrey	saddlebrown		MF	Dentate Gyrus
+darkgrey	darkturquoise		MF	Dentate Gyrus
+darkgrey	yellow	1	MF	Dentate Gyrus
+darkgrey	black	1	MF	Dentate Gyrus
+darkgrey	green	1	MF	Dentate Gyrus
+darkgrey	plum1		MF	Dentate Gyrus
+darkgrey	tan	1	MF	Dentate Gyrus
+darkgrey	white	1	MF	Dentate Gyrus
+darkgrey	red	1	MF	Dentate Gyrus
+darkgrey	purple	1	MF	Dentate Gyrus
+darkgrey	skyblue		MF	Dentate Gyrus
+darkgrey	lightyellow	1	MF	Dentate Gyrus
+darkgrey	midnightblue	1	MF	Dentate Gyrus
+darkgrey	paleturquoise	1	MF	Dentate Gyrus
+darkgrey	cyan	1	MF	Dentate Gyrus
+darkgrey	orange		MF	Dentate Gyrus
+darkgrey	lightgreen	1	MF	Dentate Gyrus
+darkgrey	darkred	1	MF	Dentate Gyrus
+darkgrey	darkmagenta	1	MF	Dentate Gyrus
+darkgrey	yellowgreen	1	MF	Dentate Gyrus
+darkgrey	sienna3		MF	Dentate Gyrus
+black	greenyellow	1	MF	Dentate Gyrus
+black	brown	1	MF	Dentate Gyrus
+black	grey	1	MF	Dentate Gyrus
+black	blue	1	MF	Dentate Gyrus
+black	darkgreen	1	MF	Dentate Gyrus
+black	lightcyan	1	MF	Dentate Gyrus
+black	turquoise	1	MF	Dentate Gyrus
+black	pink	1	MF	Dentate Gyrus
+black	violet		MF	Dentate Gyrus
+black	magenta	1	MF	Dentate Gyrus
+black	salmon	1	MF	Dentate Gyrus
+black	royalblue	1	MF	Dentate Gyrus
+black	darkorange	1	MF	Dentate Gyrus
+black	saddlebrown		MF	Dentate Gyrus
+black	darkturquoise		MF	Dentate Gyrus
+black	yellow	1	MF	Dentate Gyrus
+black	darkgrey	1	MF	Dentate Gyrus
+black	green	1	MF	Dentate Gyrus
+black	plum1		MF	Dentate Gyrus
+black	tan	1	MF	Dentate Gyrus
+black	white	1	MF	Dentate Gyrus
+black	red	1	MF	Dentate Gyrus
+black	purple	1	MF	Dentate Gyrus
+black	skyblue		MF	Dentate Gyrus
+black	lightyellow	1	MF	Dentate Gyrus
+black	midnightblue	1	MF	Dentate Gyrus
+black	paleturquoise	1	MF	Dentate Gyrus
+black	cyan	1	MF	Dentate Gyrus
+black	orange		MF	Dentate Gyrus
+black	lightgreen	1	MF	Dentate Gyrus
+black	darkred	1	MF	Dentate Gyrus
+black	darkmagenta	1	MF	Dentate Gyrus
+black	yellowgreen	1	MF	Dentate Gyrus
+black	sienna3		MF	Dentate Gyrus
+green	greenyellow	0.392	MF	Dentate Gyrus
+green	brown	0.673	MF	Dentate Gyrus
+green	grey	0.503	MF	Dentate Gyrus
+green	blue	0.572	MF	Dentate Gyrus
+green	darkgreen	0.336	MF	Dentate Gyrus
+green	lightcyan	0.482	MF	Dentate Gyrus
+green	turquoise	0.621	MF	Dentate Gyrus
+green	pink	0.367	MF	Dentate Gyrus
+green	violet		MF	Dentate Gyrus
+green	magenta	0.463	MF	Dentate Gyrus
+green	salmon	1	MF	Dentate Gyrus
+green	royalblue	0.514	MF	Dentate Gyrus
+green	darkorange	1	MF	Dentate Gyrus
+green	saddlebrown		MF	Dentate Gyrus
+green	darkturquoise		MF	Dentate Gyrus
+green	yellow	0.367	MF	Dentate Gyrus
+green	darkgrey	1	MF	Dentate Gyrus
+green	black	1	MF	Dentate Gyrus
+green	plum1		MF	Dentate Gyrus
+green	tan	0.563	MF	Dentate Gyrus
+green	white	1	MF	Dentate Gyrus
+green	red	0.642	MF	Dentate Gyrus
+green	purple	0.497	MF	Dentate Gyrus
+green	skyblue		MF	Dentate Gyrus
+green	lightyellow	1	MF	Dentate Gyrus
+green	midnightblue	0.427	MF	Dentate Gyrus
+green	paleturquoise	0.427	MF	Dentate Gyrus
+green	cyan	0.543	MF	Dentate Gyrus
+green	orange		MF	Dentate Gyrus
+green	lightgreen	0.432	MF	Dentate Gyrus
+green	darkred	1	MF	Dentate Gyrus
+green	darkmagenta	0.545	MF	Dentate Gyrus
+green	yellowgreen	0.493	MF	Dentate Gyrus
+green	sienna3		MF	Dentate Gyrus
+plum1	greenyellow		MF	Dentate Gyrus
+plum1	brown		MF	Dentate Gyrus
+plum1	grey		MF	Dentate Gyrus
+plum1	blue		MF	Dentate Gyrus
+plum1	darkgreen		MF	Dentate Gyrus
+plum1	lightcyan		MF	Dentate Gyrus
+plum1	turquoise		MF	Dentate Gyrus
+plum1	pink		MF	Dentate Gyrus
+plum1	violet		MF	Dentate Gyrus
+plum1	magenta		MF	Dentate Gyrus
+plum1	salmon		MF	Dentate Gyrus
+plum1	royalblue		MF	Dentate Gyrus
+plum1	darkorange		MF	Dentate Gyrus
+plum1	saddlebrown		MF	Dentate Gyrus
+plum1	darkturquoise		MF	Dentate Gyrus
+plum1	yellow		MF	Dentate Gyrus
+plum1	darkgrey		MF	Dentate Gyrus
+plum1	black		MF	Dentate Gyrus
+plum1	green		MF	Dentate Gyrus
+plum1	tan		MF	Dentate Gyrus
+plum1	white		MF	Dentate Gyrus
+plum1	red		MF	Dentate Gyrus
+plum1	purple		MF	Dentate Gyrus
+plum1	skyblue		MF	Dentate Gyrus
+plum1	lightyellow		MF	Dentate Gyrus
+plum1	midnightblue		MF	Dentate Gyrus
+plum1	paleturquoise		MF	Dentate Gyrus
+plum1	cyan		MF	Dentate Gyrus
+plum1	orange		MF	Dentate Gyrus
+plum1	lightgreen		MF	Dentate Gyrus
+plum1	darkred		MF	Dentate Gyrus
+plum1	darkmagenta		MF	Dentate Gyrus
+plum1	yellowgreen		MF	Dentate Gyrus
+plum1	sienna3		MF	Dentate Gyrus
+tan	greenyellow	0.529	MF	Dentate Gyrus
+tan	brown	0.528	MF	Dentate Gyrus
+tan	grey	0.574	MF	Dentate Gyrus
+tan	blue	0.656	MF	Dentate Gyrus
+tan	darkgreen	0.416	MF	Dentate Gyrus
+tan	lightcyan	0.451	MF	Dentate Gyrus
+tan	turquoise	0.491	MF	Dentate Gyrus
+tan	pink	0.503	MF	Dentate Gyrus
+tan	violet		MF	Dentate Gyrus
+tan	magenta	0.566	MF	Dentate Gyrus
+tan	salmon	1	MF	Dentate Gyrus
+tan	royalblue	0.66	MF	Dentate Gyrus
+tan	darkorange	1	MF	Dentate Gyrus
+tan	saddlebrown		MF	Dentate Gyrus
+tan	darkturquoise		MF	Dentate Gyrus
+tan	yellow	0.503	MF	Dentate Gyrus
+tan	darkgrey	1	MF	Dentate Gyrus
+tan	black	1	MF	Dentate Gyrus
+tan	green	0.563	MF	Dentate Gyrus
+tan	plum1		MF	Dentate Gyrus
+tan	white	1	MF	Dentate Gyrus
+tan	red	0.711	MF	Dentate Gyrus
+tan	purple	0.431	MF	Dentate Gyrus
+tan	skyblue		MF	Dentate Gyrus
+tan	lightyellow	1	MF	Dentate Gyrus
+tan	midnightblue	0.592	MF	Dentate Gyrus
+tan	paleturquoise	0.547	MF	Dentate Gyrus
+tan	cyan	0.598	MF	Dentate Gyrus
+tan	orange		MF	Dentate Gyrus
+tan	lightgreen	0.611	MF	Dentate Gyrus
+tan	darkred	1	MF	Dentate Gyrus
+tan	darkmagenta	0.657	MF	Dentate Gyrus
+tan	yellowgreen	0.522	MF	Dentate Gyrus
+tan	sienna3		MF	Dentate Gyrus
+white	greenyellow	1	MF	Dentate Gyrus
+white	brown	1	MF	Dentate Gyrus
+white	grey	1	MF	Dentate Gyrus
+white	blue	1	MF	Dentate Gyrus
+white	darkgreen	1	MF	Dentate Gyrus
+white	lightcyan	1	MF	Dentate Gyrus
+white	turquoise	1	MF	Dentate Gyrus
+white	pink	1	MF	Dentate Gyrus
+white	violet		MF	Dentate Gyrus
+white	magenta	1	MF	Dentate Gyrus
+white	salmon	1	MF	Dentate Gyrus
+white	royalblue	1	MF	Dentate Gyrus
+white	darkorange	1	MF	Dentate Gyrus
+white	saddlebrown		MF	Dentate Gyrus
+white	darkturquoise		MF	Dentate Gyrus
+white	yellow	1	MF	Dentate Gyrus
+white	darkgrey	1	MF	Dentate Gyrus
+white	black	1	MF	Dentate Gyrus
+white	green	1	MF	Dentate Gyrus
+white	plum1		MF	Dentate Gyrus
+white	tan	1	MF	Dentate Gyrus
+white	red	1	MF	Dentate Gyrus
+white	purple	1	MF	Dentate Gyrus
+white	skyblue		MF	Dentate Gyrus
+white	lightyellow	1	MF	Dentate Gyrus
+white	midnightblue	1	MF	Dentate Gyrus
+white	paleturquoise	1	MF	Dentate Gyrus
+white	cyan	1	MF	Dentate Gyrus
+white	orange		MF	Dentate Gyrus
+white	lightgreen	1	MF	Dentate Gyrus
+white	darkred	1	MF	Dentate Gyrus
+white	darkmagenta	1	MF	Dentate Gyrus
+white	yellowgreen	1	MF	Dentate Gyrus
+white	sienna3		MF	Dentate Gyrus
+red	greenyellow	0.494	MF	Dentate Gyrus
+red	brown	0.596	MF	Dentate Gyrus
+red	grey	0.61	MF	Dentate Gyrus
+red	blue	0.652	MF	Dentate Gyrus
+red	darkgreen	0.349	MF	Dentate Gyrus
+red	lightcyan	0.48	MF	Dentate Gyrus
+red	turquoise	0.544	MF	Dentate Gyrus
+red	pink	0.466	MF	Dentate Gyrus
+red	violet		MF	Dentate Gyrus
+red	magenta	0.542	MF	Dentate Gyrus
+red	salmon	1	MF	Dentate Gyrus
+red	royalblue	0.535	MF	Dentate Gyrus
+red	darkorange	1	MF	Dentate Gyrus
+red	saddlebrown		MF	Dentate Gyrus
+red	darkturquoise		MF	Dentate Gyrus
+red	yellow	0.466	MF	Dentate Gyrus
+red	darkgrey	1	MF	Dentate Gyrus
+red	black	1	MF	Dentate Gyrus
+red	green	0.642	MF	Dentate Gyrus
+red	plum1		MF	Dentate Gyrus
+red	tan	0.711	MF	Dentate Gyrus
+red	white	1	MF	Dentate Gyrus
+red	purple	0.518	MF	Dentate Gyrus
+red	skyblue		MF	Dentate Gyrus
+red	lightyellow	1	MF	Dentate Gyrus
+red	midnightblue	0.428	MF	Dentate Gyrus
+red	paleturquoise	0.445	MF	Dentate Gyrus
+red	cyan	0.533	MF	Dentate Gyrus
+red	orange		MF	Dentate Gyrus
+red	lightgreen	0.45	MF	Dentate Gyrus
+red	darkred	1	MF	Dentate Gyrus
+red	darkmagenta	0.556	MF	Dentate Gyrus
+red	yellowgreen	0.494	MF	Dentate Gyrus
+red	sienna3		MF	Dentate Gyrus
+purple	greenyellow	0.599	MF	Dentate Gyrus
+purple	brown	0.477	MF	Dentate Gyrus
+purple	grey	0.529	MF	Dentate Gyrus
+purple	blue	0.573	MF	Dentate Gyrus
+purple	darkgreen	0.315	MF	Dentate Gyrus
+purple	lightcyan	0.472	MF	Dentate Gyrus
+purple	turquoise	0.548	MF	Dentate Gyrus
+purple	pink	0.579	MF	Dentate Gyrus
+purple	violet		MF	Dentate Gyrus
+purple	magenta	0.544	MF	Dentate Gyrus
+purple	salmon	1	MF	Dentate Gyrus
+purple	royalblue	0.316	MF	Dentate Gyrus
+purple	darkorange	1	MF	Dentate Gyrus
+purple	saddlebrown		MF	Dentate Gyrus
+purple	darkturquoise		MF	Dentate Gyrus
+purple	yellow	0.579	MF	Dentate Gyrus
+purple	darkgrey	1	MF	Dentate Gyrus
+purple	black	1	MF	Dentate Gyrus
+purple	green	0.497	MF	Dentate Gyrus
+purple	plum1		MF	Dentate Gyrus
+purple	tan	0.431	MF	Dentate Gyrus
+purple	white	1	MF	Dentate Gyrus
+purple	red	0.518	MF	Dentate Gyrus
+purple	skyblue		MF	Dentate Gyrus
+purple	lightyellow	1	MF	Dentate Gyrus
+purple	midnightblue	0.477	MF	Dentate Gyrus
+purple	paleturquoise	0.373	MF	Dentate Gyrus
+purple	cyan	0.762	MF	Dentate Gyrus
+purple	orange		MF	Dentate Gyrus
+purple	lightgreen	0.411	MF	Dentate Gyrus
+purple	darkred	1	MF	Dentate Gyrus
+purple	darkmagenta	0.495	MF	Dentate Gyrus
+purple	yellowgreen	0.522	MF	Dentate Gyrus
+purple	sienna3		MF	Dentate Gyrus
+skyblue	greenyellow		MF	Dentate Gyrus
+skyblue	brown		MF	Dentate Gyrus
+skyblue	grey		MF	Dentate Gyrus
+skyblue	blue		MF	Dentate Gyrus
+skyblue	darkgreen		MF	Dentate Gyrus
+skyblue	lightcyan		MF	Dentate Gyrus
+skyblue	turquoise		MF	Dentate Gyrus
+skyblue	pink		MF	Dentate Gyrus
+skyblue	violet		MF	Dentate Gyrus
+skyblue	magenta		MF	Dentate Gyrus
+skyblue	salmon		MF	Dentate Gyrus
+skyblue	royalblue		MF	Dentate Gyrus
+skyblue	darkorange		MF	Dentate Gyrus
+skyblue	saddlebrown		MF	Dentate Gyrus
+skyblue	darkturquoise		MF	Dentate Gyrus
+skyblue	yellow		MF	Dentate Gyrus
+skyblue	darkgrey		MF	Dentate Gyrus
+skyblue	black		MF	Dentate Gyrus
+skyblue	green		MF	Dentate Gyrus
+skyblue	plum1		MF	Dentate Gyrus
+skyblue	tan		MF	Dentate Gyrus
+skyblue	white		MF	Dentate Gyrus
+skyblue	red		MF	Dentate Gyrus
+skyblue	purple		MF	Dentate Gyrus
+skyblue	lightyellow		MF	Dentate Gyrus
+skyblue	midnightblue		MF	Dentate Gyrus
+skyblue	paleturquoise		MF	Dentate Gyrus
+skyblue	cyan		MF	Dentate Gyrus
+skyblue	orange		MF	Dentate Gyrus
+skyblue	lightgreen		MF	Dentate Gyrus
+skyblue	darkred		MF	Dentate Gyrus
+skyblue	darkmagenta		MF	Dentate Gyrus
+skyblue	yellowgreen		MF	Dentate Gyrus
+skyblue	sienna3		MF	Dentate Gyrus
+lightyellow	greenyellow	1	MF	Dentate Gyrus
+lightyellow	brown	1	MF	Dentate Gyrus
+lightyellow	grey	1	MF	Dentate Gyrus
+lightyellow	blue	1	MF	Dentate Gyrus
+lightyellow	darkgreen	1	MF	Dentate Gyrus
+lightyellow	lightcyan	1	MF	Dentate Gyrus
+lightyellow	turquoise	1	MF	Dentate Gyrus
+lightyellow	pink	1	MF	Dentate Gyrus
+lightyellow	violet		MF	Dentate Gyrus
+lightyellow	magenta	1	MF	Dentate Gyrus
+lightyellow	salmon	1	MF	Dentate Gyrus
+lightyellow	royalblue	1	MF	Dentate Gyrus
+lightyellow	darkorange	1	MF	Dentate Gyrus
+lightyellow	saddlebrown		MF	Dentate Gyrus
+lightyellow	darkturquoise		MF	Dentate Gyrus
+lightyellow	yellow	1	MF	Dentate Gyrus
+lightyellow	darkgrey	1	MF	Dentate Gyrus
+lightyellow	black	1	MF	Dentate Gyrus
+lightyellow	green	1	MF	Dentate Gyrus
+lightyellow	plum1		MF	Dentate Gyrus
+lightyellow	tan	1	MF	Dentate Gyrus
+lightyellow	white	1	MF	Dentate Gyrus
+lightyellow	red	1	MF	Dentate Gyrus
+lightyellow	purple	1	MF	Dentate Gyrus
+lightyellow	skyblue		MF	Dentate Gyrus
+lightyellow	midnightblue	1	MF	Dentate Gyrus
+lightyellow	paleturquoise	1	MF	Dentate Gyrus
+lightyellow	cyan	1	MF	Dentate Gyrus
+lightyellow	orange		MF	Dentate Gyrus
+lightyellow	lightgreen	1	MF	Dentate Gyrus
+lightyellow	darkred	1	MF	Dentate Gyrus
+lightyellow	darkmagenta	1	MF	Dentate Gyrus
+lightyellow	yellowgreen	1	MF	Dentate Gyrus
+lightyellow	sienna3		MF	Dentate Gyrus
+midnightblue	greenyellow	0.674	MF	Dentate Gyrus
+midnightblue	brown	0.376	MF	Dentate Gyrus
+midnightblue	grey	0.521	MF	Dentate Gyrus
+midnightblue	blue	0.545	MF	Dentate Gyrus
+midnightblue	darkgreen	0.394	MF	Dentate Gyrus
+midnightblue	lightcyan	0.409	MF	Dentate Gyrus
+midnightblue	turquoise	0.395	MF	Dentate Gyrus
+midnightblue	pink	0.671	MF	Dentate Gyrus
+midnightblue	violet		MF	Dentate Gyrus
+midnightblue	magenta	0.504	MF	Dentate Gyrus
+midnightblue	salmon	1	MF	Dentate Gyrus
+midnightblue	royalblue	0.428	MF	Dentate Gyrus
+midnightblue	darkorange	1	MF	Dentate Gyrus
+midnightblue	saddlebrown		MF	Dentate Gyrus
+midnightblue	darkturquoise		MF	Dentate Gyrus
+midnightblue	yellow	0.671	MF	Dentate Gyrus
+midnightblue	darkgrey	1	MF	Dentate Gyrus
+midnightblue	black	1	MF	Dentate Gyrus
+midnightblue	green	0.427	MF	Dentate Gyrus
+midnightblue	plum1		MF	Dentate Gyrus
+midnightblue	tan	0.592	MF	Dentate Gyrus
+midnightblue	white	1	MF	Dentate Gyrus
+midnightblue	red	0.428	MF	Dentate Gyrus
+midnightblue	purple	0.477	MF	Dentate Gyrus
+midnightblue	skyblue		MF	Dentate Gyrus
+midnightblue	lightyellow	1	MF	Dentate Gyrus
+midnightblue	paleturquoise	0.522	MF	Dentate Gyrus
+midnightblue	cyan	0.717	MF	Dentate Gyrus
+midnightblue	orange		MF	Dentate Gyrus
+midnightblue	lightgreen	0.66	MF	Dentate Gyrus
+midnightblue	darkred	1	MF	Dentate Gyrus
+midnightblue	darkmagenta	0.581	MF	Dentate Gyrus
+midnightblue	yellowgreen	0.613	MF	Dentate Gyrus
+midnightblue	sienna3		MF	Dentate Gyrus
+paleturquoise	greenyellow	0.487	MF	Dentate Gyrus
+paleturquoise	brown	0.386	MF	Dentate Gyrus
+paleturquoise	grey	0.599	MF	Dentate Gyrus
+paleturquoise	blue	0.507	MF	Dentate Gyrus
+paleturquoise	darkgreen	0.698	MF	Dentate Gyrus
+paleturquoise	lightcyan	0.397	MF	Dentate Gyrus
+paleturquoise	turquoise	0.401	MF	Dentate Gyrus
+paleturquoise	pink	0.443	MF	Dentate Gyrus
+paleturquoise	violet		MF	Dentate Gyrus
+paleturquoise	magenta	0.501	MF	Dentate Gyrus
+paleturquoise	salmon	1	MF	Dentate Gyrus
+paleturquoise	royalblue	0.46	MF	Dentate Gyrus
+paleturquoise	darkorange	1	MF	Dentate Gyrus
+paleturquoise	saddlebrown		MF	Dentate Gyrus
+paleturquoise	darkturquoise		MF	Dentate Gyrus
+paleturquoise	yellow	0.443	MF	Dentate Gyrus
+paleturquoise	darkgrey	1	MF	Dentate Gyrus
+paleturquoise	black	1	MF	Dentate Gyrus
+paleturquoise	green	0.427	MF	Dentate Gyrus
+paleturquoise	plum1		MF	Dentate Gyrus
+paleturquoise	tan	0.547	MF	Dentate Gyrus
+paleturquoise	white	1	MF	Dentate Gyrus
+paleturquoise	red	0.445	MF	Dentate Gyrus
+paleturquoise	purple	0.373	MF	Dentate Gyrus
+paleturquoise	skyblue		MF	Dentate Gyrus
+paleturquoise	lightyellow	1	MF	Dentate Gyrus
+paleturquoise	midnightblue	0.522	MF	Dentate Gyrus
+paleturquoise	cyan	0.531	MF	Dentate Gyrus
+paleturquoise	orange		MF	Dentate Gyrus
+paleturquoise	lightgreen	0.535	MF	Dentate Gyrus
+paleturquoise	darkred	1	MF	Dentate Gyrus
+paleturquoise	darkmagenta	0.578	MF	Dentate Gyrus
+paleturquoise	yellowgreen	0.451	MF	Dentate Gyrus
+paleturquoise	sienna3		MF	Dentate Gyrus
+cyan	greenyellow	0.638	MF	Dentate Gyrus
+cyan	brown	0.462	MF	Dentate Gyrus
+cyan	grey	0.645	MF	Dentate Gyrus
+cyan	blue	0.563	MF	Dentate Gyrus
+cyan	darkgreen	0.346	MF	Dentate Gyrus
+cyan	lightcyan	0.396	MF	Dentate Gyrus
+cyan	turquoise	0.557	MF	Dentate Gyrus
+cyan	pink	0.627	MF	Dentate Gyrus
+cyan	violet		MF	Dentate Gyrus
+cyan	magenta	0.555	MF	Dentate Gyrus
+cyan	salmon	1	MF	Dentate Gyrus
+cyan	royalblue	0.475	MF	Dentate Gyrus
+cyan	darkorange	1	MF	Dentate Gyrus
+cyan	saddlebrown		MF	Dentate Gyrus
+cyan	darkturquoise		MF	Dentate Gyrus
+cyan	yellow	0.627	MF	Dentate Gyrus
+cyan	darkgrey	1	MF	Dentate Gyrus
+cyan	black	1	MF	Dentate Gyrus
+cyan	green	0.543	MF	Dentate Gyrus
+cyan	plum1		MF	Dentate Gyrus
+cyan	tan	0.598	MF	Dentate Gyrus
+cyan	white	1	MF	Dentate Gyrus
+cyan	red	0.533	MF	Dentate Gyrus
+cyan	purple	0.762	MF	Dentate Gyrus
+cyan	skyblue		MF	Dentate Gyrus
+cyan	lightyellow	1	MF	Dentate Gyrus
+cyan	midnightblue	0.717	MF	Dentate Gyrus
+cyan	paleturquoise	0.531	MF	Dentate Gyrus
+cyan	orange		MF	Dentate Gyrus
+cyan	lightgreen	0.617	MF	Dentate Gyrus
+cyan	darkred	1	MF	Dentate Gyrus
+cyan	darkmagenta	0.589	MF	Dentate Gyrus
+cyan	yellowgreen	0.558	MF	Dentate Gyrus
+cyan	sienna3		MF	Dentate Gyrus
+orange	greenyellow		MF	Dentate Gyrus
+orange	brown		MF	Dentate Gyrus
+orange	grey		MF	Dentate Gyrus
+orange	blue		MF	Dentate Gyrus
+orange	darkgreen		MF	Dentate Gyrus
+orange	lightcyan		MF	Dentate Gyrus
+orange	turquoise		MF	Dentate Gyrus
+orange	pink		MF	Dentate Gyrus
+orange	violet		MF	Dentate Gyrus
+orange	magenta		MF	Dentate Gyrus
+orange	salmon		MF	Dentate Gyrus
+orange	royalblue		MF	Dentate Gyrus
+orange	darkorange		MF	Dentate Gyrus
+orange	saddlebrown		MF	Dentate Gyrus
+orange	darkturquoise		MF	Dentate Gyrus
+orange	yellow		MF	Dentate Gyrus
+orange	darkgrey		MF	Dentate Gyrus
+orange	black		MF	Dentate Gyrus
+orange	green		MF	Dentate Gyrus
+orange	plum1		MF	Dentate Gyrus
+orange	tan		MF	Dentate Gyrus
+orange	white		MF	Dentate Gyrus
+orange	red		MF	Dentate Gyrus
+orange	purple		MF	Dentate Gyrus
+orange	skyblue		MF	Dentate Gyrus
+orange	lightyellow		MF	Dentate Gyrus
+orange	midnightblue		MF	Dentate Gyrus
+orange	paleturquoise		MF	Dentate Gyrus
+orange	cyan		MF	Dentate Gyrus
+orange	lightgreen		MF	Dentate Gyrus
+orange	darkred		MF	Dentate Gyrus
+orange	darkmagenta		MF	Dentate Gyrus
+orange	yellowgreen		MF	Dentate Gyrus
+orange	sienna3		MF	Dentate Gyrus
+lightgreen	greenyellow	0.577	MF	Dentate Gyrus
+lightgreen	brown	0.402	MF	Dentate Gyrus
+lightgreen	grey	0.553	MF	Dentate Gyrus
+lightgreen	blue	0.579	MF	Dentate Gyrus
+lightgreen	darkgreen	0.37	MF	Dentate Gyrus
+lightgreen	lightcyan	0.406	MF	Dentate Gyrus
+lightgreen	turquoise	0.423	MF	Dentate Gyrus
+lightgreen	pink	0.543	MF	Dentate Gyrus
+lightgreen	violet		MF	Dentate Gyrus
+lightgreen	magenta	0.484	MF	Dentate Gyrus
+lightgreen	salmon	1	MF	Dentate Gyrus
+lightgreen	royalblue	0.47	MF	Dentate Gyrus
+lightgreen	darkorange	1	MF	Dentate Gyrus
+lightgreen	saddlebrown		MF	Dentate Gyrus
+lightgreen	darkturquoise		MF	Dentate Gyrus
+lightgreen	yellow	0.543	MF	Dentate Gyrus
+lightgreen	darkgrey	1	MF	Dentate Gyrus
+lightgreen	black	1	MF	Dentate Gyrus
+lightgreen	green	0.432	MF	Dentate Gyrus
+lightgreen	plum1		MF	Dentate Gyrus
+lightgreen	tan	0.611	MF	Dentate Gyrus
+lightgreen	white	1	MF	Dentate Gyrus
+lightgreen	red	0.45	MF	Dentate Gyrus
+lightgreen	purple	0.411	MF	Dentate Gyrus
+lightgreen	skyblue		MF	Dentate Gyrus
+lightgreen	lightyellow	1	MF	Dentate Gyrus
+lightgreen	midnightblue	0.66	MF	Dentate Gyrus
+lightgreen	paleturquoise	0.535	MF	Dentate Gyrus
+lightgreen	cyan	0.617	MF	Dentate Gyrus
+lightgreen	orange		MF	Dentate Gyrus
+lightgreen	darkred	1	MF	Dentate Gyrus
+lightgreen	darkmagenta	0.592	MF	Dentate Gyrus
+lightgreen	yellowgreen	0.498	MF	Dentate Gyrus
+lightgreen	sienna3		MF	Dentate Gyrus
+darkred	greenyellow	1	MF	Dentate Gyrus
+darkred	brown	1	MF	Dentate Gyrus
+darkred	grey	1	MF	Dentate Gyrus
+darkred	blue	1	MF	Dentate Gyrus
+darkred	darkgreen	1	MF	Dentate Gyrus
+darkred	lightcyan	1	MF	Dentate Gyrus
+darkred	turquoise	1	MF	Dentate Gyrus
+darkred	pink	1	MF	Dentate Gyrus
+darkred	violet		MF	Dentate Gyrus
+darkred	magenta	1	MF	Dentate Gyrus
+darkred	salmon	1	MF	Dentate Gyrus
+darkred	royalblue	1	MF	Dentate Gyrus
+darkred	darkorange	1	MF	Dentate Gyrus
+darkred	saddlebrown		MF	Dentate Gyrus
+darkred	darkturquoise		MF	Dentate Gyrus
+darkred	yellow	1	MF	Dentate Gyrus
+darkred	darkgrey	1	MF	Dentate Gyrus
+darkred	black	1	MF	Dentate Gyrus
+darkred	green	1	MF	Dentate Gyrus
+darkred	plum1		MF	Dentate Gyrus
+darkred	tan	1	MF	Dentate Gyrus
+darkred	white	1	MF	Dentate Gyrus
+darkred	red	1	MF	Dentate Gyrus
+darkred	purple	1	MF	Dentate Gyrus
+darkred	skyblue		MF	Dentate Gyrus
+darkred	lightyellow	1	MF	Dentate Gyrus
+darkred	midnightblue	1	MF	Dentate Gyrus
+darkred	paleturquoise	1	MF	Dentate Gyrus
+darkred	cyan	1	MF	Dentate Gyrus
+darkred	orange		MF	Dentate Gyrus
+darkred	lightgreen	1	MF	Dentate Gyrus
+darkred	darkmagenta	1	MF	Dentate Gyrus
+darkred	yellowgreen	1	MF	Dentate Gyrus
+darkred	sienna3		MF	Dentate Gyrus
+darkmagenta	greenyellow	0.579	MF	Dentate Gyrus
+darkmagenta	brown	0.571	MF	Dentate Gyrus
+darkmagenta	grey	0.57	MF	Dentate Gyrus
+darkmagenta	blue	0.608	MF	Dentate Gyrus
+darkmagenta	darkgreen	0.485	MF	Dentate Gyrus
+darkmagenta	lightcyan	0.488	MF	Dentate Gyrus
+darkmagenta	turquoise	0.512	MF	Dentate Gyrus
+darkmagenta	pink	0.535	MF	Dentate Gyrus
+darkmagenta	violet		MF	Dentate Gyrus
+darkmagenta	magenta	0.592	MF	Dentate Gyrus
+darkmagenta	salmon	1	MF	Dentate Gyrus
+darkmagenta	royalblue	0.582	MF	Dentate Gyrus
+darkmagenta	darkorange	1	MF	Dentate Gyrus
+darkmagenta	saddlebrown		MF	Dentate Gyrus
+darkmagenta	darkturquoise		MF	Dentate Gyrus
+darkmagenta	yellow	0.535	MF	Dentate Gyrus
+darkmagenta	darkgrey	1	MF	Dentate Gyrus
+darkmagenta	black	1	MF	Dentate Gyrus
+darkmagenta	green	0.545	MF	Dentate Gyrus
+darkmagenta	plum1		MF	Dentate Gyrus
+darkmagenta	tan	0.657	MF	Dentate Gyrus
+darkmagenta	white	1	MF	Dentate Gyrus
+darkmagenta	red	0.556	MF	Dentate Gyrus
+darkmagenta	purple	0.495	MF	Dentate Gyrus
+darkmagenta	skyblue		MF	Dentate Gyrus
+darkmagenta	lightyellow	1	MF	Dentate Gyrus
+darkmagenta	midnightblue	0.581	MF	Dentate Gyrus
+darkmagenta	paleturquoise	0.578	MF	Dentate Gyrus
+darkmagenta	cyan	0.589	MF	Dentate Gyrus
+darkmagenta	orange		MF	Dentate Gyrus
+darkmagenta	lightgreen	0.592	MF	Dentate Gyrus
+darkmagenta	darkred	1	MF	Dentate Gyrus
+darkmagenta	yellowgreen	0.538	MF	Dentate Gyrus
+darkmagenta	sienna3		MF	Dentate Gyrus
+yellowgreen	greenyellow	0.505	MF	Dentate Gyrus
+yellowgreen	brown	0.484	MF	Dentate Gyrus
+yellowgreen	grey	0.447	MF	Dentate Gyrus
+yellowgreen	blue	0.561	MF	Dentate Gyrus
+yellowgreen	darkgreen	0.372	MF	Dentate Gyrus
+yellowgreen	lightcyan	0.407	MF	Dentate Gyrus
+yellowgreen	turquoise	0.397	MF	Dentate Gyrus
+yellowgreen	pink	0.466	MF	Dentate Gyrus
+yellowgreen	violet		MF	Dentate Gyrus
+yellowgreen	magenta	0.474	MF	Dentate Gyrus
+yellowgreen	salmon	1	MF	Dentate Gyrus
+yellowgreen	royalblue	0.406	MF	Dentate Gyrus
+yellowgreen	darkorange	1	MF	Dentate Gyrus
+yellowgreen	saddlebrown		MF	Dentate Gyrus
+yellowgreen	darkturquoise		MF	Dentate Gyrus
+yellowgreen	yellow	0.466	MF	Dentate Gyrus
+yellowgreen	darkgrey	1	MF	Dentate Gyrus
+yellowgreen	black	1	MF	Dentate Gyrus
+yellowgreen	green	0.493	MF	Dentate Gyrus
+yellowgreen	plum1		MF	Dentate Gyrus
+yellowgreen	tan	0.522	MF	Dentate Gyrus
+yellowgreen	white	1	MF	Dentate Gyrus
+yellowgreen	red	0.494	MF	Dentate Gyrus
+yellowgreen	purple	0.522	MF	Dentate Gyrus
+yellowgreen	skyblue		MF	Dentate Gyrus
+yellowgreen	lightyellow	1	MF	Dentate Gyrus
+yellowgreen	midnightblue	0.613	MF	Dentate Gyrus
+yellowgreen	paleturquoise	0.451	MF	Dentate Gyrus
+yellowgreen	cyan	0.558	MF	Dentate Gyrus
+yellowgreen	orange		MF	Dentate Gyrus
+yellowgreen	lightgreen	0.498	MF	Dentate Gyrus
+yellowgreen	darkred	1	MF	Dentate Gyrus
+yellowgreen	darkmagenta	0.538	MF	Dentate Gyrus
+yellowgreen	sienna3		MF	Dentate Gyrus
+sienna3	greenyellow		MF	Dentate Gyrus
+sienna3	brown		MF	Dentate Gyrus
+sienna3	grey		MF	Dentate Gyrus
+sienna3	blue		MF	Dentate Gyrus
+sienna3	darkgreen		MF	Dentate Gyrus
+sienna3	lightcyan		MF	Dentate Gyrus
+sienna3	turquoise		MF	Dentate Gyrus
+sienna3	pink		MF	Dentate Gyrus
+sienna3	violet		MF	Dentate Gyrus
+sienna3	magenta		MF	Dentate Gyrus
+sienna3	salmon		MF	Dentate Gyrus
+sienna3	royalblue		MF	Dentate Gyrus
+sienna3	darkorange		MF	Dentate Gyrus
+sienna3	saddlebrown		MF	Dentate Gyrus
+sienna3	darkturquoise		MF	Dentate Gyrus
+sienna3	yellow		MF	Dentate Gyrus
+sienna3	darkgrey		MF	Dentate Gyrus
+sienna3	black		MF	Dentate Gyrus
+sienna3	green		MF	Dentate Gyrus
+sienna3	plum1		MF	Dentate Gyrus
+sienna3	tan		MF	Dentate Gyrus
+sienna3	white		MF	Dentate Gyrus
+sienna3	red		MF	Dentate Gyrus
+sienna3	purple		MF	Dentate Gyrus
+sienna3	skyblue		MF	Dentate Gyrus
+sienna3	lightyellow		MF	Dentate Gyrus
+sienna3	midnightblue		MF	Dentate Gyrus
+sienna3	paleturquoise		MF	Dentate Gyrus
+sienna3	cyan		MF	Dentate Gyrus
+sienna3	orange		MF	Dentate Gyrus
+sienna3	lightgreen		MF	Dentate Gyrus
+sienna3	darkred		MF	Dentate Gyrus
+sienna3	darkmagenta		MF	Dentate Gyrus
+sienna3	yellowgreen		MF	Dentate Gyrus
+greenyellow	brown	0.279	BP	Dentate Gyrus
+greenyellow	grey	0.207	BP	Dentate Gyrus
+greenyellow	blue	0.11	BP	Dentate Gyrus
+greenyellow	darkgreen	0.109	BP	Dentate Gyrus
+greenyellow	lightcyan	0.066	BP	Dentate Gyrus
+greenyellow	turquoise	0.2	BP	Dentate Gyrus
+greenyellow	pink	0.09	BP	Dentate Gyrus
+greenyellow	violet	0.021	BP	Dentate Gyrus
+greenyellow	magenta	0.07	BP	Dentate Gyrus
+greenyellow	salmon		BP	Dentate Gyrus
+greenyellow	royalblue	0.147	BP	Dentate Gyrus
+greenyellow	darkorange		BP	Dentate Gyrus
+greenyellow	saddlebrown	0.198	BP	Dentate Gyrus
+greenyellow	darkturquoise	0.095	BP	Dentate Gyrus
+greenyellow	yellow		BP	Dentate Gyrus
+greenyellow	darkgrey		BP	Dentate Gyrus
+greenyellow	black		BP	Dentate Gyrus
+greenyellow	green	0.321	BP	Dentate Gyrus
+greenyellow	plum1	0.032	BP	Dentate Gyrus
+greenyellow	tan	0.313	BP	Dentate Gyrus
+greenyellow	white	0.024	BP	Dentate Gyrus
+greenyellow	red	0.224	BP	Dentate Gyrus
+greenyellow	purple	0.139	BP	Dentate Gyrus
+greenyellow	skyblue	0.119	BP	Dentate Gyrus
+greenyellow	lightyellow		BP	Dentate Gyrus
+greenyellow	midnightblue	0.09	BP	Dentate Gyrus
+greenyellow	paleturquoise	0.177	BP	Dentate Gyrus
+greenyellow	cyan	0.145	BP	Dentate Gyrus
+greenyellow	orange		BP	Dentate Gyrus
+greenyellow	lightgreen	0.047	BP	Dentate Gyrus
+greenyellow	darkred		BP	Dentate Gyrus
+greenyellow	darkmagenta	0.152	BP	Dentate Gyrus
+greenyellow	yellowgreen	0.07	BP	Dentate Gyrus
+greenyellow	sienna3	0.05	BP	Dentate Gyrus
+brown	greenyellow	0.279	BP	Dentate Gyrus
+brown	grey	0.424	BP	Dentate Gyrus
+brown	blue	0.38	BP	Dentate Gyrus
+brown	darkgreen	0.144	BP	Dentate Gyrus
+brown	lightcyan	0.266	BP	Dentate Gyrus
+brown	turquoise	0.477	BP	Dentate Gyrus
+brown	pink	0.135	BP	Dentate Gyrus
+brown	violet	0.128	BP	Dentate Gyrus
+brown	magenta	0.247	BP	Dentate Gyrus
+brown	salmon		BP	Dentate Gyrus
+brown	royalblue	0.12	BP	Dentate Gyrus
+brown	darkorange		BP	Dentate Gyrus
+brown	saddlebrown	0.264	BP	Dentate Gyrus
+brown	darkturquoise	0.184	BP	Dentate Gyrus
+brown	yellow		BP	Dentate Gyrus
+brown	darkgrey		BP	Dentate Gyrus
+brown	black		BP	Dentate Gyrus
+brown	green	0.437	BP	Dentate Gyrus
+brown	plum1	0.375	BP	Dentate Gyrus
+brown	tan	0.295	BP	Dentate Gyrus
+brown	white	0.289	BP	Dentate Gyrus
+brown	red	0.453	BP	Dentate Gyrus
+brown	purple	0.304	BP	Dentate Gyrus
+brown	skyblue	0.261	BP	Dentate Gyrus
+brown	lightyellow		BP	Dentate Gyrus
+brown	midnightblue	0.217	BP	Dentate Gyrus
+brown	paleturquoise	0.266	BP	Dentate Gyrus
+brown	cyan	0.153	BP	Dentate Gyrus
+brown	orange		BP	Dentate Gyrus
+brown	lightgreen	0.106	BP	Dentate Gyrus
+brown	darkred		BP	Dentate Gyrus
+brown	darkmagenta	0.276	BP	Dentate Gyrus
+brown	yellowgreen	0.106	BP	Dentate Gyrus
+brown	sienna3	0.222	BP	Dentate Gyrus
+grey	greenyellow	0.207	BP	Dentate Gyrus
+grey	brown	0.424	BP	Dentate Gyrus
+grey	blue	0.442	BP	Dentate Gyrus
+grey	darkgreen	0.133	BP	Dentate Gyrus
+grey	lightcyan	0.3	BP	Dentate Gyrus
+grey	turquoise	0.478	BP	Dentate Gyrus
+grey	pink	0.137	BP	Dentate Gyrus
+grey	violet	0.174	BP	Dentate Gyrus
+grey	magenta	0.283	BP	Dentate Gyrus
+grey	salmon		BP	Dentate Gyrus
+grey	royalblue	0.314	BP	Dentate Gyrus
+grey	darkorange		BP	Dentate Gyrus
+grey	saddlebrown	0.316	BP	Dentate Gyrus
+grey	darkturquoise	0.305	BP	Dentate Gyrus
+grey	yellow		BP	Dentate Gyrus
+grey	darkgrey		BP	Dentate Gyrus
+grey	black		BP	Dentate Gyrus
+grey	green	0.671	BP	Dentate Gyrus
+grey	plum1	0.375	BP	Dentate Gyrus
+grey	tan	0.474	BP	Dentate Gyrus
+grey	white	0.091	BP	Dentate Gyrus
+grey	red	0.39	BP	Dentate Gyrus
+grey	purple	1	BP	Dentate Gyrus
+grey	skyblue	0.814	BP	Dentate Gyrus
+grey	lightyellow		BP	Dentate Gyrus
+grey	midnightblue	0.375	BP	Dentate Gyrus
+grey	paleturquoise	0.492	BP	Dentate Gyrus
+grey	cyan	0.451	BP	Dentate Gyrus
+grey	orange		BP	Dentate Gyrus
+grey	lightgreen	0.073	BP	Dentate Gyrus
+grey	darkred		BP	Dentate Gyrus
+grey	darkmagenta	0.354	BP	Dentate Gyrus
+grey	yellowgreen	0.122	BP	Dentate Gyrus
+grey	sienna3	0.222	BP	Dentate Gyrus
+blue	greenyellow	0.11	BP	Dentate Gyrus
+blue	brown	0.38	BP	Dentate Gyrus
+blue	grey	0.442	BP	Dentate Gyrus
+blue	darkgreen	0.145	BP	Dentate Gyrus
+blue	lightcyan	0.367	BP	Dentate Gyrus
+blue	turquoise	0.487	BP	Dentate Gyrus
+blue	pink	0.243	BP	Dentate Gyrus
+blue	violet	0.16	BP	Dentate Gyrus
+blue	magenta	0.429	BP	Dentate Gyrus
+blue	salmon		BP	Dentate Gyrus
+blue	royalblue	0.147	BP	Dentate Gyrus
+blue	darkorange		BP	Dentate Gyrus
+blue	saddlebrown	0.2	BP	Dentate Gyrus
+blue	darkturquoise	0.197	BP	Dentate Gyrus
+blue	yellow		BP	Dentate Gyrus
+blue	darkgrey		BP	Dentate Gyrus
+blue	black		BP	Dentate Gyrus
+blue	green	0.381	BP	Dentate Gyrus
+blue	plum1	0.457	BP	Dentate Gyrus
+blue	tan	0.205	BP	Dentate Gyrus
+blue	white	0.145	BP	Dentate Gyrus
+blue	red	0.406	BP	Dentate Gyrus
+blue	purple	0.23	BP	Dentate Gyrus
+blue	skyblue	0.199	BP	Dentate Gyrus
+blue	lightyellow		BP	Dentate Gyrus
+blue	midnightblue	0.214	BP	Dentate Gyrus
+blue	paleturquoise	0.244	BP	Dentate Gyrus
+blue	cyan	0.099	BP	Dentate Gyrus
+blue	orange		BP	Dentate Gyrus
+blue	lightgreen	0.185	BP	Dentate Gyrus
+blue	darkred		BP	Dentate Gyrus
+blue	darkmagenta	0.301	BP	Dentate Gyrus
+blue	yellowgreen	0.162	BP	Dentate Gyrus
+blue	sienna3	0.328	BP	Dentate Gyrus
+darkgreen	greenyellow	0.109	BP	Dentate Gyrus
+darkgreen	brown	0.144	BP	Dentate Gyrus
+darkgreen	grey	0.133	BP	Dentate Gyrus
+darkgreen	blue	0.145	BP	Dentate Gyrus
+darkgreen	lightcyan	0.079	BP	Dentate Gyrus
+darkgreen	turquoise	0.157	BP	Dentate Gyrus
+darkgreen	pink	0.26	BP	Dentate Gyrus
+darkgreen	violet	0.032	BP	Dentate Gyrus
+darkgreen	magenta	0.087	BP	Dentate Gyrus
+darkgreen	salmon		BP	Dentate Gyrus
+darkgreen	royalblue	0.057	BP	Dentate Gyrus
+darkgreen	darkorange		BP	Dentate Gyrus
+darkgreen	saddlebrown	0.11	BP	Dentate Gyrus
+darkgreen	darkturquoise	0.075	BP	Dentate Gyrus
+darkgreen	yellow		BP	Dentate Gyrus
+darkgreen	darkgrey		BP	Dentate Gyrus
+darkgreen	black		BP	Dentate Gyrus
+darkgreen	green	0.119	BP	Dentate Gyrus
+darkgreen	plum1	0.184	BP	Dentate Gyrus
+darkgreen	tan	0.133	BP	Dentate Gyrus
+darkgreen	white	0.131	BP	Dentate Gyrus
+darkgreen	red	0.138	BP	Dentate Gyrus
+darkgreen	purple	0.086	BP	Dentate Gyrus
+darkgreen	skyblue	0.072	BP	Dentate Gyrus
+darkgreen	lightyellow		BP	Dentate Gyrus
+darkgreen	midnightblue	0.062	BP	Dentate Gyrus
+darkgreen	paleturquoise	0.474	BP	Dentate Gyrus
+darkgreen	cyan	0.071	BP	Dentate Gyrus
+darkgreen	orange		BP	Dentate Gyrus
+darkgreen	lightgreen	0.099	BP	Dentate Gyrus
+darkgreen	darkred		BP	Dentate Gyrus
+darkgreen	darkmagenta	0.107	BP	Dentate Gyrus
+darkgreen	yellowgreen	0.099	BP	Dentate Gyrus
+darkgreen	sienna3	0.074	BP	Dentate Gyrus
+lightcyan	greenyellow	0.066	BP	Dentate Gyrus
+lightcyan	brown	0.266	BP	Dentate Gyrus
+lightcyan	grey	0.3	BP	Dentate Gyrus
+lightcyan	blue	0.367	BP	Dentate Gyrus
+lightcyan	darkgreen	0.079	BP	Dentate Gyrus
+lightcyan	turquoise	0.403	BP	Dentate Gyrus
+lightcyan	pink	0.109	BP	Dentate Gyrus
+lightcyan	violet	0.26	BP	Dentate Gyrus
+lightcyan	magenta	0.543	BP	Dentate Gyrus
+lightcyan	salmon		BP	Dentate Gyrus
+lightcyan	royalblue	0.105	BP	Dentate Gyrus
+lightcyan	darkorange		BP	Dentate Gyrus
+lightcyan	saddlebrown	0.206	BP	Dentate Gyrus
+lightcyan	darkturquoise	0.222	BP	Dentate Gyrus
+lightcyan	yellow		BP	Dentate Gyrus
+lightcyan	darkgrey		BP	Dentate Gyrus
+lightcyan	black		BP	Dentate Gyrus
+lightcyan	green	0.348	BP	Dentate Gyrus
+lightcyan	plum1	0.457	BP	Dentate Gyrus
+lightcyan	tan	0.155	BP	Dentate Gyrus
+lightcyan	white	0.224	BP	Dentate Gyrus
+lightcyan	red	0.341	BP	Dentate Gyrus
+lightcyan	purple	0.866	BP	Dentate Gyrus
+lightcyan	skyblue	0.931	BP	Dentate Gyrus
+lightcyan	lightyellow		BP	Dentate Gyrus
+lightcyan	midnightblue	0.196	BP	Dentate Gyrus
+lightcyan	paleturquoise	0.163	BP	Dentate Gyrus
+lightcyan	cyan	0.11	BP	Dentate Gyrus
+lightcyan	orange		BP	Dentate Gyrus
+lightcyan	lightgreen	0.084	BP	Dentate Gyrus
+lightcyan	darkred		BP	Dentate Gyrus
+lightcyan	darkmagenta	0.289	BP	Dentate Gyrus
+lightcyan	yellowgreen	0.11	BP	Dentate Gyrus
+lightcyan	sienna3	0.244	BP	Dentate Gyrus
+turquoise	greenyellow	0.2	BP	Dentate Gyrus
+turquoise	brown	0.477	BP	Dentate Gyrus
+turquoise	grey	0.478	BP	Dentate Gyrus
+turquoise	blue	0.487	BP	Dentate Gyrus
+turquoise	darkgreen	0.157	BP	Dentate Gyrus
+turquoise	lightcyan	0.403	BP	Dentate Gyrus
+turquoise	pink	0.193	BP	Dentate Gyrus
+turquoise	violet	0.24	BP	Dentate Gyrus
+turquoise	magenta	0.509	BP	Dentate Gyrus
+turquoise	salmon		BP	Dentate Gyrus
+turquoise	royalblue	0.136	BP	Dentate Gyrus
+turquoise	darkorange		BP	Dentate Gyrus
+turquoise	saddlebrown	0.257	BP	Dentate Gyrus
+turquoise	darkturquoise	0.219	BP	Dentate Gyrus
+turquoise	yellow		BP	Dentate Gyrus
+turquoise	darkgrey		BP	Dentate Gyrus
+turquoise	black		BP	Dentate Gyrus
+turquoise	green	0.58	BP	Dentate Gyrus
+turquoise	plum1	0.457	BP	Dentate Gyrus
+turquoise	tan	0.315	BP	Dentate Gyrus
+turquoise	white	0.385	BP	Dentate Gyrus
+turquoise	red	0.556	BP	Dentate Gyrus
+turquoise	purple	1	BP	Dentate Gyrus
+turquoise	skyblue	0.814	BP	Dentate Gyrus
+turquoise	lightyellow		BP	Dentate Gyrus
+turquoise	midnightblue	0.207	BP	Dentate Gyrus
+turquoise	paleturquoise	0.286	BP	Dentate Gyrus
+turquoise	cyan	0.177	BP	Dentate Gyrus
+turquoise	orange		BP	Dentate Gyrus
+turquoise	lightgreen	0.183	BP	Dentate Gyrus
+turquoise	darkred		BP	Dentate Gyrus
+turquoise	darkmagenta	0.382	BP	Dentate Gyrus
+turquoise	yellowgreen	0.169	BP	Dentate Gyrus
+turquoise	sienna3	0.317	BP	Dentate Gyrus
+pink	greenyellow	0.09	BP	Dentate Gyrus
+pink	brown	0.135	BP	Dentate Gyrus
+pink	grey	0.137	BP	Dentate Gyrus
+pink	blue	0.243	BP	Dentate Gyrus
+pink	darkgreen	0.26	BP	Dentate Gyrus
+pink	lightcyan	0.109	BP	Dentate Gyrus
+pink	turquoise	0.193	BP	Dentate Gyrus
+pink	violet	0.147	BP	Dentate Gyrus
+pink	magenta	0.126	BP	Dentate Gyrus
+pink	salmon		BP	Dentate Gyrus
+pink	royalblue	0.045	BP	Dentate Gyrus
+pink	darkorange		BP	Dentate Gyrus
+pink	saddlebrown	0.079	BP	Dentate Gyrus
+pink	darkturquoise	0.047	BP	Dentate Gyrus
+pink	yellow		BP	Dentate Gyrus
+pink	darkgrey		BP	Dentate Gyrus
+pink	black		BP	Dentate Gyrus
+pink	green	0.105	BP	Dentate Gyrus
+pink	plum1	0.217	BP	Dentate Gyrus
+pink	tan	0.188	BP	Dentate Gyrus
+pink	white	0.346	BP	Dentate Gyrus
+pink	red	0.198	BP	Dentate Gyrus
+pink	purple	0.064	BP	Dentate Gyrus
+pink	skyblue	0.053	BP	Dentate Gyrus
+pink	lightyellow		BP	Dentate Gyrus
+pink	midnightblue	0.08	BP	Dentate Gyrus
+pink	paleturquoise	0.202	BP	Dentate Gyrus
+pink	cyan	0.053	BP	Dentate Gyrus
+pink	orange		BP	Dentate Gyrus
+pink	lightgreen	0.205	BP	Dentate Gyrus
+pink	darkred		BP	Dentate Gyrus
+pink	darkmagenta	0.152	BP	Dentate Gyrus
+pink	yellowgreen	0.341	BP	Dentate Gyrus
+pink	sienna3	0.116	BP	Dentate Gyrus
+violet	greenyellow	0.021	BP	Dentate Gyrus
+violet	brown	0.128	BP	Dentate Gyrus
+violet	grey	0.174	BP	Dentate Gyrus
+violet	blue	0.16	BP	Dentate Gyrus
+violet	darkgreen	0.032	BP	Dentate Gyrus
+violet	lightcyan	0.26	BP	Dentate Gyrus
+violet	turquoise	0.24	BP	Dentate Gyrus
+violet	pink	0.147	BP	Dentate Gyrus
+violet	magenta	0.495	BP	Dentate Gyrus
+violet	salmon		BP	Dentate Gyrus
+violet	royalblue	0.046	BP	Dentate Gyrus
+violet	darkorange		BP	Dentate Gyrus
+violet	saddlebrown	0.065	BP	Dentate Gyrus
+violet	darkturquoise	0.016	BP	Dentate Gyrus
+violet	yellow		BP	Dentate Gyrus
+violet	darkgrey		BP	Dentate Gyrus
+violet	black		BP	Dentate Gyrus
+violet	green	0.201	BP	Dentate Gyrus
+violet	plum1	0.068	BP	Dentate Gyrus
+violet	tan	0.108	BP	Dentate Gyrus
+violet	white	0.014	BP	Dentate Gyrus
+violet	red	0.179	BP	Dentate Gyrus
+violet	purple	0.053	BP	Dentate Gyrus
+violet	skyblue	0.043	BP	Dentate Gyrus
+violet	lightyellow		BP	Dentate Gyrus
+violet	midnightblue	0.076	BP	Dentate Gyrus
+violet	paleturquoise	0.136	BP	Dentate Gyrus
+violet	cyan	0.058	BP	Dentate Gyrus
+violet	orange		BP	Dentate Gyrus
+violet	lightgreen	0.113	BP	Dentate Gyrus
+violet	darkred		BP	Dentate Gyrus
+violet	darkmagenta	0.269	BP	Dentate Gyrus
+violet	yellowgreen	0.12	BP	Dentate Gyrus
+violet	sienna3	0.104	BP	Dentate Gyrus
+magenta	greenyellow	0.07	BP	Dentate Gyrus
+magenta	brown	0.247	BP	Dentate Gyrus
+magenta	grey	0.283	BP	Dentate Gyrus
+magenta	blue	0.429	BP	Dentate Gyrus
+magenta	darkgreen	0.087	BP	Dentate Gyrus
+magenta	lightcyan	0.543	BP	Dentate Gyrus
+magenta	turquoise	0.509	BP	Dentate Gyrus
+magenta	pink	0.126	BP	Dentate Gyrus
+magenta	violet	0.495	BP	Dentate Gyrus
+magenta	salmon		BP	Dentate Gyrus
+magenta	royalblue	0.098	BP	Dentate Gyrus
+magenta	darkorange		BP	Dentate Gyrus
+magenta	saddlebrown	0.179	BP	Dentate Gyrus
+magenta	darkturquoise	0.234	BP	Dentate Gyrus
+magenta	yellow		BP	Dentate Gyrus
+magenta	darkgrey		BP	Dentate Gyrus
+magenta	black		BP	Dentate Gyrus
+magenta	green	0.356	BP	Dentate Gyrus
+magenta	plum1	0.457	BP	Dentate Gyrus
+magenta	tan	0.16	BP	Dentate Gyrus
+magenta	white	0.339	BP	Dentate Gyrus
+magenta	red	0.39	BP	Dentate Gyrus
+magenta	purple	0.814	BP	Dentate Gyrus
+magenta	skyblue	1	BP	Dentate Gyrus
+magenta	lightyellow		BP	Dentate Gyrus
+magenta	midnightblue	0.17	BP	Dentate Gyrus
+magenta	paleturquoise	0.161	BP	Dentate Gyrus
+magenta	cyan	0.103	BP	Dentate Gyrus
+magenta	orange		BP	Dentate Gyrus
+magenta	lightgreen	0.165	BP	Dentate Gyrus
+magenta	darkred		BP	Dentate Gyrus
+magenta	darkmagenta	0.321	BP	Dentate Gyrus
+magenta	yellowgreen	0.119	BP	Dentate Gyrus
+magenta	sienna3	0.269	BP	Dentate Gyrus
+salmon	greenyellow		BP	Dentate Gyrus
+salmon	brown		BP	Dentate Gyrus
+salmon	grey		BP	Dentate Gyrus
+salmon	blue		BP	Dentate Gyrus
+salmon	darkgreen		BP	Dentate Gyrus
+salmon	lightcyan		BP	Dentate Gyrus
+salmon	turquoise		BP	Dentate Gyrus
+salmon	pink		BP	Dentate Gyrus
+salmon	violet		BP	Dentate Gyrus
+salmon	magenta		BP	Dentate Gyrus
+salmon	royalblue		BP	Dentate Gyrus
+salmon	darkorange		BP	Dentate Gyrus
+salmon	saddlebrown		BP	Dentate Gyrus
+salmon	darkturquoise		BP	Dentate Gyrus
+salmon	yellow		BP	Dentate Gyrus
+salmon	darkgrey		BP	Dentate Gyrus
+salmon	black		BP	Dentate Gyrus
+salmon	green		BP	Dentate Gyrus
+salmon	plum1		BP	Dentate Gyrus
+salmon	tan		BP	Dentate Gyrus
+salmon	white		BP	Dentate Gyrus
+salmon	red		BP	Dentate Gyrus
+salmon	purple		BP	Dentate Gyrus
+salmon	skyblue		BP	Dentate Gyrus
+salmon	lightyellow		BP	Dentate Gyrus
+salmon	midnightblue		BP	Dentate Gyrus
+salmon	paleturquoise		BP	Dentate Gyrus
+salmon	cyan		BP	Dentate Gyrus
+salmon	orange		BP	Dentate Gyrus
+salmon	lightgreen		BP	Dentate Gyrus
+salmon	darkred		BP	Dentate Gyrus
+salmon	darkmagenta		BP	Dentate Gyrus
+salmon	yellowgreen		BP	Dentate Gyrus
+salmon	sienna3		BP	Dentate Gyrus
+royalblue	greenyellow	0.147	BP	Dentate Gyrus
+royalblue	brown	0.12	BP	Dentate Gyrus
+royalblue	grey	0.314	BP	Dentate Gyrus
+royalblue	blue	0.147	BP	Dentate Gyrus
+royalblue	darkgreen	0.057	BP	Dentate Gyrus
+royalblue	lightcyan	0.105	BP	Dentate Gyrus
+royalblue	turquoise	0.136	BP	Dentate Gyrus
+royalblue	pink	0.045	BP	Dentate Gyrus
+royalblue	violet	0.046	BP	Dentate Gyrus
+royalblue	magenta	0.098	BP	Dentate Gyrus
+royalblue	salmon		BP	Dentate Gyrus
+royalblue	darkorange		BP	Dentate Gyrus
+royalblue	saddlebrown	0.146	BP	Dentate Gyrus
+royalblue	darkturquoise	0.173	BP	Dentate Gyrus
+royalblue	yellow		BP	Dentate Gyrus
+royalblue	darkgrey		BP	Dentate Gyrus
+royalblue	black		BP	Dentate Gyrus
+royalblue	green	0.264	BP	Dentate Gyrus
+royalblue	plum1	0.06	BP	Dentate Gyrus
+royalblue	tan	0.22	BP	Dentate Gyrus
+royalblue	white	0.029	BP	Dentate Gyrus
+royalblue	red	0.115	BP	Dentate Gyrus
+royalblue	purple	0.366	BP	Dentate Gyrus
+royalblue	skyblue	0.4	BP	Dentate Gyrus
+royalblue	lightyellow		BP	Dentate Gyrus
+royalblue	midnightblue	0.241	BP	Dentate Gyrus
+royalblue	paleturquoise	0.156	BP	Dentate Gyrus
+royalblue	cyan	0.37	BP	Dentate Gyrus
+royalblue	orange		BP	Dentate Gyrus
+royalblue	lightgreen	0.023	BP	Dentate Gyrus
+royalblue	darkred		BP	Dentate Gyrus
+royalblue	darkmagenta	0.119	BP	Dentate Gyrus
+royalblue	yellowgreen	0.058	BP	Dentate Gyrus
+royalblue	sienna3	0.057	BP	Dentate Gyrus
+darkorange	greenyellow		BP	Dentate Gyrus
+darkorange	brown		BP	Dentate Gyrus
+darkorange	grey		BP	Dentate Gyrus
+darkorange	blue		BP	Dentate Gyrus
+darkorange	darkgreen		BP	Dentate Gyrus
+darkorange	lightcyan		BP	Dentate Gyrus
+darkorange	turquoise		BP	Dentate Gyrus
+darkorange	pink		BP	Dentate Gyrus
+darkorange	violet		BP	Dentate Gyrus
+darkorange	magenta		BP	Dentate Gyrus
+darkorange	salmon		BP	Dentate Gyrus
+darkorange	royalblue		BP	Dentate Gyrus
+darkorange	saddlebrown		BP	Dentate Gyrus
+darkorange	darkturquoise		BP	Dentate Gyrus
+darkorange	yellow		BP	Dentate Gyrus
+darkorange	darkgrey		BP	Dentate Gyrus
+darkorange	black		BP	Dentate Gyrus
+darkorange	green		BP	Dentate Gyrus
+darkorange	plum1		BP	Dentate Gyrus
+darkorange	tan		BP	Dentate Gyrus
+darkorange	white		BP	Dentate Gyrus
+darkorange	red		BP	Dentate Gyrus
+darkorange	purple		BP	Dentate Gyrus
+darkorange	skyblue		BP	Dentate Gyrus
+darkorange	lightyellow		BP	Dentate Gyrus
+darkorange	midnightblue		BP	Dentate Gyrus
+darkorange	paleturquoise		BP	Dentate Gyrus
+darkorange	cyan		BP	Dentate Gyrus
+darkorange	orange		BP	Dentate Gyrus
+darkorange	lightgreen		BP	Dentate Gyrus
+darkorange	darkred		BP	Dentate Gyrus
+darkorange	darkmagenta		BP	Dentate Gyrus
+darkorange	yellowgreen		BP	Dentate Gyrus
+darkorange	sienna3		BP	Dentate Gyrus
+saddlebrown	greenyellow	0.198	BP	Dentate Gyrus
+saddlebrown	brown	0.264	BP	Dentate Gyrus
+saddlebrown	grey	0.316	BP	Dentate Gyrus
+saddlebrown	blue	0.2	BP	Dentate Gyrus
+saddlebrown	darkgreen	0.11	BP	Dentate Gyrus
+saddlebrown	lightcyan	0.206	BP	Dentate Gyrus
+saddlebrown	turquoise	0.257	BP	Dentate Gyrus
+saddlebrown	pink	0.079	BP	Dentate Gyrus
+saddlebrown	violet	0.065	BP	Dentate Gyrus
+saddlebrown	magenta	0.179	BP	Dentate Gyrus
+saddlebrown	salmon		BP	Dentate Gyrus
+saddlebrown	royalblue	0.146	BP	Dentate Gyrus
+saddlebrown	darkorange		BP	Dentate Gyrus
+saddlebrown	darkturquoise	0.573	BP	Dentate Gyrus
+saddlebrown	yellow		BP	Dentate Gyrus
+saddlebrown	darkgrey		BP	Dentate Gyrus
+saddlebrown	black		BP	Dentate Gyrus
+saddlebrown	green	0.4	BP	Dentate Gyrus
+saddlebrown	plum1	0.183	BP	Dentate Gyrus
+saddlebrown	tan	0.226	BP	Dentate Gyrus
+saddlebrown	white	0.062	BP	Dentate Gyrus
+saddlebrown	red	0.266	BP	Dentate Gyrus
+saddlebrown	purple	0.693	BP	Dentate Gyrus
+saddlebrown	skyblue	0.835	BP	Dentate Gyrus
+saddlebrown	lightyellow		BP	Dentate Gyrus
+saddlebrown	midnightblue	0.218	BP	Dentate Gyrus
+saddlebrown	paleturquoise	0.211	BP	Dentate Gyrus
+saddlebrown	cyan	0.227	BP	Dentate Gyrus
+saddlebrown	orange		BP	Dentate Gyrus
+saddlebrown	lightgreen	0.045	BP	Dentate Gyrus
+saddlebrown	darkred		BP	Dentate Gyrus
+saddlebrown	darkmagenta	0.236	BP	Dentate Gyrus
+saddlebrown	yellowgreen	0.07	BP	Dentate Gyrus
+saddlebrown	sienna3	0.153	BP	Dentate Gyrus
+darkturquoise	greenyellow	0.095	BP	Dentate Gyrus
+darkturquoise	brown	0.184	BP	Dentate Gyrus
+darkturquoise	grey	0.305	BP	Dentate Gyrus
+darkturquoise	blue	0.197	BP	Dentate Gyrus
+darkturquoise	darkgreen	0.075	BP	Dentate Gyrus
+darkturquoise	lightcyan	0.222	BP	Dentate Gyrus
+darkturquoise	turquoise	0.219	BP	Dentate Gyrus
+darkturquoise	pink	0.047	BP	Dentate Gyrus
+darkturquoise	violet	0.016	BP	Dentate Gyrus
+darkturquoise	magenta	0.234	BP	Dentate Gyrus
+darkturquoise	salmon		BP	Dentate Gyrus
+darkturquoise	royalblue	0.173	BP	Dentate Gyrus
+darkturquoise	darkorange		BP	Dentate Gyrus
+darkturquoise	saddlebrown	0.573	BP	Dentate Gyrus
+darkturquoise	yellow		BP	Dentate Gyrus
+darkturquoise	darkgrey		BP	Dentate Gyrus
+darkturquoise	black		BP	Dentate Gyrus
+darkturquoise	green	0.347	BP	Dentate Gyrus
+darkturquoise	plum1	0.021	BP	Dentate Gyrus
+darkturquoise	tan	0.305	BP	Dentate Gyrus
+darkturquoise	white	0.014	BP	Dentate Gyrus
+darkturquoise	red	0.21	BP	Dentate Gyrus
+darkturquoise	purple	0.219	BP	Dentate Gyrus
+darkturquoise	skyblue	0.199	BP	Dentate Gyrus
+darkturquoise	lightyellow		BP	Dentate Gyrus
+darkturquoise	midnightblue	0.21	BP	Dentate Gyrus
+darkturquoise	paleturquoise	0.305	BP	Dentate Gyrus
+darkturquoise	cyan	0.233	BP	Dentate Gyrus
+darkturquoise	orange		BP	Dentate Gyrus
+darkturquoise	lightgreen	0.03	BP	Dentate Gyrus
+darkturquoise	darkred		BP	Dentate Gyrus
+darkturquoise	darkmagenta	0.225	BP	Dentate Gyrus
+darkturquoise	yellowgreen	0.037	BP	Dentate Gyrus
+darkturquoise	sienna3	0.036	BP	Dentate Gyrus
+yellow	greenyellow		BP	Dentate Gyrus
+yellow	brown		BP	Dentate Gyrus
+yellow	grey		BP	Dentate Gyrus
+yellow	blue		BP	Dentate Gyrus
+yellow	darkgreen		BP	Dentate Gyrus
+yellow	lightcyan		BP	Dentate Gyrus
+yellow	turquoise		BP	Dentate Gyrus
+yellow	pink		BP	Dentate Gyrus
+yellow	violet		BP	Dentate Gyrus
+yellow	magenta		BP	Dentate Gyrus
+yellow	salmon		BP	Dentate Gyrus
+yellow	royalblue		BP	Dentate Gyrus
+yellow	darkorange		BP	Dentate Gyrus
+yellow	saddlebrown		BP	Dentate Gyrus
+yellow	darkturquoise		BP	Dentate Gyrus
+yellow	darkgrey		BP	Dentate Gyrus
+yellow	black		BP	Dentate Gyrus
+yellow	green		BP	Dentate Gyrus
+yellow	plum1		BP	Dentate Gyrus
+yellow	tan		BP	Dentate Gyrus
+yellow	white		BP	Dentate Gyrus
+yellow	red		BP	Dentate Gyrus
+yellow	purple		BP	Dentate Gyrus
+yellow	skyblue		BP	Dentate Gyrus
+yellow	lightyellow		BP	Dentate Gyrus
+yellow	midnightblue		BP	Dentate Gyrus
+yellow	paleturquoise		BP	Dentate Gyrus
+yellow	cyan		BP	Dentate Gyrus
+yellow	orange		BP	Dentate Gyrus
+yellow	lightgreen		BP	Dentate Gyrus
+yellow	darkred		BP	Dentate Gyrus
+yellow	darkmagenta		BP	Dentate Gyrus
+yellow	yellowgreen		BP	Dentate Gyrus
+yellow	sienna3		BP	Dentate Gyrus
+darkgrey	greenyellow		BP	Dentate Gyrus
+darkgrey	brown		BP	Dentate Gyrus
+darkgrey	grey		BP	Dentate Gyrus
+darkgrey	blue		BP	Dentate Gyrus
+darkgrey	darkgreen		BP	Dentate Gyrus
+darkgrey	lightcyan		BP	Dentate Gyrus
+darkgrey	turquoise		BP	Dentate Gyrus
+darkgrey	pink		BP	Dentate Gyrus
+darkgrey	violet		BP	Dentate Gyrus
+darkgrey	magenta		BP	Dentate Gyrus
+darkgrey	salmon		BP	Dentate Gyrus
+darkgrey	royalblue		BP	Dentate Gyrus
+darkgrey	darkorange		BP	Dentate Gyrus
+darkgrey	saddlebrown		BP	Dentate Gyrus
+darkgrey	darkturquoise		BP	Dentate Gyrus
+darkgrey	yellow		BP	Dentate Gyrus
+darkgrey	black		BP	Dentate Gyrus
+darkgrey	green		BP	Dentate Gyrus
+darkgrey	plum1		BP	Dentate Gyrus
+darkgrey	tan		BP	Dentate Gyrus
+darkgrey	white		BP	Dentate Gyrus
+darkgrey	red		BP	Dentate Gyrus
+darkgrey	purple		BP	Dentate Gyrus
+darkgrey	skyblue		BP	Dentate Gyrus
+darkgrey	lightyellow		BP	Dentate Gyrus
+darkgrey	midnightblue		BP	Dentate Gyrus
+darkgrey	paleturquoise		BP	Dentate Gyrus
+darkgrey	cyan		BP	Dentate Gyrus
+darkgrey	orange		BP	Dentate Gyrus
+darkgrey	lightgreen		BP	Dentate Gyrus
+darkgrey	darkred		BP	Dentate Gyrus
+darkgrey	darkmagenta		BP	Dentate Gyrus
+darkgrey	yellowgreen		BP	Dentate Gyrus
+darkgrey	sienna3		BP	Dentate Gyrus
+black	greenyellow		BP	Dentate Gyrus
+black	brown		BP	Dentate Gyrus
+black	grey		BP	Dentate Gyrus
+black	blue		BP	Dentate Gyrus
+black	darkgreen		BP	Dentate Gyrus
+black	lightcyan		BP	Dentate Gyrus
+black	turquoise		BP	Dentate Gyrus
+black	pink		BP	Dentate Gyrus
+black	violet		BP	Dentate Gyrus
+black	magenta		BP	Dentate Gyrus
+black	salmon		BP	Dentate Gyrus
+black	royalblue		BP	Dentate Gyrus
+black	darkorange		BP	Dentate Gyrus
+black	saddlebrown		BP	Dentate Gyrus
+black	darkturquoise		BP	Dentate Gyrus
+black	yellow		BP	Dentate Gyrus
+black	darkgrey		BP	Dentate Gyrus
+black	green		BP	Dentate Gyrus
+black	plum1		BP	Dentate Gyrus
+black	tan		BP	Dentate Gyrus
+black	white		BP	Dentate Gyrus
+black	red		BP	Dentate Gyrus
+black	purple		BP	Dentate Gyrus
+black	skyblue		BP	Dentate Gyrus
+black	lightyellow		BP	Dentate Gyrus
+black	midnightblue		BP	Dentate Gyrus
+black	paleturquoise		BP	Dentate Gyrus
+black	cyan		BP	Dentate Gyrus
+black	orange		BP	Dentate Gyrus
+black	lightgreen		BP	Dentate Gyrus
+black	darkred		BP	Dentate Gyrus
+black	darkmagenta		BP	Dentate Gyrus
+black	yellowgreen		BP	Dentate Gyrus
+black	sienna3		BP	Dentate Gyrus
+green	greenyellow	0.321	BP	Dentate Gyrus
+green	brown	0.437	BP	Dentate Gyrus
+green	grey	0.671	BP	Dentate Gyrus
+green	blue	0.381	BP	Dentate Gyrus
+green	darkgreen	0.119	BP	Dentate Gyrus
+green	lightcyan	0.348	BP	Dentate Gyrus
+green	turquoise	0.58	BP	Dentate Gyrus
+green	pink	0.105	BP	Dentate Gyrus
+green	violet	0.201	BP	Dentate Gyrus
+green	magenta	0.356	BP	Dentate Gyrus
+green	salmon		BP	Dentate Gyrus
+green	royalblue	0.264	BP	Dentate Gyrus
+green	darkorange		BP	Dentate Gyrus
+green	saddlebrown	0.4	BP	Dentate Gyrus
+green	darkturquoise	0.347	BP	Dentate Gyrus
+green	yellow		BP	Dentate Gyrus
+green	darkgrey		BP	Dentate Gyrus
+green	black		BP	Dentate Gyrus
+green	plum1	0.375	BP	Dentate Gyrus
+green	tan	0.521	BP	Dentate Gyrus
+green	white	0.133	BP	Dentate Gyrus
+green	red	0.544	BP	Dentate Gyrus
+green	purple	1	BP	Dentate Gyrus
+green	skyblue	1	BP	Dentate Gyrus
+green	lightyellow		BP	Dentate Gyrus
+green	midnightblue	0.335	BP	Dentate Gyrus
+green	paleturquoise	0.396	BP	Dentate Gyrus
+green	cyan	0.368	BP	Dentate Gyrus
+green	orange		BP	Dentate Gyrus
+green	lightgreen	0.073	BP	Dentate Gyrus
+green	darkred		BP	Dentate Gyrus
+green	darkmagenta	0.436	BP	Dentate Gyrus
+green	yellowgreen	0.124	BP	Dentate Gyrus
+green	sienna3	0.151	BP	Dentate Gyrus
+plum1	greenyellow	0.032	BP	Dentate Gyrus
+plum1	brown	0.375	BP	Dentate Gyrus
+plum1	grey	0.375	BP	Dentate Gyrus
+plum1	blue	0.457	BP	Dentate Gyrus
+plum1	darkgreen	0.184	BP	Dentate Gyrus
+plum1	lightcyan	0.457	BP	Dentate Gyrus
+plum1	turquoise	0.457	BP	Dentate Gyrus
+plum1	pink	0.217	BP	Dentate Gyrus
+plum1	violet	0.068	BP	Dentate Gyrus
+plum1	magenta	0.457	BP	Dentate Gyrus
+plum1	salmon		BP	Dentate Gyrus
+plum1	royalblue	0.06	BP	Dentate Gyrus
+plum1	darkorange		BP	Dentate Gyrus
+plum1	saddlebrown	0.183	BP	Dentate Gyrus
+plum1	darkturquoise	0.021	BP	Dentate Gyrus
+plum1	yellow		BP	Dentate Gyrus
+plum1	darkgrey		BP	Dentate Gyrus
+plum1	black		BP	Dentate Gyrus
+plum1	green	0.375	BP	Dentate Gyrus
+plum1	tan	0.115	BP	Dentate Gyrus
+plum1	white	0.077	BP	Dentate Gyrus
+plum1	red	0.457	BP	Dentate Gyrus
+plum1	purple	0.072	BP	Dentate Gyrus
+plum1	skyblue	0.059	BP	Dentate Gyrus
+plum1	lightyellow		BP	Dentate Gyrus
+plum1	midnightblue	0.237	BP	Dentate Gyrus
+plum1	paleturquoise	0.248	BP	Dentate Gyrus
+plum1	cyan	0.075	BP	Dentate Gyrus
+plum1	orange		BP	Dentate Gyrus
+plum1	lightgreen	0.112	BP	Dentate Gyrus
+plum1	darkred		BP	Dentate Gyrus
+plum1	darkmagenta	0.262	BP	Dentate Gyrus
+plum1	yellowgreen	0.152	BP	Dentate Gyrus
+plum1	sienna3	0.314	BP	Dentate Gyrus
+tan	greenyellow	0.313	BP	Dentate Gyrus
+tan	brown	0.295	BP	Dentate Gyrus
+tan	grey	0.474	BP	Dentate Gyrus
+tan	blue	0.205	BP	Dentate Gyrus
+tan	darkgreen	0.133	BP	Dentate Gyrus
+tan	lightcyan	0.155	BP	Dentate Gyrus
+tan	turquoise	0.315	BP	Dentate Gyrus
+tan	pink	0.188	BP	Dentate Gyrus
+tan	violet	0.108	BP	Dentate Gyrus
+tan	magenta	0.16	BP	Dentate Gyrus
+tan	salmon		BP	Dentate Gyrus
+tan	royalblue	0.22	BP	Dentate Gyrus
+tan	darkorange		BP	Dentate Gyrus
+tan	saddlebrown	0.226	BP	Dentate Gyrus
+tan	darkturquoise	0.305	BP	Dentate Gyrus
+tan	yellow		BP	Dentate Gyrus
+tan	darkgrey		BP	Dentate Gyrus
+tan	black		BP	Dentate Gyrus
+tan	green	0.521	BP	Dentate Gyrus
+tan	plum1	0.115	BP	Dentate Gyrus
+tan	white	0.283	BP	Dentate Gyrus
+tan	red	0.368	BP	Dentate Gyrus
+tan	purple	0.402	BP	Dentate Gyrus
+tan	skyblue	0.353	BP	Dentate Gyrus
+tan	lightyellow		BP	Dentate Gyrus
+tan	midnightblue	0.169	BP	Dentate Gyrus
+tan	paleturquoise	0.329	BP	Dentate Gyrus
+tan	cyan	0.21	BP	Dentate Gyrus
+tan	orange		BP	Dentate Gyrus
+tan	lightgreen	0.271	BP	Dentate Gyrus
+tan	darkred		BP	Dentate Gyrus
+tan	darkmagenta	0.243	BP	Dentate Gyrus
+tan	yellowgreen	0.22	BP	Dentate Gyrus
+tan	sienna3	0.1	BP	Dentate Gyrus
+white	greenyellow	0.024	BP	Dentate Gyrus
+white	brown	0.289	BP	Dentate Gyrus
+white	grey	0.091	BP	Dentate Gyrus
+white	blue	0.145	BP	Dentate Gyrus
+white	darkgreen	0.131	BP	Dentate Gyrus
+white	lightcyan	0.224	BP	Dentate Gyrus
+white	turquoise	0.385	BP	Dentate Gyrus
+white	pink	0.346	BP	Dentate Gyrus
+white	violet	0.014	BP	Dentate Gyrus
+white	magenta	0.339	BP	Dentate Gyrus
+white	salmon		BP	Dentate Gyrus
+white	royalblue	0.029	BP	Dentate Gyrus
+white	darkorange		BP	Dentate Gyrus
+white	saddlebrown	0.062	BP	Dentate Gyrus
+white	darkturquoise	0.014	BP	Dentate Gyrus
+white	yellow		BP	Dentate Gyrus
+white	darkgrey		BP	Dentate Gyrus
+white	black		BP	Dentate Gyrus
+white	green	0.133	BP	Dentate Gyrus
+white	plum1	0.077	BP	Dentate Gyrus
+white	tan	0.283	BP	Dentate Gyrus
+white	red	0.283	BP	Dentate Gyrus
+white	purple	0.016	BP	Dentate Gyrus
+white	skyblue	0.014	BP	Dentate Gyrus
+white	lightyellow		BP	Dentate Gyrus
+white	midnightblue	0.027	BP	Dentate Gyrus
+white	paleturquoise	0.147	BP	Dentate Gyrus
+white	cyan	0.017	BP	Dentate Gyrus
+white	orange		BP	Dentate Gyrus
+white	lightgreen	0.283	BP	Dentate Gyrus
+white	darkred		BP	Dentate Gyrus
+white	darkmagenta	0.152	BP	Dentate Gyrus
+white	yellowgreen	0.157	BP	Dentate Gyrus
+white	sienna3	0.132	BP	Dentate Gyrus
+red	greenyellow	0.224	BP	Dentate Gyrus
+red	brown	0.453	BP	Dentate Gyrus
+red	grey	0.39	BP	Dentate Gyrus
+red	blue	0.406	BP	Dentate Gyrus
+red	darkgreen	0.138	BP	Dentate Gyrus
+red	lightcyan	0.341	BP	Dentate Gyrus
+red	turquoise	0.556	BP	Dentate Gyrus
+red	pink	0.198	BP	Dentate Gyrus
+red	violet	0.179	BP	Dentate Gyrus
+red	magenta	0.39	BP	Dentate Gyrus
+red	salmon		BP	Dentate Gyrus
+red	royalblue	0.115	BP	Dentate Gyrus
+red	darkorange		BP	Dentate Gyrus
+red	saddlebrown	0.266	BP	Dentate Gyrus
+red	darkturquoise	0.21	BP	Dentate Gyrus
+red	yellow		BP	Dentate Gyrus
+red	darkgrey		BP	Dentate Gyrus
+red	black		BP	Dentate Gyrus
+red	green	0.544	BP	Dentate Gyrus
+red	plum1	0.457	BP	Dentate Gyrus
+red	tan	0.368	BP	Dentate Gyrus
+red	white	0.283	BP	Dentate Gyrus
+red	purple	0.753	BP	Dentate Gyrus
+red	skyblue	0.931	BP	Dentate Gyrus
+red	lightyellow		BP	Dentate Gyrus
+red	midnightblue	0.243	BP	Dentate Gyrus
+red	paleturquoise	0.268	BP	Dentate Gyrus
+red	cyan	0.165	BP	Dentate Gyrus
+red	orange		BP	Dentate Gyrus
+red	lightgreen	0.2	BP	Dentate Gyrus
+red	darkred		BP	Dentate Gyrus
+red	darkmagenta	0.415	BP	Dentate Gyrus
+red	yellowgreen	0.212	BP	Dentate Gyrus
+red	sienna3	0.253	BP	Dentate Gyrus
+purple	greenyellow	0.139	BP	Dentate Gyrus
+purple	brown	0.304	BP	Dentate Gyrus
+purple	grey	1	BP	Dentate Gyrus
+purple	blue	0.23	BP	Dentate Gyrus
+purple	darkgreen	0.086	BP	Dentate Gyrus
+purple	lightcyan	0.866	BP	Dentate Gyrus
+purple	turquoise	1	BP	Dentate Gyrus
+purple	pink	0.064	BP	Dentate Gyrus
+purple	violet	0.053	BP	Dentate Gyrus
+purple	magenta	0.814	BP	Dentate Gyrus
+purple	salmon		BP	Dentate Gyrus
+purple	royalblue	0.366	BP	Dentate Gyrus
+purple	darkorange		BP	Dentate Gyrus
+purple	saddlebrown	0.693	BP	Dentate Gyrus
+purple	darkturquoise	0.219	BP	Dentate Gyrus
+purple	yellow		BP	Dentate Gyrus
+purple	darkgrey		BP	Dentate Gyrus
+purple	black		BP	Dentate Gyrus
+purple	green	1	BP	Dentate Gyrus
+purple	plum1	0.072	BP	Dentate Gyrus
+purple	tan	0.402	BP	Dentate Gyrus
+purple	white	0.016	BP	Dentate Gyrus
+purple	red	0.753	BP	Dentate Gyrus
+purple	skyblue	0.814	BP	Dentate Gyrus
+purple	lightyellow		BP	Dentate Gyrus
+purple	midnightblue	0.753	BP	Dentate Gyrus
+purple	paleturquoise	0.402	BP	Dentate Gyrus
+purple	cyan	1	BP	Dentate Gyrus
+purple	orange		BP	Dentate Gyrus
+purple	lightgreen	0.038	BP	Dentate Gyrus
+purple	darkred		BP	Dentate Gyrus
+purple	darkmagenta	0.727	BP	Dentate Gyrus
+purple	yellowgreen	0.07	BP	Dentate Gyrus
+purple	sienna3	0.118	BP	Dentate Gyrus
+skyblue	greenyellow	0.119	BP	Dentate Gyrus
+skyblue	brown	0.261	BP	Dentate Gyrus
+skyblue	grey	0.814	BP	Dentate Gyrus
+skyblue	blue	0.199	BP	Dentate Gyrus
+skyblue	darkgreen	0.072	BP	Dentate Gyrus
+skyblue	lightcyan	0.931	BP	Dentate Gyrus
+skyblue	turquoise	0.814	BP	Dentate Gyrus
+skyblue	pink	0.053	BP	Dentate Gyrus
+skyblue	violet	0.043	BP	Dentate Gyrus
+skyblue	magenta	1	BP	Dentate Gyrus
+skyblue	salmon		BP	Dentate Gyrus
+skyblue	royalblue	0.4	BP	Dentate Gyrus
+skyblue	darkorange		BP	Dentate Gyrus
+skyblue	saddlebrown	0.835	BP	Dentate Gyrus
+skyblue	darkturquoise	0.199	BP	Dentate Gyrus
+skyblue	yellow		BP	Dentate Gyrus
+skyblue	darkgrey		BP	Dentate Gyrus
+skyblue	black		BP	Dentate Gyrus
+skyblue	green	1	BP	Dentate Gyrus
+skyblue	plum1	0.059	BP	Dentate Gyrus
+skyblue	tan	0.353	BP	Dentate Gyrus
+skyblue	white	0.014	BP	Dentate Gyrus
+skyblue	red	0.931	BP	Dentate Gyrus
+skyblue	purple	0.814	BP	Dentate Gyrus
+skyblue	lightyellow		BP	Dentate Gyrus
+skyblue	midnightblue	0.931	BP	Dentate Gyrus
+skyblue	paleturquoise	0.353	BP	Dentate Gyrus
+skyblue	cyan	0.814	BP	Dentate Gyrus
+skyblue	orange		BP	Dentate Gyrus
+skyblue	lightgreen	0.033	BP	Dentate Gyrus
+skyblue	darkred		BP	Dentate Gyrus
+skyblue	darkmagenta	0.585	BP	Dentate Gyrus
+skyblue	yellowgreen	0.094	BP	Dentate Gyrus
+skyblue	sienna3	0.092	BP	Dentate Gyrus
+lightyellow	greenyellow		BP	Dentate Gyrus
+lightyellow	brown		BP	Dentate Gyrus
+lightyellow	grey		BP	Dentate Gyrus
+lightyellow	blue		BP	Dentate Gyrus
+lightyellow	darkgreen		BP	Dentate Gyrus
+lightyellow	lightcyan		BP	Dentate Gyrus
+lightyellow	turquoise		BP	Dentate Gyrus
+lightyellow	pink		BP	Dentate Gyrus
+lightyellow	violet		BP	Dentate Gyrus
+lightyellow	magenta		BP	Dentate Gyrus
+lightyellow	salmon		BP	Dentate Gyrus
+lightyellow	royalblue		BP	Dentate Gyrus
+lightyellow	darkorange		BP	Dentate Gyrus
+lightyellow	saddlebrown		BP	Dentate Gyrus
+lightyellow	darkturquoise		BP	Dentate Gyrus
+lightyellow	yellow		BP	Dentate Gyrus
+lightyellow	darkgrey		BP	Dentate Gyrus
+lightyellow	black		BP	Dentate Gyrus
+lightyellow	green		BP	Dentate Gyrus
+lightyellow	plum1		BP	Dentate Gyrus
+lightyellow	tan		BP	Dentate Gyrus
+lightyellow	white		BP	Dentate Gyrus
+lightyellow	red		BP	Dentate Gyrus
+lightyellow	purple		BP	Dentate Gyrus
+lightyellow	skyblue		BP	Dentate Gyrus
+lightyellow	midnightblue		BP	Dentate Gyrus
+lightyellow	paleturquoise		BP	Dentate Gyrus
+lightyellow	cyan		BP	Dentate Gyrus
+lightyellow	orange		BP	Dentate Gyrus
+lightyellow	lightgreen		BP	Dentate Gyrus
+lightyellow	darkred		BP	Dentate Gyrus
+lightyellow	darkmagenta		BP	Dentate Gyrus
+lightyellow	yellowgreen		BP	Dentate Gyrus
+lightyellow	sienna3		BP	Dentate Gyrus
+midnightblue	greenyellow	0.09	BP	Dentate Gyrus
+midnightblue	brown	0.217	BP	Dentate Gyrus
+midnightblue	grey	0.375	BP	Dentate Gyrus
+midnightblue	blue	0.214	BP	Dentate Gyrus
+midnightblue	darkgreen	0.062	BP	Dentate Gyrus
+midnightblue	lightcyan	0.196	BP	Dentate Gyrus
+midnightblue	turquoise	0.207	BP	Dentate Gyrus
+midnightblue	pink	0.08	BP	Dentate Gyrus
+midnightblue	violet	0.076	BP	Dentate Gyrus
+midnightblue	magenta	0.17	BP	Dentate Gyrus
+midnightblue	salmon		BP	Dentate Gyrus
+midnightblue	royalblue	0.241	BP	Dentate Gyrus
+midnightblue	darkorange		BP	Dentate Gyrus
+midnightblue	saddlebrown	0.218	BP	Dentate Gyrus
+midnightblue	darkturquoise	0.21	BP	Dentate Gyrus
+midnightblue	yellow		BP	Dentate Gyrus
+midnightblue	darkgrey		BP	Dentate Gyrus
+midnightblue	black		BP	Dentate Gyrus
+midnightblue	green	0.335	BP	Dentate Gyrus
+midnightblue	plum1	0.237	BP	Dentate Gyrus
+midnightblue	tan	0.169	BP	Dentate Gyrus
+midnightblue	white	0.027	BP	Dentate Gyrus
+midnightblue	red	0.243	BP	Dentate Gyrus
+midnightblue	purple	0.753	BP	Dentate Gyrus
+midnightblue	skyblue	0.931	BP	Dentate Gyrus
+midnightblue	lightyellow		BP	Dentate Gyrus
+midnightblue	paleturquoise	0.191	BP	Dentate Gyrus
+midnightblue	cyan	0.504	BP	Dentate Gyrus
+midnightblue	orange		BP	Dentate Gyrus
+midnightblue	lightgreen	0.049	BP	Dentate Gyrus
+midnightblue	darkred		BP	Dentate Gyrus
+midnightblue	darkmagenta	0.223	BP	Dentate Gyrus
+midnightblue	yellowgreen	0.09	BP	Dentate Gyrus
+midnightblue	sienna3	0.16	BP	Dentate Gyrus
+paleturquoise	greenyellow	0.177	BP	Dentate Gyrus
+paleturquoise	brown	0.266	BP	Dentate Gyrus
+paleturquoise	grey	0.492	BP	Dentate Gyrus
+paleturquoise	blue	0.244	BP	Dentate Gyrus
+paleturquoise	darkgreen	0.474	BP	Dentate Gyrus
+paleturquoise	lightcyan	0.163	BP	Dentate Gyrus
+paleturquoise	turquoise	0.286	BP	Dentate Gyrus
+paleturquoise	pink	0.202	BP	Dentate Gyrus
+paleturquoise	violet	0.136	BP	Dentate Gyrus
+paleturquoise	magenta	0.161	BP	Dentate Gyrus
+paleturquoise	salmon		BP	Dentate Gyrus
+paleturquoise	royalblue	0.156	BP	Dentate Gyrus
+paleturquoise	darkorange		BP	Dentate Gyrus
+paleturquoise	saddlebrown	0.211	BP	Dentate Gyrus
+paleturquoise	darkturquoise	0.305	BP	Dentate Gyrus
+paleturquoise	yellow		BP	Dentate Gyrus
+paleturquoise	darkgrey		BP	Dentate Gyrus
+paleturquoise	black		BP	Dentate Gyrus
+paleturquoise	green	0.396	BP	Dentate Gyrus
+paleturquoise	plum1	0.248	BP	Dentate Gyrus
+paleturquoise	tan	0.329	BP	Dentate Gyrus
+paleturquoise	white	0.147	BP	Dentate Gyrus
+paleturquoise	red	0.268	BP	Dentate Gyrus
+paleturquoise	purple	0.402	BP	Dentate Gyrus
+paleturquoise	skyblue	0.353	BP	Dentate Gyrus
+paleturquoise	lightyellow		BP	Dentate Gyrus
+paleturquoise	midnightblue	0.191	BP	Dentate Gyrus
+paleturquoise	cyan	0.188	BP	Dentate Gyrus
+paleturquoise	orange		BP	Dentate Gyrus
+paleturquoise	lightgreen	0.082	BP	Dentate Gyrus
+paleturquoise	darkred		BP	Dentate Gyrus
+paleturquoise	darkmagenta	0.239	BP	Dentate Gyrus
+paleturquoise	yellowgreen	0.127	BP	Dentate Gyrus
+paleturquoise	sienna3	0.101	BP	Dentate Gyrus
+cyan	greenyellow	0.145	BP	Dentate Gyrus
+cyan	brown	0.153	BP	Dentate Gyrus
+cyan	grey	0.451	BP	Dentate Gyrus
+cyan	blue	0.099	BP	Dentate Gyrus
+cyan	darkgreen	0.071	BP	Dentate Gyrus
+cyan	lightcyan	0.11	BP	Dentate Gyrus
+cyan	turquoise	0.177	BP	Dentate Gyrus
+cyan	pink	0.053	BP	Dentate Gyrus
+cyan	violet	0.058	BP	Dentate Gyrus
+cyan	magenta	0.103	BP	Dentate Gyrus
+cyan	salmon		BP	Dentate Gyrus
+cyan	royalblue	0.37	BP	Dentate Gyrus
+cyan	darkorange		BP	Dentate Gyrus
+cyan	saddlebrown	0.227	BP	Dentate Gyrus
+cyan	darkturquoise	0.233	BP	Dentate Gyrus
+cyan	yellow		BP	Dentate Gyrus
+cyan	darkgrey		BP	Dentate Gyrus
+cyan	black		BP	Dentate Gyrus
+cyan	green	0.368	BP	Dentate Gyrus
+cyan	plum1	0.075	BP	Dentate Gyrus
+cyan	tan	0.21	BP	Dentate Gyrus
+cyan	white	0.017	BP	Dentate Gyrus
+cyan	red	0.165	BP	Dentate Gyrus
+cyan	purple	1	BP	Dentate Gyrus
+cyan	skyblue	0.814	BP	Dentate Gyrus
+cyan	lightyellow		BP	Dentate Gyrus
+cyan	midnightblue	0.504	BP	Dentate Gyrus
+cyan	paleturquoise	0.188	BP	Dentate Gyrus
+cyan	orange		BP	Dentate Gyrus
+cyan	lightgreen	0.035	BP	Dentate Gyrus
+cyan	darkred		BP	Dentate Gyrus
+cyan	darkmagenta	0.175	BP	Dentate Gyrus
+cyan	yellowgreen	0.067	BP	Dentate Gyrus
+cyan	sienna3	0.056	BP	Dentate Gyrus
+orange	greenyellow		BP	Dentate Gyrus
+orange	brown		BP	Dentate Gyrus
+orange	grey		BP	Dentate Gyrus
+orange	blue		BP	Dentate Gyrus
+orange	darkgreen		BP	Dentate Gyrus
+orange	lightcyan		BP	Dentate Gyrus
+orange	turquoise		BP	Dentate Gyrus
+orange	pink		BP	Dentate Gyrus
+orange	violet		BP	Dentate Gyrus
+orange	magenta		BP	Dentate Gyrus
+orange	salmon		BP	Dentate Gyrus
+orange	royalblue		BP	Dentate Gyrus
+orange	darkorange		BP	Dentate Gyrus
+orange	saddlebrown		BP	Dentate Gyrus
+orange	darkturquoise		BP	Dentate Gyrus
+orange	yellow		BP	Dentate Gyrus
+orange	darkgrey		BP	Dentate Gyrus
+orange	black		BP	Dentate Gyrus
+orange	green		BP	Dentate Gyrus
+orange	plum1		BP	Dentate Gyrus
+orange	tan		BP	Dentate Gyrus
+orange	white		BP	Dentate Gyrus
+orange	red		BP	Dentate Gyrus
+orange	purple		BP	Dentate Gyrus
+orange	skyblue		BP	Dentate Gyrus
+orange	lightyellow		BP	Dentate Gyrus
+orange	midnightblue		BP	Dentate Gyrus
+orange	paleturquoise		BP	Dentate Gyrus
+orange	cyan		BP	Dentate Gyrus
+orange	lightgreen		BP	Dentate Gyrus
+orange	darkred		BP	Dentate Gyrus
+orange	darkmagenta		BP	Dentate Gyrus
+orange	yellowgreen		BP	Dentate Gyrus
+orange	sienna3		BP	Dentate Gyrus
+lightgreen	greenyellow	0.047	BP	Dentate Gyrus
+lightgreen	brown	0.106	BP	Dentate Gyrus
+lightgreen	grey	0.073	BP	Dentate Gyrus
+lightgreen	blue	0.185	BP	Dentate Gyrus
+lightgreen	darkgreen	0.099	BP	Dentate Gyrus
+lightgreen	lightcyan	0.084	BP	Dentate Gyrus
+lightgreen	turquoise	0.183	BP	Dentate Gyrus
+lightgreen	pink	0.205	BP	Dentate Gyrus
+lightgreen	violet	0.113	BP	Dentate Gyrus
+lightgreen	magenta	0.165	BP	Dentate Gyrus
+lightgreen	salmon		BP	Dentate Gyrus
+lightgreen	royalblue	0.023	BP	Dentate Gyrus
+lightgreen	darkorange		BP	Dentate Gyrus
+lightgreen	saddlebrown	0.045	BP	Dentate Gyrus
+lightgreen	darkturquoise	0.03	BP	Dentate Gyrus
+lightgreen	yellow		BP	Dentate Gyrus
+lightgreen	darkgrey		BP	Dentate Gyrus
+lightgreen	black		BP	Dentate Gyrus
+lightgreen	green	0.073	BP	Dentate Gyrus
+lightgreen	plum1	0.112	BP	Dentate Gyrus
+lightgreen	tan	0.271	BP	Dentate Gyrus
+lightgreen	white	0.283	BP	Dentate Gyrus
+lightgreen	red	0.2	BP	Dentate Gyrus
+lightgreen	purple	0.038	BP	Dentate Gyrus
+lightgreen	skyblue	0.033	BP	Dentate Gyrus
+lightgreen	lightyellow		BP	Dentate Gyrus
+lightgreen	midnightblue	0.049	BP	Dentate Gyrus
+lightgreen	paleturquoise	0.082	BP	Dentate Gyrus
+lightgreen	cyan	0.035	BP	Dentate Gyrus
+lightgreen	orange		BP	Dentate Gyrus
+lightgreen	darkred		BP	Dentate Gyrus
+lightgreen	darkmagenta	0.176	BP	Dentate Gyrus
+lightgreen	yellowgreen	0.364	BP	Dentate Gyrus
+lightgreen	sienna3	0.091	BP	Dentate Gyrus
+darkred	greenyellow		BP	Dentate Gyrus
+darkred	brown		BP	Dentate Gyrus
+darkred	grey		BP	Dentate Gyrus
+darkred	blue		BP	Dentate Gyrus
+darkred	darkgreen		BP	Dentate Gyrus
+darkred	lightcyan		BP	Dentate Gyrus
+darkred	turquoise		BP	Dentate Gyrus
+darkred	pink		BP	Dentate Gyrus
+darkred	violet		BP	Dentate Gyrus
+darkred	magenta		BP	Dentate Gyrus
+darkred	salmon		BP	Dentate Gyrus
+darkred	royalblue		BP	Dentate Gyrus
+darkred	darkorange		BP	Dentate Gyrus
+darkred	saddlebrown		BP	Dentate Gyrus
+darkred	darkturquoise		BP	Dentate Gyrus
+darkred	yellow		BP	Dentate Gyrus
+darkred	darkgrey		BP	Dentate Gyrus
+darkred	black		BP	Dentate Gyrus
+darkred	green		BP	Dentate Gyrus
+darkred	plum1		BP	Dentate Gyrus
+darkred	tan		BP	Dentate Gyrus
+darkred	white		BP	Dentate Gyrus
+darkred	red		BP	Dentate Gyrus
+darkred	purple		BP	Dentate Gyrus
+darkred	skyblue		BP	Dentate Gyrus
+darkred	lightyellow		BP	Dentate Gyrus
+darkred	midnightblue		BP	Dentate Gyrus
+darkred	paleturquoise		BP	Dentate Gyrus
+darkred	cyan		BP	Dentate Gyrus
+darkred	orange		BP	Dentate Gyrus
+darkred	lightgreen		BP	Dentate Gyrus
+darkred	darkmagenta		BP	Dentate Gyrus
+darkred	yellowgreen		BP	Dentate Gyrus
+darkred	sienna3		BP	Dentate Gyrus
+darkmagenta	greenyellow	0.152	BP	Dentate Gyrus
+darkmagenta	brown	0.276	BP	Dentate Gyrus
+darkmagenta	grey	0.354	BP	Dentate Gyrus
+darkmagenta	blue	0.301	BP	Dentate Gyrus
+darkmagenta	darkgreen	0.107	BP	Dentate Gyrus
+darkmagenta	lightcyan	0.289	BP	Dentate Gyrus
+darkmagenta	turquoise	0.382	BP	Dentate Gyrus
+darkmagenta	pink	0.152	BP	Dentate Gyrus
+darkmagenta	violet	0.269	BP	Dentate Gyrus
+darkmagenta	magenta	0.321	BP	Dentate Gyrus
+darkmagenta	salmon		BP	Dentate Gyrus
+darkmagenta	royalblue	0.119	BP	Dentate Gyrus
+darkmagenta	darkorange		BP	Dentate Gyrus
+darkmagenta	saddlebrown	0.236	BP	Dentate Gyrus
+darkmagenta	darkturquoise	0.225	BP	Dentate Gyrus
+darkmagenta	yellow		BP	Dentate Gyrus
+darkmagenta	darkgrey		BP	Dentate Gyrus
+darkmagenta	black		BP	Dentate Gyrus
+darkmagenta	green	0.436	BP	Dentate Gyrus
+darkmagenta	plum1	0.262	BP	Dentate Gyrus
+darkmagenta	tan	0.243	BP	Dentate Gyrus
+darkmagenta	white	0.152	BP	Dentate Gyrus
+darkmagenta	red	0.415	BP	Dentate Gyrus
+darkmagenta	purple	0.727	BP	Dentate Gyrus
+darkmagenta	skyblue	0.585	BP	Dentate Gyrus
+darkmagenta	lightyellow		BP	Dentate Gyrus
+darkmagenta	midnightblue	0.223	BP	Dentate Gyrus
+darkmagenta	paleturquoise	0.239	BP	Dentate Gyrus
+darkmagenta	cyan	0.175	BP	Dentate Gyrus
+darkmagenta	orange		BP	Dentate Gyrus
+darkmagenta	lightgreen	0.176	BP	Dentate Gyrus
+darkmagenta	darkred		BP	Dentate Gyrus
+darkmagenta	yellowgreen	0.162	BP	Dentate Gyrus
+darkmagenta	sienna3	0.209	BP	Dentate Gyrus
+yellowgreen	greenyellow	0.07	BP	Dentate Gyrus
+yellowgreen	brown	0.106	BP	Dentate Gyrus
+yellowgreen	grey	0.122	BP	Dentate Gyrus
+yellowgreen	blue	0.162	BP	Dentate Gyrus
+yellowgreen	darkgreen	0.099	BP	Dentate Gyrus
+yellowgreen	lightcyan	0.11	BP	Dentate Gyrus
+yellowgreen	turquoise	0.169	BP	Dentate Gyrus
+yellowgreen	pink	0.341	BP	Dentate Gyrus
+yellowgreen	violet	0.12	BP	Dentate Gyrus
+yellowgreen	magenta	0.119	BP	Dentate Gyrus
+yellowgreen	salmon		BP	Dentate Gyrus
+yellowgreen	royalblue	0.058	BP	Dentate Gyrus
+yellowgreen	darkorange		BP	Dentate Gyrus
+yellowgreen	saddlebrown	0.07	BP	Dentate Gyrus
+yellowgreen	darkturquoise	0.037	BP	Dentate Gyrus
+yellowgreen	yellow		BP	Dentate Gyrus
+yellowgreen	darkgrey		BP	Dentate Gyrus
+yellowgreen	black		BP	Dentate Gyrus
+yellowgreen	green	0.124	BP	Dentate Gyrus
+yellowgreen	plum1	0.152	BP	Dentate Gyrus
+yellowgreen	tan	0.22	BP	Dentate Gyrus
+yellowgreen	white	0.157	BP	Dentate Gyrus
+yellowgreen	red	0.212	BP	Dentate Gyrus
+yellowgreen	purple	0.07	BP	Dentate Gyrus
+yellowgreen	skyblue	0.094	BP	Dentate Gyrus
+yellowgreen	lightyellow		BP	Dentate Gyrus
+yellowgreen	midnightblue	0.09	BP	Dentate Gyrus
+yellowgreen	paleturquoise	0.127	BP	Dentate Gyrus
+yellowgreen	cyan	0.067	BP	Dentate Gyrus
+yellowgreen	orange		BP	Dentate Gyrus
+yellowgreen	lightgreen	0.364	BP	Dentate Gyrus
+yellowgreen	darkred		BP	Dentate Gyrus
+yellowgreen	darkmagenta	0.162	BP	Dentate Gyrus
+yellowgreen	sienna3	0.116	BP	Dentate Gyrus
+sienna3	greenyellow	0.05	BP	Dentate Gyrus
+sienna3	brown	0.222	BP	Dentate Gyrus
+sienna3	grey	0.222	BP	Dentate Gyrus
+sienna3	blue	0.328	BP	Dentate Gyrus
+sienna3	darkgreen	0.074	BP	Dentate Gyrus
+sienna3	lightcyan	0.244	BP	Dentate Gyrus
+sienna3	turquoise	0.317	BP	Dentate Gyrus
+sienna3	pink	0.116	BP	Dentate Gyrus
+sienna3	violet	0.104	BP	Dentate Gyrus
+sienna3	magenta	0.269	BP	Dentate Gyrus
+sienna3	salmon		BP	Dentate Gyrus
+sienna3	royalblue	0.057	BP	Dentate Gyrus
+sienna3	darkorange		BP	Dentate Gyrus
+sienna3	saddlebrown	0.153	BP	Dentate Gyrus
+sienna3	darkturquoise	0.036	BP	Dentate Gyrus
+sienna3	yellow		BP	Dentate Gyrus
+sienna3	darkgrey		BP	Dentate Gyrus
+sienna3	black		BP	Dentate Gyrus
+sienna3	green	0.151	BP	Dentate Gyrus
+sienna3	plum1	0.314	BP	Dentate Gyrus
+sienna3	tan	0.1	BP	Dentate Gyrus
+sienna3	white	0.132	BP	Dentate Gyrus
+sienna3	red	0.253	BP	Dentate Gyrus
+sienna3	purple	0.118	BP	Dentate Gyrus
+sienna3	skyblue	0.092	BP	Dentate Gyrus
+sienna3	lightyellow		BP	Dentate Gyrus
+sienna3	midnightblue	0.16	BP	Dentate Gyrus
+sienna3	paleturquoise	0.101	BP	Dentate Gyrus
+sienna3	cyan	0.056	BP	Dentate Gyrus
+sienna3	orange		BP	Dentate Gyrus
+sienna3	lightgreen	0.091	BP	Dentate Gyrus
+sienna3	darkred		BP	Dentate Gyrus
+sienna3	darkmagenta	0.209	BP	Dentate Gyrus
+sienna3	yellowgreen	0.116	BP	Dentate Gyrus
+greenyellow	brown	0.779	CC	Dentate Gyrus
+greenyellow	grey	0.67	CC	Dentate Gyrus
+greenyellow	blue	0.657	CC	Dentate Gyrus
+greenyellow	darkgreen	0.525	CC	Dentate Gyrus
+greenyellow	lightcyan	0.702	CC	Dentate Gyrus
+greenyellow	turquoise	0.738	CC	Dentate Gyrus
+greenyellow	pink	0.593	CC	Dentate Gyrus
+greenyellow	violet		CC	Dentate Gyrus
+greenyellow	magenta	0.673	CC	Dentate Gyrus
+greenyellow	salmon	0.557	CC	Dentate Gyrus
+greenyellow	royalblue	0.659	CC	Dentate Gyrus
+greenyellow	darkorange	0.504	CC	Dentate Gyrus
+greenyellow	saddlebrown	0.578	CC	Dentate Gyrus
+greenyellow	darkturquoise		CC	Dentate Gyrus
+greenyellow	yellow	0.49	CC	Dentate Gyrus
+greenyellow	darkgrey		CC	Dentate Gyrus
+greenyellow	black	0.49	CC	Dentate Gyrus
+greenyellow	green	0.792	CC	Dentate Gyrus
+greenyellow	plum1	0.42	CC	Dentate Gyrus
+greenyellow	tan	0.757	CC	Dentate Gyrus
+greenyellow	white	0.6	CC	Dentate Gyrus
+greenyellow	red	0.8	CC	Dentate Gyrus
+greenyellow	purple	0.544	CC	Dentate Gyrus
+greenyellow	skyblue	0.687	CC	Dentate Gyrus
+greenyellow	lightyellow	0.489	CC	Dentate Gyrus
+greenyellow	midnightblue	0.67	CC	Dentate Gyrus
+greenyellow	paleturquoise	0.7	CC	Dentate Gyrus
+greenyellow	cyan	0.576	CC	Dentate Gyrus
+greenyellow	orange	0.573	CC	Dentate Gyrus
+greenyellow	lightgreen	0.745	CC	Dentate Gyrus
+greenyellow	darkred	0.589	CC	Dentate Gyrus
+greenyellow	darkmagenta	0.683	CC	Dentate Gyrus
+greenyellow	yellowgreen	0.589	CC	Dentate Gyrus
+greenyellow	sienna3	0.37	CC	Dentate Gyrus
+brown	greenyellow	0.779	CC	Dentate Gyrus
+brown	grey	0.76	CC	Dentate Gyrus
+brown	blue	0.648	CC	Dentate Gyrus
+brown	darkgreen	0.607	CC	Dentate Gyrus
+brown	lightcyan	0.616	CC	Dentate Gyrus
+brown	turquoise	0.68	CC	Dentate Gyrus
+brown	pink	0.544	CC	Dentate Gyrus
+brown	violet		CC	Dentate Gyrus
+brown	magenta	0.619	CC	Dentate Gyrus
+brown	salmon	0.615	CC	Dentate Gyrus
+brown	royalblue	0.685	CC	Dentate Gyrus
+brown	darkorange	0.479	CC	Dentate Gyrus
+brown	saddlebrown	0.489	CC	Dentate Gyrus
+brown	darkturquoise		CC	Dentate Gyrus
+brown	yellow	0.521	CC	Dentate Gyrus
+brown	darkgrey		CC	Dentate Gyrus
+brown	black	0.483	CC	Dentate Gyrus
+brown	green	0.744	CC	Dentate Gyrus
+brown	plum1	0.418	CC	Dentate Gyrus
+brown	tan	0.674	CC	Dentate Gyrus
+brown	white	0.683	CC	Dentate Gyrus
+brown	red	0.717	CC	Dentate Gyrus
+brown	purple	0.705	CC	Dentate Gyrus
+brown	skyblue	0.687	CC	Dentate Gyrus
+brown	lightyellow	0.55	CC	Dentate Gyrus
+brown	midnightblue	0.702	CC	Dentate Gyrus
+brown	paleturquoise	0.705	CC	Dentate Gyrus
+brown	cyan	0.751	CC	Dentate Gyrus
+brown	orange	0.621	CC	Dentate Gyrus
+brown	lightgreen	0.704	CC	Dentate Gyrus
+brown	darkred	0.643	CC	Dentate Gyrus
+brown	darkmagenta	0.609	CC	Dentate Gyrus
+brown	yellowgreen	0.644	CC	Dentate Gyrus
+brown	sienna3	0.332	CC	Dentate Gyrus
+grey	greenyellow	0.67	CC	Dentate Gyrus
+grey	brown	0.76	CC	Dentate Gyrus
+grey	blue	0.607	CC	Dentate Gyrus
+grey	darkgreen	0.581	CC	Dentate Gyrus
+grey	lightcyan	0.498	CC	Dentate Gyrus
+grey	turquoise	0.619	CC	Dentate Gyrus
+grey	pink	0.438	CC	Dentate Gyrus
+grey	violet		CC	Dentate Gyrus
+grey	magenta	0.575	CC	Dentate Gyrus
+grey	salmon	0.634	CC	Dentate Gyrus
+grey	royalblue	0.637	CC	Dentate Gyrus
+grey	darkorange	0.431	CC	Dentate Gyrus
+grey	saddlebrown	0.453	CC	Dentate Gyrus
+grey	darkturquoise		CC	Dentate Gyrus
+grey	yellow	0.498	CC	Dentate Gyrus
+grey	darkgrey		CC	Dentate Gyrus
+grey	black	0.486	CC	Dentate Gyrus
+grey	green	0.709	CC	Dentate Gyrus
+grey	plum1	0.455	CC	Dentate Gyrus
+grey	tan	0.704	CC	Dentate Gyrus
+grey	white	0.689	CC	Dentate Gyrus
+grey	red	0.649	CC	Dentate Gyrus
+grey	purple	0.626	CC	Dentate Gyrus
+grey	skyblue	0.33	CC	Dentate Gyrus
+grey	lightyellow	0.575	CC	Dentate Gyrus
+grey	midnightblue	0.703	CC	Dentate Gyrus
+grey	paleturquoise	0.744	CC	Dentate Gyrus
+grey	cyan	0.699	CC	Dentate Gyrus
+grey	orange	0.639	CC	Dentate Gyrus
+grey	lightgreen	0.65	CC	Dentate Gyrus
+grey	darkred	0.663	CC	Dentate Gyrus
+grey	darkmagenta	0.602	CC	Dentate Gyrus
+grey	yellowgreen	0.675	CC	Dentate Gyrus
+grey	sienna3	0.271	CC	Dentate Gyrus
+blue	greenyellow	0.657	CC	Dentate Gyrus
+blue	brown	0.648	CC	Dentate Gyrus
+blue	grey	0.607	CC	Dentate Gyrus
+blue	darkgreen	0.393	CC	Dentate Gyrus
+blue	lightcyan	0.72	CC	Dentate Gyrus
+blue	turquoise	0.797	CC	Dentate Gyrus
+blue	pink	0.554	CC	Dentate Gyrus
+blue	violet		CC	Dentate Gyrus
+blue	magenta	0.779	CC	Dentate Gyrus
+blue	salmon	0.399	CC	Dentate Gyrus
+blue	royalblue	0.649	CC	Dentate Gyrus
+blue	darkorange	0.475	CC	Dentate Gyrus
+blue	saddlebrown	0.361	CC	Dentate Gyrus
+blue	darkturquoise		CC	Dentate Gyrus
+blue	yellow	0.434	CC	Dentate Gyrus
+blue	darkgrey		CC	Dentate Gyrus
+blue	black	0.41	CC	Dentate Gyrus
+blue	green	0.662	CC	Dentate Gyrus
+blue	plum1	0.394	CC	Dentate Gyrus
+blue	tan	0.682	CC	Dentate Gyrus
+blue	white	0.551	CC	Dentate Gyrus
+blue	red	0.747	CC	Dentate Gyrus
+blue	purple	0.504	CC	Dentate Gyrus
+blue	skyblue	1	CC	Dentate Gyrus
+blue	lightyellow	0.402	CC	Dentate Gyrus
+blue	midnightblue	0.547	CC	Dentate Gyrus
+blue	paleturquoise	0.601	CC	Dentate Gyrus
+blue	cyan	0.481	CC	Dentate Gyrus
+blue	orange	0.454	CC	Dentate Gyrus
+blue	lightgreen	0.605	CC	Dentate Gyrus
+blue	darkred	0.466	CC	Dentate Gyrus
+blue	darkmagenta	0.533	CC	Dentate Gyrus
+blue	yellowgreen	0.482	CC	Dentate Gyrus
+blue	sienna3	0.448	CC	Dentate Gyrus
+darkgreen	greenyellow	0.525	CC	Dentate Gyrus
+darkgreen	brown	0.607	CC	Dentate Gyrus
+darkgreen	grey	0.581	CC	Dentate Gyrus
+darkgreen	blue	0.393	CC	Dentate Gyrus
+darkgreen	lightcyan	0.378	CC	Dentate Gyrus
+darkgreen	turquoise	0.391	CC	Dentate Gyrus
+darkgreen	pink	0.327	CC	Dentate Gyrus
+darkgreen	violet		CC	Dentate Gyrus
+darkgreen	magenta	0.359	CC	Dentate Gyrus
+darkgreen	salmon	0.644	CC	Dentate Gyrus
+darkgreen	royalblue	0.493	CC	Dentate Gyrus
+darkgreen	darkorange	0.339	CC	Dentate Gyrus
+darkgreen	saddlebrown	0.421	CC	Dentate Gyrus
+darkgreen	darkturquoise		CC	Dentate Gyrus
+darkgreen	yellow	0.498	CC	Dentate Gyrus
+darkgreen	darkgrey		CC	Dentate Gyrus
+darkgreen	black	0.332	CC	Dentate Gyrus
+darkgreen	green	0.56	CC	Dentate Gyrus
+darkgreen	plum1	0.288	CC	Dentate Gyrus
+darkgreen	tan	0.474	CC	Dentate Gyrus
+darkgreen	white	0.576	CC	Dentate Gyrus
+darkgreen	red	0.43	CC	Dentate Gyrus
+darkgreen	purple	0.597	CC	Dentate Gyrus
+darkgreen	skyblue	0.348	CC	Dentate Gyrus
+darkgreen	lightyellow	0.589	CC	Dentate Gyrus
+darkgreen	midnightblue	0.607	CC	Dentate Gyrus
+darkgreen	paleturquoise	0.623	CC	Dentate Gyrus
+darkgreen	cyan	0.588	CC	Dentate Gyrus
+darkgreen	orange	0.622	CC	Dentate Gyrus
+darkgreen	lightgreen	0.527	CC	Dentate Gyrus
+darkgreen	darkred	0.6	CC	Dentate Gyrus
+darkgreen	darkmagenta	0.477	CC	Dentate Gyrus
+darkgreen	yellowgreen	0.603	CC	Dentate Gyrus
+darkgreen	sienna3	0.239	CC	Dentate Gyrus
+lightcyan	greenyellow	0.702	CC	Dentate Gyrus
+lightcyan	brown	0.616	CC	Dentate Gyrus
+lightcyan	grey	0.498	CC	Dentate Gyrus
+lightcyan	blue	0.72	CC	Dentate Gyrus
+lightcyan	darkgreen	0.378	CC	Dentate Gyrus
+lightcyan	turquoise	0.707	CC	Dentate Gyrus
+lightcyan	pink	0.545	CC	Dentate Gyrus
+lightcyan	violet		CC	Dentate Gyrus
+lightcyan	magenta	0.764	CC	Dentate Gyrus
+lightcyan	salmon	0.335	CC	Dentate Gyrus
+lightcyan	royalblue	0.579	CC	Dentate Gyrus
+lightcyan	darkorange	0.466	CC	Dentate Gyrus
+lightcyan	saddlebrown	0.36	CC	Dentate Gyrus
+lightcyan	darkturquoise		CC	Dentate Gyrus
+lightcyan	yellow	0.457	CC	Dentate Gyrus
+lightcyan	darkgrey		CC	Dentate Gyrus
+lightcyan	black	0.37	CC	Dentate Gyrus
+lightcyan	green	0.657	CC	Dentate Gyrus
+lightcyan	plum1	0.326	CC	Dentate Gyrus
+lightcyan	tan	0.628	CC	Dentate Gyrus
+lightcyan	white	0.441	CC	Dentate Gyrus
+lightcyan	red	0.685	CC	Dentate Gyrus
+lightcyan	purple	0.493	CC	Dentate Gyrus
+lightcyan	skyblue	1	CC	Dentate Gyrus
+lightcyan	lightyellow	0.345	CC	Dentate Gyrus
+lightcyan	midnightblue	0.52	CC	Dentate Gyrus
+lightcyan	paleturquoise	0.59	CC	Dentate Gyrus
+lightcyan	cyan	0.398	CC	Dentate Gyrus
+lightcyan	orange	0.381	CC	Dentate Gyrus
+lightcyan	lightgreen	0.598	CC	Dentate Gyrus
+lightcyan	darkred	0.398	CC	Dentate Gyrus
+lightcyan	darkmagenta	0.533	CC	Dentate Gyrus
+lightcyan	yellowgreen	0.419	CC	Dentate Gyrus
+lightcyan	sienna3	0.503	CC	Dentate Gyrus
+turquoise	greenyellow	0.738	CC	Dentate Gyrus
+turquoise	brown	0.68	CC	Dentate Gyrus
+turquoise	grey	0.619	CC	Dentate Gyrus
+turquoise	blue	0.797	CC	Dentate Gyrus
+turquoise	darkgreen	0.391	CC	Dentate Gyrus
+turquoise	lightcyan	0.707	CC	Dentate Gyrus
+turquoise	pink	0.569	CC	Dentate Gyrus
+turquoise	violet		CC	Dentate Gyrus
+turquoise	magenta	0.731	CC	Dentate Gyrus
+turquoise	salmon	0.4	CC	Dentate Gyrus
+turquoise	royalblue	0.658	CC	Dentate Gyrus
+turquoise	darkorange	0.479	CC	Dentate Gyrus
+turquoise	saddlebrown	0.384	CC	Dentate Gyrus
+turquoise	darkturquoise		CC	Dentate Gyrus
+turquoise	yellow	0.417	CC	Dentate Gyrus
+turquoise	darkgrey		CC	Dentate Gyrus
+turquoise	black	0.423	CC	Dentate Gyrus
+turquoise	green	0.692	CC	Dentate Gyrus
+turquoise	plum1	0.399	CC	Dentate Gyrus
+turquoise	tan	0.762	CC	Dentate Gyrus
+turquoise	white	0.535	CC	Dentate Gyrus
+turquoise	red	0.836	CC	Dentate Gyrus
+turquoise	purple	0.496	CC	Dentate Gyrus
+turquoise	skyblue	1	CC	Dentate Gyrus
+turquoise	lightyellow	0.384	CC	Dentate Gyrus
+turquoise	midnightblue	0.527	CC	Dentate Gyrus
+turquoise	paleturquoise	0.591	CC	Dentate Gyrus
+turquoise	cyan	0.476	CC	Dentate Gyrus
+turquoise	orange	0.443	CC	Dentate Gyrus
+turquoise	lightgreen	0.66	CC	Dentate Gyrus
+turquoise	darkred	0.454	CC	Dentate Gyrus
+turquoise	darkmagenta	0.569	CC	Dentate Gyrus
+turquoise	yellowgreen	0.47	CC	Dentate Gyrus
+turquoise	sienna3	0.484	CC	Dentate Gyrus
+pink	greenyellow	0.593	CC	Dentate Gyrus
+pink	brown	0.544	CC	Dentate Gyrus
+pink	grey	0.438	CC	Dentate Gyrus
+pink	blue	0.554	CC	Dentate Gyrus
+pink	darkgreen	0.327	CC	Dentate Gyrus
+pink	lightcyan	0.545	CC	Dentate Gyrus
+pink	turquoise	0.569	CC	Dentate Gyrus
+pink	violet		CC	Dentate Gyrus
+pink	magenta	0.527	CC	Dentate Gyrus
+pink	salmon	0.345	CC	Dentate Gyrus
+pink	royalblue	0.676	CC	Dentate Gyrus
+pink	darkorange	0.731	CC	Dentate Gyrus
+pink	saddlebrown	0.394	CC	Dentate Gyrus
+pink	darkturquoise		CC	Dentate Gyrus
+pink	yellow	0.429	CC	Dentate Gyrus
+pink	darkgrey		CC	Dentate Gyrus
+pink	black	0.555	CC	Dentate Gyrus
+pink	green	0.466	CC	Dentate Gyrus
+pink	plum1	0.495	CC	Dentate Gyrus
+pink	tan	0.541	CC	Dentate Gyrus
+pink	white	0.498	CC	Dentate Gyrus
+pink	red	0.626	CC	Dentate Gyrus
+pink	purple	0.397	CC	Dentate Gyrus
+pink	skyblue	0.687	CC	Dentate Gyrus
+pink	lightyellow	0.466	CC	Dentate Gyrus
+pink	midnightblue	0.616	CC	Dentate Gyrus
+pink	paleturquoise	0.454	CC	Dentate Gyrus
+pink	cyan	0.442	CC	Dentate Gyrus
+pink	orange	0.448	CC	Dentate Gyrus
+pink	lightgreen	0.605	CC	Dentate Gyrus
+pink	darkred	0.513	CC	Dentate Gyrus
+pink	darkmagenta	0.5	CC	Dentate Gyrus
+pink	yellowgreen	0.405	CC	Dentate Gyrus
+pink	sienna3	0.636	CC	Dentate Gyrus
+violet	greenyellow		CC	Dentate Gyrus
+violet	brown		CC	Dentate Gyrus
+violet	grey		CC	Dentate Gyrus
+violet	blue		CC	Dentate Gyrus
+violet	darkgreen		CC	Dentate Gyrus
+violet	lightcyan		CC	Dentate Gyrus
+violet	turquoise		CC	Dentate Gyrus
+violet	pink		CC	Dentate Gyrus
+violet	magenta		CC	Dentate Gyrus
+violet	salmon		CC	Dentate Gyrus
+violet	royalblue		CC	Dentate Gyrus
+violet	darkorange		CC	Dentate Gyrus
+violet	saddlebrown		CC	Dentate Gyrus
+violet	darkturquoise		CC	Dentate Gyrus
+violet	yellow		CC	Dentate Gyrus
+violet	darkgrey		CC	Dentate Gyrus
+violet	black		CC	Dentate Gyrus
+violet	green		CC	Dentate Gyrus
+violet	plum1		CC	Dentate Gyrus
+violet	tan		CC	Dentate Gyrus
+violet	white		CC	Dentate Gyrus
+violet	red		CC	Dentate Gyrus
+violet	purple		CC	Dentate Gyrus
+violet	skyblue		CC	Dentate Gyrus
+violet	lightyellow		CC	Dentate Gyrus
+violet	midnightblue		CC	Dentate Gyrus
+violet	paleturquoise		CC	Dentate Gyrus
+violet	cyan		CC	Dentate Gyrus
+violet	orange		CC	Dentate Gyrus
+violet	lightgreen		CC	Dentate Gyrus
+violet	darkred		CC	Dentate Gyrus
+violet	darkmagenta		CC	Dentate Gyrus
+violet	yellowgreen		CC	Dentate Gyrus
+violet	sienna3		CC	Dentate Gyrus
+magenta	greenyellow	0.673	CC	Dentate Gyrus
+magenta	brown	0.619	CC	Dentate Gyrus
+magenta	grey	0.575	CC	Dentate Gyrus
+magenta	blue	0.779	CC	Dentate Gyrus
+magenta	darkgreen	0.359	CC	Dentate Gyrus
+magenta	lightcyan	0.764	CC	Dentate Gyrus
+magenta	turquoise	0.731	CC	Dentate Gyrus
+magenta	pink	0.527	CC	Dentate Gyrus
+magenta	violet		CC	Dentate Gyrus
+magenta	salmon	0.365	CC	Dentate Gyrus
+magenta	royalblue	0.6	CC	Dentate Gyrus
+magenta	darkorange	0.503	CC	Dentate Gyrus
+magenta	saddlebrown	0.329	CC	Dentate Gyrus
+magenta	darkturquoise		CC	Dentate Gyrus
+magenta	yellow	0.452	CC	Dentate Gyrus
+magenta	darkgrey		CC	Dentate Gyrus
+magenta	black	0.433	CC	Dentate Gyrus
+magenta	green	0.632	CC	Dentate Gyrus
+magenta	plum1	0.375	CC	Dentate Gyrus
+magenta	tan	0.649	CC	Dentate Gyrus
+magenta	white	0.49	CC	Dentate Gyrus
+magenta	red	0.687	CC	Dentate Gyrus
+magenta	purple	0.489	CC	Dentate Gyrus
+magenta	skyblue	1	CC	Dentate Gyrus
+magenta	lightyellow	0.388	CC	Dentate Gyrus
+magenta	midnightblue	0.555	CC	Dentate Gyrus
+magenta	paleturquoise	0.614	CC	Dentate Gyrus
+magenta	cyan	0.446	CC	Dentate Gyrus
+magenta	orange	0.44	CC	Dentate Gyrus
+magenta	lightgreen	0.63	CC	Dentate Gyrus
+magenta	darkred	0.453	CC	Dentate Gyrus
+magenta	darkmagenta	0.53	CC	Dentate Gyrus
+magenta	yellowgreen	0.464	CC	Dentate Gyrus
+magenta	sienna3	0.461	CC	Dentate Gyrus
+salmon	greenyellow	0.557	CC	Dentate Gyrus
+salmon	brown	0.615	CC	Dentate Gyrus
+salmon	grey	0.634	CC	Dentate Gyrus
+salmon	blue	0.399	CC	Dentate Gyrus
+salmon	darkgreen	0.644	CC	Dentate Gyrus
+salmon	lightcyan	0.335	CC	Dentate Gyrus
+salmon	turquoise	0.4	CC	Dentate Gyrus
+salmon	pink	0.345	CC	Dentate Gyrus
+salmon	violet		CC	Dentate Gyrus
+salmon	magenta	0.365	CC	Dentate Gyrus
+salmon	royalblue	0.55	CC	Dentate Gyrus
+salmon	darkorange	0.361	CC	Dentate Gyrus
+salmon	saddlebrown	0.563	CC	Dentate Gyrus
+salmon	darkturquoise		CC	Dentate Gyrus
+salmon	yellow	0.734	CC	Dentate Gyrus
+salmon	darkgrey		CC	Dentate Gyrus
+salmon	black	0.45	CC	Dentate Gyrus
+salmon	green	0.559	CC	Dentate Gyrus
+salmon	plum1	0.372	CC	Dentate Gyrus
+salmon	tan	0.556	CC	Dentate Gyrus
+salmon	white	0.691	CC	Dentate Gyrus
+salmon	red	0.473	CC	Dentate Gyrus
+salmon	purple	0.71	CC	Dentate Gyrus
+salmon	skyblue	0.222	CC	Dentate Gyrus
+salmon	lightyellow	0.718	CC	Dentate Gyrus
+salmon	midnightblue	0.762	CC	Dentate Gyrus
+salmon	paleturquoise	0.545	CC	Dentate Gyrus
+salmon	cyan	0.749	CC	Dentate Gyrus
+salmon	orange	0.87	CC	Dentate Gyrus
+salmon	lightgreen	0.587	CC	Dentate Gyrus
+salmon	darkred	0.826	CC	Dentate Gyrus
+salmon	darkmagenta	0.503	CC	Dentate Gyrus
+salmon	yellowgreen	0.737	CC	Dentate Gyrus
+salmon	sienna3	0.227	CC	Dentate Gyrus
+royalblue	greenyellow	0.659	CC	Dentate Gyrus
+royalblue	brown	0.685	CC	Dentate Gyrus
+royalblue	grey	0.637	CC	Dentate Gyrus
+royalblue	blue	0.649	CC	Dentate Gyrus
+royalblue	darkgreen	0.493	CC	Dentate Gyrus
+royalblue	lightcyan	0.579	CC	Dentate Gyrus
+royalblue	turquoise	0.658	CC	Dentate Gyrus
+royalblue	pink	0.676	CC	Dentate Gyrus
+royalblue	violet		CC	Dentate Gyrus
+royalblue	magenta	0.6	CC	Dentate Gyrus
+royalblue	salmon	0.55	CC	Dentate Gyrus
+royalblue	darkorange	0.571	CC	Dentate Gyrus
+royalblue	saddlebrown	0.399	CC	Dentate Gyrus
+royalblue	darkturquoise		CC	Dentate Gyrus
+royalblue	yellow	0.47	CC	Dentate Gyrus
+royalblue	darkgrey		CC	Dentate Gyrus
+royalblue	black	0.526	CC	Dentate Gyrus
+royalblue	green	0.725	CC	Dentate Gyrus
+royalblue	plum1	0.438	CC	Dentate Gyrus
+royalblue	tan	0.776	CC	Dentate Gyrus
+royalblue	white	0.777	CC	Dentate Gyrus
+royalblue	red	0.724	CC	Dentate Gyrus
+royalblue	purple	0.534	CC	Dentate Gyrus
+royalblue	skyblue	0.687	CC	Dentate Gyrus
+royalblue	lightyellow	0.558	CC	Dentate Gyrus
+royalblue	midnightblue	0.695	CC	Dentate Gyrus
+royalblue	paleturquoise	0.664	CC	Dentate Gyrus
+royalblue	cyan	0.591	CC	Dentate Gyrus
+royalblue	orange	0.63	CC	Dentate Gyrus
+royalblue	lightgreen	0.766	CC	Dentate Gyrus
+royalblue	darkred	0.656	CC	Dentate Gyrus
+royalblue	darkmagenta	0.632	CC	Dentate Gyrus
+royalblue	yellowgreen	0.624	CC	Dentate Gyrus
+royalblue	sienna3	0.39	CC	Dentate Gyrus
+darkorange	greenyellow	0.504	CC	Dentate Gyrus
+darkorange	brown	0.479	CC	Dentate Gyrus
+darkorange	grey	0.431	CC	Dentate Gyrus
+darkorange	blue	0.475	CC	Dentate Gyrus
+darkorange	darkgreen	0.339	CC	Dentate Gyrus
+darkorange	lightcyan	0.466	CC	Dentate Gyrus
+darkorange	turquoise	0.479	CC	Dentate Gyrus
+darkorange	pink	0.731	CC	Dentate Gyrus
+darkorange	violet		CC	Dentate Gyrus
+darkorange	magenta	0.503	CC	Dentate Gyrus
+darkorange	salmon	0.361	CC	Dentate Gyrus
+darkorange	royalblue	0.571	CC	Dentate Gyrus
+darkorange	saddlebrown	0.392	CC	Dentate Gyrus
+darkorange	darkturquoise		CC	Dentate Gyrus
+darkorange	yellow	0.46	CC	Dentate Gyrus
+darkorange	darkgrey		CC	Dentate Gyrus
+darkorange	black	0.748	CC	Dentate Gyrus
+darkorange	green	0.407	CC	Dentate Gyrus
+darkorange	plum1	0.615	CC	Dentate Gyrus
+darkorange	tan	0.448	CC	Dentate Gyrus
+darkorange	white	0.577	CC	Dentate Gyrus
+darkorange	red	0.502	CC	Dentate Gyrus
+darkorange	purple	0.391	CC	Dentate Gyrus
+darkorange	skyblue	0.687	CC	Dentate Gyrus
+darkorange	lightyellow	0.61	CC	Dentate Gyrus
+darkorange	midnightblue	0.667	CC	Dentate Gyrus
+darkorange	paleturquoise	0.438	CC	Dentate Gyrus
+darkorange	cyan	0.507	CC	Dentate Gyrus
+darkorange	orange	0.524	CC	Dentate Gyrus
+darkorange	lightgreen	0.57	CC	Dentate Gyrus
+darkorange	darkred	0.615	CC	Dentate Gyrus
+darkorange	darkmagenta	0.495	CC	Dentate Gyrus
+darkorange	yellowgreen	0.424	CC	Dentate Gyrus
+darkorange	sienna3	0.563	CC	Dentate Gyrus
+saddlebrown	greenyellow	0.578	CC	Dentate Gyrus
+saddlebrown	brown	0.489	CC	Dentate Gyrus
+saddlebrown	grey	0.453	CC	Dentate Gyrus
+saddlebrown	blue	0.361	CC	Dentate Gyrus
+saddlebrown	darkgreen	0.421	CC	Dentate Gyrus
+saddlebrown	lightcyan	0.36	CC	Dentate Gyrus
+saddlebrown	turquoise	0.384	CC	Dentate Gyrus
+saddlebrown	pink	0.394	CC	Dentate Gyrus
+saddlebrown	violet		CC	Dentate Gyrus
+saddlebrown	magenta	0.329	CC	Dentate Gyrus
+saddlebrown	salmon	0.563	CC	Dentate Gyrus
+saddlebrown	royalblue	0.399	CC	Dentate Gyrus
+saddlebrown	darkorange	0.392	CC	Dentate Gyrus
+saddlebrown	darkturquoise		CC	Dentate Gyrus
+saddlebrown	yellow	0.463	CC	Dentate Gyrus
+saddlebrown	darkgrey		CC	Dentate Gyrus
+saddlebrown	black	0.403	CC	Dentate Gyrus
+saddlebrown	green	0.468	CC	Dentate Gyrus
+saddlebrown	plum1	0.327	CC	Dentate Gyrus
+saddlebrown	tan	0.472	CC	Dentate Gyrus
+saddlebrown	white	0.433	CC	Dentate Gyrus
+saddlebrown	red	0.456	CC	Dentate Gyrus
+saddlebrown	purple	0.432	CC	Dentate Gyrus
+saddlebrown	skyblue	0.325	CC	Dentate Gyrus
+saddlebrown	lightyellow	0.422	CC	Dentate Gyrus
+saddlebrown	midnightblue	0.547	CC	Dentate Gyrus
+saddlebrown	paleturquoise	0.415	CC	Dentate Gyrus
+saddlebrown	cyan	0.46	CC	Dentate Gyrus
+saddlebrown	orange	0.511	CC	Dentate Gyrus
+saddlebrown	lightgreen	0.475	CC	Dentate Gyrus
+saddlebrown	darkred	0.507	CC	Dentate Gyrus
+saddlebrown	darkmagenta	0.376	CC	Dentate Gyrus
+saddlebrown	yellowgreen	0.465	CC	Dentate Gyrus
+saddlebrown	sienna3	0.258	CC	Dentate Gyrus
+darkturquoise	greenyellow		CC	Dentate Gyrus
+darkturquoise	brown		CC	Dentate Gyrus
+darkturquoise	grey		CC	Dentate Gyrus
+darkturquoise	blue		CC	Dentate Gyrus
+darkturquoise	darkgreen		CC	Dentate Gyrus
+darkturquoise	lightcyan		CC	Dentate Gyrus
+darkturquoise	turquoise		CC	Dentate Gyrus
+darkturquoise	pink		CC	Dentate Gyrus
+darkturquoise	violet		CC	Dentate Gyrus
+darkturquoise	magenta		CC	Dentate Gyrus
+darkturquoise	salmon		CC	Dentate Gyrus
+darkturquoise	royalblue		CC	Dentate Gyrus
+darkturquoise	darkorange		CC	Dentate Gyrus
+darkturquoise	saddlebrown		CC	Dentate Gyrus
+darkturquoise	yellow		CC	Dentate Gyrus
+darkturquoise	darkgrey		CC	Dentate Gyrus
+darkturquoise	black		CC	Dentate Gyrus
+darkturquoise	green		CC	Dentate Gyrus
+darkturquoise	plum1		CC	Dentate Gyrus
+darkturquoise	tan		CC	Dentate Gyrus
+darkturquoise	white		CC	Dentate Gyrus
+darkturquoise	red		CC	Dentate Gyrus
+darkturquoise	purple		CC	Dentate Gyrus
+darkturquoise	skyblue		CC	Dentate Gyrus
+darkturquoise	lightyellow		CC	Dentate Gyrus
+darkturquoise	midnightblue		CC	Dentate Gyrus
+darkturquoise	paleturquoise		CC	Dentate Gyrus
+darkturquoise	cyan		CC	Dentate Gyrus
+darkturquoise	orange		CC	Dentate Gyrus
+darkturquoise	lightgreen		CC	Dentate Gyrus
+darkturquoise	darkred		CC	Dentate Gyrus
+darkturquoise	darkmagenta		CC	Dentate Gyrus
+darkturquoise	yellowgreen		CC	Dentate Gyrus
+darkturquoise	sienna3		CC	Dentate Gyrus
+yellow	greenyellow	0.49	CC	Dentate Gyrus
+yellow	brown	0.521	CC	Dentate Gyrus
+yellow	grey	0.498	CC	Dentate Gyrus
+yellow	blue	0.434	CC	Dentate Gyrus
+yellow	darkgreen	0.498	CC	Dentate Gyrus
+yellow	lightcyan	0.457	CC	Dentate Gyrus
+yellow	turquoise	0.417	CC	Dentate Gyrus
+yellow	pink	0.429	CC	Dentate Gyrus
+yellow	violet		CC	Dentate Gyrus
+yellow	magenta	0.452	CC	Dentate Gyrus
+yellow	salmon	0.734	CC	Dentate Gyrus
+yellow	royalblue	0.47	CC	Dentate Gyrus
+yellow	darkorange	0.46	CC	Dentate Gyrus
+yellow	saddlebrown	0.463	CC	Dentate Gyrus
+yellow	darkturquoise		CC	Dentate Gyrus
+yellow	darkgrey		CC	Dentate Gyrus
+yellow	black	0.345	CC	Dentate Gyrus
+yellow	green	0.468	CC	Dentate Gyrus
+yellow	plum1	0.309	CC	Dentate Gyrus
+yellow	tan	0.476	CC	Dentate Gyrus
+yellow	white	0.529	CC	Dentate Gyrus
+yellow	red	0.431	CC	Dentate Gyrus
+yellow	purple	0.743	CC	Dentate Gyrus
+yellow	skyblue	1	CC	Dentate Gyrus
+yellow	lightyellow	0.52	CC	Dentate Gyrus
+yellow	midnightblue	0.656	CC	Dentate Gyrus
+yellow	paleturquoise	0.453	CC	Dentate Gyrus
+yellow	cyan	0.587	CC	Dentate Gyrus
+yellow	orange	0.689	CC	Dentate Gyrus
+yellow	lightgreen	0.499	CC	Dentate Gyrus
+yellow	darkred	0.632	CC	Dentate Gyrus
+yellow	darkmagenta	0.353	CC	Dentate Gyrus
+yellow	yellowgreen	0.607	CC	Dentate Gyrus
+yellow	sienna3	0.504	CC	Dentate Gyrus
+darkgrey	greenyellow		CC	Dentate Gyrus
+darkgrey	brown		CC	Dentate Gyrus
+darkgrey	grey		CC	Dentate Gyrus
+darkgrey	blue		CC	Dentate Gyrus
+darkgrey	darkgreen		CC	Dentate Gyrus
+darkgrey	lightcyan		CC	Dentate Gyrus
+darkgrey	turquoise		CC	Dentate Gyrus
+darkgrey	pink		CC	Dentate Gyrus
+darkgrey	violet		CC	Dentate Gyrus
+darkgrey	magenta		CC	Dentate Gyrus
+darkgrey	salmon		CC	Dentate Gyrus
+darkgrey	royalblue		CC	Dentate Gyrus
+darkgrey	darkorange		CC	Dentate Gyrus
+darkgrey	saddlebrown		CC	Dentate Gyrus
+darkgrey	darkturquoise		CC	Dentate Gyrus
+darkgrey	yellow		CC	Dentate Gyrus
+darkgrey	black		CC	Dentate Gyrus
+darkgrey	green		CC	Dentate Gyrus
+darkgrey	plum1		CC	Dentate Gyrus
+darkgrey	tan		CC	Dentate Gyrus
+darkgrey	white		CC	Dentate Gyrus
+darkgrey	red		CC	Dentate Gyrus
+darkgrey	purple		CC	Dentate Gyrus
+darkgrey	skyblue		CC	Dentate Gyrus
+darkgrey	lightyellow		CC	Dentate Gyrus
+darkgrey	midnightblue		CC	Dentate Gyrus
+darkgrey	paleturquoise		CC	Dentate Gyrus
+darkgrey	cyan		CC	Dentate Gyrus
+darkgrey	orange		CC	Dentate Gyrus
+darkgrey	lightgreen		CC	Dentate Gyrus
+darkgrey	darkred		CC	Dentate Gyrus
+darkgrey	darkmagenta		CC	Dentate Gyrus
+darkgrey	yellowgreen		CC	Dentate Gyrus
+darkgrey	sienna3		CC	Dentate Gyrus
+black	greenyellow	0.49	CC	Dentate Gyrus
+black	brown	0.483	CC	Dentate Gyrus
+black	grey	0.486	CC	Dentate Gyrus
+black	blue	0.41	CC	Dentate Gyrus
+black	darkgreen	0.332	CC	Dentate Gyrus
+black	lightcyan	0.37	CC	Dentate Gyrus
+black	turquoise	0.423	CC	Dentate Gyrus
+black	pink	0.555	CC	Dentate Gyrus
+black	violet		CC	Dentate Gyrus
+black	magenta	0.433	CC	Dentate Gyrus
+black	salmon	0.45	CC	Dentate Gyrus
+black	royalblue	0.526	CC	Dentate Gyrus
+black	darkorange	0.748	CC	Dentate Gyrus
+black	saddlebrown	0.403	CC	Dentate Gyrus
+black	darkturquoise		CC	Dentate Gyrus
+black	yellow	0.345	CC	Dentate Gyrus
+black	darkgrey		CC	Dentate Gyrus
+black	green	0.433	CC	Dentate Gyrus
+black	plum1	0.674	CC	Dentate Gyrus
+black	tan	0.448	CC	Dentate Gyrus
+black	white	0.617	CC	Dentate Gyrus
+black	red	0.464	CC	Dentate Gyrus
+black	purple	0.346	CC	Dentate Gyrus
+black	skyblue	0.33	CC	Dentate Gyrus
+black	lightyellow	0.694	CC	Dentate Gyrus
+black	midnightblue	0.646	CC	Dentate Gyrus
+black	paleturquoise	0.439	CC	Dentate Gyrus
+black	cyan	0.579	CC	Dentate Gyrus
+black	orange	0.646	CC	Dentate Gyrus
+black	lightgreen	0.553	CC	Dentate Gyrus
+black	darkred	0.719	CC	Dentate Gyrus
+black	darkmagenta	0.52	CC	Dentate Gyrus
+black	yellowgreen	0.512	CC	Dentate Gyrus
+black	sienna3	0.354	CC	Dentate Gyrus
+green	greenyellow	0.792	CC	Dentate Gyrus
+green	brown	0.744	CC	Dentate Gyrus
+green	grey	0.709	CC	Dentate Gyrus
+green	blue	0.662	CC	Dentate Gyrus
+green	darkgreen	0.56	CC	Dentate Gyrus
+green	lightcyan	0.657	CC	Dentate Gyrus
+green	turquoise	0.692	CC	Dentate Gyrus
+green	pink	0.466	CC	Dentate Gyrus
+green	violet		CC	Dentate Gyrus
+green	magenta	0.632	CC	Dentate Gyrus
+green	salmon	0.559	CC	Dentate Gyrus
+green	royalblue	0.725	CC	Dentate Gyrus
+green	darkorange	0.407	CC	Dentate Gyrus
+green	saddlebrown	0.468	CC	Dentate Gyrus
+green	darkturquoise		CC	Dentate Gyrus
+green	yellow	0.468	CC	Dentate Gyrus
+green	darkgrey		CC	Dentate Gyrus
+green	black	0.433	CC	Dentate Gyrus
+green	plum1	0.37	CC	Dentate Gyrus
+green	tan	0.757	CC	Dentate Gyrus
+green	white	0.666	CC	Dentate Gyrus
+green	red	0.738	CC	Dentate Gyrus
+green	purple	0.567	CC	Dentate Gyrus
+green	skyblue	0.687	CC	Dentate Gyrus
+green	lightyellow	0.517	CC	Dentate Gyrus
+green	midnightblue	0.643	CC	Dentate Gyrus
+green	paleturquoise	0.759	CC	Dentate Gyrus
+green	cyan	0.604	CC	Dentate Gyrus
+green	orange	0.589	CC	Dentate Gyrus
+green	lightgreen	0.706	CC	Dentate Gyrus
+green	darkred	0.6	CC	Dentate Gyrus
+green	darkmagenta	0.675	CC	Dentate Gyrus
+green	yellowgreen	0.62	CC	Dentate Gyrus
+green	sienna3	0.288	CC	Dentate Gyrus
+plum1	greenyellow	0.42	CC	Dentate Gyrus
+plum1	brown	0.418	CC	Dentate Gyrus
+plum1	grey	0.455	CC	Dentate Gyrus
+plum1	blue	0.394	CC	Dentate Gyrus
+plum1	darkgreen	0.288	CC	Dentate Gyrus
+plum1	lightcyan	0.326	CC	Dentate Gyrus
+plum1	turquoise	0.399	CC	Dentate Gyrus
+plum1	pink	0.495	CC	Dentate Gyrus
+plum1	violet		CC	Dentate Gyrus
+plum1	magenta	0.375	CC	Dentate Gyrus
+plum1	salmon	0.372	CC	Dentate Gyrus
+plum1	royalblue	0.438	CC	Dentate Gyrus
+plum1	darkorange	0.615	CC	Dentate Gyrus
+plum1	saddlebrown	0.327	CC	Dentate Gyrus
+plum1	darkturquoise		CC	Dentate Gyrus
+plum1	yellow	0.309	CC	Dentate Gyrus
+plum1	darkgrey		CC	Dentate Gyrus
+plum1	black	0.674	CC	Dentate Gyrus
+plum1	green	0.37	CC	Dentate Gyrus
+plum1	tan	0.42	CC	Dentate Gyrus
+plum1	white	0.504	CC	Dentate Gyrus
+plum1	red	0.43	CC	Dentate Gyrus
+plum1	purple	0.306	CC	Dentate Gyrus
+plum1	skyblue	0.306	CC	Dentate Gyrus
+plum1	lightyellow	0.656	CC	Dentate Gyrus
+plum1	midnightblue	0.567	CC	Dentate Gyrus
+plum1	paleturquoise	0.39	CC	Dentate Gyrus
+plum1	cyan	0.519	CC	Dentate Gyrus
+plum1	orange	0.535	CC	Dentate Gyrus
+plum1	lightgreen	0.452	CC	Dentate Gyrus
+plum1	darkred	0.639	CC	Dentate Gyrus
+plum1	darkmagenta	0.433	CC	Dentate Gyrus
+plum1	yellowgreen	0.42	CC	Dentate Gyrus
+plum1	sienna3	0.367	CC	Dentate Gyrus
+tan	greenyellow	0.757	CC	Dentate Gyrus
+tan	brown	0.674	CC	Dentate Gyrus
+tan	grey	0.704	CC	Dentate Gyrus
+tan	blue	0.682	CC	Dentate Gyrus
+tan	darkgreen	0.474	CC	Dentate Gyrus
+tan	lightcyan	0.628	CC	Dentate Gyrus
+tan	turquoise	0.762	CC	Dentate Gyrus
+tan	pink	0.541	CC	Dentate Gyrus
+tan	violet		CC	Dentate Gyrus
+tan	magenta	0.649	CC	Dentate Gyrus
+tan	salmon	0.556	CC	Dentate Gyrus
+tan	royalblue	0.776	CC	Dentate Gyrus
+tan	darkorange	0.448	CC	Dentate Gyrus
+tan	saddlebrown	0.472	CC	Dentate Gyrus
+tan	darkturquoise		CC	Dentate Gyrus
+tan	yellow	0.476	CC	Dentate Gyrus
+tan	darkgrey		CC	Dentate Gyrus
+tan	black	0.448	CC	Dentate Gyrus
+tan	green	0.757	CC	Dentate Gyrus
+tan	plum1	0.42	CC	Dentate Gyrus
+tan	white	0.639	CC	Dentate Gyrus
+tan	red	0.805	CC	Dentate Gyrus
+tan	purple	0.509	CC	Dentate Gyrus
+tan	skyblue	0.687	CC	Dentate Gyrus
+tan	lightyellow	0.491	CC	Dentate Gyrus
+tan	midnightblue	0.644	CC	Dentate Gyrus
+tan	paleturquoise	0.684	CC	Dentate Gyrus
+tan	cyan	0.551	CC	Dentate Gyrus
+tan	orange	0.579	CC	Dentate Gyrus
+tan	lightgreen	0.718	CC	Dentate Gyrus
+tan	darkred	0.593	CC	Dentate Gyrus
+tan	darkmagenta	0.621	CC	Dentate Gyrus
+tan	yellowgreen	0.592	CC	Dentate Gyrus
+tan	sienna3	0.389	CC	Dentate Gyrus
+white	greenyellow	0.6	CC	Dentate Gyrus
+white	brown	0.683	CC	Dentate Gyrus
+white	grey	0.689	CC	Dentate Gyrus
+white	blue	0.551	CC	Dentate Gyrus
+white	darkgreen	0.576	CC	Dentate Gyrus
+white	lightcyan	0.441	CC	Dentate Gyrus
+white	turquoise	0.535	CC	Dentate Gyrus
+white	pink	0.498	CC	Dentate Gyrus
+white	violet		CC	Dentate Gyrus
+white	magenta	0.49	CC	Dentate Gyrus
+white	salmon	0.691	CC	Dentate Gyrus
+white	royalblue	0.777	CC	Dentate Gyrus
+white	darkorange	0.577	CC	Dentate Gyrus
+white	saddlebrown	0.433	CC	Dentate Gyrus
+white	darkturquoise		CC	Dentate Gyrus
+white	yellow	0.529	CC	Dentate Gyrus
+white	darkgrey		CC	Dentate Gyrus
+white	black	0.617	CC	Dentate Gyrus
+white	green	0.666	CC	Dentate Gyrus
+white	plum1	0.504	CC	Dentate Gyrus
+white	tan	0.639	CC	Dentate Gyrus
+white	red	0.633	CC	Dentate Gyrus
+white	purple	0.636	CC	Dentate Gyrus
+white	skyblue	0.33	CC	Dentate Gyrus
+white	lightyellow	0.731	CC	Dentate Gyrus
+white	midnightblue	0.77	CC	Dentate Gyrus
+white	paleturquoise	0.615	CC	Dentate Gyrus
+white	cyan	0.772	CC	Dentate Gyrus
+white	orange	0.793	CC	Dentate Gyrus
+white	lightgreen	0.718	CC	Dentate Gyrus
+white	darkred	0.823	CC	Dentate Gyrus
+white	darkmagenta	0.646	CC	Dentate Gyrus
+white	yellowgreen	0.79	CC	Dentate Gyrus
+white	sienna3	0.315	CC	Dentate Gyrus
+red	greenyellow	0.8	CC	Dentate Gyrus
+red	brown	0.717	CC	Dentate Gyrus
+red	grey	0.649	CC	Dentate Gyrus
+red	blue	0.747	CC	Dentate Gyrus
+red	darkgreen	0.43	CC	Dentate Gyrus
+red	lightcyan	0.685	CC	Dentate Gyrus
+red	turquoise	0.836	CC	Dentate Gyrus
+red	pink	0.626	CC	Dentate Gyrus
+red	violet		CC	Dentate Gyrus
+red	magenta	0.687	CC	Dentate Gyrus
+red	salmon	0.473	CC	Dentate Gyrus
+red	royalblue	0.724	CC	Dentate Gyrus
+red	darkorange	0.502	CC	Dentate Gyrus
+red	saddlebrown	0.456	CC	Dentate Gyrus
+red	darkturquoise		CC	Dentate Gyrus
+red	yellow	0.431	CC	Dentate Gyrus
+red	darkgrey		CC	Dentate Gyrus
+red	black	0.464	CC	Dentate Gyrus
+red	green	0.738	CC	Dentate Gyrus
+red	plum1	0.43	CC	Dentate Gyrus
+red	tan	0.805	CC	Dentate Gyrus
+red	white	0.633	CC	Dentate Gyrus
+red	purple	0.495	CC	Dentate Gyrus
+red	skyblue	1	CC	Dentate Gyrus
+red	lightyellow	0.431	CC	Dentate Gyrus
+red	midnightblue	0.593	CC	Dentate Gyrus
+red	paleturquoise	0.61	CC	Dentate Gyrus
+red	cyan	0.514	CC	Dentate Gyrus
+red	orange	0.504	CC	Dentate Gyrus
+red	lightgreen	0.719	CC	Dentate Gyrus
+red	darkred	0.518	CC	Dentate Gyrus
+red	darkmagenta	0.617	CC	Dentate Gyrus
+red	yellowgreen	0.528	CC	Dentate Gyrus
+red	sienna3	0.466	CC	Dentate Gyrus
+purple	greenyellow	0.544	CC	Dentate Gyrus
+purple	brown	0.705	CC	Dentate Gyrus
+purple	grey	0.626	CC	Dentate Gyrus
+purple	blue	0.504	CC	Dentate Gyrus
+purple	darkgreen	0.597	CC	Dentate Gyrus
+purple	lightcyan	0.493	CC	Dentate Gyrus
+purple	turquoise	0.496	CC	Dentate Gyrus
+purple	pink	0.397	CC	Dentate Gyrus
+purple	violet		CC	Dentate Gyrus
+purple	magenta	0.489	CC	Dentate Gyrus
+purple	salmon	0.71	CC	Dentate Gyrus
+purple	royalblue	0.534	CC	Dentate Gyrus
+purple	darkorange	0.391	CC	Dentate Gyrus
+purple	saddlebrown	0.432	CC	Dentate Gyrus
+purple	darkturquoise		CC	Dentate Gyrus
+purple	yellow	0.743	CC	Dentate Gyrus
+purple	darkgrey		CC	Dentate Gyrus
+purple	black	0.346	CC	Dentate Gyrus
+purple	green	0.567	CC	Dentate Gyrus
+purple	plum1	0.306	CC	Dentate Gyrus
+purple	tan	0.509	CC	Dentate Gyrus
+purple	white	0.636	CC	Dentate Gyrus
+purple	red	0.495	CC	Dentate Gyrus
+purple	skyblue	1	CC	Dentate Gyrus
+purple	lightyellow	0.59	CC	Dentate Gyrus
+purple	midnightblue	0.672	CC	Dentate Gyrus
+purple	paleturquoise	0.526	CC	Dentate Gyrus
+purple	cyan	0.847	CC	Dentate Gyrus
+purple	orange	0.686	CC	Dentate Gyrus
+purple	lightgreen	0.55	CC	Dentate Gyrus
+purple	darkred	0.652	CC	Dentate Gyrus
+purple	darkmagenta	0.433	CC	Dentate Gyrus
+purple	yellowgreen	0.671	CC	Dentate Gyrus
+purple	sienna3	0.401	CC	Dentate Gyrus
+skyblue	greenyellow	0.687	CC	Dentate Gyrus
+skyblue	brown	0.687	CC	Dentate Gyrus
+skyblue	grey	0.33	CC	Dentate Gyrus
+skyblue	blue	1	CC	Dentate Gyrus
+skyblue	darkgreen	0.348	CC	Dentate Gyrus
+skyblue	lightcyan	1	CC	Dentate Gyrus
+skyblue	turquoise	1	CC	Dentate Gyrus
+skyblue	pink	0.687	CC	Dentate Gyrus
+skyblue	violet		CC	Dentate Gyrus
+skyblue	magenta	1	CC	Dentate Gyrus
+skyblue	salmon	0.222	CC	Dentate Gyrus
+skyblue	royalblue	0.687	CC	Dentate Gyrus
+skyblue	darkorange	0.687	CC	Dentate Gyrus
+skyblue	saddlebrown	0.325	CC	Dentate Gyrus
+skyblue	darkturquoise		CC	Dentate Gyrus
+skyblue	yellow	1	CC	Dentate Gyrus
+skyblue	darkgrey		CC	Dentate Gyrus
+skyblue	black	0.33	CC	Dentate Gyrus
+skyblue	green	0.687	CC	Dentate Gyrus
+skyblue	plum1	0.306	CC	Dentate Gyrus
+skyblue	tan	0.687	CC	Dentate Gyrus
+skyblue	white	0.33	CC	Dentate Gyrus
+skyblue	red	1	CC	Dentate Gyrus
+skyblue	purple	1	CC	Dentate Gyrus
+skyblue	lightyellow	0.306	CC	Dentate Gyrus
+skyblue	midnightblue	0.687	CC	Dentate Gyrus
+skyblue	paleturquoise	0.687	CC	Dentate Gyrus
+skyblue	cyan	0.306	CC	Dentate Gyrus
+skyblue	orange	0.33	CC	Dentate Gyrus
+skyblue	lightgreen	0.687	CC	Dentate Gyrus
+skyblue	darkred	0.33	CC	Dentate Gyrus
+skyblue	darkmagenta	0.33	CC	Dentate Gyrus
+skyblue	yellowgreen	0.33	CC	Dentate Gyrus
+skyblue	sienna3	1	CC	Dentate Gyrus
+lightyellow	greenyellow	0.489	CC	Dentate Gyrus
+lightyellow	brown	0.55	CC	Dentate Gyrus
+lightyellow	grey	0.575	CC	Dentate Gyrus
+lightyellow	blue	0.402	CC	Dentate Gyrus
+lightyellow	darkgreen	0.589	CC	Dentate Gyrus
+lightyellow	lightcyan	0.345	CC	Dentate Gyrus
+lightyellow	turquoise	0.384	CC	Dentate Gyrus
+lightyellow	pink	0.466	CC	Dentate Gyrus
+lightyellow	violet		CC	Dentate Gyrus
+lightyellow	magenta	0.388	CC	Dentate Gyrus
+lightyellow	salmon	0.718	CC	Dentate Gyrus
+lightyellow	royalblue	0.558	CC	Dentate Gyrus
+lightyellow	darkorange	0.61	CC	Dentate Gyrus
+lightyellow	saddlebrown	0.422	CC	Dentate Gyrus
+lightyellow	darkturquoise		CC	Dentate Gyrus
+lightyellow	yellow	0.52	CC	Dentate Gyrus
+lightyellow	darkgrey		CC	Dentate Gyrus
+lightyellow	black	0.694	CC	Dentate Gyrus
+lightyellow	green	0.517	CC	Dentate Gyrus
+lightyellow	plum1	0.656	CC	Dentate Gyrus
+lightyellow	tan	0.491	CC	Dentate Gyrus
+lightyellow	white	0.731	CC	Dentate Gyrus
+lightyellow	red	0.431	CC	Dentate Gyrus
+lightyellow	purple	0.59	CC	Dentate Gyrus
+lightyellow	skyblue	0.306	CC	Dentate Gyrus
+lightyellow	midnightblue	0.782	CC	Dentate Gyrus
+lightyellow	paleturquoise	0.491	CC	Dentate Gyrus
+lightyellow	cyan	0.773	CC	Dentate Gyrus
+lightyellow	orange	0.879	CC	Dentate Gyrus
+lightyellow	lightgreen	0.576	CC	Dentate Gyrus
+lightyellow	darkred	0.926	CC	Dentate Gyrus
+lightyellow	darkmagenta	0.539	CC	Dentate Gyrus
+lightyellow	yellowgreen	0.687	CC	Dentate Gyrus
+lightyellow	sienna3	0.258	CC	Dentate Gyrus
+midnightblue	greenyellow	0.67	CC	Dentate Gyrus
+midnightblue	brown	0.702	CC	Dentate Gyrus
+midnightblue	grey	0.703	CC	Dentate Gyrus
+midnightblue	blue	0.547	CC	Dentate Gyrus
+midnightblue	darkgreen	0.607	CC	Dentate Gyrus
+midnightblue	lightcyan	0.52	CC	Dentate Gyrus
+midnightblue	turquoise	0.527	CC	Dentate Gyrus
+midnightblue	pink	0.616	CC	Dentate Gyrus
+midnightblue	violet		CC	Dentate Gyrus
+midnightblue	magenta	0.555	CC	Dentate Gyrus
+midnightblue	salmon	0.762	CC	Dentate Gyrus
+midnightblue	royalblue	0.695	CC	Dentate Gyrus
+midnightblue	darkorange	0.667	CC	Dentate Gyrus
+midnightblue	saddlebrown	0.547	CC	Dentate Gyrus
+midnightblue	darkturquoise		CC	Dentate Gyrus
+midnightblue	yellow	0.656	CC	Dentate Gyrus
+midnightblue	darkgrey		CC	Dentate Gyrus
+midnightblue	black	0.646	CC	Dentate Gyrus
+midnightblue	green	0.643	CC	Dentate Gyrus
+midnightblue	plum1	0.567	CC	Dentate Gyrus
+midnightblue	tan	0.644	CC	Dentate Gyrus
+midnightblue	white	0.77	CC	Dentate Gyrus
+midnightblue	red	0.593	CC	Dentate Gyrus
+midnightblue	purple	0.672	CC	Dentate Gyrus
+midnightblue	skyblue	0.687	CC	Dentate Gyrus
+midnightblue	lightyellow	0.782	CC	Dentate Gyrus
+midnightblue	paleturquoise	0.623	CC	Dentate Gyrus
+midnightblue	cyan	0.769	CC	Dentate Gyrus
+midnightblue	orange	0.848	CC	Dentate Gyrus
+midnightblue	lightgreen	0.731	CC	Dentate Gyrus
+midnightblue	darkred	0.876	CC	Dentate Gyrus
+midnightblue	darkmagenta	0.626	CC	Dentate Gyrus
+midnightblue	yellowgreen	0.753	CC	Dentate Gyrus
+midnightblue	sienna3	0.369	CC	Dentate Gyrus
+paleturquoise	greenyellow	0.7	CC	Dentate Gyrus
+paleturquoise	brown	0.705	CC	Dentate Gyrus
+paleturquoise	grey	0.744	CC	Dentate Gyrus
+paleturquoise	blue	0.601	CC	Dentate Gyrus
+paleturquoise	darkgreen	0.623	CC	Dentate Gyrus
+paleturquoise	lightcyan	0.59	CC	Dentate Gyrus
+paleturquoise	turquoise	0.591	CC	Dentate Gyrus
+paleturquoise	pink	0.454	CC	Dentate Gyrus
+paleturquoise	violet		CC	Dentate Gyrus
+paleturquoise	magenta	0.614	CC	Dentate Gyrus
+paleturquoise	salmon	0.545	CC	Dentate Gyrus
+paleturquoise	royalblue	0.664	CC	Dentate Gyrus
+paleturquoise	darkorange	0.438	CC	Dentate Gyrus
+paleturquoise	saddlebrown	0.415	CC	Dentate Gyrus
+paleturquoise	darkturquoise		CC	Dentate Gyrus
+paleturquoise	yellow	0.453	CC	Dentate Gyrus
+paleturquoise	darkgrey		CC	Dentate Gyrus
+paleturquoise	black	0.439	CC	Dentate Gyrus
+paleturquoise	green	0.759	CC	Dentate Gyrus
+paleturquoise	plum1	0.39	CC	Dentate Gyrus
+paleturquoise	tan	0.684	CC	Dentate Gyrus
+paleturquoise	white	0.615	CC	Dentate Gyrus
+paleturquoise	red	0.61	CC	Dentate Gyrus
+paleturquoise	purple	0.526	CC	Dentate Gyrus
+paleturquoise	skyblue	0.687	CC	Dentate Gyrus
+paleturquoise	lightyellow	0.491	CC	Dentate Gyrus
+paleturquoise	midnightblue	0.623	CC	Dentate Gyrus
+paleturquoise	cyan	0.575	CC	Dentate Gyrus
+paleturquoise	orange	0.552	CC	Dentate Gyrus
+paleturquoise	lightgreen	0.63	CC	Dentate Gyrus
+paleturquoise	darkred	0.579	CC	Dentate Gyrus
+paleturquoise	darkmagenta	0.613	CC	Dentate Gyrus
+paleturquoise	yellowgreen	0.588	CC	Dentate Gyrus
+paleturquoise	sienna3	0.269	CC	Dentate Gyrus
+cyan	greenyellow	0.576	CC	Dentate Gyrus
+cyan	brown	0.751	CC	Dentate Gyrus
+cyan	grey	0.699	CC	Dentate Gyrus
+cyan	blue	0.481	CC	Dentate Gyrus
+cyan	darkgreen	0.588	CC	Dentate Gyrus
+cyan	lightcyan	0.398	CC	Dentate Gyrus
+cyan	turquoise	0.476	CC	Dentate Gyrus
+cyan	pink	0.442	CC	Dentate Gyrus
+cyan	violet		CC	Dentate Gyrus
+cyan	magenta	0.446	CC	Dentate Gyrus
+cyan	salmon	0.749	CC	Dentate Gyrus
+cyan	royalblue	0.591	CC	Dentate Gyrus
+cyan	darkorange	0.507	CC	Dentate Gyrus
+cyan	saddlebrown	0.46	CC	Dentate Gyrus
+cyan	darkturquoise		CC	Dentate Gyrus
+cyan	yellow	0.587	CC	Dentate Gyrus
+cyan	darkgrey		CC	Dentate Gyrus
+cyan	black	0.579	CC	Dentate Gyrus
+cyan	green	0.604	CC	Dentate Gyrus
+cyan	plum1	0.519	CC	Dentate Gyrus
+cyan	tan	0.551	CC	Dentate Gyrus
+cyan	white	0.772	CC	Dentate Gyrus
+cyan	red	0.514	CC	Dentate Gyrus
+cyan	purple	0.847	CC	Dentate Gyrus
+cyan	skyblue	0.306	CC	Dentate Gyrus
+cyan	lightyellow	0.773	CC	Dentate Gyrus
+cyan	midnightblue	0.769	CC	Dentate Gyrus
+cyan	paleturquoise	0.575	CC	Dentate Gyrus
+cyan	orange	0.808	CC	Dentate Gyrus
+cyan	lightgreen	0.609	CC	Dentate Gyrus
+cyan	darkred	0.847	CC	Dentate Gyrus
+cyan	darkmagenta	0.542	CC	Dentate Gyrus
+cyan	yellowgreen	0.744	CC	Dentate Gyrus
+cyan	sienna3	0.25	CC	Dentate Gyrus
+orange	greenyellow	0.573	CC	Dentate Gyrus
+orange	brown	0.621	CC	Dentate Gyrus
+orange	grey	0.639	CC	Dentate Gyrus
+orange	blue	0.454	CC	Dentate Gyrus
+orange	darkgreen	0.622	CC	Dentate Gyrus
+orange	lightcyan	0.381	CC	Dentate Gyrus
+orange	turquoise	0.443	CC	Dentate Gyrus
+orange	pink	0.448	CC	Dentate Gyrus
+orange	violet		CC	Dentate Gyrus
+orange	magenta	0.44	CC	Dentate Gyrus
+orange	salmon	0.87	CC	Dentate Gyrus
+orange	royalblue	0.63	CC	Dentate Gyrus
+orange	darkorange	0.524	CC	Dentate Gyrus
+orange	saddlebrown	0.511	CC	Dentate Gyrus
+orange	darkturquoise		CC	Dentate Gyrus
+orange	yellow	0.689	CC	Dentate Gyrus
+orange	darkgrey		CC	Dentate Gyrus
+orange	black	0.646	CC	Dentate Gyrus
+orange	green	0.589	CC	Dentate Gyrus
+orange	plum1	0.535	CC	Dentate Gyrus
+orange	tan	0.579	CC	Dentate Gyrus
+orange	white	0.793	CC	Dentate Gyrus
+orange	red	0.504	CC	Dentate Gyrus
+orange	purple	0.686	CC	Dentate Gyrus
+orange	skyblue	0.33	CC	Dentate Gyrus
+orange	lightyellow	0.879	CC	Dentate Gyrus
+orange	midnightblue	0.848	CC	Dentate Gyrus
+orange	paleturquoise	0.552	CC	Dentate Gyrus
+orange	cyan	0.808	CC	Dentate Gyrus
+orange	lightgreen	0.651	CC	Dentate Gyrus
+orange	darkred	0.977	CC	Dentate Gyrus
+orange	darkmagenta	0.576	CC	Dentate Gyrus
+orange	yellowgreen	0.801	CC	Dentate Gyrus
+orange	sienna3	0.278	CC	Dentate Gyrus
+lightgreen	greenyellow	0.745	CC	Dentate Gyrus
+lightgreen	brown	0.704	CC	Dentate Gyrus
+lightgreen	grey	0.65	CC	Dentate Gyrus
+lightgreen	blue	0.605	CC	Dentate Gyrus
+lightgreen	darkgreen	0.527	CC	Dentate Gyrus
+lightgreen	lightcyan	0.598	CC	Dentate Gyrus
+lightgreen	turquoise	0.66	CC	Dentate Gyrus
+lightgreen	pink	0.605	CC	Dentate Gyrus
+lightgreen	violet		CC	Dentate Gyrus
+lightgreen	magenta	0.63	CC	Dentate Gyrus
+lightgreen	salmon	0.587	CC	Dentate Gyrus
+lightgreen	royalblue	0.766	CC	Dentate Gyrus
+lightgreen	darkorange	0.57	CC	Dentate Gyrus
+lightgreen	saddlebrown	0.475	CC	Dentate Gyrus
+lightgreen	darkturquoise		CC	Dentate Gyrus
+lightgreen	yellow	0.499	CC	Dentate Gyrus
+lightgreen	darkgrey		CC	Dentate Gyrus
+lightgreen	black	0.553	CC	Dentate Gyrus
+lightgreen	green	0.706	CC	Dentate Gyrus
+lightgreen	plum1	0.452	CC	Dentate Gyrus
+lightgreen	tan	0.718	CC	Dentate Gyrus
+lightgreen	white	0.718	CC	Dentate Gyrus
+lightgreen	red	0.719	CC	Dentate Gyrus
+lightgreen	purple	0.55	CC	Dentate Gyrus
+lightgreen	skyblue	0.687	CC	Dentate Gyrus
+lightgreen	lightyellow	0.576	CC	Dentate Gyrus
+lightgreen	midnightblue	0.731	CC	Dentate Gyrus
+lightgreen	paleturquoise	0.63	CC	Dentate Gyrus
+lightgreen	cyan	0.609	CC	Dentate Gyrus
+lightgreen	orange	0.651	CC	Dentate Gyrus
+lightgreen	darkred	0.676	CC	Dentate Gyrus
+lightgreen	darkmagenta	0.679	CC	Dentate Gyrus
+lightgreen	yellowgreen	0.646	CC	Dentate Gyrus
+lightgreen	sienna3	0.404	CC	Dentate Gyrus
+darkred	greenyellow	0.589	CC	Dentate Gyrus
+darkred	brown	0.643	CC	Dentate Gyrus
+darkred	grey	0.663	CC	Dentate Gyrus
+darkred	blue	0.466	CC	Dentate Gyrus
+darkred	darkgreen	0.6	CC	Dentate Gyrus
+darkred	lightcyan	0.398	CC	Dentate Gyrus
+darkred	turquoise	0.454	CC	Dentate Gyrus
+darkred	pink	0.513	CC	Dentate Gyrus
+darkred	violet		CC	Dentate Gyrus
+darkred	magenta	0.453	CC	Dentate Gyrus
+darkred	salmon	0.826	CC	Dentate Gyrus
+darkred	royalblue	0.656	CC	Dentate Gyrus
+darkred	darkorange	0.615	CC	Dentate Gyrus
+darkred	saddlebrown	0.507	CC	Dentate Gyrus
+darkred	darkturquoise		CC	Dentate Gyrus
+darkred	yellow	0.632	CC	Dentate Gyrus
+darkred	darkgrey		CC	Dentate Gyrus
+darkred	black	0.719	CC	Dentate Gyrus
+darkred	green	0.6	CC	Dentate Gyrus
+darkred	plum1	0.639	CC	Dentate Gyrus
+darkred	tan	0.593	CC	Dentate Gyrus
+darkred	white	0.823	CC	Dentate Gyrus
+darkred	red	0.518	CC	Dentate Gyrus
+darkred	purple	0.652	CC	Dentate Gyrus
+darkred	skyblue	0.33	CC	Dentate Gyrus
+darkred	lightyellow	0.926	CC	Dentate Gyrus
+darkred	midnightblue	0.876	CC	Dentate Gyrus
+darkred	paleturquoise	0.579	CC	Dentate Gyrus
+darkred	cyan	0.847	CC	Dentate Gyrus
+darkred	orange	0.977	CC	Dentate Gyrus
+darkred	lightgreen	0.676	CC	Dentate Gyrus
+darkred	darkmagenta	0.607	CC	Dentate Gyrus
+darkred	yellowgreen	0.804	CC	Dentate Gyrus
+darkred	sienna3	0.281	CC	Dentate Gyrus
+darkmagenta	greenyellow	0.683	CC	Dentate Gyrus
+darkmagenta	brown	0.609	CC	Dentate Gyrus
+darkmagenta	grey	0.602	CC	Dentate Gyrus
+darkmagenta	blue	0.533	CC	Dentate Gyrus
+darkmagenta	darkgreen	0.477	CC	Dentate Gyrus
+darkmagenta	lightcyan	0.533	CC	Dentate Gyrus
+darkmagenta	turquoise	0.569	CC	Dentate Gyrus
+darkmagenta	pink	0.5	CC	Dentate Gyrus
+darkmagenta	violet		CC	Dentate Gyrus
+darkmagenta	magenta	0.53	CC	Dentate Gyrus
+darkmagenta	salmon	0.503	CC	Dentate Gyrus
+darkmagenta	royalblue	0.632	CC	Dentate Gyrus
+darkmagenta	darkorange	0.495	CC	Dentate Gyrus
+darkmagenta	saddlebrown	0.376	CC	Dentate Gyrus
+darkmagenta	darkturquoise		CC	Dentate Gyrus
+darkmagenta	yellow	0.353	CC	Dentate Gyrus
+darkmagenta	darkgrey		CC	Dentate Gyrus
+darkmagenta	black	0.52	CC	Dentate Gyrus
+darkmagenta	green	0.675	CC	Dentate Gyrus
+darkmagenta	plum1	0.433	CC	Dentate Gyrus
+darkmagenta	tan	0.621	CC	Dentate Gyrus
+darkmagenta	white	0.646	CC	Dentate Gyrus
+darkmagenta	red	0.617	CC	Dentate Gyrus
+darkmagenta	purple	0.433	CC	Dentate Gyrus
+darkmagenta	skyblue	0.33	CC	Dentate Gyrus
+darkmagenta	lightyellow	0.539	CC	Dentate Gyrus
+darkmagenta	midnightblue	0.626	CC	Dentate Gyrus
+darkmagenta	paleturquoise	0.613	CC	Dentate Gyrus
+darkmagenta	cyan	0.542	CC	Dentate Gyrus
+darkmagenta	orange	0.576	CC	Dentate Gyrus
+darkmagenta	lightgreen	0.679	CC	Dentate Gyrus
+darkmagenta	darkred	0.607	CC	Dentate Gyrus
+darkmagenta	yellowgreen	0.578	CC	Dentate Gyrus
+darkmagenta	sienna3	0.299	CC	Dentate Gyrus
+yellowgreen	greenyellow	0.589	CC	Dentate Gyrus
+yellowgreen	brown	0.644	CC	Dentate Gyrus
+yellowgreen	grey	0.675	CC	Dentate Gyrus
+yellowgreen	blue	0.482	CC	Dentate Gyrus
+yellowgreen	darkgreen	0.603	CC	Dentate Gyrus
+yellowgreen	lightcyan	0.419	CC	Dentate Gyrus
+yellowgreen	turquoise	0.47	CC	Dentate Gyrus
+yellowgreen	pink	0.405	CC	Dentate Gyrus
+yellowgreen	violet		CC	Dentate Gyrus
+yellowgreen	magenta	0.464	CC	Dentate Gyrus
+yellowgreen	salmon	0.737	CC	Dentate Gyrus
+yellowgreen	royalblue	0.624	CC	Dentate Gyrus
+yellowgreen	darkorange	0.424	CC	Dentate Gyrus
+yellowgreen	saddlebrown	0.465	CC	Dentate Gyrus
+yellowgreen	darkturquoise		CC	Dentate Gyrus
+yellowgreen	yellow	0.607	CC	Dentate Gyrus
+yellowgreen	darkgrey		CC	Dentate Gyrus
+yellowgreen	black	0.512	CC	Dentate Gyrus
+yellowgreen	green	0.62	CC	Dentate Gyrus
+yellowgreen	plum1	0.42	CC	Dentate Gyrus
+yellowgreen	tan	0.592	CC	Dentate Gyrus
+yellowgreen	white	0.79	CC	Dentate Gyrus
+yellowgreen	red	0.528	CC	Dentate Gyrus
+yellowgreen	purple	0.671	CC	Dentate Gyrus
+yellowgreen	skyblue	0.33	CC	Dentate Gyrus
+yellowgreen	lightyellow	0.687	CC	Dentate Gyrus
+yellowgreen	midnightblue	0.753	CC	Dentate Gyrus
+yellowgreen	paleturquoise	0.588	CC	Dentate Gyrus
+yellowgreen	cyan	0.744	CC	Dentate Gyrus
+yellowgreen	orange	0.801	CC	Dentate Gyrus
+yellowgreen	lightgreen	0.646	CC	Dentate Gyrus
+yellowgreen	darkred	0.804	CC	Dentate Gyrus
+yellowgreen	darkmagenta	0.578	CC	Dentate Gyrus
+yellowgreen	sienna3	0.248	CC	Dentate Gyrus
+sienna3	greenyellow	0.37	CC	Dentate Gyrus
+sienna3	brown	0.332	CC	Dentate Gyrus
+sienna3	grey	0.271	CC	Dentate Gyrus
+sienna3	blue	0.448	CC	Dentate Gyrus
+sienna3	darkgreen	0.239	CC	Dentate Gyrus
+sienna3	lightcyan	0.503	CC	Dentate Gyrus
+sienna3	turquoise	0.484	CC	Dentate Gyrus
+sienna3	pink	0.636	CC	Dentate Gyrus
+sienna3	violet		CC	Dentate Gyrus
+sienna3	magenta	0.461	CC	Dentate Gyrus
+sienna3	salmon	0.227	CC	Dentate Gyrus
+sienna3	royalblue	0.39	CC	Dentate Gyrus
+sienna3	darkorange	0.563	CC	Dentate Gyrus
+sienna3	saddlebrown	0.258	CC	Dentate Gyrus
+sienna3	darkturquoise		CC	Dentate Gyrus
+sienna3	yellow	0.504	CC	Dentate Gyrus
+sienna3	darkgrey		CC	Dentate Gyrus
+sienna3	black	0.354	CC	Dentate Gyrus
+sienna3	green	0.288	CC	Dentate Gyrus
+sienna3	plum1	0.367	CC	Dentate Gyrus
+sienna3	tan	0.389	CC	Dentate Gyrus
+sienna3	white	0.315	CC	Dentate Gyrus
+sienna3	red	0.466	CC	Dentate Gyrus
+sienna3	purple	0.401	CC	Dentate Gyrus
+sienna3	skyblue	1	CC	Dentate Gyrus
+sienna3	lightyellow	0.258	CC	Dentate Gyrus
+sienna3	midnightblue	0.369	CC	Dentate Gyrus
+sienna3	paleturquoise	0.269	CC	Dentate Gyrus
+sienna3	cyan	0.25	CC	Dentate Gyrus
+sienna3	orange	0.278	CC	Dentate Gyrus
+sienna3	lightgreen	0.404	CC	Dentate Gyrus
+sienna3	darkred	0.281	CC	Dentate Gyrus
+sienna3	darkmagenta	0.299	CC	Dentate Gyrus
+sienna3	yellowgreen	0.248	CC	Dentate Gyrus

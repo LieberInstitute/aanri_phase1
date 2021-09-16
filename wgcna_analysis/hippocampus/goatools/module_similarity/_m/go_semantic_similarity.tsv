@@ -1,0 +1,2611 @@
+Module_1	Module_2	Semantic_Similarity	Ont	Tissue
+grey	pink	0.357	MF	Hippocampus
+grey	darkgreen		MF	Hippocampus
+grey	black	0.417	MF	Hippocampus
+grey	turquoise	0.347	MF	Hippocampus
+grey	blue	0.403	MF	Hippocampus
+grey	green		MF	Hippocampus
+grey	yellow	1	MF	Hippocampus
+grey	purple	0.133	MF	Hippocampus
+grey	orange		MF	Hippocampus
+grey	greenyellow	0.139	MF	Hippocampus
+grey	midnightblue	0.355	MF	Hippocampus
+grey	brown	0.476	MF	Hippocampus
+grey	red	0.356	MF	Hippocampus
+grey	lightyellow	0.357	MF	Hippocampus
+grey	white	0.469	MF	Hippocampus
+grey	lightgreen	0.04	MF	Hippocampus
+grey	lightcyan	0.444	MF	Hippocampus
+grey	steelblue	0.462	MF	Hippocampus
+grey	magenta		MF	Hippocampus
+grey	darkturquoise		MF	Hippocampus
+grey	cyan	0.376	MF	Hippocampus
+grey	violet	0.091	MF	Hippocampus
+grey	yellowgreen		MF	Hippocampus
+grey	darkolivegreen	0.415	MF	Hippocampus
+grey	salmon		MF	Hippocampus
+grey	darkred	0.639	MF	Hippocampus
+grey	grey60		MF	Hippocampus
+grey	darkorange		MF	Hippocampus
+grey	skyblue3	1	MF	Hippocampus
+pink	grey	0.357	MF	Hippocampus
+pink	darkgreen		MF	Hippocampus
+pink	black	0.46	MF	Hippocampus
+pink	turquoise	0.554	MF	Hippocampus
+pink	blue	0.419	MF	Hippocampus
+pink	green		MF	Hippocampus
+pink	yellow	0.311	MF	Hippocampus
+pink	purple	0.055	MF	Hippocampus
+pink	orange		MF	Hippocampus
+pink	greenyellow	0.144	MF	Hippocampus
+pink	midnightblue	0.634	MF	Hippocampus
+pink	brown	0.456	MF	Hippocampus
+pink	red	0.51	MF	Hippocampus
+pink	lightyellow	0.522	MF	Hippocampus
+pink	white	0.427	MF	Hippocampus
+pink	lightgreen	0.043	MF	Hippocampus
+pink	lightcyan	0.473	MF	Hippocampus
+pink	steelblue	0.426	MF	Hippocampus
+pink	magenta		MF	Hippocampus
+pink	darkturquoise		MF	Hippocampus
+pink	cyan	0.726	MF	Hippocampus
+pink	violet	0.2	MF	Hippocampus
+pink	yellowgreen		MF	Hippocampus
+pink	darkolivegreen	0.438	MF	Hippocampus
+pink	salmon		MF	Hippocampus
+pink	darkred	0.147	MF	Hippocampus
+pink	grey60		MF	Hippocampus
+pink	darkorange		MF	Hippocampus
+pink	skyblue3	1	MF	Hippocampus
+darkgreen	grey		MF	Hippocampus
+darkgreen	pink		MF	Hippocampus
+darkgreen	black		MF	Hippocampus
+darkgreen	turquoise		MF	Hippocampus
+darkgreen	blue		MF	Hippocampus
+darkgreen	green		MF	Hippocampus
+darkgreen	yellow		MF	Hippocampus
+darkgreen	purple		MF	Hippocampus
+darkgreen	orange		MF	Hippocampus
+darkgreen	greenyellow		MF	Hippocampus
+darkgreen	midnightblue		MF	Hippocampus
+darkgreen	brown		MF	Hippocampus
+darkgreen	red		MF	Hippocampus
+darkgreen	lightyellow		MF	Hippocampus
+darkgreen	white		MF	Hippocampus
+darkgreen	lightgreen		MF	Hippocampus
+darkgreen	lightcyan		MF	Hippocampus
+darkgreen	steelblue		MF	Hippocampus
+darkgreen	magenta		MF	Hippocampus
+darkgreen	darkturquoise		MF	Hippocampus
+darkgreen	cyan		MF	Hippocampus
+darkgreen	violet		MF	Hippocampus
+darkgreen	yellowgreen		MF	Hippocampus
+darkgreen	darkolivegreen		MF	Hippocampus
+darkgreen	salmon		MF	Hippocampus
+darkgreen	darkred		MF	Hippocampus
+darkgreen	grey60		MF	Hippocampus
+darkgreen	darkorange		MF	Hippocampus
+darkgreen	skyblue3		MF	Hippocampus
+black	grey	0.417	MF	Hippocampus
+black	pink	0.46	MF	Hippocampus
+black	darkgreen		MF	Hippocampus
+black	turquoise	0.495	MF	Hippocampus
+black	blue	0.409	MF	Hippocampus
+black	green		MF	Hippocampus
+black	yellow	1	MF	Hippocampus
+black	purple	0.077	MF	Hippocampus
+black	orange		MF	Hippocampus
+black	greenyellow	0.248	MF	Hippocampus
+black	midnightblue	0.457	MF	Hippocampus
+black	brown	0.451	MF	Hippocampus
+black	red	0.641	MF	Hippocampus
+black	lightyellow	0.44	MF	Hippocampus
+black	white	0.455	MF	Hippocampus
+black	lightgreen	0.049	MF	Hippocampus
+black	lightcyan	0.446	MF	Hippocampus
+black	steelblue	0.425	MF	Hippocampus
+black	magenta		MF	Hippocampus
+black	darkturquoise		MF	Hippocampus
+black	cyan	0.447	MF	Hippocampus
+black	violet	0.123	MF	Hippocampus
+black	yellowgreen		MF	Hippocampus
+black	darkolivegreen	0.468	MF	Hippocampus
+black	salmon		MF	Hippocampus
+black	darkred	0.147	MF	Hippocampus
+black	grey60		MF	Hippocampus
+black	darkorange		MF	Hippocampus
+black	skyblue3	1	MF	Hippocampus
+turquoise	grey	0.347	MF	Hippocampus
+turquoise	pink	0.554	MF	Hippocampus
+turquoise	darkgreen		MF	Hippocampus
+turquoise	black	0.495	MF	Hippocampus
+turquoise	blue	0.486	MF	Hippocampus
+turquoise	green		MF	Hippocampus
+turquoise	yellow	0.311	MF	Hippocampus
+turquoise	purple	0.056	MF	Hippocampus
+turquoise	orange		MF	Hippocampus
+turquoise	greenyellow	0.238	MF	Hippocampus
+turquoise	midnightblue	0.749	MF	Hippocampus
+turquoise	brown	0.424	MF	Hippocampus
+turquoise	red	0.529	MF	Hippocampus
+turquoise	lightyellow	0.498	MF	Hippocampus
+turquoise	white	0.429	MF	Hippocampus
+turquoise	lightgreen	0.23	MF	Hippocampus
+turquoise	lightcyan	0.475	MF	Hippocampus
+turquoise	steelblue	0.427	MF	Hippocampus
+turquoise	magenta		MF	Hippocampus
+turquoise	darkturquoise		MF	Hippocampus
+turquoise	cyan	0.532	MF	Hippocampus
+turquoise	violet	0.097	MF	Hippocampus
+turquoise	yellowgreen		MF	Hippocampus
+turquoise	darkolivegreen	0.44	MF	Hippocampus
+turquoise	salmon		MF	Hippocampus
+turquoise	darkred	0.147	MF	Hippocampus
+turquoise	grey60		MF	Hippocampus
+turquoise	darkorange		MF	Hippocampus
+turquoise	skyblue3	1	MF	Hippocampus
+blue	grey	0.403	MF	Hippocampus
+blue	pink	0.419	MF	Hippocampus
+blue	darkgreen		MF	Hippocampus
+blue	black	0.409	MF	Hippocampus
+blue	turquoise	0.486	MF	Hippocampus
+blue	green		MF	Hippocampus
+blue	yellow	0.227	MF	Hippocampus
+blue	purple	0.128	MF	Hippocampus
+blue	orange		MF	Hippocampus
+blue	greenyellow	0.13	MF	Hippocampus
+blue	midnightblue	0.502	MF	Hippocampus
+blue	brown	0.331	MF	Hippocampus
+blue	red	0.428	MF	Hippocampus
+blue	lightyellow	0.398	MF	Hippocampus
+blue	white	0.487	MF	Hippocampus
+blue	lightgreen	0.036	MF	Hippocampus
+blue	lightcyan	0.463	MF	Hippocampus
+blue	steelblue	0.564	MF	Hippocampus
+blue	magenta		MF	Hippocampus
+blue	darkturquoise		MF	Hippocampus
+blue	cyan	0.415	MF	Hippocampus
+blue	violet	0.082	MF	Hippocampus
+blue	yellowgreen		MF	Hippocampus
+blue	darkolivegreen	0.447	MF	Hippocampus
+blue	salmon		MF	Hippocampus
+blue	darkred	0.11	MF	Hippocampus
+blue	grey60		MF	Hippocampus
+blue	darkorange		MF	Hippocampus
+blue	skyblue3	0.788	MF	Hippocampus
+green	grey		MF	Hippocampus
+green	pink		MF	Hippocampus
+green	darkgreen		MF	Hippocampus
+green	black		MF	Hippocampus
+green	turquoise		MF	Hippocampus
+green	blue		MF	Hippocampus
+green	yellow		MF	Hippocampus
+green	purple		MF	Hippocampus
+green	orange		MF	Hippocampus
+green	greenyellow		MF	Hippocampus
+green	midnightblue		MF	Hippocampus
+green	brown		MF	Hippocampus
+green	red		MF	Hippocampus
+green	lightyellow		MF	Hippocampus
+green	white		MF	Hippocampus
+green	lightgreen		MF	Hippocampus
+green	lightcyan		MF	Hippocampus
+green	steelblue		MF	Hippocampus
+green	magenta		MF	Hippocampus
+green	darkturquoise		MF	Hippocampus
+green	cyan		MF	Hippocampus
+green	violet		MF	Hippocampus
+green	yellowgreen		MF	Hippocampus
+green	darkolivegreen		MF	Hippocampus
+green	salmon		MF	Hippocampus
+green	darkred		MF	Hippocampus
+green	grey60		MF	Hippocampus
+green	darkorange		MF	Hippocampus
+green	skyblue3		MF	Hippocampus
+yellow	grey	1	MF	Hippocampus
+yellow	pink	0.311	MF	Hippocampus
+yellow	darkgreen		MF	Hippocampus
+yellow	black	1	MF	Hippocampus
+yellow	turquoise	0.311	MF	Hippocampus
+yellow	blue	0.227	MF	Hippocampus
+yellow	green		MF	Hippocampus
+yellow	purple	0.056	MF	Hippocampus
+yellow	orange		MF	Hippocampus
+yellow	greenyellow	0.128	MF	Hippocampus
+yellow	midnightblue	0.311	MF	Hippocampus
+yellow	brown	0.311	MF	Hippocampus
+yellow	red	0.55	MF	Hippocampus
+yellow	lightyellow	0.311	MF	Hippocampus
+yellow	white	0.311	MF	Hippocampus
+yellow	lightgreen	0.027	MF	Hippocampus
+yellow	lightcyan	0.311	MF	Hippocampus
+yellow	steelblue	0.311	MF	Hippocampus
+yellow	magenta		MF	Hippocampus
+yellow	darkturquoise		MF	Hippocampus
+yellow	cyan	0.311	MF	Hippocampus
+yellow	violet	0.071	MF	Hippocampus
+yellow	yellowgreen		MF	Hippocampus
+yellow	darkolivegreen	0.311	MF	Hippocampus
+yellow	salmon		MF	Hippocampus
+yellow	darkred	0.071	MF	Hippocampus
+yellow	grey60		MF	Hippocampus
+yellow	darkorange		MF	Hippocampus
+yellow	skyblue3	0.311	MF	Hippocampus
+purple	grey	0.133	MF	Hippocampus
+purple	pink	0.055	MF	Hippocampus
+purple	darkgreen		MF	Hippocampus
+purple	black	0.077	MF	Hippocampus
+purple	turquoise	0.056	MF	Hippocampus
+purple	blue	0.128	MF	Hippocampus
+purple	green		MF	Hippocampus
+purple	yellow	0.056	MF	Hippocampus
+purple	orange		MF	Hippocampus
+purple	greenyellow	0.055	MF	Hippocampus
+purple	midnightblue	0.055	MF	Hippocampus
+purple	brown	0.08	MF	Hippocampus
+purple	red	0.068	MF	Hippocampus
+purple	lightyellow	0.054	MF	Hippocampus
+purple	white	0.105	MF	Hippocampus
+purple	lightgreen	0.018	MF	Hippocampus
+purple	lightcyan	0.09	MF	Hippocampus
+purple	steelblue	0.145	MF	Hippocampus
+purple	magenta		MF	Hippocampus
+purple	darkturquoise		MF	Hippocampus
+purple	cyan	0.093	MF	Hippocampus
+purple	violet	0.037	MF	Hippocampus
+purple	yellowgreen		MF	Hippocampus
+purple	darkolivegreen	0.057	MF	Hippocampus
+purple	salmon		MF	Hippocampus
+purple	darkred	0.068	MF	Hippocampus
+purple	grey60		MF	Hippocampus
+purple	darkorange		MF	Hippocampus
+purple	skyblue3	0.112	MF	Hippocampus
+orange	grey		MF	Hippocampus
+orange	pink		MF	Hippocampus
+orange	darkgreen		MF	Hippocampus
+orange	black		MF	Hippocampus
+orange	turquoise		MF	Hippocampus
+orange	blue		MF	Hippocampus
+orange	green		MF	Hippocampus
+orange	yellow		MF	Hippocampus
+orange	purple		MF	Hippocampus
+orange	greenyellow		MF	Hippocampus
+orange	midnightblue		MF	Hippocampus
+orange	brown		MF	Hippocampus
+orange	red		MF	Hippocampus
+orange	lightyellow		MF	Hippocampus
+orange	white		MF	Hippocampus
+orange	lightgreen		MF	Hippocampus
+orange	lightcyan		MF	Hippocampus
+orange	steelblue		MF	Hippocampus
+orange	magenta		MF	Hippocampus
+orange	darkturquoise		MF	Hippocampus
+orange	cyan		MF	Hippocampus
+orange	violet		MF	Hippocampus
+orange	yellowgreen		MF	Hippocampus
+orange	darkolivegreen		MF	Hippocampus
+orange	salmon		MF	Hippocampus
+orange	darkred		MF	Hippocampus
+orange	grey60		MF	Hippocampus
+orange	darkorange		MF	Hippocampus
+orange	skyblue3		MF	Hippocampus
+greenyellow	grey	0.139	MF	Hippocampus
+greenyellow	pink	0.144	MF	Hippocampus
+greenyellow	darkgreen		MF	Hippocampus
+greenyellow	black	0.248	MF	Hippocampus
+greenyellow	turquoise	0.238	MF	Hippocampus
+greenyellow	blue	0.13	MF	Hippocampus
+greenyellow	green		MF	Hippocampus
+greenyellow	yellow	0.128	MF	Hippocampus
+greenyellow	purple	0.055	MF	Hippocampus
+greenyellow	orange		MF	Hippocampus
+greenyellow	midnightblue	0.234	MF	Hippocampus
+greenyellow	brown	0.161	MF	Hippocampus
+greenyellow	red	0.265	MF	Hippocampus
+greenyellow	lightyellow	0.143	MF	Hippocampus
+greenyellow	white	0.141	MF	Hippocampus
+greenyellow	lightgreen	0.334	MF	Hippocampus
+greenyellow	lightcyan	0.155	MF	Hippocampus
+greenyellow	steelblue	0.141	MF	Hippocampus
+greenyellow	magenta		MF	Hippocampus
+greenyellow	darkturquoise		MF	Hippocampus
+greenyellow	cyan	0.152	MF	Hippocampus
+greenyellow	violet	0.105	MF	Hippocampus
+greenyellow	yellowgreen		MF	Hippocampus
+greenyellow	darkolivegreen	0.142	MF	Hippocampus
+greenyellow	salmon		MF	Hippocampus
+greenyellow	darkred	0.147	MF	Hippocampus
+greenyellow	grey60		MF	Hippocampus
+greenyellow	darkorange		MF	Hippocampus
+greenyellow	skyblue3	0.224	MF	Hippocampus
+midnightblue	grey	0.355	MF	Hippocampus
+midnightblue	pink	0.634	MF	Hippocampus
+midnightblue	darkgreen		MF	Hippocampus
+midnightblue	black	0.457	MF	Hippocampus
+midnightblue	turquoise	0.749	MF	Hippocampus
+midnightblue	blue	0.502	MF	Hippocampus
+midnightblue	green		MF	Hippocampus
+midnightblue	yellow	0.311	MF	Hippocampus
+midnightblue	purple	0.055	MF	Hippocampus
+midnightblue	orange		MF	Hippocampus
+midnightblue	greenyellow	0.234	MF	Hippocampus
+midnightblue	brown	0.45	MF	Hippocampus
+midnightblue	red	0.521	MF	Hippocampus
+midnightblue	lightyellow	0.505	MF	Hippocampus
+midnightblue	white	0.437	MF	Hippocampus
+midnightblue	lightgreen	0.213	MF	Hippocampus
+midnightblue	lightcyan	0.481	MF	Hippocampus
+midnightblue	steelblue	0.436	MF	Hippocampus
+midnightblue	magenta		MF	Hippocampus
+midnightblue	darkturquoise		MF	Hippocampus
+midnightblue	cyan	0.535	MF	Hippocampus
+midnightblue	violet	0.092	MF	Hippocampus
+midnightblue	yellowgreen		MF	Hippocampus
+midnightblue	darkolivegreen	0.45	MF	Hippocampus
+midnightblue	salmon		MF	Hippocampus
+midnightblue	darkred	0.289	MF	Hippocampus
+midnightblue	grey60		MF	Hippocampus
+midnightblue	darkorange		MF	Hippocampus
+midnightblue	skyblue3	1	MF	Hippocampus
+brown	grey	0.476	MF	Hippocampus
+brown	pink	0.456	MF	Hippocampus
+brown	darkgreen		MF	Hippocampus
+brown	black	0.451	MF	Hippocampus
+brown	turquoise	0.424	MF	Hippocampus
+brown	blue	0.331	MF	Hippocampus
+brown	green		MF	Hippocampus
+brown	yellow	0.311	MF	Hippocampus
+brown	purple	0.08	MF	Hippocampus
+brown	orange		MF	Hippocampus
+brown	greenyellow	0.161	MF	Hippocampus
+brown	midnightblue	0.45	MF	Hippocampus
+brown	red	0.398	MF	Hippocampus
+brown	lightyellow	0.394	MF	Hippocampus
+brown	white	0.383	MF	Hippocampus
+brown	lightgreen	0.079	MF	Hippocampus
+brown	lightcyan	0.39	MF	Hippocampus
+brown	steelblue	0.397	MF	Hippocampus
+brown	magenta		MF	Hippocampus
+brown	darkturquoise		MF	Hippocampus
+brown	cyan	0.436	MF	Hippocampus
+brown	violet	0.116	MF	Hippocampus
+brown	yellowgreen		MF	Hippocampus
+brown	darkolivegreen	0.379	MF	Hippocampus
+brown	salmon		MF	Hippocampus
+brown	darkred	0.812	MF	Hippocampus
+brown	grey60		MF	Hippocampus
+brown	darkorange		MF	Hippocampus
+brown	skyblue3	1	MF	Hippocampus
+red	grey	0.356	MF	Hippocampus
+red	pink	0.51	MF	Hippocampus
+red	darkgreen		MF	Hippocampus
+red	black	0.641	MF	Hippocampus
+red	turquoise	0.529	MF	Hippocampus
+red	blue	0.428	MF	Hippocampus
+red	green		MF	Hippocampus
+red	yellow	0.55	MF	Hippocampus
+red	purple	0.068	MF	Hippocampus
+red	orange		MF	Hippocampus
+red	greenyellow	0.265	MF	Hippocampus
+red	midnightblue	0.521	MF	Hippocampus
+red	brown	0.398	MF	Hippocampus
+red	lightyellow	0.456	MF	Hippocampus
+red	white	0.408	MF	Hippocampus
+red	lightgreen	0.077	MF	Hippocampus
+red	lightcyan	0.446	MF	Hippocampus
+red	steelblue	0.405	MF	Hippocampus
+red	magenta		MF	Hippocampus
+red	darkturquoise		MF	Hippocampus
+red	cyan	0.486	MF	Hippocampus
+red	violet	0.112	MF	Hippocampus
+red	yellowgreen		MF	Hippocampus
+red	darkolivegreen	0.409	MF	Hippocampus
+red	salmon		MF	Hippocampus
+red	darkred	0.147	MF	Hippocampus
+red	grey60		MF	Hippocampus
+red	darkorange		MF	Hippocampus
+red	skyblue3	1	MF	Hippocampus
+lightyellow	grey	0.357	MF	Hippocampus
+lightyellow	pink	0.522	MF	Hippocampus
+lightyellow	darkgreen		MF	Hippocampus
+lightyellow	black	0.44	MF	Hippocampus
+lightyellow	turquoise	0.498	MF	Hippocampus
+lightyellow	blue	0.398	MF	Hippocampus
+lightyellow	green		MF	Hippocampus
+lightyellow	yellow	0.311	MF	Hippocampus
+lightyellow	purple	0.054	MF	Hippocampus
+lightyellow	orange		MF	Hippocampus
+lightyellow	greenyellow	0.143	MF	Hippocampus
+lightyellow	midnightblue	0.505	MF	Hippocampus
+lightyellow	brown	0.394	MF	Hippocampus
+lightyellow	red	0.456	MF	Hippocampus
+lightyellow	white	0.397	MF	Hippocampus
+lightyellow	lightgreen	0.046	MF	Hippocampus
+lightyellow	lightcyan	0.444	MF	Hippocampus
+lightyellow	steelblue	0.382	MF	Hippocampus
+lightyellow	magenta		MF	Hippocampus
+lightyellow	darkturquoise		MF	Hippocampus
+lightyellow	cyan	0.493	MF	Hippocampus
+lightyellow	violet	0.165	MF	Hippocampus
+lightyellow	yellowgreen		MF	Hippocampus
+lightyellow	darkolivegreen	0.605	MF	Hippocampus
+lightyellow	salmon		MF	Hippocampus
+lightyellow	darkred	0.147	MF	Hippocampus
+lightyellow	grey60		MF	Hippocampus
+lightyellow	darkorange		MF	Hippocampus
+lightyellow	skyblue3	1	MF	Hippocampus
+white	grey	0.469	MF	Hippocampus
+white	pink	0.427	MF	Hippocampus
+white	darkgreen		MF	Hippocampus
+white	black	0.455	MF	Hippocampus
+white	turquoise	0.429	MF	Hippocampus
+white	blue	0.487	MF	Hippocampus
+white	green		MF	Hippocampus
+white	yellow	0.311	MF	Hippocampus
+white	purple	0.105	MF	Hippocampus
+white	orange		MF	Hippocampus
+white	greenyellow	0.141	MF	Hippocampus
+white	midnightblue	0.437	MF	Hippocampus
+white	brown	0.383	MF	Hippocampus
+white	red	0.408	MF	Hippocampus
+white	lightyellow	0.397	MF	Hippocampus
+white	lightgreen	0.039	MF	Hippocampus
+white	lightcyan	0.715	MF	Hippocampus
+white	steelblue	0.518	MF	Hippocampus
+white	magenta		MF	Hippocampus
+white	darkturquoise		MF	Hippocampus
+white	cyan	0.41	MF	Hippocampus
+white	violet	0.089	MF	Hippocampus
+white	yellowgreen		MF	Hippocampus
+white	darkolivegreen	0.545	MF	Hippocampus
+white	salmon		MF	Hippocampus
+white	darkred	0.147	MF	Hippocampus
+white	grey60		MF	Hippocampus
+white	darkorange		MF	Hippocampus
+white	skyblue3	1	MF	Hippocampus
+lightgreen	grey	0.04	MF	Hippocampus
+lightgreen	pink	0.043	MF	Hippocampus
+lightgreen	darkgreen		MF	Hippocampus
+lightgreen	black	0.049	MF	Hippocampus
+lightgreen	turquoise	0.23	MF	Hippocampus
+lightgreen	blue	0.036	MF	Hippocampus
+lightgreen	green		MF	Hippocampus
+lightgreen	yellow	0.027	MF	Hippocampus
+lightgreen	purple	0.018	MF	Hippocampus
+lightgreen	orange		MF	Hippocampus
+lightgreen	greenyellow	0.334	MF	Hippocampus
+lightgreen	midnightblue	0.213	MF	Hippocampus
+lightgreen	brown	0.079	MF	Hippocampus
+lightgreen	red	0.077	MF	Hippocampus
+lightgreen	lightyellow	0.046	MF	Hippocampus
+lightgreen	white	0.039	MF	Hippocampus
+lightgreen	lightcyan	0.047	MF	Hippocampus
+lightgreen	steelblue	0.04	MF	Hippocampus
+lightgreen	magenta		MF	Hippocampus
+lightgreen	darkturquoise		MF	Hippocampus
+lightgreen	cyan	0.05	MF	Hippocampus
+lightgreen	violet	0.032	MF	Hippocampus
+lightgreen	yellowgreen		MF	Hippocampus
+lightgreen	darkolivegreen	0.043	MF	Hippocampus
+lightgreen	salmon		MF	Hippocampus
+lightgreen	darkred	0.036	MF	Hippocampus
+lightgreen	grey60		MF	Hippocampus
+lightgreen	darkorange		MF	Hippocampus
+lightgreen	skyblue3	0.067	MF	Hippocampus
+lightcyan	grey	0.444	MF	Hippocampus
+lightcyan	pink	0.473	MF	Hippocampus
+lightcyan	darkgreen		MF	Hippocampus
+lightcyan	black	0.446	MF	Hippocampus
+lightcyan	turquoise	0.475	MF	Hippocampus
+lightcyan	blue	0.463	MF	Hippocampus
+lightcyan	green		MF	Hippocampus
+lightcyan	yellow	0.311	MF	Hippocampus
+lightcyan	purple	0.09	MF	Hippocampus
+lightcyan	orange		MF	Hippocampus
+lightcyan	greenyellow	0.155	MF	Hippocampus
+lightcyan	midnightblue	0.481	MF	Hippocampus
+lightcyan	brown	0.39	MF	Hippocampus
+lightcyan	red	0.446	MF	Hippocampus
+lightcyan	lightyellow	0.444	MF	Hippocampus
+lightcyan	white	0.715	MF	Hippocampus
+lightcyan	lightgreen	0.047	MF	Hippocampus
+lightcyan	steelblue	0.501	MF	Hippocampus
+lightcyan	magenta		MF	Hippocampus
+lightcyan	darkturquoise		MF	Hippocampus
+lightcyan	cyan	0.455	MF	Hippocampus
+lightcyan	violet	0.103	MF	Hippocampus
+lightcyan	yellowgreen		MF	Hippocampus
+lightcyan	darkolivegreen	0.511	MF	Hippocampus
+lightcyan	salmon		MF	Hippocampus
+lightcyan	darkred	0.147	MF	Hippocampus
+lightcyan	grey60		MF	Hippocampus
+lightcyan	darkorange		MF	Hippocampus
+lightcyan	skyblue3	1	MF	Hippocampus
+steelblue	grey	0.462	MF	Hippocampus
+steelblue	pink	0.426	MF	Hippocampus
+steelblue	darkgreen		MF	Hippocampus
+steelblue	black	0.425	MF	Hippocampus
+steelblue	turquoise	0.427	MF	Hippocampus
+steelblue	blue	0.564	MF	Hippocampus
+steelblue	green		MF	Hippocampus
+steelblue	yellow	0.311	MF	Hippocampus
+steelblue	purple	0.145	MF	Hippocampus
+steelblue	orange		MF	Hippocampus
+steelblue	greenyellow	0.141	MF	Hippocampus
+steelblue	midnightblue	0.436	MF	Hippocampus
+steelblue	brown	0.397	MF	Hippocampus
+steelblue	red	0.405	MF	Hippocampus
+steelblue	lightyellow	0.382	MF	Hippocampus
+steelblue	white	0.518	MF	Hippocampus
+steelblue	lightgreen	0.04	MF	Hippocampus
+steelblue	lightcyan	0.501	MF	Hippocampus
+steelblue	magenta		MF	Hippocampus
+steelblue	darkturquoise		MF	Hippocampus
+steelblue	cyan	0.427	MF	Hippocampus
+steelblue	violet	0.09	MF	Hippocampus
+steelblue	yellowgreen		MF	Hippocampus
+steelblue	darkolivegreen	0.423	MF	Hippocampus
+steelblue	salmon		MF	Hippocampus
+steelblue	darkred	0.147	MF	Hippocampus
+steelblue	grey60		MF	Hippocampus
+steelblue	darkorange		MF	Hippocampus
+steelblue	skyblue3	1	MF	Hippocampus
+magenta	grey		MF	Hippocampus
+magenta	pink		MF	Hippocampus
+magenta	darkgreen		MF	Hippocampus
+magenta	black		MF	Hippocampus
+magenta	turquoise		MF	Hippocampus
+magenta	blue		MF	Hippocampus
+magenta	green		MF	Hippocampus
+magenta	yellow		MF	Hippocampus
+magenta	purple		MF	Hippocampus
+magenta	orange		MF	Hippocampus
+magenta	greenyellow		MF	Hippocampus
+magenta	midnightblue		MF	Hippocampus
+magenta	brown		MF	Hippocampus
+magenta	red		MF	Hippocampus
+magenta	lightyellow		MF	Hippocampus
+magenta	white		MF	Hippocampus
+magenta	lightgreen		MF	Hippocampus
+magenta	lightcyan		MF	Hippocampus
+magenta	steelblue		MF	Hippocampus
+magenta	darkturquoise		MF	Hippocampus
+magenta	cyan		MF	Hippocampus
+magenta	violet		MF	Hippocampus
+magenta	yellowgreen		MF	Hippocampus
+magenta	darkolivegreen		MF	Hippocampus
+magenta	salmon		MF	Hippocampus
+magenta	darkred		MF	Hippocampus
+magenta	grey60		MF	Hippocampus
+magenta	darkorange		MF	Hippocampus
+magenta	skyblue3		MF	Hippocampus
+darkturquoise	grey		MF	Hippocampus
+darkturquoise	pink		MF	Hippocampus
+darkturquoise	darkgreen		MF	Hippocampus
+darkturquoise	black		MF	Hippocampus
+darkturquoise	turquoise		MF	Hippocampus
+darkturquoise	blue		MF	Hippocampus
+darkturquoise	green		MF	Hippocampus
+darkturquoise	yellow		MF	Hippocampus
+darkturquoise	purple		MF	Hippocampus
+darkturquoise	orange		MF	Hippocampus
+darkturquoise	greenyellow		MF	Hippocampus
+darkturquoise	midnightblue		MF	Hippocampus
+darkturquoise	brown		MF	Hippocampus
+darkturquoise	red		MF	Hippocampus
+darkturquoise	lightyellow		MF	Hippocampus
+darkturquoise	white		MF	Hippocampus
+darkturquoise	lightgreen		MF	Hippocampus
+darkturquoise	lightcyan		MF	Hippocampus
+darkturquoise	steelblue		MF	Hippocampus
+darkturquoise	magenta		MF	Hippocampus
+darkturquoise	cyan		MF	Hippocampus
+darkturquoise	violet		MF	Hippocampus
+darkturquoise	yellowgreen		MF	Hippocampus
+darkturquoise	darkolivegreen		MF	Hippocampus
+darkturquoise	salmon		MF	Hippocampus
+darkturquoise	darkred		MF	Hippocampus
+darkturquoise	grey60		MF	Hippocampus
+darkturquoise	darkorange		MF	Hippocampus
+darkturquoise	skyblue3		MF	Hippocampus
+cyan	grey	0.376	MF	Hippocampus
+cyan	pink	0.726	MF	Hippocampus
+cyan	darkgreen		MF	Hippocampus
+cyan	black	0.447	MF	Hippocampus
+cyan	turquoise	0.532	MF	Hippocampus
+cyan	blue	0.415	MF	Hippocampus
+cyan	green		MF	Hippocampus
+cyan	yellow	0.311	MF	Hippocampus
+cyan	purple	0.093	MF	Hippocampus
+cyan	orange		MF	Hippocampus
+cyan	greenyellow	0.152	MF	Hippocampus
+cyan	midnightblue	0.535	MF	Hippocampus
+cyan	brown	0.436	MF	Hippocampus
+cyan	red	0.486	MF	Hippocampus
+cyan	lightyellow	0.493	MF	Hippocampus
+cyan	white	0.41	MF	Hippocampus
+cyan	lightgreen	0.05	MF	Hippocampus
+cyan	lightcyan	0.455	MF	Hippocampus
+cyan	steelblue	0.427	MF	Hippocampus
+cyan	magenta		MF	Hippocampus
+cyan	darkturquoise		MF	Hippocampus
+cyan	violet	0.227	MF	Hippocampus
+cyan	yellowgreen		MF	Hippocampus
+cyan	darkolivegreen	0.407	MF	Hippocampus
+cyan	salmon		MF	Hippocampus
+cyan	darkred	0.147	MF	Hippocampus
+cyan	grey60		MF	Hippocampus
+cyan	darkorange		MF	Hippocampus
+cyan	skyblue3	1	MF	Hippocampus
+violet	grey	0.091	MF	Hippocampus
+violet	pink	0.2	MF	Hippocampus
+violet	darkgreen		MF	Hippocampus
+violet	black	0.123	MF	Hippocampus
+violet	turquoise	0.097	MF	Hippocampus
+violet	blue	0.082	MF	Hippocampus
+violet	green		MF	Hippocampus
+violet	yellow	0.071	MF	Hippocampus
+violet	purple	0.037	MF	Hippocampus
+violet	orange		MF	Hippocampus
+violet	greenyellow	0.105	MF	Hippocampus
+violet	midnightblue	0.092	MF	Hippocampus
+violet	brown	0.116	MF	Hippocampus
+violet	red	0.112	MF	Hippocampus
+violet	lightyellow	0.165	MF	Hippocampus
+violet	white	0.089	MF	Hippocampus
+violet	lightgreen	0.032	MF	Hippocampus
+violet	lightcyan	0.103	MF	Hippocampus
+violet	steelblue	0.09	MF	Hippocampus
+violet	magenta		MF	Hippocampus
+violet	darkturquoise		MF	Hippocampus
+violet	cyan	0.227	MF	Hippocampus
+violet	yellowgreen		MF	Hippocampus
+violet	darkolivegreen	0.095	MF	Hippocampus
+violet	salmon		MF	Hippocampus
+violet	darkred	0.087	MF	Hippocampus
+violet	grey60		MF	Hippocampus
+violet	darkorange		MF	Hippocampus
+violet	skyblue3	0.147	MF	Hippocampus
+yellowgreen	grey		MF	Hippocampus
+yellowgreen	pink		MF	Hippocampus
+yellowgreen	darkgreen		MF	Hippocampus
+yellowgreen	black		MF	Hippocampus
+yellowgreen	turquoise		MF	Hippocampus
+yellowgreen	blue		MF	Hippocampus
+yellowgreen	green		MF	Hippocampus
+yellowgreen	yellow		MF	Hippocampus
+yellowgreen	purple		MF	Hippocampus
+yellowgreen	orange		MF	Hippocampus
+yellowgreen	greenyellow		MF	Hippocampus
+yellowgreen	midnightblue		MF	Hippocampus
+yellowgreen	brown		MF	Hippocampus
+yellowgreen	red		MF	Hippocampus
+yellowgreen	lightyellow		MF	Hippocampus
+yellowgreen	white		MF	Hippocampus
+yellowgreen	lightgreen		MF	Hippocampus
+yellowgreen	lightcyan		MF	Hippocampus
+yellowgreen	steelblue		MF	Hippocampus
+yellowgreen	magenta		MF	Hippocampus
+yellowgreen	darkturquoise		MF	Hippocampus
+yellowgreen	cyan		MF	Hippocampus
+yellowgreen	violet		MF	Hippocampus
+yellowgreen	darkolivegreen		MF	Hippocampus
+yellowgreen	salmon		MF	Hippocampus
+yellowgreen	darkred		MF	Hippocampus
+yellowgreen	grey60		MF	Hippocampus
+yellowgreen	darkorange		MF	Hippocampus
+yellowgreen	skyblue3		MF	Hippocampus
+darkolivegreen	grey	0.415	MF	Hippocampus
+darkolivegreen	pink	0.438	MF	Hippocampus
+darkolivegreen	darkgreen		MF	Hippocampus
+darkolivegreen	black	0.468	MF	Hippocampus
+darkolivegreen	turquoise	0.44	MF	Hippocampus
+darkolivegreen	blue	0.447	MF	Hippocampus
+darkolivegreen	green		MF	Hippocampus
+darkolivegreen	yellow	0.311	MF	Hippocampus
+darkolivegreen	purple	0.057	MF	Hippocampus
+darkolivegreen	orange		MF	Hippocampus
+darkolivegreen	greenyellow	0.142	MF	Hippocampus
+darkolivegreen	midnightblue	0.45	MF	Hippocampus
+darkolivegreen	brown	0.379	MF	Hippocampus
+darkolivegreen	red	0.409	MF	Hippocampus
+darkolivegreen	lightyellow	0.605	MF	Hippocampus
+darkolivegreen	white	0.545	MF	Hippocampus
+darkolivegreen	lightgreen	0.043	MF	Hippocampus
+darkolivegreen	lightcyan	0.511	MF	Hippocampus
+darkolivegreen	steelblue	0.423	MF	Hippocampus
+darkolivegreen	magenta		MF	Hippocampus
+darkolivegreen	darkturquoise		MF	Hippocampus
+darkolivegreen	cyan	0.407	MF	Hippocampus
+darkolivegreen	violet	0.095	MF	Hippocampus
+darkolivegreen	yellowgreen		MF	Hippocampus
+darkolivegreen	salmon		MF	Hippocampus
+darkolivegreen	darkred	0.147	MF	Hippocampus
+darkolivegreen	grey60		MF	Hippocampus
+darkolivegreen	darkorange		MF	Hippocampus
+darkolivegreen	skyblue3	1	MF	Hippocampus
+salmon	grey		MF	Hippocampus
+salmon	pink		MF	Hippocampus
+salmon	darkgreen		MF	Hippocampus
+salmon	black		MF	Hippocampus
+salmon	turquoise		MF	Hippocampus
+salmon	blue		MF	Hippocampus
+salmon	green		MF	Hippocampus
+salmon	yellow		MF	Hippocampus
+salmon	purple		MF	Hippocampus
+salmon	orange		MF	Hippocampus
+salmon	greenyellow		MF	Hippocampus
+salmon	midnightblue		MF	Hippocampus
+salmon	brown		MF	Hippocampus
+salmon	red		MF	Hippocampus
+salmon	lightyellow		MF	Hippocampus
+salmon	white		MF	Hippocampus
+salmon	lightgreen		MF	Hippocampus
+salmon	lightcyan		MF	Hippocampus
+salmon	steelblue		MF	Hippocampus
+salmon	magenta		MF	Hippocampus
+salmon	darkturquoise		MF	Hippocampus
+salmon	cyan		MF	Hippocampus
+salmon	violet		MF	Hippocampus
+salmon	yellowgreen		MF	Hippocampus
+salmon	darkolivegreen		MF	Hippocampus
+salmon	darkred		MF	Hippocampus
+salmon	grey60		MF	Hippocampus
+salmon	darkorange		MF	Hippocampus
+salmon	skyblue3		MF	Hippocampus
+darkred	grey	0.639	MF	Hippocampus
+darkred	pink	0.147	MF	Hippocampus
+darkred	darkgreen		MF	Hippocampus
+darkred	black	0.147	MF	Hippocampus
+darkred	turquoise	0.147	MF	Hippocampus
+darkred	blue	0.11	MF	Hippocampus
+darkred	green		MF	Hippocampus
+darkred	yellow	0.071	MF	Hippocampus
+darkred	purple	0.068	MF	Hippocampus
+darkred	orange		MF	Hippocampus
+darkred	greenyellow	0.147	MF	Hippocampus
+darkred	midnightblue	0.289	MF	Hippocampus
+darkred	brown	0.812	MF	Hippocampus
+darkred	red	0.147	MF	Hippocampus
+darkred	lightyellow	0.147	MF	Hippocampus
+darkred	white	0.147	MF	Hippocampus
+darkred	lightgreen	0.036	MF	Hippocampus
+darkred	lightcyan	0.147	MF	Hippocampus
+darkred	steelblue	0.147	MF	Hippocampus
+darkred	magenta		MF	Hippocampus
+darkred	darkturquoise		MF	Hippocampus
+darkred	cyan	0.147	MF	Hippocampus
+darkred	violet	0.087	MF	Hippocampus
+darkred	yellowgreen		MF	Hippocampus
+darkred	darkolivegreen	0.147	MF	Hippocampus
+darkred	salmon		MF	Hippocampus
+darkred	grey60		MF	Hippocampus
+darkred	darkorange		MF	Hippocampus
+darkred	skyblue3	0.147	MF	Hippocampus
+grey60	grey		MF	Hippocampus
+grey60	pink		MF	Hippocampus
+grey60	darkgreen		MF	Hippocampus
+grey60	black		MF	Hippocampus
+grey60	turquoise		MF	Hippocampus
+grey60	blue		MF	Hippocampus
+grey60	green		MF	Hippocampus
+grey60	yellow		MF	Hippocampus
+grey60	purple		MF	Hippocampus
+grey60	orange		MF	Hippocampus
+grey60	greenyellow		MF	Hippocampus
+grey60	midnightblue		MF	Hippocampus
+grey60	brown		MF	Hippocampus
+grey60	red		MF	Hippocampus
+grey60	lightyellow		MF	Hippocampus
+grey60	white		MF	Hippocampus
+grey60	lightgreen		MF	Hippocampus
+grey60	lightcyan		MF	Hippocampus
+grey60	steelblue		MF	Hippocampus
+grey60	magenta		MF	Hippocampus
+grey60	darkturquoise		MF	Hippocampus
+grey60	cyan		MF	Hippocampus
+grey60	violet		MF	Hippocampus
+grey60	yellowgreen		MF	Hippocampus
+grey60	darkolivegreen		MF	Hippocampus
+grey60	salmon		MF	Hippocampus
+grey60	darkred		MF	Hippocampus
+grey60	darkorange		MF	Hippocampus
+grey60	skyblue3		MF	Hippocampus
+darkorange	grey		MF	Hippocampus
+darkorange	pink		MF	Hippocampus
+darkorange	darkgreen		MF	Hippocampus
+darkorange	black		MF	Hippocampus
+darkorange	turquoise		MF	Hippocampus
+darkorange	blue		MF	Hippocampus
+darkorange	green		MF	Hippocampus
+darkorange	yellow		MF	Hippocampus
+darkorange	purple		MF	Hippocampus
+darkorange	orange		MF	Hippocampus
+darkorange	greenyellow		MF	Hippocampus
+darkorange	midnightblue		MF	Hippocampus
+darkorange	brown		MF	Hippocampus
+darkorange	red		MF	Hippocampus
+darkorange	lightyellow		MF	Hippocampus
+darkorange	white		MF	Hippocampus
+darkorange	lightgreen		MF	Hippocampus
+darkorange	lightcyan		MF	Hippocampus
+darkorange	steelblue		MF	Hippocampus
+darkorange	magenta		MF	Hippocampus
+darkorange	darkturquoise		MF	Hippocampus
+darkorange	cyan		MF	Hippocampus
+darkorange	violet		MF	Hippocampus
+darkorange	yellowgreen		MF	Hippocampus
+darkorange	darkolivegreen		MF	Hippocampus
+darkorange	salmon		MF	Hippocampus
+darkorange	darkred		MF	Hippocampus
+darkorange	grey60		MF	Hippocampus
+darkorange	skyblue3		MF	Hippocampus
+skyblue3	grey	1	MF	Hippocampus
+skyblue3	pink	1	MF	Hippocampus
+skyblue3	darkgreen		MF	Hippocampus
+skyblue3	black	1	MF	Hippocampus
+skyblue3	turquoise	1	MF	Hippocampus
+skyblue3	blue	0.788	MF	Hippocampus
+skyblue3	green		MF	Hippocampus
+skyblue3	yellow	0.311	MF	Hippocampus
+skyblue3	purple	0.112	MF	Hippocampus
+skyblue3	orange		MF	Hippocampus
+skyblue3	greenyellow	0.224	MF	Hippocampus
+skyblue3	midnightblue	1	MF	Hippocampus
+skyblue3	brown	1	MF	Hippocampus
+skyblue3	red	1	MF	Hippocampus
+skyblue3	lightyellow	1	MF	Hippocampus
+skyblue3	white	1	MF	Hippocampus
+skyblue3	lightgreen	0.067	MF	Hippocampus
+skyblue3	lightcyan	1	MF	Hippocampus
+skyblue3	steelblue	1	MF	Hippocampus
+skyblue3	magenta		MF	Hippocampus
+skyblue3	darkturquoise		MF	Hippocampus
+skyblue3	cyan	1	MF	Hippocampus
+skyblue3	violet	0.147	MF	Hippocampus
+skyblue3	yellowgreen		MF	Hippocampus
+skyblue3	darkolivegreen	1	MF	Hippocampus
+skyblue3	salmon		MF	Hippocampus
+skyblue3	darkred	0.147	MF	Hippocampus
+skyblue3	grey60		MF	Hippocampus
+skyblue3	darkorange		MF	Hippocampus
+grey	pink	0.137	BP	Hippocampus
+grey	darkgreen	0.099	BP	Hippocampus
+grey	black	0.263	BP	Hippocampus
+grey	turquoise	0.221	BP	Hippocampus
+grey	blue	0.314	BP	Hippocampus
+grey	green		BP	Hippocampus
+grey	yellow		BP	Hippocampus
+grey	purple	0.233	BP	Hippocampus
+grey	orange		BP	Hippocampus
+grey	greenyellow	0.123	BP	Hippocampus
+grey	midnightblue	0.201	BP	Hippocampus
+grey	brown	0.513	BP	Hippocampus
+grey	red	0.255	BP	Hippocampus
+grey	lightyellow	0.284	BP	Hippocampus
+grey	white	0.19	BP	Hippocampus
+grey	lightgreen		BP	Hippocampus
+grey	lightcyan	0.131	BP	Hippocampus
+grey	steelblue	0.275	BP	Hippocampus
+grey	magenta	0.902	BP	Hippocampus
+grey	darkturquoise		BP	Hippocampus
+grey	cyan	0.188	BP	Hippocampus
+grey	violet		BP	Hippocampus
+grey	yellowgreen	0.233	BP	Hippocampus
+grey	darkolivegreen	0.263	BP	Hippocampus
+grey	salmon	0.13	BP	Hippocampus
+grey	darkred		BP	Hippocampus
+grey	grey60		BP	Hippocampus
+grey	darkorange	0.127	BP	Hippocampus
+grey	skyblue3		BP	Hippocampus
+pink	grey	0.137	BP	Hippocampus
+pink	darkgreen	0.12	BP	Hippocampus
+pink	black	0.203	BP	Hippocampus
+pink	turquoise	0.191	BP	Hippocampus
+pink	blue	0.173	BP	Hippocampus
+pink	green		BP	Hippocampus
+pink	yellow		BP	Hippocampus
+pink	purple	0.334	BP	Hippocampus
+pink	orange		BP	Hippocampus
+pink	greenyellow	0.13	BP	Hippocampus
+pink	midnightblue	0.24	BP	Hippocampus
+pink	brown	0.177	BP	Hippocampus
+pink	red	0.181	BP	Hippocampus
+pink	lightyellow	0.145	BP	Hippocampus
+pink	white	0.055	BP	Hippocampus
+pink	lightgreen		BP	Hippocampus
+pink	lightcyan	0.054	BP	Hippocampus
+pink	steelblue	0.145	BP	Hippocampus
+pink	magenta	0.267	BP	Hippocampus
+pink	darkturquoise		BP	Hippocampus
+pink	cyan	0.213	BP	Hippocampus
+pink	violet		BP	Hippocampus
+pink	yellowgreen	0.1	BP	Hippocampus
+pink	darkolivegreen	0.13	BP	Hippocampus
+pink	salmon	0.273	BP	Hippocampus
+pink	darkred		BP	Hippocampus
+pink	grey60		BP	Hippocampus
+pink	darkorange	0.098	BP	Hippocampus
+pink	skyblue3		BP	Hippocampus
+darkgreen	grey	0.099	BP	Hippocampus
+darkgreen	pink	0.12	BP	Hippocampus
+darkgreen	black	0.173	BP	Hippocampus
+darkgreen	turquoise	0.216	BP	Hippocampus
+darkgreen	blue	0.137	BP	Hippocampus
+darkgreen	green		BP	Hippocampus
+darkgreen	yellow		BP	Hippocampus
+darkgreen	purple	0.139	BP	Hippocampus
+darkgreen	orange		BP	Hippocampus
+darkgreen	greenyellow	0.231	BP	Hippocampus
+darkgreen	midnightblue	0.177	BP	Hippocampus
+darkgreen	brown	0.092	BP	Hippocampus
+darkgreen	red	0.167	BP	Hippocampus
+darkgreen	lightyellow	0.092	BP	Hippocampus
+darkgreen	white	0.09	BP	Hippocampus
+darkgreen	lightgreen		BP	Hippocampus
+darkgreen	lightcyan	0.101	BP	Hippocampus
+darkgreen	steelblue	0.063	BP	Hippocampus
+darkgreen	magenta	0.104	BP	Hippocampus
+darkgreen	darkturquoise		BP	Hippocampus
+darkgreen	cyan	0.135	BP	Hippocampus
+darkgreen	violet		BP	Hippocampus
+darkgreen	yellowgreen	0.048	BP	Hippocampus
+darkgreen	darkolivegreen	0.082	BP	Hippocampus
+darkgreen	salmon	0.115	BP	Hippocampus
+darkgreen	darkred		BP	Hippocampus
+darkgreen	grey60		BP	Hippocampus
+darkgreen	darkorange	0.068	BP	Hippocampus
+darkgreen	skyblue3		BP	Hippocampus
+black	grey	0.263	BP	Hippocampus
+black	pink	0.203	BP	Hippocampus
+black	darkgreen	0.173	BP	Hippocampus
+black	turquoise	0.418	BP	Hippocampus
+black	blue	0.33	BP	Hippocampus
+black	green		BP	Hippocampus
+black	yellow		BP	Hippocampus
+black	purple	0.278	BP	Hippocampus
+black	orange		BP	Hippocampus
+black	greenyellow	0.215	BP	Hippocampus
+black	midnightblue	0.216	BP	Hippocampus
+black	brown	0.272	BP	Hippocampus
+black	red	0.377	BP	Hippocampus
+black	lightyellow	0.285	BP	Hippocampus
+black	white	0.106	BP	Hippocampus
+black	lightgreen		BP	Hippocampus
+black	lightcyan	0.105	BP	Hippocampus
+black	steelblue	0.156	BP	Hippocampus
+black	magenta	0.231	BP	Hippocampus
+black	darkturquoise		BP	Hippocampus
+black	cyan	0.144	BP	Hippocampus
+black	violet		BP	Hippocampus
+black	yellowgreen	0.138	BP	Hippocampus
+black	darkolivegreen	0.224	BP	Hippocampus
+black	salmon	0.282	BP	Hippocampus
+black	darkred		BP	Hippocampus
+black	grey60		BP	Hippocampus
+black	darkorange	0.122	BP	Hippocampus
+black	skyblue3		BP	Hippocampus
+turquoise	grey	0.221	BP	Hippocampus
+turquoise	pink	0.191	BP	Hippocampus
+turquoise	darkgreen	0.216	BP	Hippocampus
+turquoise	black	0.418	BP	Hippocampus
+turquoise	blue	0.279	BP	Hippocampus
+turquoise	green		BP	Hippocampus
+turquoise	yellow		BP	Hippocampus
+turquoise	purple	0.337	BP	Hippocampus
+turquoise	orange		BP	Hippocampus
+turquoise	greenyellow	0.237	BP	Hippocampus
+turquoise	midnightblue	0.274	BP	Hippocampus
+turquoise	brown	0.214	BP	Hippocampus
+turquoise	red	0.303	BP	Hippocampus
+turquoise	lightyellow	0.27	BP	Hippocampus
+turquoise	white	0.095	BP	Hippocampus
+turquoise	lightgreen		BP	Hippocampus
+turquoise	lightcyan	0.109	BP	Hippocampus
+turquoise	steelblue	0.116	BP	Hippocampus
+turquoise	magenta	0.231	BP	Hippocampus
+turquoise	darkturquoise		BP	Hippocampus
+turquoise	cyan	0.165	BP	Hippocampus
+turquoise	violet		BP	Hippocampus
+turquoise	yellowgreen	0.112	BP	Hippocampus
+turquoise	darkolivegreen	0.218	BP	Hippocampus
+turquoise	salmon	0.272	BP	Hippocampus
+turquoise	darkred		BP	Hippocampus
+turquoise	grey60		BP	Hippocampus
+turquoise	darkorange	0.134	BP	Hippocampus
+turquoise	skyblue3		BP	Hippocampus
+blue	grey	0.314	BP	Hippocampus
+blue	pink	0.173	BP	Hippocampus
+blue	darkgreen	0.137	BP	Hippocampus
+blue	black	0.33	BP	Hippocampus
+blue	turquoise	0.279	BP	Hippocampus
+blue	green		BP	Hippocampus
+blue	yellow		BP	Hippocampus
+blue	purple	0.222	BP	Hippocampus
+blue	orange		BP	Hippocampus
+blue	greenyellow	0.198	BP	Hippocampus
+blue	midnightblue	0.273	BP	Hippocampus
+blue	brown	0.287	BP	Hippocampus
+blue	red	0.273	BP	Hippocampus
+blue	lightyellow	0.209	BP	Hippocampus
+blue	white	0.124	BP	Hippocampus
+blue	lightgreen		BP	Hippocampus
+blue	lightcyan	0.093	BP	Hippocampus
+blue	steelblue	0.141	BP	Hippocampus
+blue	magenta	0.902	BP	Hippocampus
+blue	darkturquoise		BP	Hippocampus
+blue	cyan	0.222	BP	Hippocampus
+blue	violet		BP	Hippocampus
+blue	yellowgreen	0.15	BP	Hippocampus
+blue	darkolivegreen	0.167	BP	Hippocampus
+blue	salmon	0.234	BP	Hippocampus
+blue	darkred		BP	Hippocampus
+blue	grey60		BP	Hippocampus
+blue	darkorange	0.1	BP	Hippocampus
+blue	skyblue3		BP	Hippocampus
+green	grey		BP	Hippocampus
+green	pink		BP	Hippocampus
+green	darkgreen		BP	Hippocampus
+green	black		BP	Hippocampus
+green	turquoise		BP	Hippocampus
+green	blue		BP	Hippocampus
+green	yellow		BP	Hippocampus
+green	purple		BP	Hippocampus
+green	orange		BP	Hippocampus
+green	greenyellow		BP	Hippocampus
+green	midnightblue		BP	Hippocampus
+green	brown		BP	Hippocampus
+green	red		BP	Hippocampus
+green	lightyellow		BP	Hippocampus
+green	white		BP	Hippocampus
+green	lightgreen		BP	Hippocampus
+green	lightcyan		BP	Hippocampus
+green	steelblue		BP	Hippocampus
+green	magenta		BP	Hippocampus
+green	darkturquoise		BP	Hippocampus
+green	cyan		BP	Hippocampus
+green	violet		BP	Hippocampus
+green	yellowgreen		BP	Hippocampus
+green	darkolivegreen		BP	Hippocampus
+green	salmon		BP	Hippocampus
+green	darkred		BP	Hippocampus
+green	grey60		BP	Hippocampus
+green	darkorange		BP	Hippocampus
+green	skyblue3		BP	Hippocampus
+yellow	grey		BP	Hippocampus
+yellow	pink		BP	Hippocampus
+yellow	darkgreen		BP	Hippocampus
+yellow	black		BP	Hippocampus
+yellow	turquoise		BP	Hippocampus
+yellow	blue		BP	Hippocampus
+yellow	green		BP	Hippocampus
+yellow	purple		BP	Hippocampus
+yellow	orange		BP	Hippocampus
+yellow	greenyellow		BP	Hippocampus
+yellow	midnightblue		BP	Hippocampus
+yellow	brown		BP	Hippocampus
+yellow	red		BP	Hippocampus
+yellow	lightyellow		BP	Hippocampus
+yellow	white		BP	Hippocampus
+yellow	lightgreen		BP	Hippocampus
+yellow	lightcyan		BP	Hippocampus
+yellow	steelblue		BP	Hippocampus
+yellow	magenta		BP	Hippocampus
+yellow	darkturquoise		BP	Hippocampus
+yellow	cyan		BP	Hippocampus
+yellow	violet		BP	Hippocampus
+yellow	yellowgreen		BP	Hippocampus
+yellow	darkolivegreen		BP	Hippocampus
+yellow	salmon		BP	Hippocampus
+yellow	darkred		BP	Hippocampus
+yellow	grey60		BP	Hippocampus
+yellow	darkorange		BP	Hippocampus
+yellow	skyblue3		BP	Hippocampus
+purple	grey	0.233	BP	Hippocampus
+purple	pink	0.334	BP	Hippocampus
+purple	darkgreen	0.139	BP	Hippocampus
+purple	black	0.278	BP	Hippocampus
+purple	turquoise	0.337	BP	Hippocampus
+purple	blue	0.222	BP	Hippocampus
+purple	green		BP	Hippocampus
+purple	yellow		BP	Hippocampus
+purple	orange		BP	Hippocampus
+purple	greenyellow	0.113	BP	Hippocampus
+purple	midnightblue	0.247	BP	Hippocampus
+purple	brown	0.198	BP	Hippocampus
+purple	red	0.256	BP	Hippocampus
+purple	lightyellow	0.222	BP	Hippocampus
+purple	white	0.216	BP	Hippocampus
+purple	lightgreen		BP	Hippocampus
+purple	lightcyan	0.258	BP	Hippocampus
+purple	steelblue	0.15	BP	Hippocampus
+purple	magenta	0.334	BP	Hippocampus
+purple	darkturquoise		BP	Hippocampus
+purple	cyan	0.281	BP	Hippocampus
+purple	violet		BP	Hippocampus
+purple	yellowgreen	0.146	BP	Hippocampus
+purple	darkolivegreen	0.243	BP	Hippocampus
+purple	salmon	0.471	BP	Hippocampus
+purple	darkred		BP	Hippocampus
+purple	grey60		BP	Hippocampus
+purple	darkorange	0.095	BP	Hippocampus
+purple	skyblue3		BP	Hippocampus
+orange	grey		BP	Hippocampus
+orange	pink		BP	Hippocampus
+orange	darkgreen		BP	Hippocampus
+orange	black		BP	Hippocampus
+orange	turquoise		BP	Hippocampus
+orange	blue		BP	Hippocampus
+orange	green		BP	Hippocampus
+orange	yellow		BP	Hippocampus
+orange	purple		BP	Hippocampus
+orange	greenyellow		BP	Hippocampus
+orange	midnightblue		BP	Hippocampus
+orange	brown		BP	Hippocampus
+orange	red		BP	Hippocampus
+orange	lightyellow		BP	Hippocampus
+orange	white		BP	Hippocampus
+orange	lightgreen		BP	Hippocampus
+orange	lightcyan		BP	Hippocampus
+orange	steelblue		BP	Hippocampus
+orange	magenta		BP	Hippocampus
+orange	darkturquoise		BP	Hippocampus
+orange	cyan		BP	Hippocampus
+orange	violet		BP	Hippocampus
+orange	yellowgreen		BP	Hippocampus
+orange	darkolivegreen		BP	Hippocampus
+orange	salmon		BP	Hippocampus
+orange	darkred		BP	Hippocampus
+orange	grey60		BP	Hippocampus
+orange	darkorange		BP	Hippocampus
+orange	skyblue3		BP	Hippocampus
+greenyellow	grey	0.123	BP	Hippocampus
+greenyellow	pink	0.13	BP	Hippocampus
+greenyellow	darkgreen	0.231	BP	Hippocampus
+greenyellow	black	0.215	BP	Hippocampus
+greenyellow	turquoise	0.237	BP	Hippocampus
+greenyellow	blue	0.198	BP	Hippocampus
+greenyellow	green		BP	Hippocampus
+greenyellow	yellow		BP	Hippocampus
+greenyellow	purple	0.113	BP	Hippocampus
+greenyellow	orange		BP	Hippocampus
+greenyellow	midnightblue	0.297	BP	Hippocampus
+greenyellow	brown	0.099	BP	Hippocampus
+greenyellow	red	0.155	BP	Hippocampus
+greenyellow	lightyellow	0.104	BP	Hippocampus
+greenyellow	white	0.13	BP	Hippocampus
+greenyellow	lightgreen		BP	Hippocampus
+greenyellow	lightcyan	0.134	BP	Hippocampus
+greenyellow	steelblue	0.064	BP	Hippocampus
+greenyellow	magenta	0.132	BP	Hippocampus
+greenyellow	darkturquoise		BP	Hippocampus
+greenyellow	cyan	0.143	BP	Hippocampus
+greenyellow	violet		BP	Hippocampus
+greenyellow	yellowgreen	0.066	BP	Hippocampus
+greenyellow	darkolivegreen	0.087	BP	Hippocampus
+greenyellow	salmon	0.092	BP	Hippocampus
+greenyellow	darkred		BP	Hippocampus
+greenyellow	grey60		BP	Hippocampus
+greenyellow	darkorange	0.085	BP	Hippocampus
+greenyellow	skyblue3		BP	Hippocampus
+midnightblue	grey	0.201	BP	Hippocampus
+midnightblue	pink	0.24	BP	Hippocampus
+midnightblue	darkgreen	0.177	BP	Hippocampus
+midnightblue	black	0.216	BP	Hippocampus
+midnightblue	turquoise	0.274	BP	Hippocampus
+midnightblue	blue	0.273	BP	Hippocampus
+midnightblue	green		BP	Hippocampus
+midnightblue	yellow		BP	Hippocampus
+midnightblue	purple	0.247	BP	Hippocampus
+midnightblue	orange		BP	Hippocampus
+midnightblue	greenyellow	0.297	BP	Hippocampus
+midnightblue	brown	0.157	BP	Hippocampus
+midnightblue	red	0.204	BP	Hippocampus
+midnightblue	lightyellow	0.181	BP	Hippocampus
+midnightblue	white	0.124	BP	Hippocampus
+midnightblue	lightgreen		BP	Hippocampus
+midnightblue	lightcyan	0.14	BP	Hippocampus
+midnightblue	steelblue	0.093	BP	Hippocampus
+midnightblue	magenta	0.208	BP	Hippocampus
+midnightblue	darkturquoise		BP	Hippocampus
+midnightblue	cyan	0.213	BP	Hippocampus
+midnightblue	violet		BP	Hippocampus
+midnightblue	yellowgreen	0.12	BP	Hippocampus
+midnightblue	darkolivegreen	0.129	BP	Hippocampus
+midnightblue	salmon	0.12	BP	Hippocampus
+midnightblue	darkred		BP	Hippocampus
+midnightblue	grey60		BP	Hippocampus
+midnightblue	darkorange	0.135	BP	Hippocampus
+midnightblue	skyblue3		BP	Hippocampus
+brown	grey	0.513	BP	Hippocampus
+brown	pink	0.177	BP	Hippocampus
+brown	darkgreen	0.092	BP	Hippocampus
+brown	black	0.272	BP	Hippocampus
+brown	turquoise	0.214	BP	Hippocampus
+brown	blue	0.287	BP	Hippocampus
+brown	green		BP	Hippocampus
+brown	yellow		BP	Hippocampus
+brown	purple	0.198	BP	Hippocampus
+brown	orange		BP	Hippocampus
+brown	greenyellow	0.099	BP	Hippocampus
+brown	midnightblue	0.157	BP	Hippocampus
+brown	red	0.259	BP	Hippocampus
+brown	lightyellow	0.369	BP	Hippocampus
+brown	white	0.082	BP	Hippocampus
+brown	lightgreen		BP	Hippocampus
+brown	lightcyan	0.068	BP	Hippocampus
+brown	steelblue	0.379	BP	Hippocampus
+brown	magenta	0.847	BP	Hippocampus
+brown	darkturquoise		BP	Hippocampus
+brown	cyan	0.276	BP	Hippocampus
+brown	violet		BP	Hippocampus
+brown	yellowgreen	0.195	BP	Hippocampus
+brown	darkolivegreen	0.269	BP	Hippocampus
+brown	salmon	0.162	BP	Hippocampus
+brown	darkred		BP	Hippocampus
+brown	grey60		BP	Hippocampus
+brown	darkorange	0.159	BP	Hippocampus
+brown	skyblue3		BP	Hippocampus
+red	grey	0.255	BP	Hippocampus
+red	pink	0.181	BP	Hippocampus
+red	darkgreen	0.167	BP	Hippocampus
+red	black	0.377	BP	Hippocampus
+red	turquoise	0.303	BP	Hippocampus
+red	blue	0.273	BP	Hippocampus
+red	green		BP	Hippocampus
+red	yellow		BP	Hippocampus
+red	purple	0.256	BP	Hippocampus
+red	orange		BP	Hippocampus
+red	greenyellow	0.155	BP	Hippocampus
+red	midnightblue	0.204	BP	Hippocampus
+red	brown	0.259	BP	Hippocampus
+red	lightyellow	0.267	BP	Hippocampus
+red	white	0.113	BP	Hippocampus
+red	lightgreen		BP	Hippocampus
+red	lightcyan	0.109	BP	Hippocampus
+red	steelblue	0.166	BP	Hippocampus
+red	magenta	0.487	BP	Hippocampus
+red	darkturquoise		BP	Hippocampus
+red	cyan	0.342	BP	Hippocampus
+red	violet		BP	Hippocampus
+red	yellowgreen	0.242	BP	Hippocampus
+red	darkolivegreen	0.278	BP	Hippocampus
+red	salmon	0.211	BP	Hippocampus
+red	darkred		BP	Hippocampus
+red	grey60		BP	Hippocampus
+red	darkorange	0.176	BP	Hippocampus
+red	skyblue3		BP	Hippocampus
+lightyellow	grey	0.284	BP	Hippocampus
+lightyellow	pink	0.145	BP	Hippocampus
+lightyellow	darkgreen	0.092	BP	Hippocampus
+lightyellow	black	0.285	BP	Hippocampus
+lightyellow	turquoise	0.27	BP	Hippocampus
+lightyellow	blue	0.209	BP	Hippocampus
+lightyellow	green		BP	Hippocampus
+lightyellow	yellow		BP	Hippocampus
+lightyellow	purple	0.222	BP	Hippocampus
+lightyellow	orange		BP	Hippocampus
+lightyellow	greenyellow	0.104	BP	Hippocampus
+lightyellow	midnightblue	0.181	BP	Hippocampus
+lightyellow	brown	0.369	BP	Hippocampus
+lightyellow	red	0.267	BP	Hippocampus
+lightyellow	white	0.11	BP	Hippocampus
+lightyellow	lightgreen		BP	Hippocampus
+lightyellow	lightcyan	0.084	BP	Hippocampus
+lightyellow	steelblue	0.316	BP	Hippocampus
+lightyellow	magenta	0.645	BP	Hippocampus
+lightyellow	darkturquoise		BP	Hippocampus
+lightyellow	cyan	0.364	BP	Hippocampus
+lightyellow	violet		BP	Hippocampus
+lightyellow	yellowgreen	0.215	BP	Hippocampus
+lightyellow	darkolivegreen	0.44	BP	Hippocampus
+lightyellow	salmon	0.24	BP	Hippocampus
+lightyellow	darkred		BP	Hippocampus
+lightyellow	grey60		BP	Hippocampus
+lightyellow	darkorange	0.25	BP	Hippocampus
+lightyellow	skyblue3		BP	Hippocampus
+white	grey	0.19	BP	Hippocampus
+white	pink	0.055	BP	Hippocampus
+white	darkgreen	0.09	BP	Hippocampus
+white	black	0.106	BP	Hippocampus
+white	turquoise	0.095	BP	Hippocampus
+white	blue	0.124	BP	Hippocampus
+white	green		BP	Hippocampus
+white	yellow		BP	Hippocampus
+white	purple	0.216	BP	Hippocampus
+white	orange		BP	Hippocampus
+white	greenyellow	0.13	BP	Hippocampus
+white	midnightblue	0.124	BP	Hippocampus
+white	brown	0.082	BP	Hippocampus
+white	red	0.113	BP	Hippocampus
+white	lightyellow	0.11	BP	Hippocampus
+white	lightgreen		BP	Hippocampus
+white	lightcyan	0.432	BP	Hippocampus
+white	steelblue	0.137	BP	Hippocampus
+white	magenta	0.064	BP	Hippocampus
+white	darkturquoise		BP	Hippocampus
+white	cyan	0.087	BP	Hippocampus
+white	violet		BP	Hippocampus
+white	yellowgreen	0.158	BP	Hippocampus
+white	darkolivegreen	0.143	BP	Hippocampus
+white	salmon	0.048	BP	Hippocampus
+white	darkred		BP	Hippocampus
+white	grey60		BP	Hippocampus
+white	darkorange	0.041	BP	Hippocampus
+white	skyblue3		BP	Hippocampus
+lightgreen	grey		BP	Hippocampus
+lightgreen	pink		BP	Hippocampus
+lightgreen	darkgreen		BP	Hippocampus
+lightgreen	black		BP	Hippocampus
+lightgreen	turquoise		BP	Hippocampus
+lightgreen	blue		BP	Hippocampus
+lightgreen	green		BP	Hippocampus
+lightgreen	yellow		BP	Hippocampus
+lightgreen	purple		BP	Hippocampus
+lightgreen	orange		BP	Hippocampus
+lightgreen	greenyellow		BP	Hippocampus
+lightgreen	midnightblue		BP	Hippocampus
+lightgreen	brown		BP	Hippocampus
+lightgreen	red		BP	Hippocampus
+lightgreen	lightyellow		BP	Hippocampus
+lightgreen	white		BP	Hippocampus
+lightgreen	lightcyan		BP	Hippocampus
+lightgreen	steelblue		BP	Hippocampus
+lightgreen	magenta		BP	Hippocampus
+lightgreen	darkturquoise		BP	Hippocampus
+lightgreen	cyan		BP	Hippocampus
+lightgreen	violet		BP	Hippocampus
+lightgreen	yellowgreen		BP	Hippocampus
+lightgreen	darkolivegreen		BP	Hippocampus
+lightgreen	salmon		BP	Hippocampus
+lightgreen	darkred		BP	Hippocampus
+lightgreen	grey60		BP	Hippocampus
+lightgreen	darkorange		BP	Hippocampus
+lightgreen	skyblue3		BP	Hippocampus
+lightcyan	grey	0.131	BP	Hippocampus
+lightcyan	pink	0.054	BP	Hippocampus
+lightcyan	darkgreen	0.101	BP	Hippocampus
+lightcyan	black	0.105	BP	Hippocampus
+lightcyan	turquoise	0.109	BP	Hippocampus
+lightcyan	blue	0.093	BP	Hippocampus
+lightcyan	green		BP	Hippocampus
+lightcyan	yellow		BP	Hippocampus
+lightcyan	purple	0.258	BP	Hippocampus
+lightcyan	orange		BP	Hippocampus
+lightcyan	greenyellow	0.134	BP	Hippocampus
+lightcyan	midnightblue	0.14	BP	Hippocampus
+lightcyan	brown	0.068	BP	Hippocampus
+lightcyan	red	0.109	BP	Hippocampus
+lightcyan	lightyellow	0.084	BP	Hippocampus
+lightcyan	white	0.432	BP	Hippocampus
+lightcyan	lightgreen		BP	Hippocampus
+lightcyan	steelblue	0.109	BP	Hippocampus
+lightcyan	magenta	0.064	BP	Hippocampus
+lightcyan	darkturquoise		BP	Hippocampus
+lightcyan	cyan	0.09	BP	Hippocampus
+lightcyan	violet		BP	Hippocampus
+lightcyan	yellowgreen	0.131	BP	Hippocampus
+lightcyan	darkolivegreen	0.1	BP	Hippocampus
+lightcyan	salmon	0.046	BP	Hippocampus
+lightcyan	darkred		BP	Hippocampus
+lightcyan	grey60		BP	Hippocampus
+lightcyan	darkorange	0.041	BP	Hippocampus
+lightcyan	skyblue3		BP	Hippocampus
+steelblue	grey	0.275	BP	Hippocampus
+steelblue	pink	0.145	BP	Hippocampus
+steelblue	darkgreen	0.063	BP	Hippocampus
+steelblue	black	0.156	BP	Hippocampus
+steelblue	turquoise	0.116	BP	Hippocampus
+steelblue	blue	0.141	BP	Hippocampus
+steelblue	green		BP	Hippocampus
+steelblue	yellow		BP	Hippocampus
+steelblue	purple	0.15	BP	Hippocampus
+steelblue	orange		BP	Hippocampus
+steelblue	greenyellow	0.064	BP	Hippocampus
+steelblue	midnightblue	0.093	BP	Hippocampus
+steelblue	brown	0.379	BP	Hippocampus
+steelblue	red	0.166	BP	Hippocampus
+steelblue	lightyellow	0.316	BP	Hippocampus
+steelblue	white	0.137	BP	Hippocampus
+steelblue	lightgreen		BP	Hippocampus
+steelblue	lightcyan	0.109	BP	Hippocampus
+steelblue	magenta	0.479	BP	Hippocampus
+steelblue	darkturquoise		BP	Hippocampus
+steelblue	cyan	0.236	BP	Hippocampus
+steelblue	violet		BP	Hippocampus
+steelblue	yellowgreen	0.196	BP	Hippocampus
+steelblue	darkolivegreen	0.231	BP	Hippocampus
+steelblue	salmon	0.11	BP	Hippocampus
+steelblue	darkred		BP	Hippocampus
+steelblue	grey60		BP	Hippocampus
+steelblue	darkorange	0.195	BP	Hippocampus
+steelblue	skyblue3		BP	Hippocampus
+magenta	grey	0.902	BP	Hippocampus
+magenta	pink	0.267	BP	Hippocampus
+magenta	darkgreen	0.104	BP	Hippocampus
+magenta	black	0.231	BP	Hippocampus
+magenta	turquoise	0.231	BP	Hippocampus
+magenta	blue	0.902	BP	Hippocampus
+magenta	green		BP	Hippocampus
+magenta	yellow		BP	Hippocampus
+magenta	purple	0.334	BP	Hippocampus
+magenta	orange		BP	Hippocampus
+magenta	greenyellow	0.132	BP	Hippocampus
+magenta	midnightblue	0.208	BP	Hippocampus
+magenta	brown	0.847	BP	Hippocampus
+magenta	red	0.487	BP	Hippocampus
+magenta	lightyellow	0.645	BP	Hippocampus
+magenta	white	0.064	BP	Hippocampus
+magenta	lightgreen		BP	Hippocampus
+magenta	lightcyan	0.064	BP	Hippocampus
+magenta	steelblue	0.479	BP	Hippocampus
+magenta	darkturquoise		BP	Hippocampus
+magenta	cyan	0.847	BP	Hippocampus
+magenta	violet		BP	Hippocampus
+magenta	yellowgreen	0.278	BP	Hippocampus
+magenta	darkolivegreen	0.315	BP	Hippocampus
+magenta	salmon	0.34	BP	Hippocampus
+magenta	darkred		BP	Hippocampus
+magenta	grey60		BP	Hippocampus
+magenta	darkorange	0.214	BP	Hippocampus
+magenta	skyblue3		BP	Hippocampus
+darkturquoise	grey		BP	Hippocampus
+darkturquoise	pink		BP	Hippocampus
+darkturquoise	darkgreen		BP	Hippocampus
+darkturquoise	black		BP	Hippocampus
+darkturquoise	turquoise		BP	Hippocampus
+darkturquoise	blue		BP	Hippocampus
+darkturquoise	green		BP	Hippocampus
+darkturquoise	yellow		BP	Hippocampus
+darkturquoise	purple		BP	Hippocampus
+darkturquoise	orange		BP	Hippocampus
+darkturquoise	greenyellow		BP	Hippocampus
+darkturquoise	midnightblue		BP	Hippocampus
+darkturquoise	brown		BP	Hippocampus
+darkturquoise	red		BP	Hippocampus
+darkturquoise	lightyellow		BP	Hippocampus
+darkturquoise	white		BP	Hippocampus
+darkturquoise	lightgreen		BP	Hippocampus
+darkturquoise	lightcyan		BP	Hippocampus
+darkturquoise	steelblue		BP	Hippocampus
+darkturquoise	magenta		BP	Hippocampus
+darkturquoise	cyan		BP	Hippocampus
+darkturquoise	violet		BP	Hippocampus
+darkturquoise	yellowgreen		BP	Hippocampus
+darkturquoise	darkolivegreen		BP	Hippocampus
+darkturquoise	salmon		BP	Hippocampus
+darkturquoise	darkred		BP	Hippocampus
+darkturquoise	grey60		BP	Hippocampus
+darkturquoise	darkorange		BP	Hippocampus
+darkturquoise	skyblue3		BP	Hippocampus
+cyan	grey	0.188	BP	Hippocampus
+cyan	pink	0.213	BP	Hippocampus
+cyan	darkgreen	0.135	BP	Hippocampus
+cyan	black	0.144	BP	Hippocampus
+cyan	turquoise	0.165	BP	Hippocampus
+cyan	blue	0.222	BP	Hippocampus
+cyan	green		BP	Hippocampus
+cyan	yellow		BP	Hippocampus
+cyan	purple	0.281	BP	Hippocampus
+cyan	orange		BP	Hippocampus
+cyan	greenyellow	0.143	BP	Hippocampus
+cyan	midnightblue	0.213	BP	Hippocampus
+cyan	brown	0.276	BP	Hippocampus
+cyan	red	0.342	BP	Hippocampus
+cyan	lightyellow	0.364	BP	Hippocampus
+cyan	white	0.087	BP	Hippocampus
+cyan	lightgreen		BP	Hippocampus
+cyan	lightcyan	0.09	BP	Hippocampus
+cyan	steelblue	0.236	BP	Hippocampus
+cyan	magenta	0.847	BP	Hippocampus
+cyan	darkturquoise		BP	Hippocampus
+cyan	violet		BP	Hippocampus
+cyan	yellowgreen	0.151	BP	Hippocampus
+cyan	darkolivegreen	0.245	BP	Hippocampus
+cyan	salmon	0.19	BP	Hippocampus
+cyan	darkred		BP	Hippocampus
+cyan	grey60		BP	Hippocampus
+cyan	darkorange	0.226	BP	Hippocampus
+cyan	skyblue3		BP	Hippocampus
+violet	grey		BP	Hippocampus
+violet	pink		BP	Hippocampus
+violet	darkgreen		BP	Hippocampus
+violet	black		BP	Hippocampus
+violet	turquoise		BP	Hippocampus
+violet	blue		BP	Hippocampus
+violet	green		BP	Hippocampus
+violet	yellow		BP	Hippocampus
+violet	purple		BP	Hippocampus
+violet	orange		BP	Hippocampus
+violet	greenyellow		BP	Hippocampus
+violet	midnightblue		BP	Hippocampus
+violet	brown		BP	Hippocampus
+violet	red		BP	Hippocampus
+violet	lightyellow		BP	Hippocampus
+violet	white		BP	Hippocampus
+violet	lightgreen		BP	Hippocampus
+violet	lightcyan		BP	Hippocampus
+violet	steelblue		BP	Hippocampus
+violet	magenta		BP	Hippocampus
+violet	darkturquoise		BP	Hippocampus
+violet	cyan		BP	Hippocampus
+violet	yellowgreen		BP	Hippocampus
+violet	darkolivegreen		BP	Hippocampus
+violet	salmon		BP	Hippocampus
+violet	darkred		BP	Hippocampus
+violet	grey60		BP	Hippocampus
+violet	darkorange		BP	Hippocampus
+violet	skyblue3		BP	Hippocampus
+yellowgreen	grey	0.233	BP	Hippocampus
+yellowgreen	pink	0.1	BP	Hippocampus
+yellowgreen	darkgreen	0.048	BP	Hippocampus
+yellowgreen	black	0.138	BP	Hippocampus
+yellowgreen	turquoise	0.112	BP	Hippocampus
+yellowgreen	blue	0.15	BP	Hippocampus
+yellowgreen	green		BP	Hippocampus
+yellowgreen	yellow		BP	Hippocampus
+yellowgreen	purple	0.146	BP	Hippocampus
+yellowgreen	orange		BP	Hippocampus
+yellowgreen	greenyellow	0.066	BP	Hippocampus
+yellowgreen	midnightblue	0.12	BP	Hippocampus
+yellowgreen	brown	0.195	BP	Hippocampus
+yellowgreen	red	0.242	BP	Hippocampus
+yellowgreen	lightyellow	0.215	BP	Hippocampus
+yellowgreen	white	0.158	BP	Hippocampus
+yellowgreen	lightgreen		BP	Hippocampus
+yellowgreen	lightcyan	0.131	BP	Hippocampus
+yellowgreen	steelblue	0.196	BP	Hippocampus
+yellowgreen	magenta	0.278	BP	Hippocampus
+yellowgreen	darkturquoise		BP	Hippocampus
+yellowgreen	cyan	0.151	BP	Hippocampus
+yellowgreen	violet		BP	Hippocampus
+yellowgreen	darkolivegreen	0.265	BP	Hippocampus
+yellowgreen	salmon	0.073	BP	Hippocampus
+yellowgreen	darkred		BP	Hippocampus
+yellowgreen	grey60		BP	Hippocampus
+yellowgreen	darkorange	0.127	BP	Hippocampus
+yellowgreen	skyblue3		BP	Hippocampus
+darkolivegreen	grey	0.263	BP	Hippocampus
+darkolivegreen	pink	0.13	BP	Hippocampus
+darkolivegreen	darkgreen	0.082	BP	Hippocampus
+darkolivegreen	black	0.224	BP	Hippocampus
+darkolivegreen	turquoise	0.218	BP	Hippocampus
+darkolivegreen	blue	0.167	BP	Hippocampus
+darkolivegreen	green		BP	Hippocampus
+darkolivegreen	yellow		BP	Hippocampus
+darkolivegreen	purple	0.243	BP	Hippocampus
+darkolivegreen	orange		BP	Hippocampus
+darkolivegreen	greenyellow	0.087	BP	Hippocampus
+darkolivegreen	midnightblue	0.129	BP	Hippocampus
+darkolivegreen	brown	0.269	BP	Hippocampus
+darkolivegreen	red	0.278	BP	Hippocampus
+darkolivegreen	lightyellow	0.44	BP	Hippocampus
+darkolivegreen	white	0.143	BP	Hippocampus
+darkolivegreen	lightgreen		BP	Hippocampus
+darkolivegreen	lightcyan	0.1	BP	Hippocampus
+darkolivegreen	steelblue	0.231	BP	Hippocampus
+darkolivegreen	magenta	0.315	BP	Hippocampus
+darkolivegreen	darkturquoise		BP	Hippocampus
+darkolivegreen	cyan	0.245	BP	Hippocampus
+darkolivegreen	violet		BP	Hippocampus
+darkolivegreen	yellowgreen	0.265	BP	Hippocampus
+darkolivegreen	salmon	0.201	BP	Hippocampus
+darkolivegreen	darkred		BP	Hippocampus
+darkolivegreen	grey60		BP	Hippocampus
+darkolivegreen	darkorange	0.225	BP	Hippocampus
+darkolivegreen	skyblue3		BP	Hippocampus
+salmon	grey	0.13	BP	Hippocampus
+salmon	pink	0.273	BP	Hippocampus
+salmon	darkgreen	0.115	BP	Hippocampus
+salmon	black	0.282	BP	Hippocampus
+salmon	turquoise	0.272	BP	Hippocampus
+salmon	blue	0.234	BP	Hippocampus
+salmon	green		BP	Hippocampus
+salmon	yellow		BP	Hippocampus
+salmon	purple	0.471	BP	Hippocampus
+salmon	orange		BP	Hippocampus
+salmon	greenyellow	0.092	BP	Hippocampus
+salmon	midnightblue	0.12	BP	Hippocampus
+salmon	brown	0.162	BP	Hippocampus
+salmon	red	0.211	BP	Hippocampus
+salmon	lightyellow	0.24	BP	Hippocampus
+salmon	white	0.048	BP	Hippocampus
+salmon	lightgreen		BP	Hippocampus
+salmon	lightcyan	0.046	BP	Hippocampus
+salmon	steelblue	0.11	BP	Hippocampus
+salmon	magenta	0.34	BP	Hippocampus
+salmon	darkturquoise		BP	Hippocampus
+salmon	cyan	0.19	BP	Hippocampus
+salmon	violet		BP	Hippocampus
+salmon	yellowgreen	0.073	BP	Hippocampus
+salmon	darkolivegreen	0.201	BP	Hippocampus
+salmon	darkred		BP	Hippocampus
+salmon	grey60		BP	Hippocampus
+salmon	darkorange	0.1	BP	Hippocampus
+salmon	skyblue3		BP	Hippocampus
+darkred	grey		BP	Hippocampus
+darkred	pink		BP	Hippocampus
+darkred	darkgreen		BP	Hippocampus
+darkred	black		BP	Hippocampus
+darkred	turquoise		BP	Hippocampus
+darkred	blue		BP	Hippocampus
+darkred	green		BP	Hippocampus
+darkred	yellow		BP	Hippocampus
+darkred	purple		BP	Hippocampus
+darkred	orange		BP	Hippocampus
+darkred	greenyellow		BP	Hippocampus
+darkred	midnightblue		BP	Hippocampus
+darkred	brown		BP	Hippocampus
+darkred	red		BP	Hippocampus
+darkred	lightyellow		BP	Hippocampus
+darkred	white		BP	Hippocampus
+darkred	lightgreen		BP	Hippocampus
+darkred	lightcyan		BP	Hippocampus
+darkred	steelblue		BP	Hippocampus
+darkred	magenta		BP	Hippocampus
+darkred	darkturquoise		BP	Hippocampus
+darkred	cyan		BP	Hippocampus
+darkred	violet		BP	Hippocampus
+darkred	yellowgreen		BP	Hippocampus
+darkred	darkolivegreen		BP	Hippocampus
+darkred	salmon		BP	Hippocampus
+darkred	grey60		BP	Hippocampus
+darkred	darkorange		BP	Hippocampus
+darkred	skyblue3		BP	Hippocampus
+grey60	grey		BP	Hippocampus
+grey60	pink		BP	Hippocampus
+grey60	darkgreen		BP	Hippocampus
+grey60	black		BP	Hippocampus
+grey60	turquoise		BP	Hippocampus
+grey60	blue		BP	Hippocampus
+grey60	green		BP	Hippocampus
+grey60	yellow		BP	Hippocampus
+grey60	purple		BP	Hippocampus
+grey60	orange		BP	Hippocampus
+grey60	greenyellow		BP	Hippocampus
+grey60	midnightblue		BP	Hippocampus
+grey60	brown		BP	Hippocampus
+grey60	red		BP	Hippocampus
+grey60	lightyellow		BP	Hippocampus
+grey60	white		BP	Hippocampus
+grey60	lightgreen		BP	Hippocampus
+grey60	lightcyan		BP	Hippocampus
+grey60	steelblue		BP	Hippocampus
+grey60	magenta		BP	Hippocampus
+grey60	darkturquoise		BP	Hippocampus
+grey60	cyan		BP	Hippocampus
+grey60	violet		BP	Hippocampus
+grey60	yellowgreen		BP	Hippocampus
+grey60	darkolivegreen		BP	Hippocampus
+grey60	salmon		BP	Hippocampus
+grey60	darkred		BP	Hippocampus
+grey60	darkorange		BP	Hippocampus
+grey60	skyblue3		BP	Hippocampus
+darkorange	grey	0.127	BP	Hippocampus
+darkorange	pink	0.098	BP	Hippocampus
+darkorange	darkgreen	0.068	BP	Hippocampus
+darkorange	black	0.122	BP	Hippocampus
+darkorange	turquoise	0.134	BP	Hippocampus
+darkorange	blue	0.1	BP	Hippocampus
+darkorange	green		BP	Hippocampus
+darkorange	yellow		BP	Hippocampus
+darkorange	purple	0.095	BP	Hippocampus
+darkorange	orange		BP	Hippocampus
+darkorange	greenyellow	0.085	BP	Hippocampus
+darkorange	midnightblue	0.135	BP	Hippocampus
+darkorange	brown	0.159	BP	Hippocampus
+darkorange	red	0.176	BP	Hippocampus
+darkorange	lightyellow	0.25	BP	Hippocampus
+darkorange	white	0.041	BP	Hippocampus
+darkorange	lightgreen		BP	Hippocampus
+darkorange	lightcyan	0.041	BP	Hippocampus
+darkorange	steelblue	0.195	BP	Hippocampus
+darkorange	magenta	0.214	BP	Hippocampus
+darkorange	darkturquoise		BP	Hippocampus
+darkorange	cyan	0.226	BP	Hippocampus
+darkorange	violet		BP	Hippocampus
+darkorange	yellowgreen	0.127	BP	Hippocampus
+darkorange	darkolivegreen	0.225	BP	Hippocampus
+darkorange	salmon	0.1	BP	Hippocampus
+darkorange	darkred		BP	Hippocampus
+darkorange	grey60		BP	Hippocampus
+darkorange	skyblue3		BP	Hippocampus
+skyblue3	grey		BP	Hippocampus
+skyblue3	pink		BP	Hippocampus
+skyblue3	darkgreen		BP	Hippocampus
+skyblue3	black		BP	Hippocampus
+skyblue3	turquoise		BP	Hippocampus
+skyblue3	blue		BP	Hippocampus
+skyblue3	green		BP	Hippocampus
+skyblue3	yellow		BP	Hippocampus
+skyblue3	purple		BP	Hippocampus
+skyblue3	orange		BP	Hippocampus
+skyblue3	greenyellow		BP	Hippocampus
+skyblue3	midnightblue		BP	Hippocampus
+skyblue3	brown		BP	Hippocampus
+skyblue3	red		BP	Hippocampus
+skyblue3	lightyellow		BP	Hippocampus
+skyblue3	white		BP	Hippocampus
+skyblue3	lightgreen		BP	Hippocampus
+skyblue3	lightcyan		BP	Hippocampus
+skyblue3	steelblue		BP	Hippocampus
+skyblue3	magenta		BP	Hippocampus
+skyblue3	darkturquoise		BP	Hippocampus
+skyblue3	cyan		BP	Hippocampus
+skyblue3	violet		BP	Hippocampus
+skyblue3	yellowgreen		BP	Hippocampus
+skyblue3	darkolivegreen		BP	Hippocampus
+skyblue3	salmon		BP	Hippocampus
+skyblue3	darkred		BP	Hippocampus
+skyblue3	grey60		BP	Hippocampus
+skyblue3	darkorange		BP	Hippocampus
+grey	pink	0.533	CC	Hippocampus
+grey	darkgreen	0.217	CC	Hippocampus
+grey	black	0.523	CC	Hippocampus
+grey	turquoise	0.649	CC	Hippocampus
+grey	blue	0.564	CC	Hippocampus
+grey	green	0.227	CC	Hippocampus
+grey	yellow	0.389	CC	Hippocampus
+grey	purple	0.4	CC	Hippocampus
+grey	orange	0.311	CC	Hippocampus
+grey	greenyellow	0.347	CC	Hippocampus
+grey	midnightblue	0.554	CC	Hippocampus
+grey	brown	0.664	CC	Hippocampus
+grey	red	0.467	CC	Hippocampus
+grey	lightyellow	0.4	CC	Hippocampus
+grey	white	0.456	CC	Hippocampus
+grey	lightgreen	0.654	CC	Hippocampus
+grey	lightcyan	0.462	CC	Hippocampus
+grey	steelblue	0.375	CC	Hippocampus
+grey	magenta		CC	Hippocampus
+grey	darkturquoise	0.397	CC	Hippocampus
+grey	cyan	0.397	CC	Hippocampus
+grey	violet	0.214	CC	Hippocampus
+grey	yellowgreen	0.392	CC	Hippocampus
+grey	darkolivegreen	0.46	CC	Hippocampus
+grey	salmon		CC	Hippocampus
+grey	darkred	0.232	CC	Hippocampus
+grey	grey60	1	CC	Hippocampus
+grey	darkorange	1	CC	Hippocampus
+grey	skyblue3		CC	Hippocampus
+pink	grey	0.533	CC	Hippocampus
+pink	darkgreen	0.38	CC	Hippocampus
+pink	black	0.444	CC	Hippocampus
+pink	turquoise	0.614	CC	Hippocampus
+pink	blue	0.483	CC	Hippocampus
+pink	green	0.423	CC	Hippocampus
+pink	yellow	0.713	CC	Hippocampus
+pink	purple	0.767	CC	Hippocampus
+pink	orange	0.6	CC	Hippocampus
+pink	greenyellow	0.562	CC	Hippocampus
+pink	midnightblue	0.711	CC	Hippocampus
+pink	brown	0.6	CC	Hippocampus
+pink	red	0.498	CC	Hippocampus
+pink	lightyellow	0.281	CC	Hippocampus
+pink	white	0.319	CC	Hippocampus
+pink	lightgreen	0.429	CC	Hippocampus
+pink	lightcyan	0.411	CC	Hippocampus
+pink	steelblue	0.438	CC	Hippocampus
+pink	magenta		CC	Hippocampus
+pink	darkturquoise	0.452	CC	Hippocampus
+pink	cyan	0.608	CC	Hippocampus
+pink	violet	0.351	CC	Hippocampus
+pink	yellowgreen	0.291	CC	Hippocampus
+pink	darkolivegreen	0.303	CC	Hippocampus
+pink	salmon		CC	Hippocampus
+pink	darkred	0.335	CC	Hippocampus
+pink	grey60	1	CC	Hippocampus
+pink	darkorange	0.503	CC	Hippocampus
+pink	skyblue3		CC	Hippocampus
+darkgreen	grey	0.217	CC	Hippocampus
+darkgreen	pink	0.38	CC	Hippocampus
+darkgreen	black	0.232	CC	Hippocampus
+darkgreen	turquoise	0.265	CC	Hippocampus
+darkgreen	blue	0.233	CC	Hippocampus
+darkgreen	green	0.598	CC	Hippocampus
+darkgreen	yellow	0.423	CC	Hippocampus
+darkgreen	purple	0.417	CC	Hippocampus
+darkgreen	orange	0.45	CC	Hippocampus
+darkgreen	greenyellow	0.343	CC	Hippocampus
+darkgreen	midnightblue	0.387	CC	Hippocampus
+darkgreen	brown	0.249	CC	Hippocampus
+darkgreen	red	0.306	CC	Hippocampus
+darkgreen	lightyellow	0.187	CC	Hippocampus
+darkgreen	white	0.167	CC	Hippocampus
+darkgreen	lightgreen	0.292	CC	Hippocampus
+darkgreen	lightcyan	0.241	CC	Hippocampus
+darkgreen	steelblue	0.355	CC	Hippocampus
+darkgreen	magenta		CC	Hippocampus
+darkgreen	darkturquoise	0.296	CC	Hippocampus
+darkgreen	cyan	0.513	CC	Hippocampus
+darkgreen	violet	0.227	CC	Hippocampus
+darkgreen	yellowgreen	0.203	CC	Hippocampus
+darkgreen	darkolivegreen	0.182	CC	Hippocampus
+darkgreen	salmon		CC	Hippocampus
+darkgreen	darkred	0.341	CC	Hippocampus
+darkgreen	grey60	0.317	CC	Hippocampus
+darkgreen	darkorange	0.189	CC	Hippocampus
+darkgreen	skyblue3		CC	Hippocampus
+black	grey	0.523	CC	Hippocampus
+black	pink	0.444	CC	Hippocampus
+black	darkgreen	0.232	CC	Hippocampus
+black	turquoise	0.638	CC	Hippocampus
+black	blue	0.535	CC	Hippocampus
+black	green	0.312	CC	Hippocampus
+black	yellow	0.391	CC	Hippocampus
+black	purple	0.421	CC	Hippocampus
+black	orange	0.283	CC	Hippocampus
+black	greenyellow	0.37	CC	Hippocampus
+black	midnightblue	0.501	CC	Hippocampus
+black	brown	0.618	CC	Hippocampus
+black	red	0.723	CC	Hippocampus
+black	lightyellow	0.309	CC	Hippocampus
+black	white	0.339	CC	Hippocampus
+black	lightgreen	0.429	CC	Hippocampus
+black	lightcyan	0.429	CC	Hippocampus
+black	steelblue	0.351	CC	Hippocampus
+black	magenta		CC	Hippocampus
+black	darkturquoise	0.382	CC	Hippocampus
+black	cyan	0.456	CC	Hippocampus
+black	violet	0.271	CC	Hippocampus
+black	yellowgreen	0.321	CC	Hippocampus
+black	darkolivegreen	0.399	CC	Hippocampus
+black	salmon		CC	Hippocampus
+black	darkred	0.328	CC	Hippocampus
+black	grey60	1	CC	Hippocampus
+black	darkorange	0.511	CC	Hippocampus
+black	skyblue3		CC	Hippocampus
+turquoise	grey	0.649	CC	Hippocampus
+turquoise	pink	0.614	CC	Hippocampus
+turquoise	darkgreen	0.265	CC	Hippocampus
+turquoise	black	0.638	CC	Hippocampus
+turquoise	blue	0.599	CC	Hippocampus
+turquoise	green	0.316	CC	Hippocampus
+turquoise	yellow	0.478	CC	Hippocampus
+turquoise	purple	0.563	CC	Hippocampus
+turquoise	orange	0.379	CC	Hippocampus
+turquoise	greenyellow	0.431	CC	Hippocampus
+turquoise	midnightblue	0.703	CC	Hippocampus
+turquoise	brown	0.744	CC	Hippocampus
+turquoise	red	0.637	CC	Hippocampus
+turquoise	lightyellow	0.338	CC	Hippocampus
+turquoise	white	0.383	CC	Hippocampus
+turquoise	lightgreen	0.651	CC	Hippocampus
+turquoise	lightcyan	0.467	CC	Hippocampus
+turquoise	steelblue	0.435	CC	Hippocampus
+turquoise	magenta		CC	Hippocampus
+turquoise	darkturquoise	0.481	CC	Hippocampus
+turquoise	cyan	0.476	CC	Hippocampus
+turquoise	violet	0.289	CC	Hippocampus
+turquoise	yellowgreen	0.418	CC	Hippocampus
+turquoise	darkolivegreen	0.392	CC	Hippocampus
+turquoise	salmon		CC	Hippocampus
+turquoise	darkred	0.363	CC	Hippocampus
+turquoise	grey60	1	CC	Hippocampus
+turquoise	darkorange	0.874	CC	Hippocampus
+turquoise	skyblue3		CC	Hippocampus
+blue	grey	0.564	CC	Hippocampus
+blue	pink	0.483	CC	Hippocampus
+blue	darkgreen	0.233	CC	Hippocampus
+blue	black	0.535	CC	Hippocampus
+blue	turquoise	0.599	CC	Hippocampus
+blue	green	0.266	CC	Hippocampus
+blue	yellow	0.46	CC	Hippocampus
+blue	purple	0.504	CC	Hippocampus
+blue	orange	0.342	CC	Hippocampus
+blue	greenyellow	0.435	CC	Hippocampus
+blue	midnightblue	0.523	CC	Hippocampus
+blue	brown	0.581	CC	Hippocampus
+blue	red	0.445	CC	Hippocampus
+blue	lightyellow	0.311	CC	Hippocampus
+blue	white	0.356	CC	Hippocampus
+blue	lightgreen	0.651	CC	Hippocampus
+blue	lightcyan	0.407	CC	Hippocampus
+blue	steelblue	0.37	CC	Hippocampus
+blue	magenta		CC	Hippocampus
+blue	darkturquoise	0.446	CC	Hippocampus
+blue	cyan	0.378	CC	Hippocampus
+blue	violet	0.36	CC	Hippocampus
+blue	yellowgreen	0.311	CC	Hippocampus
+blue	darkolivegreen	0.399	CC	Hippocampus
+blue	salmon		CC	Hippocampus
+blue	darkred	0.309	CC	Hippocampus
+blue	grey60	1	CC	Hippocampus
+blue	darkorange	0.624	CC	Hippocampus
+blue	skyblue3		CC	Hippocampus
+green	grey	0.227	CC	Hippocampus
+green	pink	0.423	CC	Hippocampus
+green	darkgreen	0.598	CC	Hippocampus
+green	black	0.312	CC	Hippocampus
+green	turquoise	0.316	CC	Hippocampus
+green	blue	0.266	CC	Hippocampus
+green	yellow	0.536	CC	Hippocampus
+green	purple	0.492	CC	Hippocampus
+green	orange	0.462	CC	Hippocampus
+green	greenyellow	0.368	CC	Hippocampus
+green	midnightblue	0.471	CC	Hippocampus
+green	brown	0.335	CC	Hippocampus
+green	red	0.468	CC	Hippocampus
+green	lightyellow	0.209	CC	Hippocampus
+green	white	0.173	CC	Hippocampus
+green	lightgreen	0.429	CC	Hippocampus
+green	lightcyan	0.35	CC	Hippocampus
+green	steelblue	0.32	CC	Hippocampus
+green	magenta		CC	Hippocampus
+green	darkturquoise	0.248	CC	Hippocampus
+green	cyan	0.63	CC	Hippocampus
+green	violet	0.476	CC	Hippocampus
+green	yellowgreen	0.24	CC	Hippocampus
+green	darkolivegreen	0.2	CC	Hippocampus
+green	salmon		CC	Hippocampus
+green	darkred	0.667	CC	Hippocampus
+green	grey60	1	CC	Hippocampus
+green	darkorange	0.186	CC	Hippocampus
+green	skyblue3		CC	Hippocampus
+yellow	grey	0.389	CC	Hippocampus
+yellow	pink	0.713	CC	Hippocampus
+yellow	darkgreen	0.423	CC	Hippocampus
+yellow	black	0.391	CC	Hippocampus
+yellow	turquoise	0.478	CC	Hippocampus
+yellow	blue	0.46	CC	Hippocampus
+yellow	green	0.536	CC	Hippocampus
+yellow	purple	0.755	CC	Hippocampus
+yellow	orange	0.761	CC	Hippocampus
+yellow	greenyellow	0.636	CC	Hippocampus
+yellow	midnightblue	0.652	CC	Hippocampus
+yellow	brown	0.476	CC	Hippocampus
+yellow	red	0.536	CC	Hippocampus
+yellow	lightyellow	0.208	CC	Hippocampus
+yellow	white	0.248	CC	Hippocampus
+yellow	lightgreen	0.714	CC	Hippocampus
+yellow	lightcyan	0.387	CC	Hippocampus
+yellow	steelblue	0.342	CC	Hippocampus
+yellow	magenta		CC	Hippocampus
+yellow	darkturquoise	0.36	CC	Hippocampus
+yellow	cyan	0.643	CC	Hippocampus
+yellow	violet	0.393	CC	Hippocampus
+yellow	yellowgreen	0.262	CC	Hippocampus
+yellow	darkolivegreen	0.241	CC	Hippocampus
+yellow	salmon		CC	Hippocampus
+yellow	darkred	0.559	CC	Hippocampus
+yellow	grey60	1	CC	Hippocampus
+yellow	darkorange	0.255	CC	Hippocampus
+yellow	skyblue3		CC	Hippocampus
+purple	grey	0.4	CC	Hippocampus
+purple	pink	0.767	CC	Hippocampus
+purple	darkgreen	0.417	CC	Hippocampus
+purple	black	0.421	CC	Hippocampus
+purple	turquoise	0.563	CC	Hippocampus
+purple	blue	0.504	CC	Hippocampus
+purple	green	0.492	CC	Hippocampus
+purple	yellow	0.755	CC	Hippocampus
+purple	orange	0.653	CC	Hippocampus
+purple	greenyellow	0.649	CC	Hippocampus
+purple	midnightblue	0.763	CC	Hippocampus
+purple	brown	0.521	CC	Hippocampus
+purple	red	0.475	CC	Hippocampus
+purple	lightyellow	0.21	CC	Hippocampus
+purple	white	0.204	CC	Hippocampus
+purple	lightgreen	0.685	CC	Hippocampus
+purple	lightcyan	0.342	CC	Hippocampus
+purple	steelblue	0.322	CC	Hippocampus
+purple	magenta		CC	Hippocampus
+purple	darkturquoise	0.423	CC	Hippocampus
+purple	cyan	0.558	CC	Hippocampus
+purple	violet	0.354	CC	Hippocampus
+purple	yellowgreen	0.231	CC	Hippocampus
+purple	darkolivegreen	0.245	CC	Hippocampus
+purple	salmon		CC	Hippocampus
+purple	darkred	0.39	CC	Hippocampus
+purple	grey60	1	CC	Hippocampus
+purple	darkorange	0.272	CC	Hippocampus
+purple	skyblue3		CC	Hippocampus
+orange	grey	0.311	CC	Hippocampus
+orange	pink	0.6	CC	Hippocampus
+orange	darkgreen	0.45	CC	Hippocampus
+orange	black	0.283	CC	Hippocampus
+orange	turquoise	0.379	CC	Hippocampus
+orange	blue	0.342	CC	Hippocampus
+orange	green	0.462	CC	Hippocampus
+orange	yellow	0.761	CC	Hippocampus
+orange	purple	0.653	CC	Hippocampus
+orange	greenyellow	0.57	CC	Hippocampus
+orange	midnightblue	0.514	CC	Hippocampus
+orange	brown	0.428	CC	Hippocampus
+orange	red	0.352	CC	Hippocampus
+orange	lightyellow	0.22	CC	Hippocampus
+orange	white	0.216	CC	Hippocampus
+orange	lightgreen	0.714	CC	Hippocampus
+orange	lightcyan	0.283	CC	Hippocampus
+orange	steelblue	0.273	CC	Hippocampus
+orange	magenta		CC	Hippocampus
+orange	darkturquoise	0.291	CC	Hippocampus
+orange	cyan	0.537	CC	Hippocampus
+orange	violet	0.289	CC	Hippocampus
+orange	yellowgreen	0.251	CC	Hippocampus
+orange	darkolivegreen	0.218	CC	Hippocampus
+orange	salmon		CC	Hippocampus
+orange	darkred	0.317	CC	Hippocampus
+orange	grey60	0.383	CC	Hippocampus
+orange	darkorange	0.309	CC	Hippocampus
+orange	skyblue3		CC	Hippocampus
+greenyellow	grey	0.347	CC	Hippocampus
+greenyellow	pink	0.562	CC	Hippocampus
+greenyellow	darkgreen	0.343	CC	Hippocampus
+greenyellow	black	0.37	CC	Hippocampus
+greenyellow	turquoise	0.431	CC	Hippocampus
+greenyellow	blue	0.435	CC	Hippocampus
+greenyellow	green	0.368	CC	Hippocampus
+greenyellow	yellow	0.636	CC	Hippocampus
+greenyellow	purple	0.649	CC	Hippocampus
+greenyellow	orange	0.57	CC	Hippocampus
+greenyellow	midnightblue	0.555	CC	Hippocampus
+greenyellow	brown	0.39	CC	Hippocampus
+greenyellow	red	0.366	CC	Hippocampus
+greenyellow	lightyellow	0.248	CC	Hippocampus
+greenyellow	white	0.246	CC	Hippocampus
+greenyellow	lightgreen	0.791	CC	Hippocampus
+greenyellow	lightcyan	0.313	CC	Hippocampus
+greenyellow	steelblue	0.375	CC	Hippocampus
+greenyellow	magenta		CC	Hippocampus
+greenyellow	darkturquoise	0.479	CC	Hippocampus
+greenyellow	cyan	0.438	CC	Hippocampus
+greenyellow	violet	0.299	CC	Hippocampus
+greenyellow	yellowgreen	0.266	CC	Hippocampus
+greenyellow	darkolivegreen	0.284	CC	Hippocampus
+greenyellow	salmon		CC	Hippocampus
+greenyellow	darkred	0.341	CC	Hippocampus
+greenyellow	grey60	0.429	CC	Hippocampus
+greenyellow	darkorange	0.316	CC	Hippocampus
+greenyellow	skyblue3		CC	Hippocampus
+midnightblue	grey	0.554	CC	Hippocampus
+midnightblue	pink	0.711	CC	Hippocampus
+midnightblue	darkgreen	0.387	CC	Hippocampus
+midnightblue	black	0.501	CC	Hippocampus
+midnightblue	turquoise	0.703	CC	Hippocampus
+midnightblue	blue	0.523	CC	Hippocampus
+midnightblue	green	0.471	CC	Hippocampus
+midnightblue	yellow	0.652	CC	Hippocampus
+midnightblue	purple	0.763	CC	Hippocampus
+midnightblue	orange	0.514	CC	Hippocampus
+midnightblue	greenyellow	0.555	CC	Hippocampus
+midnightblue	brown	0.613	CC	Hippocampus
+midnightblue	red	0.543	CC	Hippocampus
+midnightblue	lightyellow	0.297	CC	Hippocampus
+midnightblue	white	0.34	CC	Hippocampus
+midnightblue	lightgreen	0.429	CC	Hippocampus
+midnightblue	lightcyan	0.464	CC	Hippocampus
+midnightblue	steelblue	0.431	CC	Hippocampus
+midnightblue	magenta		CC	Hippocampus
+midnightblue	darkturquoise	0.51	CC	Hippocampus
+midnightblue	cyan	0.573	CC	Hippocampus
+midnightblue	violet	0.325	CC	Hippocampus
+midnightblue	yellowgreen	0.352	CC	Hippocampus
+midnightblue	darkolivegreen	0.344	CC	Hippocampus
+midnightblue	salmon		CC	Hippocampus
+midnightblue	darkred	0.423	CC	Hippocampus
+midnightblue	grey60	1	CC	Hippocampus
+midnightblue	darkorange	0.646	CC	Hippocampus
+midnightblue	skyblue3		CC	Hippocampus
+brown	grey	0.664	CC	Hippocampus
+brown	pink	0.6	CC	Hippocampus
+brown	darkgreen	0.249	CC	Hippocampus
+brown	black	0.618	CC	Hippocampus
+brown	turquoise	0.744	CC	Hippocampus
+brown	blue	0.581	CC	Hippocampus
+brown	green	0.335	CC	Hippocampus
+brown	yellow	0.476	CC	Hippocampus
+brown	purple	0.521	CC	Hippocampus
+brown	orange	0.428	CC	Hippocampus
+brown	greenyellow	0.39	CC	Hippocampus
+brown	midnightblue	0.613	CC	Hippocampus
+brown	red	0.636	CC	Hippocampus
+brown	lightyellow	0.301	CC	Hippocampus
+brown	white	0.345	CC	Hippocampus
+brown	lightgreen	0.67	CC	Hippocampus
+brown	lightcyan	0.439	CC	Hippocampus
+brown	steelblue	0.406	CC	Hippocampus
+brown	magenta		CC	Hippocampus
+brown	darkturquoise	0.408	CC	Hippocampus
+brown	cyan	0.484	CC	Hippocampus
+brown	violet	0.28	CC	Hippocampus
+brown	yellowgreen	0.375	CC	Hippocampus
+brown	darkolivegreen	0.346	CC	Hippocampus
+brown	salmon		CC	Hippocampus
+brown	darkred	0.385	CC	Hippocampus
+brown	grey60	1	CC	Hippocampus
+brown	darkorange	0.874	CC	Hippocampus
+brown	skyblue3		CC	Hippocampus
+red	grey	0.467	CC	Hippocampus
+red	pink	0.498	CC	Hippocampus
+red	darkgreen	0.306	CC	Hippocampus
+red	black	0.723	CC	Hippocampus
+red	turquoise	0.637	CC	Hippocampus
+red	blue	0.445	CC	Hippocampus
+red	green	0.468	CC	Hippocampus
+red	yellow	0.536	CC	Hippocampus
+red	purple	0.475	CC	Hippocampus
+red	orange	0.352	CC	Hippocampus
+red	greenyellow	0.366	CC	Hippocampus
+red	midnightblue	0.543	CC	Hippocampus
+red	brown	0.636	CC	Hippocampus
+red	lightyellow	0.3	CC	Hippocampus
+red	white	0.332	CC	Hippocampus
+red	lightgreen	0.651	CC	Hippocampus
+red	lightcyan	0.502	CC	Hippocampus
+red	steelblue	0.368	CC	Hippocampus
+red	magenta		CC	Hippocampus
+red	darkturquoise	0.35	CC	Hippocampus
+red	cyan	0.558	CC	Hippocampus
+red	violet	0.413	CC	Hippocampus
+red	yellowgreen	0.336	CC	Hippocampus
+red	darkolivegreen	0.297	CC	Hippocampus
+red	salmon		CC	Hippocampus
+red	darkred	0.567	CC	Hippocampus
+red	grey60	1	CC	Hippocampus
+red	darkorange	0.511	CC	Hippocampus
+red	skyblue3		CC	Hippocampus
+lightyellow	grey	0.4	CC	Hippocampus
+lightyellow	pink	0.281	CC	Hippocampus
+lightyellow	darkgreen	0.187	CC	Hippocampus
+lightyellow	black	0.309	CC	Hippocampus
+lightyellow	turquoise	0.338	CC	Hippocampus
+lightyellow	blue	0.311	CC	Hippocampus
+lightyellow	green	0.209	CC	Hippocampus
+lightyellow	yellow	0.208	CC	Hippocampus
+lightyellow	purple	0.21	CC	Hippocampus
+lightyellow	orange	0.22	CC	Hippocampus
+lightyellow	greenyellow	0.248	CC	Hippocampus
+lightyellow	midnightblue	0.297	CC	Hippocampus
+lightyellow	brown	0.301	CC	Hippocampus
+lightyellow	red	0.3	CC	Hippocampus
+lightyellow	white	0.8	CC	Hippocampus
+lightyellow	lightgreen	0.119	CC	Hippocampus
+lightyellow	lightcyan	0.834	CC	Hippocampus
+lightyellow	steelblue	0.383	CC	Hippocampus
+lightyellow	magenta		CC	Hippocampus
+lightyellow	darkturquoise	0.326	CC	Hippocampus
+lightyellow	cyan	0.275	CC	Hippocampus
+lightyellow	violet	0.212	CC	Hippocampus
+lightyellow	yellowgreen	0.499	CC	Hippocampus
+lightyellow	darkolivegreen	0.56	CC	Hippocampus
+lightyellow	salmon		CC	Hippocampus
+lightyellow	darkred	0.208	CC	Hippocampus
+lightyellow	grey60	0.222	CC	Hippocampus
+lightyellow	darkorange	1	CC	Hippocampus
+lightyellow	skyblue3		CC	Hippocampus
+white	grey	0.456	CC	Hippocampus
+white	pink	0.319	CC	Hippocampus
+white	darkgreen	0.167	CC	Hippocampus
+white	black	0.339	CC	Hippocampus
+white	turquoise	0.383	CC	Hippocampus
+white	blue	0.356	CC	Hippocampus
+white	green	0.173	CC	Hippocampus
+white	yellow	0.248	CC	Hippocampus
+white	purple	0.204	CC	Hippocampus
+white	orange	0.216	CC	Hippocampus
+white	greenyellow	0.246	CC	Hippocampus
+white	midnightblue	0.34	CC	Hippocampus
+white	brown	0.345	CC	Hippocampus
+white	red	0.332	CC	Hippocampus
+white	lightyellow	0.8	CC	Hippocampus
+white	lightgreen	0.138	CC	Hippocampus
+white	lightcyan	0.802	CC	Hippocampus
+white	steelblue	0.336	CC	Hippocampus
+white	magenta		CC	Hippocampus
+white	darkturquoise	0.318	CC	Hippocampus
+white	cyan	0.293	CC	Hippocampus
+white	violet	0.177	CC	Hippocampus
+white	yellowgreen	0.461	CC	Hippocampus
+white	darkolivegreen	0.613	CC	Hippocampus
+white	salmon		CC	Hippocampus
+white	darkred	0.178	CC	Hippocampus
+white	grey60	0.222	CC	Hippocampus
+white	darkorange	1	CC	Hippocampus
+white	skyblue3		CC	Hippocampus
+lightgreen	grey	0.654	CC	Hippocampus
+lightgreen	pink	0.429	CC	Hippocampus
+lightgreen	darkgreen	0.292	CC	Hippocampus
+lightgreen	black	0.429	CC	Hippocampus
+lightgreen	turquoise	0.651	CC	Hippocampus
+lightgreen	blue	0.651	CC	Hippocampus
+lightgreen	green	0.429	CC	Hippocampus
+lightgreen	yellow	0.714	CC	Hippocampus
+lightgreen	purple	0.685	CC	Hippocampus
+lightgreen	orange	0.714	CC	Hippocampus
+lightgreen	greenyellow	0.791	CC	Hippocampus
+lightgreen	midnightblue	0.429	CC	Hippocampus
+lightgreen	brown	0.67	CC	Hippocampus
+lightgreen	red	0.651	CC	Hippocampus
+lightgreen	lightyellow	0.119	CC	Hippocampus
+lightgreen	white	0.138	CC	Hippocampus
+lightgreen	lightcyan	0.291	CC	Hippocampus
+lightgreen	steelblue	0.151	CC	Hippocampus
+lightgreen	magenta		CC	Hippocampus
+lightgreen	darkturquoise	0.151	CC	Hippocampus
+lightgreen	cyan	0.429	CC	Hippocampus
+lightgreen	violet	0.303	CC	Hippocampus
+lightgreen	yellowgreen	0.296	CC	Hippocampus
+lightgreen	darkolivegreen	0.171	CC	Hippocampus
+lightgreen	salmon		CC	Hippocampus
+lightgreen	darkred	0.651	CC	Hippocampus
+lightgreen	grey60	0.429	CC	Hippocampus
+lightgreen	darkorange	0.08	CC	Hippocampus
+lightgreen	skyblue3		CC	Hippocampus
+lightcyan	grey	0.462	CC	Hippocampus
+lightcyan	pink	0.411	CC	Hippocampus
+lightcyan	darkgreen	0.241	CC	Hippocampus
+lightcyan	black	0.429	CC	Hippocampus
+lightcyan	turquoise	0.467	CC	Hippocampus
+lightcyan	blue	0.407	CC	Hippocampus
+lightcyan	green	0.35	CC	Hippocampus
+lightcyan	yellow	0.387	CC	Hippocampus
+lightcyan	purple	0.342	CC	Hippocampus
+lightcyan	orange	0.283	CC	Hippocampus
+lightcyan	greenyellow	0.313	CC	Hippocampus
+lightcyan	midnightblue	0.464	CC	Hippocampus
+lightcyan	brown	0.439	CC	Hippocampus
+lightcyan	red	0.502	CC	Hippocampus
+lightcyan	lightyellow	0.834	CC	Hippocampus
+lightcyan	white	0.802	CC	Hippocampus
+lightcyan	lightgreen	0.291	CC	Hippocampus
+lightcyan	steelblue	0.397	CC	Hippocampus
+lightcyan	magenta		CC	Hippocampus
+lightcyan	darkturquoise	0.354	CC	Hippocampus
+lightcyan	cyan	0.389	CC	Hippocampus
+lightcyan	violet	0.311	CC	Hippocampus
+lightcyan	yellowgreen	0.493	CC	Hippocampus
+lightcyan	darkolivegreen	0.557	CC	Hippocampus
+lightcyan	salmon		CC	Hippocampus
+lightcyan	darkred	0.405	CC	Hippocampus
+lightcyan	grey60	0.687	CC	Hippocampus
+lightcyan	darkorange	1	CC	Hippocampus
+lightcyan	skyblue3		CC	Hippocampus
+steelblue	grey	0.375	CC	Hippocampus
+steelblue	pink	0.438	CC	Hippocampus
+steelblue	darkgreen	0.355	CC	Hippocampus
+steelblue	black	0.351	CC	Hippocampus
+steelblue	turquoise	0.435	CC	Hippocampus
+steelblue	blue	0.37	CC	Hippocampus
+steelblue	green	0.32	CC	Hippocampus
+steelblue	yellow	0.342	CC	Hippocampus
+steelblue	purple	0.322	CC	Hippocampus
+steelblue	orange	0.273	CC	Hippocampus
+steelblue	greenyellow	0.375	CC	Hippocampus
+steelblue	midnightblue	0.431	CC	Hippocampus
+steelblue	brown	0.406	CC	Hippocampus
+steelblue	red	0.368	CC	Hippocampus
+steelblue	lightyellow	0.383	CC	Hippocampus
+steelblue	white	0.336	CC	Hippocampus
+steelblue	lightgreen	0.151	CC	Hippocampus
+steelblue	lightcyan	0.397	CC	Hippocampus
+steelblue	magenta		CC	Hippocampus
+steelblue	darkturquoise	0.715	CC	Hippocampus
+steelblue	cyan	0.52	CC	Hippocampus
+steelblue	violet	0.267	CC	Hippocampus
+steelblue	yellowgreen	0.437	CC	Hippocampus
+steelblue	darkolivegreen	0.335	CC	Hippocampus
+steelblue	salmon		CC	Hippocampus
+steelblue	darkred	0.313	CC	Hippocampus
+steelblue	grey60	0.33	CC	Hippocampus
+steelblue	darkorange	0.403	CC	Hippocampus
+steelblue	skyblue3		CC	Hippocampus
+magenta	grey		CC	Hippocampus
+magenta	pink		CC	Hippocampus
+magenta	darkgreen		CC	Hippocampus
+magenta	black		CC	Hippocampus
+magenta	turquoise		CC	Hippocampus
+magenta	blue		CC	Hippocampus
+magenta	green		CC	Hippocampus
+magenta	yellow		CC	Hippocampus
+magenta	purple		CC	Hippocampus
+magenta	orange		CC	Hippocampus
+magenta	greenyellow		CC	Hippocampus
+magenta	midnightblue		CC	Hippocampus
+magenta	brown		CC	Hippocampus
+magenta	red		CC	Hippocampus
+magenta	lightyellow		CC	Hippocampus
+magenta	white		CC	Hippocampus
+magenta	lightgreen		CC	Hippocampus
+magenta	lightcyan		CC	Hippocampus
+magenta	steelblue		CC	Hippocampus
+magenta	darkturquoise		CC	Hippocampus
+magenta	cyan		CC	Hippocampus
+magenta	violet		CC	Hippocampus
+magenta	yellowgreen		CC	Hippocampus
+magenta	darkolivegreen		CC	Hippocampus
+magenta	salmon		CC	Hippocampus
+magenta	darkred		CC	Hippocampus
+magenta	grey60		CC	Hippocampus
+magenta	darkorange		CC	Hippocampus
+magenta	skyblue3		CC	Hippocampus
+darkturquoise	grey	0.397	CC	Hippocampus
+darkturquoise	pink	0.452	CC	Hippocampus
+darkturquoise	darkgreen	0.296	CC	Hippocampus
+darkturquoise	black	0.382	CC	Hippocampus
+darkturquoise	turquoise	0.481	CC	Hippocampus
+darkturquoise	blue	0.446	CC	Hippocampus
+darkturquoise	green	0.248	CC	Hippocampus
+darkturquoise	yellow	0.36	CC	Hippocampus
+darkturquoise	purple	0.423	CC	Hippocampus
+darkturquoise	orange	0.291	CC	Hippocampus
+darkturquoise	greenyellow	0.479	CC	Hippocampus
+darkturquoise	midnightblue	0.51	CC	Hippocampus
+darkturquoise	brown	0.408	CC	Hippocampus
+darkturquoise	red	0.35	CC	Hippocampus
+darkturquoise	lightyellow	0.326	CC	Hippocampus
+darkturquoise	white	0.318	CC	Hippocampus
+darkturquoise	lightgreen	0.151	CC	Hippocampus
+darkturquoise	lightcyan	0.354	CC	Hippocampus
+darkturquoise	steelblue	0.715	CC	Hippocampus
+darkturquoise	magenta		CC	Hippocampus
+darkturquoise	cyan	0.413	CC	Hippocampus
+darkturquoise	violet	0.259	CC	Hippocampus
+darkturquoise	yellowgreen	0.371	CC	Hippocampus
+darkturquoise	darkolivegreen	0.321	CC	Hippocampus
+darkturquoise	salmon		CC	Hippocampus
+darkturquoise	darkred	0.254	CC	Hippocampus
+darkturquoise	grey60	0.33	CC	Hippocampus
+darkturquoise	darkorange	0.403	CC	Hippocampus
+darkturquoise	skyblue3		CC	Hippocampus
+cyan	grey	0.397	CC	Hippocampus
+cyan	pink	0.608	CC	Hippocampus
+cyan	darkgreen	0.513	CC	Hippocampus
+cyan	black	0.456	CC	Hippocampus
+cyan	turquoise	0.476	CC	Hippocampus
+cyan	blue	0.378	CC	Hippocampus
+cyan	green	0.63	CC	Hippocampus
+cyan	yellow	0.643	CC	Hippocampus
+cyan	purple	0.558	CC	Hippocampus
+cyan	orange	0.537	CC	Hippocampus
+cyan	greenyellow	0.438	CC	Hippocampus
+cyan	midnightblue	0.573	CC	Hippocampus
+cyan	brown	0.484	CC	Hippocampus
+cyan	red	0.558	CC	Hippocampus
+cyan	lightyellow	0.275	CC	Hippocampus
+cyan	white	0.293	CC	Hippocampus
+cyan	lightgreen	0.429	CC	Hippocampus
+cyan	lightcyan	0.389	CC	Hippocampus
+cyan	steelblue	0.52	CC	Hippocampus
+cyan	magenta		CC	Hippocampus
+cyan	darkturquoise	0.413	CC	Hippocampus
+cyan	violet	0.33	CC	Hippocampus
+cyan	yellowgreen	0.299	CC	Hippocampus
+cyan	darkolivegreen	0.302	CC	Hippocampus
+cyan	salmon		CC	Hippocampus
+cyan	darkred	0.446	CC	Hippocampus
+cyan	grey60	1	CC	Hippocampus
+cyan	darkorange	0.346	CC	Hippocampus
+cyan	skyblue3		CC	Hippocampus
+violet	grey	0.214	CC	Hippocampus
+violet	pink	0.351	CC	Hippocampus
+violet	darkgreen	0.227	CC	Hippocampus
+violet	black	0.271	CC	Hippocampus
+violet	turquoise	0.289	CC	Hippocampus
+violet	blue	0.36	CC	Hippocampus
+violet	green	0.476	CC	Hippocampus
+violet	yellow	0.393	CC	Hippocampus
+violet	purple	0.354	CC	Hippocampus
+violet	orange	0.289	CC	Hippocampus
+violet	greenyellow	0.299	CC	Hippocampus
+violet	midnightblue	0.325	CC	Hippocampus
+violet	brown	0.28	CC	Hippocampus
+violet	red	0.413	CC	Hippocampus
+violet	lightyellow	0.212	CC	Hippocampus
+violet	white	0.177	CC	Hippocampus
+violet	lightgreen	0.303	CC	Hippocampus
+violet	lightcyan	0.311	CC	Hippocampus
+violet	steelblue	0.267	CC	Hippocampus
+violet	magenta		CC	Hippocampus
+violet	darkturquoise	0.259	CC	Hippocampus
+violet	cyan	0.33	CC	Hippocampus
+violet	yellowgreen	0.217	CC	Hippocampus
+violet	darkolivegreen	0.192	CC	Hippocampus
+violet	salmon		CC	Hippocampus
+violet	darkred	0.505	CC	Hippocampus
+violet	grey60	0.751	CC	Hippocampus
+violet	darkorange	0.209	CC	Hippocampus
+violet	skyblue3		CC	Hippocampus
+yellowgreen	grey	0.392	CC	Hippocampus
+yellowgreen	pink	0.291	CC	Hippocampus
+yellowgreen	darkgreen	0.203	CC	Hippocampus
+yellowgreen	black	0.321	CC	Hippocampus
+yellowgreen	turquoise	0.418	CC	Hippocampus
+yellowgreen	blue	0.311	CC	Hippocampus
+yellowgreen	green	0.24	CC	Hippocampus
+yellowgreen	yellow	0.262	CC	Hippocampus
+yellowgreen	purple	0.231	CC	Hippocampus
+yellowgreen	orange	0.251	CC	Hippocampus
+yellowgreen	greenyellow	0.266	CC	Hippocampus
+yellowgreen	midnightblue	0.352	CC	Hippocampus
+yellowgreen	brown	0.375	CC	Hippocampus
+yellowgreen	red	0.336	CC	Hippocampus
+yellowgreen	lightyellow	0.499	CC	Hippocampus
+yellowgreen	white	0.461	CC	Hippocampus
+yellowgreen	lightgreen	0.296	CC	Hippocampus
+yellowgreen	lightcyan	0.493	CC	Hippocampus
+yellowgreen	steelblue	0.437	CC	Hippocampus
+yellowgreen	magenta		CC	Hippocampus
+yellowgreen	darkturquoise	0.371	CC	Hippocampus
+yellowgreen	cyan	0.299	CC	Hippocampus
+yellowgreen	violet	0.217	CC	Hippocampus
+yellowgreen	darkolivegreen	0.38	CC	Hippocampus
+yellowgreen	salmon		CC	Hippocampus
+yellowgreen	darkred	0.303	CC	Hippocampus
+yellowgreen	grey60	0.325	CC	Hippocampus
+yellowgreen	darkorange	0.646	CC	Hippocampus
+yellowgreen	skyblue3		CC	Hippocampus
+darkolivegreen	grey	0.46	CC	Hippocampus
+darkolivegreen	pink	0.303	CC	Hippocampus
+darkolivegreen	darkgreen	0.182	CC	Hippocampus
+darkolivegreen	black	0.399	CC	Hippocampus
+darkolivegreen	turquoise	0.392	CC	Hippocampus
+darkolivegreen	blue	0.399	CC	Hippocampus
+darkolivegreen	green	0.2	CC	Hippocampus
+darkolivegreen	yellow	0.241	CC	Hippocampus
+darkolivegreen	purple	0.245	CC	Hippocampus
+darkolivegreen	orange	0.218	CC	Hippocampus
+darkolivegreen	greenyellow	0.284	CC	Hippocampus
+darkolivegreen	midnightblue	0.344	CC	Hippocampus
+darkolivegreen	brown	0.346	CC	Hippocampus
+darkolivegreen	red	0.297	CC	Hippocampus
+darkolivegreen	lightyellow	0.56	CC	Hippocampus
+darkolivegreen	white	0.613	CC	Hippocampus
+darkolivegreen	lightgreen	0.171	CC	Hippocampus
+darkolivegreen	lightcyan	0.557	CC	Hippocampus
+darkolivegreen	steelblue	0.335	CC	Hippocampus
+darkolivegreen	magenta		CC	Hippocampus
+darkolivegreen	darkturquoise	0.321	CC	Hippocampus
+darkolivegreen	cyan	0.302	CC	Hippocampus
+darkolivegreen	violet	0.192	CC	Hippocampus
+darkolivegreen	yellowgreen	0.38	CC	Hippocampus
+darkolivegreen	salmon		CC	Hippocampus
+darkolivegreen	darkred	0.206	CC	Hippocampus
+darkolivegreen	grey60	0.26	CC	Hippocampus
+darkolivegreen	darkorange	1	CC	Hippocampus
+darkolivegreen	skyblue3		CC	Hippocampus
+salmon	grey		CC	Hippocampus
+salmon	pink		CC	Hippocampus
+salmon	darkgreen		CC	Hippocampus
+salmon	black		CC	Hippocampus
+salmon	turquoise		CC	Hippocampus
+salmon	blue		CC	Hippocampus
+salmon	green		CC	Hippocampus
+salmon	yellow		CC	Hippocampus
+salmon	purple		CC	Hippocampus
+salmon	orange		CC	Hippocampus
+salmon	greenyellow		CC	Hippocampus
+salmon	midnightblue		CC	Hippocampus
+salmon	brown		CC	Hippocampus
+salmon	red		CC	Hippocampus
+salmon	lightyellow		CC	Hippocampus
+salmon	white		CC	Hippocampus
+salmon	lightgreen		CC	Hippocampus
+salmon	lightcyan		CC	Hippocampus
+salmon	steelblue		CC	Hippocampus
+salmon	magenta		CC	Hippocampus
+salmon	darkturquoise		CC	Hippocampus
+salmon	cyan		CC	Hippocampus
+salmon	violet		CC	Hippocampus
+salmon	yellowgreen		CC	Hippocampus
+salmon	darkolivegreen		CC	Hippocampus
+salmon	darkred		CC	Hippocampus
+salmon	grey60		CC	Hippocampus
+salmon	darkorange		CC	Hippocampus
+salmon	skyblue3		CC	Hippocampus
+darkred	grey	0.232	CC	Hippocampus
+darkred	pink	0.335	CC	Hippocampus
+darkred	darkgreen	0.341	CC	Hippocampus
+darkred	black	0.328	CC	Hippocampus
+darkred	turquoise	0.363	CC	Hippocampus
+darkred	blue	0.309	CC	Hippocampus
+darkred	green	0.667	CC	Hippocampus
+darkred	yellow	0.559	CC	Hippocampus
+darkred	purple	0.39	CC	Hippocampus
+darkred	orange	0.317	CC	Hippocampus
+darkred	greenyellow	0.341	CC	Hippocampus
+darkred	midnightblue	0.423	CC	Hippocampus
+darkred	brown	0.385	CC	Hippocampus
+darkred	red	0.567	CC	Hippocampus
+darkred	lightyellow	0.208	CC	Hippocampus
+darkred	white	0.178	CC	Hippocampus
+darkred	lightgreen	0.651	CC	Hippocampus
+darkred	lightcyan	0.405	CC	Hippocampus
+darkred	steelblue	0.313	CC	Hippocampus
+darkred	magenta		CC	Hippocampus
+darkred	darkturquoise	0.254	CC	Hippocampus
+darkred	cyan	0.446	CC	Hippocampus
+darkred	violet	0.505	CC	Hippocampus
+darkred	yellowgreen	0.303	CC	Hippocampus
+darkred	darkolivegreen	0.206	CC	Hippocampus
+darkred	salmon		CC	Hippocampus
+darkred	grey60	1	CC	Hippocampus
+darkred	darkorange	0.191	CC	Hippocampus
+darkred	skyblue3		CC	Hippocampus
+grey60	grey	1	CC	Hippocampus
+grey60	pink	1	CC	Hippocampus
+grey60	darkgreen	0.317	CC	Hippocampus
+grey60	black	1	CC	Hippocampus
+grey60	turquoise	1	CC	Hippocampus
+grey60	blue	1	CC	Hippocampus
+grey60	green	1	CC	Hippocampus
+grey60	yellow	1	CC	Hippocampus
+grey60	purple	1	CC	Hippocampus
+grey60	orange	0.383	CC	Hippocampus
+grey60	greenyellow	0.429	CC	Hippocampus
+grey60	midnightblue	1	CC	Hippocampus
+grey60	brown	1	CC	Hippocampus
+grey60	red	1	CC	Hippocampus
+grey60	lightyellow	0.222	CC	Hippocampus
+grey60	white	0.222	CC	Hippocampus
+grey60	lightgreen	0.429	CC	Hippocampus
+grey60	lightcyan	0.687	CC	Hippocampus
+grey60	steelblue	0.33	CC	Hippocampus
+grey60	magenta		CC	Hippocampus
+grey60	darkturquoise	0.33	CC	Hippocampus
+grey60	cyan	1	CC	Hippocampus
+grey60	violet	0.751	CC	Hippocampus
+grey60	yellowgreen	0.325	CC	Hippocampus
+grey60	darkolivegreen	0.26	CC	Hippocampus
+grey60	salmon		CC	Hippocampus
+grey60	darkred	1	CC	Hippocampus
+grey60	darkorange	0.186	CC	Hippocampus
+grey60	skyblue3		CC	Hippocampus
+darkorange	grey	1	CC	Hippocampus
+darkorange	pink	0.503	CC	Hippocampus
+darkorange	darkgreen	0.189	CC	Hippocampus
+darkorange	black	0.511	CC	Hippocampus
+darkorange	turquoise	0.874	CC	Hippocampus
+darkorange	blue	0.624	CC	Hippocampus
+darkorange	green	0.186	CC	Hippocampus
+darkorange	yellow	0.255	CC	Hippocampus
+darkorange	purple	0.272	CC	Hippocampus
+darkorange	orange	0.309	CC	Hippocampus
+darkorange	greenyellow	0.316	CC	Hippocampus
+darkorange	midnightblue	0.646	CC	Hippocampus
+darkorange	brown	0.874	CC	Hippocampus
+darkorange	red	0.511	CC	Hippocampus
+darkorange	lightyellow	1	CC	Hippocampus
+darkorange	white	1	CC	Hippocampus
+darkorange	lightgreen	0.08	CC	Hippocampus
+darkorange	lightcyan	1	CC	Hippocampus
+darkorange	steelblue	0.403	CC	Hippocampus
+darkorange	magenta		CC	Hippocampus
+darkorange	darkturquoise	0.403	CC	Hippocampus
+darkorange	cyan	0.346	CC	Hippocampus
+darkorange	violet	0.209	CC	Hippocampus
+darkorange	yellowgreen	0.646	CC	Hippocampus
+darkorange	darkolivegreen	1	CC	Hippocampus
+darkorange	salmon		CC	Hippocampus
+darkorange	darkred	0.191	CC	Hippocampus
+darkorange	grey60	0.186	CC	Hippocampus
+darkorange	skyblue3		CC	Hippocampus
+skyblue3	grey		CC	Hippocampus
+skyblue3	pink		CC	Hippocampus
+skyblue3	darkgreen		CC	Hippocampus
+skyblue3	black		CC	Hippocampus
+skyblue3	turquoise		CC	Hippocampus
+skyblue3	blue		CC	Hippocampus
+skyblue3	green		CC	Hippocampus
+skyblue3	yellow		CC	Hippocampus
+skyblue3	purple		CC	Hippocampus
+skyblue3	orange		CC	Hippocampus
+skyblue3	greenyellow		CC	Hippocampus
+skyblue3	midnightblue		CC	Hippocampus
+skyblue3	brown		CC	Hippocampus
+skyblue3	red		CC	Hippocampus
+skyblue3	lightyellow		CC	Hippocampus
+skyblue3	white		CC	Hippocampus
+skyblue3	lightgreen		CC	Hippocampus
+skyblue3	lightcyan		CC	Hippocampus
+skyblue3	steelblue		CC	Hippocampus
+skyblue3	magenta		CC	Hippocampus
+skyblue3	darkturquoise		CC	Hippocampus
+skyblue3	cyan		CC	Hippocampus
+skyblue3	violet		CC	Hippocampus
+skyblue3	yellowgreen		CC	Hippocampus
+skyblue3	darkolivegreen		CC	Hippocampus
+skyblue3	salmon		CC	Hippocampus
+skyblue3	darkred		CC	Hippocampus
+skyblue3	grey60		CC	Hippocampus
+skyblue3	darkorange		CC	Hippocampus
