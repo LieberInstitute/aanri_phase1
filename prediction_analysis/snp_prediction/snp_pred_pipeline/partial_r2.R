@@ -113,6 +113,10 @@ calculate_rf_partial <- function(tissue, target, qsv_dir, pheno_file, ml_dir,
                                         # Get RF predictive SNPs
             fn1 = paste(ml_dir, tissue, gname, "rf_10folds.txt", sep="/")
             fn2 = paste(ml_dir, tissue, gname, "rank_features.txt", sep="/")
+            if(!file.exists(fn1)){
+                print(paste0(gene_id, ": Not run for RF"))
+                next
+            }
             snps = get_snps_ml(fn1, fn2) %>% mutate("SNPs"=gsub(":", "_", Geneid))
                                         # Model 2
             if(length(snps$SNPs) == 0){
