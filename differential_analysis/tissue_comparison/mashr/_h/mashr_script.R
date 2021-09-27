@@ -92,6 +92,11 @@ run_mashr <- function(feature){
     ## Estimate mixture proportions
     print(get_estimated_pi(m))
     plot_mixture_prop(m, feature)
+    ## Save all lfsr
+    data.frame(m$result$lfsr) %>%
+        tibble::rownames_to_column("Effect") %>%
+        data.table::fwrite(paste0(feature,"/lfsr_feature_4tissues.txt.gz"),
+                           sep='\t')
 }
 
 ## Create parser object

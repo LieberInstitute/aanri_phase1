@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python ../_h/clincial_enrichment_fishers.py
+Rscript ../_h/plot_heatmap.R
