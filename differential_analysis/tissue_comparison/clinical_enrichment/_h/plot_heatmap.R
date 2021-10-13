@@ -18,7 +18,7 @@ gen_data <- function(){
         filter(str_detect(Comparison, label)) %>%
         mutate(Tissue=fct_relevel(Tissue, rev), `-log10(FDR)`= -log10(FDR),
                `OR Percentile`= OR / (1+OR), p.fdr.sig=FDR < 0.05,
-               `log2(OR)` = log10(OR+err),
+               `log2(OR)` = log2(OR+err),
                p.fdr.cat=cut(FDR, breaks=c(1,0.05,0.01,0.005,0),
                              labels=c("<= 0.005","<= 0.01","<= 0.05","> 0.05"),
                              include.lowest=TRUE))
