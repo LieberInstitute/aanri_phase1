@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for TISSUE in caudate dentateGyrus dlpfc hippocampus; do mkdir $TISSUE; done
+
+ln -s /dcs04/lieber/ds2a/QChen/Projects/RNAseq/Combined_swapfixed/mRNA/Caudate/EA_AA.NC_SZ/eQTLs_SNPxRace/Summary/*csv.gz caudate/
+ln -s /dcs04/lieber/ds2a/QChen/Projects/RNAseq/Combined_swapfixed/mRNA/DG/EA_AA.NC_SZ/eQTLs_SNPxRace/Summary/*csv.gz dentateGyrus/
+ln -s /dcs04/lieber/ds2a/QChen/Projects/RNAseq/Combined_swapfixed/mRNA/DLPFC/EA_AA.NC_SZ/eQTLs_SNPxRace/Summary/*csv.gz dlpfc/
+ln -s /dcs04/lieber/ds2a/QChen/Projects/RNAseq/Combined_swapfixed/mRNA/HIPPO/EA_AA.NC_SZ/eQTLs_SNPxRace/Summary/*csv.gz hippocampus/
