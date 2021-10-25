@@ -53,7 +53,7 @@ def idv_partial():
 def main():
     partial_R2_metrics()
     partial_R2_metrics_enet()
-    idv_partial()    
+    idv_partial()
 
 
 if __name__ == '__main__':

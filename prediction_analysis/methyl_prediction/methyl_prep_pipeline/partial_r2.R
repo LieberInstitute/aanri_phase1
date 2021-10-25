@@ -17,6 +17,8 @@ get_ml_summary <- function(fn){
 get_cpgs_rf <- function(fn1, fn2){
     cpgs = data.table::fread(fn2) %>%
         rename('Geneid'='V1', 'Fold'='V2', 'Rank'='V3') %>%
+        group_by(Fold, Geneid) %>% slice(1) %>%
+        arrange(Fold, desc(Rank)) %>% as.data.frame %>%
         pivot_wider(names_from=Fold, values_from=Rank) %>%
         mutate(median_all = apply(., 1, median)) %>%
         arrange(median_all) %>% mutate(Rank = rank(median_all)) %>%
@@ -85,12 +87,10 @@ calculate_idv_partial <- function(tissue, gname, target, qsv_dir, pheno_file,
                               sep='\t')
 }
 
-calculate_raffe_partial <- function(tissue, target, qsv_dir, pheno_file, rf_dir,
+calculate_rf_partial <- function(tissue, target, qsv_dir, pheno_file, rf_dir,
                                     methyl_dir){
-                                        # Make directory
                                         # Get data
     cpg_len <- c(); genes <- c(); partial1 <- c(); partial2 <- c(); partial_r2 <- c()
-    ## PATH for onehot files
     glist <- list.files(paste0(methyl_dir, tissue, '/'))
     for(gname in glist[!grepl("*\\.log", glist)]){
                                         # Clean gene names
@@ -100,7 +100,8 @@ calculate_raffe_partial <- function(tissue, target, qsv_dir, pheno_file, rf_dir,
         fn = paste(methyl_dir, tissue, gname, "methylation.csv", sep="/")
         df = memPHENO(tissue_map(tissue), target, qsv_dir, pheno_file) %>%
             inner_join(data.table::fread(fn), by="V1") %>%
-            column_to_rownames("V1") %>% rename_with(~gsub(":", "_", .), starts_with('chr'))
+            column_to_rownames("V1") %>%
+            rename_with(~gsub(":", "_", .), starts_with('chr'))
                                         # Model 1
         model1 = paste(paste0(gene_id, "~ Eur"), "Sex + Age + mitoRate + rRNA_rate + overallMapRate",
                        paste(colnames(df)[grep("^qPC", colnames(df))], collapse=" + "), sep=" + ")
