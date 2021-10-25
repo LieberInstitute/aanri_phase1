@@ -1,0 +1,1 @@
+GO:0030956 CC 1.76e-05    2/71     3/29107 D03 glutamyl-tRNA(Gln) amidotransferase complex 55278.0, 283459.0 

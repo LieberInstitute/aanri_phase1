@@ -1,0 +1,5 @@
+GO:0002181 BP 2.26e-06    5/72    85/29107 D08 cytoplasmic translation                  6134.0, 6203.0, 6228.0, 6231.0, 6234.0 
+GO:0022627 CC 3.25e-06    4/72    41/29107 D05 cytosolic small ribosomal subunit        6203.0, 6228.0, 6231.0, 6234.0 
+GO:0015935 CC 1.37e-05    3/72    19/29107 D04 small ribosomal subunit                  6203.0, 6231.0, 6234.0 
+GO:0098556 CC 6.01e-05    2/72     5/29107 D05 cytoplasmic side of rough endoplasmic reticulum membrane 6231.0, 6234.0 
+GO:0042788 CC 6.84e-05    3/72    32/29107 D06 polysomal ribosome                       6228.0, 6231.0, 6234.0 
