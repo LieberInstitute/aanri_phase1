@@ -55,9 +55,16 @@ def get_gandal_deg():
 
 
 @functools.lru_cache()
-def get_ancestry_deg(tissue):
-    return pd.read_csv("../../../%s/_m/genes/diffExpr_EAvsAA_FDR05.txt" % tissue,
-                       sep='\t', index_col=0)
+def get_ancestry_deg(tissue, direction):
+    fn = "../../../%s/_m/genes/diffExpr_EAvsAA_FDR05.txt" % tissue
+    if direction=="all":
+        return pd.read_csv(fn, sep='\t', index_col=0)
+    elif direction=="up":
+        df = pd.read_csv(fn, sep='\t', index_col=0)
+        return df[(df["t"] > 0)]
+    else:
+        df = pd.read_csv(fn, sep='\t', index_col=0)
+        return df[(df["t"] < 0)]
 
 
 @functools.lru_cache()
@@ -87,11 +94,11 @@ def fet(a, b):
     return fisher_exact(m)
 
 
-def load_ancestry_degs():
-    caudate = set(get_ancestry_deg("caudate").ensemblID)
-    dg = set(get_ancestry_deg("dentateGyrus").ensemblID)
-    dlpfc = set(get_ancestry_deg("dlpfc").ensemblID)
-    hippocampus = set(get_ancestry_deg("hippocampus").ensemblID)
+def load_ancestry_degs(direction="all"):
+    caudate = set(get_ancestry_deg("caudate", direction).ensemblID)
+    dg = set(get_ancestry_deg("dentateGyrus", direction).ensemblID)
+    dlpfc = set(get_ancestry_deg("dlpfc", direction).ensemblID)
+    hippocampus = set(get_ancestry_deg("hippocampus", direction).ensemblID)
     return {"Caudate": caudate, "Dentate Gyrus": dg,
             "DLPFC": dlpfc, "Hippocampus": hippocampus}
 
@@ -126,8 +133,6 @@ def get_public_data():
 
 
 def main():
-    ## Load ancestry-related DEGs
-    degs_dict = load_ancestry_degs()
     ## Load public DEGs
     comp_dict = get_public_data()
     ## Load public TWAS
@@ -135,15 +140,23 @@ def main():
                  "CMC_DLPFC_DEG", "PSY_SZ_DEG", "PSY_ASD_DEG", "PSY_BD_DEG",
                  "BS_Caudate_TWAS", "BS_DLPFC_TWAS", "BS_Hippocampus_TWAS",
                  "PSY_SZ_TWAS", "PSY_ASD_TWAS", "PSY_BD_TWAS"]
-    or_lt = []; pval_lt = []; tissue_lt = []; comparison_lt = [];
-    for tissue in ["Caudate", "Dentate Gyrus", "DLPFC", "Hippocampus"]:
-        for comp in comp_list:
-            oddratio, pvals = fet(degs_dict[tissue], comp_dict[comp])
-            or_lt.append(oddratio); pval_lt.append(pvals);
-            tissue_lt.append(tissue); comparison_lt.append(comp)
-    fdr = multipletests(pval_lt, method='fdr_bh')[1]
-    dt = pd.DataFrame({"Tissue": tissue_lt, "Comparison": comparison_lt,
-                       "OR": or_lt, "P-value": pval_lt, "FDR": fdr})
+    ## Direction dictionary
+    dir_dict = {"all": "All", "up": "EA Bias", "down": "AA Bias"}
+    dt = pd.DataFrame()
+    for direction in ["all", "up", "down"]:
+        ## Load ancestry-related DEGs
+        degs_dict = load_ancestry_degs(direction)
+        or_lt = []; pval_lt = []; tissue_lt = []; comparison_lt = [];
+        for tissue in ["Caudate", "Dentate Gyrus", "DLPFC", "Hippocampus"]:
+            for comp in comp_list:
+                oddratio, pvals = fet(degs_dict[tissue], comp_dict[comp])
+                or_lt.append(oddratio); pval_lt.append(pvals);
+                tissue_lt.append(tissue); comparison_lt.append(comp)
+        fdr = multipletests(pval_lt, method='fdr_bh')[1]
+        dtx = pd.DataFrame({"Tissue": tissue_lt, "Comparison": comparison_lt,
+                           "OR": or_lt, "P-value": pval_lt, "FDR": fdr,
+                           "Direction":dir_dict[direction]})
+        dt = pd.concat([dt, dtx], axis=0)
     dt.to_csv("clincial_phenotypes_enrichment_analysis.tsv",
               sep='\t', index=False)
 

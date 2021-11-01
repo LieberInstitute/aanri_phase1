@@ -12,7 +12,7 @@ load_enrichment <- function(){
 }
 memENRICH <- memoise::memoise(load_enrichment)
 
-gen_data <- function(){
+gen_data <- function(label){
     err = 0.0000001
     dt <- memENRICH() %>% mutate_if(is.character, as.factor) %>%
         filter(str_detect(Comparison, label)) %>%
@@ -21,19 +21,20 @@ gen_data <- function(){
                `log2(OR)` = log2(OR+err),
                p.fdr.cat=cut(FDR, breaks=c(1,0.05,0.01,0.005,0),
                              labels=c("<= 0.005","<= 0.01","<= 0.05","> 0.05"),
-                             include.lowest=TRUE))
+                             include.lowest=TRUE)) %>%
+        mutate(across(Direction, factor, levels=c("All", "AA Bias", "EA Bias")))
     return(dt)
 }
 memDF <- memoise::memoise(gen_data)
 
 plot_tile <- function(label){
-    y0 <- min(memDF()$`log2(OR)`)-0.1
-    y1 <- max(memDF()$`log2(OR)`)+0.1
-    tile_plot <- memDF() %>%
+    y0 <- min(memDF(label)$`log2(OR)`)-0.1
+    y1 <- max(memDF(label)$`log2(OR)`)+0.1
+    tile_plot <- memDF(label) %>%
         ggplot(aes(x = Comparison, y = Tissue, fill = `log2(OR)`,
                    label = ifelse(p.fdr.sig,
                                   format(round(`-log10(FDR)`,1), nsmall=1), ""))) +
-        ylab('Ancestry-Related DEGs') + xlab('') +
+        ylab('Ancestry-Related DEGs') + xlab('') + facet_grid(.~Direction) +
         geom_tile(color = "grey") + ggfittext::geom_fit_text(contrast = TRUE) +
         scale_fill_gradientn(colors=c("blue", "white", "red"),
                              values=scales::rescale(c(y0, 0, y1)),
@@ -43,7 +44,7 @@ plot_tile <- function(label){
               legend.position="right",
               axis.title=element_text(face="bold"),
               axis.text.y=element_text(face="bold"))
-    save_plot(tile_plot, paste0("tileplot_enrichment_",tolower(label)), 10, 7)
+    save_plot(tile_plot, paste0("tileplot_enrichment_",tolower(label)), 14, 7)
 }
 
 for(label in c("DEG", "TWAS")){
