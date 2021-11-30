@@ -43,7 +43,7 @@ def get_pheno_data():
     """
     Load phenotype data.
     """
-    fn = '../../../../input/phenotypes/_m/caudate_phenotypes.csv'
+    fn = '../../../../input/phenotypes/_m/dlpfc_phenotypes.csv'
     return pd.read_csv(fn, index_col=0)\
              .merge(get_ancestry(), left_on="BrNum", right_on="id")\
              .drop_duplicates(subset="BrNum")
