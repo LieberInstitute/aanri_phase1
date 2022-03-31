@@ -46,7 +46,6 @@ def main():
     parser.add_argument('--feature', type=str)
     args=parser.parse_args()
     ## Main
-    extract_dataframe("P.Value", "pvalue", args.feature)
     extract_dataframe("logFC", "bhat", args.feature)
     extract_dataframe("SE", "shat", args.feature)
 

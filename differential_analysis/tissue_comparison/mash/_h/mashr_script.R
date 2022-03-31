@@ -1,3 +1,9 @@
+## mash modeling with common baseline at mean
+##
+## Author: Kynon J Benjamin
+##
+#############################################
+
 suppressPackageStartupMessages({
     library(mashr)
     library(dplyr)
@@ -11,11 +17,6 @@ save_img <- function(image, fn, w, h){
     }
 }
 
-get_pvals <- function(feature){
-    fn = paste0(feature, "/pvalue_de_4tissues.tsv")
-    return(data.table::fread(fn) %>% mutate(effect=Feature))
-}
-
 get_bhat <- function(feature){
     fn = paste0(feature, "/bhat_de_4tissues.tsv")
     return(data.table::fread(fn) %>% mutate(effect=Feature) %>%
@@ -26,30 +27,6 @@ get_shat <- function(feature){
     fn = paste0(feature, "/shat_de_4tissues.tsv")
     return(data.table::fread(fn) %>% mutate(effect=Feature) %>%
            distinct(effect, .keep_all=TRUE))
-}
-
-save_results <- function(pval, m, feature){
-    fn = paste0(feature,"/brainseq_ancestry_4tissues_mashr.tsv")
-    sig_de <- get_significant_results(m)
-    df = get_n_significant_conditions(m, thresh = 0.05, conditions = NULL,
-                                      sig_fn = get_lfsr)
-    cc = get_n_significant_conditions(m, thresh = 0.05, conditions = 1,
-                                      sig_fn = get_lfsr)
-    gg = get_n_significant_conditions(m, thresh = 0.05, conditions = 2,
-                                      sig_fn = get_lfsr)
-    dd = get_n_significant_conditions(m, thresh = 0.05, conditions = 3,
-                                      sig_fn = get_lfsr)
-    hh = get_n_significant_conditions(m, thresh = 0.05, conditions = 4,
-                                      sig_fn = get_lfsr)
-    dt = data.frame(N_Regions_Shared=df, Caudate=cc, `Dentate Gyrus`=gg,
-                    DLPFC=dd, Hippocampus=hh) %>%
-        tibble::rownames_to_column("effect")
-    print("Sharing across brain regions:")
-    print(table(dt$N_Regions_Shared))
-    ## Total number of tissue specific eQTL
-    print(paste("There are",sum(df == 1), feature, "with specific expression!"))
-    dt %>% rename("Dentate Gyrus"="Dentate.Gyrus", "Feature"="effect") %>%
-        data.table::fwrite(fn, sep='\t')
 }
 
 plot_mixture_prop <- function(m, feature){
@@ -70,32 +47,43 @@ run_mashr <- function(feature){
         select(-Feature) %>% as.matrix
     shat <- get_shat(feature) %>% tibble::column_to_rownames("effect") %>%
         select(-Feature) %>% as.matrix
-    pval <- get_pvals(feature)
     ## Prepare for mashr
     data.init = mash_set_data(bhat, shat)
     Vhat = estimate_null_correlation_simple(data.init)
+    ## Update mash
+    data = mash_update_data(data.init, V=Vhat)
     rm(data.init)
-    ## Initial mash
-    data = mash_set_data(bhat,shat, V=Vhat)
     ## Calculate data driven covariances
-    U.pca = cov_pca(data,4)
-    U.ed = cov_ed(data, U.pca)
     U.c = cov_canonical(data)
+                                        # Condition by condition for strong set
+    m.1by1 = mash_1by1(data)
+    strong = get_significant_results(m.1by1)
+    rm(m.1by1)
+    U.pca = cov_pca(data, 4, subset=strong)
+    U.ed = cov_ed(data, U.pca, subset=strong)
+    rm(strong, U.pca)
     ## Fit mash model and compute posterior summaries
-    m = mash(data, Ulist = c(U.ed,U.c))
+    m = mash(data, Ulist = c(U.ed,U.c), algorithm.version="Rcpp")
+    rm(U.ed, U.c)
     ## Examine pairwise sharing
     print(get_pairwise_sharing(m))
     ## Save significant results
     print(get_significant_results(m) %>% length)
-    save_results(pval, m, feature)
-    save(m, file=paste0(feature, "/mashr_meta_results.RData"))
+    save(m, data, file=paste0(feature, "/mashr_meta_results.RData"))
     ## Estimate mixture proportions
     print(get_estimated_pi(m))
     plot_mixture_prop(m, feature)
     ## Save all lfsr
     data.frame(m$result$lfsr) %>%
+        rename_all(list(~stringr::str_replace_all(., '.mean', ''))) %>%
         tibble::rownames_to_column("Effect") %>%
         data.table::fwrite(paste0(feature,"/lfsr_feature_4tissues.txt.gz"),
+                           sep='\t')
+    ## Save all effect size
+    data.frame(m$result$PosteriorMean) %>%
+        rename_all(list(~stringr::str_replace_all(., '.mean', ''))) %>%
+        tibble::rownames_to_column("Effect") %>%
+        data.table::fwrite(paste0(feature,"/posterior_mean_feature_4tissues.txt.gz"),
                            sep='\t')
 }
 
