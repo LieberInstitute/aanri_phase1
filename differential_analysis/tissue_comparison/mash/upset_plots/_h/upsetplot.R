@@ -26,14 +26,14 @@ plot_upset <- function(){
                      "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
                                         # Right annotation
     right_annot = upset_right_annotation(
-        m, ylim = c(0, 1500),
+        m, ylim = c(0, 5000),
         gp = gpar(fill = "black"),
         annotation_name_side = "top",
         axis_param = list(side = "top"))
                                         # Top annotation
     top_annot = upset_top_annotation(
         m, height=unit(7, "cm"),
-        ylim = c(0, 500),
+        ylim = c(0, 1750),
         gp=gpar(fill=cbb_palette[comb_degree(m)]),
         annotation_name_rot = 90)
                                         # Plotting
@@ -61,13 +61,13 @@ plot_upset_transposed <- function(){
                                         # Right annotation
     right_ha = rowAnnotation(
         "Intersection\nsize" = anno_barplot(comb_size(m), border=F,
-                                            ylim = c(0, 500),
+                                            ylim = c(0, 1750),
                                             gp=gpar(fill=cbb_palette[comb_degree(m)]),
                                             width = unit(7, "cm")))
                                         # Top annotation
     top_ha = HeatmapAnnotation(
         "Set size" = anno_barplot(set_size(m), border=F,
-                                  ylim = c(0, 1500),
+                                  ylim = c(0, 5000),
                                   gp = gpar(fill = "black"),
                                   height = unit(2, "cm")),
         gap = unit(2, "mm"), annotation_name_side = "left",
