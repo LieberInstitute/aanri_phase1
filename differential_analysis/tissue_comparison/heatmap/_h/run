@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python ../_h/sharing_heatmap.py
+Rscript ../_h/corrplot_sharing.R
