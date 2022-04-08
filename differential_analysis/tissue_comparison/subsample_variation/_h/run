@@ -1,0 +1,4 @@
+#!/bin/bash
+
+## Run analysis
+python ../_h/variation_pca.py

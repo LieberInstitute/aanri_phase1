@@ -1,0 +1,20 @@
+Caudate, Explained Variance (%) of PC1:
+genes	r2: 14.74%	p-value: 1.45e-02
+transcripts	r2: 44.41%	p-value: 2.68e-06
+exons	r2: 46.67%	p-value: 1.19e-06
+junctions	r2: 59.64%	p-value: 5.35e-09
+Dentate Gyrus, Explained Variance (%) of PC1:
+genes	r2: 4.28%	p-value: 1.63e-01
+transcripts	r2: 52.15%	p-value: 1.01e-08
+exons	r2: 54.94%	p-value: 2.55e-09
+junctions	r2: 63.60%	p-value: 1.96e-11
+DLPFC, Explained Variance (%) of PC1:
+genes	r2: 3.19%	p-value: 3.05e-01
+transcripts	r2: 0.33%	p-value: 7.42e-01
+exons	r2: 14.64%	p-value: 2.33e-02
+junctions	r2: 33.20%	p-value: 2.92e-04
+Hippocampus, Explained Variance (%) of PC1:
+genes	r2: 9.64%	p-value: 4.54e-02
+transcripts	r2: 27.50%	p-value: 3.64e-04
+exons	r2: 16.30%	p-value: 8.02e-03
+junctions	r2: 73.33%	p-value: 4.80e-13
