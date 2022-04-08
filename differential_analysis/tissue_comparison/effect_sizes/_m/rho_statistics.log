@@ -1,0 +1,9 @@
+Caudate vs Dentate.Gyrus:			 rho > 0.327, p-value < 1.4e-49
+Caudate vs DLPFC:			 rho > 0.465, p-value < 9.6e-99
+Caudate vs Hippocampus:			 rho > 0.496, p-value < 2.0e-113
+Dentate.Gyrus vs DLPFC:			 rho > 0.324, p-value < 1.4e-43
+Dentate.Gyrus vs Hippocampus:			 rho > 0.322, p-value < 4.1e-42
+DLPFC vs Dentate.Gyrus:			 rho > 0.324, p-value < 1.4e-43
+DLPFC vs Hippocampus:			 rho > 0.585, p-value < 1.8e-147
+Hippocampus vs Dentate.Gyrus:			 rho > 0.322, p-value < 4.1e-42
+Hippocampus vs DLPFC:			 rho > 0.585, p-value < 1.8e-147
