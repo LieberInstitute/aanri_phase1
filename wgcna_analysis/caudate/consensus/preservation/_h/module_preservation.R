@@ -1,6 +1,8 @@
 ## Examine module preservation
 suppressPackageStartupMessages({
     library(WGCNA)
+    library(foreach)
+    library(doParallel)
     library(clusterRepro)
 })
 
