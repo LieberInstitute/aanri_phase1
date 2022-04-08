@@ -1,0 +1,24 @@
+Caudate:
+
+Gene:	 rho > 0.413, p-value < 1.4e-53
+Transcript:	 rho > 0.342, p-value < 9.8e-55
+Exon:	 rho > 0.483, p-value < 2.6e-306
+Junction:	 rho > 0.502, p-value < 2.9e-104
+Dentate Gyrus:
+
+Gene:	 rho > 0.416, p-value < 6.7e-43
+Transcript:	 rho > 0.228, p-value < 2.1e-38
+Exon:	 rho > 0.464, p-value < 8.1e-246
+Junction:	 rho > 0.429, p-value < 1.7e-69
+DLPFC:
+
+Gene:	 rho > 0.474, p-value < 2.0e-61
+Transcript:	 rho > 0.291, p-value < 2.1e-49
+Exon:	 rho > 0.514, p-value < 0.0e+00
+Junction:	 rho > 0.480, p-value < 2.1e-94
+Hippocampus:
+
+Gene:	 rho > 0.490, p-value < 5.1e-63
+Transcript:	 rho > 0.278, p-value < 3.0e-48
+Exon:	 rho > 0.553, p-value < 0.0e+00
+Junction:	 rho > 0.529, p-value < 7.2e-122
