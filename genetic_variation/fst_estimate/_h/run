@@ -1,0 +1,21 @@
+#!/bin/bash
+
+SOFTWARE="/ceph/opt/plink-ng/1.9"
+BFILE="/ceph/users/jbenja13/github_projects/aanri_phase1/input/genotypes/extract_snps_predgenes/_m"
+
+python ../_h/cluster_samples.py
+
+for TISSUE in caudate dentateGyrus dlpfc hippocampus; do
+    echo $TISSUE
+    mkdir $TISSUE
+    ls $BFILE/$TISSUE/*fam | while read -r FAM; do
+        GENEID=`basename $FAM .fam`
+        $SOFTWARE/plink --bfile $BFILE/$TISSUE/$GENEID \
+                        --threads 32 --fst --within within_clusters.txt \
+                        --keep samples_keep.tsv --out $TISSUE/$GENEID
+        $SOFTWARE/plink --bfile $BFILE/$TISSUE/$GENEID --make-bed --threads 32 \
+                        --keep samples_keep.tsv --out $TISSUE/$GENEID
+        $SOFTWARE/plink --bfile $TISSUE/$GENEID --recode --threads 32 \
+                        --update-ids update.ids --out $TISSUE/$GENEID
+    done
+done
