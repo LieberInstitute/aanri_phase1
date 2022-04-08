@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python ../_h/specificity.py
