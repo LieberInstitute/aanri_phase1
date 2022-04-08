@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python ../_h/gene_ontology.py
+python ../_h/plot_go.py
