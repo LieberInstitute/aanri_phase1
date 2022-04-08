@@ -1,0 +1,9 @@
+DLPFC, Explained Variance (%) of PC1:
+All DEs	genes	r2: 0.97%	p-value: 2.79e-01
+Top 100 DEs	genes	r2: 12.57%	p-value: 5.75e-05
+All DEs	transcripts	r2: 1.07%	p-value: 2.56e-01
+Top 100 DEs	transcripts	r2: 34.49%	p-value: 9.38e-13
+All DEs	exons	r2: 9.56%	p-value: 5.04e-04
+Top 100 DEs	exons	r2: 34.84%	p-value: 6.75e-13
+All DEs	junctions	r2: 48.01%	p-value: 6.70e-19
+Top 100 DEs	junctions	r2: 36.97%	p-value: 8.77e-14

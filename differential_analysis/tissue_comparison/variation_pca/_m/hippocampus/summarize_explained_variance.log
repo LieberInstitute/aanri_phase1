@@ -1,0 +1,9 @@
+Hippocampus, Explained Variance (%) of PC1:
+All DEs	genes	r2: 1.68%	p-value: 1.37e-01
+Top 100 DEs	genes	r2: 2.23%	p-value: 8.64e-02
+All DEs	transcripts	r2: 22.88%	p-value: 5.75e-09
+Top 100 DEs	transcripts	r2: 46.66%	p-value: 1.33e-19
+All DEs	exons	r2: 42.24%	p-value: 2.57e-17
+Top 100 DEs	exons	r2: 19.92%	p-value: 7.27e-08
+All DEs	junctions	r2: 57.47%	p-value: 4.33e-26
+Top 100 DEs	junctions	r2: 28.06%	p-value: 5.54e-11

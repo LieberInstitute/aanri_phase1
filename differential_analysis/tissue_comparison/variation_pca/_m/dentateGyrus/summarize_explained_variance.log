@@ -1,0 +1,9 @@
+Dentate Gyrus, Explained Variance (%) of PC1:
+All DEs	genes	r2: 4.28%	p-value: 1.63e-01
+Top 100 DEs	genes	r2: 21.77%	p-value: 9.46e-04
+All DEs	transcripts	r2: 52.15%	p-value: 1.01e-08
+Top 100 DEs	transcripts	r2: 42.66%	p-value: 6.47e-07
+All DEs	exons	r2: 54.93%	p-value: 2.55e-09
+Top 100 DEs	exons	r2: 33.76%	p-value: 1.85e-05
+All DEs	junctions	r2: 63.60%	p-value: 1.96e-11
+Top 100 DEs	junctions	r2: 49.10%	p-value: 4.16e-08

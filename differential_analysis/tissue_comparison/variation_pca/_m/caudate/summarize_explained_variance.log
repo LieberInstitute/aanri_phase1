@@ -1,0 +1,9 @@
+Caudate, Explained Variance (%) of PC1:
+All DEs	genes	r2: 0.07%	p-value: 7.65e-01
+Top 100 DEs	genes	r2: 8.87%	p-value: 8.65e-04
+All DEs	transcripts	r2: 34.24%	p-value: 1.46e-12
+Top 100 DEs	transcripts	r2: 48.83%	p-value: 3.58e-19
+All DEs	exons	r2: 37.39%	p-value: 7.36e-14
+Top 100 DEs	exons	r2: 22.25%	p-value: 4.14e-08
+All DEs	junctions	r2: 50.90%	p-value: 2.93e-20
+Top 100 DEs	junctions	r2: 49.97%	p-value: 9.16e-20
