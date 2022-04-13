@@ -1,0 +1,9 @@
+Caudate vs Dentate.Gyrus:			  Odds Ratio > 7.896, p-value < 2.0e-135
+Caudate vs DLPFC:			  Odds Ratio > 18.654, p-value < 4.9e-324
+Caudate vs Hippocampus:			  Odds Ratio > 16.749, p-value < 2.8e-288
+Dentate.Gyrus vs DLPFC:			  Odds Ratio > 10.499, p-value < 1.8e-166
+Dentate.Gyrus vs Hippocampus:			  Odds Ratio > 10.966, p-value < 9.8e-169
+DLPFC vs Dentate.Gyrus:			  Odds Ratio > 10.499, p-value < 1.8e-166
+DLPFC vs Hippocampus:			  Odds Ratio > 24.923, p-value < 0.0e+00
+Hippocampus vs Dentate.Gyrus:			  Odds Ratio > 10.966, p-value < 9.8e-169
+Hippocampus vs DLPFC:			  Odds Ratio > 24.923, p-value < 0.0e+00
