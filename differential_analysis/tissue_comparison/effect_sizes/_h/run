@@ -1,3 +1,4 @@
 #!/bin/bash
 
 python ../_h/corr_beta.py
+python ../_h/fishers_enrichment.py
