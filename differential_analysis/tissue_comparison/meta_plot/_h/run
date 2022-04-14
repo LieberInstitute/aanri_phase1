@@ -1,0 +1,4 @@
+#!/bin/bash
+
+Rscript ../_h/metaplot_mash.R
+cp nohup.out summary.out
