@@ -1,0 +1,55 @@
+========================================================================= 
+Log Path: summary.log 
+[1] "Program Path: /ceph/users/jbenja13/github_projects/aanri_phase1/wgcna_analysis/dlpfc/aa_corr/_h/correlation.R"
+[1] "Working Directory: /ceph/users/jbenja13/github_projects/aanri_phase1/wgcna_analysis/dlpfc/aa_corr/_m"
+User Name: jbenja13 
+R Version: 4.1.2 (2021-11-01) 
+Machine: qvm7 x86_64 
+Operating System: Linux 5.15.5-arch1-1 #1 SMP PREEMPT Thu, 25 Nov 2021 22:09:33 +0000 
+[1] "Base Packages: stats graphics grDevices utils datasets methods base\nOther Packages: ggpubr_0.4.0 ggplot2_3.3.5 dplyr_1.0.8 "
+Log Start Time: 2022-04-15 17:05:36 
+========================================================================= 
+
+Significantly correlated modules: AA+EA 
+
+NOTE: Log Print Time:  2022-04-15 17:05:36 
+NOTE: Elapsed Time in seconds: 0.416704416275024 
+
+          Modules        Rho       Pvalue        FDR
+1 MEdarkturquoise -0.2372978 0.0006128160 0.01420852
+2       MEdarkred -0.2285824 0.0009788253 0.01420852
+3         MEblack  0.2232639 0.0012916836 0.01420852
+4          MEcyan -0.1963941 0.0047683585 0.03933896
+5        MEyellow -0.1661416 0.0172746025 0.10108601
+6        MEsalmon -0.1635679 0.0191078038 0.10108601
+7     MEdarkgreen -0.1603763 0.0216138099 0.10108601
+8   MElightyellow  0.1553064 0.0261779619 0.10108601
+9   MEsaddlebrown  0.1539128 0.0275689122 0.10108601
+
+NOTE: Data frame has 9 rows and 4 columns. 
+
+NOTE: Log Print Time:  2022-04-15 17:05:40 
+NOTE: Elapsed Time in seconds: 3.18911623954773 
+
+Correlated modules: AA only 
+
+NOTE: Log Print Time:  2022-04-15 17:05:41 
+NOTE: Elapsed Time in seconds: 1.11059236526489 
+
+           Modules         Rho     Pvalue       FDR
+1      MEdarkgreen  0.15531557 0.09166865 0.9612361
+2      MEturquoise  0.14588955 0.11338696 0.9612361
+3    MEsaddlebrown -0.14391770 0.11839965 0.9612361
+4        MEmagenta  0.13624498 0.13955020 0.9612361
+5  MEpaleturquoise -0.12797708 0.16542963 0.9612361
+6           MEcyan  0.08948858 0.33312201 0.9612361
+7        MEskyblue -0.08887395 0.33646642 0.9612361
+8      MElightcyan  0.05104733 0.58139894 0.9612361
+9     MEdarkorange -0.03769865 0.68397299 0.9612361
+10         MEwhite -0.03762775 0.68453572 0.9612361
+
+NOTE: Data frame has 10 rows and 4 columns. 
+
+NOTE: Log Print Time:  2022-04-15 17:05:45 
+NOTE: Elapsed Time in seconds: 3.951584815979 
+
