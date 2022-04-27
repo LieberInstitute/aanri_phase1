@@ -217,8 +217,8 @@ plot_power_parameter <- function(nSets, multiExpr, RsquaredCut = 0.85){
         }
     }
     # Plot the quantities in the chosen columns vs. the soft thresholding power
-    sizeGrWindow(8, 6)
     pdf(file = "power_parameter_selection.pdf", wi = 8, he = 6)
+    sizeGrWindow(8, 6)
     par(mfcol = c(2,2))
     par(mar = c(4.2, 4.2 , 2.2, 0.5))
     cex1 = 0.7
@@ -275,8 +275,8 @@ construct_network <- function(softPower){
 
 plot_cluster_dendrogram <- function(){
     lnames = load("02.RData")
-    sizeGrWindow(8,6)
     pdf(file = "consensus_dendrogram.pdf", wi = 8, he = 6)
+    sizeGrWindow(8,6)
     plotDendroAndColors(consTree, moduleColors, "Module colors", dendroLabels=FALSE,
                         hang=0.03, addGuide=TRUE, guideHang=0.05,
                         main="Consensus gene dendrogram and module colors")
@@ -296,8 +296,8 @@ consensus_eigengene_network <- function(){
     # Recalculate consMEs to give them color names
     consMEsC = multiSetMEs(multiExpr, universalColors = moduleColors)
     # Plot eigengene network
-    sizeGrWindow(8,10)
     pdf(file = "eigengene_networks.pdf", width=8, height=10)
+    sizeGrWindow(8,10)
     par(cex = 0.9)
     plotEigengeneNetworks(consMEsC, setLabels, marDendro=c(0,2,2,1),
                           marHeatmap=c(3,3,2,1), xLabelsAngle=0,
@@ -306,8 +306,8 @@ consensus_eigengene_network <- function(){
     # We add the weight trait to the eigengenes and order them by consesus hierarchical clustering:
     MET = consensusOrderMEs(addTraitToMEs(consMEsC, region))
     # Plot eigengene network
-    sizeGrWindow(8,10)
     pdf(file = "eigengene_networks_region.pdf", width=8, height=10)
+    sizeGrWindow(8,10)
     par(cex = 0.9)
     plotEigengeneNetworks(MET, setLabels, marDendro=c(0,2,2,1),
                           marHeatmap=c(3,3,2,1), xLabelsAngle=0,
