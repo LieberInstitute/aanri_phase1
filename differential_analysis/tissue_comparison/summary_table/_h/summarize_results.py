@@ -23,7 +23,7 @@ def get_mash_es(feature, tissue):
 
 @lru_cache()
 def get_annotation(feature):
-    base_loc = "/ceph/projects/v4_phase3_paper/inputs/counts/text_files_counts"
+    base_loc = "/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input/text_files_counts/"
     config = {
         "genes": "%s/_m/caudate/gene_annotation.tsv" % base_loc,
         "transcripts": "%s/_m/caudate/tx_annotation.tsv" % base_loc,
@@ -31,7 +31,7 @@ def get_annotation(feature):
         "junctions": "%s/_m/caudate/jxn_annotation.tsv" % base_loc,
     }
     return pd.read_csv(config[feature], sep='\t')\
-             .loc[:, ["names", "seqnames", "gencodeID"]]
+             .loc[:, ["names", "seqnames", "start", "end", "Symbol", "gencodeID"]]
 
 
 @lru_cache()
@@ -91,8 +91,8 @@ def main():
         data = get_DEGs_result_by_tissue(tissue)
         bigdata.append(data)
     df = pd.concat(bigdata)
-    cols = ["Tissue", "Effect", "gencodeID", "seqnames", "lfsr",
-            "posterior_mean", "Type"]
+    cols = ["Tissue", "Effect", "gencodeID", "Symbol", "seqnames", "start", "end",
+            "lfsr", "posterior_mean", "Type"]
     df.sort_values(["Tissue", "Type", "lfsr", "posterior_mean"]).loc[:, cols]\
       .to_csv("BrainSeq_ancestry_4features_4regions.txt.gz",
               sep='\t', index=False)
