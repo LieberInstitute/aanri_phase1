@@ -54,7 +54,7 @@ plot_tile <- function(fnc, label, w, h){
 }
 
 ## Run script
-plot_tile(memDEG, "DEGs", 24, 8)
+plot_tile(memDEG, "DEGs", 24, 6)
 plot_tile(memTWAS, "TWAS", 16, 6)
 
 ## Reproducibility information
