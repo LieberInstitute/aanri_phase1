@@ -1,0 +1,20 @@
+**** Job starts ****
+2022-07-21T10:09:46-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 1457609
+Job name: summarize_degs
+Hostname: compute-124.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     6) COMMUNITY_CENTOS7_DEFAULT_ENV
+  2) stata/17          7) JHPCE_CENTOS7_DEFAULT_ENV
+  3) JHPCE_tools/1.0   8) python/3.7.3
+  4) sge/8.1.9         9) emacs/28.1
+  5) gcc/4.4.7
+
+ 
+
+**** Run summarize results ****
+**** Job ends ****
+2022-07-21T10:10:43-0400
