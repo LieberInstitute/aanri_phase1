@@ -6,11 +6,11 @@ from functools import lru_cache
 
 
 @lru_cache()
-def get_mash_degs(feature, tissue):
+def get_mash_degs(feature, tissue, fdr):
     # lfsr < 0.05 for significant DE features
     df = pd.read_csv("../../_m/%s/lfsr_feature_4tissues.txt.gz"% feature, sep='\t')\
            .loc[:, ["Effect", tissue]]
-    return df[(df[tissue] < 0.05)].rename(columns={tissue: "lfsr"})
+    return df[(df[tissue] < fdr)].rename(columns={tissue: "lfsr"})
 
 
 @lru_cache()
@@ -35,25 +35,25 @@ def get_annotation(feature):
 
 
 @lru_cache()
-def annotate_degs(feature, tissue):
-    return get_mash_degs(feature, tissue)\
+def annotate_degs(feature, tissue, fdr):
+    return get_mash_degs(feature, tissue, fdr)\
         .merge(get_mash_es(feature, tissue), on="Effect")\
         .merge(get_annotation(feature), left_on="Effect", right_on="names")\
         .drop(["names"], axis=1)
 
 
 @lru_cache()
-def extract_features(tissue):
+def extract_features(tissue, fdr):
     # Extract DE from mash model
-    genes = annotate_degs("genes", tissue)
-    trans = annotate_degs("transcripts", tissue)
-    exons = annotate_degs("exons", tissue)
-    juncs = annotate_degs("junctions", tissue)
+    genes = annotate_degs("genes", tissue, fdr)
+    trans = annotate_degs("transcripts", tissue, fdr)
+    exons = annotate_degs("exons", tissue, fdr)
+    juncs = annotate_degs("junctions", tissue, fdr)
     return genes, trans, exons, juncs
 
 
-def print_summary(tissue):
-    genes, trans, exons, juncs = extract_features(tissue)
+def print_summary(tissue, fdr=0.05):
+    genes, trans, exons, juncs = extract_features(tissue, fdr)
     if tissue == "Caudate":
         w_mode = "w"
     else:
@@ -71,8 +71,8 @@ def print_summary(tissue):
                   (gg, tt, ee, jj), file=f)
 
 
-def get_DEGs_result_by_tissue(tissue):
-    genes, trans, exons, juncs = extract_features(tissue)
+def get_DEGs_result_by_tissue(tissue, fdr=0.05):
+    genes, trans, exons, juncs = extract_features(tissue, fdr)
     genes["Type"] = "Gene"
     trans["Type"] = "Transcript"
     exons["Type"] = "Exon"
@@ -85,17 +85,20 @@ def get_DEGs_result_by_tissue(tissue):
 
 
 def main():
-    bigdata = []
+    bigdata1 = []; bigdata2 = [];
     for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
         print_summary(tissue)
-        data = get_DEGs_result_by_tissue(tissue)
-        bigdata.append(data)
-    df = pd.concat(bigdata)
+        data1 = get_DEGs_result_by_tissue(tissue)
+        data2 = get_DEGs_result_by_tissue(tissue, 1)
+        bigdata1.append(data1); bigdata2.append(data2)
+    df1 = pd.concat(bigdata1); df2 = pd.concat(bigdata2)
     cols = ["Tissue", "Effect", "gencodeID", "Symbol", "seqnames", "start", "end",
             "lfsr", "posterior_mean", "Type"]
-    df.sort_values(["Tissue", "Type", "lfsr", "posterior_mean"]).loc[:, cols]\
-      .to_csv("BrainSeq_ancestry_4features_4regions.txt.gz",
-              sep='\t', index=False)
+    df1.sort_values(["Tissue", "Type", "lfsr", "posterior_mean"]).loc[:, cols]\
+       .to_csv("BrainSeq_ancestry_4features_4regions.txt.gz",sep='\t', index=False)
+    df2.sort_values(["Tissue", "Type", "lfsr", "posterior_mean"]).loc[:, cols]\
+       .to_csv("BrainSeq_ancestry_4features_4regions_allFeatures.txt.gz",
+               sep='\t', index=False)
 
 
 if __name__ == "__main__":
