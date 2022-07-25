@@ -27,11 +27,16 @@ get_annotation <- function(feature){
     
     fn <- paste0("/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/",
                  "input/text_files_counts/_m/caudate/", config[feature])
-    return(data.table::fread(fn) %>%
-           mutate(ensemblID=gsub("\\..*", "", gencodeID)) %>%
-           dplyr::rename("Effect"="names") %>%
-           inner_join(memBIOMART(), by=c("ensemblID"="ensembl_gene_id")) %>%
-           distinct(Effect, .keep_all = TRUE))
+    dt <- data.table::fread(fn) %>%
+        mutate(ensemblID=gsub("\\..*", "", gencodeID)) %>%
+        dplyr::rename("Effect"="names") %>%
+        inner_join(memBIOMART(), by=c("ensemblID"="ensembl_gene_id")) %>%
+        distinct(Effect, .keep_all = TRUE)
+    if(feature == "genes"){
+        return(dt)
+    } else {            
+        return(dt %>% mutate(Length=abs(start - end)))
+    }
 }
 
 subset_tissue <- function(feature, tissue){
@@ -79,12 +84,12 @@ get_gene_lengths <- function(dt, direction){
 run_goseq <- function(dt, direction, fn1, fn2){
     genes <- get_goseq_genes(dt, direction)
     gene_lengths <- get_gene_lengths(dt, direction)
-    pdf(fn1)
+    pdf(gsub(" ", "_", fn1))
     pwf <- nullp(genes, bias.data=gene_lengths, plot.fit=TRUE)
     dev.off()
                                         # Map GO
-    new_fn1 <- paste(fn2,"kegg.txt", sep="_")
-    new_fn2 <- paste(fn2,"go.txt", sep="_")
+    new_fn1 <- gsub(" ", "_", paste(fn2,"kegg.txt", sep="_"))
+    new_fn2 <- gsub(" ", "_", paste(fn2,"go.txt", sep="_")
 
     goseq(pwf, gene2cat=as.list(org.Hs.eg.db::org.Hs.egPATH)) %>%
         mutate(FDR_over=p.adjust(over_represented_pvalue, method="fdr"),
