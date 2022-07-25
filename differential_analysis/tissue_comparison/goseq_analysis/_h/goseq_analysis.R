@@ -89,7 +89,7 @@ run_goseq <- function(dt, direction, fn1, fn2){
     dev.off()
                                         # Map GO
     new_fn1 <- gsub(" ", "_", paste(fn2,"kegg.txt", sep="_"))
-    new_fn2 <- gsub(" ", "_", paste(fn2,"go.txt", sep="_")
+    new_fn2 <- gsub(" ", "_", paste(fn2,"go.txt", sep="_"))
 
     goseq(pwf, gene2cat=as.list(org.Hs.eg.db::org.Hs.egPATH)) %>%
         mutate(FDR_over=p.adjust(over_represented_pvalue, method="fdr"),
