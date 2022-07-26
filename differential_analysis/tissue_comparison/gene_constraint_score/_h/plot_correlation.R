@@ -5,7 +5,7 @@ suppressPackageStartupMessages({
 })
 
 save_plot <- function(p, fn, w, h){
-    for(ext in c(".pdf", ".svg")){
+    for(ext in c(".pdf", ".svg", ".png")){
         ggsave(filename=paste0(fn,ext), plot=p, width=w, height=h)
     }
 }
