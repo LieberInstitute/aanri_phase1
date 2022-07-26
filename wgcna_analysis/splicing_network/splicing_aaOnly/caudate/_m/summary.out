@@ -1,0 +1,544 @@
+**** Job starts ****
+2022-06-13T19:09:59-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 305019
+Job name: wgcna_softpower
+Hostname: compute-066.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  v
+Loading required package: limma
+[1] 129107    122
+ Flagging genes and samples with too many missing values...
+  ..step 1
+[1]    119 129107
+Warning message:
+In data.table::fread(fn2) :
+  Detected 122 column names but the data has 123 columns (i.e. invalid file). Added 1 extra default column name for the first column which is guessed to be row names or an index. Use setnames() afterwards if this guess is not correct, or fix the file write command that created the file to create a valid file.
+Loading objects:
+  datExpr
+  sample_table
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+pickSoftThreshold: will use block size 346.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 346 of 129107
+   ..working on genes 347 through 692 of 129107
+   ..working on genes 693 through 1038 of 129107
+   ..working on genes 1039 through 1384 of 129107
+   ..working on genes 1385 through 1730 of 129107
+   ..working on genes 1731 through 2076 of 129107
+   ..working on genes 2077 through 2422 of 129107
+   ..working on genes 2423 through 2768 of 129107
+   ..working on genes 2769 through 3114 of 129107
+   ..working on genes 3115 through 3460 of 129107
+   ..working on genes 3461 through 3806 of 129107
+   ..working on genes 3807 through 4152 of 129107
+   ..working on genes 4153 through 4498 of 129107
+   ..working on genes 4499 through 4844 of 129107
+   ..working on genes 4845 through 5190 of 129107
+   ..working on genes 5191 through 5536 of 129107
+   ..working on genes 5537 through 5882 of 129107
+   ..working on genes 5883 through 6228 of 129107
+   ..working on genes 6229 through 6574 of 129107
+   ..working on genes 6575 through 6920 of 129107
+   ..working on genes 6921 through 7266 of 129107
+   ..working on genes 7267 through 7612 of 129107
+   ..working on genes 7613 through 7958 of 129107
+   ..working on genes 7959 through 8304 of 129107
+   ..working on genes 8305 through 8650 of 129107
+   ..working on genes 8651 through 8996 of 129107
+   ..working on genes 8997 through 9342 of 129107
+   ..working on genes 9343 through 9688 of 129107
+   ..working on genes 9689 through 10034 of 129107
+   ..working on genes 10035 through 10380 of 129107
+   ..working on genes 10381 through 10726 of 129107
+   ..working on genes 10727 through 11072 of 129107
+   ..working on genes 11073 through 11418 of 129107
+   ..working on genes 11419 through 11764 of 129107
+   ..working on genes 11765 through 12110 of 129107
+   ..working on genes 12111 through 12456 of 129107
+   ..working on genes 12457 through 12802 of 129107
+   ..working on genes 12803 through 13148 of 129107
+   ..working on genes 13149 through 13494 of 129107
+   ..working on genes 13495 through 13840 of 129107
+   ..working on genes 13841 through 14186 of 129107
+   ..working on genes 14187 through 14532 of 129107
+   ..working on genes 14533 through 14878 of 129107
+   ..working on genes 14879 through 15224 of 129107
+   ..working on genes 15225 through 15570 of 129107
+   ..working on genes 15571 through 15916 of 129107
+   ..working on genes 15917 through 16262 of 129107
+   ..working on genes 16263 through 16608 of 129107
+   ..working on genes 16609 through 16954 of 129107
+   ..working on genes 16955 through 17300 of 129107
+   ..working on genes 17301 through 17646 of 129107
+   ..working on genes 17647 through 17992 of 129107
+   ..working on genes 17993 through 18338 of 129107
+   ..working on genes 18339 through 18684 of 129107
+   ..working on genes 18685 through 19030 of 129107
+   ..working on genes 19031 through 19376 of 129107
+   ..working on genes 19377 through 19722 of 129107
+   ..working on genes 19723 through 20068 of 129107
+   ..working on genes 20069 through 20414 of 129107
+   ..working on genes 20415 through 20760 of 129107
+   ..working on genes 20761 through 21106 of 129107
+   ..working on genes 21107 through 21452 of 129107
+   ..working on genes 21453 through 21798 of 129107
+   ..working on genes 21799 through 22144 of 129107
+   ..working on genes 22145 through 22490 of 129107
+   ..working on genes 22491 through 22836 of 129107
+   ..working on genes 22837 through 23182 of 129107
+   ..working on genes 23183 through 23528 of 129107
+   ..working on genes 23529 through 23874 of 129107
+   ..working on genes 23875 through 24220 of 129107
+   ..working on genes 24221 through 24566 of 129107
+   ..working on genes 24567 through 24912 of 129107
+   ..working on genes 24913 through 25258 of 129107
+   ..working on genes 25259 through 25604 of 129107
+   ..working on genes 25605 through 25950 of 129107
+   ..working on genes 25951 through 26296 of 129107
+   ..working on genes 26297 through 26642 of 129107
+   ..working on genes 26643 through 26988 of 129107
+   ..working on genes 26989 through 27334 of 129107
+   ..working on genes 27335 through 27680 of 129107
+   ..working on genes 27681 through 28026 of 129107
+   ..working on genes 28027 through 28372 of 129107
+   ..working on genes 28373 through 28718 of 129107
+   ..working on genes 28719 through 29064 of 129107
+   ..working on genes 29065 through 29410 of 129107
+   ..working on genes 29411 through 29756 of 129107
+   ..working on genes 29757 through 30102 of 129107
+   ..working on genes 30103 through 30448 of 129107
+   ..working on genes 30449 through 30794 of 129107
+   ..working on genes 30795 through 31140 of 129107
+   ..working on genes 31141 through 31486 of 129107
+   ..working on genes 31487 through 31832 of 129107
+   ..working on genes 31833 through 32178 of 129107
+   ..working on genes 32179 through 32524 of 129107
+   ..working on genes 32525 through 32870 of 129107
+   ..working on genes 32871 through 33216 of 129107
+   ..working on genes 33217 through 33562 of 129107
+   ..working on genes 33563 through 33908 of 129107
+   ..working on genes 33909 through 34254 of 129107
+   ..working on genes 34255 through 34600 of 129107
+   ..working on genes 34601 through 34946 of 129107
+   ..working on genes 34947 through 35292 of 129107
+   ..working on genes 35293 through 35638 of 129107
+   ..working on genes 35639 through 35984 of 129107
+   ..working on genes 35985 through 36330 of 129107
+   ..working on genes 36331 through 36676 of 129107
+   ..working on genes 36677 through 37022 of 129107
+   ..working on genes 37023 through 37368 of 129107
+   ..working on genes 37369 through 37714 of 129107
+   ..working on genes 37715 through 38060 of 129107
+   ..working on genes 38061 through 38406 of 129107
+   ..working on genes 38407 through 38752 of 129107
+   ..working on genes 38753 through 39098 of 129107
+   ..working on genes 39099 through 39444 of 129107
+   ..working on genes 39445 through 39790 of 129107
+   ..working on genes 39791 through 40136 of 129107
+   ..working on genes 40137 through 40482 of 129107
+   ..working on genes 40483 through 40828 of 129107
+   ..working on genes 40829 through 41174 of 129107
+   ..working on genes 41175 through 41520 of 129107
+   ..working on genes 41521 through 41866 of 129107
+   ..working on genes 41867 through 42212 of 129107
+   ..working on genes 42213 through 42558 of 129107
+   ..working on genes 42559 through 42904 of 129107
+   ..working on genes 42905 through 43250 of 129107
+   ..working on genes 43251 through 43596 of 129107
+   ..working on genes 43597 through 43942 of 129107
+   ..working on genes 43943 through 44288 of 129107
+   ..working on genes 44289 through 44634 of 129107
+   ..working on genes 44635 through 44980 of 129107
+   ..working on genes 44981 through 45326 of 129107
+   ..working on genes 45327 through 45672 of 129107
+   ..working on genes 45673 through 46018 of 129107
+   ..working on genes 46019 through 46364 of 129107
+   ..working on genes 46365 through 46710 of 129107
+   ..working on genes 46711 through 47056 of 129107
+   ..working on genes 47057 through 47402 of 129107
+   ..working on genes 47403 through 47748 of 129107
+   ..working on genes 47749 through 48094 of 129107
+   ..working on genes 48095 through 48440 of 129107
+   ..working on genes 48441 through 48786 of 129107
+   ..working on genes 48787 through 49132 of 129107
+   ..working on genes 49133 through 49478 of 129107
+   ..working on genes 49479 through 49824 of 129107
+   ..working on genes 49825 through 50170 of 129107
+   ..working on genes 50171 through 50516 of 129107
+   ..working on genes 50517 through 50862 of 129107
+   ..working on genes 50863 through 51208 of 129107
+   ..working on genes 51209 through 51554 of 129107
+   ..working on genes 51555 through 51900 of 129107
+   ..working on genes 51901 through 52246 of 129107
+   ..working on genes 52247 through 52592 of 129107
+   ..working on genes 52593 through 52938 of 129107
+   ..working on genes 52939 through 53284 of 129107
+   ..working on genes 53285 through 53630 of 129107
+   ..working on genes 53631 through 53976 of 129107
+   ..working on genes 53977 through 54322 of 129107
+   ..working on genes 54323 through 54668 of 129107
+   ..working on genes 54669 through 55014 of 129107
+   ..working on genes 55015 through 55360 of 129107
+   ..working on genes 55361 through 55706 of 129107
+   ..working on genes 55707 through 56052 of 129107
+   ..working on genes 56053 through 56398 of 129107
+   ..working on genes 56399 through 56744 of 129107
+   ..working on genes 56745 through 57090 of 129107
+   ..working on genes 57091 through 57436 of 129107
+   ..working on genes 57437 through 57782 of 129107
+   ..working on genes 57783 through 58128 of 129107
+   ..working on genes 58129 through 58474 of 129107
+   ..working on genes 58475 through 58820 of 129107
+   ..working on genes 58821 through 59166 of 129107
+   ..working on genes 59167 through 59512 of 129107
+   ..working on genes 59513 through 59858 of 129107
+   ..working on genes 59859 through 60204 of 129107
+   ..working on genes 60205 through 60550 of 129107
+   ..working on genes 60551 through 60896 of 129107
+   ..working on genes 60897 through 61242 of 129107
+   ..working on genes 61243 through 61588 of 129107
+   ..working on genes 61589 through 61934 of 129107
+   ..working on genes 61935 through 62280 of 129107
+   ..working on genes 62281 through 62626 of 129107
+   ..working on genes 62627 through 62972 of 129107
+   ..working on genes 62973 through 63318 of 129107
+   ..working on genes 63319 through 63664 of 129107
+   ..working on genes 63665 through 64010 of 129107
+   ..working on genes 64011 through 64356 of 129107
+   ..working on genes 64357 through 64702 of 129107
+   ..working on genes 64703 through 65048 of 129107
+   ..working on genes 65049 through 65394 of 129107
+   ..working on genes 65395 through 65740 of 129107
+   ..working on genes 65741 through 66086 of 129107
+   ..working on genes 66087 through 66432 of 129107
+   ..working on genes 66433 through 66778 of 129107
+   ..working on genes 66779 through 67124 of 129107
+   ..working on genes 67125 through 67470 of 129107
+   ..working on genes 67471 through 67816 of 129107
+   ..working on genes 67817 through 68162 of 129107
+   ..working on genes 68163 through 68508 of 129107
+   ..working on genes 68509 through 68854 of 129107
+   ..working on genes 68855 through 69200 of 129107
+   ..working on genes 69201 through 69546 of 129107
+   ..working on genes 69547 through 69892 of 129107
+   ..working on genes 69893 through 70238 of 129107
+   ..working on genes 70239 through 70584 of 129107
+   ..working on genes 70585 through 70930 of 129107
+   ..working on genes 70931 through 71276 of 129107
+   ..working on genes 71277 through 71622 of 129107
+   ..working on genes 71623 through 71968 of 129107
+   ..working on genes 71969 through 72314 of 129107
+   ..working on genes 72315 through 72660 of 129107
+   ..working on genes 72661 through 73006 of 129107
+   ..working on genes 73007 through 73352 of 129107
+   ..working on genes 73353 through 73698 of 129107
+   ..working on genes 73699 through 74044 of 129107
+   ..working on genes 74045 through 74390 of 129107
+   ..working on genes 74391 through 74736 of 129107
+   ..working on genes 74737 through 75082 of 129107
+   ..working on genes 75083 through 75428 of 129107
+   ..working on genes 75429 through 75774 of 129107
+   ..working on genes 75775 through 76120 of 129107
+   ..working on genes 76121 through 76466 of 129107
+   ..working on genes 76467 through 76812 of 129107
+   ..working on genes 76813 through 77158 of 129107
+   ..working on genes 77159 through 77504 of 129107
+   ..working on genes 77505 through 77850 of 129107
+   ..working on genes 77851 through 78196 of 129107
+   ..working on genes 78197 through 78542 of 129107
+   ..working on genes 78543 through 78888 of 129107
+   ..working on genes 78889 through 79234 of 129107
+   ..working on genes 79235 through 79580 of 129107
+   ..working on genes 79581 through 79926 of 129107
+   ..working on genes 79927 through 80272 of 129107
+   ..working on genes 80273 through 80618 of 129107
+   ..working on genes 80619 through 80964 of 129107
+   ..working on genes 80965 through 81310 of 129107
+   ..working on genes 81311 through 81656 of 129107
+   ..working on genes 81657 through 82002 of 129107
+   ..working on genes 82003 through 82348 of 129107
+   ..working on genes 82349 through 82694 of 129107
+   ..working on genes 82695 through 83040 of 129107
+   ..working on genes 83041 through 83386 of 129107
+   ..working on genes 83387 through 83732 of 129107
+   ..working on genes 83733 through 84078 of 129107
+   ..working on genes 84079 through 84424 of 129107
+   ..working on genes 84425 through 84770 of 129107
+   ..working on genes 84771 through 85116 of 129107
+   ..working on genes 85117 through 85462 of 129107
+   ..working on genes 85463 through 85808 of 129107
+   ..working on genes 85809 through 86154 of 129107
+   ..working on genes 86155 through 86500 of 129107
+   ..working on genes 86501 through 86846 of 129107
+   ..working on genes 86847 through 87192 of 129107
+   ..working on genes 87193 through 87538 of 129107
+   ..working on genes 87539 through 87884 of 129107
+   ..working on genes 87885 through 88230 of 129107
+   ..working on genes 88231 through 88576 of 129107
+   ..working on genes 88577 through 88922 of 129107
+   ..working on genes 88923 through 89268 of 129107
+   ..working on genes 89269 through 89614 of 129107
+   ..working on genes 89615 through 89960 of 129107
+   ..working on genes 89961 through 90306 of 129107
+   ..working on genes 90307 through 90652 of 129107
+   ..working on genes 90653 through 90998 of 129107
+   ..working on genes 90999 through 91344 of 129107
+   ..working on genes 91345 through 91690 of 129107
+   ..working on genes 91691 through 92036 of 129107
+   ..working on genes 92037 through 92382 of 129107
+   ..working on genes 92383 through 92728 of 129107
+   ..working on genes 92729 through 93074 of 129107
+   ..working on genes 93075 through 93420 of 129107
+   ..working on genes 93421 through 93766 of 129107
+   ..working on genes 93767 through 94112 of 129107
+   ..working on genes 94113 through 94458 of 129107
+   ..working on genes 94459 through 94804 of 129107
+   ..working on genes 94805 through 95150 of 129107
+   ..working on genes 95151 through 95496 of 129107
+   ..working on genes 95497 through 95842 of 129107
+   ..working on genes 95843 through 96188 of 129107
+   ..working on genes 96189 through 96534 of 129107
+   ..working on genes 96535 through 96880 of 129107
+   ..working on genes 96881 through 97226 of 129107
+   ..working on genes 97227 through 97572 of 129107
+   ..working on genes 97573 through 97918 of 129107
+   ..working on genes 97919 through 98264 of 129107
+   ..working on genes 98265 through 98610 of 129107
+   ..working on genes 98611 through 98956 of 129107
+   ..working on genes 98957 through 99302 of 129107
+   ..working on genes 99303 through 99648 of 129107
+   ..working on genes 99649 through 99994 of 129107
+   ..working on genes 99995 through 100340 of 129107
+   ..working on genes 100341 through 100686 of 129107
+   ..working on genes 100687 through 101032 of 129107
+   ..working on genes 101033 through 101378 of 129107
+   ..working on genes 101379 through 101724 of 129107
+   ..working on genes 101725 through 102070 of 129107
+   ..working on genes 102071 through 102416 of 129107
+   ..working on genes 102417 through 102762 of 129107
+   ..working on genes 102763 through 103108 of 129107
+   ..working on genes 103109 through 103454 of 129107
+   ..working on genes 103455 through 103800 of 129107
+   ..working on genes 103801 through 104146 of 129107
+   ..working on genes 104147 through 104492 of 129107
+   ..working on genes 104493 through 104838 of 129107
+   ..working on genes 104839 through 105184 of 129107
+   ..working on genes 105185 through 105530 of 129107
+   ..working on genes 105531 through 105876 of 129107
+   ..working on genes 105877 through 106222 of 129107
+   ..working on genes 106223 through 106568 of 129107
+   ..working on genes 106569 through 106914 of 129107
+   ..working on genes 106915 through 107260 of 129107
+   ..working on genes 107261 through 107606 of 129107
+   ..working on genes 107607 through 107952 of 129107
+   ..working on genes 107953 through 108298 of 129107
+   ..working on genes 108299 through 108644 of 129107
+   ..working on genes 108645 through 108990 of 129107
+   ..working on genes 108991 through 109336 of 129107
+   ..working on genes 109337 through 109682 of 129107
+   ..working on genes 109683 through 110028 of 129107
+   ..working on genes 110029 through 110374 of 129107
+   ..working on genes 110375 through 110720 of 129107
+   ..working on genes 110721 through 111066 of 129107
+   ..working on genes 111067 through 111412 of 129107
+   ..working on genes 111413 through 111758 of 129107
+   ..working on genes 111759 through 112104 of 129107
+   ..working on genes 112105 through 112450 of 129107
+   ..working on genes 112451 through 112796 of 129107
+   ..working on genes 112797 through 113142 of 129107
+   ..working on genes 113143 through 113488 of 129107
+   ..working on genes 113489 through 113834 of 129107
+   ..working on genes 113835 through 114180 of 129107
+   ..working on genes 114181 through 114526 of 129107
+   ..working on genes 114527 through 114872 of 129107
+   ..working on genes 114873 through 115218 of 129107
+   ..working on genes 115219 through 115564 of 129107
+   ..working on genes 115565 through 115910 of 129107
+   ..working on genes 115911 through 116256 of 129107
+   ..working on genes 116257 through 116602 of 129107
+   ..working on genes 116603 through 116948 of 129107
+   ..working on genes 116949 through 117294 of 129107
+   ..working on genes 117295 through 117640 of 129107
+   ..working on genes 117641 through 117986 of 129107
+   ..working on genes 117987 through 118332 of 129107
+   ..working on genes 118333 through 118678 of 129107
+   ..working on genes 118679 through 119024 of 129107
+   ..working on genes 119025 through 119370 of 129107
+   ..working on genes 119371 through 119716 of 129107
+   ..working on genes 119717 through 120062 of 129107
+   ..working on genes 120063 through 120408 of 129107
+   ..working on genes 120409 through 120754 of 129107
+   ..working on genes 120755 through 121100 of 129107
+   ..working on genes 121101 through 121446 of 129107
+   ..working on genes 121447 through 121792 of 129107
+   ..working on genes 121793 through 122138 of 129107
+   ..working on genes 122139 through 122484 of 129107
+   ..working on genes 122485 through 122830 of 129107
+   ..working on genes 122831 through 123176 of 129107
+   ..working on genes 123177 through 123522 of 129107
+   ..working on genes 123523 through 123868 of 129107
+   ..working on genes 123869 through 124214 of 129107
+   ..working on genes 124215 through 124560 of 129107
+   ..working on genes 124561 through 124906 of 129107
+   ..working on genes 124907 through 125252 of 129107
+   ..working on genes 125253 through 125598 of 129107
+   ..working on genes 125599 through 125944 of 129107
+   ..working on genes 125945 through 126290 of 129107
+   ..working on genes 126291 through 126636 of 129107
+   ..working on genes 126637 through 126982 of 129107
+   ..working on genes 126983 through 127328 of 129107
+   ..working on genes 127329 through 127674 of 129107
+   ..working on genes 127675 through 128020 of 129107
+   ..working on genes 128021 through 128366 of 129107
+   ..working on genes 128367 through 128712 of 129107
+   ..working on genes 128713 through 129058 of 129107
+   ..working on genes 129059 through 129107 of 129107
+   Power SFT.R.sq  slope truncated.R.sq  mean.k. median.k. max.k.
+1      1   0.0627  41.30          0.979 64600.00  6.46e+04  66000
+2      2   0.4160 -50.40          0.883 32800.00  3.27e+04  34900
+3      3   0.6350 -37.20          0.889 16900.00  1.68e+04  19100
+4      4   0.7720 -26.70          0.923  8800.00  8.72e+03  10800
+5      5   0.8570 -20.00          0.955  4650.00  4.58e+03   6340
+6      6   0.8900 -14.90          0.965  2490.00  2.43e+03   3820
+7      7   0.9140 -11.60          0.972  1350.00  1.30e+03   2370
+8      8   0.9490  -8.94          0.981   739.00  7.08e+02   1510
+9      9   0.9640  -7.62          0.990   411.00  3.88e+02   1040
+10    10   0.9740  -6.53          0.995   232.00  2.15e+02    754
+11    11   0.9800  -5.63          0.997   132.00  1.20e+02    566
+12    12   0.9840  -4.89          0.998    76.60  6.75e+01    438
+13    13   0.9860  -4.31          0.997    45.00  3.84e+01    348
+14    14   0.9880  -3.84          0.997    26.90  2.21e+01    281
+15    15   0.9890  -3.47          0.998    16.30  1.28e+01    231
+16    16   0.9880  -3.16          0.998    10.10  7.46e+00    193
+17    17   0.9850  -2.91          0.995     6.34  4.40e+00    163
+18    18   0.9800  -2.70          0.992     4.07  2.61e+00    139
+19    19   0.9810  -2.51          0.991     2.67  1.56e+00    120
+20    20   0.9740  -2.37          0.985     1.79  9.45e-01    104
+[1] 5
+null device 
+          1 
+[1] "2022-06-14 01:41:47 EDT"
+     user    system   elapsed 
+18853.270  4545.274 23506.899 
+Error in loadNamespace(name) : there is no package called ‘sessioninfo’
+Calls: :: ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+**** Job ends ****
+2022-06-14T01:41:47-0400
+**** Job starts ****
+2022-06-15T08:26:57-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 305657
+Job name: cc_wgcna_jxn
+Hostname: compute-120.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+Found block(s) with size(s) larger than limit of 'int' indexing.
+ Support for such large blocks is experimental; please report
+ any issues to Peter.Langfelder@gmail.com.
+ ..Working on block 1 .
+Error: cannot allocate vector of size 124.2 Gb
+Execution halted
+**** Job ends ****
+2022-06-15T08:27:13-0400
+**** Job starts ****
+2022-06-16T14:16:44-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 312893
+Job name: cc_wgcna_jxn
+Hostname: compute-127.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+Found block(s) with size(s) larger than limit of 'int' indexing.
+ Support for such large blocks is experimental; please report
+ any issues to Peter.Langfelder@gmail.com.
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+**** Job starts ****
+2022-06-21T15:22:58-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 323107
+Job name: cc_wgcna_jxn
+Hostname: compute-059.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+Found block(s) with size(s) larger than limit of 'int' indexing.
+ Support for such large blocks is experimental; please report
+ any issues to Peter.Langfelder@gmail.com.
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..

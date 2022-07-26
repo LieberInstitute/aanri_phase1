@@ -1,0 +1,430 @@
+**** Job starts ****
+2022-06-13T19:14:43-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 305023
+Job name: wgcna_softpower
+Hostname: compute-127.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  v
+Loading required package: limma
+[1] 121031    123
+ Flagging genes and samples with too many missing values...
+  ..step 1
+[1]    119 121031
+Warning message:
+In data.table::fread(fn2) :
+  Detected 123 column names but the data has 124 columns (i.e. invalid file). Added 1 extra default column name for the first column which is guessed to be row names or an index. Use setnames() afterwards if this guess is not correct, or fix the file write command that created the file to create a valid file.
+Loading objects:
+  datExpr
+  sample_table
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+pickSoftThreshold: will use block size 369.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 369 of 121031
+   ..working on genes 370 through 738 of 121031
+   ..working on genes 739 through 1107 of 121031
+   ..working on genes 1108 through 1476 of 121031
+   ..working on genes 1477 through 1845 of 121031
+   ..working on genes 1846 through 2214 of 121031
+   ..working on genes 2215 through 2583 of 121031
+   ..working on genes 2584 through 2952 of 121031
+   ..working on genes 2953 through 3321 of 121031
+   ..working on genes 3322 through 3690 of 121031
+   ..working on genes 3691 through 4059 of 121031
+   ..working on genes 4060 through 4428 of 121031
+   ..working on genes 4429 through 4797 of 121031
+   ..working on genes 4798 through 5166 of 121031
+   ..working on genes 5167 through 5535 of 121031
+   ..working on genes 5536 through 5904 of 121031
+   ..working on genes 5905 through 6273 of 121031
+   ..working on genes 6274 through 6642 of 121031
+   ..working on genes 6643 through 7011 of 121031
+   ..working on genes 7012 through 7380 of 121031
+   ..working on genes 7381 through 7749 of 121031
+   ..working on genes 7750 through 8118 of 121031
+   ..working on genes 8119 through 8487 of 121031
+   ..working on genes 8488 through 8856 of 121031
+   ..working on genes 8857 through 9225 of 121031
+   ..working on genes 9226 through 9594 of 121031
+   ..working on genes 9595 through 9963 of 121031
+   ..working on genes 9964 through 10332 of 121031
+   ..working on genes 10333 through 10701 of 121031
+   ..working on genes 10702 through 11070 of 121031
+   ..working on genes 11071 through 11439 of 121031
+   ..working on genes 11440 through 11808 of 121031
+   ..working on genes 11809 through 12177 of 121031
+   ..working on genes 12178 through 12546 of 121031
+   ..working on genes 12547 through 12915 of 121031
+   ..working on genes 12916 through 13284 of 121031
+   ..working on genes 13285 through 13653 of 121031
+   ..working on genes 13654 through 14022 of 121031
+   ..working on genes 14023 through 14391 of 121031
+   ..working on genes 14392 through 14760 of 121031
+   ..working on genes 14761 through 15129 of 121031
+   ..working on genes 15130 through 15498 of 121031
+   ..working on genes 15499 through 15867 of 121031
+   ..working on genes 15868 through 16236 of 121031
+   ..working on genes 16237 through 16605 of 121031
+   ..working on genes 16606 through 16974 of 121031
+   ..working on genes 16975 through 17343 of 121031
+   ..working on genes 17344 through 17712 of 121031
+   ..working on genes 17713 through 18081 of 121031
+   ..working on genes 18082 through 18450 of 121031
+   ..working on genes 18451 through 18819 of 121031
+   ..working on genes 18820 through 19188 of 121031
+   ..working on genes 19189 through 19557 of 121031
+   ..working on genes 19558 through 19926 of 121031
+   ..working on genes 19927 through 20295 of 121031
+   ..working on genes 20296 through 20664 of 121031
+   ..working on genes 20665 through 21033 of 121031
+   ..working on genes 21034 through 21402 of 121031
+   ..working on genes 21403 through 21771 of 121031
+   ..working on genes 21772 through 22140 of 121031
+   ..working on genes 22141 through 22509 of 121031
+   ..working on genes 22510 through 22878 of 121031
+   ..working on genes 22879 through 23247 of 121031
+   ..working on genes 23248 through 23616 of 121031
+   ..working on genes 23617 through 23985 of 121031
+   ..working on genes 23986 through 24354 of 121031
+   ..working on genes 24355 through 24723 of 121031
+   ..working on genes 24724 through 25092 of 121031
+   ..working on genes 25093 through 25461 of 121031
+   ..working on genes 25462 through 25830 of 121031
+   ..working on genes 25831 through 26199 of 121031
+   ..working on genes 26200 through 26568 of 121031
+   ..working on genes 26569 through 26937 of 121031
+   ..working on genes 26938 through 27306 of 121031
+   ..working on genes 27307 through 27675 of 121031
+   ..working on genes 27676 through 28044 of 121031
+   ..working on genes 28045 through 28413 of 121031
+   ..working on genes 28414 through 28782 of 121031
+   ..working on genes 28783 through 29151 of 121031
+   ..working on genes 29152 through 29520 of 121031
+   ..working on genes 29521 through 29889 of 121031
+   ..working on genes 29890 through 30258 of 121031
+   ..working on genes 30259 through 30627 of 121031
+   ..working on genes 30628 through 30996 of 121031
+   ..working on genes 30997 through 31365 of 121031
+   ..working on genes 31366 through 31734 of 121031
+   ..working on genes 31735 through 32103 of 121031
+   ..working on genes 32104 through 32472 of 121031
+   ..working on genes 32473 through 32841 of 121031
+   ..working on genes 32842 through 33210 of 121031
+   ..working on genes 33211 through 33579 of 121031
+   ..working on genes 33580 through 33948 of 121031
+   ..working on genes 33949 through 34317 of 121031
+   ..working on genes 34318 through 34686 of 121031
+   ..working on genes 34687 through 35055 of 121031
+   ..working on genes 35056 through 35424 of 121031
+   ..working on genes 35425 through 35793 of 121031
+   ..working on genes 35794 through 36162 of 121031
+   ..working on genes 36163 through 36531 of 121031
+   ..working on genes 36532 through 36900 of 121031
+   ..working on genes 36901 through 37269 of 121031
+   ..working on genes 37270 through 37638 of 121031
+   ..working on genes 37639 through 38007 of 121031
+   ..working on genes 38008 through 38376 of 121031
+   ..working on genes 38377 through 38745 of 121031
+   ..working on genes 38746 through 39114 of 121031
+   ..working on genes 39115 through 39483 of 121031
+   ..working on genes 39484 through 39852 of 121031
+   ..working on genes 39853 through 40221 of 121031
+   ..working on genes 40222 through 40590 of 121031
+   ..working on genes 40591 through 40959 of 121031
+   ..working on genes 40960 through 41328 of 121031
+   ..working on genes 41329 through 41697 of 121031
+   ..working on genes 41698 through 42066 of 121031
+   ..working on genes 42067 through 42435 of 121031
+   ..working on genes 42436 through 42804 of 121031
+   ..working on genes 42805 through 43173 of 121031
+   ..working on genes 43174 through 43542 of 121031
+   ..working on genes 43543 through 43911 of 121031
+   ..working on genes 43912 through 44280 of 121031
+   ..working on genes 44281 through 44649 of 121031
+   ..working on genes 44650 through 45018 of 121031
+   ..working on genes 45019 through 45387 of 121031
+   ..working on genes 45388 through 45756 of 121031
+   ..working on genes 45757 through 46125 of 121031
+   ..working on genes 46126 through 46494 of 121031
+   ..working on genes 46495 through 46863 of 121031
+   ..working on genes 46864 through 47232 of 121031
+   ..working on genes 47233 through 47601 of 121031
+   ..working on genes 47602 through 47970 of 121031
+   ..working on genes 47971 through 48339 of 121031
+   ..working on genes 48340 through 48708 of 121031
+   ..working on genes 48709 through 49077 of 121031
+   ..working on genes 49078 through 49446 of 121031
+   ..working on genes 49447 through 49815 of 121031
+   ..working on genes 49816 through 50184 of 121031
+   ..working on genes 50185 through 50553 of 121031
+   ..working on genes 50554 through 50922 of 121031
+   ..working on genes 50923 through 51291 of 121031
+   ..working on genes 51292 through 51660 of 121031
+   ..working on genes 51661 through 52029 of 121031
+   ..working on genes 52030 through 52398 of 121031
+   ..working on genes 52399 through 52767 of 121031
+   ..working on genes 52768 through 53136 of 121031
+   ..working on genes 53137 through 53505 of 121031
+   ..working on genes 53506 through 53874 of 121031
+   ..working on genes 53875 through 54243 of 121031
+   ..working on genes 54244 through 54612 of 121031
+   ..working on genes 54613 through 54981 of 121031
+   ..working on genes 54982 through 55350 of 121031
+   ..working on genes 55351 through 55719 of 121031
+   ..working on genes 55720 through 56088 of 121031
+   ..working on genes 56089 through 56457 of 121031
+   ..working on genes 56458 through 56826 of 121031
+   ..working on genes 56827 through 57195 of 121031
+   ..working on genes 57196 through 57564 of 121031
+   ..working on genes 57565 through 57933 of 121031
+   ..working on genes 57934 through 58302 of 121031
+   ..working on genes 58303 through 58671 of 121031
+   ..working on genes 58672 through 59040 of 121031
+   ..working on genes 59041 through 59409 of 121031
+   ..working on genes 59410 through 59778 of 121031
+   ..working on genes 59779 through 60147 of 121031
+   ..working on genes 60148 through 60516 of 121031
+   ..working on genes 60517 through 60885 of 121031
+   ..working on genes 60886 through 61254 of 121031
+   ..working on genes 61255 through 61623 of 121031
+   ..working on genes 61624 through 61992 of 121031
+   ..working on genes 61993 through 62361 of 121031
+   ..working on genes 62362 through 62730 of 121031
+   ..working on genes 62731 through 63099 of 121031
+   ..working on genes 63100 through 63468 of 121031
+   ..working on genes 63469 through 63837 of 121031
+   ..working on genes 63838 through 64206 of 121031
+   ..working on genes 64207 through 64575 of 121031
+   ..working on genes 64576 through 64944 of 121031
+   ..working on genes 64945 through 65313 of 121031
+   ..working on genes 65314 through 65682 of 121031
+   ..working on genes 65683 through 66051 of 121031
+   ..working on genes 66052 through 66420 of 121031
+   ..working on genes 66421 through 66789 of 121031
+   ..working on genes 66790 through 67158 of 121031
+   ..working on genes 67159 through 67527 of 121031
+   ..working on genes 67528 through 67896 of 121031
+   ..working on genes 67897 through 68265 of 121031
+   ..working on genes 68266 through 68634 of 121031
+   ..working on genes 68635 through 69003 of 121031
+   ..working on genes 69004 through 69372 of 121031
+   ..working on genes 69373 through 69741 of 121031
+   ..working on genes 69742 through 70110 of 121031
+   ..working on genes 70111 through 70479 of 121031
+   ..working on genes 70480 through 70848 of 121031
+   ..working on genes 70849 through 71217 of 121031
+   ..working on genes 71218 through 71586 of 121031
+   ..working on genes 71587 through 71955 of 121031
+   ..working on genes 71956 through 72324 of 121031
+   ..working on genes 72325 through 72693 of 121031
+   ..working on genes 72694 through 73062 of 121031
+   ..working on genes 73063 through 73431 of 121031
+   ..working on genes 73432 through 73800 of 121031
+   ..working on genes 73801 through 74169 of 121031
+   ..working on genes 74170 through 74538 of 121031
+   ..working on genes 74539 through 74907 of 121031
+   ..working on genes 74908 through 75276 of 121031
+   ..working on genes 75277 through 75645 of 121031
+   ..working on genes 75646 through 76014 of 121031
+   ..working on genes 76015 through 76383 of 121031
+   ..working on genes 76384 through 76752 of 121031
+   ..working on genes 76753 through 77121 of 121031
+   ..working on genes 77122 through 77490 of 121031
+   ..working on genes 77491 through 77859 of 121031
+   ..working on genes 77860 through 78228 of 121031
+   ..working on genes 78229 through 78597 of 121031
+   ..working on genes 78598 through 78966 of 121031
+   ..working on genes 78967 through 79335 of 121031
+   ..working on genes 79336 through 79704 of 121031
+   ..working on genes 79705 through 80073 of 121031
+   ..working on genes 80074 through 80442 of 121031
+   ..working on genes 80443 through 80811 of 121031
+   ..working on genes 80812 through 81180 of 121031
+   ..working on genes 81181 through 81549 of 121031
+   ..working on genes 81550 through 81918 of 121031
+   ..working on genes 81919 through 82287 of 121031
+   ..working on genes 82288 through 82656 of 121031
+   ..working on genes 82657 through 83025 of 121031
+   ..working on genes 83026 through 83394 of 121031
+   ..working on genes 83395 through 83763 of 121031
+   ..working on genes 83764 through 84132 of 121031
+   ..working on genes 84133 through 84501 of 121031
+   ..working on genes 84502 through 84870 of 121031
+   ..working on genes 84871 through 85239 of 121031
+   ..working on genes 85240 through 85608 of 121031
+   ..working on genes 85609 through 85977 of 121031
+   ..working on genes 85978 through 86346 of 121031
+   ..working on genes 86347 through 86715 of 121031
+   ..working on genes 86716 through 87084 of 121031
+   ..working on genes 87085 through 87453 of 121031
+   ..working on genes 87454 through 87822 of 121031
+   ..working on genes 87823 through 88191 of 121031
+   ..working on genes 88192 through 88560 of 121031
+   ..working on genes 88561 through 88929 of 121031
+   ..working on genes 88930 through 89298 of 121031
+   ..working on genes 89299 through 89667 of 121031
+   ..working on genes 89668 through 90036 of 121031
+   ..working on genes 90037 through 90405 of 121031
+   ..working on genes 90406 through 90774 of 121031
+   ..working on genes 90775 through 91143 of 121031
+   ..working on genes 91144 through 91512 of 121031
+   ..working on genes 91513 through 91881 of 121031
+   ..working on genes 91882 through 92250 of 121031
+   ..working on genes 92251 through 92619 of 121031
+   ..working on genes 92620 through 92988 of 121031
+   ..working on genes 92989 through 93357 of 121031
+   ..working on genes 93358 through 93726 of 121031
+   ..working on genes 93727 through 94095 of 121031
+   ..working on genes 94096 through 94464 of 121031
+   ..working on genes 94465 through 94833 of 121031
+   ..working on genes 94834 through 95202 of 121031
+   ..working on genes 95203 through 95571 of 121031
+   ..working on genes 95572 through 95940 of 121031
+   ..working on genes 95941 through 96309 of 121031
+   ..working on genes 96310 through 96678 of 121031
+   ..working on genes 96679 through 97047 of 121031
+   ..working on genes 97048 through 97416 of 121031
+   ..working on genes 97417 through 97785 of 121031
+   ..working on genes 97786 through 98154 of 121031
+   ..working on genes 98155 through 98523 of 121031
+   ..working on genes 98524 through 98892 of 121031
+   ..working on genes 98893 through 99261 of 121031
+   ..working on genes 99262 through 99630 of 121031
+   ..working on genes 99631 through 99999 of 121031
+   ..working on genes 1e+05 through 100368 of 121031
+   ..working on genes 100369 through 100737 of 121031
+   ..working on genes 100738 through 101106 of 121031
+   ..working on genes 101107 through 101475 of 121031
+   ..working on genes 101476 through 101844 of 121031
+   ..working on genes 101845 through 102213 of 121031
+   ..working on genes 102214 through 102582 of 121031
+   ..working on genes 102583 through 102951 of 121031
+   ..working on genes 102952 through 103320 of 121031
+   ..working on genes 103321 through 103689 of 121031
+   ..working on genes 103690 through 104058 of 121031
+   ..working on genes 104059 through 104427 of 121031
+   ..working on genes 104428 through 104796 of 121031
+   ..working on genes 104797 through 105165 of 121031
+   ..working on genes 105166 through 105534 of 121031
+   ..working on genes 105535 through 105903 of 121031
+   ..working on genes 105904 through 106272 of 121031
+   ..working on genes 106273 through 106641 of 121031
+   ..working on genes 106642 through 107010 of 121031
+   ..working on genes 107011 through 107379 of 121031
+   ..working on genes 107380 through 107748 of 121031
+   ..working on genes 107749 through 108117 of 121031
+   ..working on genes 108118 through 108486 of 121031
+   ..working on genes 108487 through 108855 of 121031
+   ..working on genes 108856 through 109224 of 121031
+   ..working on genes 109225 through 109593 of 121031
+   ..working on genes 109594 through 109962 of 121031
+   ..working on genes 109963 through 110331 of 121031
+   ..working on genes 110332 through 110700 of 121031
+   ..working on genes 110701 through 111069 of 121031
+   ..working on genes 111070 through 111438 of 121031
+   ..working on genes 111439 through 111807 of 121031
+   ..working on genes 111808 through 112176 of 121031
+   ..working on genes 112177 through 112545 of 121031
+   ..working on genes 112546 through 112914 of 121031
+   ..working on genes 112915 through 113283 of 121031
+   ..working on genes 113284 through 113652 of 121031
+   ..working on genes 113653 through 114021 of 121031
+   ..working on genes 114022 through 114390 of 121031
+   ..working on genes 114391 through 114759 of 121031
+   ..working on genes 114760 through 115128 of 121031
+   ..working on genes 115129 through 115497 of 121031
+   ..working on genes 115498 through 115866 of 121031
+   ..working on genes 115867 through 116235 of 121031
+   ..working on genes 116236 through 116604 of 121031
+   ..working on genes 116605 through 116973 of 121031
+   ..working on genes 116974 through 117342 of 121031
+   ..working on genes 117343 through 117711 of 121031
+   ..working on genes 117712 through 118080 of 121031
+   ..working on genes 118081 through 118449 of 121031
+   ..working on genes 118450 through 118818 of 121031
+   ..working on genes 118819 through 119187 of 121031
+   ..working on genes 119188 through 119556 of 121031
+   ..working on genes 119557 through 119925 of 121031
+   ..working on genes 119926 through 120294 of 121031
+   ..working on genes 120295 through 120663 of 121031
+   ..working on genes 120664 through 121031 of 121031
+   Power SFT.R.sq  slope truncated.R.sq  mean.k. median.k. max.k.
+1      1   0.0726 -28.60          0.872 60700.00  6.06e+04  63400
+2      2   0.0910 -14.40          0.784 30900.00  3.08e+04  33800
+3      3   0.1510  -9.98          0.656 15900.00  1.58e+04  18500
+4      4   0.3100  -9.82          0.666  8310.00  8.21e+03  10600
+5      5   0.5410  -9.29          0.735  4390.00  4.31e+03   6320
+6      6   0.7590  -8.51          0.840  2350.00  2.29e+03   3950
+7      7   0.8980  -7.59          0.924  1280.00  1.23e+03   2600
+8      8   0.9540  -6.61          0.960   703.00  6.67e+02   1790
+9      9   0.9570  -5.71          0.958   393.00  3.65e+02   1300
+10    10   0.9540  -4.87          0.953   222.00  2.02e+02    977
+11    11   0.9410  -4.24          0.942   128.00  1.13e+02    762
+12    12   0.9390  -3.71          0.942    74.90  6.35e+01    611
+13    13   0.9420  -3.29          0.949    44.70  3.61e+01    502
+14    14   0.9380  -2.98          0.951    27.20  2.07e+01    419
+15    15   0.9400  -2.70          0.959    16.90  1.20e+01    355
+16    16   0.9410  -2.48          0.966    10.80  6.98e+00    305
+17    17   0.9400  -2.29          0.972     7.07  4.11e+00    263
+18    18   0.9330  -2.15          0.973     4.75  2.44e+00    230
+19    19   0.9330  -2.02          0.978     3.29  1.46e+00    202
+20    20   0.9340  -1.91          0.982     2.34  8.79e-01    179
+[1] 7
+null device 
+          1 
+[1] "2022-06-13 20:55:05 EDT"
+    user   system  elapsed 
+4665.954 1318.086 6020.674 
+Error in loadNamespace(name) : there is no package called ‘sessioninfo’
+Calls: :: ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+**** Job ends ****
+2022-06-13T20:55:05-0400
+**** Job starts ****
+2022-06-15T08:27:38-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 305660
+Job name: dd_wgcna_jxn
+Hostname: compute-120.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+Found block(s) with size(s) larger than limit of 'int' indexing.
+ Support for such large blocks is experimental; please report
+ any issues to Peter.Langfelder@gmail.com.
+ ..Working on block 1 .
+Error: cannot allocate vector of size 109.1 Gb
+Execution halted
+**** Job ends ****
+2022-06-15T08:27:49-0400

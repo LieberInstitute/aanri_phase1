@@ -1,0 +1,231 @@
+**** Job starts ****
+2022-07-19T20:00:15-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 1429081
+Job name: wgcna_softpower_hh
+Hostname: compute-110.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  v
+Loading required package: limma
+[1] 54710   133
+ Flagging genes and samples with too many missing values...
+  ..step 1
+[1]   129 54710
+Warning message:
+In data.table::fread(fn2) :
+  Detected 133 column names but the data has 134 columns (i.e. invalid file). Added 1 extra default column name for the first column which is guessed to be row names or an index. Use setnames() afterwards if this guess is not correct, or fix the file write command that created the file to create a valid file.
+Loading objects:
+  datExpr
+  sample_table
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+pickSoftThreshold: will use block size 817.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 817 of 54710
+   ..working on genes 818 through 1634 of 54710
+   ..working on genes 1635 through 2451 of 54710
+   ..working on genes 2452 through 3268 of 54710
+   ..working on genes 3269 through 4085 of 54710
+   ..working on genes 4086 through 4902 of 54710
+   ..working on genes 4903 through 5719 of 54710
+   ..working on genes 5720 through 6536 of 54710
+   ..working on genes 6537 through 7353 of 54710
+   ..working on genes 7354 through 8170 of 54710
+   ..working on genes 8171 through 8987 of 54710
+   ..working on genes 8988 through 9804 of 54710
+   ..working on genes 9805 through 10621 of 54710
+   ..working on genes 10622 through 11438 of 54710
+   ..working on genes 11439 through 12255 of 54710
+   ..working on genes 12256 through 13072 of 54710
+   ..working on genes 13073 through 13889 of 54710
+   ..working on genes 13890 through 14706 of 54710
+   ..working on genes 14707 through 15523 of 54710
+   ..working on genes 15524 through 16340 of 54710
+   ..working on genes 16341 through 17157 of 54710
+   ..working on genes 17158 through 17974 of 54710
+   ..working on genes 17975 through 18791 of 54710
+   ..working on genes 18792 through 19608 of 54710
+   ..working on genes 19609 through 20425 of 54710
+   ..working on genes 20426 through 21242 of 54710
+   ..working on genes 21243 through 22059 of 54710
+   ..working on genes 22060 through 22876 of 54710
+   ..working on genes 22877 through 23693 of 54710
+   ..working on genes 23694 through 24510 of 54710
+   ..working on genes 24511 through 25327 of 54710
+   ..working on genes 25328 through 26144 of 54710
+   ..working on genes 26145 through 26961 of 54710
+   ..working on genes 26962 through 27778 of 54710
+   ..working on genes 27779 through 28595 of 54710
+   ..working on genes 28596 through 29412 of 54710
+   ..working on genes 29413 through 30229 of 54710
+   ..working on genes 30230 through 31046 of 54710
+   ..working on genes 31047 through 31863 of 54710
+   ..working on genes 31864 through 32680 of 54710
+   ..working on genes 32681 through 33497 of 54710
+   ..working on genes 33498 through 34314 of 54710
+   ..working on genes 34315 through 35131 of 54710
+   ..working on genes 35132 through 35948 of 54710
+   ..working on genes 35949 through 36765 of 54710
+   ..working on genes 36766 through 37582 of 54710
+   ..working on genes 37583 through 38399 of 54710
+   ..working on genes 38400 through 39216 of 54710
+   ..working on genes 39217 through 40033 of 54710
+   ..working on genes 40034 through 40850 of 54710
+   ..working on genes 40851 through 41667 of 54710
+   ..working on genes 41668 through 42484 of 54710
+   ..working on genes 42485 through 43301 of 54710
+   ..working on genes 43302 through 44118 of 54710
+   ..working on genes 44119 through 44935 of 54710
+   ..working on genes 44936 through 45752 of 54710
+   ..working on genes 45753 through 46569 of 54710
+   ..working on genes 46570 through 47386 of 54710
+   ..working on genes 47387 through 48203 of 54710
+   ..working on genes 48204 through 49020 of 54710
+   ..working on genes 49021 through 49837 of 54710
+   ..working on genes 49838 through 50654 of 54710
+   ..working on genes 50655 through 51471 of 54710
+   ..working on genes 51472 through 52288 of 54710
+   ..working on genes 52289 through 53105 of 54710
+   ..working on genes 53106 through 53922 of 54710
+   ..working on genes 53923 through 54710 of 54710
+   Power SFT.R.sq  slope truncated.R.sq  mean.k. median.k.  max.k.
+1      1   0.0319 -26.70          0.979 2.74e+04  2.74e+04 28300.0
+2      2   0.1540 -28.00          0.953 1.39e+04  1.39e+04 14900.0
+3      3   0.2660 -22.60          0.930 7.15e+03  7.13e+03  7950.0
+4      4   0.4050 -19.70          0.923 3.71e+03  3.70e+03  4360.0
+5      5   0.4970 -16.40          0.924 1.95e+03  1.94e+03  2450.0
+6      6   0.5850 -14.40          0.935 1.04e+03  1.02e+03  1420.0
+7      7   0.6730 -11.90          0.939 5.57e+02  5.47e+02   837.0
+8      8   0.7610 -10.30          0.950 3.03e+02  2.95e+02   512.0
+9      9   0.8580  -9.57          0.970 1.67e+02  1.61e+02   340.0
+10    10   0.9190  -8.55          0.981 9.28e+01  8.86e+01   235.0
+11    11   0.9520  -7.45          0.986 5.24e+01  4.92e+01   168.0
+12    12   0.9620  -6.62          0.991 2.99e+01  2.76e+01   124.0
+13    13   0.9610  -5.85          0.987 1.74e+01  1.56e+01    93.3
+14    14   0.9630  -5.14          0.987 1.02e+01  8.92e+00    71.9
+15    15   0.9610  -4.56          0.985 6.11e+00  5.14e+00    56.4
+16    16   0.9570  -4.09          0.983 3.72e+00  2.99e+00    44.8
+17    17   0.9480  -3.72          0.979 2.31e+00  1.76e+00    36.0
+18    18   0.9580  -3.32          0.992 1.46e+00  1.04e+00    29.3
+19    19   0.9340  -3.06          0.964 9.45e-01  6.22e-01    23.9
+20    20   0.9300  -2.79          0.962 6.26e-01  3.75e-01    19.8
+[1] 9
+null device 
+          1 
+[1] "2022-07-19 20:25:34 EDT"
+    user   system  elapsed 
+1169.704  320.474 1518.518 
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.0.3 (2020-10-10)
+ os       CentOS Linux 7 (Core)
+ system   x86_64, linux-gnu
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       US/Eastern
+ date     2022-07-19
+ pandoc   NA
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package        * version date (UTC) lib source
+ AnnotationDbi    1.52.0  2020-10-27 [2] Bioconductor
+ assertthat       0.2.1   2019-03-21 [2] CRAN (R 4.0.3)
+ backports        1.2.1   2020-12-09 [2] CRAN (R 4.0.3)
+ base64enc        0.1-3   2015-07-28 [2] CRAN (R 4.0.3)
+ Biobase          2.50.0  2020-10-27 [2] Bioconductor
+ BiocGenerics     0.36.1  2021-04-16 [1] Bioconductor
+ bit              4.0.4   2020-08-04 [2] CRAN (R 4.0.3)
+ bit64            4.0.5   2020-08-30 [2] CRAN (R 4.0.3)
+ blob             1.2.1   2020-01-20 [2] CRAN (R 4.0.3)
+ cachem           1.0.4   2021-02-13 [2] CRAN (R 4.0.3)
+ checkmate        2.0.0   2020-02-06 [2] CRAN (R 4.0.3)
+ cli              3.3.0   2022-04-25 [1] CRAN (R 4.0.3)
+ cluster          2.1.0   2019-06-19 [2] CRAN (R 4.0.3)
+ codetools        0.2-16  2018-12-24 [2] CRAN (R 4.0.3)
+ colorspace       2.0-0   2020-11-11 [2] CRAN (R 4.0.3)
+ crayon           1.5.1   2022-03-26 [1] CRAN (R 4.0.3)
+ data.table       1.14.0  2021-02-21 [2] CRAN (R 4.0.3)
+ DBI              1.1.1   2021-01-15 [2] CRAN (R 4.0.3)
+ digest           0.6.27  2020-10-24 [2] CRAN (R 4.0.3)
+ doParallel       1.0.16  2020-10-16 [2] CRAN (R 4.0.3)
+ dplyr          * 1.0.9   2022-04-28 [1] CRAN (R 4.0.3)
+ dynamicTreeCut * 1.63-1  2016-03-11 [2] CRAN (R 4.0.3)
+ ellipsis         0.3.2   2021-04-29 [1] CRAN (R 4.0.3)
+ fansi            1.0.3   2022-03-24 [1] CRAN (R 4.0.3)
+ fastcluster    * 1.1.25  2018-06-07 [2] CRAN (R 4.0.3)
+ fastmap          1.1.0   2021-01-25 [2] CRAN (R 4.0.3)
+ foreach          1.5.1   2020-10-15 [2] CRAN (R 4.0.3)
+ foreign          0.8-80  2020-05-24 [2] CRAN (R 4.0.3)
+ Formula          1.2-4   2020-10-16 [2] CRAN (R 4.0.3)
+ generics         0.1.2   2022-01-31 [1] CRAN (R 4.0.3)
+ ggplot2          3.3.6   2022-05-03 [1] CRAN (R 4.0.3)
+ glue             1.6.2   2022-02-24 [1] CRAN (R 4.0.3)
+ GO.db            3.12.1  2021-03-23 [2] Bioconductor
+ gridExtra        2.3     2017-09-09 [2] CRAN (R 4.0.3)
+ gtable           0.3.0   2019-03-25 [2] CRAN (R 4.0.3)
+ Hmisc            4.5-0   2021-02-28 [2] CRAN (R 4.0.3)
+ htmlTable        2.1.0   2020-09-16 [2] CRAN (R 4.0.3)
+ htmltools        0.5.2   2021-08-25 [1] CRAN (R 4.0.3)
+ htmlwidgets      1.5.3   2020-12-10 [2] CRAN (R 4.0.3)
+ impute           1.64.0  2020-10-27 [2] Bioconductor
+ IRanges          2.24.1  2020-12-12 [2] Bioconductor
+ iterators        1.0.13  2020-10-15 [2] CRAN (R 4.0.3)
+ jpeg             0.1-8.1 2019-10-24 [2] CRAN (R 4.0.3)
+ knitr            1.31    2021-01-27 [2] CRAN (R 4.0.3)
+ lattice          0.20-41 2020-04-02 [2] CRAN (R 4.0.3)
+ latticeExtra     0.6-29  2019-12-19 [2] CRAN (R 4.0.3)
+ lifecycle        1.0.1   2021-09-24 [1] CRAN (R 4.0.3)
+ limma          * 3.46.0  2020-10-27 [1] Bioconductor
+ magrittr         2.0.3   2022-03-30 [1] CRAN (R 4.0.3)
+ Matrix           1.4-1   2022-03-23 [1] CRAN (R 4.0.3)
+ matrixStats      0.62.0  2022-04-19 [1] CRAN (R 4.0.3)
+ memoise          2.0.0   2021-01-26 [2] CRAN (R 4.0.3)
+ munsell          0.5.0   2018-06-12 [2] CRAN (R 4.0.3)
+ nnet             7.3-14  2020-04-26 [2] CRAN (R 4.0.3)
+ pillar           1.7.0   2022-02-01 [1] CRAN (R 4.0.3)
+ pkgconfig        2.0.3   2019-09-22 [2] CRAN (R 4.0.3)
+ png              0.1-7   2013-12-03 [2] CRAN (R 4.0.3)
+ preprocessCore   1.52.1  2021-01-08 [2] Bioconductor
+ purrr            0.3.4   2020-04-17 [2] CRAN (R 4.0.3)
+ R6               2.5.1   2021-08-19 [1] CRAN (R 4.0.3)
+ RColorBrewer     1.1-3   2022-04-03 [1] CRAN (R 4.0.3)
+ Rcpp             1.0.8.3 2022-03-17 [1] CRAN (R 4.0.3)
+ rlang            1.0.3   2022-06-27 [1] CRAN (R 4.0.3)
+ rpart            4.1-15  2019-04-12 [2] CRAN (R 4.0.3)
+ RSQLite          2.2.4   2021-03-12 [2] CRAN (R 4.0.3)
+ rstudioapi       0.13    2020-11-12 [2] CRAN (R 4.0.3)
+ S4Vectors        0.28.1  2020-12-09 [2] Bioconductor
+ scales           1.1.1   2020-05-11 [2] CRAN (R 4.0.3)
+ sessioninfo      1.2.2   2021-12-06 [1] CRAN (R 4.0.3)
+ stringi          1.5.3   2020-09-09 [2] CRAN (R 4.0.3)
+ stringr          1.4.0   2019-02-10 [2] CRAN (R 4.0.3)
+ survival         3.2-7   2020-09-28 [2] CRAN (R 4.0.3)
+ tibble           3.1.7   2022-05-03 [1] CRAN (R 4.0.3)
+ tidyselect       1.1.2   2022-02-21 [1] CRAN (R 4.0.3)
+ utf8             1.2.2   2021-07-24 [1] CRAN (R 4.0.3)
+ vctrs            0.4.1   2022-04-13 [1] CRAN (R 4.0.3)
+ WGCNA          * 1.71    2022-04-22 [1] CRAN (R 4.0.3)
+ xfun             0.21    2021-02-10 [2] CRAN (R 4.0.3)
+
+ [1] /users/jbenjami/R/x86_64-pc-linux-gnu-library/4.0
+ [2] /jhpce/shared/jhpce/core/R/4.0.3/lib64/R/library
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+**** Job ends ****
+2022-07-19T20:25:36-0400

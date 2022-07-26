@@ -1,0 +1,375 @@
+**** Job starts ****
+2022-06-13T19:13:43-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 305020
+Job name: wgcna_softpower
+Hostname: compute-124.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  v
+Loading required package: limma
+[1] 101452     47
+ Flagging genes and samples with too many missing values...
+  ..step 1
+[1]     46 101452
+Warning message:
+In data.table::fread(fn2) :
+  Detected 47 column names but the data has 48 columns (i.e. invalid file). Added 1 extra default column name for the first column which is guessed to be row names or an index. Use setnames() afterwards if this guess is not correct, or fix the file write command that created the file to create a valid file.
+Loading objects:
+  datExpr
+  sample_table
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+pickSoftThreshold: will use block size 440.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 440 of 101452
+   ..working on genes 441 through 880 of 101452
+**** Job starts ****
+2022-06-13T19:15:44-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 305024
+Job name: wgcna_softpower
+Hostname: compute-057.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  v
+Loading required package: limma
+[1] 101452     47
+ Flagging genes and samples with too many missing values...
+  ..step 1
+[1]     46 101452
+Warning message:
+In data.table::fread(fn2) :
+  Detected 47 column names but the data has 48 columns (i.e. invalid file). Added 1 extra default column name for the first column which is guessed to be row names or an index. Use setnames() afterwards if this guess is not correct, or fix the file write command that created the file to create a valid file.
+Loading objects:
+  datExpr
+  sample_table
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+pickSoftThreshold: will use block size 440.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 440 of 101452
+   ..working on genes 441 through 880 of 101452
+   ..working on genes 881 through 1320 of 101452
+   ..working on genes 1321 through 1760 of 101452
+   ..working on genes 1761 through 2200 of 101452
+   ..working on genes 2201 through 2640 of 101452
+   ..working on genes 2641 through 3080 of 101452
+   ..working on genes 3081 through 3520 of 101452
+   ..working on genes 3521 through 3960 of 101452
+   ..working on genes 3961 through 4400 of 101452
+   ..working on genes 4401 through 4840 of 101452
+   ..working on genes 4841 through 5280 of 101452
+   ..working on genes 5281 through 5720 of 101452
+   ..working on genes 5721 through 6160 of 101452
+   ..working on genes 6161 through 6600 of 101452
+   ..working on genes 6601 through 7040 of 101452
+   ..working on genes 7041 through 7480 of 101452
+   ..working on genes 7481 through 7920 of 101452
+   ..working on genes 7921 through 8360 of 101452
+   ..working on genes 8361 through 8800 of 101452
+   ..working on genes 8801 through 9240 of 101452
+   ..working on genes 9241 through 9680 of 101452
+   ..working on genes 9681 through 10120 of 101452
+   ..working on genes 10121 through 10560 of 101452
+   ..working on genes 10561 through 11000 of 101452
+   ..working on genes 11001 through 11440 of 101452
+   ..working on genes 11441 through 11880 of 101452
+   ..working on genes 11881 through 12320 of 101452
+   ..working on genes 12321 through 12760 of 101452
+   ..working on genes 12761 through 13200 of 101452
+   ..working on genes 13201 through 13640 of 101452
+   ..working on genes 13641 through 14080 of 101452
+   ..working on genes 14081 through 14520 of 101452
+   ..working on genes 14521 through 14960 of 101452
+   ..working on genes 14961 through 15400 of 101452
+   ..working on genes 15401 through 15840 of 101452
+   ..working on genes 15841 through 16280 of 101452
+   ..working on genes 16281 through 16720 of 101452
+   ..working on genes 16721 through 17160 of 101452
+   ..working on genes 17161 through 17600 of 101452
+   ..working on genes 17601 through 18040 of 101452
+   ..working on genes 18041 through 18480 of 101452
+   ..working on genes 18481 through 18920 of 101452
+   ..working on genes 18921 through 19360 of 101452
+   ..working on genes 19361 through 19800 of 101452
+   ..working on genes 19801 through 20240 of 101452
+   ..working on genes 20241 through 20680 of 101452
+   ..working on genes 20681 through 21120 of 101452
+   ..working on genes 21121 through 21560 of 101452
+   ..working on genes 21561 through 22000 of 101452
+   ..working on genes 22001 through 22440 of 101452
+   ..working on genes 22441 through 22880 of 101452
+   ..working on genes 22881 through 23320 of 101452
+   ..working on genes 23321 through 23760 of 101452
+   ..working on genes 23761 through 24200 of 101452
+   ..working on genes 24201 through 24640 of 101452
+   ..working on genes 24641 through 25080 of 101452
+   ..working on genes 25081 through 25520 of 101452
+   ..working on genes 25521 through 25960 of 101452
+   ..working on genes 25961 through 26400 of 101452
+   ..working on genes 26401 through 26840 of 101452
+   ..working on genes 26841 through 27280 of 101452
+   ..working on genes 27281 through 27720 of 101452
+   ..working on genes 27721 through 28160 of 101452
+   ..working on genes 28161 through 28600 of 101452
+   ..working on genes 28601 through 29040 of 101452
+   ..working on genes 29041 through 29480 of 101452
+   ..working on genes 29481 through 29920 of 101452
+   ..working on genes 29921 through 30360 of 101452
+   ..working on genes 30361 through 30800 of 101452
+   ..working on genes 30801 through 31240 of 101452
+   ..working on genes 31241 through 31680 of 101452
+   ..working on genes 31681 through 32120 of 101452
+   ..working on genes 32121 through 32560 of 101452
+   ..working on genes 32561 through 33000 of 101452
+   ..working on genes 33001 through 33440 of 101452
+   ..working on genes 33441 through 33880 of 101452
+   ..working on genes 33881 through 34320 of 101452
+   ..working on genes 34321 through 34760 of 101452
+   ..working on genes 34761 through 35200 of 101452
+   ..working on genes 35201 through 35640 of 101452
+   ..working on genes 35641 through 36080 of 101452
+   ..working on genes 36081 through 36520 of 101452
+   ..working on genes 36521 through 36960 of 101452
+   ..working on genes 36961 through 37400 of 101452
+   ..working on genes 37401 through 37840 of 101452
+   ..working on genes 37841 through 38280 of 101452
+   ..working on genes 38281 through 38720 of 101452
+   ..working on genes 38721 through 39160 of 101452
+   ..working on genes 39161 through 39600 of 101452
+   ..working on genes 39601 through 40040 of 101452
+   ..working on genes 40041 through 40480 of 101452
+   ..working on genes 40481 through 40920 of 101452
+   ..working on genes 40921 through 41360 of 101452
+   ..working on genes 41361 through 41800 of 101452
+   ..working on genes 41801 through 42240 of 101452
+   ..working on genes 42241 through 42680 of 101452
+   ..working on genes 42681 through 43120 of 101452
+   ..working on genes 43121 through 43560 of 101452
+   ..working on genes 43561 through 44000 of 101452
+   ..working on genes 44001 through 44440 of 101452
+   ..working on genes 44441 through 44880 of 101452
+   ..working on genes 44881 through 45320 of 101452
+   ..working on genes 45321 through 45760 of 101452
+   ..working on genes 45761 through 46200 of 101452
+   ..working on genes 46201 through 46640 of 101452
+   ..working on genes 46641 through 47080 of 101452
+   ..working on genes 47081 through 47520 of 101452
+   ..working on genes 47521 through 47960 of 101452
+   ..working on genes 47961 through 48400 of 101452
+   ..working on genes 48401 through 48840 of 101452
+   ..working on genes 48841 through 49280 of 101452
+   ..working on genes 49281 through 49720 of 101452
+   ..working on genes 49721 through 50160 of 101452
+   ..working on genes 50161 through 50600 of 101452
+   ..working on genes 50601 through 51040 of 101452
+   ..working on genes 51041 through 51480 of 101452
+   ..working on genes 51481 through 51920 of 101452
+   ..working on genes 51921 through 52360 of 101452
+   ..working on genes 52361 through 52800 of 101452
+   ..working on genes 52801 through 53240 of 101452
+   ..working on genes 53241 through 53680 of 101452
+   ..working on genes 53681 through 54120 of 101452
+   ..working on genes 54121 through 54560 of 101452
+   ..working on genes 54561 through 55000 of 101452
+   ..working on genes 55001 through 55440 of 101452
+   ..working on genes 55441 through 55880 of 101452
+   ..working on genes 55881 through 56320 of 101452
+   ..working on genes 56321 through 56760 of 101452
+   ..working on genes 56761 through 57200 of 101452
+   ..working on genes 57201 through 57640 of 101452
+   ..working on genes 57641 through 58080 of 101452
+   ..working on genes 58081 through 58520 of 101452
+   ..working on genes 58521 through 58960 of 101452
+   ..working on genes 58961 through 59400 of 101452
+   ..working on genes 59401 through 59840 of 101452
+   ..working on genes 59841 through 60280 of 101452
+   ..working on genes 60281 through 60720 of 101452
+   ..working on genes 60721 through 61160 of 101452
+   ..working on genes 61161 through 61600 of 101452
+   ..working on genes 61601 through 62040 of 101452
+   ..working on genes 62041 through 62480 of 101452
+   ..working on genes 62481 through 62920 of 101452
+   ..working on genes 62921 through 63360 of 101452
+   ..working on genes 63361 through 63800 of 101452
+   ..working on genes 63801 through 64240 of 101452
+   ..working on genes 64241 through 64680 of 101452
+   ..working on genes 64681 through 65120 of 101452
+   ..working on genes 65121 through 65560 of 101452
+   ..working on genes 65561 through 66000 of 101452
+   ..working on genes 66001 through 66440 of 101452
+   ..working on genes 66441 through 66880 of 101452
+   ..working on genes 66881 through 67320 of 101452
+   ..working on genes 67321 through 67760 of 101452
+   ..working on genes 67761 through 68200 of 101452
+   ..working on genes 68201 through 68640 of 101452
+   ..working on genes 68641 through 69080 of 101452
+   ..working on genes 69081 through 69520 of 101452
+   ..working on genes 69521 through 69960 of 101452
+   ..working on genes 69961 through 70400 of 101452
+   ..working on genes 70401 through 70840 of 101452
+   ..working on genes 70841 through 71280 of 101452
+   ..working on genes 71281 through 71720 of 101452
+   ..working on genes 71721 through 72160 of 101452
+   ..working on genes 72161 through 72600 of 101452
+   ..working on genes 72601 through 73040 of 101452
+   ..working on genes 73041 through 73480 of 101452
+   ..working on genes 73481 through 73920 of 101452
+   ..working on genes 73921 through 74360 of 101452
+   ..working on genes 74361 through 74800 of 101452
+   ..working on genes 74801 through 75240 of 101452
+   ..working on genes 75241 through 75680 of 101452
+   ..working on genes 75681 through 76120 of 101452
+   ..working on genes 76121 through 76560 of 101452
+   ..working on genes 76561 through 77000 of 101452
+   ..working on genes 77001 through 77440 of 101452
+   ..working on genes 77441 through 77880 of 101452
+   ..working on genes 77881 through 78320 of 101452
+   ..working on genes 78321 through 78760 of 101452
+   ..working on genes 78761 through 79200 of 101452
+   ..working on genes 79201 through 79640 of 101452
+   ..working on genes 79641 through 80080 of 101452
+   ..working on genes 80081 through 80520 of 101452
+   ..working on genes 80521 through 80960 of 101452
+   ..working on genes 80961 through 81400 of 101452
+   ..working on genes 81401 through 81840 of 101452
+   ..working on genes 81841 through 82280 of 101452
+   ..working on genes 82281 through 82720 of 101452
+   ..working on genes 82721 through 83160 of 101452
+   ..working on genes 83161 through 83600 of 101452
+   ..working on genes 83601 through 84040 of 101452
+   ..working on genes 84041 through 84480 of 101452
+   ..working on genes 84481 through 84920 of 101452
+   ..working on genes 84921 through 85360 of 101452
+   ..working on genes 85361 through 85800 of 101452
+   ..working on genes 85801 through 86240 of 101452
+   ..working on genes 86241 through 86680 of 101452
+   ..working on genes 86681 through 87120 of 101452
+   ..working on genes 87121 through 87560 of 101452
+   ..working on genes 87561 through 88000 of 101452
+   ..working on genes 88001 through 88440 of 101452
+   ..working on genes 88441 through 88880 of 101452
+   ..working on genes 88881 through 89320 of 101452
+   ..working on genes 89321 through 89760 of 101452
+   ..working on genes 89761 through 90200 of 101452
+   ..working on genes 90201 through 90640 of 101452
+   ..working on genes 90641 through 91080 of 101452
+   ..working on genes 91081 through 91520 of 101452
+   ..working on genes 91521 through 91960 of 101452
+   ..working on genes 91961 through 92400 of 101452
+   ..working on genes 92401 through 92840 of 101452
+   ..working on genes 92841 through 93280 of 101452
+   ..working on genes 93281 through 93720 of 101452
+   ..working on genes 93721 through 94160 of 101452
+   ..working on genes 94161 through 94600 of 101452
+   ..working on genes 94601 through 95040 of 101452
+   ..working on genes 95041 through 95480 of 101452
+   ..working on genes 95481 through 95920 of 101452
+   ..working on genes 95921 through 96360 of 101452
+   ..working on genes 96361 through 96800 of 101452
+   ..working on genes 96801 through 97240 of 101452
+   ..working on genes 97241 through 97680 of 101452
+   ..working on genes 97681 through 98120 of 101452
+   ..working on genes 98121 through 98560 of 101452
+   ..working on genes 98561 through 99000 of 101452
+   ..working on genes 99001 through 99440 of 101452
+   ..working on genes 99441 through 99880 of 101452
+   ..working on genes 99881 through 100320 of 101452
+   ..working on genes 100321 through 100760 of 101452
+   ..working on genes 100761 through 101200 of 101452
+   ..working on genes 101201 through 101452 of 101452
+   Power SFT.R.sq  slope truncated.R.sq  mean.k. median.k.  max.k.
+1      1   0.0046  13.40          0.988 50800.00  50800.00 51700.0
+2      2   0.0976 -26.60          0.982 26400.00  26400.00 27700.0
+3      3   0.2220 -21.80          0.969 14100.00  14100.00 15700.0
+4      4   0.2480 -13.90          0.958  7820.00   7790.00  9300.0
+5      5   0.2450  -9.42          0.947  4440.00   4410.00  5730.0
+6      6   0.2590  -6.95          0.935  2590.00   2560.00  3650.0
+7      7   0.2960  -5.55          0.922  1540.00   1520.00  2400.0
+8      8   0.4000  -5.43          0.930   939.00    920.00  1640.0
+9      9   0.4970  -5.28          0.938   583.00    567.00  1160.0
+10    10   0.6010  -5.23          0.951   369.00    356.00   835.0
+11    11   0.6890  -5.15          0.961   238.00    227.00   616.0
+12    12   0.7570  -5.09          0.970   155.00    147.00   464.0
+13    13   0.8110  -4.94          0.978   103.00     96.50   355.0
+14    14   0.8510  -4.76          0.983    69.50     64.20   276.0
+15    15   0.8740  -4.63          0.986    47.40     43.20   218.0
+16    16   0.8910  -4.50          0.988    32.80     29.40   174.0
+17    17   0.9010  -4.38          0.988    23.00     20.20   140.0
+18    18   0.9130  -4.22          0.990    16.30     14.00   114.0
+19    19   0.9210  -4.06          0.991    11.60      9.85    94.1
+20    20   0.9260  -3.91          0.991     8.42      6.97    78.0
+[1] 14
+null device 
+          1 
+[1] "2022-06-13 22:19:43 EDT"
+     user    system   elapsed 
+ 8282.761  2692.939 11038.262 
+Error in loadNamespace(name) : there is no package called ‘sessioninfo’
+Calls: :: ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+**** Job ends ****
+2022-06-13T22:19:43-0400
+**** Job starts ****
+2022-06-15T08:27:23-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 305659
+Job name: gg_wgcna_jxn
+Hostname: compute-120.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+Found block(s) with size(s) larger than limit of 'int' indexing.
+ Support for such large blocks is experimental; please report
+ any issues to Peter.Langfelder@gmail.com.
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+Error in blockwiseModules(datExpr, mergeCutHeight = 0.2, power = softPower,  : 
+  Memmory allocation error.
+Calls: construct_network -> blockwiseModules
+Execution halted
+**** Job ends ****
+2022-06-15T08:27:32-0400

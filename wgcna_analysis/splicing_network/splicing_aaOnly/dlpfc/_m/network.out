@@ -1,0 +1,254 @@
+**** Job starts ****
+2022-06-28T20:01:36-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 836172
+Job name: dd_wgcna_jxn
+Hostname: compute-068.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+Allowing parallel execution with up to 15 working processes.
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ....pre-clustering genes to determine blocks..
+   Projective K-means:
+   ..k-means clustering..
+   ..merging smaller clusters...
+Block sizes:
+gBlocks
+    1     2     3     4     5 
+27486 27360 27148 25233 13804 
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will use 15 parallel threads.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 1 into file TOM-block.1.RData
+ ....clustering..
+ ....detecting modules..
+ ....calculating module eigengenes..
+ ....checking kME in modules..
+ ..Working on block 2 .
+    TOM calculation: adjacency..
+    ..will use 15 parallel threads.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 2 into file TOM-block.2.RData
+ ....clustering..
+ ....detecting modules..
+ ....calculating module eigengenes..
+ ....checking kME in modules..
+ ..Working on block 3 .
+    TOM calculation: adjacency..
+    ..will use 15 parallel threads.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 3 into file TOM-block.3.RData
+ ....clustering..
+ ....detecting modules..
+ ....calculating module eigengenes..
+ ....checking kME in modules..
+     ..removing 1110 genes from module 1 because their KME is too low.
+     ..removing 7 genes from module 2 because their KME is too low.
+ ..Working on block 4 .
+    TOM calculation: adjacency..
+    ..will use 15 parallel threads.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 4 into file TOM-block.4.RData
+ ....clustering..
+ ....detecting modules..
+ ....calculating module eigengenes..
+ ....checking kME in modules..
+ ..Working on block 5 .
+    TOM calculation: adjacency..
+    ..will use 15 parallel threads.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+   ..saving TOM for block 5 into file TOM-block.5.RData
+ ....clustering..
+ ....detecting modules..
+ ....calculating module eigengenes..
+ ....checking kME in modules..
+  ..reassigning 1 genes from module 7 to modules with higher KME.
+  ..reassigning 76 genes from module 11 to modules with higher KME.
+  ..reassigning 8 genes from module 12 to modules with higher KME.
+  ..reassigning 2 genes from module 14 to modules with higher KME.
+  ..reassigning 9 genes from module 23 to modules with higher KME.
+  ..reassigning 6 genes from module 35 to modules with higher KME.
+  ..reassigning 1 genes from module 36 to modules with higher KME.
+  ..reassigning 2 genes from module 37 to modules with higher KME.
+  ..reassigning 1 genes from module 38 to modules with higher KME.
+  ..reassigning 1 genes from module 39 to modules with higher KME.
+  ..reassigning 1 genes from module 40 to modules with higher KME.
+  ..reassigning 1 genes from module 41 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.2
+       Calculating new MEs...
+Loading objects:
+  net
+  MEs
+  moduleLabels
+  moduleColors
+  geneTree
+  softPower
+null device 
+          1 
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+Loading objects:
+  net
+  MEs
+  moduleLabels
+  moduleColors
+  geneTree
+  softPower
+null device 
+          1 
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+Loading objects:
+  net
+  MEs
+  moduleLabels
+  moduleColors
+  geneTree
+  softPower
+[1] "2022-06-30 09:47:39 EDT"
+      user     system    elapsed 
+136011.987    232.952 135962.566 
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.0.3 (2020-10-10)
+ os       CentOS Linux 7 (Core)
+ system   x86_64, linux-gnu
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       US/Eastern
+ date     2022-06-30
+ pandoc   NA
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ !  package        * version date (UTC) lib source
+    AnnotationDbi    1.52.0  2020-10-27 [2] Bioconductor
+    assertthat       0.2.1   2019-03-21 [2] CRAN (R 4.0.3)
+    backports        1.2.1   2020-12-09 [2] CRAN (R 4.0.3)
+    base64enc        0.1-3   2015-07-28 [2] CRAN (R 4.0.3)
+    Biobase          2.50.0  2020-10-27 [2] Bioconductor
+    BiocGenerics     0.36.1  2021-04-16 [1] Bioconductor
+    bit              4.0.4   2020-08-04 [2] CRAN (R 4.0.3)
+    bit64            4.0.5   2020-08-30 [2] CRAN (R 4.0.3)
+    blob             1.2.1   2020-01-20 [2] CRAN (R 4.0.3)
+    cachem           1.0.4   2021-02-13 [2] CRAN (R 4.0.3)
+    checkmate        2.0.0   2020-02-06 [2] CRAN (R 4.0.3)
+    cli              3.3.0   2022-04-25 [1] CRAN (R 4.0.3)
+    cluster          2.1.0   2019-06-19 [2] CRAN (R 4.0.3)
+    codetools        0.2-16  2018-12-24 [2] CRAN (R 4.0.3)
+    colorspace       2.0-0   2020-11-11 [2] CRAN (R 4.0.3)
+    crayon           1.5.1   2022-03-26 [1] CRAN (R 4.0.3)
+    data.table       1.14.0  2021-02-21 [2] CRAN (R 4.0.3)
+    DBI              1.1.1   2021-01-15 [2] CRAN (R 4.0.3)
+    digest           0.6.27  2020-10-24 [2] CRAN (R 4.0.3)
+    doParallel       1.0.16  2020-10-16 [2] CRAN (R 4.0.3)
+    dplyr          * 1.0.9   2022-04-28 [1] CRAN (R 4.0.3)
+    dynamicTreeCut * 1.63-1  2016-03-11 [2] CRAN (R 4.0.3)
+    ellipsis         0.3.2   2021-04-29 [1] CRAN (R 4.0.3)
+    fansi            1.0.3   2022-03-24 [1] CRAN (R 4.0.3)
+    fastcluster    * 1.1.25  2018-06-07 [2] CRAN (R 4.0.3)
+    fastmap          1.1.0   2021-01-25 [2] CRAN (R 4.0.3)
+    foreach          1.5.1   2020-10-15 [2] CRAN (R 4.0.3)
+    foreign          0.8-80  2020-05-24 [2] CRAN (R 4.0.3)
+    Formula          1.2-4   2020-10-16 [2] CRAN (R 4.0.3)
+    generics         0.1.2   2022-01-31 [1] CRAN (R 4.0.3)
+    ggplot2          3.3.6   2022-05-03 [1] CRAN (R 4.0.3)
+    glue             1.6.2   2022-02-24 [1] CRAN (R 4.0.3)
+    GO.db            3.12.1  2021-03-23 [2] Bioconductor
+    gridExtra        2.3     2017-09-09 [2] CRAN (R 4.0.3)
+    gtable           0.3.0   2019-03-25 [2] CRAN (R 4.0.3)
+    Hmisc            4.5-0   2021-02-28 [2] CRAN (R 4.0.3)
+    htmlTable        2.1.0   2020-09-16 [2] CRAN (R 4.0.3)
+ VP htmltools        0.5.1.1 2021-08-25 [2] CRAN (R 4.0.3) (on disk 0.5.2)
+    htmlwidgets      1.5.3   2020-12-10 [2] CRAN (R 4.0.3)
+    impute           1.64.0  2020-10-27 [2] Bioconductor
+    IRanges          2.24.1  2020-12-12 [2] Bioconductor
+    iterators        1.0.13  2020-10-15 [2] CRAN (R 4.0.3)
+    jpeg             0.1-8.1 2019-10-24 [2] CRAN (R 4.0.3)
+    knitr            1.31    2021-01-27 [2] CRAN (R 4.0.3)
+    lattice          0.20-41 2020-04-02 [2] CRAN (R 4.0.3)
+    latticeExtra     0.6-29  2019-12-19 [2] CRAN (R 4.0.3)
+    lifecycle        1.0.1   2021-09-24 [1] CRAN (R 4.0.3)
+    magrittr         2.0.3   2022-03-30 [1] CRAN (R 4.0.3)
+ VP Matrix           1.2-18  2022-03-23 [2] CRAN (R 4.0.3) (on disk 1.4.1)
+    matrixStats      0.62.0  2022-04-19 [1] CRAN (R 4.0.3)
+    memoise          2.0.0   2021-01-26 [2] CRAN (R 4.0.3)
+    munsell          0.5.0   2018-06-12 [2] CRAN (R 4.0.3)
+    nnet             7.3-14  2020-04-26 [2] CRAN (R 4.0.3)
+    pillar           1.7.0   2022-02-01 [1] CRAN (R 4.0.3)
+    pkgconfig        2.0.3   2019-09-22 [2] CRAN (R 4.0.3)
+    png              0.1-7   2013-12-03 [2] CRAN (R 4.0.3)
+    preprocessCore   1.52.1  2021-01-08 [2] Bioconductor
+    purrr            0.3.4   2020-04-17 [2] CRAN (R 4.0.3)
+    R6               2.5.1   2021-08-19 [1] CRAN (R 4.0.3)
+    RColorBrewer     1.1-3   2022-04-03 [1] CRAN (R 4.0.3)
+ VP Rcpp             1.0.6   2022-03-17 [2] CRAN (R 4.0.3) (on disk 1.0.8.3)
+ V  rlang            1.0.2   2022-06-27 [1] CRAN (R 4.0.3) (on disk 1.0.3)
+    rpart            4.1-15  2019-04-12 [2] CRAN (R 4.0.3)
+    RSQLite          2.2.4   2021-03-12 [2] CRAN (R 4.0.3)
+    rstudioapi       0.13    2020-11-12 [2] CRAN (R 4.0.3)
+    S4Vectors        0.28.1  2020-12-09 [2] Bioconductor
+    scales           1.1.1   2020-05-11 [2] CRAN (R 4.0.3)
+    sessioninfo      1.2.2   2021-12-06 [1] CRAN (R 4.0.3)
+    stringi          1.5.3   2020-09-09 [2] CRAN (R 4.0.3)
+    stringr          1.4.0   2019-02-10 [2] CRAN (R 4.0.3)
+    survival         3.2-7   2020-09-28 [2] CRAN (R 4.0.3)
+    tibble           3.1.7   2022-05-03 [1] CRAN (R 4.0.3)
+    tidyselect       1.1.2   2022-02-21 [1] CRAN (R 4.0.3)
+    utf8             1.2.2   2021-07-24 [1] CRAN (R 4.0.3)
+    vctrs            0.4.1   2022-04-13 [1] CRAN (R 4.0.3)
+    WGCNA          * 1.71    2022-04-22 [1] CRAN (R 4.0.3)
+    xfun             0.21    2021-02-10 [2] CRAN (R 4.0.3)
+
+ [1] /users/jbenjami/R/x86_64-pc-linux-gnu-library/4.0
+ [2] /jhpce/shared/jhpce/core/R/4.0.3/lib64/R/library
+
+ V ── Loaded and on-disk version mismatch.
+ P ── Loaded and on-disk path mismatch.
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+**** Job ends ****
+2022-06-30T09:47:42-0400
