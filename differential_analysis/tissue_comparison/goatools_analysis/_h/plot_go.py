@@ -33,7 +33,7 @@ def go_df_for_plotting():
         xx, yy = df[['ratio_in_study']].iloc[ii, 0].split('/')
         zz, tt = df[['ratio_in_pop']].iloc[ii, 0].split('/')
         fac.append((int(xx) / int(yy)) / (int(zz) / int(tt)))
-    df['geneRatio'] = fac
+    df['geneRatio'] = fac * 5
     return df.sort_values('p_uncorrected')
 
 
