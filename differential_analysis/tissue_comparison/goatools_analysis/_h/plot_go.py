@@ -33,7 +33,7 @@ def go_df_for_plotting():
         xx, yy = df[['ratio_in_study']].iloc[ii, 0].split('/')
         zz, tt = df[['ratio_in_pop']].iloc[ii, 0].split('/')
         fac.append((int(xx) / int(yy)) / (int(zz) / int(tt)))
-    df['geneRatio'] = fac * 5
+    df['geneRatio'] = fac
     return df.sort_values('p_uncorrected')
 
 
@@ -44,7 +44,7 @@ def plot_go():
     library(dplyr)
     library(ggplot2)
     save_plot <- function(p, fn, w, h){
-        for(ext in c('.svg', '.png', '.pdf')){
+        for(ext in c('.svg', '.pdf')){
             ggsave(file=paste0(fn,ext), plot=p, width=w, height=h)
         }
     }
@@ -56,6 +56,7 @@ def plot_go():
                                 labels=c("Caudate", "Dentate Gyrus",
                                          "DLPFC", "Hippocampus")) +
             geom_vline(xintercept = -log10(0.05), linetype = "dotted") +
+            scale_size_continuous(range = c(2.5, 12)) +
             theme_bw(base_size=15) +
             theme(axis.title=element_text(face='bold'),
                   strip.text=element_text(face='bold'))
