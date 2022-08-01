@@ -10,27 +10,33 @@ save_plot <- function(p, fn, w, h){
     }
 }
 
-load_data <- function(){
-    return(data.table::fread("brainseq_degs_constrain_score.tsv"))
+load_data <- function(feature){
+    if(tolower(feature) == "gene"){
+        return(data.table::fread("brainseq_degs_constrain_score.tsv"))
+    } else {
+        return(data.table::fread("brainseq_degs_constrain_score_tx.tsv"))
+    }
 }
 
-plot_corr <- function(){
-    corr <- load_data() %>%
+plot_corr <- function(feature){
+    ylabel = paste(feature, "Constrain (LOEUF)")
+    xlabel = ifelse(tolower(feature) == "gene", "DEGs (lfsr)", "DE (lfsr)")
+    corr <- load_data(feature) %>%
         ggscatter(x="lfsr", y="oe_lof_upper", facet.by="Tissue",
-                  color="black", alpha=0.2, xlab="DEGs (lfsr)",
-                  ylab="Gene Constrain (LOEUF)", add="reg.line",
-                  panel.labs.font=list(face="bold"), ylim=c(-2,4),
+                  color="black", alpha=0.2, xlab=xlabel, ylab=ylabel,
+                  add="reg.line", panel.labs.font=list(face="bold"),
                   add.params=list(color="blue", fill="lightgray"),
-                  conf.int=TRUE, cor.coef=TRUE,
+                  ylim=c(-2,4), conf.int=TRUE, cor.coef=TRUE,
                   cor.coeff.args=list(method="pearson", label.x=0.10,
                                       label.y=3, label.sep="\n"),
                   ggtheme=theme_pubr(base_size=15, border=TRUE), ncol=4) +
         font("xy.title", face="bold", size=20)
-    save_plot(corr, "constrain_correlation_lfsr", 16, 4)
+    save_plot(corr, paste0("constrain_correlation_lfsr_",tolower(feature)), 16, 4)
 }
 
 #### MAIN
-plot_corr()
+plot_corr("Gene")
+plot_corr("Transcript")
 
 #### Reproducibility information
 Sys.time()
