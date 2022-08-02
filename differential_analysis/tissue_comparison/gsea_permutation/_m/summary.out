@@ -1,0 +1,23 @@
+**** Job starts ****
+Tue Aug  2 10:48:36 EDT 2022
+**** JHPCE info ****
+User: jbenjami
+Job id: 1517920
+Job name: gsea_analysis
+Hostname: compute-106.cm.cluster
+Loading conda_R/4.1.x
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) conda/3-4.6.14
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV      11) conda_R/4.1.x
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run GOseq ****
+WARNING: ignoring environment value of R_HOME
+Note: Using an external vector in selections is ambiguous.
+ℹ Use `all_of(tissue)` instead of `tissue` to silence this message.
+ℹ See <https://tidyselect.r-lib.org/reference/faq-external-vector.html>.
+This message is displayed once per session.
