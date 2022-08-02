@@ -1,0 +1,14 @@
+#!/bin/bash
+#$ -cwd
+#$ -R y
+#$ -l h_fsize=50G
+#$ -N covariates
+#$ -o ./summary.out
+#$ -e ./summary.out
+#$ -m e -M jade.benjamin@libd.org
+
+FEATURE="junctions"
+TISSUE="dlpfc"
+
+module load R
+Rscript ../_h/generate_covs.R --feature $FEATURE --region $TISSUE
