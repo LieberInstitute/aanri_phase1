@@ -1,0 +1,13 @@
+#!/bin/bash
+#$ -cwd
+#$ -R y
+#$ -l mem_free=5.0G,h_vmem=5G,h_fsize=50G
+#$ -N prepare_gct
+#$ -o ./summary.out
+#$ -e ./summary.out
+#$ -m e -M jade.benjamin@libd.org
+
+FEATURE="transcript"
+TISSUE="dentateGyrus"
+
+python ../_h/prepare_gct.py --feature $FEATURE --tissue $TISSUE

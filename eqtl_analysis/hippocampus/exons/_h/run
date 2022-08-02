@@ -1,0 +1,13 @@
+#!/bin/bash
+#$ -cwd
+#$ -R y
+#$ -l mem_free=10.0G,h_vmem=10G,h_fsize=50G
+#$ -N prepare_gct
+#$ -o ./summary.out
+#$ -e ./summary.out
+#$ -m e -M jade.benjamin@libd.org
+
+FEATURE="exon"
+TISSUE="hippocampus"
+
+python ../_h/prepare_gct.py --feature $FEATURE --tissue $TISSUE
