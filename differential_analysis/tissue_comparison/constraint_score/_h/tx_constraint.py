@@ -12,7 +12,7 @@ from scipy.stats import fisher_exact, ttest_ind, pearsonr
 def load_constraint():
     fn = "../../../../input/database/_m/gnomad/gnomad.v2.1.1.lof_metrics.by_transcript.txt.bgz"
     return pd.read_csv(fn, sep="\t", compression="gzip")\
-             .loc[:, ["gene", "transcript", "oe_lof_upper", "oe_lof_upper_bin", "p"]]\
+             .loc[:, ["gene", "transcript", "canonical", "oe_lof_upper", "oe_lof_upper_bin", "p"]]\
              .dropna()
 
 
