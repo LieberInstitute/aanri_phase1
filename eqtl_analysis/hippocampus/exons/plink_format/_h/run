@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ln -sfn ../../../genes/plink_format/_m/genotypes.* .
