@@ -101,15 +101,22 @@ def enrichment_analysis():
     dt = pd.DataFrame(); dft = pd.DataFrame()
     for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
         df = merge_data(tissue)
-        tissue_lt = []; oddratio = []; pvalues = []; bins = []
-        for upper_bin in range(1,9):
-            odds, pval = cal_fishers(df, upper_bin)
-            bins.append(upper_bin); oddratio.append(odds)
-            pvalues.append(pval); tissue_lt.append(tissue)
+        tissue_lt = []; oddratio = []; pvalues = []; bins = []; canonical = [];
+        for canon_tx in [True, False, 'All']:
+            for upper_bin in range(1,9):
+                if canon_tx == "All":
+                    odds, pval = cal_fishers(df, upper_bin)
+                elif canon_tx:
+                    odds, pval = cal_fishers(df[(df["canonical"])], upper_bin)
+                else:
+                    odds, pval = cal_fishers(df[~(df["canonical"])], upper_bin)
+                bins.append(upper_bin); oddratio.append(odds)
+                pvalues.append(pval); tissue_lt.append(tissue)
+                canonical.append(canon_tx);
         fdr = fdrcorrection(pvalues)[1]
         dt = pd.concat([dt, pd.DataFrame({"Tissue": tissue_lt, "Upper_Bin": bins,
-                                          "Odds_Ratio": oddratio, "P_value": pvalues,
-                                          "FDR": fdr})])
+                                          "Canonical": canonical, "Odds_Ratio": oddratio,
+                                          "P_value": pvalues, "FDR": fdr})])
         dft = pd.concat([dft, df])
     return dt, dft
 
