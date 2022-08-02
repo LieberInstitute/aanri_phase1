@@ -1,0 +1,21 @@
+#!/bin/bash
+#$ -cwd
+#$ -R y
+#$ -l mem_free=5.0G,h_vmem=5G,h_fsize=50G
+#$ -N norm_expression
+#$ -o ./summary.out
+#$ -e ./summary.out
+#$ -m e -M jade.benjamin@libd.org
+
+SOFTWARE="../_h"
+BED="../../../../../input/text_files_counts/_m/hippocampus/exon.bed"
+GTF="/dcl02/lieber/apaquola/genome/human/gencode25/gtf.CHR/_m/gencode.v25.annotation.gtf"
+
+ln -sfn ../_h/rnaseqnorm.py .
+
+module load samtools
+module load htslib
+module load python/3.9.10
+python3 $SOFTWARE/eqtl_prepare_expression.py \
+        --feature exon --bed_file $BED -o . ../../_m/tpm.gct ../../_m/counts.gct \
+	$GTF ../../_m/sample_id_to_brnum.tsv ../../_m/vcf_chr_list.txt exons
