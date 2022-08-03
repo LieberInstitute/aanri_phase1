@@ -1,5 +1,6 @@
 ## This script analyzsis gene set enrichment with permutation
 suppressPackageStartupMessages({
+    library(DOSE)
     library(dplyr)
     library(biomaRt)
     library(org.Hs.eg.db)
@@ -57,18 +58,18 @@ annot_effect_size <- function(feature, tissue){
 }
 
 get_genes <- function(dt){
-    return(dt %>% dplyr::filter(DE == 1) %>% dplyr::select(ensemblID, beta) %>%
-           mutate(abs_beta=abs(beta)) %>% group_by(ensemblID) %>%
+    return(dt %>% dplyr::filter(DE == 1) %>% dplyr::select(entrezgene_id, beta) %>%
+           mutate(abs_beta=abs(beta)) %>% group_by(entrezgene_id) %>%
            arrange(desc(abs_beta), .by_group=TRUE) %>% slice(1) %>%
-           tidyr::drop_na() %>% pull("ensemblID") %>% as.character)
+           tidyr::drop_na() %>% pull("entrezgene_id") %>% as.character)
 }
 
 get_geneList <- function(dt){
-    tmp <- dt %>% na.exclude %>% dplyr::select(ensemblID, beta) %>%
-           mutate(abs_beta=abs(beta)) %>% group_by(ensemblID) %>%
+    tmp <- dt %>% na.exclude %>% dplyr::select(entrezgene_id, beta) %>%
+           mutate(abs_beta=abs(beta)) %>% group_by(entrezgene_id) %>%
            arrange(desc(abs_beta), .by_group=TRUE) %>% slice(1)
     geneList <- tmp %>% pull("beta")
-    names(geneList) <- tmp$ensemblID
+    names(geneList) <- tmp$entrezgene_id
     return(geneList %>% sort(decreasing=TRUE))
 }
 
@@ -77,7 +78,7 @@ run_gseGO <- function(dt, ont, label){
     ego <- gseGO(geneList     = get_geneList(dt),
                  OrgDb        = org.Hs.eg.db,
                  ont          = ont,
-                 keyType      = "ENSEMBL",
+                 keyType      = "ENTREZID",
                  minGSSize    = 10,
                  maxGSSize    = 500,
                  pvalueCutoff = 0.05,
@@ -86,7 +87,34 @@ run_gseGO <- function(dt, ont, label){
                                         # Save results
     if(dim(ego)[1] != 0){
         fn = paste0(label, "_", ont, ".tsv")
+        ego <- setReadable(ego, "org.Hs.eg.db")
         ego %>% as.data.frame %>% data.table::fwrite(fn, sep='\t')
+    }
+}
+
+run_enichmentDGN <- function(dt, label){
+    dgn <- enrichDGN(gene      = get_genes(dt),
+                     universe  = names(get_geneList(dt)),
+                     minGSSize = 5)
+      # Save results
+    if(dim(dgn)[1] != 0){
+        fn = paste0(label, "_DGN.tsv")
+        dgn <- setReadable(dgn, "org.Hs.eg.db")
+        dgn %>% as.data.frame %>% data.table::fwrite(fn, sep='\t')
+    }
+}
+
+run_gseDGN <- function(dt, ont, label){
+    dgn <- gseDGN(geneList     = get_geneList(dt),
+                  minGSSize    = 5,
+                  pvalueCutoff = 0.05,
+                  verbose      = FALSE,
+                  seed         = TRUE)
+      # Save results
+    if(dim(dgn)[1] != 0){
+        fn = paste0(label, "_", ont, ".tsv")
+        dgn <- setReadable(dgn, "org.Hs.eg.db")
+        dgn %>% as.data.frame %>% data.table::fwrite(fn, sep='\t')
     }
 }
 
@@ -96,10 +124,13 @@ for(feature in c("genes", "transcripts", "exons", "junctions")){
     for(tissue in c("Caudate", "Dentate Gyrus", "DLPFC", "Hippocampus")){
         ##print(tissue)
         dt <- annot_effect_size(feature, tissue)
-        label = paste0(feature,"/",gsub(" ", "_",tolower(tissue)),"_gsea")
+        label1 = paste0(feature,"/",gsub(" ", "_",tolower(tissue)),"_gsea")
+        label2 = paste0(feature,"/",gsub(" ", "_",tolower(tissue)),"_enrich")
         for(ONT in c("BP", "MF", "CC")){
-            run_gseGO(dt, ONT, label)
+            run_gseGO(dt, ONT, label1)
         }
+        run_gseDGN(dt, "DGN", label1)
+        run_enichmentDGN(dt, label2)
     }
 }
 

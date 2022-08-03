@@ -1,0 +1,2 @@
+ID	Description	setSize	enrichmentScore	NES	pvalue	p.adjust	qvalues	rank	leading_edge	core_enrichment
+C0010403	Cryoglobulinemia	8	0.982542620888733	1.85725373151882	2.09729002310911e-07	0.0017761949205711	0.00175598366776946	7	tags=25%, list=0%, signal=25%	HLA-A/SMN1
