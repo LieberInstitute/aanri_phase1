@@ -25,7 +25,7 @@ echo "**** Run enrichment analysis ****"
 python ../_h/gene_constraint.py
 python ../_h/tx_constraint.py
 echo "**** Plot correlation ****"
-Rscript ../_h/plot_correlation.R
+Rscript ../_h/plot_constrain.R
 
 echo "**** Job ends ****"
 date
