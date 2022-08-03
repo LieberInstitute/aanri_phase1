@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -l mem_free=10.0G,h_vmem=10G,h_fsize=50G
+#$ -l h_fsize=50G
 #$ -N gene_constrain
 #$ -o ./summary.out
 #$ -e ./summary.out
