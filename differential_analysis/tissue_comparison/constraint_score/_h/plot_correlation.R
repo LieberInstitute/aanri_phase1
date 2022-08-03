@@ -34,9 +34,27 @@ plot_corr <- function(feature){
     save_plot(corr, paste0("constrain_correlation_lfsr_",tolower(feature)), 16, 4)
 }
 
+plot_density <- function(feature, variable){
+    xlabel = ifelse(tolower(feature) == "gene", "DEGs (lfsr)", "DE (lfsr)")
+    fn     = paste("constrain_density_lfsr",tolower(variable),
+               tolower(feature),sep="_")
+    den <- load_data(feature) %>% mutate_at("oe_lof_upper_bin",as.character) %>%
+        mutate("Constrained"=ifelse(oe_lof_upper > 0.75, "No", "Yes")) %>%
+        ggdensity(x="lfsr", color=variable, fill=variable, facet.by="Tissue",
+                  xlab=xlabel, palette="npg", rug=TRUE, add="mean",
+                  panel.labs.font=list(face="bold"), ncol=4, 
+                  ggtheme=theme_pubr(base_size=15, border=TRUE)) +    
+        font("xy.title", face="bold", size=20)
+    save_plot(den, fn, 16, 4)
+}
+
 #### MAIN
 plot_corr("Gene")
 plot_corr("Transcript")
+plot_density("Gene", "Constrained")
+plot_density("Gene", "oe_lof_upper_bin")
+plot_density("Transcript", "Constrained")
+plot_density("Transcript", "oe_lof_upper_bin")
 
 #### Reproducibility information
 Sys.time()
