@@ -6,44 +6,51 @@ import pandas as pd
 
 def load_eqtl(filename):
     df = pd.read_csv(filename, sep='\t', nrows=100,
-                     usecols=["phenotype_id","variant_id","pval_g","pval_emt"])
+                     usecols=["phenotype_id","variant_id","pval_nominal"])
     return pd.read_csv(filename, sep='\t', dtype=df.dtypes.to_dict(),
-                       usecols=["phenotype_id","variant_id","pval_g","pval_emt"],
+                       usecols=["phenotype_id","variant_id","pval_nominal"],
                        compression="gzip")
 
 
-def extract_eqtls(feature):
+def extract_eqtls(feature, fn):
     ## Load eQTLs for mashr
     ### Caudate
     print("Loading Caudate data!")
-    cc_file = "../../../caudate/%s/tensoreqtl/_m/" % feature+\
-        "LIBD_TOPMed_AA.cis_qtl_top_assoc.txt.gz"
+    cc_file = "../../../caudate/%s/cis_analysis/_m/%s" % (feature,fn)
     caudate = load_eqtl(cc_file)
     ### Dentate Gyrus
     print("Loading Dentate Gyrus data!")
-    gg_file = "../../../dentateGyrus/%s/tensoreqtl/_m/" % feature+\
-        "LIBD_TOPMed_AA.cis_qtl_top_assoc.txt.gz"
+    gg_file = "../../../dentateGyrus/%s/cis_analysis/_m/%s" % (feature,fn)
     gyrus = load_eqtl(gg_file)
     ### DLPFC
     print("Loading DLPFC data!")
-    dd_file = "../../../dlpfc/%s/tensoreqtl/_m/" % feature+\
-        "LIBD_TOPMed_AA.cis_qtl_top_assoc.txt.gz"
+    dd_file = "../../../dlpfc/%s/cis_analysis/_m/%s" % (feature,fn)
     dlpfc = load_eqtl(dd_file)
     ### Hippocampus
     print("Loading hippocampus data!")
-    hh_file = "../../../hippocampus/%s/tensoreqtl/_m/" % feature+\
-        "LIBD_TOPMed_AA.cis_qtl_top_assoc.txt.gz"
+    hh_file = "../../../hippocampus/%s/cis_analysis/_m/%s" % (feature,fn)
     hippo = load_eqtl(hh_file)
     return caudate, gyrus, dlpfc, hippo
 
 
-def extract_dataframe(caudate, gyrus, dlpfc, hippo):
-    ## Caudate
+def extract_dataframe(feature):
+    fn1 = "LIBD_TOPMed_AA.genes.txt.gz"
+    fn2 = "LIBD_TOPMed_AA.conditional.txt.gz"
+    print("Load data!")
+    ## Top eQTL
+    cc1, gg1, dd1, hh1 = extract_eqtls(feature, fn1)
+    # Conditional eQTL
+    cc2, gg2, dd2, hh2 = extract_eqtls(feature, fn2)
+    # Combine eQTL
+    print("Extract strong set!")
+    caudate = pd.concat([cc1, cc2]); gyrus = pd.concat([gg1, gg2])
+    dlpfc = pd.concat([dd1, dd2]); hippo = pd.concat([hh1, hh2])
+    # Combine brain regions
     df = pd.concat([caudate, gyrus, dlpfc, hippo])
     df["effect"] = df.phenotype_id + "_" + df.variant_id
+    # Save files
     df.drop_duplicates(subset="effect")\
-      .to_csv("top_eqtls_AA_interaction.txt.gz",
-              sep='\t', index=False)
+      .to_csv("top_eqtls_AA_nominal.txt.gz",sep='\t',index=False)
 
 
 def main():
@@ -51,10 +58,7 @@ def main():
     parser.add_argument('--feature', type=str)
     args=parser.parse_args()
     ## Main
-    print("Load data!")
-    cc, gg, dd, hh = extract_eqtls(args.feature)
-    print("Extract strong set!")
-    extract_dataframe(cc, gg, dd, hh)
+    extract_dataframe(args.feature)
 
 
 if __name__=='__main__':
