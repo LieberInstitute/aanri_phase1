@@ -1,0 +1,373 @@
+**** Job starts ****
+2022-07-29T18:22:41-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 1500811
+Job name: wgcna_softpower_cc
+Hostname: compute-072.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/4.0.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run network analysis ****
+WARNING: ignoring environment value of R_HOME
+Loading objects:
+  v
+Loading required package: limma
+[1] 96554   239
+ Flagging genes and samples with too many missing values...
+  ..step 1
+[1]   233 96554
+Warning message:
+In data.table::fread(fn2) :
+  Detected 239 column names but the data has 240 columns (i.e. invalid file). Added 1 extra default column name for the first column which is guessed to be row names or an index. Use setnames() afterwards if this guess is not correct, or fix the file write command that created the file to create a valid file.
+Loading objects:
+  datExpr
+  sample_table
+Loading objects:
+  datExpr
+  sample_table
+  datTraits
+pickSoftThreshold: will use block size 463.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 463 of 96554
+   ..working on genes 464 through 926 of 96554
+   ..working on genes 927 through 1389 of 96554
+   ..working on genes 1390 through 1852 of 96554
+   ..working on genes 1853 through 2315 of 96554
+   ..working on genes 2316 through 2778 of 96554
+   ..working on genes 2779 through 3241 of 96554
+   ..working on genes 3242 through 3704 of 96554
+   ..working on genes 3705 through 4167 of 96554
+   ..working on genes 4168 through 4630 of 96554
+   ..working on genes 4631 through 5093 of 96554
+   ..working on genes 5094 through 5556 of 96554
+   ..working on genes 5557 through 6019 of 96554
+   ..working on genes 6020 through 6482 of 96554
+   ..working on genes 6483 through 6945 of 96554
+   ..working on genes 6946 through 7408 of 96554
+   ..working on genes 7409 through 7871 of 96554
+   ..working on genes 7872 through 8334 of 96554
+   ..working on genes 8335 through 8797 of 96554
+   ..working on genes 8798 through 9260 of 96554
+   ..working on genes 9261 through 9723 of 96554
+   ..working on genes 9724 through 10186 of 96554
+   ..working on genes 10187 through 10649 of 96554
+   ..working on genes 10650 through 11112 of 96554
+   ..working on genes 11113 through 11575 of 96554
+   ..working on genes 11576 through 12038 of 96554
+   ..working on genes 12039 through 12501 of 96554
+   ..working on genes 12502 through 12964 of 96554
+   ..working on genes 12965 through 13427 of 96554
+   ..working on genes 13428 through 13890 of 96554
+   ..working on genes 13891 through 14353 of 96554
+   ..working on genes 14354 through 14816 of 96554
+   ..working on genes 14817 through 15279 of 96554
+   ..working on genes 15280 through 15742 of 96554
+   ..working on genes 15743 through 16205 of 96554
+   ..working on genes 16206 through 16668 of 96554
+   ..working on genes 16669 through 17131 of 96554
+   ..working on genes 17132 through 17594 of 96554
+   ..working on genes 17595 through 18057 of 96554
+   ..working on genes 18058 through 18520 of 96554
+   ..working on genes 18521 through 18983 of 96554
+   ..working on genes 18984 through 19446 of 96554
+   ..working on genes 19447 through 19909 of 96554
+   ..working on genes 19910 through 20372 of 96554
+   ..working on genes 20373 through 20835 of 96554
+   ..working on genes 20836 through 21298 of 96554
+   ..working on genes 21299 through 21761 of 96554
+   ..working on genes 21762 through 22224 of 96554
+   ..working on genes 22225 through 22687 of 96554
+   ..working on genes 22688 through 23150 of 96554
+   ..working on genes 23151 through 23613 of 96554
+   ..working on genes 23614 through 24076 of 96554
+   ..working on genes 24077 through 24539 of 96554
+   ..working on genes 24540 through 25002 of 96554
+   ..working on genes 25003 through 25465 of 96554
+   ..working on genes 25466 through 25928 of 96554
+   ..working on genes 25929 through 26391 of 96554
+   ..working on genes 26392 through 26854 of 96554
+   ..working on genes 26855 through 27317 of 96554
+   ..working on genes 27318 through 27780 of 96554
+   ..working on genes 27781 through 28243 of 96554
+   ..working on genes 28244 through 28706 of 96554
+   ..working on genes 28707 through 29169 of 96554
+   ..working on genes 29170 through 29632 of 96554
+   ..working on genes 29633 through 30095 of 96554
+   ..working on genes 30096 through 30558 of 96554
+   ..working on genes 30559 through 31021 of 96554
+   ..working on genes 31022 through 31484 of 96554
+   ..working on genes 31485 through 31947 of 96554
+   ..working on genes 31948 through 32410 of 96554
+   ..working on genes 32411 through 32873 of 96554
+   ..working on genes 32874 through 33336 of 96554
+   ..working on genes 33337 through 33799 of 96554
+   ..working on genes 33800 through 34262 of 96554
+   ..working on genes 34263 through 34725 of 96554
+   ..working on genes 34726 through 35188 of 96554
+   ..working on genes 35189 through 35651 of 96554
+   ..working on genes 35652 through 36114 of 96554
+   ..working on genes 36115 through 36577 of 96554
+   ..working on genes 36578 through 37040 of 96554
+   ..working on genes 37041 through 37503 of 96554
+   ..working on genes 37504 through 37966 of 96554
+   ..working on genes 37967 through 38429 of 96554
+   ..working on genes 38430 through 38892 of 96554
+   ..working on genes 38893 through 39355 of 96554
+   ..working on genes 39356 through 39818 of 96554
+   ..working on genes 39819 through 40281 of 96554
+   ..working on genes 40282 through 40744 of 96554
+   ..working on genes 40745 through 41207 of 96554
+   ..working on genes 41208 through 41670 of 96554
+   ..working on genes 41671 through 42133 of 96554
+   ..working on genes 42134 through 42596 of 96554
+   ..working on genes 42597 through 43059 of 96554
+   ..working on genes 43060 through 43522 of 96554
+   ..working on genes 43523 through 43985 of 96554
+   ..working on genes 43986 through 44448 of 96554
+   ..working on genes 44449 through 44911 of 96554
+   ..working on genes 44912 through 45374 of 96554
+   ..working on genes 45375 through 45837 of 96554
+   ..working on genes 45838 through 46300 of 96554
+   ..working on genes 46301 through 46763 of 96554
+   ..working on genes 46764 through 47226 of 96554
+   ..working on genes 47227 through 47689 of 96554
+   ..working on genes 47690 through 48152 of 96554
+   ..working on genes 48153 through 48615 of 96554
+   ..working on genes 48616 through 49078 of 96554
+   ..working on genes 49079 through 49541 of 96554
+   ..working on genes 49542 through 50004 of 96554
+   ..working on genes 50005 through 50467 of 96554
+   ..working on genes 50468 through 50930 of 96554
+   ..working on genes 50931 through 51393 of 96554
+   ..working on genes 51394 through 51856 of 96554
+   ..working on genes 51857 through 52319 of 96554
+   ..working on genes 52320 through 52782 of 96554
+   ..working on genes 52783 through 53245 of 96554
+   ..working on genes 53246 through 53708 of 96554
+   ..working on genes 53709 through 54171 of 96554
+   ..working on genes 54172 through 54634 of 96554
+   ..working on genes 54635 through 55097 of 96554
+   ..working on genes 55098 through 55560 of 96554
+   ..working on genes 55561 through 56023 of 96554
+   ..working on genes 56024 through 56486 of 96554
+   ..working on genes 56487 through 56949 of 96554
+   ..working on genes 56950 through 57412 of 96554
+   ..working on genes 57413 through 57875 of 96554
+   ..working on genes 57876 through 58338 of 96554
+   ..working on genes 58339 through 58801 of 96554
+   ..working on genes 58802 through 59264 of 96554
+   ..working on genes 59265 through 59727 of 96554
+   ..working on genes 59728 through 60190 of 96554
+   ..working on genes 60191 through 60653 of 96554
+   ..working on genes 60654 through 61116 of 96554
+   ..working on genes 61117 through 61579 of 96554
+   ..working on genes 61580 through 62042 of 96554
+   ..working on genes 62043 through 62505 of 96554
+   ..working on genes 62506 through 62968 of 96554
+   ..working on genes 62969 through 63431 of 96554
+   ..working on genes 63432 through 63894 of 96554
+   ..working on genes 63895 through 64357 of 96554
+   ..working on genes 64358 through 64820 of 96554
+   ..working on genes 64821 through 65283 of 96554
+   ..working on genes 65284 through 65746 of 96554
+   ..working on genes 65747 through 66209 of 96554
+   ..working on genes 66210 through 66672 of 96554
+   ..working on genes 66673 through 67135 of 96554
+   ..working on genes 67136 through 67598 of 96554
+   ..working on genes 67599 through 68061 of 96554
+   ..working on genes 68062 through 68524 of 96554
+   ..working on genes 68525 through 68987 of 96554
+   ..working on genes 68988 through 69450 of 96554
+   ..working on genes 69451 through 69913 of 96554
+   ..working on genes 69914 through 70376 of 96554
+   ..working on genes 70377 through 70839 of 96554
+   ..working on genes 70840 through 71302 of 96554
+   ..working on genes 71303 through 71765 of 96554
+   ..working on genes 71766 through 72228 of 96554
+   ..working on genes 72229 through 72691 of 96554
+   ..working on genes 72692 through 73154 of 96554
+   ..working on genes 73155 through 73617 of 96554
+   ..working on genes 73618 through 74080 of 96554
+   ..working on genes 74081 through 74543 of 96554
+   ..working on genes 74544 through 75006 of 96554
+   ..working on genes 75007 through 75469 of 96554
+   ..working on genes 75470 through 75932 of 96554
+   ..working on genes 75933 through 76395 of 96554
+   ..working on genes 76396 through 76858 of 96554
+   ..working on genes 76859 through 77321 of 96554
+   ..working on genes 77322 through 77784 of 96554
+   ..working on genes 77785 through 78247 of 96554
+   ..working on genes 78248 through 78710 of 96554
+   ..working on genes 78711 through 79173 of 96554
+   ..working on genes 79174 through 79636 of 96554
+   ..working on genes 79637 through 80099 of 96554
+   ..working on genes 80100 through 80562 of 96554
+   ..working on genes 80563 through 81025 of 96554
+   ..working on genes 81026 through 81488 of 96554
+   ..working on genes 81489 through 81951 of 96554
+   ..working on genes 81952 through 82414 of 96554
+   ..working on genes 82415 through 82877 of 96554
+   ..working on genes 82878 through 83340 of 96554
+   ..working on genes 83341 through 83803 of 96554
+   ..working on genes 83804 through 84266 of 96554
+   ..working on genes 84267 through 84729 of 96554
+   ..working on genes 84730 through 85192 of 96554
+   ..working on genes 85193 through 85655 of 96554
+   ..working on genes 85656 through 86118 of 96554
+   ..working on genes 86119 through 86581 of 96554
+   ..working on genes 86582 through 87044 of 96554
+   ..working on genes 87045 through 87507 of 96554
+   ..working on genes 87508 through 87970 of 96554
+   ..working on genes 87971 through 88433 of 96554
+   ..working on genes 88434 through 88896 of 96554
+   ..working on genes 88897 through 89359 of 96554
+   ..working on genes 89360 through 89822 of 96554
+   ..working on genes 89823 through 90285 of 96554
+   ..working on genes 90286 through 90748 of 96554
+   ..working on genes 90749 through 91211 of 96554
+   ..working on genes 91212 through 91674 of 96554
+   ..working on genes 91675 through 92137 of 96554
+   ..working on genes 92138 through 92600 of 96554
+   ..working on genes 92601 through 93063 of 96554
+   ..working on genes 93064 through 93526 of 96554
+   ..working on genes 93527 through 93989 of 96554
+   ..working on genes 93990 through 94452 of 96554
+   ..working on genes 94453 through 94915 of 96554
+   ..working on genes 94916 through 95378 of 96554
+   ..working on genes 95379 through 95841 of 96554
+   ..working on genes 95842 through 96304 of 96554
+   ..working on genes 96305 through 96554 of 96554
+   Power SFT.R.sq  slope truncated.R.sq  mean.k. median.k.  max.k.
+1      1  0.00175  -9.38          0.987 4.84e+04  4.84e+04 49600.0
+2      2  0.01910 -14.60          0.964 2.44e+04  2.44e+04 25800.0
+3      3  0.04900 -14.10          0.913 1.24e+04  1.24e+04 13500.0
+4      4  0.08640 -12.30          0.827 6.31e+03  6.30e+03  7140.0
+5      5  0.29200 -15.60          0.771 3.24e+03  3.22e+03  3880.0
+6      6  0.58500 -16.30          0.786 1.67e+03  1.66e+03  2160.0
+7      7  0.82400 -15.40          0.878 8.67e+02  8.58e+02  1250.0
+8      8  0.92900 -13.20          0.941 4.53e+02  4.46e+02   761.0
+9      9  0.97900 -10.90          0.978 2.38e+02  2.33e+02   483.0
+10    10  0.99200  -8.89          0.990 1.26e+02  1.22e+02   321.0
+11    11  0.99200  -7.18          0.990 6.71e+01  6.45e+01   224.0
+12    12  0.99000  -5.86          0.987 3.61e+01  3.42e+01   163.0
+13    13  0.98900  -4.89          0.986 1.96e+01  1.82e+01   124.0
+14    14  0.98700  -4.18          0.985 1.07e+01  9.75e+00    96.8
+15    15  0.98600  -3.62          0.985 5.95e+00  5.24e+00    77.8
+16    16  0.98000  -3.18          0.981 3.36e+00  2.83e+00    64.2
+17    17  0.97900  -2.82          0.986 1.93e+00  1.54e+00    54.1
+18    18  0.98100  -2.51          0.991 1.14e+00  8.39e-01    46.2
+19    19  0.98200  -2.25          0.992 6.89e-01  4.60e-01    39.9
+20    20  0.98400  -2.03          0.992 4.32e-01  2.53e-01    34.8
+[1] 8
+null device 
+          1 
+[1] "2022-07-29 22:14:03 EDT"
+     user    system   elapsed 
+11749.587  2070.068 13881.463 
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.0.3 (2020-10-10)
+ os       CentOS Linux 7 (Core)
+ system   x86_64, linux-gnu
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       US/Eastern
+ date     2022-07-29
+ pandoc   NA
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package        * version date (UTC) lib source
+ AnnotationDbi    1.52.0  2020-10-27 [2] Bioconductor
+ assertthat       0.2.1   2019-03-21 [2] CRAN (R 4.0.3)
+ backports        1.2.1   2020-12-09 [2] CRAN (R 4.0.3)
+ base64enc        0.1-3   2015-07-28 [2] CRAN (R 4.0.3)
+ Biobase          2.50.0  2020-10-27 [2] Bioconductor
+ BiocGenerics     0.36.1  2021-04-16 [1] Bioconductor
+ bit              4.0.4   2020-08-04 [2] CRAN (R 4.0.3)
+ bit64            4.0.5   2020-08-30 [2] CRAN (R 4.0.3)
+ blob             1.2.1   2020-01-20 [2] CRAN (R 4.0.3)
+ cachem           1.0.4   2021-02-13 [2] CRAN (R 4.0.3)
+ checkmate        2.0.0   2020-02-06 [2] CRAN (R 4.0.3)
+ cli              3.3.0   2022-04-25 [1] CRAN (R 4.0.3)
+ cluster          2.1.0   2019-06-19 [2] CRAN (R 4.0.3)
+ codetools        0.2-16  2018-12-24 [2] CRAN (R 4.0.3)
+ colorspace       2.0-0   2020-11-11 [2] CRAN (R 4.0.3)
+ crayon           1.5.1   2022-03-26 [1] CRAN (R 4.0.3)
+ data.table       1.14.0  2021-02-21 [2] CRAN (R 4.0.3)
+ DBI              1.1.1   2021-01-15 [2] CRAN (R 4.0.3)
+ digest           0.6.27  2020-10-24 [2] CRAN (R 4.0.3)
+ doParallel       1.0.16  2020-10-16 [2] CRAN (R 4.0.3)
+ dplyr          * 1.0.9   2022-04-28 [1] CRAN (R 4.0.3)
+ dynamicTreeCut * 1.63-1  2016-03-11 [2] CRAN (R 4.0.3)
+ ellipsis         0.3.2   2021-04-29 [1] CRAN (R 4.0.3)
+ fansi            1.0.3   2022-03-24 [1] CRAN (R 4.0.3)
+ fastcluster    * 1.1.25  2018-06-07 [2] CRAN (R 4.0.3)
+ fastmap          1.1.0   2021-01-25 [2] CRAN (R 4.0.3)
+ foreach          1.5.1   2020-10-15 [2] CRAN (R 4.0.3)
+ foreign          0.8-80  2020-05-24 [2] CRAN (R 4.0.3)
+ Formula          1.2-4   2020-10-16 [2] CRAN (R 4.0.3)
+ generics         0.1.2   2022-01-31 [1] CRAN (R 4.0.3)
+ ggplot2          3.3.6   2022-05-03 [1] CRAN (R 4.0.3)
+ glue             1.6.2   2022-02-24 [1] CRAN (R 4.0.3)
+ GO.db            3.12.1  2021-03-23 [2] Bioconductor
+ gridExtra        2.3     2017-09-09 [2] CRAN (R 4.0.3)
+ gtable           0.3.0   2019-03-25 [2] CRAN (R 4.0.3)
+ Hmisc            4.5-0   2021-02-28 [2] CRAN (R 4.0.3)
+ htmlTable        2.1.0   2020-09-16 [2] CRAN (R 4.0.3)
+ htmltools        0.5.2   2021-08-25 [1] CRAN (R 4.0.3)
+ htmlwidgets      1.5.3   2020-12-10 [2] CRAN (R 4.0.3)
+ impute           1.64.0  2020-10-27 [2] Bioconductor
+ IRanges          2.24.1  2020-12-12 [2] Bioconductor
+ iterators        1.0.13  2020-10-15 [2] CRAN (R 4.0.3)
+ jpeg             0.1-8.1 2019-10-24 [2] CRAN (R 4.0.3)
+ knitr            1.31    2021-01-27 [2] CRAN (R 4.0.3)
+ lattice          0.20-41 2020-04-02 [2] CRAN (R 4.0.3)
+ latticeExtra     0.6-29  2019-12-19 [2] CRAN (R 4.0.3)
+ lifecycle        1.0.1   2021-09-24 [1] CRAN (R 4.0.3)
+ limma          * 3.46.0  2020-10-27 [1] Bioconductor
+ magrittr         2.0.3   2022-03-30 [1] CRAN (R 4.0.3)
+ Matrix           1.4-1   2022-03-23 [1] CRAN (R 4.0.3)
+ matrixStats      0.62.0  2022-04-19 [1] CRAN (R 4.0.3)
+ memoise          2.0.0   2021-01-26 [2] CRAN (R 4.0.3)
+ munsell          0.5.0   2018-06-12 [2] CRAN (R 4.0.3)
+ nnet             7.3-14  2020-04-26 [2] CRAN (R 4.0.3)
+ pillar           1.7.0   2022-02-01 [1] CRAN (R 4.0.3)
+ pkgconfig        2.0.3   2019-09-22 [2] CRAN (R 4.0.3)
+ png              0.1-7   2013-12-03 [2] CRAN (R 4.0.3)
+ preprocessCore   1.52.1  2021-01-08 [2] Bioconductor
+ purrr            0.3.4   2020-04-17 [2] CRAN (R 4.0.3)
+ R6               2.5.1   2021-08-19 [1] CRAN (R 4.0.3)
+ RColorBrewer     1.1-3   2022-04-03 [1] CRAN (R 4.0.3)
+ Rcpp             1.0.8.3 2022-03-17 [1] CRAN (R 4.0.3)
+ rlang            1.0.3   2022-06-27 [1] CRAN (R 4.0.3)
+ rpart            4.1-15  2019-04-12 [2] CRAN (R 4.0.3)
+ RSQLite          2.2.4   2021-03-12 [2] CRAN (R 4.0.3)
+ rstudioapi       0.13    2020-11-12 [2] CRAN (R 4.0.3)
+ S4Vectors        0.28.1  2020-12-09 [2] Bioconductor
+ scales           1.1.1   2020-05-11 [2] CRAN (R 4.0.3)
+ sessioninfo      1.2.2   2021-12-06 [1] CRAN (R 4.0.3)
+ stringi          1.5.3   2020-09-09 [2] CRAN (R 4.0.3)
+ stringr          1.4.0   2019-02-10 [2] CRAN (R 4.0.3)
+ survival         3.2-7   2020-09-28 [2] CRAN (R 4.0.3)
+ tibble           3.1.7   2022-05-03 [1] CRAN (R 4.0.3)
+ tidyselect       1.1.2   2022-02-21 [1] CRAN (R 4.0.3)
+ utf8             1.2.2   2021-07-24 [1] CRAN (R 4.0.3)
+ vctrs            0.4.1   2022-04-13 [1] CRAN (R 4.0.3)
+ WGCNA          * 1.71    2022-04-22 [1] CRAN (R 4.0.3)
+ xfun             0.21    2021-02-10 [2] CRAN (R 4.0.3)
+
+ [1] /users/jbenjami/R/x86_64-pc-linux-gnu-library/4.0
+ [2] /jhpce/shared/jhpce/core/R/4.0.3/lib64/R/library
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+**** Job ends ****
+2022-07-29T22:14:20-0400
