@@ -18,7 +18,7 @@ save_img <- function(image, fn, w, h){
 }
 
 get_bhat <- function(){
-    fn = "bhat_interaction_4tissues_AA.txt.gz"
+    fn = "bhat_nominal_4tissues_AA.txt.gz"
     cClasses = c("character", "character", "numeric", "numeric", "numeric", "numeric")
     return(data.table::fread(fn, header=TRUE, sep="\t", colClasses=cClasses) %>%
            mutate(effect=paste(phenotype_id, variant_id, sep="_")) %>%
@@ -26,7 +26,7 @@ get_bhat <- function(){
 }
 
 get_shat <- function(){
-    fn = "shat_interaction_4tissues_AA.txt.gz"
+    fn = "shat_nominal_4tissues_AA.txt.gz"
     cClasses = c("character", "character", "numeric", "numeric", "numeric", "numeric")
     return(data.table::fread(fn, header=TRUE, sep='\t', colClasses=cClasses) %>%
            mutate(effect=paste(phenotype_id, variant_id, sep="_")) %>%
