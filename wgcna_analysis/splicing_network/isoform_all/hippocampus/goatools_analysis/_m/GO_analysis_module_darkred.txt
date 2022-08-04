@@ -1,0 +1,175 @@
+GO:0006986 BP 2.74e-31   13/45    51/68838 D05 response to unfolded protein             871.0, 3300.0, 3301.0, 3303.0, 3310.0, 3312.0, 3315.0, 3320.0, 3326.0, 3329.0, 3336.0, 3337.0, 10808.0 
+GO:0006457 BP 2.83e-30   15/45   133/68838 D02 protein folding                          1410.0, 2288.0, 3301.0, 3312.0, 3320.0, 3326.0, 3329.0, 3336.0, 6950.0, 9531.0, 10049.0, 10598.0, 10728.0, 10808.0, 10963.0 
+GO:0042026 BP 3.32e-30   11/45    23/68838 D03 protein refolding                        1410.0, 3300.0, 3301.0, 3303.0, 3304.0, 3310.0, 3312.0, 3315.0, 3320.0, 3329.0, 55466.0 
+GO:0051085 BP 1.35e-19    8/45    31/68838 D05 chaperone cofactor-dependent protein refolding 3303.0, 3304.0, 3310.0, 3312.0, 3336.0, 3337.0, 10728.0, 10808.0 
+GO:0090084 BP 4.62e-18    6/45     9/68838 D06 negative regulation of inclusion body assembly 3300.0, 3303.0, 3304.0, 3337.0, 10049.0, 55466.0 
+GO:0050821 BP 7.32e-17   10/45   194/68838 D04 protein stabilization                    1191.0, 1410.0, 3303.0, 3304.0, 3320.0, 3326.0, 3329.0, 6950.0, 9531.0, 10728.0 
+GO:0061077 BP 1.66e-16    7/45    34/68838 D03 chaperone-mediated protein folding       1191.0, 2288.0, 3300.0, 3315.0, 6950.0, 10049.0, 26973.0 
+GO:0034605 BP 1.18e-15    7/45    44/68838 D05 cellular response to heat                3303.0, 3304.0, 3310.0, 3320.0, 3326.0, 3337.0, 9531.0 
+GO:0051131 BP 2.12e-15    6/45    20/68838 D06 chaperone-mediated protein complex assembly 1191.0, 3303.0, 3320.0, 3326.0, 3329.0, 10728.0 
+GO:0031396 BP 5.84e-13    5/45    17/68838 D08 regulation of protein ubiquitination     3300.0, 3303.0, 3304.0, 3320.0, 3326.0 
+GO:0043066 BP 3.79e-12    9/45   387/68838 D07 negative regulation of apoptotic process 1410.0, 1654.0, 3301.0, 3303.0, 3304.0, 3315.0, 3329.0, 7178.0, 9531.0 
+GO:0034620 BP 4.99e-12    5/45    25/68838 D06 cellular response to unfolded protein    3303.0, 3304.0, 3310.0, 3312.0, 9531.0 
+GO:0009408 BP 1.01e-10    5/45    44/68838 D04 response to heat                         1410.0, 3301.0, 3315.0, 3320.0, 55466.0 
+GO:1905323 BP 1.04e-09    3/45     4/68838 D07 telomerase holoenzyme complex assembly   3320.0, 3326.0, 10728.0 
+GO:0032436 BP 1.81e-09    5/45    77/68838 D10 positive regulation of proteasomal ubiquitin-dependent protein catabolic process 1191.0, 3300.0, 3303.0, 3304.0, 90637.0 
+GO:1902949 BP 5.21e-09    3/45     6/68838 D11 positive regulation of tau-protein kinase activity 1191.0, 3320.0, 3326.0 
+GO:0051973 BP 6.43e-09    4/45    33/68838 D09 positive regulation of telomerase activity 3320.0, 3326.0, 6950.0, 10728.0 
+GO:0061684 BP 9.12e-09    3/45     7/68838 D06 chaperone-mediated autophagy             3312.0, 3320.0, 9531.0 
+GO:0030308 BP 9.15e-09    5/45   106/68838 D06 negative regulation of cell growth       1410.0, 1654.0, 3300.0, 3303.0, 3304.0 
+GO:0031053 BP 7.43e-08    3/45    13/68838 D11 primary miRNA processing                 1654.0, 3181.0, 6428.0 
+GO:1900034 BP 1.18e-07    3/45    15/68838 D06 regulation of cellular response to heat  3337.0, 10049.0, 26973.0 
+GO:0000398 BP 1.37e-07    5/45   182/68838 D11 mRNA splicing, via spliceosome           3181.0, 3192.0, 3312.0, 6428.0, 6434.0 
+GO:0071383 BP 1.45e-07    3/45    16/68838 D06 cellular response to steroid hormone stimulus 3303.0, 3304.0, 3312.0 
+GO:0007004 BP 2.95e-07    3/45    20/68838 D09 telomere maintenance via telomerase      3320.0, 3326.0, 10728.0 
+GO:1901673 BP 3.98e-07    3/45    22/68838 D10 regulation of mitotic spindle assembly   3192.0, 3303.0, 3304.0 
+GO:0032781 BP 3.98e-07    3/45    22/68838 D04 positive regulation of ATP-dependent activity 3300.0, 3337.0, 10598.0 
+GO:0009615 BP 4.08e-07    4/45    91/68838 D05 response to virus                        1191.0, 1654.0, 3315.0, 7178.0 
+GO:0046034 BP 5.94e-07    3/45    25/68838 D10 ATP metabolic process                    3303.0, 3304.0, 3312.0 
+GO:0043065 BP 6.98e-07    5/45   253/68838 D07 positive regulation of apoptotic process 1191.0, 1654.0, 3146.0, 3301.0, 3329.0 
+GO:0061740 BP 1.25e-06    2/45     3/68838 D11 protein targeting to lysosome involved in chaperone-mediated autophagy 1191.0, 3312.0 
+GO:0045429 BP 1.40e-06    3/45    33/68838 D07 positive regulation of nitric oxide biosynthetic process 1191.0, 3320.0, 3326.0 
+GO:0031333 BP 1.40e-06    3/45    33/68838 D06 negative regulation of protein-containing complex assembly 1191.0, 1410.0, 1654.0 
+GO:0042307 BP 2.00e-06    3/45    37/68838 D10 positive regulation of protein import into nucleus 3320.0, 3326.0, 9531.0 
+GO:0070434 BP 4.17e-06    2/45     5/68838 D09 positive regulation of nucleotide-binding oligomerization domain containing 2 signaling pathway 3303.0, 3304.0 
+GO:0070370 BP 4.17e-06    2/45     5/68838 D06 cellular heat acclimation                3303.0, 3304.0 
+GO:0010628 BP 4.30e-06    5/45   367/68838 D06 positive regulation of gene expression   1191.0, 1654.0, 3303.0, 3304.0, 55466.0 
+GO:0032757 BP 4.42e-06    3/45    48/68838 D08 positive regulation of interleukin-8 production 3146.0, 3303.0, 3304.0 
+GO:0043154 BP 5.32e-06    3/45    51/68838 D11 negative regulation of cysteine-type endopeptidase activity involved in apoptotic process 1410.0, 1654.0, 10049.0 
+GO:0031397 BP 5.32e-06    3/45    51/68838 D09 negative regulation of protein ubiquitination 3301.0, 3303.0, 3304.0 
+GO:0016192 BP 5.93e-06    4/45   178/68838 D04 vesicle-mediated transport               3303.0, 3304.0, 3310.0, 3312.0 
+GO:0007021 BP 8.76e-06    2/45     7/68838 D06 tubulin complex assembly                 1410.0, 6950.0 
+GO:0021955 BP 8.76e-06    2/45     7/68838 D10 central nervous system neuron axonogenesis 3320.0, 3326.0 
+GO:0060548 BP 1.06e-05    3/45    64/68838 D05 negative regulation of cell death        1191.0, 3303.0, 3304.0 
+GO:0019941 BP 1.17e-05    2/45     8/68838 D07 modification-dependent protein catabolic process 7314.0, 7316.0 
+GO:0090063 BP 1.17e-05    2/45     8/68838 D11 positive regulation of microtubule nucleation 3303.0, 3304.0 
+GO:0000122 BP 1.23e-05    6/45   788/68838 D11 negative regulation of transcription by RNA polymerase II 3146.0, 3181.0, 3192.0, 3303.0, 3337.0, 7323.0 
+GO:0045793 BP 1.50e-05    2/45     9/68838 D06 positive regulation of cell size         3320.0, 3326.0 
+GO:0071243 BP 1.50e-05    2/45     9/68838 D04 cellular response to arsenic-containing substance 1654.0, 90637.0 
+GO:0009651 BP 1.50e-05    2/45     9/68838 D04 response to salt stress                  3320.0, 3326.0 
+GO:0032880 BP 1.57e-05    3/45    73/68838 D05 regulation of protein localization       3320.0, 3326.0, 10049.0 
+GO:0032760 BP 2.40e-05    3/45    84/68838 D09 positive regulation of tumor necrosis factor production 1191.0, 3146.0, 3315.0 
+GO:1903265 BP 2.75e-05    2/45    12/68838 D08 positive regulation of tumor necrosis factor-mediated signaling pathway 3303.0, 3304.0 
+GO:1905907 BP 2.75e-05    2/45    12/68838 D07 negative regulation of amyloid fibril formation 1191.0, 1410.0 
+GO:1990830 BP 2.76e-05    3/45    88/68838 D06 cellular response to leukemia inhibitory factor 3192.0, 6428.0, 27101.0 
+GO:1902230 BP 4.36e-05    2/45    15/68838 D10 negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage 1191.0, 7178.0 
+GO:0032516 BP 4.36e-05    2/45    15/68838 D10 positive regulation of phosphoprotein phosphatase activity 3326.0, 23645.0 
+GO:0030521 BP 5.65e-05    2/45    17/68838 D08 androgen receptor signaling pathway      2288.0, 3301.0 
+GO:0051604 BP 5.65e-05    2/45    17/68838 D05 protein maturation                       871.0, 3329.0 
+GO:0032727 BP 7.88e-05    2/45    20/68838 D09 positive regulation of interferon-alpha production 1654.0, 3329.0 
+GO:0043254 BP 8.71e-05    2/45    21/68838 D05 regulation of protein-containing complex assembly 3312.0, 3320.0 
+GO:1901214 BP 8.71e-05    2/45    21/68838 D05 regulation of neuron death               1191.0, 7314.0 
+GO:0051092 BP 1.01e-04    3/45   136/68838 D12 positive regulation of NF-kappaB transcription factor activity 1191.0, 3303.0, 3304.0 
+GO:0048026 BP 1.05e-04    2/45    23/68838 D10 positive regulation of mRNA splicing, via spliceosome 3312.0, 6434.0 
+GO:0042220 BP 1.24e-04    2/45    25/68838 D06 response to cocaine                      3320.0, 3326.0 
+GO:2001240 BP 1.45e-04    2/45    27/68838 D10 negative regulation of extrinsic apoptotic signaling pathway in absence of ligand 3303.0, 3304.0 
+GO:0006402 BP 1.45e-04    2/45    27/68838 D08 mRNA catabolic process                   3303.0, 3304.0 
+GO:0032733 BP 1.45e-04    2/45    27/68838 D08 positive regulation of interleukin-10 production 3146.0, 3329.0 
+GO:0002218 BP 1.56e-04    2/45    28/68838 D08 activation of innate immune response     3146.0, 3320.0 
+GO:0032735 BP 1.68e-04    2/45    29/68838 D08 positive regulation of interleukin-12 production 3146.0, 3329.0 
+GO:0042981 BP 1.78e-04    3/45   165/68838 D06 regulation of apoptotic process          1191.0, 3320.0, 7178.0 
+GO:0045648 BP 1.80e-04    2/45    30/68838 D08 positive regulation of erythrocyte differentiation 3303.0, 3304.0 
+GO:0030010 BP 2.05e-04    2/45    32/68838 D03 establishment of cell polarity           3320.0, 3326.0 
+GO:0048675 BP 2.05e-04    2/45    32/68838 D05 axon extension                           3320.0, 3326.0 
+GO:1901998 BP 2.45e-04    2/45    35/68838 D04 toxin transport                          3301.0, 6950.0 
+GO:0043536 BP 2.45e-04    2/45    35/68838 D09 positive regulation of blood vessel endothelial cell migration 3146.0, 3315.0 
+GO:0009409 BP 2.45e-04    2/45    35/68838 D04 response to cold                         3320.0, 3329.0 
+GO:0008625 BP 2.74e-04    2/45    37/68838 D07 extrinsic apoptotic signaling pathway via death domain receptors 1654.0, 9531.0 
+GO:0032728 BP 2.89e-04    2/45    38/68838 D09 positive regulation of interferon-beta production 1654.0, 3320.0 
+GO:0070062 CC 1.19e-26   24/45  1761/68838 D06 extracellular exosome                    1191.0, 1410.0, 1654.0, 2288.0, 3181.0, 3301.0, 3303.0, 3304.0, 3310.0, 3312.0, 3315.0, 3320.0, 3326.0, 3329.0, 3336.0, 3337.0, 6950.0, 7178.0, 7314.0, 7316.0, 7323.0, 10598.0, 10808.0, 27101.0 
+GO:0005829 CC 9.49e-26   31/45  4826/68838 D02 cytosol                                  1191.0, 1410.0, 1654.0, 2288.0, 3192.0, 3300.0, 3301.0, 3303.0, 3304.0, 3310.0, 3312.0, 3315.0, 3320.0, 3326.0, 3329.0, 3337.0, 6415.0, 6950.0, 7178.0, 7314.0, 7316.0, 7323.0, 9531.0, 10049.0, 10598.0, 10728.0, 10808.0, 10963.0, 23645.0, 27101.0, 55466.0 
+GO:0005634 CC 1.93e-24   30/45  4775/68838 D05 nucleus                                  1191.0, 1195.0, 1410.0, 1654.0, 3146.0, 3181.0, 3192.0, 3300.0, 3301.0, 3303.0, 3304.0, 3310.0, 3312.0, 3315.0, 3320.0, 3326.0, 3337.0, 6434.0, 7178.0, 7314.0, 7316.0, 7323.0, 9531.0, 10049.0, 10728.0, 10808.0, 10957.0, 10963.0, 27101.0, 90637.0 
+GO:0005737 CC 1.84e-21   27/45  4324/68838 D02 cytoplasm                                1191.0, 1195.0, 1410.0, 1654.0, 2288.0, 3181.0, 3301.0, 3303.0, 3304.0, 3310.0, 3312.0, 3315.0, 3320.0, 3326.0, 3329.0, 3337.0, 4942.0, 6428.0, 7178.0, 7314.0, 7316.0, 9531.0, 10049.0, 10808.0, 23645.0, 55466.0, 90637.0 
+GO:0005654 CC 3.69e-18   23/45  3579/68838 D02 nucleoplasm                              1410.0, 1654.0, 2288.0, 3146.0, 3181.0, 3192.0, 3303.0, 3304.0, 3312.0, 3320.0, 3326.0, 3337.0, 4942.0, 6428.0, 6434.0, 7178.0, 7314.0, 7316.0, 7323.0, 10049.0, 10728.0, 10808.0, 27101.0 
+GO:0032991 CC 3.67e-17   13/45   563/68838 D01 protein-containing complex               1191.0, 1410.0, 2288.0, 3192.0, 3303.0, 3304.0, 3320.0, 3326.0, 3329.0, 6434.0, 10728.0, 10808.0, 10963.0 
+GO:1904813 CC 1.12e-14    8/45   117/68838 D05 ficolin-1-rich granule lumen             1654.0, 3146.0, 3303.0, 3304.0, 3310.0, 3312.0, 3320.0, 3326.0 
+GO:0005739 CC 4.99e-14   14/45  1273/68838 D05 mitochondrion                            1191.0, 1410.0, 2288.0, 3301.0, 3303.0, 3304.0, 3320.0, 3326.0, 3329.0, 3336.0, 4942.0, 7314.0, 23645.0, 50486.0 
+GO:0034774 CC 6.28e-11    6/45   100/68838 D06 secretory granule lumen                  1654.0, 3146.0, 3310.0, 3312.0, 3320.0, 3326.0 
+GO:0016020 CC 2.99e-10   13/45  1994/68838 D02 membrane                                 1191.0, 3181.0, 3192.0, 3301.0, 3312.0, 3320.0, 3326.0, 3329.0, 3336.0, 9531.0, 10049.0, 23645.0, 55466.0 
+GO:0048471 CC 3.55e-10    9/45   647/68838 D02 perinuclear region of cytoplasm          1191.0, 2288.0, 3301.0, 3303.0, 3304.0, 3312.0, 3320.0, 3326.0, 10049.0 
+GO:0072562 CC 1.81e-09    5/45    77/68838 D02 blood microparticle                      1191.0, 3303.0, 3304.0, 3310.0, 3312.0 
+GO:0101031 CC 4.31e-09    4/45    30/68838 D03 chaperone complex                        3312.0, 9531.0, 10728.0, 10963.0 
+GO:0005576 CC 5.32e-09   10/45  1219/68838 D02 extracellular region                     1191.0, 1654.0, 3146.0, 3303.0, 3304.0, 3310.0, 3312.0, 3320.0, 3326.0, 10808.0 
+GO:0005615 CC 1.34e-08    9/45   984/68838 D02 extracellular space                      871.0, 1191.0, 3146.0, 3312.0, 3315.0, 3329.0, 7178.0, 7314.0, 7316.0 
+GO:0009986 CC 2.93e-08    7/45   484/68838 D02 cell surface                             1191.0, 1410.0, 3146.0, 3192.0, 3320.0, 3326.0, 3329.0 
+GO:1990904 CC 8.94e-08    5/45   167/68838 D02 ribonucleoprotein complex                3181.0, 3192.0, 3303.0, 3304.0, 3312.0 
+GO:0016234 CC 3.44e-07    3/45    21/68838 D03 inclusion body                           3303.0, 3304.0, 3326.0 
+GO:0044295 CC 4.58e-07    3/45    23/68838 D04 axonal growth cone                       2288.0, 3320.0, 3326.0 
+GO:0030018 CC 1.01e-06    4/45   114/68838 D02 Z disc                                   1410.0, 3315.0, 9531.0, 10049.0 
+GO:0016235 CC 1.40e-06    3/45    33/68838 D04 aggresome                                3303.0, 3304.0, 9531.0 
+GO:0005886 CC 1.79e-06   12/45  3507/68838 D03 plasma membrane                          1654.0, 3303.0, 3304.0, 3310.0, 3312.0, 3320.0, 3326.0, 3329.0, 7314.0, 7316.0, 7323.0, 171586.0 
+GO:0031982 CC 2.04e-06    4/45   136/68838 D04 vesicle                                  3303.0, 3304.0, 7314.0, 7316.0 
+GO:0043025 CC 2.14e-06    5/45   318/68838 D03 neuronal cell body                       2288.0, 3320.0, 3326.0, 3337.0, 7314.0 
+GO:0031315 CC 2.50e-06    2/45     4/68838 D04 extrinsic component of mitochondrial outer membrane 7314.0, 7316.0 
+GO:0044294 CC 1.50e-05    2/45     9/68838 D04 dendritic growth cone                    3320.0, 3326.0 
+GO:0005813 CC 2.00e-05    5/45   505/68838 D03 centrosome                               1654.0, 3192.0, 3303.0, 3304.0, 6950.0 
+GO:0005783 CC 3.56e-05    6/45   953/68838 D05 endoplasmic reticulum                    871.0, 3303.0, 3304.0, 10598.0, 23645.0, 90637.0 
+GO:0042470 CC 3.69e-05    3/45    97/68838 D08 melanosome                               3312.0, 3320.0, 3326.0 
+GO:0071682 CC 3.78e-05    2/45    14/68838 D05 endocytic vesicle lumen                  3320.0, 10808.0 
+GO:0005681 CC 4.28e-05    3/45   102/68838 D03 spliceosomal complex                     3181.0, 3312.0, 6434.0 
+GO:0120293 CC 7.09e-05    2/45    19/68838 D05 dynein axonemal particle                 3326.0, 10963.0 
+GO:0005697 CC 7.88e-05    2/45    20/68838 D03 telomerase holoenzyme complex            3192.0, 10728.0 
+GO:0005814 CC 1.27e-04    3/45   147/68838 D05 centriole                                3303.0, 3304.0, 3310.0 
+GO:0016607 CC 1.32e-04    4/45   395/68838 D03 nuclear speck                            3192.0, 3303.0, 3304.0, 6428.0 
+GO:0005925 CC 1.51e-04    4/45   409/68838 D05 focal adhesion                           3303.0, 3304.0, 3312.0, 3315.0 
+GO:0005741 CC 2.08e-04    3/45   174/68838 D06 mitochondrial outer membrane             7314.0, 7316.0, 23645.0 
+GO:0031526 CC 3.37e-04    2/45    41/68838 D05 brush border membrane                    3320.0, 3326.0 
+GO:0005794 CC 3.92e-04    5/45   955/68838 D05 Golgi apparatus                          1191.0, 1410.0, 6950.0, 10963.0, 23645.0 
+GO:0010008 CC 4.36e-04    3/45   224/68838 D06 endosome membrane                        7314.0, 7316.0, 7323.0 
+GO:0000502 CC 5.64e-04    2/45    53/68838 D05 proteasome complex                       3315.0, 90637.0 
+GO:0098577 CC 6.54e-04    1/45     1/68838 D07 inactive sex chromosome                  3192.0 
+GO:0099020 CC 6.54e-04    1/45     1/68838 D06 perinuclear endoplasmic reticulum lumen  1191.0 
+GO:0005874 CC 7.74e-04    3/45   273/68838 D06 microtubule                              2288.0, 6950.0, 10808.0 
+GO:0030666 CC 7.96e-04    2/45    63/68838 D06 endocytic vesicle membrane               7314.0, 7316.0 
+GO:0005793 CC 9.81e-04    2/45    70/68838 D05 endoplasmic reticulum-Golgi intermediate compartment 871.0, 3146.0 
+GO:0062023 CC 1.03e-03    3/45   301/68838 D04 collagen-containing extracellular matrix 871.0, 1191.0, 3320.0 
+GO:0099634 CC 1.31e-03    1/45     2/68838 D05 postsynaptic specialization membrane     3312.0 
+GO:0098575 CC 1.31e-03    1/45     2/68838 D04 lumenal side of lysosomal membrane       3312.0 
+GO:1990565 CC 1.31e-03    1/45     2/68838 D04 HSP90-CDC37 chaperone complex            3326.0 
+GO:0051082 MF 1.05e-42   19/45   104/68838 D03 unfolded protein binding                 871.0, 1191.0, 1410.0, 3300.0, 3301.0, 3303.0, 3304.0, 3310.0, 3312.0, 3315.0, 3320.0, 3326.0, 3329.0, 3336.0, 3337.0, 6950.0, 10049.0, 10728.0, 55466.0 
+GO:0005515 MF 9.88e-33   43/45 10663/68838 D02 protein binding                          871.0, 1191.0, 1195.0, 1410.0, 1654.0, 2288.0, 3146.0, 3181.0, 3192.0, 3300.0, 3301.0, 3303.0, 3304.0, 3310.0, 3312.0, 3315.0, 3320.0, 3326.0, 3329.0, 3336.0, 3337.0, 4942.0, 6428.0, 6434.0, 6950.0, 7178.0, 7314.0, 7316.0, 7323.0, 9531.0, 10049.0, 10598.0, 10728.0, 10808.0, 10957.0, 10963.0, 23645.0, 26973.0, 27101.0, 50486.0, 55466.0, 57035.0, 90637.0 
+GO:0140662 MF 2.13e-25   10/45    31/68838 D02 ATP-dependent protein folding chaperone  3303.0, 3304.0, 3310.0, 3312.0, 3320.0, 3326.0, 3329.0, 3336.0, 6950.0, 10808.0 
+GO:0051087 MF 8.36e-25   12/45    97/68838 D03 chaperone binding                        1191.0, 3300.0, 3301.0, 3312.0, 3329.0, 3336.0, 3337.0, 9531.0, 10049.0, 10598.0, 10728.0, 55466.0 
+GO:0003723 MF 1.13e-22   20/45  1344/68838 D04 RNA binding                              871.0, 1654.0, 2288.0, 3146.0, 3181.0, 3192.0, 3303.0, 3304.0, 3312.0, 3315.0, 3320.0, 3326.0, 3329.0, 3336.0, 6428.0, 6434.0, 6950.0, 7178.0, 7316.0, 10963.0 
+GO:0031625 MF 5.93e-21   13/45   288/68838 D05 ubiquitin protein ligase binding         1191.0, 3301.0, 3303.0, 3304.0, 3310.0, 3312.0, 3320.0, 3326.0, 3329.0, 6950.0, 7314.0, 7316.0, 27101.0 
+GO:0005524 MF 1.76e-19   18/45  1352/68838 D08 ATP binding                              1195.0, 1654.0, 2288.0, 3192.0, 3301.0, 3303.0, 3304.0, 3310.0, 3312.0, 3320.0, 3326.0, 3329.0, 3336.0, 6950.0, 7323.0, 10808.0, 26973.0, 55466.0 
+GO:0044183 MF 2.00e-18    8/45    42/68838 D01 protein folding chaperone                3303.0, 3304.0, 3310.0, 3312.0, 3315.0, 3337.0, 6950.0, 10049.0 
+GO:0031072 MF 4.09e-15    7/45    52/68838 D03 heat shock protein binding               2288.0, 3303.0, 3304.0, 3310.0, 3312.0, 3326.0, 10049.0 
+GO:0016887 MF 5.68e-13    9/45   313/68838 D07 ATP hydrolysis activity                  1654.0, 3303.0, 3304.0, 3310.0, 3312.0, 3320.0, 3326.0, 3329.0, 6950.0 
+GO:0055131 MF 2.39e-12    4/45     6/68838 D04 C3HC4-type RING finger domain binding    3301.0, 3303.0, 3304.0, 3312.0 
+GO:0001671 MF 4.99e-12    5/45    25/68838 D03 ATPase activator activity                3300.0, 3301.0, 3337.0, 10049.0, 10598.0 
+GO:0051787 MF 9.22e-12    5/45    28/68838 D03 misfolded protein binding                1191.0, 3303.0, 3304.0, 3310.0, 3312.0 
+GO:0030544 MF 1.01e-10    5/45    44/68838 D04 Hsp70 protein binding                    3300.0, 3301.0, 3337.0, 10963.0, 55466.0 
+GO:0070182 MF 7.66e-10    4/45    20/68838 D04 DNA polymerase binding                   3146.0, 3320.0, 3326.0, 10728.0 
+GO:0140597 MF 1.04e-09    3/45     4/68838 D02 protein carrier chaperone                1191.0, 3312.0, 9531.0 
+GO:0045296 MF 1.10e-09    7/45   300/68838 D04 cadherin binding                         1654.0, 3303.0, 3312.0, 3326.0, 3337.0, 9531.0, 10598.0 
+GO:0140545 MF 2.61e-09    3/45     5/68838 D02 ATP-dependent protein disaggregase activity 3303.0, 3304.0, 3312.0 
+GO:0051879 MF 1.43e-08    4/45    40/68838 D04 Hsp90 protein binding                    10598.0, 10728.0, 10963.0, 26973.0 
+GO:0048156 MF 1.93e-08    4/45    43/68838 D04 tau protein binding                      1191.0, 2288.0, 3320.0, 3326.0 
+GO:0001664 MF 3.30e-08    4/45    49/68838 D04 G protein-coupled receptor binding       3301.0, 3303.0, 3304.0, 3312.0 
+GO:0023026 MF 3.44e-07    3/45    21/68838 D04 MHC class II protein complex binding     3312.0, 3320.0, 3326.0 
+GO:0032564 MF 4.18e-07    2/45     2/68838 D08 dATP binding                             3320.0, 3326.0 
+GO:0002135 MF 4.18e-07    2/45     2/68838 D07 CTP binding                              3320.0, 3326.0 
+GO:0042826 MF 7.83e-07    4/45   107/68838 D04 histone deacetylase binding              3303.0, 3304.0, 3320.0, 3326.0 
+GO:0097718 MF 1.05e-06    3/45    30/68838 D04 disordered domain specific binding       3303.0, 3320.0, 3326.0 
+GO:0002134 MF 1.25e-06    2/45     3/68838 D07 UTP binding                              3320.0, 3326.0 
+GO:0017098 MF 1.25e-06    2/45     3/68838 D04 sulfonylurea receptor binding            3320.0, 3326.0 
+GO:0019899 MF 2.14e-06    5/45   318/68838 D03 enzyme binding                           3303.0, 3304.0, 3310.0, 3312.0, 3329.0 
+GO:0003714 MF 5.67e-06    4/45   176/68838 D03 transcription corepressor activity       3146.0, 3192.0, 3303.0, 3337.0 
+GO:0030911 MF 6.26e-06    2/45     6/68838 D04 TPR domain binding                       3320.0, 3326.0 
+GO:0030235 MF 6.26e-06    2/45     6/68838 D03 nitric-oxide synthase regulator activity 3320.0, 3326.0 
+GO:0003725 MF 1.27e-05    3/45    68/68838 D05 double-stranded RNA binding              3192.0, 3326.0, 3329.0 
+GO:0070878 MF 1.87e-05    2/45    10/68838 D05 primary miRNA binding                    1654.0, 6428.0 
+GO:0042802 MF 2.17e-05    7/45  1312/68838 D03 identical protein binding                1410.0, 3192.0, 3315.0, 3320.0, 3326.0, 4942.0, 6434.0 
+GO:0000774 MF 2.29e-05    2/45    11/68838 D07 adenyl-nucleotide exchange factor activity 9531.0, 10808.0 
+GO:0031386 MF 2.75e-05    2/45    12/68838 D01 protein tag                              7314.0, 7316.0 
+GO:0036002 MF 3.24e-05    2/45    13/68838 D05 pre-mRNA binding                         3192.0, 6434.0 
+GO:0003697 MF 4.04e-05    3/45   100/68838 D05 single-stranded DNA binding              3146.0, 3192.0, 3329.0 
+GO:0044877 MF 4.29e-05    4/45   295/68838 D02 protein-containing complex binding       1191.0, 1410.0, 3192.0, 9531.0 
+GO:0042803 MF 4.60e-05    5/45   602/68838 D04 protein homodimerization activity        1410.0, 3315.0, 3320.0, 3326.0, 27101.0 
+GO:0140416 MF 7.88e-05    2/45    20/68838 D03 transcription regulator inhibitor activity 3303.0, 3337.0 
+GO:0050750 MF 8.71e-05    2/45    21/68838 D05 low-density lipoprotein particle receptor binding 1191.0, 3301.0 
+GO:0001530 MF 8.71e-05    2/45    21/68838 D03 lipopolysaccharide binding               3146.0, 3329.0 
+GO:0008143 MF 1.14e-04    2/45    24/68838 D07 poly(A) binding                          1654.0, 3192.0 
+GO:0003729 MF 3.46e-04    3/45   207/68838 D05 mRNA binding                             1654.0, 3320.0, 6434.0 
+GO:0001786 MF 5.43e-04    2/45    52/68838 D04 phosphatidylserine binding               3146.0, 3312.0 

@@ -1,0 +1,590 @@
+GO:0010628 BP 4.41e-14  17/255   297/56863 D06 positive regulation of gene expression   655.0, 1191.0, 2152.0, 2247.0, 2697.0, 3398.0, 3400.0, 4478.0, 4851.0, 4915.0, 5074.0, 5080.0, 5962.0, 9444.0, 28984.0, 81031.0, 170302.0 
+GO:0007165 BP 8.53e-14  24/255   747/56863 D04 signal transduction                      558.0, 952.0, 1501.0, 1793.0, 1956.0, 2247.0, 2549.0, 2565.0, 2697.0, 3707.0, 4651.0, 4921.0, 5525.0, 8404.0, 8613.0, 9547.0, 9770.0, 10494.0, 51285.0, 53342.0, 55970.0, 57447.0, 57522.0, 143872.0 
+GO:0007405 BP 4.21e-13   8/255    28/56863 D04 neuroblast proliferation                 429.0, 1495.0, 2247.0, 2737.0, 3400.0, 4763.0, 5080.0, 7101.0 
+GO:0045944 BP 6.82e-12  23/255   837/56863 D11 positive regulation of transcription by RNA polymerase II 429.0, 655.0, 1901.0, 1956.0, 2247.0, 2737.0, 3400.0, 4851.0, 5028.0, 5080.0, 5396.0, 5454.0, 5992.0, 6096.0, 6657.0, 7101.0, 7545.0, 8850.0, 10485.0, 11166.0, 25937.0, 28984.0, 30061.0 
+GO:0070374 BP 9.82e-12  11/255   121/56863 D09 positive regulation of ERK1 and ERK2 cascade 348.0, 1956.0, 2247.0, 2261.0, 4851.0, 4853.0, 4921.0, 5028.0, 5156.0, 5322.0, 5728.0 
+GO:0042060 BP 1.22e-11   9/255    63/56863 D04 wound healing                            358.0, 2247.0, 2737.0, 4763.0, 4853.0, 5156.0, 6385.0, 7042.0, 8613.0 
+GO:0016477 BP 1.25e-11  13/255   205/56863 D03 cell migration                           558.0, 1495.0, 1496.0, 1793.0, 1901.0, 2013.0, 2195.0, 5728.0, 6385.0, 7042.0, 10082.0, 22836.0, 23022.0 
+GO:0045665 BP 3.30e-11   8/255    46/56863 D06 negative regulation of neuron differentiation 429.0, 655.0, 2737.0, 3400.0, 5080.0, 6657.0, 7101.0, 9283.0 
+GO:0008284 BP 1.43e-10  14/255   304/56863 D05 positive regulation of cell population proliferation 1910.0, 1956.0, 2013.0, 2247.0, 2261.0, 4851.0, 4915.0, 5156.0, 5454.0, 5728.0, 6285.0, 7042.0, 25937.0, 84275.0 
+GO:0030154 BP 1.64e-10  15/255   367/56863 D03 cell differentiation                     1956.0, 2247.0, 3398.0, 3400.0, 5270.0, 5919.0, 6657.0, 7101.0, 7545.0, 7546.0, 11166.0, 11167.0, 25932.0, 57447.0, 91851.0 
+GO:0002052 BP 3.93e-10   6/255    21/56863 D08 positive regulation of neuroblast proliferation 2247.0, 2737.0, 3400.0, 4851.0, 5080.0, 7101.0 
+GO:0017038 BP 3.95e-10   4/255     4/56863 D07 protein import                           348.0, 1191.0, 3920.0, 257364.0 
+GO:0050680 BP 4.57e-10   7/255    39/56863 D06 negative regulation of epithelial cell proliferation 567.0, 4851.0, 5080.0, 5728.0, 6657.0, 7042.0, 10247.0 
+GO:0007186 BP 4.78e-10  13/255   275/56863 D05 G protein-coupled receptor signaling pathway 19.0, 183.0, 348.0, 1901.0, 5028.0, 6096.0, 23620.0, 55970.0, 57580.0, 59345.0, 64106.0, 84059.0, 166647.0 
+GO:0043066 BP 5.07e-10  14/255   335/56863 D07 negative regulation of apoptotic process 358.0, 429.0, 558.0, 663.0, 952.0, 1910.0, 1956.0, 2737.0, 4853.0, 4921.0, 5728.0, 7101.0, 11167.0, 30061.0 
+GO:0045893 BP 6.73e-10  17/255   548/56863 D10 positive regulation of DNA-templated transcription 183.0, 348.0, 655.0, 952.0, 1956.0, 2247.0, 2737.0, 3398.0, 3735.0, 4851.0, 5080.0, 6096.0, 6657.0, 7545.0, 7546.0, 8850.0, 64067.0 
+GO:0007507 BP 1.63e-09  10/255   148/56863 D04 heart development                        429.0, 2737.0, 3398.0, 4763.0, 4851.0, 5728.0, 7042.0, 8850.0, 27101.0, 51196.0 
+GO:0001503 BP 2.11e-09   7/255    48/56863 D02 ossification                             655.0, 1956.0, 2824.0, 4921.0, 6169.0, 9770.0, 91851.0 
+GO:0010977 BP 6.46e-09   7/255    56/56863 D08 negative regulation of neuron projection development 348.0, 567.0, 952.0, 2670.0, 5728.0, 7431.0, 10371.0 
+GO:0098609 BP 1.07e-08   9/255   133/56863 D03 cell-cell adhesion                       361.0, 1266.0, 1495.0, 1496.0, 1501.0, 1741.0, 1956.0, 2195.0, 84059.0 
+GO:0071456 BP 1.38e-08   8/255    96/56863 D06 cellular response to hypoxia             358.0, 655.0, 4851.0, 4921.0, 5728.0, 10449.0, 28984.0, 112399.0 
+GO:0045766 BP 1.38e-08   8/255    96/56863 D07 positive regulation of angiogenesis      358.0, 2013.0, 2152.0, 2247.0, 2549.0, 7101.0, 23328.0, 23576.0 
+GO:0010629 BP 1.47e-08  10/255   186/56863 D06 negative regulation of gene expression   348.0, 2247.0, 3398.0, 4851.0, 4853.0, 5074.0, 5454.0, 7042.0, 54625.0, 81031.0 
+GO:0072089 BP 1.59e-08   6/255    37/56863 D03 stem cell proliferation                  2247.0, 2737.0, 3400.0, 4763.0, 5396.0, 7101.0 
+GO:0007275 BP 1.68e-08   7/255    64/56863 D03 multicellular organism development       558.0, 1956.0, 2261.0, 4915.0, 4921.0, 5156.0, 11167.0 
+GO:0050768 BP 1.93e-08   5/255    19/56863 D07 negative regulation of neurogenesis      567.0, 655.0, 4851.0, 5080.0, 283659.0 
+GO:0090090 BP 2.41e-08   8/255   103/56863 D08 negative regulation of canonical Wnt signaling pathway 348.0, 2737.0, 4038.0, 4851.0, 6657.0, 9368.0, 25937.0, 27122.0 
+GO:0007399 BP 2.95e-08  12/255   320/56863 D04 nervous system development               558.0, 1910.0, 2247.0, 2824.0, 4853.0, 5454.0, 7101.0, 9445.0, 11341.0, 84059.0, 89797.0, 285382.0 
+GO:0000122 BP 3.25e-08  17/255   713/56863 D11 negative regulation of transcription by RNA polymerase II 165.0, 429.0, 1910.0, 2737.0, 3398.0, 3400.0, 4851.0, 4853.0, 5074.0, 5080.0, 5396.0, 6657.0, 7101.0, 7227.0, 25937.0, 138151.0, 170302.0 
+GO:0009611 BP 3.51e-08   6/255    42/56863 D03 response to wounding                     2670.0, 5080.0, 6506.0, 6507.0, 6657.0, 7042.0 
+GO:0007155 BP 3.99e-08  12/255   329/56863 D02 cell adhesion                            928.0, 1404.0, 1495.0, 1501.0, 1901.0, 2013.0, 2195.0, 4604.0, 4684.0, 4921.0, 9071.0, 220296.0 
+GO:2000648 BP 4.31e-08   5/255    22/56863 D06 positive regulation of stem cell proliferation 2247.0, 2697.0, 3400.0, 5396.0, 7101.0 
+GO:0048712 BP 4.89e-08   4/255     9/56863 D10 negative regulation of astrocyte differentiation 3400.0, 4763.0, 7101.0, 9283.0 
+GO:0007166 BP 7.48e-08   8/255   119/56863 D05 cell surface receptor signaling pathway  183.0, 1910.0, 1956.0, 3707.0, 5028.0, 23620.0, 84059.0, 166647.0 
+GO:0001501 BP 8.07e-08   7/255    80/56863 D04 skeletal system development              655.0, 1404.0, 2261.0, 6169.0, 7042.0, 7227.0, 9770.0 
+GO:0060020 BP 8.12e-08   4/255    10/56863 D06 Bergmann glial cell differentiation      2670.0, 7431.0, 8613.0, 9283.0 
+GO:0048715 BP 8.12e-08   4/255    10/56863 D10 negative regulation of oligodendrocyte differentiation 3400.0, 4763.0, 4851.0, 26022.0 
+GO:0008285 BP 8.99e-08  11/255   287/56863 D05 negative regulation of cell population proliferation 928.0, 1741.0, 4851.0, 5270.0, 5728.0, 7042.0, 8850.0, 9368.0, 23576.0, 28984.0, 138151.0 
+GO:0048708 BP 1.27e-07   4/255    11/56863 D05 astrocyte differentiation                3400.0, 4851.0, 5080.0, 7101.0 
+GO:0022409 BP 1.27e-07   4/255    11/56863 D06 positive regulation of cell-cell adhesion 4651.0, 6657.0, 8613.0, 84466.0 
+GO:0045892 BP 1.28e-07  13/255   441/56863 D10 negative regulation of DNA-templated transcription 429.0, 655.0, 952.0, 2737.0, 3398.0, 3400.0, 4851.0, 6096.0, 7546.0, 27122.0, 54625.0, 81628.0, 138151.0 
+GO:1904707 BP 1.30e-07   5/255    27/56863 D07 positive regulation of vascular associated smooth muscle cell proliferation 183.0, 2247.0, 2697.0, 4763.0, 4921.0 
+GO:0033674 BP 1.85e-07   6/255    55/56863 D09 positive regulation of kinase activity   558.0, 1956.0, 2261.0, 4915.0, 4921.0, 5156.0 
+GO:0007411 BP 2.35e-07   8/255   138/56863 D08 axon guidance                            655.0, 2737.0, 4851.0, 4853.0, 5080.0, 10371.0, 23022.0, 170302.0 
+GO:0042475 BP 2.69e-07   5/255    31/56863 D05 odontogenesis of dentin-containing tooth 655.0, 1495.0, 2737.0, 4038.0, 5156.0 
+GO:0007200 BP 2.69e-07   5/255    31/56863 D06 phospholipase C-activating G protein-coupled receptor signaling pathway 183.0, 1910.0, 5028.0, 23620.0, 51196.0 
+GO:0048663 BP 2.74e-07   4/255    13/56863 D04 neuron fate commitment                   429.0, 3398.0, 5080.0, 5454.0 
+GO:0006883 BP 2.74e-07   4/255    13/56863 D09 cellular sodium ion homeostasis          183.0, 477.0, 482.0, 6507.0 
+GO:0021772 BP 2.74e-07   4/255    13/56863 D03 olfactory bulb development               3398.0, 7101.0, 7545.0, 10371.0 
+GO:0016525 BP 2.83e-07   6/255    59/56863 D08 negative regulation of angiogenesis      183.0, 4763.0, 6678.0, 7042.0, 28984.0, 154796.0 
+GO:0030036 BP 3.09e-07   8/255   143/56863 D06 actin cytoskeleton organization          1465.0, 4763.0, 7402.0, 8936.0, 9368.0, 23022.0, 55785.0, 154796.0 
+GO:0018108 BP 4.03e-07   7/255   101/56863 D08 peptidyl-tyrosine phosphorylation        558.0, 1956.0, 2202.0, 2261.0, 4915.0, 4921.0, 5156.0 
+GO:0007605 BP 4.03e-07   7/255   101/56863 D06 sensory perception of sound              501.0, 6169.0, 6507.0, 8556.0, 9368.0, 84059.0, 89797.0 
+GO:2000647 BP 5.19e-07   4/255    15/56863 D06 negative regulation of stem cell proliferation 2247.0, 2737.0, 4763.0, 7101.0 
+GO:0006631 BP 6.65e-07   6/255    68/56863 D07 fatty acid metabolic process             1374.0, 1573.0, 1622.0, 2182.0, 5322.0, 414149.0 
+GO:0019934 BP 6.89e-07   4/255    16/56863 D08 cGMP-mediated signaling                  348.0, 358.0, 1910.0, 10335.0 
+GO:0007601 BP 7.21e-07   7/255   110/56863 D06 visual perception                        2202.0, 3766.0, 5080.0, 6096.0, 7101.0, 7546.0, 84059.0 
+GO:0150104 BP 7.26e-07   6/255    69/56863 D06 transport across blood-brain barrier     477.0, 482.0, 6506.0, 6507.0, 9368.0, 81031.0 
+GO:0048146 BP 7.76e-07   5/255    38/56863 D06 positive regulation of fibroblast proliferation 183.0, 358.0, 1956.0, 4921.0, 5156.0 
+GO:0007204 BP 8.60e-07   6/255    71/56863 D03 positive regulation of cytosolic calcium ion concentration 183.0, 952.0, 1910.0, 5028.0, 5156.0, 51196.0 
+GO:0001525 BP 8.75e-07   8/255   164/56863 D03 angiogenesis                             1901.0, 2549.0, 2752.0, 4763.0, 5728.0, 7101.0, 25932.0, 154796.0 
+GO:0030335 BP 8.75e-07   8/255   164/56863 D06 positive regulation of cell migration    1901.0, 1956.0, 2152.0, 4851.0, 5156.0, 5962.0, 10371.0, 23224.0 
+GO:0045124 BP 8.85e-07   3/255     5/56863 D06 regulation of bone resorption            1901.0, 4763.0, 5166.0 
+GO:1905920 BP 8.85e-07   3/255     5/56863 D06 positive regulation of CoA-transferase activity 183.0, 348.0, 1622.0 
+GO:0070779 BP 8.85e-07   3/255     5/56863 D11 D-aspartate import across plasma membrane 2670.0, 6506.0, 6507.0 
+GO:0021764 BP 8.85e-07   3/255     5/56863 D03 amygdala development                     477.0, 4763.0, 7101.0 
+GO:0030326 BP 1.15e-06   4/255    18/56863 D05 embryonic limb morphogenesis             655.0, 4853.0, 5396.0, 7042.0 
+GO:0008360 BP 1.23e-06   7/255   119/56863 D06 regulation of cell shape                 4478.0, 4651.0, 5028.0, 5962.0, 9368.0, 22836.0, 55785.0 
+GO:0060291 BP 1.30e-06   5/255    42/56863 D08 long-term synaptic potentiation          2670.0, 4915.0, 5270.0, 5728.0, 7101.0 
+GO:0006811 BP 1.39e-06   6/255    77/56863 D04 ion transport                            5028.0, 6506.0, 6507.0, 9071.0, 23209.0, 83733.0 
+GO:0050679 BP 1.46e-06   5/255    43/56863 D06 positive regulation of epithelial cell proliferation 1956.0, 2247.0, 2752.0, 4851.0, 5654.0 
+GO:0006935 BP 1.46e-06   5/255    43/56863 D03 chemotaxis                               1901.0, 2247.0, 5919.0, 9547.0, 154796.0 
+GO:0015670 BP 1.76e-06   3/255     6/56863 D06 carbon dioxide transport                 358.0, 361.0, 760.0 
+GO:0061384 BP 1.76e-06   3/255     6/56863 D04 heart trabecula morphogenesis            655.0, 1901.0, 4851.0 
+GO:0001937 BP 1.81e-06   4/255    20/56863 D07 negative regulation of endothelial cell proliferation 348.0, 4763.0, 6678.0, 28984.0 
+GO:0001649 BP 2.67e-06   6/255    86/56863 D04 osteoblast differentiation               2247.0, 2737.0, 3400.0, 4763.0, 6657.0, 25937.0 
+GO:0006357 BP 2.82e-06  19/255  1208/56863 D10 regulation of transcription by RNA polymerase II 429.0, 2737.0, 4851.0, 5080.0, 5396.0, 5454.0, 5992.0, 6096.0, 7101.0, 7227.0, 7545.0, 7546.0, 11166.0, 27164.0, 64067.0, 79776.0, 81628.0, 138151.0, 170302.0 
+GO:0007169 BP 2.86e-06   6/255    87/56863 D07 transmembrane receptor protein tyrosine kinase signaling pathway 558.0, 1956.0, 2261.0, 4915.0, 4921.0, 5156.0 
+GO:0048485 BP 3.08e-06   3/255     7/56863 D04 sympathetic nervous system development   429.0, 4763.0, 10371.0 
+GO:0007406 BP 3.08e-06   3/255     7/56863 D08 negative regulation of neuroblast proliferation 1495.0, 4763.0, 5080.0 
+GO:0034374 BP 3.08e-06   3/255     7/56863 D08 low-density lipoprotein particle remodeling 183.0, 348.0, 5322.0 
+GO:0007435 BP 3.08e-06   3/255     7/56863 D05 salivary gland morphogenesis             1956.0, 5080.0, 7042.0 
+GO:0014068 BP 3.13e-06   5/255    50/56863 D08 positive regulation of phosphatidylinositol 3-kinase signaling 183.0, 2247.0, 4915.0, 5156.0, 7042.0 
+GO:0010595 BP 3.46e-06   5/255    51/56863 D08 positive regulation of endothelial cell migration 183.0, 2247.0, 6678.0, 8613.0, 23328.0 
+GO:0030324 BP 4.20e-06   5/255    53/56863 D04 lung development                         2247.0, 2737.0, 4851.0, 5156.0, 10247.0 
+GO:0043691 BP 4.91e-06   3/255     8/56863 D08 reverse cholesterol transport            19.0, 348.0, 1191.0 
+GO:0008347 BP 4.91e-06   3/255     8/56863 D04 glial cell migration                     928.0, 5028.0, 7042.0 
+GO:0048557 BP 4.91e-06   3/255     8/56863 D05 embryonic digestive tract morphogenesis  2737.0, 3398.0, 5156.0 
+GO:0007015 BP 5.39e-06   6/255    97/56863 D05 actin filament organization              1495.0, 2013.0, 2195.0, 4643.0, 22836.0, 84952.0 
+GO:0045669 BP 5.53e-06   5/255    56/56863 D06 positive regulation of osteoblast differentiation 655.0, 2247.0, 2737.0, 4921.0, 25937.0 
+GO:0032024 BP 6.39e-06   4/255    27/56863 D10 positive regulation of insulin secretion 952.0, 2182.0, 2746.0, 2752.0 
+GO:0048566 BP 7.34e-06   3/255     9/56863 D05 embryonic digestive tract development    2737.0, 5919.0, 7042.0 
+GO:0006833 BP 7.34e-06   3/255     9/56863 D05 water transport                          358.0, 361.0, 6563.0 
+GO:0046849 BP 7.34e-06   3/255     9/56863 D03 bone remodeling                          2697.0, 4853.0, 9770.0 
+GO:0048711 BP 7.34e-06   3/255     9/56863 D10 positive regulation of astrocyte differentiation 3398.0, 4851.0, 5270.0 
+GO:0055072 BP 7.43e-06   4/255    28/56863 D09 iron ion homeostasis                     567.0, 30061.0, 56898.0, 79901.0 
+GO:0001942 BP 7.43e-06   4/255    28/56863 D04 hair follicle development                1956.0, 4038.0, 7042.0, 11166.0 
+GO:0010467 BP 8.45e-06   5/255    61/56863 D04 gene expression                          348.0, 1910.0, 2670.0, 5730.0, 7545.0 
+GO:1990573 BP 8.59e-06   4/255    29/56863 D09 potassium ion import across plasma membrane 477.0, 482.0, 3760.0, 3766.0 
+GO:0048839 BP 8.59e-06   4/255    29/56863 D03 inner ear development                    6657.0, 7042.0, 26020.0, 84059.0 
+GO:0001654 BP 8.59e-06   4/255    29/56863 D05 eye development                          5080.0, 6657.0, 7042.0, 91851.0 
+GO:0048709 BP 9.88e-06   4/255    30/56863 D05 oligodendrocyte differentiation          2737.0, 4763.0, 4851.0, 4915.0 
+GO:0048856 BP 9.88e-06   4/255    30/56863 D02 anatomical structure development         5080.0, 6678.0, 7101.0, 8404.0 
+GO:0008219 BP 9.88e-06   4/255    30/56863 D02 cell death                               143.0, 2012.0, 2013.0, 7042.0 
+GO:0043410 BP 1.00e-05   6/255   108/56863 D08 positive regulation of MAPK cascade      2247.0, 2261.0, 4915.0, 6657.0, 9283.0, 51196.0 
+GO:0007224 BP 1.07e-05   5/255    64/56863 D06 smoothened signaling pathway             1495.0, 2737.0, 5080.0, 5396.0, 9283.0 
+GO:0010718 BP 1.13e-05   4/255    31/56863 D06 positive regulation of epithelial to mesenchymal transition 655.0, 7042.0, 25937.0, 28984.0 
+GO:0051649 BP 1.16e-05   5/255    65/56863 D03 establishment of localization in cell    358.0, 558.0, 5028.0, 6563.0, 30061.0 
+GO:0007417 BP 1.17e-05   6/255   111/56863 D04 central nervous system development       1404.0, 5080.0, 5728.0, 6285.0, 7545.0, 7546.0 
+GO:0007010 BP 1.23e-05   6/255   112/56863 D05 cytoskeleton organization                348.0, 1496.0, 4478.0, 23022.0, 51196.0, 55785.0 
+GO:0003184 BP 1.43e-05   3/255    11/56863 D04 pulmonary valve morphogenesis            4851.0, 4853.0, 7042.0 
+GO:0006629 BP 1.43e-05   6/255   115/56863 D03 lipid metabolic process                  1191.0, 2182.0, 5360.0, 7274.0, 10247.0, 26020.0 
+GO:1900087 BP 1.46e-05   4/255    33/56863 D09 positive regulation of G1/S transition of mitotic cell cycle 1956.0, 4921.0, 5962.0, 28984.0 
+GO:0043407 BP 1.46e-05   4/255    33/56863 D12 negative regulation of MAP kinase activity 183.0, 348.0, 655.0, 4763.0 
+GO:0014067 BP 1.90e-05   3/255    12/56863 D08 negative regulation of phosphatidylinositol 3-kinase signaling 5270.0, 5728.0, 9368.0 
+GO:0007263 BP 1.90e-05   3/255    12/56863 D07 nitric oxide mediated signal transduction 183.0, 348.0, 23576.0 
+GO:0086064 BP 1.90e-05   3/255    12/56863 D04 cell communication by electrical coupling involved in cardiac conduction 477.0, 482.0, 2697.0 
+GO:0072148 BP 2.00e-05   2/255     2/56863 D04 epithelial cell fate commitment          4851.0, 170302.0 
+GO:0010574 BP 2.00e-05   2/255     2/56863 D07 regulation of vascular endothelial growth factor production 361.0, 57447.0 
+GO:0019285 BP 2.00e-05   2/255     2/56863 D08 glycine betaine biosynthetic process from choline 501.0, 55349.0 
+GO:0021940 BP 2.00e-05   2/255     2/56863 D07 positive regulation of cerebellar granule cell precursor proliferation 2247.0, 9283.0 
+GO:0051897 BP 2.18e-05   5/255    74/56863 D08 positive regulation of protein kinase B signaling 558.0, 1956.0, 2152.0, 2247.0, 57462.0 
+GO:0050821 BP 2.24e-05   7/255   185/56863 D04 protein stabilization                    482.0, 1191.0, 2597.0, 3920.0, 5728.0, 8613.0, 9770.0 
+GO:0045087 BP 2.24e-05   8/255   255/56863 D06 innate immune response                   558.0, 1191.0, 1653.0, 5919.0, 24138.0, 54625.0, 55601.0, 256987.0 
+GO:0032869 BP 2.33e-05   5/255    75/56863 D08 cellular response to insulin stimulus    5872.0, 8850.0, 10580.0, 11031.0, 84275.0 
+GO:0023019 BP 2.47e-05   3/255    13/56863 D05 signal transduction involved in regulation of gene expression 5028.0, 5080.0, 5156.0 
+GO:0014002 BP 2.47e-05   3/255    13/56863 D05 astrocyte development                    2670.0, 5454.0, 7431.0 
+GO:0030168 BP 2.59e-05   4/255    38/56863 D03 platelet activation                      558.0, 928.0, 5028.0, 5270.0 
+GO:0007173 BP 2.59e-05   4/255    38/56863 D09 epidermal growth factor receptor signaling pathway 1956.0, 2202.0, 2549.0, 51196.0 
+GO:0048754 BP 3.13e-05   3/255    14/56863 D06 branching morphogenesis of an epithelial tube 655.0, 4851.0, 25932.0 
+GO:0015813 BP 3.13e-05   3/255    14/56863 D10 L-glutamate transmembrane transport      6506.0, 6507.0, 83733.0 
+GO:0021762 BP 3.18e-05   4/255    40/56863 D04 substantia nigra development             2247.0, 2746.0, 57447.0, 59345.0 
+GO:0016055 BP 3.41e-05   6/255   134/56863 D07 Wnt signaling pathway                    1501.0, 4038.0, 9368.0, 27122.0, 57447.0, 79971.0 
+GO:0072659 BP 3.55e-05   6/255   135/56863 D06 protein localization to plasma membrane  2013.0, 5028.0, 5872.0, 5962.0, 9368.0, 10484.0 
+GO:0001570 BP 3.87e-05   4/255    42/56863 D04 vasculogenesis                           4643.0, 4915.0, 9444.0, 154796.0 
+GO:2000811 BP 3.90e-05   3/255    15/56863 D08 negative regulation of anoikis           4851.0, 4915.0, 5166.0 
+GO:0120009 BP 4.25e-05   4/255    43/56863 D06 intermembrane lipid transfer             19.0, 348.0, 5360.0, 7274.0 
+GO:0046777 BP 4.71e-05   6/255   142/56863 D07 protein autophosphorylation              1956.0, 2261.0, 4915.0, 4921.0, 5156.0, 10494.0 
+GO:0051091 BP 4.77e-05   5/255    87/56863 D11 positive regulation of DNA-binding transcription factor activity 4921.0, 5728.0, 7546.0, 8613.0, 28984.0 
+GO:0048169 BP 4.78e-05   3/255    16/56863 D09 regulation of long-term neuronal synaptic plasticity 183.0, 3766.0, 4763.0 
+GO:0048593 BP 4.78e-05   3/255    16/56863 D06 camera-type eye morphogenesis            358.0, 2737.0, 4763.0 
+GO:0043537 BP 4.78e-05   3/255    16/56863 D09 negative regulation of blood vessel endothelial cell migration 348.0, 2247.0, 28984.0 
+GO:0048844 BP 4.78e-05   3/255    16/56863 D05 artery morphogenesis                     348.0, 4763.0, 5396.0 
+GO:0022011 BP 4.78e-05   3/255    16/56863 D05 myelination in peripheral nervous system 4763.0, 4915.0, 5454.0 
+GO:0035338 BP 4.78e-05   3/255    16/56863 D13 long-chain fatty-acyl-CoA biosynthetic process 2182.0, 23205.0, 54898.0 
+GO:0006979 BP 5.32e-05   5/255    89/56863 D03 response to oxidative stress             1827.0, 5445.0, 6414.0, 10494.0, 51435.0 
+GO:0001934 BP 5.50e-05   6/255   146/56863 D09 positive regulation of protein phosphorylation 1910.0, 1956.0, 2247.0, 4915.0, 5028.0, 5919.0 
+GO:0007163 BP 5.56e-05   4/255    46/56863 D02 establishment or maintenance of cell polarity 1495.0, 2195.0, 10494.0, 22836.0 
+GO:0046579 BP 5.79e-05   3/255    17/56863 D09 positive regulation of Ras protein signal transduction 3707.0, 4851.0, 4853.0 
+GO:0001656 BP 5.79e-05   3/255    17/56863 D05 metanephros development                  655.0, 2737.0, 4763.0 
+GO:0090049 BP 5.99e-05   2/255     3/56863 D09 regulation of cell migration involved in sprouting angiogenesis 2247.0, 7101.0 
+GO:0062043 BP 5.99e-05   2/255     3/56863 D07 positive regulation of cardiac epithelial to mesenchymal transition 2013.0, 4851.0 
+GO:0014010 BP 5.99e-05   2/255     3/56863 D04 Schwann cell proliferation               2670.0, 4763.0 
+GO:0021798 BP 5.99e-05   2/255     3/56863 D05 forebrain dorsal/ventral pattern formation 2737.0, 5080.0 
+GO:0060354 BP 5.99e-05   2/255     3/56863 D05 negative regulation of cell adhesion molecule production 361.0, 4851.0 
+GO:0061740 BP 5.99e-05   2/255     3/56863 D11 protein targeting to lysosome involved in chaperone-mediated autophagy 1191.0, 3920.0 
+GO:1901201 BP 5.99e-05   2/255     3/56863 D06 regulation of extracellular matrix assembly 183.0, 4851.0 
+GO:0044241 BP 5.99e-05   2/255     3/56863 D03 lipid digestion                          358.0, 170302.0 
+GO:2001045 BP 5.99e-05   2/255     3/56863 D07 negative regulation of integrin-mediated signaling pathway 1495.0, 81031.0 
+GO:0032286 BP 5.99e-05   2/255     3/56863 D07 central nervous system myelin maintenance 1191.0, 5728.0 
+GO:1900221 BP 5.99e-05   2/255     3/56863 D04 regulation of amyloid-beta clearance     348.0, 1191.0 
+GO:0072678 BP 5.99e-05   2/255     3/56863 D07 T cell migration                         1901.0, 4478.0 
+GO:0071228 BP 5.99e-05   2/255     3/56863 D04 cellular response to tumor cell          4851.0, 4853.0 
+GO:0003162 BP 5.99e-05   2/255     3/56863 D07 atrioventricular node development        4851.0, 4853.0 
+GO:0071222 BP 6.24e-05   5/255    92/56863 D06 cellular response to lipopolysaccharide  19.0, 558.0, 1910.0, 7431.0, 57088.0 
+GO:0030198 BP 6.57e-05   5/255    93/56863 D05 extracellular matrix organization        2670.0, 4763.0, 5156.0, 7101.0, 151887.0 
+GO:0006813 BP 6.58e-05   4/255    48/56863 D07 potassium ion transport                  358.0, 477.0, 3760.0, 3766.0 
+GO:0007267 BP 6.91e-05   5/255    94/56863 D03 cell-cell signaling                      183.0, 2195.0, 2261.0, 2697.0, 9547.0 
+GO:0061028 BP 6.92e-05   3/255    18/56863 D06 establishment of endothelial barrier     1910.0, 4478.0, 5962.0 
+GO:0030325 BP 6.92e-05   3/255    18/56863 D05 adrenal gland development                4763.0, 5156.0, 27122.0 
+GO:1902430 BP 6.92e-05   3/255    18/56863 D08 negative regulation of amyloid-beta formation 348.0, 1191.0, 4915.0 
+GO:0032967 BP 6.92e-05   3/255    18/56863 D06 positive regulation of collagen biosynthetic process 4921.0, 7431.0, 28984.0 
+GO:0042130 BP 6.92e-05   3/255    18/56863 D09 negative regulation of T cell proliferation 5074.0, 5728.0, 6385.0 
+GO:0010875 BP 6.92e-05   3/255    18/56863 D09 positive regulation of cholesterol efflux 19.0, 348.0, 5360.0 
+GO:0043123 BP 7.14e-05   6/255   153/56863 D08 positive regulation of I-kappaB kinase/NF-kappaB signaling 1653.0, 2597.0, 2697.0, 6285.0, 24138.0, 79971.0 
+GO:0043065 BP 7.51e-05   7/255   224/56863 D07 positive regulation of apoptotic process 655.0, 1191.0, 4763.0, 4853.0, 5074.0, 5654.0, 9770.0 
+GO:0006897 BP 7.67e-05   6/255   155/56863 D05 endocytosis                              4038.0, 4643.0, 26020.0, 26052.0, 51435.0, 257364.0 
+GO:0008286 BP 8.36e-05   4/255    51/56863 D08 insulin receptor signaling pathway       2549.0, 5166.0, 5919.0, 10580.0 
+GO:0007611 BP 9.03e-05   4/255    52/56863 D05 learning or memory                       567.0, 1956.0, 5728.0, 6285.0 
+GO:0008361 BP 9.60e-05   3/255    20/56863 D05 regulation of cell size                  4478.0, 5962.0, 9368.0 
+GO:0001676 BP 9.60e-05   3/255    20/56863 D08 long-chain fatty acid metabolic process  1374.0, 2182.0, 23205.0 
+GO:0007568 BP 1.02e-04   5/255   102/56863 D02 aging                                    183.0, 1495.0, 1910.0, 2247.0, 5028.0 
+GO:0097150 BP 1.12e-04   3/255    21/56863 D04 neuronal stem cell population maintenance 4851.0, 5396.0, 6657.0 
+GO:0071260 BP 1.13e-04   4/255    55/56863 D05 cellular response to mechanical stimulus 183.0, 358.0, 477.0, 2247.0 
+GO:1902115 BP 1.19e-04   2/255     4/56863 D06 regulation of organelle assembly         4478.0, 5962.0 
+GO:0003331 BP 1.19e-04   2/255     4/56863 D08 positive regulation of extracellular matrix constituent secretion 183.0, 28984.0 
+GO:0003344 BP 1.19e-04   2/255     4/56863 D06 pericardium morphogenesis                655.0, 4851.0 
+GO:0042426 BP 1.19e-04   2/255     4/56863 D07 choline catabolic process                501.0, 55349.0 
+GO:0016264 BP 1.19e-04   2/255     4/56863 D07 gap junction assembly                    1495.0, 2697.0 
+GO:0060406 BP 1.19e-04   2/255     4/56863 D05 positive regulation of penile erection   1910.0, 5028.0 
+GO:0006538 BP 1.19e-04   2/255     4/56863 D10 glutamate catabolic process              2746.0, 2752.0 
+GO:1905908 BP 1.19e-04   2/255     4/56863 D07 positive regulation of amyloid fibril formation 348.0, 1191.0 
+GO:0048505 BP 1.19e-04   2/255     4/56863 D05 regulation of timing of cell differentiation 5080.0, 5270.0 
+GO:0009992 BP 1.19e-04   2/255     4/56863 D07 cellular water homeostasis               358.0, 361.0 
+GO:0001701 BP 1.27e-04   6/255   170/56863 D07 in utero embryonic development           2737.0, 4643.0, 4851.0, 4853.0, 5156.0, 154796.0 
+GO:0006915 BP 1.35e-04   9/255   421/56863 D04 apoptotic process                        663.0, 1793.0, 4853.0, 5074.0, 5728.0, 7101.0, 10371.0, 30061.0, 112399.0 
+GO:0009410 BP 1.40e-04   6/255   173/56863 D03 response to xenobiotic stimulus          143.0, 952.0, 1374.0, 6506.0, 6507.0, 7042.0 
+GO:0042311 BP 1.48e-04   3/255    23/56863 D07 vasodilation                             183.0, 348.0, 1910.0 
+GO:0043552 BP 1.48e-04   3/255    23/56863 D11 positive regulation of phosphatidylinositol 3-kinase activity 2247.0, 2261.0, 5156.0 
+GO:0030509 BP 1.58e-04   4/255    60/56863 D08 BMP signaling pathway                    655.0, 4853.0, 7042.0, 91851.0 
+GO:0045879 BP 1.68e-04   3/255    24/56863 D07 negative regulation of smoothened signaling pathway 2737.0, 5270.0, 9283.0 
+GO:0030182 BP 1.72e-04   5/255   114/56863 D04 neuron differentiation                   429.0, 1901.0, 2182.0, 4915.0, 5454.0 
+GO:0045765 BP 1.91e-04   3/255    25/56863 D06 regulation of angiogenesis               2013.0, 2247.0, 4763.0 
+GO:0030858 BP 1.99e-04   2/255     5/56863 D06 positive regulation of epithelial cell differentiation 655.0, 5080.0 
+GO:0048935 BP 1.99e-04   2/255     5/56863 D05 peripheral nervous system neuron development 429.0, 4915.0 
+GO:0021902 BP 1.99e-04   2/255     5/56863 D06 commitment of neuronal cell to specific neuron type in forebrain 429.0, 5080.0 
+GO:0033700 BP 1.99e-04   2/255     5/56863 D07 phospholipid efflux                      19.0, 348.0 
+GO:0097113 BP 1.99e-04   2/255     5/56863 D09 AMPA glutamate receptor clustering       348.0, 91851.0 
+GO:0050891 BP 1.99e-04   2/255     5/56863 D06 multicellular organismal water homeostasis 358.0, 361.0 
+GO:0033363 BP 1.99e-04   2/255     5/56863 D06 secretory granule organization           358.0, 5270.0 
+GO:0061101 BP 1.99e-04   2/255     5/56863 D07 neuroendocrine cell differentiation      4851.0, 5454.0 
+GO:0060136 BP 1.99e-04   2/255     5/56863 D03 embryonic process involved in female pregnancy 2013.0, 2182.0 
+GO:0045823 BP 1.99e-04   2/255     5/56863 D07 positive regulation of heart contraction 477.0, 7042.0 
+GO:0010544 BP 1.99e-04   2/255     5/56863 D09 negative regulation of platelet activation 348.0, 5156.0 
+GO:0046638 BP 1.99e-04   2/255     5/56863 D10 positive regulation of alpha-beta T cell differentiation 2737.0, 3707.0 
+GO:0140009 BP 1.99e-04   2/255     5/56863 D11 L-aspartate import across plasma membrane 6506.0, 6507.0 
+GO:0001568 BP 2.15e-04   3/255    26/56863 D03 blood vessel development                 5080.0, 8613.0, 84168.0 
+GO:0060070 BP 2.16e-04   4/255    65/56863 D08 canonical Wnt signaling pathway          1910.0, 2247.0, 5728.0, 8613.0 
+GO:0051384 BP 2.41e-04   3/255    27/56863 D07 response to glucocorticoid               361.0, 5730.0, 23205.0 
+GO:0001933 BP 2.43e-04   4/255    67/56863 D09 negative regulation of protein phosphorylation 5080.0, 5728.0, 8613.0, 25937.0 
+GO:0009653 BP 2.43e-04   4/255    67/56863 D02 anatomical structure morphogenesis       2195.0, 6657.0, 11166.0, 27122.0 
+GO:0030307 BP 2.57e-04   4/255    68/56863 D06 positive regulation of cell growth       952.0, 1956.0, 7042.0, 84275.0 
+GO:0008104 BP 2.64e-04   5/255   125/56863 D04 protein localization                     1495.0, 2697.0, 3400.0, 154796.0, 220296.0 
+GO:0045429 BP 2.69e-04   3/255    28/56863 D07 positive regulation of nitric oxide biosynthetic process 183.0, 1191.0, 23576.0 
+GO:0045787 BP 2.69e-04   3/255    28/56863 D05 positive regulation of cell cycle        429.0, 7042.0, 7101.0 
+GO:0035264 BP 2.87e-04   4/255    70/56863 D03 multicellular organism growth            4853.0, 6506.0, 25932.0, 25937.0 
+GO:0030195 BP 2.97e-04   2/255     6/56863 D08 negative regulation of blood coagulation 348.0, 5270.0 
+GO:1900223 BP 2.97e-04   2/255     6/56863 D05 positive regulation of amyloid-beta clearance 348.0, 7274.0 
+GO:0006081 BP 2.97e-04   2/255     6/56863 D03 cellular aldehyde metabolic process      216.0, 501.0 
+GO:0022612 BP 2.97e-04   2/255     6/56863 D04 gland morphogenesis                      4478.0, 9368.0 
+GO:0006564 BP 2.97e-04   2/255     6/56863 D10 L-serine biosynthetic process            29968.0, 256987.0 
+GO:0050999 BP 2.97e-04   2/255     6/56863 D06 regulation of nitric-oxide synthase activity 1956.0, 23576.0 
+GO:0032489 BP 2.97e-04   2/255     6/56863 D10 regulation of Cdc42 protein signal transduction 19.0, 348.0 
+GO:0048762 BP 2.97e-04   2/255     6/56863 D04 mesenchymal cell differentiation         655.0, 25937.0 
+GO:0060740 BP 2.97e-04   2/255     6/56863 D05 prostate gland epithelium morphogenesis  3400.0, 4851.0 
+GO:0009449 BP 2.97e-04   2/255     6/56863 D08 gamma-aminobutyric acid biosynthetic process 216.0, 6507.0 
+GO:0034109 BP 2.97e-04   2/255     6/56863 D04 homotypic cell-cell adhesion             8613.0, 84466.0 
+GO:0048853 BP 2.97e-04   2/255     6/56863 D03 forebrain morphogenesis                  4763.0, 5728.0 
+GO:0010518 BP 2.97e-04   2/255     6/56863 D07 positive regulation of phospholipase activity 2261.0, 5322.0 
+GO:0032835 BP 2.97e-04   2/255     6/56863 D03 glomerulus development                   25937.0, 51196.0 
+GO:1990874 BP 2.97e-04   2/255     6/56863 D05 vascular associated smooth muscle cell proliferation 4763.0, 57447.0 
+GO:0035815 BP 2.97e-04   2/255     6/56863 D08 positive regulation of renal sodium excretion 183.0, 1910.0 
+GO:0046548 BP 2.97e-04   2/255     6/56863 D07 retinal rod cell development             4915.0, 6096.0 
+GO:0030334 BP 3.20e-04   4/255    72/56863 D05 regulation of cell migration             2247.0, 5080.0, 5270.0, 154796.0 
+GO:0061098 BP 3.31e-04   3/255    30/56863 D11 positive regulation of protein tyrosine kinase activity 183.0, 1741.0, 1956.0 
+GO:0043087 BP 3.74e-04   4/255    75/56863 D05 regulation of GTPase activity            4763.0, 4915.0, 5962.0, 55785.0 
+GO:0045668 BP 4.02e-04   3/255    32/56863 D06 negative regulation of osteoblast differentiation 4851.0, 6096.0, 202151.0 
+GO:0001819 BP 4.02e-04   3/255    32/56863 D07 positive regulation of cytokine production 183.0, 2597.0, 28984.0 
+GO:0071277 BP 4.13e-04   4/255    77/56863 D06 cellular response to calcium ion         3707.0, 6263.0, 25932.0, 84059.0 
+GO:0060413 BP 4.14e-04   2/255     7/56863 D04 atrial septum morphogenesis              4853.0, 7042.0 
+GO:0006940 BP 4.14e-04   2/255     7/56863 D07 regulation of smooth muscle contraction  477.0, 51196.0 
+GO:0048103 BP 4.14e-04   2/255     7/56863 D04 somatic stem cell division               4851.0, 7042.0 
+GO:1902966 BP 4.14e-04   2/255     7/56863 D08 positive regulation of protein localization to early endosome 4478.0, 5962.0 
+GO:0090331 BP 4.14e-04   2/255     7/56863 D10 negative regulation of platelet aggregation 928.0, 5270.0 
+GO:0010594 BP 4.14e-04   2/255     7/56863 D07 regulation of endothelial cell migration 2013.0, 2752.0 
+GO:0034375 BP 4.14e-04   2/255     7/56863 D08 high-density lipoprotein particle remodeling 348.0, 5360.0 
+GO:0003416 BP 4.14e-04   2/255     7/56863 D05 endochondral bone growth                 2261.0, 4921.0 
+GO:0061002 BP 4.14e-04   2/255     7/56863 D09 negative regulation of dendritic spine morphogenesis 5728.0, 26052.0 
+GO:0034380 BP 4.14e-04   2/255     7/56863 D08 high-density lipoprotein particle assembly 19.0, 348.0 
+GO:0014047 BP 4.14e-04   2/255     7/56863 D09 glutamate secretion                      2697.0, 4915.0 
+GO:0010936 BP 4.14e-04   2/255     7/56863 D09 negative regulation of macrophage cytokine production 558.0, 7042.0 
+GO:0070778 BP 4.14e-04   2/255     7/56863 D10 L-aspartate transmembrane transport      6506.0, 83733.0 
+GO:0061549 BP 4.14e-04   2/255     7/56863 D05 sympathetic ganglion development         429.0, 10371.0 
+GO:0035988 BP 4.14e-04   2/255     7/56863 D03 chondrocyte proliferation                2261.0, 4921.0 
+GO:0061684 BP 4.14e-04   2/255     7/56863 D06 chaperone-mediated autophagy             3920.0, 171024.0 
+GO:0071314 BP 4.14e-04   2/255     7/56863 D07 cellular response to cocaine             6506.0, 6507.0 
+GO:0060840 BP 4.14e-04   2/255     7/56863 D04 artery development                       2737.0, 81031.0 
+GO:0072015 BP 4.14e-04   2/255     7/56863 D06 podocyte development                     4643.0, 4853.0 
+GO:0014824 BP 4.14e-04   2/255     7/56863 D09 artery smooth muscle contraction         183.0, 952.0 
+GO:0030501 BP 4.40e-04   3/255    33/56863 D07 positive regulation of bone mineralization 655.0, 2824.0, 84059.0 
+GO:0007420 BP 4.60e-04   6/255   216/56863 D04 brain development                        1901.0, 4763.0, 6414.0, 7545.0, 7546.0, 10247.0 
+GO:0055085 BP 4.74e-04   5/255   142/56863 D04 transmembrane transport                  361.0, 6563.0, 79901.0, 81031.0, 84239.0 
+GO:0030216 BP 4.81e-04   3/255    34/56863 D06 keratinocyte differentiation             4851.0, 5080.0, 25932.0 
+GO:0019233 BP 4.81e-04   3/255    34/56863 D05 sensory perception of pain               358.0, 1910.0, 5028.0 
+GO:0045747 BP 5.25e-04   3/255    35/56863 D07 positive regulation of Notch signaling pathway 429.0, 4851.0, 7042.0 
+GO:0006606 BP 5.25e-04   4/255    82/56863 D08 protein import into nucleus              183.0, 2737.0, 4763.0, 4851.0 
+GO:0001822 BP 5.50e-04   4/255    83/56863 D04 kidney development                       183.0, 4038.0, 7042.0, 10247.0 
+GO:0048484 BP 5.51e-04   2/255     8/56863 D04 enteric nervous system development       1910.0, 170302.0 
+GO:0051683 BP 5.51e-04   2/255     8/56863 D04 establishment of Golgi localization      9368.0, 10494.0 
+GO:1990416 BP 5.51e-04   2/255     8/56863 D07 cellular response to brain-derived neurotrophic factor stimulus 4915.0, 8936.0 
+GO:0060134 BP 5.51e-04   2/255     8/56863 D06 prepulse inhibition                      1496.0, 5728.0 
+GO:0032940 BP 5.51e-04   2/255     8/56863 D05 secretion by cell                        558.0, 5270.0 
+GO:2000643 BP 5.51e-04   2/255     8/56863 D08 positive regulation of early endosome to late endosome transport 4478.0, 5962.0 
+GO:0010955 BP 5.51e-04   2/255     8/56863 D08 negative regulation of protein processing 5270.0, 26022.0 
+GO:0048699 BP 5.51e-04   2/255     8/56863 D05 generation of neurons                    4038.0, 7042.0 
+GO:0045792 BP 5.51e-04   2/255     8/56863 D06 negative regulation of cell size         5728.0, 5962.0 
+GO:0001504 BP 5.51e-04   2/255     8/56863 D05 neurotransmitter uptake                  477.0, 6507.0 
+GO:0070848 BP 5.51e-04   2/255     8/56863 D04 response to growth factor                5028.0, 6657.0 
+GO:0050927 BP 5.51e-04   2/255     8/56863 D07 positive regulation of positive chemotaxis 1901.0, 2152.0 
+GO:0051248 BP 5.51e-04   2/255     8/56863 D06 negative regulation of protein metabolic process 348.0, 1910.0 
+GO:0043491 BP 5.70e-04   3/255    36/56863 D06 protein kinase B signaling               558.0, 2247.0, 5728.0 
+GO:0070371 BP 5.70e-04   3/255    36/56863 D07 ERK1 and ERK2 cascade                    183.0, 2247.0, 3735.0 
+GO:0031623 BP 5.70e-04   3/255    36/56863 D07 receptor internalization                 928.0, 11031.0, 26052.0 
+GO:0007193 BP 6.19e-04   3/255    37/56863 D07 adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway 1901.0, 5028.0, 9283.0 
+GO:0030199 BP 6.69e-04   3/255    38/56863 D06 collagen fibril organization             4763.0, 4921.0, 7042.0 
+GO:0030514 BP 6.69e-04   3/255    38/56863 D08 negative regulation of BMP signaling pathway 4851.0, 5654.0, 91851.0 
+GO:0007565 BP 6.69e-04   3/255    38/56863 D03 female pregnancy                         183.0, 361.0, 952.0 
+GO:0043525 BP 6.69e-04   3/255    38/56863 D08 positive regulation of neuron apoptotic process 429.0, 4763.0, 7042.0 
+GO:0001764 BP 6.85e-04   4/255    88/56863 D04 neuron migration                         558.0, 4915.0, 5080.0, 10371.0 
+GO:2000774 BP 7.06e-04   2/255     9/56863 D06 positive regulation of cellular senescence 567.0, 5074.0 
+GO:0071806 BP 7.06e-04   2/255     9/56863 D07 protein transmembrane transport          19.0, 1910.0 
+GO:0036376 BP 7.06e-04   2/255     9/56863 D09 sodium ion export across plasma membrane 477.0, 482.0 
+GO:0006956 BP 7.06e-04   2/255     9/56863 D07 complement activation                    1191.0, 28984.0 
+GO:0031642 BP 7.06e-04   2/255     9/56863 D07 negative regulation of myelination       5728.0, 26022.0 
+GO:0010737 BP 7.06e-04   2/255     9/56863 D06 protein kinase A signaling               5872.0, 5962.0 
+GO:0045446 BP 7.06e-04   2/255     9/56863 D05 endothelial cell differentiation         1901.0, 11167.0 
+GO:0030889 BP 7.06e-04   2/255     9/56863 D09 negative regulation of B cell proliferation 5074.0, 5728.0 
+GO:0032060 BP 7.06e-04   2/255     9/56863 D07 bleb assembly                            2012.0, 2013.0 
+GO:0097105 BP 7.06e-04   2/255     9/56863 D06 presynaptic membrane assembly            4038.0, 5728.0 
+GO:0045777 BP 7.06e-04   2/255     9/56863 D04 positive regulation of blood pressure    183.0, 3398.0 
+GO:0010744 BP 7.06e-04   2/255     9/56863 D06 positive regulation of macrophage derived foam cell differentiation 183.0, 5322.0 
+GO:0140115 BP 7.06e-04   2/255     9/56863 D05 export across plasma membrane            19.0, 2697.0 
+GO:0098712 BP 7.06e-04   2/255     9/56863 D11 L-glutamate import across plasma membrane 6506.0, 6507.0 
+GO:0070633 BP 7.06e-04   2/255     9/56863 D04 transepithelial transport                6506.0, 6507.0 
+GO:0048665 BP 7.06e-04   2/255     9/56863 D04 neuron fate specification                429.0, 5454.0 
+GO:2001241 BP 7.06e-04   2/255     9/56863 D10 positive regulation of extrinsic apoptotic signaling pathway in absence of ligand 1495.0, 4763.0 
+GO:1902807 BP 7.06e-04   2/255     9/56863 D08 negative regulation of cell cycle G1/S phase transition 5728.0, 6657.0 
+GO:0006885 BP 7.06e-04   2/255     9/56863 D08 regulation of pH                         1910.0, 5166.0 
+GO:2000048 BP 7.06e-04   2/255     9/56863 D07 negative regulation of cell-cell adhesion mediated by cadherin 4851.0, 28984.0 
+GO:0010863 BP 7.06e-04   2/255     9/56863 D08 positive regulation of phospholipase C activity 2247.0, 5156.0 
+GO:0005979 BP 7.06e-04   2/255     9/56863 D09 regulation of glycogen biosynthetic process 5509.0, 648791.0 
+GO:0001837 BP 7.23e-04   3/255    39/56863 D05 epithelial to mesenchymal transition     655.0, 4851.0, 7042.0 
+GO:0030855 BP 7.79e-04   3/255    40/56863 D04 epithelial cell differentiation          1266.0, 1374.0, 56898.0 
+GO:0042127 BP 8.10e-04   4/255    92/56863 D04 regulation of cell population proliferation 183.0, 1191.0, 7042.0, 112399.0 
+GO:0010976 BP 8.78e-04   4/255    94/56863 D08 positive regulation of neuron projection development 183.0, 348.0, 482.0, 4915.0 
+GO:0003085 BP 8.80e-04   2/255    10/56863 D05 negative regulation of systemic arterial blood pressure 9283.0, 143872.0 
+GO:0003382 BP 8.80e-04   2/255    10/56863 D05 epithelial cell morphogenesis            2195.0, 23022.0 
+GO:0030500 BP 8.80e-04   2/255    10/56863 D06 regulation of bone mineralization        1901.0, 4921.0 
+GO:1905907 BP 8.80e-04   2/255    10/56863 D07 negative regulation of amyloid fibril formation 348.0, 1191.0 
+GO:0042246 BP 8.80e-04   2/255    10/56863 D04 tissue regeneration                      4851.0, 6657.0 
+GO:0001952 BP 8.80e-04   2/255    10/56863 D06 regulation of cell-matrix adhesion       2013.0, 4763.0 
+GO:0086009 BP 8.80e-04   2/255    10/56863 D04 membrane repolarization                  477.0, 482.0 
+GO:0061314 BP 8.80e-04   2/255    10/56863 D07 Notch signaling involved in heart development 4851.0, 4853.0 
+GO:0010764 BP 8.80e-04   2/255    10/56863 D07 negative regulation of fibroblast migration 2247.0, 9368.0 
+GO:0001709 BP 8.80e-04   2/255    10/56863 D03 cell fate determination                  4853.0, 5080.0 
+GO:0045475 BP 8.80e-04   2/255    10/56863 D05 locomotor rhythm                         3398.0, 5728.0 
+GO:0003091 BP 8.80e-04   2/255    10/56863 D07 renal water homeostasis                  358.0, 361.0 
+GO:0009954 BP 8.80e-04   2/255    10/56863 D04 proximal/distal pattern formation        2737.0, 4038.0 
+GO:0051896 BP 8.80e-04   2/255    10/56863 D07 regulation of protein kinase B signaling 4915.0, 5728.0 
+GO:0001913 BP 8.80e-04   2/255    10/56863 D06 T cell mediated cytotoxicity             567.0, 2013.0 
+GO:0030007 BP 8.80e-04   2/255    10/56863 D09 cellular potassium ion homeostasis       477.0, 482.0 
+GO:0032958 BP 8.80e-04   2/255    10/56863 D07 inositol phosphate biosynthetic process  2247.0, 3707.0 
+GO:0043534 BP 8.80e-04   2/255    10/56863 D07 blood vessel endothelial cell migration  2013.0, 154796.0 
+GO:0071300 BP 8.99e-04   3/255    42/56863 D06 cellular response to retinoic acid       19.0, 358.0, 6096.0 
+GO:0009306 BP 8.99e-04   3/255    42/56863 D07 protein secretion                        19.0, 5872.0, 284119.0 
+GO:0030308 BP 9.50e-04   4/255    96/56863 D06 negative regulation of cell growth       183.0, 2697.0, 5270.0, 7042.0 
+GO:0060395 BP 9.63e-04   3/255    43/56863 D05 SMAD protein signal transduction         655.0, 7042.0, 7431.0 
+GO:0006635 BP 9.63e-04   3/255    43/56863 D09 fatty acid beta-oxidation                1374.0, 10449.0, 56898.0 
+GO:0060041 BP 9.63e-04   3/255    43/56863 D03 retina development in camera-type eye    5080.0, 6096.0, 7101.0 
+GO:0042552 BP 9.63e-04   3/255    43/56863 D04 myelination                              9444.0, 23205.0, 256987.0 
+GO:0019722 BP 9.63e-04   3/255    43/56863 D07 calcium-mediated signaling               1827.0, 1910.0, 51196.0 
+GO:0031532 BP 9.63e-04   3/255    43/56863 D07 actin cytoskeleton reorganization        1901.0, 2549.0, 84168.0 
+GO:0071230 BP 9.63e-04   3/255    43/56863 D06 cellular response to amino acid stimulus 1956.0, 4915.0, 5156.0 
+GO:0051289 BP 1.03e-03   3/255    44/56863 D08 protein homotetramerization              361.0, 567.0, 6263.0 
+GO:0006006 BP 1.03e-03   3/255    44/56863 D06 glucose metabolic process                1374.0, 2597.0, 5166.0 
+GO:0048666 BP 1.03e-03   3/255    44/56863 D04 neuron development                       429.0, 5454.0, 7042.0 
+GO:0000165 BP 1.06e-03   4/255    99/56863 D06 MAPK cascade                             1956.0, 2261.0, 3707.0, 4763.0 
+GO:0060317 BP 1.07e-03   2/255    11/56863 D06 cardiac epithelial to mesenchymal transition 4851.0, 7042.0 
+GO:0021537 BP 1.07e-03   2/255    11/56863 D03 telencephalon development                5992.0, 6506.0 
+GO:0021670 BP 1.07e-03   2/255    11/56863 D03 lateral ventricle development            358.0, 482.0 
+GO:0030902 BP 1.07e-03   2/255    11/56863 D03 hindbrain development                    655.0, 79971.0 
+GO:0043651 BP 1.07e-03   2/255    11/56863 D09 linoleic acid metabolic process          1573.0, 54898.0 
+GO:0002437 BP 1.07e-03   2/255    11/56863 D05 inflammatory response to antigenic stimulus 4851.0, 4853.0 
+GO:0042474 BP 1.07e-03   2/255    11/56863 D04 middle ear morphogenesis                 5396.0, 6169.0 
+GO:1904754 BP 1.07e-03   2/255    11/56863 D08 positive regulation of vascular associated smooth muscle cell migration 183.0, 4921.0 
+GO:0045199 BP 1.07e-03   2/255    11/56863 D06 maintenance of epithelial cell apical/basal polarity 9368.0, 51248.0 
+GO:0042462 BP 1.07e-03   2/255    11/56863 D06 eye photoreceptor cell development       5080.0, 6096.0 
+GO:0060411 BP 1.07e-03   2/255    11/56863 D03 cardiac septum morphogenesis             655.0, 4851.0 
+GO:0048596 BP 1.07e-03   2/255    11/56863 D07 embryonic camera-type eye morphogenesis  655.0, 5080.0 
+GO:0003181 BP 1.07e-03   2/255    11/56863 D04 atrioventricular valve morphogenesis     4851.0, 7042.0 
+GO:2000009 BP 1.07e-03   2/255    11/56863 D07 negative regulation of protein localization to cell surface 2824.0, 257364.0 
+GO:0003094 BP 1.07e-03   2/255    11/56863 D05 glomerular filtration                    358.0, 4643.0 
+GO:0006366 BP 1.09e-03   5/255   171/56863 D10 transcription by RNA polymerase II       2247.0, 4851.0, 5080.0, 5396.0, 30061.0 
+GO:0031175 BP 1.11e-03   4/255   100/56863 D06 neuron projection development            348.0, 2824.0, 5872.0, 7431.0 
+GO:0006869 BP 1.17e-03   3/255    46/56863 D05 lipid transport                          19.0, 5360.0, 26020.0 
+GO:0060021 BP 1.25e-03   3/255    47/56863 D03 roof of mouth development                2737.0, 5156.0, 5396.0 
+GO:0032331 BP 1.28e-03   2/255    12/56863 D07 negative regulation of chondrocyte differentiation 2202.0, 2737.0 
+GO:0060122 BP 1.28e-03   2/255    12/56863 D07 inner ear receptor cell stereocilium organization 6385.0, 84059.0 
+GO:0071404 BP 1.28e-03   2/255    12/56863 D06 cellular response to low-density lipoprotein particle stimulus 19.0, 928.0 
+GO:0050771 BP 1.28e-03   2/255    12/56863 D09 negative regulation of axonogenesis      4038.0, 5728.0 
+GO:0048738 BP 1.28e-03   2/255    12/56863 D06 cardiac muscle tissue development        655.0, 5728.0 
+GO:0003222 BP 1.28e-03   2/255    12/56863 D07 ventricular trabecula myocardium morphogenesis 4851.0, 7042.0 
+GO:0021819 BP 1.28e-03   2/255    12/56863 D03 layer formation in cerebral cortex       2737.0, 7101.0 
+GO:0044794 BP 1.28e-03   2/255    12/56863 D06 positive regulation by host of viral process 348.0, 253832.0 
+GO:0045725 BP 1.28e-03   2/255    12/56863 D10 positive regulation of glycogen biosynthetic process 10580.0, 648791.0 
+GO:0002009 BP 1.28e-03   2/255    12/56863 D04 morphogenesis of an epithelium           760.0, 9368.0 
+GO:0021983 BP 1.28e-03   2/255    12/56863 D05 pituitary gland development              5080.0, 6657.0 
+GO:0140289 BP 1.28e-03   2/255    12/56863 D07 protein mono-ADP-ribosylation            143.0, 54625.0 
+GO:0045109 BP 1.28e-03   2/255    12/56863 D07 intermediate filament organization       2670.0, 7431.0 
+GO:0045860 BP 1.33e-03   3/255    48/56863 D10 positive regulation of protein kinase activity 4921.0, 6385.0, 9770.0 
+GO:0042632 BP 1.50e-03   3/255    50/56863 D07 cholesterol homeostasis                  19.0, 348.0, 29099.0 
+GO:0022010 BP 1.51e-03   2/255    13/56863 D05 central nervous system myelination       3400.0, 3766.0 
+GO:0030279 BP 1.51e-03   2/255    13/56863 D05 negative regulation of ossification      4038.0, 4851.0 
+GO:0021542 BP 1.51e-03   2/255    13/56863 D03 dentate gyrus development                5728.0, 7101.0 
+GO:0045198 BP 1.51e-03   2/255    13/56863 D06 establishment of epithelial cell apical/basal polarity 4478.0, 9368.0 
+GO:0003203 BP 1.51e-03   2/255    13/56863 D05 endocardial cushion morphogenesis        4851.0, 7042.0 
+GO:0031668 BP 1.51e-03   2/255    13/56863 D04 cellular response to extracellular stimulus 558.0, 6506.0 
+GO:0021895 BP 1.51e-03   2/255    13/56863 D06 cerebral cortex neuron differentiation   3400.0, 7101.0 
+GO:0090660 BP 1.51e-03   2/255    13/56863 D06 cerebrospinal fluid circulation          361.0, 9368.0 
+GO:0010763 BP 1.51e-03   2/255    13/56863 D07 positive regulation of fibroblast migration 358.0, 4921.0 
+GO:0051044 BP 1.51e-03   2/255    13/56863 D08 positive regulation of membrane protein ectodomain proteolysis 348.0, 257364.0 
+GO:0070986 BP 1.51e-03   2/255    13/56863 D04 left/right axis specification            4851.0, 4853.0 
+GO:0035641 BP 1.51e-03   2/255    13/56863 D04 locomotory exploration behavior          348.0, 477.0 
+GO:0019229 BP 1.51e-03   2/255    13/56863 D07 regulation of vasoconstriction           183.0, 477.0 
+GO:0032874 BP 1.51e-03   2/255    13/56863 D09 positive regulation of stress-activated MAPK cascade 7042.0, 10494.0 
+GO:0032228 BP 1.51e-03   2/255    13/56863 D07 regulation of synaptic transmission, GABAergic 4763.0, 5728.0 
+GO:0042100 BP 1.51e-03   2/255    13/56863 D06 B cell proliferation                     952.0, 5728.0 
+GO:0071318 BP 1.51e-03   2/255    13/56863 D07 cellular response to ATP                 5028.0, 6263.0 
+GO:0042759 BP 1.51e-03   2/255    13/56863 D09 long-chain fatty acid biosynthetic process 9444.0, 23205.0 
+GO:1904385 BP 1.51e-03   2/255    13/56863 D08 cellular response to angiotensin         183.0, 4921.0 
+GO:0071346 BP 1.58e-03   3/255    51/56863 D06 cellular response to interferon-gamma    361.0, 2597.0, 7431.0 
+GO:0030336 BP 1.68e-03   4/255   112/56863 D06 negative regulation of cell migration    4763.0, 5728.0, 25932.0, 57522.0 
+GO:0001702 BP 1.76e-03   2/255    14/56863 D05 gastrulation with mouth forming second   8613.0, 154796.0 
+GO:1900181 BP 1.76e-03   2/255    14/56863 D07 negative regulation of protein localization to nucleus 1495.0, 26022.0 
+GO:0007202 BP 1.76e-03   2/255    14/56863 D09 activation of phospholipase C activity   183.0, 1956.0 
+GO:0046889 BP 1.76e-03   2/255    14/56863 D07 positive regulation of lipid biosynthetic process 348.0, 10580.0 
+GO:2000573 BP 1.76e-03   2/255    14/56863 D08 positive regulation of DNA biosynthetic process 2247.0, 28984.0 
+GO:0033344 BP 1.76e-03   2/255    14/56863 D08 cholesterol efflux                       19.0, 348.0 
+GO:0050678 BP 1.76e-03   2/255    14/56863 D05 regulation of epithelial cell proliferation 1910.0, 170302.0 
+GO:0060045 BP 1.76e-03   2/255    14/56863 D09 positive regulation of cardiac muscle cell proliferation 2247.0, 4851.0 
+GO:0021766 BP 1.77e-03   3/255    53/56863 D03 hippocampus development                  2737.0, 3400.0, 7545.0 
+GO:0032147 BP 1.87e-03   3/255    54/56863 D11 activation of protein kinase activity    2013.0, 7042.0, 28984.0 
+GO:0070373 BP 1.87e-03   3/255    54/56863 D09 negative regulation of ERK1 and ERK2 cascade 5728.0, 9368.0, 57447.0 
+GO:0005886 CC 1.19e-69 108/255  2934/56863 D03 plasma membrane                          19.0, 348.0, 358.0, 361.0, 477.0, 482.0, 558.0, 567.0, 760.0, 928.0, 952.0, 1495.0, 1501.0, 1741.0, 1793.0, 1901.0, 1910.0, 1956.0, 2012.0, 2013.0, 2040.0, 2152.0, 2182.0, 2195.0, 2261.0, 2565.0, 2597.0, 2697.0, 2731.0, 2752.0, 2824.0, 3735.0, 3760.0, 3766.0, 3920.0, 4038.0, 4478.0, 4643.0, 4651.0, 4684.0, 4851.0, 4853.0, 4915.0, 4921.0, 5028.0, 5074.0, 5156.0, 5322.0, 5445.0, 5654.0, 5728.0, 5872.0, 5962.0, 6263.0, 6385.0, 6506.0, 6507.0, 6563.0, 6678.0, 7314.0, 7402.0, 7431.0, 8613.0, 9071.0, 9283.0, 9445.0, 9770.0, 10082.0, 10580.0, 11031.0, 22836.0, 23022.0, 23205.0, 23209.0, 23620.0, 24138.0, 25932.0, 25937.0, 26020.0, 26022.0, 26052.0, 30061.0, 51196.0, 51285.0, 54625.0, 55970.0, 57088.0, 57580.0, 64106.0, 64114.0, 79026.0, 79901.0, 79971.0, 81031.0, 81533.0, 84059.0, 84168.0, 84239.0, 84466.0, 91851.0, 130132.0, 154796.0, 166647.0, 253832.0, 256987.0, 257364.0, 283659.0, 284119.0 
+GO:0005737 CC 1.06e-40  91/255  3942/56863 D02 cytoplasm                                143.0, 165.0, 216.0, 348.0, 358.0, 361.0, 477.0, 482.0, 663.0, 760.0, 1191.0, 1465.0, 1496.0, 1501.0, 1573.0, 1653.0, 1793.0, 1827.0, 1901.0, 1956.0, 2013.0, 2182.0, 2247.0, 2549.0, 2597.0, 2670.0, 2697.0, 2737.0, 2746.0, 2752.0, 3398.0, 3400.0, 3707.0, 4478.0, 4643.0, 4763.0, 5074.0, 5080.0, 5156.0, 5525.0, 5728.0, 6169.0, 6207.0, 6285.0, 6641.0, 6657.0, 6678.0, 7314.0, 7402.0, 7431.0, 7545.0, 7546.0, 8556.0, 9071.0, 9368.0, 9444.0, 9770.0, 10247.0, 10494.0, 10580.0, 11103.0, 23205.0, 23209.0, 23224.0, 23328.0, 25932.0, 25937.0, 26052.0, 26353.0, 26986.0, 27233.0, 28984.0, 29968.0, 30061.0, 51115.0, 54625.0, 55601.0, 55785.0, 56898.0, 57447.0, 57522.0, 58473.0, 59345.0, 79026.0, 79884.0, 84059.0, 112399.0, 167410.0, 202151.0, 220296.0, 284119.0 
+GO:0070062 CC 3.98e-39  61/255  1553/56863 D06 extracellular exosome                    143.0, 165.0, 183.0, 216.0, 348.0, 358.0, 501.0, 558.0, 567.0, 760.0, 928.0, 952.0, 1191.0, 1465.0, 1573.0, 1622.0, 2040.0, 2182.0, 2195.0, 2202.0, 2597.0, 2752.0, 3920.0, 4478.0, 4643.0, 5375.0, 5654.0, 5730.0, 5872.0, 5962.0, 6207.0, 6385.0, 6414.0, 7314.0, 7402.0, 7431.0, 9368.0, 9445.0, 10247.0, 10494.0, 11167.0, 22836.0, 23224.0, 23576.0, 25932.0, 26022.0, 26052.0, 26986.0, 27101.0, 29968.0, 55970.0, 56898.0, 57447.0, 59345.0, 64114.0, 79026.0, 79901.0, 79971.0, 81533.0, 84059.0, 256987.0 
+GO:0005829 CC 1.85e-37  92/255  4438/56863 D02 cytosol                                  143.0, 183.0, 216.0, 501.0, 567.0, 663.0, 760.0, 1069.0, 1191.0, 1266.0, 1495.0, 1496.0, 1653.0, 1741.0, 1793.0, 2013.0, 2549.0, 2597.0, 2670.0, 2737.0, 2752.0, 2949.0, 3398.0, 3707.0, 3735.0, 4478.0, 4604.0, 4651.0, 4684.0, 4763.0, 4851.0, 4915.0, 5080.0, 5260.0, 5270.0, 5375.0, 5396.0, 5525.0, 5654.0, 5728.0, 5872.0, 6169.0, 6207.0, 6285.0, 6657.0, 7274.0, 7314.0, 7431.0, 8556.0, 8850.0, 8936.0, 9770.0, 10247.0, 10484.0, 10580.0, 11031.0, 22836.0, 23022.0, 23205.0, 23209.0, 23576.0, 24138.0, 25932.0, 25937.0, 26353.0, 26986.0, 27101.0, 27233.0, 28984.0, 29099.0, 29968.0, 30061.0, 51196.0, 51248.0, 51268.0, 51808.0, 54625.0, 55601.0, 56898.0, 57447.0, 57522.0, 57580.0, 59345.0, 79026.0, 79971.0, 81031.0, 112399.0, 154796.0, 171024.0, 256987.0, 257364.0, 284119.0 
+GO:0005615 CC 6.22e-30  39/255   726/56863 D02 extracellular space                      165.0, 183.0, 348.0, 558.0, 567.0, 655.0, 928.0, 1191.0, 1741.0, 1956.0, 2040.0, 2152.0, 2202.0, 2247.0, 3735.0, 3920.0, 4478.0, 5270.0, 5360.0, 5654.0, 5730.0, 5919.0, 5962.0, 6285.0, 6678.0, 7042.0, 7314.0, 8404.0, 9445.0, 9547.0, 10082.0, 10371.0, 11167.0, 11341.0, 26022.0, 27122.0, 51435.0, 53342.0, 283659.0 
+GO:0005634 CC 2.06e-24  75/255  4434/56863 D05 nucleus                                  143.0, 165.0, 348.0, 358.0, 429.0, 501.0, 952.0, 1191.0, 1465.0, 1496.0, 1501.0, 1653.0, 1827.0, 1956.0, 2013.0, 2195.0, 2247.0, 2261.0, 2597.0, 2737.0, 2752.0, 3398.0, 3400.0, 3707.0, 3735.0, 4478.0, 4763.0, 4851.0, 4853.0, 5074.0, 5080.0, 5156.0, 5360.0, 5375.0, 5396.0, 5445.0, 5525.0, 5728.0, 5992.0, 6096.0, 6207.0, 6285.0, 6657.0, 7227.0, 7314.0, 7545.0, 7546.0, 8850.0, 9444.0, 9770.0, 10082.0, 10247.0, 10485.0, 10580.0, 11166.0, 23022.0, 23224.0, 23351.0, 25937.0, 26353.0, 26986.0, 27101.0, 27164.0, 28984.0, 51808.0, 54625.0, 57447.0, 79026.0, 79776.0, 81628.0, 112399.0, 138151.0, 170302.0, 171024.0, 284119.0 
+GO:0005576 CC 6.14e-22  35/255   924/56863 D02 extracellular region                     165.0, 183.0, 348.0, 361.0, 567.0, 655.0, 1191.0, 1404.0, 2202.0, 2247.0, 2261.0, 4684.0, 4851.0, 4853.0, 5270.0, 5322.0, 5360.0, 5445.0, 5654.0, 5728.0, 5730.0, 5919.0, 6285.0, 6414.0, 6678.0, 7042.0, 8404.0, 9445.0, 10371.0, 11167.0, 25840.0, 29099.0, 51248.0, 91851.0, 151887.0 
+GO:0005925 CC 1.76e-20  24/255   376/56863 D05 focal adhesion                           567.0, 928.0, 1266.0, 1465.0, 1495.0, 1956.0, 2195.0, 2261.0, 2697.0, 4478.0, 4921.0, 5962.0, 6169.0, 6207.0, 6385.0, 6641.0, 7431.0, 8936.0, 10580.0, 23022.0, 23224.0, 26986.0, 79026.0, 171024.0 
+GO:0016020 CC 9.18e-20  44/255  1825/56863 D02 membrane                                 143.0, 348.0, 477.0, 482.0, 567.0, 928.0, 952.0, 1191.0, 1374.0, 1653.0, 1956.0, 2040.0, 2182.0, 2597.0, 3707.0, 3920.0, 4684.0, 4763.0, 4853.0, 5156.0, 5525.0, 6207.0, 6506.0, 6507.0, 7402.0, 8613.0, 9368.0, 9445.0, 11103.0, 25840.0, 25932.0, 26020.0, 26052.0, 26986.0, 27333.0, 54625.0, 64114.0, 79026.0, 81031.0, 84059.0, 84239.0, 253832.0, 256987.0, 257364.0 
+GO:0016021 CC 1.70e-18  46/255  2167/56863 D03 integral component of membrane           358.0, 361.0, 952.0, 1901.0, 2012.0, 2013.0, 2152.0, 2182.0, 2824.0, 4038.0, 4684.0, 4851.0, 6263.0, 8613.0, 9071.0, 9283.0, 9413.0, 10335.0, 23209.0, 23224.0, 26020.0, 26022.0, 27333.0, 30061.0, 51435.0, 56548.0, 57088.0, 57462.0, 58473.0, 64114.0, 79901.0, 81031.0, 81533.0, 83733.0, 84059.0, 84168.0, 84239.0, 84275.0, 84466.0, 135152.0, 145173.0, 166647.0, 220296.0, 256987.0, 283659.0, 100996492.0 
+GO:0005887 CC 4.37e-17  29/255   853/56863 D04 integral component of plasma membrane    19.0, 358.0, 361.0, 558.0, 928.0, 1910.0, 1956.0, 2040.0, 2152.0, 2195.0, 2261.0, 2565.0, 2697.0, 3766.0, 4853.0, 4915.0, 4921.0, 5028.0, 5156.0, 6385.0, 6506.0, 6507.0, 6563.0, 8613.0, 10371.0, 23620.0, 30061.0, 64106.0, 81031.0 
+GO:0009986 CC 8.47e-17  21/255   380/56863 D02 cell surface                             558.0, 952.0, 1191.0, 1956.0, 2013.0, 2152.0, 2261.0, 4038.0, 4478.0, 4684.0, 4851.0, 4853.0, 5028.0, 6385.0, 6506.0, 6507.0, 6678.0, 10082.0, 25932.0, 84059.0, 84168.0 
+GO:0062023 CC 2.64e-16  17/255   218/56863 D04 collagen-containing extracellular matrix 165.0, 183.0, 348.0, 655.0, 1191.0, 1404.0, 2152.0, 2202.0, 4684.0, 5270.0, 5654.0, 5919.0, 6678.0, 7042.0, 8404.0, 10082.0, 51435.0 
+GO:0045121 CC 5.06e-16  16/255   188/56863 D04 membrane raft                            19.0, 1901.0, 1910.0, 1956.0, 2013.0, 2040.0, 2697.0, 2824.0, 6385.0, 6506.0, 8613.0, 9368.0, 10580.0, 23209.0, 79026.0, 284119.0 
+GO:0005794 CC 4.43e-14  26/255   874/56863 D05 Golgi apparatus                          19.0, 348.0, 567.0, 1191.0, 1622.0, 2013.0, 2261.0, 2697.0, 5156.0, 5322.0, 5730.0, 8613.0, 9445.0, 9547.0, 9770.0, 10494.0, 11341.0, 26052.0, 27333.0, 29099.0, 55785.0, 57447.0, 64114.0, 79971.0, 253832.0, 256987.0 
+GO:0048471 CC 5.53e-14  22/255   593/56863 D02 perinuclear region of cytoplasm          19.0, 663.0, 1191.0, 1956.0, 2040.0, 2195.0, 2597.0, 4478.0, 4915.0, 5730.0, 6285.0, 6507.0, 9368.0, 10335.0, 10484.0, 23209.0, 25932.0, 26052.0, 57447.0, 81031.0, 253832.0, 256987.0 
+GO:0016323 CC 6.77e-13  13/255   163/56863 D04 basolateral plasma membrane              358.0, 361.0, 952.0, 1741.0, 1956.0, 3766.0, 4478.0, 5028.0, 6563.0, 8613.0, 23209.0, 30061.0, 51248.0 
+GO:0015629 CC 6.86e-13  14/255   204/56863 D06 actin cytoskeleton                       558.0, 1266.0, 1495.0, 1496.0, 4643.0, 4921.0, 5074.0, 8936.0, 9368.0, 23022.0, 24138.0, 25932.0, 79026.0, 171024.0 
+GO:0043231 CC 3.64e-12  22/255   733/56863 D04 intracellular membrane-bounded organelle 19.0, 558.0, 663.0, 1191.0, 1495.0, 1573.0, 1901.0, 2597.0, 2697.0, 2737.0, 3920.0, 5509.0, 5872.0, 6285.0, 6678.0, 8630.0, 9445.0, 64114.0, 171024.0, 253832.0, 256987.0, 284119.0 
+GO:0005912 CC 4.70e-12  12/255   149/56863 D05 adherens junction                        1266.0, 1495.0, 1496.0, 1501.0, 1741.0, 4478.0, 4643.0, 4851.0, 5962.0, 8613.0, 10580.0, 51248.0 
+GO:0009897 CC 9.42e-12  12/255   158/56863 D03 external side of plasma membrane         19.0, 361.0, 482.0, 567.0, 928.0, 1901.0, 3760.0, 4684.0, 5156.0, 84168.0, 154796.0, 166647.0 
+GO:0005654 CC 1.38e-11  46/255  3365/56863 D02 nucleoplasm                              143.0, 1069.0, 1653.0, 1793.0, 1901.0, 2697.0, 2731.0, 2737.0, 3398.0, 3400.0, 4329.0, 4851.0, 4853.0, 5080.0, 5156.0, 5396.0, 5454.0, 5728.0, 6096.0, 6207.0, 6285.0, 6657.0, 7101.0, 7227.0, 7314.0, 7402.0, 7545.0, 7546.0, 8556.0, 8850.0, 9770.0, 11103.0, 23224.0, 25937.0, 26353.0, 27101.0, 28984.0, 29099.0, 30061.0, 51808.0, 64067.0, 89797.0, 112399.0, 154796.0, 171024.0, 284119.0 
+GO:0016324 CC 4.49e-11  13/255   227/56863 D04 apical plasma membrane                   358.0, 482.0, 2013.0, 2195.0, 2697.0, 4478.0, 4851.0, 4921.0, 5028.0, 5728.0, 5962.0, 9368.0, 79901.0 
+GO:0005789 CC 1.71e-10  21/255   811/56863 D04 endoplasmic reticulum membrane           19.0, 1573.0, 1956.0, 2182.0, 2697.0, 4851.0, 4853.0, 5156.0, 5730.0, 7314.0, 8613.0, 10335.0, 10484.0, 26022.0, 51435.0, 54898.0, 57462.0, 79971.0, 84239.0, 145173.0, 253832.0 
+GO:0045177 CC 1.73e-10   8/255    56/56863 D02 apical part of cell                      358.0, 760.0, 1069.0, 2013.0, 4478.0, 5962.0, 24138.0, 25932.0 
+GO:0030027 CC 2.50e-10  11/255   163/56863 D04 lamellipodium                            1495.0, 2195.0, 4651.0, 5872.0, 5962.0, 8936.0, 23022.0, 26986.0, 51196.0, 55785.0, 154796.0 
+GO:0000139 CC 5.70e-10  17/255   542/56863 D05 Golgi membrane                           567.0, 1956.0, 2013.0, 2697.0, 4684.0, 4851.0, 4853.0, 8613.0, 9445.0, 10484.0, 27333.0, 51196.0, 51435.0, 56548.0, 79971.0, 135152.0, 253832.0 
+GO:0043235 CC 1.53e-09  10/255   147/56863 D02 receptor complex                         558.0, 1956.0, 2261.0, 4851.0, 4853.0, 4915.0, 4921.0, 5156.0, 9283.0, 84059.0 
+GO:0005739 CC 1.95e-09  24/255  1219/56863 D05 mitochondrion                            501.0, 1191.0, 1374.0, 1653.0, 2040.0, 2697.0, 2731.0, 2746.0, 2752.0, 3735.0, 4329.0, 5028.0, 5166.0, 5445.0, 7314.0, 10247.0, 10449.0, 23022.0, 23224.0, 25932.0, 84275.0, 84532.0, 138151.0, 284119.0 
+GO:0032991 CC 2.06e-09  16/255   514/56863 D01 protein-containing complex               361.0, 928.0, 1191.0, 1956.0, 2752.0, 3398.0, 5156.0, 6641.0, 7227.0, 7402.0, 8850.0, 8936.0, 9770.0, 23328.0, 84952.0, 284119.0 
+GO:0031982 CC 4.32e-09   9/255   120/56863 D04 vesicle                                  655.0, 2040.0, 2597.0, 4478.0, 4643.0, 6506.0, 7314.0, 9368.0, 79026.0 
+GO:0045202 CC 6.61e-09  13/255   342/56863 D03 synapse                                  216.0, 1191.0, 1404.0, 2565.0, 5728.0, 6507.0, 6641.0, 9444.0, 10082.0, 26052.0, 51248.0, 84059.0, 91851.0 
+GO:0030424 CC 1.25e-08  12/255   296/56863 D05 axon                                     216.0, 358.0, 1496.0, 4763.0, 4915.0, 7042.0, 7431.0, 10371.0, 23022.0, 26052.0, 79884.0, 220296.0 
+GO:0005856 CC 4.86e-08  12/255   335/56863 D05 cytoskeleton                             1191.0, 1266.0, 2040.0, 3707.0, 4478.0, 4643.0, 6641.0, 7402.0, 7431.0, 8936.0, 22836.0, 55785.0 
+GO:0005902 CC 5.39e-08   6/255    45/56863 D05 microvillus                              4478.0, 4643.0, 5156.0, 5962.0, 9368.0, 25932.0 
+GO:0005783 CC 1.06e-07  18/255   870/56863 D05 endoplasmic reticulum                    348.0, 1622.0, 2040.0, 2182.0, 2261.0, 2746.0, 3707.0, 8630.0, 23205.0, 23209.0, 25840.0, 26022.0, 51435.0, 54898.0, 64114.0, 79971.0, 253832.0, 284119.0 
+GO:0031527 CC 2.74e-07   4/255    13/56863 D05 filopodium membrane                      4651.0, 7402.0, 23224.0, 84168.0 
+GO:0030054 CC 2.93e-07   8/255   142/56863 D02 cell junction                            1495.0, 1741.0, 1956.0, 2697.0, 5156.0, 5872.0, 7402.0, 154796.0 
+GO:0030175 CC 3.46e-07   6/255    61/56863 D05 filopodium                               2195.0, 4478.0, 4651.0, 5962.0, 7402.0, 9368.0 
+GO:0000785 CC 3.54e-07  15/255   655/56863 D02 chromatin                                429.0, 5074.0, 5080.0, 5396.0, 5454.0, 5992.0, 6096.0, 6657.0, 7101.0, 7227.0, 11166.0, 64067.0, 79776.0, 138151.0, 170302.0 
+GO:0030315 CC 5.87e-07   5/255    36/56863 D02 T-tubule                                 361.0, 477.0, 3760.0, 5962.0, 79026.0 
+GO:0097450 CC 8.85e-07   3/255     5/56863 D06 astrocyte end-foot                       361.0, 482.0, 2670.0 
+GO:0043025 CC 1.13e-06  10/255   297/56863 D03 neuronal cell body                       348.0, 429.0, 477.0, 4038.0, 4651.0, 6285.0, 6507.0, 7042.0, 7314.0, 51808.0 
+GO:0071944 CC 1.30e-06   5/255    42/56863 D02 cell periphery                           482.0, 1191.0, 4478.0, 5962.0, 9368.0 
+GO:0031410 CC 1.86e-06   9/255   244/56863 D06 cytoplasmic vesicle                      2013.0, 5872.0, 6507.0, 22836.0, 23205.0, 23209.0, 79971.0, 154796.0, 257364.0 
+GO:0042383 CC 1.88e-06   6/255    81/56863 D04 sarcolemma                               358.0, 361.0, 6263.0, 6641.0, 7402.0, 79026.0 
+GO:0001726 CC 2.67e-06   6/255    86/56863 D04 ruffle                                   4651.0, 6285.0, 9368.0, 23022.0, 55785.0, 154796.0 
+GO:0030018 CC 5.07e-06   6/255    96/56863 D02 Z disc                                   1465.0, 5525.0, 6263.0, 23022.0, 23224.0, 171024.0 
+GO:0031901 CC 6.81e-06   7/255   154/56863 D07 early endosome membrane                  567.0, 1956.0, 4915.0, 8630.0, 11031.0, 79971.0, 84239.0 
+GO:0072562 CC 7.16e-06   5/255    59/56863 D02 blood microparticle                      183.0, 348.0, 1191.0, 2040.0, 4478.0 
+GO:0043209 CC 7.43e-06   4/255    28/56863 D02 myelin sheath                            760.0, 2752.0, 5375.0, 256987.0 
+GO:0044297 CC 9.91e-06   5/255    63/56863 D02 cell body                                2670.0, 3766.0, 5028.0, 6506.0, 59345.0 
+GO:0042995 CC 1.17e-05   6/255   111/56863 D02 cell projection                          477.0, 2670.0, 5728.0, 7402.0, 22836.0, 84466.0 
+GO:0097449 CC 1.43e-05   3/255    11/56863 D05 astrocyte projection                     482.0, 3766.0, 6506.0 
+GO:0045111 CC 2.32e-05   4/255    37/56863 D06 intermediate filament cytoskeleton       2670.0, 7431.0, 23224.0, 55601.0 
+GO:0005759 CC 3.17e-05   9/255   348/56863 D05 mitochondrial matrix                     501.0, 2731.0, 2746.0, 3735.0, 4329.0, 5166.0, 10247.0, 10449.0, 84532.0 
+GO:0010008 CC 5.01e-05   7/255   210/56863 D06 endosome membrane                        361.0, 1956.0, 7314.0, 9445.0, 27333.0, 64114.0, 84168.0 
+GO:0005911 CC 5.50e-05   6/255   146/56863 D04 cell-cell junction                       1495.0, 2195.0, 2549.0, 25932.0, 51248.0, 220296.0 
+GO:0031965 CC 5.64e-05   7/255   214/56863 D04 nuclear membrane                         358.0, 1910.0, 1956.0, 2597.0, 5730.0, 23224.0, 57462.0 
+GO:0098796 CC 5.99e-05   2/255     3/56863 D02 membrane protein complex                 6506.0, 6507.0 
+GO:0016459 CC 6.92e-05   3/255    18/56863 D02 myosin complex                           4643.0, 4651.0, 84952.0 
+GO:1903561 CC 7.14e-05   4/255    49/56863 D05 extracellular vesicle                    348.0, 477.0, 928.0, 5270.0 
+GO:0005923 CC 8.43e-05   5/255    98/56863 D06 bicellular tight junction                1741.0, 5872.0, 9071.0, 84952.0, 154796.0 
+GO:1990904 CC 8.52e-05   6/255   158/56863 D02 ribonucleoprotein complex                143.0, 1653.0, 2597.0, 7431.0, 26986.0, 51808.0 
+GO:0014069 CC 1.01e-04   7/255   235/56863 D04 postsynaptic density                     1501.0, 4038.0, 4915.0, 5028.0, 6169.0, 6207.0, 26052.0 
+GO:0030139 CC 1.05e-04   4/255    54/56863 D07 endocytic vesicle                        19.0, 5872.0, 27333.0, 154796.0 
+GO:0034364 CC 2.97e-04   2/255     6/56863 D05 high-density lipoprotein particle        348.0, 5360.0 
+GO:0043005 CC 3.50e-04   7/255   288/56863 D04 neuron projection                        2565.0, 4651.0, 4684.0, 5728.0, 5872.0, 6507.0, 7314.0 
+GO:0005813 CC 3.54e-04   9/255   480/56863 D03 centrosome                               1069.0, 5525.0, 8556.0, 8850.0, 10580.0, 25932.0, 28984.0, 51808.0, 256987.0 
+GO:0031526 CC 4.02e-04   3/255    32/56863 D05 brush border membrane                    358.0, 9368.0, 79901.0 
+GO:0005614 CC 4.14e-04   2/255     7/56863 D05 interstitial matrix                      89797.0, 151887.0 
+GO:0016600 CC 4.14e-04   2/255     7/56863 D04 flotillin complex                        1495.0, 10580.0 
+GO:0005890 CC 4.14e-04   2/255     7/56863 D06 sodium:potassium-exchanging ATPase complex 477.0, 482.0 
+GO:0005788 CC 4.17e-04   6/255   212/56863 D05 endoplasmic reticulum lumen              348.0, 567.0, 1622.0, 8404.0, 11167.0, 91851.0 
+GO:0016529 CC 4.40e-04   3/255    33/56863 D06 sarcoplasmic reticulum                   6263.0, 10335.0, 23224.0 
+GO:0031301 CC 5.51e-04   2/255     8/56863 D04 integral component of organelle membrane 9445.0, 79971.0 
+GO:0005915 CC 5.51e-04   2/255     8/56863 D06 zonula adherens                          1495.0, 10580.0 
+GO:0009925 CC 6.19e-04   3/255    37/56863 D04 basal plasma membrane                    358.0, 1956.0, 6507.0 
+GO:0014704 CC 6.19e-04   3/255    37/56863 D06 intercalated disc                        477.0, 1495.0, 2697.0 
+GO:0031089 CC 7.06e-04   2/255     9/56863 D07 platelet dense granule lumen             5919.0, 6414.0 
+GO:0031091 CC 8.80e-04   2/255    10/56863 D09 platelet alpha granule                   5270.0, 6678.0 
+GO:0097708 CC 8.80e-04   2/255    10/56863 D05 intracellular vesicle                    19.0, 1956.0 
+GO:0098797 CC 8.80e-04   2/255    10/56863 D03 plasma membrane protein complex          9368.0, 79026.0 
+GO:0031093 CC 1.10e-03   3/255    45/56863 D07 platelet alpha granule lumen             1191.0, 6678.0, 7042.0 
+GO:0030669 CC 1.17e-03   3/255    46/56863 D08 clathrin-coated endocytic vesicle membrane 348.0, 928.0, 1956.0 
+GO:0005768 CC 1.25e-03   6/255   262/56863 D07 endosome                                 19.0, 477.0, 1901.0, 1956.0, 5872.0, 23209.0 
+GO:0031253 CC 1.28e-03   2/255    12/56863 D04 cell projection membrane                 361.0, 482.0 
+GO:0071682 CC 1.28e-03   2/255    12/56863 D05 endocytic vesicle lumen                  348.0, 6678.0 
+GO:0005929 CC 1.41e-03   5/255   181/56863 D04 cilium                                   2737.0, 4853.0, 5028.0, 5156.0, 64106.0 
+GO:0005796 CC 1.41e-03   3/255    49/56863 D05 Golgi lumen                              6385.0, 10082.0, 27333.0 
+GO:0030425 CC 1.42e-03   7/255   366/56863 D05 dendrite                                 348.0, 1501.0, 4038.0, 4763.0, 4915.0, 5028.0, 10371.0 
+GO:0032426 CC 1.51e-03   2/255    13/56863 D02 stereocilium tip                         8556.0, 9368.0 
+GO:0016010 CC 1.51e-03   2/255    13/56863 D04 dystrophin-associated glycoprotein complex 6641.0, 7402.0 
+GO:0031528 CC 1.51e-03   2/255    13/56863 D05 microvillus membrane                     4478.0, 9368.0 
+GO:0031092 CC 1.76e-03   2/255    14/56863 D07 platelet alpha granule membrane          928.0, 6678.0 
+GO:0043034 CC 1.76e-03   2/255    14/56863 D02 costamere                                6385.0, 79026.0 
+GO:0030666 CC 1.77e-03   3/255    53/56863 D06 endocytic vesicle membrane               928.0, 7314.0, 79971.0 
+GO:0012505 CC 1.79e-03   4/255   114/56863 D02 endomembrane system                      9368.0, 11031.0, 79971.0, 81031.0 
+GO:0098793 CC 1.79e-03   4/255   114/56863 D02 presynapse                               3766.0, 4763.0, 26052.0, 51248.0 
+GO:0016363 CC 1.91e-03   4/255   116/56863 D02 nuclear matrix                           6678.0, 7431.0, 10580.0, 25932.0 
+GO:0045335 CC 1.97e-03   3/255    55/56863 D08 phagocytic vesicle                       19.0, 7431.0, 11031.0 
+GO:0000164 CC 2.02e-03   2/255    15/56863 D05 protein phosphatase type 1 complex       5509.0, 648791.0 
+GO:0030660 CC 2.02e-03   2/255    15/56863 D06 Golgi-associated vesicle membrane        2697.0, 9445.0 
+GO:0005901 CC 2.18e-03   3/255    57/56863 D06 caveola                                  477.0, 23209.0, 284119.0 
+GO:0031594 CC 2.18e-03   3/255    57/56863 D04 neuromuscular junction                   4038.0, 5270.0, 7402.0 
+GO:0043083 CC 2.31e-03   2/255    16/56863 D03 synaptic cleft                           348.0, 26052.0 
+GO:0044306 CC 2.31e-03   2/255    16/56863 D02 neuron projection terminus               6506.0, 11341.0 
+GO:0031258 CC 2.31e-03   2/255    16/56863 D05 lamellipodium membrane                   23224.0, 84168.0 
+GO:0098978 CC 2.39e-03   6/255   298/56863 D04 glutamatergic synapse                    348.0, 1741.0, 5028.0, 6506.0, 8404.0, 26052.0 
+GO:0001725 CC 2.41e-03   3/255    59/56863 D04 stress fiber                             10580.0, 23022.0, 171024.0 
+GO:0005515 MF 2.43e-88 187/255  9584/56863 D02 protein binding                          19.0, 143.0, 183.0, 216.0, 348.0, 358.0, 361.0, 429.0, 477.0, 482.0, 501.0, 558.0, 567.0, 655.0, 663.0, 760.0, 928.0, 1069.0, 1191.0, 1465.0, 1495.0, 1496.0, 1501.0, 1653.0, 1741.0, 1793.0, 1827.0, 1901.0, 1910.0, 1956.0, 2012.0, 2013.0, 2040.0, 2152.0, 2195.0, 2202.0, 2247.0, 2261.0, 2549.0, 2565.0, 2597.0, 2670.0, 2697.0, 2737.0, 2746.0, 2752.0, 2949.0, 3398.0, 3400.0, 3707.0, 3735.0, 3760.0, 3766.0, 3920.0, 4038.0, 4478.0, 4604.0, 4643.0, 4651.0, 4684.0, 4763.0, 4851.0, 4853.0, 4915.0, 4921.0, 5028.0, 5074.0, 5080.0, 5156.0, 5166.0, 5270.0, 5375.0, 5396.0, 5454.0, 5509.0, 5525.0, 5654.0, 5728.0, 5730.0, 5872.0, 5919.0, 5962.0, 5992.0, 6096.0, 6169.0, 6207.0, 6285.0, 6385.0, 6506.0, 6507.0, 6641.0, 6657.0, 6678.0, 7042.0, 7227.0, 7274.0, 7314.0, 7402.0, 7431.0, 7545.0, 8404.0, 8556.0, 8613.0, 8850.0, 8936.0, 9071.0, 9283.0, 9368.0, 9413.0, 9444.0, 9445.0, 9547.0, 9770.0, 10082.0, 10247.0, 10335.0, 10449.0, 10484.0, 10494.0, 10580.0, 11031.0, 11103.0, 11167.0, 11341.0, 22836.0, 23022.0, 23209.0, 23224.0, 23328.0, 23351.0, 24138.0, 25840.0, 25932.0, 25937.0, 26020.0, 26022.0, 26052.0, 26353.0, 26986.0, 27101.0, 27122.0, 28984.0, 29099.0, 29968.0, 30061.0, 51196.0, 51248.0, 51268.0, 51285.0, 51435.0, 51808.0, 54625.0, 54898.0, 55349.0, 55601.0, 55970.0, 56898.0, 57088.0, 57447.0, 57522.0, 57580.0, 58473.0, 59345.0, 64106.0, 64114.0, 79026.0, 79901.0, 79971.0, 81628.0, 83648.0, 83733.0, 84059.0, 84168.0, 84532.0, 84952.0, 89797.0, 112399.0, 130132.0, 138151.0, 154796.0, 167410.0, 170302.0, 171024.0, 202151.0, 257364.0, 284119.0, 414149.0 
+GO:0042802 MF 1.76e-22  39/255  1164/56863 D03 identical protein binding                348.0, 358.0, 361.0, 429.0, 501.0, 567.0, 952.0, 1374.0, 1495.0, 1622.0, 1956.0, 2040.0, 2247.0, 2261.0, 2597.0, 2670.0, 2746.0, 2752.0, 2949.0, 3735.0, 4851.0, 5445.0, 5454.0, 5654.0, 5728.0, 6285.0, 6385.0, 7431.0, 9071.0, 9368.0, 10247.0, 23209.0, 26353.0, 29968.0, 30061.0, 79901.0, 257364.0, 283659.0, 284119.0 
+GO:0005524 MF 2.87e-12  28/255  1231/56863 D08 ATP binding                              19.0, 477.0, 558.0, 1653.0, 1956.0, 2182.0, 2261.0, 2746.0, 2752.0, 3707.0, 3735.0, 3766.0, 4643.0, 4651.0, 4915.0, 4921.0, 5028.0, 5156.0, 5166.0, 5260.0, 9445.0, 10494.0, 22836.0, 23205.0, 55601.0, 84239.0, 84532.0, 89797.0 
+GO:0019899 MF 1.20e-10  14/255   300/56863 D03 enzyme binding                           143.0, 348.0, 1956.0, 3920.0, 4478.0, 4851.0, 4853.0, 5074.0, 5260.0, 5728.0, 51196.0, 54625.0, 57088.0, 57580.0 
+GO:0003779 MF 2.33e-10  12/255   208/56863 D04 actin binding                            1266.0, 4478.0, 4604.0, 5074.0, 5962.0, 6641.0, 7402.0, 8936.0, 10580.0, 23022.0, 23224.0, 171024.0 
+GO:0005509 MF 1.14e-09  16/255   493/56863 D05 calcium ion binding                      663.0, 1069.0, 2195.0, 2202.0, 4038.0, 4851.0, 4853.0, 5322.0, 6263.0, 6285.0, 6678.0, 8404.0, 11167.0, 57088.0, 84059.0, 286097.0 
+GO:0042803 MF 3.18e-09  16/255   530/56863 D04 protein homodimerization activity        348.0, 567.0, 2040.0, 2731.0, 3735.0, 4038.0, 4915.0, 5156.0, 6285.0, 7042.0, 10494.0, 25937.0, 26353.0, 27101.0, 53342.0, 138151.0 
+GO:0004714 MF 1.33e-08   6/255    36/56863 D07 transmembrane receptor protein tyrosine kinase activity 558.0, 1956.0, 2261.0, 4915.0, 4921.0, 5156.0 
+GO:0000981 MF 2.60e-07  17/255   826/56863 D03 DNA-binding transcription factor activity, RNA polymerase II-specific 429.0, 2737.0, 5080.0, 5396.0, 5454.0, 5992.0, 6096.0, 6657.0, 7101.0, 7545.0, 7546.0, 11166.0, 27164.0, 64067.0, 79776.0, 138151.0, 170302.0 
+GO:0008201 MF 3.52e-07   7/255    99/56863 D04 heparin binding                          348.0, 655.0, 2247.0, 5270.0, 11167.0, 89797.0, 151887.0 
+GO:0005516 MF 6.60e-07   8/255   158/56863 D03 calmodulin binding                       165.0, 1266.0, 3707.0, 4643.0, 4651.0, 5260.0, 6263.0, 6641.0 
+GO:0003700 MF 1.03e-06  10/255   294/56863 D02 DNA-binding transcription factor activity 429.0, 2737.0, 5080.0, 5454.0, 6096.0, 6657.0, 7227.0, 7545.0, 7546.0, 11166.0 
+GO:0051015 MF 1.37e-06   8/255   174/56863 D05 actin filament binding                   1495.0, 1496.0, 1956.0, 4643.0, 4651.0, 7402.0, 23224.0, 84168.0 
+GO:0008013 MF 1.39e-06   6/255    77/56863 D03 beta-catenin binding                     1495.0, 1496.0, 1501.0, 2697.0, 2737.0, 9368.0 
+GO:0005096 MF 1.57e-06   9/255   239/56863 D05 GTPase activator activity                216.0, 663.0, 1793.0, 4763.0, 10484.0, 57522.0, 57580.0, 143872.0, 202151.0 
+GO:0000978 MF 1.71e-06  16/255   844/56863 D09 RNA polymerase II cis-regulatory region sequence-specific DNA binding 429.0, 2737.0, 5080.0, 5396.0, 5454.0, 5992.0, 6096.0, 6657.0, 7101.0, 7545.0, 7546.0, 11166.0, 27164.0, 79776.0, 138151.0, 170302.0 
+GO:0005518 MF 2.83e-06   5/255    49/56863 D03 collagen binding                         165.0, 4921.0, 6678.0, 8404.0, 84168.0 
+GO:0001228 MF 6.37e-06   9/255   284/56863 D04 DNA-binding transcription activator activity, RNA polymerase II-specific 5080.0, 5396.0, 5454.0, 5992.0, 6096.0, 6657.0, 7101.0, 7545.0, 11166.0 
+GO:1990837 MF 6.37e-06   9/255   284/56863 D06 sequence-specific double-stranded DNA binding 429.0, 2737.0, 5080.0, 5454.0, 5992.0, 6096.0, 7101.0, 7545.0, 170302.0 
+GO:0005102 MF 8.00e-06   8/255   221/56863 D03 signaling receptor binding               19.0, 348.0, 1191.0, 4478.0, 5270.0, 5919.0, 7042.0, 9368.0 
+GO:0005313 MF 1.43e-05   3/255    11/56863 D07 L-glutamate transmembrane transporter activity 6506.0, 6507.0, 83733.0 
+GO:0001227 MF 1.45e-05   8/255   240/56863 D04 DNA-binding transcription repressor activity, RNA polymerase II-specific 165.0, 429.0, 5080.0, 5396.0, 7101.0, 7227.0, 138151.0, 170302.0 
+GO:0005178 MF 1.58e-05   6/255   117/56863 D04 integrin binding                         928.0, 2013.0, 2247.0, 2670.0, 7402.0, 8613.0 
+GO:0044548 MF 2.47e-05   3/255    13/56863 D03 S100 protein binding                     6285.0, 27101.0, 79026.0 
+GO:0003723 MF 2.93e-05  18/255  1304/56863 D04 RNA binding                              1465.0, 1495.0, 1653.0, 4329.0, 5080.0, 5962.0, 6169.0, 6207.0, 9444.0, 10247.0, 10449.0, 11103.0, 24138.0, 26986.0, 51808.0, 79026.0, 219654.0, 284119.0 
+GO:0008270 MF 2.94e-05  12/255   623/56863 D06 zinc ion binding                         165.0, 760.0, 1465.0, 6096.0, 6285.0, 7101.0, 7227.0, 7402.0, 10484.0, 79776.0, 219654.0, 253832.0 
+GO:0019900 MF 3.19e-05   5/255    80/56863 D04 kinase binding                           1741.0, 1956.0, 2013.0, 2670.0, 5525.0 
+GO:0008083 MF 3.59e-05   5/255    82/56863 D05 growth factor activity                   183.0, 655.0, 2202.0, 2247.0, 7042.0 
+GO:0120020 MF 4.78e-05   3/255    16/56863 D05 cholesterol transfer activity            19.0, 348.0, 5360.0 
+GO:0000062 MF 5.79e-05   3/255    17/56863 D09 fatty-acyl-CoA binding                   1622.0, 4329.0, 414149.0 
+GO:0005006 MF 5.99e-05   2/255     3/56863 D08 epidermal growth factor receptor activity 1956.0, 2202.0 
+GO:0005372 MF 5.99e-05   2/255     3/56863 D04 water transmembrane transporter activity 358.0, 6563.0 
+GO:0004064 MF 5.99e-05   2/255     3/56863 D05 arylesterase activity                    760.0, 5445.0 
+GO:0000977 MF 7.10e-05   7/255   222/56863 D08 RNA polymerase II transcription regulatory region sequence-specific DNA binding 165.0, 429.0, 2737.0, 7227.0, 8850.0, 64067.0, 170302.0 
+GO:0019901 MF 7.17e-05   9/255   387/56863 D05 protein kinase binding                   2013.0, 4478.0, 5080.0, 5728.0, 7402.0, 8850.0, 22836.0, 23328.0, 28984.0 
+GO:0031210 MF 1.12e-04   3/255    21/56863 D04 phosphatidylcholine binding              19.0, 4763.0, 5360.0 
+GO:0005314 MF 1.19e-04   2/255     4/56863 D12 high-affinity L-glutamate transmembrane transporter activity 6506.0, 6507.0 
+GO:0015501 MF 1.19e-04   2/255     4/56863 D11 glutamate:sodium symporter activity      6506.0, 6507.0 
+GO:0004930 MF 1.31e-04   6/255   171/56863 D04 G protein-coupled receptor activity      1901.0, 9283.0, 23620.0, 64106.0, 84059.0, 166647.0 
+GO:0031702 MF 1.99e-04   2/255     5/56863 D06 type 1 angiotensin receptor binding      183.0, 1910.0 
+GO:0003725 MF 2.29e-04   4/255    66/56863 D05 double-stranded RNA binding              1653.0, 4478.0, 7431.0, 55601.0 
+GO:0005125 MF 2.29e-04   4/255    66/56863 D05 cytokine activity                        655.0, 2247.0, 7042.0, 53342.0 
+GO:0030165 MF 2.72e-04   4/255    69/56863 D04 PDZ domain binding                       5728.0, 6641.0, 9368.0, 55970.0 
+GO:0043878 MF 2.97e-04   2/255     6/56863 D05 glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity 216.0, 501.0 
+GO:0001540 MF 3.55e-04   4/255    74/56863 D04 amyloid-beta binding                     348.0, 1191.0, 7042.0, 9445.0 
+GO:0051117 MF 3.55e-04   4/255    74/56863 D04 ATPase binding                           19.0, 482.0, 1956.0, 5962.0 
+GO:0051287 MF 3.65e-04   3/255    31/56863 D05 NAD binding                              216.0, 2597.0, 56898.0 
+GO:0005200 MF 3.74e-04   4/255    75/56863 D02 structural constituent of cytoskeleton   1496.0, 2670.0, 4478.0, 7431.0 
+GO:0071837 MF 4.14e-04   2/255     7/56863 D04 HMG box domain binding                   5080.0, 5396.0 
+GO:0015250 MF 4.14e-04   2/255     7/56863 D05 water channel activity                   358.0, 361.0 
+GO:2001069 MF 4.14e-04   2/255     7/56863 D04 glycogen binding                         5509.0, 648791.0 
+GO:0016887 MF 4.21e-04   7/255   297/56863 D07 ATP hydrolysis activity                  477.0, 1653.0, 4643.0, 22836.0, 55601.0, 84239.0, 89797.0 
+GO:0005543 MF 5.01e-04   4/255    81/56863 D03 phospholipid binding                     348.0, 2152.0, 5322.0, 57580.0 
+GO:0031957 MF 5.51e-04   2/255     8/56863 D06 very long-chain fatty acid-CoA ligase activity 2182.0, 23205.0 
+GO:0008429 MF 5.51e-04   2/255     8/56863 D04 phosphatidylethanolamine binding         4763.0, 5360.0 
+GO:0051371 MF 7.06e-04   2/255     9/56863 D06 muscle alpha-actinin binding             23022.0, 171024.0 
+GO:0140110 MF 7.06e-04   2/255     9/56863 D01 transcription regulator activity         3398.0, 3400.0 

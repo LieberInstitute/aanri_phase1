@@ -1,0 +1,179 @@
+**** Job starts ****
+2022-08-04T10:35:14-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 1531149
+Job name: go_splicing_cc
+Hostname: compute-111.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     6) COMMUNITY_CENTOS7_DEFAULT_ENV
+  2) stata/17          7) JHPCE_CENTOS7_DEFAULT_ENV
+  3) JHPCE_tools/1.0   8) python/3.7.3
+  4) sge/8.1.9         9) emacs/28.1
+  5) gcc/4.4.7
+
+ 
+
+**** Run network analysis ****
+requests.get(http://purl.obolibrary.org/obo/go/go-basic.obo, stream=True)
+  WROTE: go-basic.obo
+
+FTP RETR ftp.ncbi.nlm.nih.gov gene/DATA gene2go.gz -> gene2go.gz
+  gunzip gene2go.gz
+go-basic.obo: fmt(1.2) rel(2022-07-01) 47,008 GO Terms
+HMS:0:00:06.752014 350,076 annotations, 20,719 genes, 18,978 GOs, 1 taxids READ: gene2go 
+MF 18,257 annotated human genes
+CC 19,752 annotated human genes
+BP 18,699 annotated human genes
+
+Load BP Gene Ontology Analysis ...
+fisher module not installed.  Falling back on scipy.stats.fisher_exact
+ 87% 74,120 of 84,939 population items found in association
+
+Load CC Gene Ontology Analysis ...
+fisher module not installed.  Falling back on scipy.stats.fisher_exact
+ 91% 77,323 of 84,939 population items found in association
+
+Load MF Gene Ontology Analysis ...
+fisher module not installed.  Falling back on scipy.stats.fisher_exact
+ 89% 75,450 of 84,939 population items found in association
+
+Run BP Gene Ontology Analysis: current study set of 17851 IDs ... 79% 14,017 of 17,851 study items found in association
+100% 17,851 of 17,851 study items found in population(84939)
+Calculating 12,020 uncorrected p-values using fisher_scipy_stats
+  12,020 GO terms are associated with 14,666 of 84,939 population items
+  11,842 GO terms are associated with 14,017 of 17,851 study items
+  METHOD fdr_bh:
+   6,484 GO terms found significant (< 0.05=alpha) (6484 enriched +   0 purified): statsmodels fdr_bh
+  13,953 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Run CC Gene Ontology Analysis: current study set of 17851 IDs ... 83% 14,776 of 17,851 study items found in association
+100% 17,851 of 17,851 study items found in population(84939)
+Calculating 1,803 uncorrected p-values using fisher_scipy_stats
+   1,803 GO terms are associated with 15,481 of 84,939 population items
+   1,773 GO terms are associated with 14,776 of 17,851 study items
+  METHOD fdr_bh:
+   1,210 GO terms found significant (< 0.05=alpha) (1210 enriched +   0 purified): statsmodels fdr_bh
+  14,770 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Run MF Gene Ontology Analysis: current study set of 17851 IDs ... 80% 14,321 of 17,851 study items found in association
+100% 17,851 of 17,851 study items found in population(84939)
+Calculating 4,360 uncorrected p-values using fisher_scipy_stats
+   4,360 GO terms are associated with 14,968 of 84,939 population items
+   4,304 GO terms are associated with 14,321 of 17,851 study items
+  METHOD fdr_bh:
+   1,927 GO terms found significant (< 0.05=alpha) (1927 enriched +   0 purified): statsmodels fdr_bh
+  14,234 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+Significant results[9621] = 6484 BP + 1927 MF + 1210 CC
+   9621 items WROTE: GO_analysis_module_grey.xlsx
+   9621 GOEA results for 15326 study items. WROTE: GO_analysis_module_grey.txt
+  EXISTS: go-basic.obo
+  EXISTS: gene2go
+go-basic.obo: fmt(1.2) rel(2022-07-01) 47,008 GO Terms
+HMS:0:00:06.778860 350,076 annotations, 20,719 genes, 18,978 GOs, 1 taxids READ: gene2go 
+MF 18,257 annotated human genes
+CC 19,752 annotated human genes
+BP 18,699 annotated human genes
+
+Load BP Gene Ontology Analysis ...
+fisher module not installed.  Falling back on scipy.stats.fisher_exact
+ 87% 74,120 of 84,939 population items found in association
+
+Load CC Gene Ontology Analysis ...
+fisher module not installed.  Falling back on scipy.stats.fisher_exact
+ 91% 77,323 of 84,939 population items found in association
+
+Load MF Gene Ontology Analysis ...
+fisher module not installed.  Falling back on scipy.stats.fisher_exact
+ 89% 75,450 of 84,939 population items found in association
+
+Run BP Gene Ontology Analysis: current study set of 30 IDs ... 97%     29 of     30 study items found in association
+100%     30 of     30 study items found in population(84939)
+Calculating 12,020 uncorrected p-values using fisher_scipy_stats
+  12,020 GO terms are associated with 14,666 of 84,939 population items
+     153 GO terms are associated with     29 of     30 study items
+  METHOD fdr_bh:
+       1 GO terms found significant (< 0.05=alpha) (  1 enriched +   0 purified): statsmodels fdr_bh
+       5 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Run CC Gene Ontology Analysis: current study set of 30 IDs ... 93%     28 of     30 study items found in association
+100%     30 of     30 study items found in population(84939)
+Calculating 1,803 uncorrected p-values using fisher_scipy_stats
+   1,803 GO terms are associated with 15,481 of 84,939 population items
+      78 GO terms are associated with     28 of     30 study items
+  METHOD fdr_bh:
+      10 GO terms found significant (< 0.05=alpha) ( 10 enriched +   0 purified): statsmodels fdr_bh
+      23 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Run MF Gene Ontology Analysis: current study set of 30 IDs ... 93%     28 of     30 study items found in association
+100%     30 of     30 study items found in population(84939)
+Calculating 4,360 uncorrected p-values using fisher_scipy_stats
+   4,360 GO terms are associated with 14,968 of 84,939 population items
+      57 GO terms are associated with     28 of     30 study items
+  METHOD fdr_bh:
+       4 GO terms found significant (< 0.05=alpha) (  4 enriched +   0 purified): statsmodels fdr_bh
+      21 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+Significant results[15] = 1 BP + 4 MF + 10 CC
+     15 items WROTE: GO_analysis_module_midnightblue.xlsx
+     15 GOEA results for    25 study items. WROTE: GO_analysis_module_midnightblue.txt
+  EXISTS: go-basic.obo
+  EXISTS: gene2go
+go-basic.obo: fmt(1.2) rel(2022-07-01) 47,008 GO Terms
+HMS:0:00:07.127833 350,076 annotations, 20,719 genes, 18,978 GOs, 1 taxids READ: gene2go 
+MF 18,257 annotated human genes
+CC 19,752 annotated human genes
+BP 18,699 annotated human genes
+
+Load BP Gene Ontology Analysis ...
+fisher module not installed.  Falling back on scipy.stats.fisher_exact
+ 87% 74,120 of 84,939 population items found in association
+
+Load CC Gene Ontology Analysis ...
+fisher module not installed.  Falling back on scipy.stats.fisher_exact
+ 91% 77,323 of 84,939 population items found in association
+
+Load MF Gene Ontology Analysis ...
+fisher module not installed.  Falling back on scipy.stats.fisher_exact
+ 89% 75,450 of 84,939 population items found in association
+
+Run BP Gene Ontology Analysis: current study set of 8 IDs ... 25%      2 of      8 study items found in association
+100%      8 of      8 study items found in population(84939)
+Calculating 12,020 uncorrected p-values using fisher_scipy_stats
+  12,020 GO terms are associated with 14,666 of 84,939 population items
+      15 GO terms are associated with      2 of      8 study items
+  METHOD fdr_bh:
+       0 GO terms found significant (< 0.05=alpha) (  0 enriched +   0 purified): statsmodels fdr_bh
+       0 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Run CC Gene Ontology Analysis: current study set of 8 IDs ... 75%      6 of      8 study items found in association
+100%      8 of      8 study items found in population(84939)
+Calculating 1,803 uncorrected p-values using fisher_scipy_stats
+   1,803 GO terms are associated with 15,481 of 84,939 population items
+      16 GO terms are associated with      6 of      8 study items
+  METHOD fdr_bh:
+       0 GO terms found significant (< 0.05=alpha) (  0 enriched +   0 purified): statsmodels fdr_bh
+       0 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+
+Run MF Gene Ontology Analysis: current study set of 8 IDs ... 38%      3 of      8 study items found in association
+100%      8 of      8 study items found in population(84939)
+Calculating 4,360 uncorrected p-values using fisher_scipy_stats
+   4,360 GO terms are associated with 14,968 of 84,939 population items
+       9 GO terms are associated with      3 of      8 study items
+  METHOD fdr_bh:
+       0 GO terms found significant (< 0.05=alpha) (  0 enriched +   0 purified): statsmodels fdr_bh
+       0 study items associated with significant GO IDs (enriched)
+       0 study items associated with significant GO IDs (purified)
+Significant results[0] = 0 BP + 0 MF + 0 CC
+      0 items. NOT WRITING GO_analysis_module_lightcyan.xlsx
+      0 GOEA results. NOT WRITING GO_analysis_module_lightcyan.txt
+**** Job ends ****
+2022-08-04T10:36:33-0400

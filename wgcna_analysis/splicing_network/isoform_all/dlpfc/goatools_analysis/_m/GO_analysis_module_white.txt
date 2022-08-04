@@ -1,0 +1,56 @@
+GO:0045944 BP 1.92e-12   10/28   953/70955 D11 positive regulation of transcription by RNA polymerase II 467.0, 2353.0, 3164.0, 3491.0, 3726.0, 7494.0, 8013.0, 9314.0, 9592.0, 23764.0 
+GO:0035914 BP 2.45e-12    5/28    36/70955 D04 skeletal muscle cell differentiation     467.0, 2353.0, 3164.0, 7832.0, 23764.0 
+GO:0006357 BP 1.35e-09    9/28  1325/70955 D10 regulation of transcription by RNA polymerase II 467.0, 2353.0, 3164.0, 3726.0, 7494.0, 8013.0, 9314.0, 23764.0, 55422.0 
+GO:0006366 BP 8.91e-07    4/28   186/70955 D10 transcription by RNA polymerase II       2353.0, 3164.0, 7494.0, 9314.0 
+GO:0006955 BP 1.19e-06    4/28   200/70955 D02 immune response                          2669.0, 3133.0, 5996.0, 7494.0 
+GO:0071376 BP 1.50e-06    2/28     5/70955 D08 cellular response to corticotropin-releasing hormone stimulus 3164.0, 8013.0 
+GO:0045444 BP 2.59e-06    3/28    67/70955 D04 fat cell differentiation                 3164.0, 8013.0, 9314.0 
+GO:0043065 BP 2.88e-06    4/28   250/70955 D07 positive regulation of apoptotic process 3164.0, 3491.0, 4170.0, 4616.0 
+GO:0061469 BP 4.20e-06    2/28     8/70955 D06 regulation of type B pancreatic cell proliferation 3164.0, 8013.0 
+GO:0001706 BP 5.40e-06    2/28     9/70955 D04 endoderm formation                       1843.0, 1847.0 
+GO:1904754 BP 8.24e-06    2/28    11/70955 D08 positive regulation of vascular associated smooth muscle cell migration 8013.0, 9510.0 
+GO:0008285 BP 9.57e-06    4/28   339/70955 D05 negative regulation of cell population proliferation 1843.0, 7832.0, 9314.0, 9510.0 
+GO:0000122 BP 1.30e-05    5/28   785/70955 D11 negative regulation of transcription by RNA polymerase II 467.0, 7832.0, 8013.0, 9314.0, 23764.0 
+GO:0002639 BP 2.03e-05    2/28    17/70955 D08 positive regulation of immunoglobulin production 3133.0, 7494.0 
+GO:0016126 BP 2.03e-05    2/28    17/70955 D06 sterol biosynthetic process              3638.0, 9023.0 
+GO:0035970 BP 2.03e-05    2/28    17/70955 D07 peptidyl-threonine dephosphorylation     1843.0, 1847.0 
+GO:0060716 BP 2.84e-05    2/28    20/70955 D05 labyrinthine layer blood vessel development 3491.0, 3726.0 
+GO:0140467 BP 3.14e-05    2/28    21/70955 D04 integrated stress response signaling     2353.0, 3726.0 
+GO:0051602 BP 3.78e-05    2/28    23/70955 D03 response to electrical stimulus          3164.0, 7832.0 
+GO:0001975 BP 4.12e-05    2/28    24/70955 D06 response to amphetamine                  3164.0, 5997.0 
+GO:0035335 BP 5.24e-05    2/28    27/70955 D07 peptidyl-tyrosine dephosphorylation      1843.0, 1847.0 
+GO:0030522 BP 6.06e-05    2/28    29/70955 D05 intracellular receptor signaling pathway 3164.0, 8013.0 
+GO:0006695 BP 6.93e-05    2/28    31/70955 D07 cholesterol biosynthetic process         3422.0, 3638.0 
+GO:1904707 BP 7.39e-05    2/28    32/70955 D07 positive regulation of vascular associated smooth muscle cell proliferation 8013.0, 9510.0 
+GO:0030316 BP 8.36e-05    2/28    34/70955 D06 osteoclast differentiation               2353.0, 3726.0 
+GO:0043409 BP 9.92e-05    2/28    37/70955 D08 negative regulation of MAPK cascade      1843.0, 1847.0 
+GO:0005634 CC 1.20e-13   17/28  4772/70955 D05 nucleus                                  467.0, 1843.0, 1847.0, 2353.0, 2669.0, 3164.0, 3475.0, 3726.0, 4170.0, 4616.0, 5997.0, 7494.0, 7832.0, 8013.0, 9592.0, 23764.0, 55422.0 
+GO:0090575 CC 5.32e-10    5/28   102/70955 D03 RNA polymerase II transcription regulator complex 467.0, 2353.0, 3726.0, 7494.0, 23764.0 
+GO:0000785 CC 1.43e-08    7/28   752/70955 D02 chromatin                                467.0, 2353.0, 3164.0, 3726.0, 8013.0, 9314.0, 23764.0 
+GO:0005654 CC 5.03e-08   11/28  3573/70955 D02 nucleoplasm                              467.0, 1847.0, 2353.0, 3164.0, 3726.0, 4170.0, 7494.0, 8013.0, 9314.0, 9592.0, 23764.0 
+GO:0005667 CC 5.14e-07    4/28   162/70955 D02 transcription regulator complex          3164.0, 3726.0, 8013.0, 9314.0 
+GO:0035976 CC 1.50e-06    2/28     5/70955 D04 transcription factor AP-1 complex        2353.0, 3726.0 
+GO:0005829 CC 8.77e-06   10/28  4824/70955 D02 cytosol                                  2353.0, 3164.0, 3422.0, 4170.0, 5996.0, 5997.0, 6303.0, 7832.0, 9023.0, 9314.0 
+GO:0005737 CC 2.72e-05    9/28  4320/70955 D02 cytoplasm                                1843.0, 1847.0, 3422.0, 4170.0, 4616.0, 5997.0, 7494.0, 7832.0, 9592.0 
+GO:0009898 CC 2.20e-04    2/28    55/70955 D04 cytoplasmic side of plasma membrane      2669.0, 5997.0 
+GO:0005515 MF 1.76e-16   24/28 10630/70955 D02 protein binding                          467.0, 969.0, 1843.0, 1847.0, 2353.0, 2669.0, 3133.0, 3164.0, 3491.0, 3638.0, 3726.0, 4170.0, 4616.0, 5997.0, 6303.0, 6515.0, 7494.0, 7832.0, 8013.0, 9023.0, 9314.0, 9510.0, 9592.0, 23764.0 
+GO:0001228 MF 6.30e-11    7/28   343/70955 D04 DNA-binding transcription activator activity, RNA polymerase II-specific 467.0, 2353.0, 3164.0, 3726.0, 8013.0, 9314.0, 23764.0 
+GO:0000981 MF 6.42e-11    9/28   936/70955 D03 DNA-binding transcription factor activity, RNA polymerase II-specific 467.0, 2353.0, 3164.0, 3726.0, 7494.0, 8013.0, 9314.0, 23764.0, 55422.0 
+GO:0000978 MF 7.06e-11    9/28   946/70955 D09 RNA polymerase II cis-regulatory region sequence-specific DNA binding 467.0, 2353.0, 3164.0, 3726.0, 7494.0, 8013.0, 9314.0, 23764.0, 55422.0 
+GO:1990837 MF 8.16e-11    7/28   356/70955 D06 sequence-specific double-stranded DNA binding 467.0, 2353.0, 3164.0, 3726.0, 7494.0, 9314.0, 23764.0 
+GO:0046982 MF 4.02e-06    4/28   272/70955 D04 protein heterodimerization activity      467.0, 3164.0, 4170.0, 7494.0 
+GO:0008330 MF 6.74e-06    2/28    10/70955 D07 protein tyrosine/threonine phosphatase activity 1843.0, 1847.0 
+GO:0008270 MF 6.76e-06    5/28   685/70955 D06 zinc ion binding                         3164.0, 8013.0, 9314.0, 9510.0, 55422.0 
+GO:0003700 MF 9.80e-06    4/28   341/70955 D02 DNA-binding transcription factor activity 467.0, 2353.0, 7494.0, 9314.0 
+GO:0042802 MF 9.80e-06    6/28  1296/70955 D03 identical protein binding                467.0, 969.0, 2353.0, 3164.0, 6303.0, 7494.0 
+GO:0017017 MF 9.89e-06    2/28    12/70955 D08 MAP kinase tyrosine/serine/threonine phosphatase activity 1843.0, 1847.0 
+GO:0035259 MF 1.17e-05    2/28    13/70955 D07 nuclear glucocorticoid receptor binding  3164.0, 8013.0 
+GO:0003677 MF 1.38e-05    5/28   794/70955 D04 DNA binding                              3164.0, 3726.0, 7494.0, 8013.0, 9592.0 
+GO:0001965 MF 4.48e-05    2/28    25/70955 D03 G-protein alpha-subunit binding          5996.0, 5997.0 
+GO:0005516 MF 5.02e-05    3/28   180/70955 D03 calmodulin binding                       2669.0, 5996.0, 5997.0 
+GO:0000976 MF 5.44e-05    3/28   185/70955 D07 transcription cis-regulatory region binding 467.0, 2353.0, 9314.0 
+GO:0008138 MF 8.36e-05    2/28    34/70955 D07 protein tyrosine/serine/threonine phosphatase activity 1843.0, 1847.0 
+GO:0000987 MF 9.38e-05    2/28    36/70955 D08 cis-regulatory region sequence-specific DNA binding 7494.0, 9314.0 
+GO:0004721 MF 1.10e-04    2/28    39/70955 D06 phosphoprotein phosphatase activity      1843.0, 1847.0 
+GO:0004879 MF 1.54e-04    2/28    46/70955 D04 nuclear receptor activity                3164.0, 8013.0 
+GO:0003924 MF 2.09e-04    3/28   292/70955 D07 GTPase activity                          2669.0, 5996.0, 5997.0 
