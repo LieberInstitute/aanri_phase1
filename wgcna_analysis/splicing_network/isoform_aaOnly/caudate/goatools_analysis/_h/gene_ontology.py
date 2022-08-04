@@ -39,7 +39,7 @@ def get_annotation():
         "exons": "%s/_m/caudate/exon_annotation.tsv" % base_loc,
         "junctions": "%s/_m/caudate/jxn_annotation.tsv" % base_loc,
     }
-    return pd.read_csv(config["junctions"], sep='\t')\
+    return pd.read_csv(config["transcripts"], sep='\t')\
              .loc[:, ["names", "seqnames", "gencodeID"]]
 
 
