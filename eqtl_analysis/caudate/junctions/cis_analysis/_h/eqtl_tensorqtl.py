@@ -40,17 +40,17 @@ def main():
     # Nominal
     cis.map_nominal(genotype_df, variant_df, phenotype_df, phenotype_pos_df,
                     prefix, covariates_df=get_covars(args.feature),
-                    maf_threshold=0.05, window=500000, output_dir=".")
+                    maf_threshold=0.01, window=500000, output_dir=".")
     # Permutation
     cis_df = cis.map_cis(genotype_df, variant_df, phenotype_df,phenotype_pos_df,
                          covariates_df=get_covars(args.feature),
-                         maf_threshold=0.05, window=500000, seed=13131313)
+                         maf_threshold=0.01, window=500000, seed=13131313)
     calculate_qvalues(cis_df, fdr=0.05)
     cis_df.to_csv("%s.genes.txt.gz" % prefix, sep='\t')
     # Conditional
     indep_df = cis.map_independent(genotype_df, variant_df, cis_df,phenotype_df,
                                    phenotype_pos_df, covariates_df=get_covars(args.feature),
-                                   maf_threshold=0.05, window=500000, seed=13131313)
+                                   maf_threshold=0.01, window=500000, seed=13131313)
     indep_df.to_csv("%s.conditional.txt.gz" % prefix, sep='\t')
 
 
