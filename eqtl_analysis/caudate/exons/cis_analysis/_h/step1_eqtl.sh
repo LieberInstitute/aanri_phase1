@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -cwd
-#$ -l gpu,mem_free=50G,h_vmem=50G,h_fsize=100G
-#$ -N susie_gpu
+#$ -l caracol,mem_free=50G,h_vmem=50G,h_fsize=100G
+#$ -N cis_tensorqtl
 #$ -o ./summary.log
 #$ -e ./summary.log
 #$ -m e
@@ -41,7 +41,7 @@ FEATURE="exons"
 ln -sfn ../_h/genotypeio.py .
 
 echo "**** Run tensorQTL ****"
-python ../_h/run_susie.py --feature $FEATURE
+python ../_h/eqtl_tensorqtl.py --feature $FEATURE
 
 echo "**** Job ends ****"
 date
