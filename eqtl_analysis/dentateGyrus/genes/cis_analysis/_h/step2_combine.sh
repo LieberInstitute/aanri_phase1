@@ -27,7 +27,6 @@ echo "**** Combine parquet files ****"
 python ../_h/combine_parquet.py
 bgzip -f LIBD_TOPMed_AA.nominal.txt
 tabix -f LIBD_TOPMed_AA.nominal.txt.gz
-#echo "**** Clean directory ****"
-#rm *.parquet
+
 echo "**** Job ends ****"
 date
