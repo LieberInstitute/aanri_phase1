@@ -78,8 +78,8 @@ def main():
         dfx = susie.map(genotype_df, variant_df,
                         phenotype_df.loc[phenotype_pos_df['chr']==chrom],
                         phenotype_pos_df.loc[phenotype_pos_df['chr']==chrom],
-                        covariates_df=covariates_df,
-                        max_iter=200, maf_threshold=0.01, window=500000)
+                        covariates_df=covariates_df, max_iter=200,
+                        maf_threshold=0.01, window=500000)
         susie_df.append(dfx)
     pd.concat(susie_df, axis=0)\
       .to_csv("%s.susie.txt.gz" % prefix, sep='\t', index=False)
