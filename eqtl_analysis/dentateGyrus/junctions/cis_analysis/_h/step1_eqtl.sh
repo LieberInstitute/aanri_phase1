@@ -1,6 +1,6 @@
 #!/bin/bash
 #$ -cwd
-#$ -l gpu,mem_free=50G,h_vmem=50G,h_fsize=100G
+#$ -l caracol,mem_free=50G,h_vmem=50G,h_fsize=100G
 #$ -N cis_tensorqtl
 #$ -o ./summary.log
 #$ -e ./summary.log
@@ -41,7 +41,8 @@ FEATURE="junctions"
 ln -sfn ../_h/genotypeio.py .
 
 echo "**** Run tensorQTL ****"
-python ../_h/tensorQTL.py --feature $FEATURE
+python ../_h/eqtl_tensorqtl.py --feature $FEATURE
+
 echo "**** Job ends ****"
 date
 
