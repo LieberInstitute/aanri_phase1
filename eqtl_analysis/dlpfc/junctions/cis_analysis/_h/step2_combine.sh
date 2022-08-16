@@ -1,6 +1,6 @@
 #!/bin/bash
 #$ -cwd
-#$ -l mem_free=20G,h_vmem=20G,h_fsize=100G
+#$ -l mem_free=10G,h_vmem=10G,h_fsize=100G
 #$ -N combine_parquet
 #$ -o ./summary.log
 #$ -e ./summary.log
@@ -27,7 +27,6 @@ echo "**** Combine parquet files ****"
 python ../_h/combine_parquet.py
 bgzip -f LIBD_TOPMed_AA.nominal.txt
 tabix -f LIBD_TOPMed_AA.nominal.txt.gz
-#echo "**** Clean directory ****"
-#rm *.parquet
+
 echo "**** Job ends ****"
 date

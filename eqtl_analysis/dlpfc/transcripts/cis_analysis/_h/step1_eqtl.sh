@@ -41,7 +41,8 @@ FEATURE="transcripts"
 ln -sfn ../_h/genotypeio.py .
 
 echo "**** Run tensorQTL ****"
-python ../_h/tensorQTL.py --feature $FEATURE
+python ../_h/eqtl_tensorqtl.py --feature $FEATURE
+
 echo "**** Job ends ****"
 date
 
