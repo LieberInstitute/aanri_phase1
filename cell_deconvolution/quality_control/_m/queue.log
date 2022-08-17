@@ -1,0 +1,29 @@
+From root@compute-129.cm.cluster  Wed Aug 17 10:31:09 2022
+Return-Path: <root@compute-129.cm.cluster>
+X-Original-To: jbenjami@compute-129.cm.cluster
+Delivered-To: jbenjami@compute-129.cm.cluster
+Received: by compute-129.cm.cluster (Postfix, from userid 495)
+	id 3D71BC007AB; Wed, 17 Aug 2022 10:31:09 -0400 (EDT)
+Date: Wed, 17 Aug 2022 10:31:09 -0400
+To: jbenjami@compute-129.cm.cluster
+Subject: Job 1577816 (ct_qc) Complete
+User-Agent: Heirloom mailx 12.5 7/5/10
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <20220817143109.3D71BC007AB@compute-129.cm.cluster>
+From: root@compute-129.cm.cluster (root)
+
+Job 1577816 (ct_qc) Complete
+ User             = jbenjami
+ Queue            = shared.q@compute-129.cm.cluster
+ Host             = compute-129.cm.cluster
+ Start Time       = 08/17/2022 10:28:12
+ End Time         = 08/17/2022 10:31:07
+ User Time        = 00:02:38
+ System Time      = 00:00:05
+ Wallclock Time   = 00:02:55
+ CPU              = 00:02:43
+ Max vmem         = 556.793M
+ Exit Status      = 0
+
