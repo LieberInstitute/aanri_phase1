@@ -4,13 +4,18 @@ library(tidyverse)
 library(ggpubr)
 
 get_pheno <- function(){
-    fname = "../../../input/phenotypes/merged/_m/merged_phenotypes.csv"
+    baseloc = "../../../input"
+    ancestry <- paste0(baseloc,"/ancestry_structure/structure.out_ancestry",
+                       "_proportion_raceDemo_compare")
+    fname = paste0(baseloc,"/phenotypes/merged/_m/merged_phenotypes.csv")
     df = data.table::fread(fname) %>% select(-V1) %>%
-        filter(Dx %in% c("Control"), Age > 17, Race %in% c("AA", "CAUC")) %>%
+        filter(Dx %in% c("Control"), Age > 17,
+               Race %in% c("AA", "CAUC")) %>%
+        inner_join(data.table::fread(ancestry),
+                   by=c("BrNum"="id", "Race"="group")) %>%
         mutate(Race = gsub("CAUC", "EA", Race))
     return(df)
 }
-
 memPHENO <- memoise::memoise(get_pheno)
 
 get_cell_prop <- function(){
@@ -47,7 +52,7 @@ get_cell_types <- function(){
 memCT <- memoise::memoise(get_cell_types)
 
 save_img <- function(image, fn, w, h){
-    for(ext in c(".svg", ".pdf", ".png")){
+    for(ext in c(".svg", ".pdf")){
         ggsave(file=paste0(fn, ext), plot=image, width=w, height=h)
     }
 }
@@ -96,9 +101,10 @@ for(tissue in c("caudate", "dlpfc", "hippocampus", "dentateGyrus")){
         ## Normalized
         sca = pca_norm_data(tissue) %>%
             inner_join(df, by="sample") %>% filter(cell_type == ct) %>%
-            ggscatter(y="PC_values", x="Proportion", color="Race", palette="npg",
-                      facet.by=c('PC'), ncol=5, add='reg.line', conf.int=TRUE,
-                      cor.coef=TRUE, xlab=paste(ct, "Proportion"),
+            ggscatter(y="PC_values", x="Proportion", color="Afr",
+                      facet.by=c('PC'), ncol=5, add='reg.line',
+                      conf.int=TRUE, cor.coef=TRUE,
+                      xlab=paste(ct, "Proportion"),
                       ylab="Normalized Expression",
                       panel.labs.font=list(face='bold', size = 14),
                       add.params=list(color="blue", fill="lightgray")) +
@@ -108,9 +114,10 @@ for(tissue in c("caudate", "dlpfc", "hippocampus", "dentateGyrus")){
         ## Residualized
         sca = pca_res_data(tissue) %>%
             inner_join(df, by="sample") %>% filter(cell_type == ct) %>%
-            ggscatter(y="PC_values", x="Proportion", color="Race", palette="npg",
-                      facet.by=c('PC'), ncol=5, add='reg.line', conf.int=TRUE,
-                      cor.coef=TRUE, xlab=paste(ct, "Proportion"),
+            ggscatter(y="PC_values", x="Proportion", color="Afr", 
+                      facet.by=c('PC'), ncol=5, add='reg.line',
+                      conf.int=TRUE, cor.coef=TRUE,
+                      xlab=paste(ct, "Proportion"),
                       ylab="Residualized Expression",
                       panel.labs.font=list(face='bold', size = 14),
                       add.params=list(color="blue", fill="lightgray")) +
