@@ -153,7 +153,7 @@ tile_plot <- function(covars, region, qsv=TRUE, norm=TRUE, identity=TRUE){
             ggplot(aes(x = Covariate, y = PC, fill = log.p.bonf,
                        label=ifelse(p.bonf.sig,format(round(log.p.bonf,1),
                                                       nsmall=1), "")))
-        h = 10; w = 9; limits = c(0, 100)
+        h = 10; w = 7; limits = c(0, 100)
         if(norm){
             ylabel = "Normalized Expression"; out = "norm"
         } else {
@@ -167,7 +167,8 @@ tile_plot <- function(covars, region, qsv=TRUE, norm=TRUE, identity=TRUE){
                                     direction=-1, limits=limits) +
         labs(x=xlabel, y=ylabel) + ggpubr::theme_pubr(base_size = 15) +
         theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
-              panel.grid = element_blank())
+              panel.grid = element_blank(),
+              axis.title = element_text(size=18, face="bold"))
     fn = paste0(region, "_tilePlot_",out,"_covariates")
     save_img(tile_plot, fn, w, h)
 }
