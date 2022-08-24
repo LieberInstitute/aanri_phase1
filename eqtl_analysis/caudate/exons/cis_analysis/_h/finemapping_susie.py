@@ -67,8 +67,8 @@ def main():
     # Filter for cis-eQTL (eFeatures)
     phenotype_df = phenotype_df.loc[egene_df.phenotype_id,:]
     phenotype_pos_df = phenotype_pos_df.loc[egene_df.phenotype_id,:]
-    genotype_df = genotype_df.loc[eqtl_df.variant_id.unique(), :]
-    variant_df = variant_df.loc[eqtl_df.variant_id.unique(), :]
+    genotype_df = genotype_df#.loc[eqtl_df.variant_id.unique(), :]
+    variant_df = variant_df#.loc[eqtl_df.variant_id.unique(), :]
 
     # Run SuSiE fine mapping by chromosome
     chroms = sorted(phenotype_pos_df.chr.unique())
