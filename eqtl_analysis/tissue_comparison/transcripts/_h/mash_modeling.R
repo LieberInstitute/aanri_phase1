@@ -35,7 +35,7 @@ get_shat <- function(){
 
 load_top_eqtls <- function(){
     fn = "top_eqtls_AA_nominal.txt.gz"
-    cClasses = c("character", "character", "numeric", "numeric", "character")
+    cClasses = c("character", "character", "numeric", "character")
     return(data.table::fread(fn, header=TRUE, sep="\t", colClasses=cClasses))
 }
 

@@ -46,8 +46,8 @@ def get_fam():
 @lru_cache()
 def load_data(feature, tissue):
     pheno_df = get_pheno()[(get_pheno()["Race"] == "AA") &
-                           (get_pheno()["Age"] > 13) &
-                           (get_pheno()["Dx"].isin(["Control", "Schizo"]))].copy()
+                           (get_pheno()["Age"] > 17) &
+                           (get_pheno()["Dx"].isin(["Control"]))].copy()
     pheno_df["ids"] = pheno_df.RNum
     pheno_df.set_index("ids", inplace=True)
     tpm_df = pd.read_csv("../../../../input/text_files_counts/tpm/_m/"+\
