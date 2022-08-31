@@ -1,8 +1,8 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -pe local 4
-#$ -l mem_free=50G,h_vmem=50G,h_fsize=100G
+#$ -pe local 6
+#$ -l mem_free=35G,h_vmem=35G,h_fsize=100G
 #$ -N mash_allpairs
 #$ -o ./allpairs_mash.log
 #$ -e ./allpairs_mash.log
@@ -25,7 +25,7 @@ module list
 echo "**** Run mashr prep ****"
 
 Rscript ../_h/all_association_mash.R \
-	--run_chunk --chunk_size 1000 --threads 4
+	--run_chunk --chunk_size 750 --threads 6
 
 echo "**** Job ends ****"
 date

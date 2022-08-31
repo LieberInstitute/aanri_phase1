@@ -1,11 +1,12 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -pe local 5
-#$ -l mem_free=42G,h_vmem=42G,h_fsize=100G
-#$ -N mash_allpairs
-#$ -o ./allpairs_mash.log
-#$ -e ./allpairs_mash.log
+#$ -t 1-1000:1
+#$ -tc 50
+#$ -l mem_free=10G,h_vmem=10G,h_fsize=100G
+#$ -N mash_allpairs_array
+#$ -o ./output/allpairs_$TASK_ID.log
+#$ -e ./output/allpairs_$TASK_ID.log
 #$ -m e -M jade.benjamin@libd.org
 
 echo "**** Job starts ****"
@@ -25,7 +26,7 @@ module list
 echo "**** Run mashr prep ****"
 
 Rscript ../_h/all_association_mash.R \
-	--run_chunk --chunk_size 1250 --threads 5
+	--chunk_num $SGE_TASK_ID --output output
 
 echo "**** Job ends ****"
 date

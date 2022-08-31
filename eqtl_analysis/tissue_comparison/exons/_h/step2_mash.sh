@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -l mem_free=100G,h_vmem=100G,h_fsize=100G
+#$ -l mem_free=125G,h_vmem=125G,h_fsize=100G
 #$ -N run_mashr
 #$ -o ./mash.log
 #$ -e ./mash.log

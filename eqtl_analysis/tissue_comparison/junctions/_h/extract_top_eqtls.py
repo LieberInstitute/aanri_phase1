@@ -34,10 +34,10 @@ def extract_eqtls(feature, fn):
 
 
 def extract_dataframe(feature):
-    fn1 = "LIBD_TOPMed_AA.genes.txt.gz"
+    fn1 = "LIBD_TOPMed_AA.signif_variants.txt.gz"
     fn2 = "LIBD_TOPMed_AA.conditional.txt.gz"
     print("Load data!")
-    ## Top eQTL
+    ## Top eQTL pairs
     cc1, gg1, dd1, hh1 = extract_eqtls(feature, fn1)
     # Conditional eQTL
     cc2, gg2, dd2, hh2 = extract_eqtls(feature, fn2)

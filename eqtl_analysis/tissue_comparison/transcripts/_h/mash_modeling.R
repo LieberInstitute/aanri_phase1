@@ -114,7 +114,7 @@ run_mashr <- function(SEED, percentage){
 }
 
 ## Run mashr for specific feature
-SEED = 20220422; percentage = 0.01
+SEED = 20220422; percentage = 0.02
 run_mashr(SEED, percentage)
 
 ## Reproducibility information

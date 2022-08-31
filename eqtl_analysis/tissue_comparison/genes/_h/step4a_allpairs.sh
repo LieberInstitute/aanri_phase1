@@ -1,11 +1,10 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -pe local 5
-#$ -l mem_free=42G,h_vmem=42G,h_fsize=100G
-#$ -N mash_allpairs
-#$ -o ./allpairs_mash.log
-#$ -e ./allpairs_mash.log
+#$ -l mem_free=30G,h_vmem=30G,h_fsize=100G
+#$ -N mash_allpairs_chunking
+#$ -o ./chunking.log
+#$ -e ./chunking.log
 #$ -m e -M jade.benjamin@libd.org
 
 echo "**** Job starts ****"
@@ -23,9 +22,8 @@ module list
 
 ## Job command
 echo "**** Run mashr prep ****"
-
-Rscript ../_h/all_association_mash.R \
-	--run_chunk --chunk_size 1250 --threads 5
+mkdir output
+Rscript ../_h/generate_chunks.R --chunk_size 500 --output output
 
 echo "**** Job ends ****"
 date

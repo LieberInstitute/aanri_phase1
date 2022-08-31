@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -l mem_free=85G,h_vmem=85G,h_fsize=50G
+#$ -l mem_free=100G,h_vmem=100G,h_fsize=50G
 #$ -N prepare_mashr
 #$ -o ./summary.out
 #$ -e ./summary.out
