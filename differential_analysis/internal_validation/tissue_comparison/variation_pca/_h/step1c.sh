@@ -1,1 +1,1 @@
-../../../../../.git/annex/objects/J7/V6/SHA256E-s497--ff76f688f8848c72fcb69be680900345b2a1bbe16a50fe47b30d80c2b3f91cf2.sh/SHA256E-s497--ff76f688f8848c72fcb69be680900345b2a1bbe16a50fe47b30d80c2b3f91cf2.sh
+/annex/objects/SHA256E-s497--ff76f688f8848c72fcb69be680900345b2a1bbe16a50fe47b30d80c2b3f91cf2.sh

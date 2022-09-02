@@ -1,1 +1,1 @@
-../../../../../.git/annex/objects/wF/Xw/SHA256E-s500--3ddfd38facf3e12ab827b977477e921ff4efd184d95485d36e6a62cfa3516d47.sh/SHA256E-s500--3ddfd38facf3e12ab827b977477e921ff4efd184d95485d36e6a62cfa3516d47.sh
+/annex/objects/SHA256E-s500--3ddfd38facf3e12ab827b977477e921ff4efd184d95485d36e6a62cfa3516d47.sh
