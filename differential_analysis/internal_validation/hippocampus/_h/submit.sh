@@ -1,6 +1,6 @@
 #$ -cwd
 #$ -R y
-#$ -l mem_free=10.0G,h_vmem=10G,h_fsize=50G
+#$ -l mem_free=15.0G,h_vmem=15G,h_fsize=50G
 #$ -N 'internal_validation_hippocampus'
 #$ -o ./summary.out
 #$ -e ./summary.out
