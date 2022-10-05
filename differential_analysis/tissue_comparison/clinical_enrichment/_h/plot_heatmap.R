@@ -39,14 +39,15 @@ plot_tile <- function(fnc, label, w, h){
         ggplot(aes(x = Dataset, y = Tissue, fill = `log2(OR)`,
                    label = ifelse(p.fdr.sig,
                                   format(round(`-log10(FDR)`,1), nsmall=1), ""))) +
-        ylab('Ancestry-Related DEGs') + xlab(label) + facet_grid(.~Direction) +
-        geom_tile(color = "grey") + ggfittext::geom_fit_text(contrast = TRUE) +
+        ylab('Ancestry-Related DEGs') + xlab(label) +
+        facet_wrap(.~Direction, ncol=1) + geom_tile(color = "grey") +
+        ggfittext::geom_fit_text(contrast = TRUE) +
         scale_fill_gradientn(colors=c("blue", "white", "red"),
                              values=scales::rescale(c(y0, 0, y1)),
                              limits=c(y0,y1)) +
-        ggpubr::theme_pubr(base_size = 20, border=FALSE) +
+        ggpubr::theme_pubr(base_size = 20, border=TRUE) +
         theme(axis.text.x = element_text(angle = 45, hjust=1),
-              legend.position="right",
+              ## legend.position="bottom",
               axis.title=element_text(face="bold"),
               axis.text.y=element_text(face="bold"),
               strip.text = element_text(face="bold"))
@@ -54,8 +55,8 @@ plot_tile <- function(fnc, label, w, h){
 }
 
 ## Run script
-plot_tile(memDEG, "DEGs", 24, 6)
-plot_tile(memTWAS, "TWAS", 16, 6)
+plot_tile(memDEG, "DEGs", 10, 12)
+plot_tile(memTWAS, "TWAS", 7, 12)
 
 ## Reproducibility information
 Sys.time()
