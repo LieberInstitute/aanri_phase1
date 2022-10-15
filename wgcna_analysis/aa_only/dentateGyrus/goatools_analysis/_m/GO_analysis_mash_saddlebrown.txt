@@ -1,0 +1,79 @@
+GO:0006954 BP 1.08e-12   15/92   196/14777 D04 inflammatory response                    718.0, 837.0, 929.0, 1436.0, 1535.0, 1536.0, 3689.0, 4261.0, 5742.0, 6696.0, 7040.0, 7096.0, 10312.0, 23166.0, 84868.0 
+GO:0006955 BP 1.15e-12   13/92   129/14777 D02 immune response                          714.0, 718.0, 920.0, 1520.0, 1524.0, 2533.0, 3113.0, 3122.0, 3394.0, 4055.0, 4261.0, 7096.0, 10346.0 
+GO:0002250 BP 1.55e-11   10/92    70/14777 D03 adaptive immune response                 920.0, 1520.0, 1524.0, 3108.0, 3113.0, 3122.0, 6494.0, 7462.0, 84868.0, 89790.0 
+GO:0045087 BP 5.32e-11   15/92   257/14777 D06 innate immune response                   713.0, 714.0, 837.0, 929.0, 1436.0, 1524.0, 1535.0, 1536.0, 2242.0, 3684.0, 7096.0, 10346.0, 10475.0, 84868.0, 89790.0 
+GO:0019886 BP 6.74e-08    5/92    18/14777 D05 antigen processing and presentation of exogenous peptide antigen via MHC class II 972.0, 1520.0, 3108.0, 3113.0, 3122.0 
+GO:0032760 BP 1.49e-07    7/92    65/14777 D09 positive regulation of tumor necrosis factor production 929.0, 1535.0, 1536.0, 5336.0, 5788.0, 7096.0, 84868.0 
+GO:0050853 BP 4.04e-07    5/92    25/14777 D10 B cell receptor signaling pathway        3071.0, 5336.0, 5777.0, 5788.0, 7462.0 
+GO:0032930 BP 6.70e-07    4/92    12/14777 D08 positive regulation of superoxide anion generation 1535.0, 3684.0, 3689.0, 7040.0 
+GO:0045060 BP 2.31e-06    3/92     5/14777 D04 negative thymic T cell selection         972.0, 1794.0, 5788.0 
+GO:0098883 BP 2.31e-06    3/92     5/14777 D06 synapse pruning                          713.0, 714.0, 1524.0 
+GO:0050870 BP 4.03e-06    4/92    18/14777 D08 positive regulation of T cell activation 920.0, 3108.0, 3113.0, 3122.0 
+GO:0045059 BP 4.61e-06    3/92     6/14777 D04 positive thymic T cell selection         972.0, 1794.0, 5788.0 
+GO:0019722 BP 4.64e-06    5/92    40/14777 D07 calcium-mediated signaling               920.0, 1524.0, 5336.0, 7462.0, 64805.0 
+GO:0007155 BP 4.80e-06   11/92   321/14777 D02 cell adhesion                            920.0, 1441.0, 1524.0, 2242.0, 3684.0, 3687.0, 3689.0, 6404.0, 6696.0, 23166.0, 89790.0 
+GO:0050852 BP 7.61e-06    6/92    76/14777 D10 T cell receptor signaling pathway        2533.0, 3635.0, 5336.0, 5777.0, 5788.0, 84106.0 
+GO:0032743 BP 7.76e-06    4/92    21/14777 D08 positive regulation of interleukin-2 production 861.0, 920.0, 5336.0, 5788.0 
+GO:0002503 BP 8.03e-06    3/92     7/14777 D07 peptide antigen assembly with MHC class II protein complex 3108.0, 3113.0, 3122.0 
+GO:0002381 BP 8.03e-06    3/92     7/14777 D07 immunoglobulin production involved in immunoglobulin-mediated immune response 3108.0, 3113.0, 3122.0 
+GO:0016064 BP 1.28e-05    3/92     8/14777 D06 immunoglobulin mediated immune response  972.0, 3635.0, 10312.0 
+GO:0060100 BP 1.28e-05    3/92     8/14777 D08 positive regulation of phagocytosis, engulfment 718.0, 3071.0, 5336.0 
+GO:0045657 BP 1.91e-05    3/92     9/14777 D10 positive regulation of monocyte differentiation 920.0, 972.0, 2242.0 
+GO:0033630 BP 2.72e-05    3/92    10/14777 D06 positive regulation of cell adhesion mediated by integrin 3071.0, 5777.0, 64805.0 
+GO:0097242 BP 2.72e-05    3/92    10/14777 D02 amyloid-beta clearance                   718.0, 3684.0, 3689.0 
+GO:0045766 BP 2.92e-05    6/92    96/14777 D07 positive regulation of angiogenesis      358.0, 718.0, 861.0, 1524.0, 1536.0, 3687.0 
+GO:0042102 BP 2.97e-05    4/92    29/14777 D09 positive regulation of T cell proliferation 3071.0, 3113.0, 5788.0, 84868.0 
+GO:0046598 BP 3.72e-05    3/92    11/14777 D06 positive regulation of viral entry into host cell 920.0, 972.0, 10475.0 
+GO:0002291 BP 3.83e-05    2/92     2/14777 D07 T cell activation via T cell receptor contact with antigen bound to MHC molecule on antigen presenting cell 10875.0, 54518.0 
+GO:0043315 BP 3.83e-05    2/92     2/14777 D11 positive regulation of neutrophil degranulation 3684.0, 3689.0 
+GO:0150062 BP 3.83e-05    2/92     2/14777 D07 complement-mediated synapse pruning      718.0, 3684.0 
+GO:0150064 BP 3.83e-05    2/92     2/14777 D04 vertebrate eye-specific patterning       718.0, 3684.0 
+GO:0045058 BP 3.83e-05    2/92     2/14777 D02 T cell selection                         920.0, 972.0 
+GO:0002316 BP 3.83e-05    2/92     2/14777 D10 follicular B cell differentiation        3394.0, 5336.0 
+GO:2000363 BP 3.83e-05    2/92     2/14777 D06 positive regulation of prostaglandin-E synthase activity 3684.0, 3689.0 
+GO:1904139 BP 3.83e-05    2/92     2/14777 D08 regulation of microglial cell migration  1524.0, 64805.0 
+GO:0071727 BP 3.83e-05    2/92     2/14777 D08 cellular response to triacyl bacterial lipopeptide 929.0, 7096.0 
+GO:0045963 BP 3.83e-05    2/92     2/14777 D08 negative regulation of dopamine metabolic process 3684.0, 3689.0 
+GO:0032715 BP 3.89e-05    4/92    31/14777 D08 negative regulation of interleukin-6 production 3071.0, 3635.0, 5777.0, 84868.0 
+GO:0051056 BP 4.12e-05    6/92   102/14777 D07 regulation of small GTPase mediated signal transduction 1794.0, 6494.0, 23526.0, 81704.0, 201176.0, 221472.0 
+GO:0050731 BP 4.43e-05    5/92    63/14777 D10 positive regulation of peptidyl-tyrosine phosphorylation 920.0, 972.0, 5336.0, 5788.0, 7040.0 
+GO:0006898 BP 4.78e-05    5/92    64/14777 D06 receptor-mediated endocytosis            929.0, 3684.0, 3689.0, 23166.0, 201176.0 
+GO:0001516 BP 4.93e-05    3/92    12/14777 D11 prostaglandin biosynthetic process       972.0, 5742.0, 6916.0 
+GO:0007229 BP 7.37e-05    5/92    70/14777 D06 integrin-mediated signaling pathway      2533.0, 3684.0, 3687.0, 3689.0, 84106.0 
+GO:0032729 BP 7.94e-05    4/92    37/14777 D08 positive regulation of type II interferon production 929.0, 3113.0, 3394.0, 84868.0 
+GO:0034341 BP 1.01e-04    3/92    15/14777 D05 response to type II interferon           972.0, 4261.0, 6672.0 
+GO:0032703 BP 1.01e-04    3/92    15/14777 D08 negative regulation of interleukin-2 production 5788.0, 7805.0, 84868.0 
+GO:0070374 BP 1.07e-04    6/92   121/14777 D09 positive regulation of ERK1 and ERK2 cascade 920.0, 972.0, 1436.0, 5788.0, 7040.0, 84868.0 
+GO:0006935 BP 1.08e-04    4/92    40/14777 D03 chemotaxis                               1524.0, 1794.0, 2242.0, 3071.0 
+GO:0034154 BP 1.15e-04    2/92     3/14777 D13 toll-like receptor 7 signaling pathway   84868.0, 118788.0 
+GO:0046633 BP 1.15e-04    2/92     3/14777 D07 alpha-beta T cell proliferation          1794.0, 5788.0 
+GO:1905114 BP 1.15e-04    2/92     3/14777 D06 cell surface receptor signaling pathway involved in cell-cell signaling 718.0, 3684.0 
+GO:1904845 BP 1.15e-04    2/92     3/14777 D07 cellular response to L-glutamine         1535.0, 1536.0 
+GO:0043378 BP 1.15e-04    2/92     3/14777 D12 positive regulation of CD8-positive, alpha-beta T cell differentiation 861.0, 3071.0 
+GO:0002224 BP 1.23e-04    3/92    16/14777 D11 toll-like receptor signaling pathway     1520.0, 5336.0, 7096.0 
+GO:0006958 BP 1.23e-04    3/92    16/14777 D08 complement activation, classical pathway 713.0, 714.0, 718.0 
+GO:0060907 BP 1.78e-04    3/92    18/14777 D10 positive regulation of macrophage cytokine production 972.0, 5336.0, 7805.0 
+GO:0034113 BP 2.11e-04    3/92    19/14777 D04 heterotypic cell-cell adhesion           3687.0, 3689.0, 5788.0 
+GO:0030097 BP 2.22e-04    4/92    48/14777 D04 hemopoiesis                              861.0, 1436.0, 6404.0, 6886.0 
+GO:0005886 CC 1.84e-12   50/92  3097/14777 D03 plasma membrane                          113.0, 358.0, 718.0, 837.0, 920.0, 929.0, 972.0, 1436.0, 1441.0, 1524.0, 1535.0, 1536.0, 1794.0, 2533.0, 3071.0, 3113.0, 3122.0, 3597.0, 3635.0, 3684.0, 3687.0, 3689.0, 3936.0, 4055.0, 4542.0, 5330.0, 5336.0, 5788.0, 6404.0, 6518.0, 7040.0, 7096.0, 7462.0, 7805.0, 10161.0, 10312.0, 10863.0, 11309.0, 23166.0, 23526.0, 26509.0, 27128.0, 54518.0, 54947.0, 64098.0, 64805.0, 79651.0, 84106.0, 89790.0, 118788.0 
+GO:0009986 CC 6.18e-08   14/92   369/14777 D02 cell surface                             718.0, 972.0, 1436.0, 1524.0, 3108.0, 3113.0, 3122.0, 3684.0, 3687.0, 3689.0, 5788.0, 7040.0, 64805.0, 84868.0 
+GO:0042613 CC 9.66e-08    4/92     8/14777 D05 MHC class II protein complex             972.0, 3108.0, 3113.0, 3122.0 
+GO:0009897 CC 1.17e-07   10/92   173/14777 D03 external side of plasma membrane         920.0, 929.0, 972.0, 1441.0, 1524.0, 3597.0, 3684.0, 3687.0, 3689.0, 5788.0 
+GO:0070821 CC 9.39e-06    5/92    46/14777 D07 tertiary granule membrane                1535.0, 1536.0, 3684.0, 3687.0, 3689.0 
+GO:0030666 CC 2.28e-05    5/92    55/14777 D06 endocytic vesicle membrane               972.0, 1441.0, 3113.0, 3122.0, 23166.0 
+GO:0035579 CC 3.22e-05    5/92    59/14777 D07 specific granule membrane                1535.0, 1536.0, 3684.0, 3689.0, 6518.0 
+GO:0034689 CC 3.83e-05    2/92     2/14777 D06 integrin alphaX-beta2 complex            3687.0, 3689.0 
+GO:0034688 CC 3.83e-05    2/92     2/14777 D06 integrin alphaM-beta2 complex            3684.0, 3689.0 
+GO:0005602 CC 3.83e-05    2/92     2/14777 D02 complement component C1 complex          713.0, 714.0 
+GO:0062167 CC 3.83e-05    2/92     2/14777 D02 complement component C1q complex         713.0, 714.0 
+GO:0101003 CC 1.08e-04    4/92    40/14777 D07 ficolin-1-rich granule membrane          3071.0, 3687.0, 3689.0, 10312.0 
+GO:0030669 CC 1.58e-04    4/92    44/14777 D08 clathrin-coated endocytic vesicle membrane 920.0, 972.0, 3113.0, 3122.0 
+GO:0044853 CC 2.11e-04    3/92    19/14777 D05 plasma membrane raft                     3684.0, 3689.0, 6404.0 
+GO:0042101 CC 2.28e-04    2/92     4/14777 D05 T cell receptor complex                  920.0, 54518.0 
+GO:0008305 CC 2.86e-04    3/92    21/14777 D05 integrin complex                         3684.0, 3687.0, 3689.0 
+GO:0072562 CC 3.76e-04    4/92    55/14777 D02 blood microparticle                      713.0, 714.0, 718.0, 7040.0 
+GO:0030658 CC 3.78e-04    3/92    23/14777 D06 transport vesicle membrane               972.0, 3113.0, 3122.0 
+GO:0005576 CC 4.27e-04   15/92   902/14777 D02 extracellular region                     713.0, 714.0, 718.0, 837.0, 929.0, 1441.0, 1520.0, 1794.0, 5777.0, 6696.0, 7040.0, 10863.0, 10875.0, 23526.0, 89790.0 
+GO:0030670 CC 5.26e-04    4/92    60/14777 D07 phagocytic vesicle membrane              1535.0, 1536.0, 7096.0, 10312.0 
+GO:0043020 CC 5.66e-04    2/92     6/14777 D04 NADPH oxidase complex                    1535.0, 1536.0 
+GO:0023026 MF 4.89e-08    5/92    17/14777 D04 MHC class II protein complex binding     920.0, 972.0, 3108.0, 3113.0, 3122.0 

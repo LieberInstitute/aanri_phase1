@@ -1,0 +1,2 @@
+GO:0050911 BP 1.55e-09   7/221    16/14777 D05 detection of chemical stimulus involved in sensory perception of smell 4992.0, 26246.0, 81466.0, 284521.0, 391190.0, 391191.0, 391192.0 
+GO:0004984 MF 4.78e-10   7/221    14/14777 D04 olfactory receptor activity              4992.0, 26246.0, 81466.0, 284521.0, 391190.0, 391191.0, 391192.0 

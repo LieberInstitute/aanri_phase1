@@ -1,0 +1,15 @@
+GO:0042776 BP 8.22e-12    7/25    63/14777 D13 proton motive force-driven mitochondrial ATP synthesis 4508.0, 4509.0, 4535.0, 4536.0, 4538.0, 4539.0, 4540.0 
+GO:0009060 BP 1.29e-11    7/25    67/14777 D06 aerobic respiration                      4512.0, 4514.0, 4535.0, 4536.0, 4538.0, 4539.0, 4540.0 
+GO:0006120 BP 1.06e-08    5/25    45/14777 D08 mitochondrial electron transport, NADH to ubiquinone 4535.0, 4536.0, 4538.0, 4539.0, 4540.0 
+GO:0015990 BP 1.71e-08    3/25     4/14777 D10 electron transport coupled proton transport 4512.0, 4538.0, 4540.0 
+GO:0045333 BP 4.52e-07    4/25    38/14777 D05 cellular respiration                     4512.0, 4513.0, 4514.0, 4519.0 
+GO:1902600 BP 6.43e-07    5/25   101/14777 D08 proton transmembrane transport           4508.0, 4509.0, 4513.0, 4514.0, 4519.0 
+GO:0032981 BP 2.72e-06    4/25    59/14777 D07 mitochondrial respiratory chain complex I assembly 4535.0, 4536.0, 4538.0, 4540.0 
+GO:0006123 BP 4.07e-06    3/25    19/14777 D08 mitochondrial electron transport, cytochrome c to oxygen 4512.0, 4513.0, 4514.0 
+GO:0005743 CC 2.54e-11   11/25   418/14777 D05 mitochondrial inner membrane             4508.0, 4509.0, 4512.0, 4513.0, 4514.0, 4519.0, 4535.0, 4536.0, 4538.0, 4539.0, 4540.0 
+GO:0005747 CC 1.48e-08    5/25    48/14777 D06 mitochondrial respiratory chain complex I 4535.0, 4536.0, 4538.0, 4539.0, 4540.0 
+GO:0045277 CC 1.49e-07    3/25     7/14777 D04 respiratory chain complex IV             4512.0, 4513.0, 4514.0 
+GO:0005751 CC 4.07e-06    3/25    19/14777 D05 mitochondrial respiratory chain complex IV 4512.0, 4513.0, 4514.0 
+GO:0008137 MF 6.52e-09    5/25    41/14777 D07 NADH dehydrogenase (ubiquinone) activity 4535.0, 4536.0, 4538.0, 4539.0, 4540.0 
+GO:0003954 MF 5.09e-07    3/25    10/14777 D04 NADH dehydrogenase activity              4535.0, 4538.0, 4540.0 
+GO:0004129 MF 1.54e-06    3/25    14/14777 D07 cytochrome-c oxidase activity            4512.0, 4513.0, 4514.0 
