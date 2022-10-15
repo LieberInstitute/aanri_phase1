@@ -1,1 +1,0 @@
-GO:0046949 BP 9.58e-07   3/107     6/29107 D12 fatty-acyl-CoA biosynthetic process      2639.0, 6576.0, 9374.0 
