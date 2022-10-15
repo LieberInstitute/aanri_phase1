@@ -1,0 +1,42 @@
+GO:0034605 BP 4.76e-10    6/39    40/16170 D05 cellular response to heat                3303.0, 3304.0, 3310.0, 3337.0, 5743.0, 56892.0 
+GO:0000122 BP 1.36e-09   14/39   770/16170 D11 negative regulation of transcription by RNA polymerase II 467.0, 2294.0, 3280.0, 3303.0, 3337.0, 3397.0, 3725.0, 4929.0, 6615.0, 7538.0, 7832.0, 8013.0, 9314.0, 441478.0 
+GO:0071376 BP 5.18e-08    3/39     4/16170 D08 cellular response to corticotropin-releasing hormone stimulus 3164.0, 4929.0, 8013.0 
+GO:0051085 BP 8.67e-07    4/39    31/16170 D05 chaperone cofactor-dependent protein refolding 3303.0, 3304.0, 3310.0, 3337.0 
+GO:0035914 BP 9.90e-07    4/39    32/16170 D04 skeletal muscle cell differentiation     467.0, 2353.0, 3164.0, 7832.0 
+GO:0045944 BP 1.04e-06   12/39   923/16170 D11 positive regulation of transcription by RNA polymerase II 467.0, 2294.0, 2353.0, 3164.0, 3280.0, 3491.0, 3725.0, 3726.0, 4929.0, 8013.0, 9314.0, 9592.0 
+GO:0090084 BP 1.08e-06    3/39     9/16170 D06 negative regulation of inclusion body assembly 3303.0, 3304.0, 3337.0 
+GO:0006986 BP 5.66e-06    4/39    49/16170 D05 response to unfolded protein             871.0, 3303.0, 3310.0, 3337.0 
+GO:0060716 BP 8.62e-06    3/39    17/16170 D05 labyrinthine layer blood vessel development 3280.0, 3491.0, 3726.0 
+GO:0008285 BP 1.19e-05    7/39   329/16170 D05 negative regulation of cell population proliferation 1843.0, 3303.0, 3304.0, 3725.0, 5743.0, 7832.0, 9314.0 
+GO:0045444 BP 1.55e-05    4/39    63/16170 D04 fat cell differentiation                 3164.0, 4929.0, 8013.0, 9314.0 
+GO:0140467 BP 1.67e-05    3/39    21/16170 D04 integrated stress response signaling     2353.0, 3725.0, 3726.0 
+GO:0042026 BP 1.94e-05    3/39    22/16170 D03 protein refolding                        3303.0, 3304.0, 3310.0 
+GO:0034620 BP 2.88e-05    3/39    25/16170 D06 cellular response to unfolded protein    3303.0, 3304.0, 3310.0 
+GO:0006402 BP 3.65e-05    3/39    27/16170 D08 mRNA catabolic process                   3303.0, 3304.0, 7538.0 
+GO:0030522 BP 4.54e-05    3/39    29/16170 D05 intracellular receptor signaling pathway 3164.0, 4929.0, 8013.0 
+GO:0045429 BP 5.56e-05    3/39    31/16170 D07 positive regulation of nitric oxide biosynthetic process 5743.0, 9314.0, 23564.0 
+GO:0070370 BP 5.64e-05    2/39     5/16170 D06 cellular heat acclimation                3303.0, 3304.0 
+GO:0070434 BP 5.64e-05    2/39     5/16170 D11 positive regulation of nucleotide-binding oligomerization domain containing 2 signaling pathway 3303.0, 3304.0 
+GO:0030316 BP 6.73e-05    3/39    33/16170 D06 osteoclast differentiation               1880.0, 2353.0, 3726.0 
+GO:0005667 CC 8.07e-08    7/39   156/16170 D02 transcription regulator complex          2294.0, 3164.0, 3725.0, 3726.0, 4929.0, 8013.0, 9314.0 
+GO:0035976 CC 1.29e-07    3/39     5/16170 D04 transcription factor AP-1 complex        2353.0, 3725.0, 3726.0 
+GO:0000785 CC 5.19e-06   10/39   713/16170 D02 chromatin                                467.0, 2294.0, 2353.0, 3164.0, 3280.0, 3725.0, 3726.0, 4929.0, 8013.0, 9314.0 
+GO:0005634 CC 2.32e-05   24/39  4665/16170 D05 nucleus                                  467.0, 1843.0, 1847.0, 2294.0, 2353.0, 3164.0, 3280.0, 3303.0, 3304.0, 3310.0, 3337.0, 3397.0, 3725.0, 3726.0, 4929.0, 6615.0, 7538.0, 7832.0, 7852.0, 8013.0, 9592.0, 56892.0, 64080.0, 84807.0 
+GO:0090575 CC 8.87e-05    4/39    98/16170 D03 RNA polymerase II transcription regulator complex 467.0, 2353.0, 3725.0, 3726.0 
+GO:0001228 MF 5.82e-08    9/39   324/16170 D04 DNA-binding transcription activator activity, RNA polymerase II-specific 467.0, 2294.0, 2353.0, 3164.0, 3725.0, 3726.0, 4929.0, 8013.0, 9314.0 
+GO:1990837 MF 6.63e-08    9/39   329/16170 D06 sequence-specific double-stranded DNA binding 467.0, 2353.0, 3164.0, 3280.0, 3725.0, 3726.0, 4929.0, 6615.0, 9314.0 
+GO:0044183 MF 3.03e-06    4/39    42/16170 D01 protein folding chaperone                3303.0, 3304.0, 3310.0, 3337.0 
+GO:0035259 MF 3.65e-06    3/39    13/16170 D07 nuclear glucocorticoid receptor binding  3164.0, 4929.0, 8013.0 
+GO:0051082 MF 4.39e-06    5/39   102/16170 D03 unfolded protein binding                 871.0, 3303.0, 3304.0, 3310.0, 3337.0 
+GO:0000978 MF 7.03e-06   11/39   916/16170 D09 RNA polymerase II cis-regulatory region sequence-specific DNA binding 467.0, 2294.0, 2353.0, 3164.0, 3280.0, 3725.0, 3726.0, 4929.0, 6615.0, 8013.0, 9314.0 
+GO:0031072 MF 7.77e-06    4/39    53/16170 D03 heat shock protein binding               3303.0, 3304.0, 3310.0, 7538.0 
+GO:0140416 MF 1.44e-05    3/39    20/16170 D03 transcription regulator inhibitor activity 3303.0, 3337.0, 3397.0 
+GO:0000981 MF 3.75e-05   10/39   895/16170 D03 DNA-binding transcription factor activity, RNA polymerase II-specific 467.0, 2294.0, 2353.0, 3164.0, 3280.0, 3725.0, 3726.0, 4929.0, 8013.0, 9314.0 
+GO:0051787 MF 4.08e-05    3/39    28/16170 D03 misfolded protein binding                3303.0, 3304.0, 3310.0 
+GO:0140662 MF 5.56e-05    3/39    31/16170 D02 ATP-dependent protein folding chaperone  3303.0, 3304.0, 3310.0 
+GO:0003677 MF 7.02e-05    9/39   770/16170 D04 DNA binding                              2294.0, 3164.0, 3280.0, 3725.0, 3726.0, 4929.0, 7538.0, 8013.0, 9592.0 
+GO:0005515 MF 7.85e-05   36/39 10383/16170 D02 protein binding                          467.0, 871.0, 969.0, 1843.0, 1847.0, 2353.0, 2920.0, 3164.0, 3280.0, 3303.0, 3304.0, 3310.0, 3337.0, 3397.0, 3491.0, 3725.0, 3726.0, 4929.0, 5054.0, 5743.0, 6615.0, 7538.0, 7832.0, 7852.0, 8013.0, 9023.0, 9314.0, 9592.0, 23564.0, 23645.0, 56892.0, 64080.0, 79720.0, 84807.0, 441478.0, 102724428.0 
+GO:0140545 MF 8.45e-05    2/39     6/16170 D02 ATP-dependent protein disaggregase activity 3303.0, 3304.0 
+GO:0055131 MF 8.45e-05    2/39     6/16170 D04 C3HC4-type RING finger domain binding    3303.0, 3304.0 
+GO:0019899 MF 1.08e-04    6/39   320/16170 D03 enzyme binding                           3303.0, 3304.0, 3310.0, 3725.0, 5743.0, 7538.0 
+GO:0004879 MF 1.72e-04    3/39    45/16170 D04 nuclear receptor activity                3164.0, 4929.0, 8013.0 

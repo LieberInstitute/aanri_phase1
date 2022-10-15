@@ -1,0 +1,12 @@
+GO:0051216 BP 1.17e-07   7/145    44/16170 D04 cartilage development                    655.0, 3696.0, 5396.0, 6660.0, 6662.0, 6935.0, 55553.0 
+GO:0050768 BP 7.53e-07   5/145    20/16170 D07 negative regulation of neurogenesis      655.0, 5080.0, 6653.0, 9355.0, 55198.0 
+GO:2000741 BP 2.81e-06   3/145     4/16170 D07 positive regulation of mesenchymal stem cell differentiation 6660.0, 6662.0, 55553.0 
+GO:0050680 BP 5.38e-06   6/145    50/16170 D06 negative regulation of epithelial cell proliferation 4163.0, 5080.0, 6657.0, 6662.0, 7042.0, 7049.0 
+GO:0048856 BP 7.62e-06   5/145    31/16170 D02 anatomical structure development         2139.0, 3174.0, 5080.0, 6935.0, 7025.0 
+GO:0001942 BP 8.96e-06   5/145    32/16170 D04 hair follicle development                1956.0, 4038.0, 6662.0, 7042.0, 9355.0 
+GO:0002067 BP 1.38e-05   3/145     6/16170 D06 glandular epithelial cell differentiation 4781.0, 6662.0, 10413.0 
+GO:0030858 BP 2.41e-05   3/145     7/16170 D06 positive regulation of epithelial cell differentiation 655.0, 5080.0, 6662.0 
+GO:0007435 BP 2.41e-05   3/145     7/16170 D05 salivary gland morphogenesis             1956.0, 5080.0, 7042.0 
+GO:0000785 CC 5.80e-06  20/145   713/16170 D02 chromatin                                2018.0, 3174.0, 4774.0, 4781.0, 5080.0, 5396.0, 5454.0, 5465.0, 6657.0, 6660.0, 6662.0, 6935.0, 7003.0, 7227.0, 9355.0, 11278.0, 55553.0, 57326.0, 64067.0, 84614.0 
+GO:0003700 MF 1.46e-06  14/145   327/16170 D02 DNA-binding transcription factor activity 3174.0, 4774.0, 5080.0, 5454.0, 5465.0, 6657.0, 6660.0, 6662.0, 6935.0, 7003.0, 7025.0, 7227.0, 11278.0, 55553.0 
+GO:0000978 MF 2.20e-05  22/145   916/16170 D09 RNA polymerase II cis-regulatory region sequence-specific DNA binding 2018.0, 3174.0, 4774.0, 4781.0, 5080.0, 5396.0, 5454.0, 5465.0, 6657.0, 6660.0, 6662.0, 6935.0, 7003.0, 7025.0, 9355.0, 10413.0, 11278.0, 25925.0, 26137.0, 27164.0, 55553.0, 84614.0 

@@ -1,0 +1,11 @@
+GO:0006954 BP 1.76e-09   11/58   260/16170 D04 inflammatory response                    133.0, 604.0, 728.0, 1969.0, 3553.0, 3576.0, 6347.0, 7057.0, 23135.0, 64332.0, 80149.0 
+GO:0071356 BP 7.54e-07    6/58    89/16170 D06 cellular response to tumor necrosis factor 3576.0, 4792.0, 6347.0, 7057.0, 8531.0, 80149.0 
+GO:0010468 BP 2.13e-06    7/58   167/16170 D05 regulation of gene expression            639.0, 1017.0, 4609.0, 8531.0, 23135.0, 64332.0, 80149.0 
+GO:0000082 BP 2.34e-06    5/58    60/16170 D05 G1/S transition of mitotic cell cycle    1017.0, 1026.0, 1263.0, 4609.0, 26524.0 
+GO:0045944 BP 3.39e-06   14/58   923/16170 D11 positive regulation of transcription by RNA polymerase II 1052.0, 1316.0, 2355.0, 3553.0, 4609.0, 4791.0, 4792.0, 10135.0, 10865.0, 23135.0, 23764.0, 29950.0, 64651.0, 80149.0 
+GO:0045766 BP 3.40e-06    6/58   115/16170 D07 positive regulation of angiogenesis      133.0, 728.0, 3553.0, 3576.0, 7057.0, 80149.0 
+GO:0050729 BP 5.41e-06    5/58    71/16170 D07 positive regulation of inflammatory response 3553.0, 3949.0, 4792.0, 64332.0, 283131.0 
+GO:0030593 BP 8.06e-06    4/58    36/16170 D08 neutrophil chemotaxis                    728.0, 3553.0, 3576.0, 6347.0 
+GO:0043491 BP 1.66e-05    4/58    43/16170 D06 protein kinase B signaling               1263.0, 1969.0, 3553.0, 6347.0 
+GO:0097398 BP 3.78e-05    2/58     3/16170 D06 cellular response to interleukin-17      3553.0, 9021.0 
+GO:0071222 BP 4.38e-05    5/58   109/16170 D06 cellular response to lipopolysaccharide  3553.0, 3576.0, 6347.0, 10865.0, 80149.0 

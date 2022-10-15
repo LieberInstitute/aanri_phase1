@@ -1,0 +1,176 @@
+GO:0006954 BP 1.34e-16  20/101   260/16170 D04 inflammatory response                    199.0, 718.0, 719.0, 929.0, 1230.0, 1234.0, 1436.0, 1536.0, 3055.0, 3606.0, 3663.0, 3683.0, 3689.0, 3965.0, 4261.0, 7096.0, 9450.0, 51284.0, 84868.0, 150372.0 
+GO:0045087 BP 4.74e-16  21/101   318/16170 D06 innate immune response                   695.0, 712.0, 713.0, 714.0, 929.0, 1436.0, 1536.0, 2000.0, 2207.0, 2209.0, 3055.0, 3663.0, 3684.0, 4067.0, 6850.0, 7096.0, 9450.0, 11151.0, 51284.0, 84868.0, 89790.0 
+GO:0006955 BP 7.69e-16  17/101   177/16170 D02 immune response                          714.0, 718.0, 942.0, 1230.0, 1234.0, 1520.0, 2209.0, 2210.0, 2214.0, 2533.0, 4261.0, 7096.0, 7454.0, 7940.0, 8477.0, 10261.0, 23533.0 
+GO:0032760 BP 1.04e-13  12/101    82/16170 D09 positive regulation of tumor necrosis factor production 695.0, 929.0, 1536.0, 2214.0, 3965.0, 5788.0, 6850.0, 7096.0, 7305.0, 54440.0, 64170.0, 84868.0 
+GO:0050853 BP 1.22e-11   8/101    31/16170 D10 B cell receptor signaling pathway        695.0, 3071.0, 4067.0, 5777.0, 5788.0, 6850.0, 7462.0, 150372.0 
+GO:0002250 BP 3.60e-11  11/101   102/16170 D03 adaptive immune response                 695.0, 942.0, 1520.0, 2210.0, 3903.0, 4067.0, 6850.0, 7462.0, 10859.0, 84868.0, 89790.0 
+GO:0032753 BP 5.98e-10   6/101    17/16170 D08 positive regulation of interleukin-4 production 942.0, 2207.0, 3965.0, 6850.0, 54440.0, 84868.0 
+GO:0150062 BP 1.43e-09   4/101     4/16170 D07 complement-mediated synapse pruning      712.0, 718.0, 3684.0, 54209.0 
+GO:1901224 BP 1.67e-09   8/101    55/16170 D08 positive regulation of NIK/NF-kappaB signaling 929.0, 942.0, 3606.0, 3965.0, 7805.0, 51284.0, 54209.0, 84868.0 
+GO:0032729 BP 1.67e-09   8/101    55/16170 D08 positive regulation of type II interferon production 929.0, 3606.0, 3965.0, 10148.0, 10859.0, 51284.0, 54440.0, 84868.0 
+GO:0006911 BP 1.85e-09   6/101    20/16170 D07 phagocytosis, engulfment                 199.0, 2209.0, 3684.0, 3689.0, 23616.0, 54209.0 
+GO:0045579 BP 3.86e-09   5/101    11/16170 D10 positive regulation of B cell differentiation 695.0, 3071.0, 3635.0, 6688.0, 6850.0 
+GO:0042102 BP 3.92e-09   7/101    39/16170 D09 positive regulation of T cell proliferation 199.0, 942.0, 3071.0, 5788.0, 11151.0, 54440.0, 84868.0 
+GO:0007166 BP 4.08e-09  11/101   158/16170 D05 cell surface receptor signaling pathway  929.0, 942.0, 1230.0, 1234.0, 2209.0, 2210.0, 2214.0, 5788.0, 10261.0, 27180.0, 284021.0 
+GO:0030889 BP 1.65e-08   5/101    14/16170 D09 negative regulation of B cell proliferation 695.0, 3635.0, 4067.0, 7305.0, 11314.0 
+GO:0032720 BP 1.79e-08   7/101    48/16170 D09 negative regulation of tumor necrosis factor production 409.0, 2000.0, 3965.0, 5777.0, 10859.0, 54209.0, 84868.0 
+GO:0032722 BP 2.69e-08   6/101    30/16170 D08 positive regulation of chemokine production 199.0, 1436.0, 3606.0, 51284.0, 64170.0, 84868.0 
+GO:0032755 BP 3.50e-08   8/101    80/16170 D08 positive regulation of interleukin-6 production 199.0, 695.0, 3965.0, 6850.0, 7096.0, 7305.0, 51284.0, 64170.0 
+GO:0031663 BP 4.94e-08   6/101    33/16170 D06 lipopolysaccharide-mediated signaling pathway 929.0, 3055.0, 3606.0, 4067.0, 6688.0, 9450.0 
+GO:0001774 BP 9.33e-08   5/101    19/16170 D06 microglial cell activation               199.0, 712.0, 3684.0, 3689.0, 54209.0 
+GO:0019221 BP 1.15e-07   8/101    93/16170 D06 cytokine-mediated signaling pathway      1230.0, 1436.0, 1441.0, 3055.0, 3663.0, 5777.0, 10148.0, 10859.0 
+GO:0032715 BP 1.20e-07   6/101    38/16170 D08 negative regulation of interleukin-6 production 409.0, 2000.0, 3071.0, 3635.0, 5777.0, 84868.0 
+GO:0006935 BP 1.40e-07   7/101    64/16170 D03 chemotaxis                               719.0, 1230.0, 1234.0, 1794.0, 3071.0, 3965.0, 112616.0 
+GO:1904151 BP 2.37e-07   3/101     3/16170 D08 positive regulation of microglial cell mediated cytotoxicity 3684.0, 6688.0, 7305.0 
+GO:0150064 BP 2.37e-07   3/101     3/16170 D04 vertebrate eye-specific patterning       712.0, 718.0, 3684.0 
+GO:0038094 BP 9.42e-07   3/101     4/16170 D08 Fc-gamma receptor signaling pathway      2207.0, 2209.0, 2214.0 
+GO:0019722 BP 1.43e-06   6/101    57/16170 D07 calcium-mediated signaling               695.0, 1230.0, 1234.0, 2214.0, 6850.0, 7462.0 
+GO:0050766 BP 1.52e-06   5/101    32/16170 D07 positive regulation of phagocytosis      695.0, 1794.0, 2207.0, 2209.0, 54209.0 
+GO:0034154 BP 2.34e-06   3/101     5/16170 D13 toll-like receptor 7 signaling pathway   51284.0, 84868.0, 118788.0 
+GO:0046641 BP 2.34e-06   3/101     5/16170 D10 positive regulation of alpha-beta T cell proliferation 5788.0, 6850.0, 10148.0 
+GO:0032930 BP 2.46e-06   4/101    16/16170 D08 positive regulation of superoxide anion generation 3684.0, 3689.0, 6850.0, 7305.0 
+GO:0030593 BP 2.78e-06   5/101    36/16170 D08 neutrophil chemotaxis                    1441.0, 2207.0, 3071.0, 3689.0, 6850.0 
+GO:0070374 BP 2.95e-06   8/101   142/16170 D09 positive regulation of ERK1 and ERK2 cascade 409.0, 1230.0, 1436.0, 3965.0, 5788.0, 54209.0, 64170.0, 84868.0 
+GO:0002639 BP 3.21e-06   4/101    17/16170 D08 positive regulation of immunoglobulin production 695.0, 942.0, 5788.0, 54440.0 
+GO:0002283 BP 4.67e-06   3/101     6/16170 D07 neutrophil activation involved in immune response 2207.0, 6850.0, 7305.0 
+GO:0007165 BP 6.32e-06  18/101   868/16170 D04 signal transduction                      718.0, 963.0, 1436.0, 1441.0, 2209.0, 3635.0, 3683.0, 4067.0, 7096.0, 7305.0, 10859.0, 23526.0, 27181.0, 54518.0, 64926.0, 112616.0, 139716.0, 150372.0 
+GO:0002862 BP 6.43e-06   4/101    20/16170 D08 negative regulation of inflammatory response to antigenic stimulus 3055.0, 4067.0, 6850.0, 54209.0 
+GO:0006958 BP 6.43e-06   4/101    20/16170 D08 complement activation, classical pathway 712.0, 713.0, 714.0, 718.0 
+GO:0098883 BP 8.13e-06   3/101     7/16170 D06 synapse pruning                          712.0, 713.0, 714.0 
+GO:0045588 BP 8.13e-06   3/101     7/16170 D11 positive regulation of gamma-delta T cell differentiation 3071.0, 5788.0, 6850.0 
+GO:0031623 BP 8.62e-06   5/101    45/16170 D07 receptor internalization                 409.0, 2207.0, 3689.0, 6850.0, 10859.0 
+GO:0038095 BP 9.62e-06   4/101    22/16170 D08 Fc-epsilon receptor signaling pathway    695.0, 2207.0, 4067.0, 6850.0 
+GO:0007159 BP 9.62e-06   4/101    22/16170 D04 leukocyte cell-cell adhesion             3683.0, 3689.0, 5788.0, 6850.0 
+GO:0032757 BP 9.63e-06   5/101    46/16170 D08 positive regulation of interleukin-8 production 929.0, 3965.0, 6850.0, 7096.0, 51284.0 
+GO:0060907 BP 1.16e-05   4/101    23/16170 D10 positive regulation of macrophage cytokine production 7805.0, 10859.0, 51284.0, 64170.0 
+GO:0018108 BP 1.25e-05   7/101   124/16170 D08 peptidyl-tyrosine phosphorylation        695.0, 1436.0, 3055.0, 4067.0, 5777.0, 5788.0, 6850.0 
+GO:0019370 BP 1.29e-05   3/101     8/16170 D08 leukotriene biosynthetic process         240.0, 241.0, 6850.0 
+GO:0032689 BP 1.38e-05   4/101    24/16170 D08 negative regulation of type II interferon production 3965.0, 7805.0, 10859.0, 84868.0 
+GO:0007229 BP 1.40e-05   6/101    84/16170 D06 integrin-mediated signaling pathway      2533.0, 3055.0, 3683.0, 3684.0, 3689.0, 6850.0 
+GO:0032725 BP 1.93e-05   3/101     9/16170 D08 positive regulation of granulocyte macrophage colony-stimulating factor production 3606.0, 6850.0, 64170.0 
+GO:0045953 BP 1.93e-05   3/101     9/16170 D09 negative regulation of natural killer cell mediated cytotoxicity 409.0, 3965.0, 10859.0 
+GO:0032733 BP 2.25e-05   4/101    27/16170 D08 positive regulation of interleukin-10 production 3965.0, 6850.0, 54209.0, 54440.0 
+GO:0042130 BP 2.62e-05   4/101    28/16170 D09 negative regulation of T cell proliferation 942.0, 5777.0, 10859.0, 84868.0 
+GO:0050764 BP 2.75e-05   3/101    10/16170 D06 regulation of phagocytosis               3055.0, 5788.0, 6850.0 
+GO:0007155 BP 2.96e-05  11/101   387/16170 D02 cell adhesion                            1230.0, 1441.0, 3055.0, 3683.0, 3684.0, 3689.0, 6404.0, 11314.0, 27180.0, 27181.0, 89790.0 
+GO:0002244 BP 3.30e-05   5/101    59/16170 D04 hematopoietic progenitor cell differentiation 1436.0, 4067.0, 5777.0, 5788.0, 54502.0 
+GO:0032735 BP 3.47e-05   4/101    30/16170 D08 positive regulation of interleukin-12 production 3663.0, 3965.0, 6850.0, 7805.0 
+GO:0060100 BP 3.76e-05   3/101    11/16170 D08 positive regulation of phagocytosis, engulfment 718.0, 3071.0, 54209.0 
+GO:0097028 BP 3.76e-05   3/101    11/16170 D06 dendritic cell differentiation           4067.0, 10859.0, 54209.0 
+GO:0001798 BP 3.86e-05   2/101     2/16170 D12 positive regulation of type IIa hypersensitivity 718.0, 2209.0 
+GO:0045963 BP 3.86e-05   2/101     2/16170 D08 negative regulation of dopamine metabolic process 3684.0, 3689.0 
+GO:1904093 BP 3.86e-05   2/101     2/16170 D07 negative regulation of autophagic cell death 7805.0, 54209.0 
+GO:0001788 BP 3.86e-05   2/101     2/16170 D10 antibody-dependent cellular cytotoxicity 2209.0, 2214.0 
+GO:0002540 BP 3.86e-05   2/101     2/16170 D04 leukotriene production involved in inflammatory response 240.0, 241.0 
+GO:0001805 BP 3.86e-05   2/101     2/16170 D11 positive regulation of type III hypersensitivity 695.0, 2209.0 
+GO:0110090 BP 3.86e-05   2/101     2/16170 D09 positive regulation of hippocampal neuron apoptotic process 3684.0, 7305.0 
+GO:0002431 BP 3.86e-05   2/101     2/16170 D09 Fc receptor mediated stimulatory signaling pathway 2207.0, 4067.0 
+GO:0042098 BP 3.96e-05   4/101    31/16170 D06 T cell proliferation                     5777.0, 10148.0, 11151.0, 54440.0 
+GO:0050776 BP 4.51e-05   4/101    32/16170 D04 regulation of immune response            2209.0, 2210.0, 2214.0, 3635.0 
+GO:0048678 BP 4.51e-05   4/101    32/16170 D04 response to axon injury                  199.0, 4067.0, 7305.0, 54209.0 
+GO:0034142 BP 5.00e-05   3/101    12/16170 D13 toll-like receptor 4 signaling pathway   929.0, 4067.0, 118788.0 
+GO:0097242 BP 5.00e-05   3/101    12/16170 D02 amyloid-beta clearance                   718.0, 3684.0, 3689.0 
+GO:0002357 BP 5.00e-05   3/101    12/16170 D04 defense response to tumor cell           6688.0, 7805.0, 51225.0 
+GO:0014068 BP 5.28e-05   5/101    65/16170 D08 positive regulation of phosphatidylinositol 3-kinase signaling 3059.0, 3606.0, 5777.0, 54209.0, 118788.0 
+GO:0030890 BP 5.76e-05   4/101    34/16170 D09 positive regulation of B cell proliferation 695.0, 3071.0, 5788.0, 54440.0 
+GO:0042531 BP 5.76e-05   4/101    34/16170 D11 positive regulation of tyrosine phosphorylation of STAT protein 1436.0, 3059.0, 3606.0, 4067.0 
+GO:1901216 BP 5.76e-05   4/101    34/16170 D06 positive regulation of neuron death      712.0, 3684.0, 3689.0, 7305.0 
+GO:0033630 BP 6.46e-05   3/101    13/16170 D06 positive regulation of cell adhesion mediated by integrin 3071.0, 5777.0, 6850.0 
+GO:0032693 BP 6.46e-05   3/101    13/16170 D08 negative regulation of interleukin-10 production 695.0, 7305.0, 10859.0 
+GO:0006956 BP 6.46e-05   3/101    13/16170 D07 complement activation                    712.0, 713.0, 718.0 
+GO:0051056 BP 6.82e-05   6/101   111/16170 D07 regulation of small GTPase mediated signal transduction 393.0, 1794.0, 23526.0, 23616.0, 81704.0, 257106.0 
+GO:0050731 BP 7.05e-05   5/101    69/16170 D10 positive regulation of peptidyl-tyrosine phosphorylation 409.0, 3059.0, 5788.0, 6850.0, 54209.0 
+GO:0042267 BP 8.19e-05   3/101    14/16170 D08 natural killer cell mediated cytotoxicity 2214.0, 3606.0, 5777.0 
+GO:2000406 BP 8.19e-05   3/101    14/16170 D10 positive regulation of T cell migration  199.0, 11151.0, 81704.0 
+GO:0016064 BP 1.02e-04   3/101    15/16170 D06 immunoglobulin mediated immune response  2207.0, 3635.0, 64170.0 
+GO:0071404 BP 1.02e-04   3/101    15/16170 D06 cellular response to low-density lipoprotein particle stimulus 2207.0, 3689.0, 6850.0 
+GO:2000670 BP 1.15e-04   2/101     3/16170 D09 positive regulation of dendritic cell apoptotic process 3965.0, 4067.0 
+GO:0002902 BP 1.15e-04   2/101     3/16170 D09 regulation of B cell apoptotic process   695.0, 4067.0 
+GO:0046633 BP 1.15e-04   2/101     3/16170 D07 alpha-beta T cell proliferation          1794.0, 5788.0 
+GO:2001189 BP 1.15e-04   2/101     3/16170 D09 negative regulation of T cell activation via T cell receptor contact with antigen bound to MHC molecule on antigen presenting cell 10859.0, 84868.0 
+GO:2000363 BP 1.15e-04   2/101     3/16170 D06 positive regulation of prostaglandin-E synthase activity 3684.0, 3689.0 
+GO:0002553 BP 1.15e-04   2/101     3/16170 D09 histamine secretion by mast cell         695.0, 4067.0 
+GO:0002519 BP 1.15e-04   2/101     3/16170 D03 natural killer cell tolerance induction  3965.0, 84868.0 
+GO:1905114 BP 1.15e-04   2/101     3/16170 D06 cell surface receptor signaling pathway involved in cell-cell signaling 718.0, 3684.0 
+GO:0038156 BP 1.15e-04   2/101     3/16170 D07 interleukin-3-mediated signaling pathway 2207.0, 6850.0 
+GO:0071727 BP 1.15e-04   2/101     3/16170 D08 cellular response to triacyl bacterial lipopeptide 929.0, 7096.0 
+GO:0034241 BP 1.15e-04   2/101     3/16170 D07 positive regulation of macrophage fusion 7305.0, 54209.0 
+GO:0043315 BP 1.15e-04   2/101     3/16170 D11 positive regulation of neutrophil degranulation 3684.0, 3689.0 
+GO:0051279 BP 1.25e-04   3/101    16/16170 D09 regulation of release of sequestered calcium ion into cytosol 4067.0, 5777.0, 11151.0 
+GO:0043303 BP 1.25e-04   3/101    16/16170 D09 mast cell degranulation                  6850.0, 7462.0, 284021.0 
+GO:0030218 BP 1.47e-04   4/101    43/16170 D05 erythrocyte differentiation              3059.0, 4067.0, 6688.0, 10320.0 
+GO:0030225 BP 1.51e-04   3/101    17/16170 D06 macrophage differentiation               1436.0, 6688.0, 139716.0 
+GO:0031668 BP 1.51e-04   3/101    17/16170 D04 cellular response to extracellular stimulus 199.0, 4067.0, 5788.0 
+GO:0002223 BP 1.80e-04   3/101    18/16170 D11 stimulatory C-type lectin receptor signaling pathway 4067.0, 6850.0, 7305.0 
+GO:0007498 BP 2.13e-04   3/101    19/16170 D04 mesoderm development                     695.0, 3055.0, 10320.0 
+GO:0002291 BP 2.30e-04   2/101     4/16170 D07 T cell activation via T cell receptor contact with antigen bound to MHC molecule on antigen presenting cell 3683.0, 54518.0 
+GO:0002774 BP 2.30e-04   2/101     4/16170 D08 Fc receptor mediated inhibitory signaling pathway 4067.0, 10859.0 
+GO:0043320 BP 2.30e-04   2/101     4/16170 D09 natural killer cell degranulation        2214.0, 11151.0 
+GO:0071396 BP 2.30e-04   2/101     4/16170 D05 cellular response to lipid               6850.0, 54209.0 
+GO:0045728 BP 2.30e-04   2/101     4/16170 D04 respiratory burst after phagocytosis     3055.0, 54209.0 
+GO:0071226 BP 2.30e-04   2/101     4/16170 D05 cellular response to molecule of fungal origin 695.0, 6850.0 
+GO:0051142 BP 2.30e-04   2/101     4/16170 D11 positive regulation of NK T cell proliferation 3606.0, 64926.0 
+GO:0033007 BP 2.30e-04   2/101     4/16170 D08 negative regulation of mast cell activation involved in immune response 5777.0, 11314.0 
+GO:0050790 BP 2.32e-04   9/101   332/16170 D03 regulation of catalytic activity         241.0, 393.0, 695.0, 1794.0, 4689.0, 7454.0, 27128.0, 63940.0, 257106.0 
+GO:0035556 BP 2.48e-04   9/101   335/16170 D05 intracellular signal transduction        695.0, 3059.0, 3635.0, 4067.0, 5777.0, 6850.0, 7305.0, 7462.0, 150372.0 
+GO:0002224 BP 2.50e-04   3/101    20/16170 D11 toll-like receptor signaling pathway     1520.0, 7096.0, 51284.0 
+GO:0032703 BP 2.50e-04   3/101    20/16170 D08 negative regulation of interleukin-2 production 5788.0, 7805.0, 84868.0 
+GO:0051090 BP 2.50e-04   3/101    20/16170 D10 regulation of DNA-binding transcription factor activity 3055.0, 6688.0, 6850.0 
+GO:0032691 BP 2.90e-04   3/101    21/16170 D09 negative regulation of interleukin-1 beta production 409.0, 2000.0, 54209.0 
+GO:0032481 BP 2.90e-04   3/101    21/16170 D08 positive regulation of type I interferon production 929.0, 3663.0, 6850.0 
+GO:0038096 BP 2.90e-04   3/101    21/16170 D10 Fc-gamma receptor signaling pathway involved in phagocytosis 3055.0, 4067.0, 6850.0 
+GO:0043372 BP 3.82e-04   2/101     5/16170 D12 positive regulation of CD4-positive, alpha-beta T cell differentiation 3071.0, 54440.0 
+GO:0090330 BP 3.82e-04   2/101     5/16170 D07 regulation of platelet aggregation       4067.0, 6850.0 
+GO:0002282 BP 3.82e-04   2/101     5/16170 D07 microglial cell activation involved in immune response 7305.0, 54209.0 
+GO:0042590 BP 3.82e-04   2/101     5/16170 D05 antigen processing and presentation of exogenous peptide antigen via MHC class I 2207.0, 2209.0 
+GO:0036336 BP 3.82e-04   2/101     5/16170 D06 dendritic cell migration                 240.0, 81704.0 
+GO:0010543 BP 3.82e-04   2/101     5/16170 D05 regulation of platelet activation        2207.0, 6850.0 
+GO:0001915 BP 3.82e-04   2/101     5/16170 D09 negative regulation of T cell mediated cytotoxicity 5788.0, 10859.0 
+GO:0001782 BP 3.83e-04   3/101    23/16170 D07 B cell homeostasis                       3071.0, 4067.0, 54440.0 
+GO:0070372 BP 4.35e-04   3/101    24/16170 D08 regulation of ERK1 and ERK2 cascade      4067.0, 5777.0, 6850.0 
+GO:0031295 BP 4.92e-04   3/101    25/16170 D09 T cell costimulation                     942.0, 4067.0, 5777.0 
+GO:0006909 BP 5.01e-04   4/101    59/16170 D05 phagocytosis                             929.0, 3683.0, 4689.0, 11151.0 
+GO:0045646 BP 5.70e-04   2/101     6/16170 D08 regulation of erythrocyte differentiation 4067.0, 6688.0 
+GO:0042492 BP 5.70e-04   2/101     6/16170 D08 gamma-delta T cell differentiation       5788.0, 6850.0 
+GO:0032494 BP 5.70e-04   2/101     6/16170 D05 response to peptidoglycan                3663.0, 64170.0 
+GO:0034136 BP 5.70e-04   2/101     6/16170 D09 negative regulation of toll-like receptor 2 signaling pathway 4067.0, 54209.0 
+GO:0005886 CC 9.35e-21  66/101  3558/16170 D03 plasma membrane                          409.0, 695.0, 718.0, 719.0, 929.0, 942.0, 951.0, 963.0, 1230.0, 1234.0, 1436.0, 1441.0, 1536.0, 1794.0, 2207.0, 2209.0, 2210.0, 2214.0, 2533.0, 2857.0, 3055.0, 3059.0, 3071.0, 3635.0, 3683.0, 3684.0, 3689.0, 3903.0, 3936.0, 4033.0, 4067.0, 4542.0, 5788.0, 6001.0, 6404.0, 6510.0, 6850.0, 7096.0, 7305.0, 7454.0, 7462.0, 7805.0, 7940.0, 8477.0, 10148.0, 10261.0, 10859.0, 11151.0, 11314.0, 23526.0, 23533.0, 27128.0, 27180.0, 27181.0, 51284.0, 54209.0, 54518.0, 63940.0, 64098.0, 64170.0, 79930.0, 89790.0, 118788.0, 150372.0, 284021.0, 338773.0 
+GO:0009897 CC 1.00e-10  14/101   222/16170 D03 external side of plasma membrane         929.0, 942.0, 1230.0, 1234.0, 1441.0, 2207.0, 2209.0, 2214.0, 3683.0, 3684.0, 3689.0, 5788.0, 10148.0, 10859.0 
+GO:0070821 CC 6.15e-08   7/101    57/16170 D07 tertiary granule membrane                963.0, 1536.0, 2207.0, 3684.0, 3689.0, 3903.0, 11314.0 
+GO:0005602 CC 2.37e-07   3/101     3/16170 D02 complement component C1 complex          712.0, 713.0, 714.0 
+GO:0062167 CC 2.37e-07   3/101     3/16170 D02 complement component C1q complex         712.0, 713.0, 714.0 
+GO:0035579 CC 2.88e-07   7/101    71/16170 D07 specific granule membrane                719.0, 963.0, 1536.0, 3683.0, 3684.0, 3689.0, 3903.0 
+GO:0005884 CC 1.06e-05   6/101    80/16170 D06 actin filament                           199.0, 3055.0, 3059.0, 3936.0, 7454.0, 11151.0 
+GO:0030667 CC 1.31e-05   6/101    83/16170 D06 secretory granule membrane               929.0, 3071.0, 5788.0, 7305.0, 27180.0, 79930.0 
+GO:0001891 CC 1.38e-05   4/101    24/16170 D02 phagocytic cup                           199.0, 3936.0, 11151.0, 23616.0 
+GO:0101003 CC 1.46e-05   5/101    50/16170 D07 ficolin-1-rich granule membrane          2207.0, 3071.0, 3689.0, 11314.0, 79930.0 
+GO:0044853 CC 1.64e-05   4/101    25/16170 D05 plasma membrane raft                     3684.0, 3689.0, 6404.0, 54209.0 
+GO:0009986 CC 3.06e-05  12/101   462/16170 D02 cell surface                             718.0, 942.0, 963.0, 1234.0, 1436.0, 2207.0, 3683.0, 3684.0, 3689.0, 5788.0, 7305.0, 84868.0 
+GO:0034688 CC 3.86e-05   2/101     2/16170 D06 integrin alphaM-beta2 complex            3684.0, 3689.0 
+GO:0034687 CC 3.86e-05   2/101     2/16170 D06 integrin alphaL-beta2 complex            3683.0, 3689.0 
+GO:0045121 CC 4.00e-05   8/101   203/16170 D04 membrane raft                            695.0, 929.0, 3635.0, 4067.0, 5788.0, 7096.0, 7462.0, 150372.0 
+GO:0001772 CC 5.10e-05   4/101    33/16170 D02 immunological synapse                    951.0, 963.0, 11151.0, 84868.0 
+GO:0033001 CC 1.15e-04   2/101     3/16170 D05 Fc-gamma receptor III complex            2207.0, 2214.0 
+GO:0070062 CC 4.51e-04  23/101  1713/16170 D06 extracellular exosome                    718.0, 929.0, 942.0, 951.0, 963.0, 1794.0, 2214.0, 3071.0, 3683.0, 3684.0, 3689.0, 3936.0, 4067.0, 5265.0, 5777.0, 5788.0, 6510.0, 7454.0, 7462.0, 10095.0, 11151.0, 11314.0, 64926.0 
+GO:0008305 CC 5.54e-04   3/101    26/16170 D05 integrin complex                         3683.0, 3684.0, 3689.0 
+GO:0042101 CC 5.70e-04   2/101     6/16170 D05 T cell receptor complex                  6850.0, 54518.0 
+GO:0005576 CC 5.78e-04  17/101  1127/16170 D02 extracellular region                     240.0, 712.0, 713.0, 714.0, 718.0, 929.0, 1441.0, 1520.0, 1794.0, 3606.0, 5265.0, 5777.0, 10148.0, 10859.0, 23526.0, 54209.0, 89790.0 
+GO:0004888 MF 2.31e-11  11/101    98/16170 D03 transmembrane signaling receptor activity 2209.0, 2210.0, 2214.0, 7096.0, 10261.0, 11314.0, 27181.0, 51284.0, 54209.0, 150372.0, 284021.0 
+GO:0019864 MF 4.95e-08   4/101     7/16170 D04 IgG binding                              2207.0, 2209.0, 2210.0, 2214.0 
+GO:0042169 MF 2.41e-06   5/101    35/16170 D04 SH2 domain binding                       5777.0, 6850.0, 7462.0, 10859.0, 89790.0 
+GO:0005102 MF 5.53e-06  10/101   262/16170 D03 signaling receptor binding               409.0, 718.0, 2533.0, 3055.0, 4067.0, 5788.0, 6404.0, 6850.0, 7305.0, 118788.0 
+GO:0017124 MF 7.16e-06   7/101   114/16170 D04 SH3 domain binding                       3059.0, 3635.0, 4067.0, 5777.0, 7454.0, 23616.0, 51225.0 
+GO:0033691 MF 3.76e-05   3/101    11/16170 D05 sialic acid binding                      27180.0, 27181.0, 89790.0 
+GO:0070891 MF 3.86e-05   2/101     2/16170 D03 lipoteichoic acid binding                929.0, 54209.0 
+GO:0030369 MF 3.86e-05   2/101     2/16170 D04 ICAM-3 receptor activity                 3683.0, 3689.0 
+GO:0004051 MF 3.86e-05   2/101     2/16170 D05 arachidonate 5-lipoxygenase activity     240.0, 241.0 
+GO:0071791 MF 3.86e-05   2/101     2/16170 D06 chemokine (C-C motif) ligand 5 binding   1230.0, 1234.0 
+GO:0004715 MF 7.24e-05   4/101    36/16170 D07 non-membrane spanning protein tyrosine kinase activity 695.0, 3055.0, 4067.0, 6850.0 
+GO:0005515 MF 9.79e-05  83/101 10383/16170 D02 protein binding                          199.0, 240.0, 241.0, 393.0, 409.0, 695.0, 712.0, 713.0, 714.0, 718.0, 929.0, 942.0, 951.0, 963.0, 1230.0, 1234.0, 1436.0, 1441.0, 1536.0, 1794.0, 2000.0, 2207.0, 2209.0, 2214.0, 2533.0, 3055.0, 3059.0, 3071.0, 3606.0, 3635.0, 3663.0, 3683.0, 3684.0, 3689.0, 3903.0, 4067.0, 4261.0, 4542.0, 4689.0, 5265.0, 5777.0, 5788.0, 6001.0, 6404.0, 6510.0, 6688.0, 6850.0, 7096.0, 7305.0, 7454.0, 7462.0, 7805.0, 9450.0, 10095.0, 10148.0, 10320.0, 10859.0, 11151.0, 11314.0, 22797.0, 23526.0, 23616.0, 27128.0, 27180.0, 27181.0, 51225.0, 51284.0, 54209.0, 54502.0, 54518.0, 63940.0, 64098.0, 64170.0, 64926.0, 79930.0, 81704.0, 84868.0, 89790.0, 112616.0, 118788.0, 150372.0, 257106.0, 284021.0 
+GO:0001784 MF 1.10e-04   4/101    40/16170 D05 phosphotyrosine residue binding          3055.0, 5777.0, 6850.0, 64092.0 
+GO:0071723 MF 1.15e-04   2/101     3/16170 D04 lipopeptide binding                      929.0, 7096.0 
+GO:0051015 MF 1.54e-04   7/101   184/16170 D05 actin filament binding                   199.0, 3059.0, 3936.0, 4542.0, 10095.0, 11151.0, 51225.0 
+GO:0005096 MF 1.62e-04   8/101   248/16170 D05 GTPase activator activity                393.0, 1794.0, 3071.0, 6001.0, 23526.0, 23616.0, 64926.0, 257106.0 
+GO:0004713 MF 1.90e-04   5/101    85/16170 D06 protein tyrosine kinase activity         695.0, 1436.0, 3055.0, 4067.0, 6850.0 
+GO:0005178 MF 1.93e-04   6/101   134/16170 D04 integrin binding                         3683.0, 3684.0, 3689.0, 3936.0, 4067.0, 6850.0 
+GO:0043274 MF 2.13e-04   3/101    19/16170 D04 phospholipase binding                    695.0, 6850.0, 7454.0 
