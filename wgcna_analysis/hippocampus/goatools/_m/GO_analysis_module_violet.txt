@@ -1,4 +1,0 @@
-GO:0120199 CC 7.66e-06    2/26     5/29107 D03 cone photoreceptor outer segment         2978.0, 118142757.0 
-GO:0016323 CC 4.63e-05    4/26   226/29107 D04 basolateral plasma membrane              493.0, 4072.0, 23705.0, 84465.0 
-GO:0030249 MF 7.67e-07    2/26     2/29107 D04 guanylate cyclase regulator activity     2978.0, 118142757.0 
-GO:0008048 MF 1.15e-05    2/26     6/29107 D06 calcium sensitive guanylate cyclase activator activity 2978.0, 118142757.0 

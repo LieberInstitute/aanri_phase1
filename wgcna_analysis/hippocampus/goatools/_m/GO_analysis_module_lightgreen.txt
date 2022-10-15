@@ -1,3 +1,0 @@
-GO:0008076 CC 5.16e-06    4/43    77/29107 D07 voltage-gated potassium channel complex  3738.0, 3747.0, 3756.0, 170850.0 
-GO:0005251 MF 1.64e-07    4/43    33/29107 D10 delayed rectifier potassium channel activity 3738.0, 3747.0, 3756.0, 170850.0 
-GO:0005249 MF 1.65e-06    4/43    58/29107 D09 voltage-gated potassium channel activity 3738.0, 3747.0, 3756.0, 170850.0 
