@@ -1,0 +1,20 @@
+GO:0006954 BP 2.99e-10   13/77   261/16056 D04 inflammatory response                    133.0, 728.0, 1969.0, 2920.0, 3553.0, 3576.0, 5966.0, 6347.0, 7057.0, 7128.0, 23135.0, 64332.0, 80149.0 
+GO:0071222 BP 2.22e-09    9/77   108/16056 D06 cellular response to lipopolysaccharide  2920.0, 3553.0, 3576.0, 5054.0, 6347.0, 7128.0, 7538.0, 10865.0, 80149.0 
+GO:0006915 BP 3.53e-09   15/77   456/16056 D04 apoptotic process                        388.0, 1263.0, 3553.0, 3659.0, 4616.0, 4792.0, 5292.0, 5552.0, 7128.0, 8531.0, 8793.0, 8870.0, 51330.0, 64651.0, 80149.0 
+GO:0045766 BP 6.59e-08    8/77   113/16056 D07 positive regulation of angiogenesis      133.0, 388.0, 728.0, 3553.0, 3576.0, 5054.0, 7057.0, 80149.0 
+GO:0071356 BP 2.22e-07    7/77    89/16056 D06 cellular response to tumor necrosis factor 3576.0, 4792.0, 6347.0, 7057.0, 7538.0, 8531.0, 80149.0 
+GO:0030593 BP 6.45e-07    5/77    35/16056 D08 neutrophil chemotaxis                    728.0, 2920.0, 3553.0, 3576.0, 6347.0 
+GO:0043066 BP 1.19e-06   11/77   363/16056 D07 negative regulation of apoptotic process 602.0, 1263.0, 4170.0, 4609.0, 5292.0, 5329.0, 7037.0, 7057.0, 8793.0, 8870.0, 9021.0 
+GO:0002237 BP 2.10e-06    3/77     6/16056 D04 response to molecule of bacterial origin 2920.0, 3576.0, 7128.0 
+GO:0001525 BP 4.06e-06    8/77   194/16056 D03 angiogenesis                             388.0, 3576.0, 5054.0, 6303.0, 6347.0, 51330.0, 80149.0, 81575.0 
+GO:1902042 BP 4.83e-06    4/77    24/16056 D10 negative regulation of extrinsic apoptotic signaling pathway via death domain receptors 3383.0, 5054.0, 7128.0, 85450.0 
+GO:0051918 BP 5.84e-06    3/77     8/16056 D09 negative regulation of fibrinolysis      5054.0, 7056.0, 7057.0 
+GO:0006935 BP 1.16e-05    5/77    62/16056 D03 chemotaxis                               728.0, 2920.0, 3576.0, 5329.0, 6347.0 
+GO:0002268 BP 2.27e-05    2/77     2/16056 D04 follicular dendritic cell differentiation 602.0, 4791.0 
+GO:0045944 BP 2.49e-05   15/77   916/16056 D11 positive regulation of transcription by RNA polymerase II 602.0, 1052.0, 1316.0, 3553.0, 3659.0, 4609.0, 4791.0, 4792.0, 5187.0, 5966.0, 10865.0, 23135.0, 23764.0, 64651.0, 80149.0 
+GO:0043065 BP 2.50e-05    8/77   249/16056 D07 positive regulation of apoptotic process 133.0, 388.0, 2683.0, 4170.0, 4616.0, 51330.0, 79845.0, 90427.0 
+GO:0032720 BP 5.24e-05    4/77    43/16056 D09 negative regulation of tumor necrosis factor production 602.0, 7128.0, 54206.0, 80149.0 
+GO:0043491 BP 5.24e-05    4/77    43/16056 D06 protein kinase B signaling               1263.0, 1969.0, 3553.0, 6347.0 
+GO:0097398 BP 6.79e-05    2/77     3/16056 D06 cellular response to interleukin-17      3553.0, 9021.0 
+GO:0033257 CC 2.27e-05    2/77     2/16056 D04 Bcl3/NF-kappaB2 complex                  602.0, 4791.0 
+GO:0005615 CC 2.62e-05   15/77   920/16056 D02 extracellular space                      133.0, 1839.0, 2683.0, 2920.0, 3383.0, 3553.0, 3576.0, 5054.0, 5552.0, 6347.0, 7037.0, 7056.0, 7057.0, 29923.0, 83716.0 

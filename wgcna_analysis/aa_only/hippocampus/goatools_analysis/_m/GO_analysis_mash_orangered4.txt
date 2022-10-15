@@ -1,0 +1,1 @@
+GO:0032793 BP 3.18e-06    3/28    17/16056 D12 positive regulation of CREB transcription factor activity 4985.0, 23373.0, 57118.0 

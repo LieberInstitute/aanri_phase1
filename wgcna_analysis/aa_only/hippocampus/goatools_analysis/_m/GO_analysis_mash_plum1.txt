@@ -1,0 +1,16 @@
+GO:0006695 BP 1.83e-29   13/29    31/16056 D07 cholesterol biosynthetic process         47.0, 1717.0, 1718.0, 2222.0, 2224.0, 3156.0, 3157.0, 3422.0, 3638.0, 4597.0, 4598.0, 6307.0, 50814.0 
+GO:0016126 BP 2.44e-13    6/29    17/16056 D06 sterol biosynthetic process              1717.0, 3156.0, 3638.0, 6307.0, 6309.0, 6713.0 
+GO:0033489 BP 2.12e-08    3/29     4/16056 D08 cholesterol biosynthetic process via desmosterol 1717.0, 1718.0, 6309.0 
+GO:0033490 BP 2.12e-08    3/29     4/16056 D08 cholesterol biosynthetic process via lathosterol 1717.0, 1718.0, 6309.0 
+GO:0006629 BP 1.12e-07    6/29   132/16056 D03 lipid metabolic process                  39.0, 3157.0, 3949.0, 3992.0, 6309.0, 6721.0 
+GO:0008299 BP 2.95e-07    3/29     8/16056 D06 isoprenoid biosynthetic process          3156.0, 4597.0, 4598.0 
+GO:0008203 BP 3.40e-06    4/29    58/16056 D06 cholesterol metabolic process            3949.0, 6713.0, 6721.0, 50814.0 
+GO:0042632 BP 4.17e-06    4/29    61/16056 D07 cholesterol homeostasis                  2170.0, 3638.0, 3949.0, 6721.0 
+GO:0019287 BP 9.44e-06    2/29     3/16056 D12 isopentenyl diphosphate biosynthetic process, mevalonate pathway 4597.0, 4598.0 
+GO:0070508 BP 3.14e-05    2/29     5/16056 D08 cholesterol import                       3949.0, 134429.0 
+GO:0015936 BP 3.14e-05    2/29     5/16056 D10 coenzyme A metabolic process             47.0, 3156.0 
+GO:0005789 CC 2.37e-09   13/29   937/16056 D04 endoplasmic reticulum membrane           1717.0, 1718.0, 2222.0, 3156.0, 3638.0, 3992.0, 5881.0, 6307.0, 6309.0, 6319.0, 6713.0, 6721.0, 50814.0 
+GO:0005783 CC 2.93e-08   12/29   935/16056 D05 endoplasmic reticulum                    1717.0, 1718.0, 2222.0, 3156.0, 3638.0, 6307.0, 6319.0, 6713.0, 6721.0, 50814.0, 57795.0, 134429.0 
+GO:0032937 CC 9.44e-06    2/29     3/16056 D03 SREBP-SCAP-Insig complex                 3638.0, 6721.0 
+GO:0016491 MF 1.25e-06    5/29   107/16056 D02 oxidoreductase activity                  3992.0, 6307.0, 6309.0, 6319.0, 10493.0 
+GO:0000248 MF 3.15e-06    2/29     2/16056 D05 C-5 sterol desaturase activity           3992.0, 6309.0 

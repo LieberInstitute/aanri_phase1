@@ -1,0 +1,2 @@
+GO:0005516 MF 1.14e-06    6/31   182/16056 D03 calmodulin binding                       815.0, 816.0, 6262.0, 6543.0, 23025.0, 84254.0 
+GO:0004683 MF 9.79e-06    3/31    22/16056 D07 calmodulin-dependent protein kinase activity 815.0, 816.0, 84254.0 

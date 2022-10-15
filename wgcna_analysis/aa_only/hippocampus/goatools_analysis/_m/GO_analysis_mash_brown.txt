@@ -1,0 +1,1 @@
+GO:0030346 MF 5.91e-06   4/331     7/16056 D06 protein phosphatase 2B binding           493.0, 5532.0, 6647.0, 9495.0 

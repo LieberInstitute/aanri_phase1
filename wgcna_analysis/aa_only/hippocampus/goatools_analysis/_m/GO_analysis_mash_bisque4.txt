@@ -1,0 +1,43 @@
+GO:0006457 BP 6.82e-21   12/20   132/16056 D02 protein folding                          2288.0, 3301.0, 3312.0, 3320.0, 3326.0, 6950.0, 9531.0, 10598.0, 10728.0, 10808.0, 10963.0, 22824.0 
+GO:0006986 BP 1.38e-13    7/20    50/16056 D05 response to unfolded protein             3301.0, 3312.0, 3320.0, 3326.0, 10808.0, 11080.0, 22824.0 
+GO:1905323 BP 6.61e-09    3/20     4/16056 D07 telomerase holoenzyme complex assembly   3320.0, 3326.0, 10728.0 
+GO:0051085 BP 5.39e-08    4/20    31/16056 D05 chaperone cofactor-dependent protein refolding 3312.0, 10728.0, 10808.0, 11080.0 
+GO:0061684 BP 5.77e-08    3/20     7/16056 D06 chaperone-mediated autophagy             3312.0, 3320.0, 9531.0 
+GO:0051973 BP 6.16e-08    4/20    32/16056 D09 positive regulation of telomerase activity 3320.0, 3326.0, 6950.0, 10728.0 
+GO:0007004 BP 1.58e-06    3/20    19/16056 D09 telomere maintenance via telomerase      3320.0, 3326.0, 10728.0 
+GO:0051131 BP 1.86e-06    3/20    20/16056 D06 chaperone-mediated protein complex assembly 3320.0, 3326.0, 10728.0 
+GO:0042026 BP 2.51e-06    3/20    22/16056 D03 protein refolding                        3301.0, 3312.0, 3320.0 
+GO:0050821 BP 2.88e-06    5/20   189/16056 D04 protein stabilization                    3320.0, 3326.0, 6950.0, 9531.0, 10728.0 
+GO:0061077 BP 9.65e-06    3/20    34/16056 D03 chaperone-mediated protein folding       2288.0, 6950.0, 26973.0 
+GO:0034605 BP 1.71e-05    3/20    41/16056 D05 cellular response to heat                3320.0, 3326.0, 9531.0 
+GO:0009408 BP 2.12e-05    3/20    44/16056 D04 response to heat                         3301.0, 3320.0, 11080.0 
+GO:0021955 BP 3.08e-05    2/20     7/16056 D10 central nervous system neuron axonogenesis 3320.0, 3326.0 
+GO:1902949 BP 3.08e-05    2/20     7/16056 D11 positive regulation of tau-protein kinase activity 3320.0, 3326.0 
+GO:0101031 CC 4.70e-08    4/20    30/16056 D03 chaperone complex                        3312.0, 9531.0, 10728.0, 10963.0 
+GO:0044295 CC 3.29e-06    3/20    24/16056 D04 axonal growth cone                       2288.0, 3320.0, 3326.0 
+GO:0005829 CC 3.82e-06   16/20  4699/16056 D02 cytosol                                  2288.0, 3301.0, 3312.0, 3320.0, 3326.0, 6950.0, 8087.0, 9531.0, 10598.0, 10728.0, 10808.0, 10963.0, 11080.0, 22824.0, 23210.0, 27101.0 
+GO:0032991 CC 3.92e-05    6/20   547/16056 D01 protein-containing complex               2288.0, 3320.0, 3326.0, 10728.0, 10808.0, 10963.0 
+GO:0044294 CC 5.28e-05    2/20     9/16056 D04 dendritic growth cone                    3320.0, 3326.0 
+GO:0048471 CC 9.24e-05    6/20   638/16056 D02 perinuclear region of cytoplasm          2288.0, 3301.0, 3312.0, 3320.0, 3326.0, 8087.0 
+GO:0070062 CC 9.70e-05    9/20  1710/16056 D06 extracellular exosome                    2288.0, 3301.0, 3312.0, 3320.0, 3326.0, 6950.0, 10598.0, 10808.0, 27101.0 
+GO:0071682 CC 1.14e-04    2/20    13/16056 D05 endocytic vesicle lumen                  3320.0, 10808.0 
+GO:0042470 CC 2.13e-04    3/20    95/16056 D08 melanosome                               3312.0, 3320.0, 3326.0 
+GO:0120293 CC 2.23e-04    2/20    18/16056 D05 dynein axonemal particle                 3326.0, 10963.0 
+GO:0034774 CC 2.26e-04    3/20    97/16056 D06 secretory granule lumen                  3312.0, 3320.0, 3326.0 
+GO:0140662 MF 1.18e-12    6/20    31/16056 D02 ATP-dependent protein folding chaperone  3312.0, 3320.0, 3326.0, 6950.0, 10808.0, 22824.0 
+GO:0051082 MF 2.45e-11    7/20   102/16056 D03 unfolded protein binding                 3301.0, 3312.0, 3320.0, 3326.0, 6950.0, 10728.0, 11080.0 
+GO:0051087 MF 1.33e-09    6/20    95/16056 D03 chaperone binding                        3301.0, 3312.0, 9531.0, 10598.0, 10728.0, 11080.0 
+GO:0051879 MF 1.40e-07    4/20    39/16056 D04 Hsp90 protein binding                    10598.0, 10728.0, 10963.0, 26973.0 
+GO:0031625 MF 9.52e-07    6/20   286/16056 D05 ubiquitin protein ligase binding         3301.0, 3312.0, 3320.0, 3326.0, 6950.0, 27101.0 
+GO:0070182 MF 1.11e-06    3/20    17/16056 D04 DNA polymerase binding                   3320.0, 3326.0, 10728.0 
+GO:0023026 MF 2.17e-06    3/20    21/16056 D04 MHC class II protein complex binding     3312.0, 3320.0, 3326.0 
+GO:0001671 MF 3.29e-06    3/20    24/16056 D03 ATPase activator activity                3301.0, 10598.0, 11080.0 
+GO:0005524 MF 1.19e-05    9/20  1317/16056 D08 ATP binding                              2288.0, 3301.0, 3312.0, 3320.0, 3326.0, 6950.0, 10808.0, 22824.0, 26973.0 
+GO:0140597 MF 1.47e-05    2/20     5/16056 D02 protein carrier chaperone                3312.0, 9531.0 
+GO:0048156 MF 1.98e-05    3/20    43/16056 D04 tau protein binding                      2288.0, 3320.0, 3326.0 
+GO:0055131 MF 2.20e-05    2/20     6/16056 D04 C3HC4-type RING finger domain binding    3301.0, 3312.0 
+GO:0030911 MF 2.20e-05    2/20     6/16056 D04 TPR domain binding                       3320.0, 3326.0 
+GO:0030235 MF 3.08e-05    2/20     7/16056 D03 nitric-oxide synthase regulator activity 3320.0, 3326.0 
+GO:0031072 MF 3.51e-05    3/20    52/16056 D03 heat shock protein binding               2288.0, 3312.0, 3326.0 
+GO:0000774 MF 8.05e-05    2/20    11/16056 D07 adenyl-nucleotide exchange factor activity 9531.0, 10808.0 
+GO:0003723 MF 1.09e-04    8/20  1327/16056 D04 RNA binding                              2288.0, 3312.0, 3320.0, 3326.0, 6950.0, 8087.0, 10963.0, 23210.0 

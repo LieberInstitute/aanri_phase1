@@ -1,0 +1,7 @@
+GO:0010273 BP 1.77e-08    4/57     9/16056 D03 detoxification of copper ion             4493.0, 4499.0, 4501.0, 4502.0 
+GO:0045926 BP 6.92e-08    4/57    12/16056 D04 negative regulation of growth            4493.0, 4499.0, 4501.0, 4502.0 
+GO:0071294 BP 3.28e-07    4/57    17/16056 D06 cellular response to zinc ion            4493.0, 4499.0, 4501.0, 4502.0 
+GO:0071280 BP 5.32e-07    4/57    19/16056 D06 cellular response to copper ion          4493.0, 4499.0, 4501.0, 4502.0 
+GO:0006882 BP 1.71e-06    4/57    25/16056 D10 cellular zinc ion homeostasis            4493.0, 4499.0, 4501.0, 4502.0 
+GO:0071276 BP 1.71e-06    4/57    25/16056 D06 cellular response to cadmium ion         4493.0, 4499.0, 4501.0, 4502.0 
+GO:0036018 BP 1.24e-05    2/57     2/16056 D06 cellular response to erythropoietin      4501.0, 4502.0 

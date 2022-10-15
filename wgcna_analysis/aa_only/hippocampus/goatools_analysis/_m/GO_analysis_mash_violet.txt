@@ -1,0 +1,10 @@
+GO:0035914 BP 4.49e-07    4/32    32/16056 D04 skeletal muscle cell differentiation     467.0, 2353.0, 3164.0, 7832.0 
+GO:0006366 BP 1.39e-06    6/32   182/16056 D10 transcription by RNA polymerase II       902.0, 2353.0, 2354.0, 3164.0, 4929.0, 9314.0 
+GO:0060716 BP 5.75e-06    3/32    18/16056 D05 labyrinthine layer blood vessel development 3280.0, 3491.0, 3726.0 
+GO:0045944 BP 7.09e-06   10/32   916/16056 D11 positive regulation of transcription by RNA polymerase II 467.0, 2353.0, 2354.0, 3164.0, 3280.0, 3491.0, 3726.0, 4929.0, 9314.0, 9592.0 
+GO:0035976 CC 3.83e-05    2/32     5/16056 D04 transcription factor AP-1 complex        2353.0, 3726.0 
+GO:0000785 CC 5.47e-05    8/32   705/16056 D02 chromatin                                467.0, 2353.0, 2354.0, 3164.0, 3280.0, 3726.0, 4929.0, 9314.0 
+GO:1990837 MF 1.82e-07    8/32   326/16056 D06 sequence-specific double-stranded DNA binding 467.0, 2353.0, 2354.0, 3164.0, 3280.0, 3726.0, 4929.0, 9314.0 
+GO:0001228 MF 2.62e-06    7/32   321/16056 D04 DNA-binding transcription activator activity, RNA polymerase II-specific 467.0, 2353.0, 2354.0, 3164.0, 3726.0, 4929.0, 9314.0 
+GO:0000981 MF 3.93e-05    9/32   883/16056 D03 DNA-binding transcription factor activity, RNA polymerase II-specific 467.0, 2353.0, 2354.0, 3164.0, 3280.0, 3726.0, 4929.0, 9314.0, 55422.0 
+GO:0000978 MF 4.69e-05    9/32   903/16056 D09 RNA polymerase II cis-regulatory region sequence-specific DNA binding 467.0, 2353.0, 2354.0, 3164.0, 3280.0, 3726.0, 4929.0, 9314.0, 55422.0 

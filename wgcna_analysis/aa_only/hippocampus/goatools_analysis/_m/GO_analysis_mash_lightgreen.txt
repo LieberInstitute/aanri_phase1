@@ -1,0 +1,18 @@
+GO:0033693 BP 5.22e-08    3/61     3/16056 D09 neurofilament bundle assembly            4741.0, 4744.0, 4747.0 
+GO:0099185 BP 5.22e-08    3/61     3/16056 D07 postsynaptic intermediate filament cytoskeleton organization 4744.0, 4747.0, 9118.0 
+GO:0086002 BP 2.49e-07    4/61    15/16056 D06 cardiac muscle cell action potential involved in contraction 6323.0, 6324.0, 6327.0, 6330.0 
+GO:0060052 BP 4.31e-06    3/61     9/16056 D07 neurofilament cytoskeleton organization  4744.0, 4747.0, 9118.0 
+GO:0086012 BP 1.12e-05    3/61    12/16056 D06 membrane depolarization during cardiac muscle cell action potential 6324.0, 6327.0, 6330.0 
+GO:0045109 BP 1.45e-05    3/61    13/16056 D07 intermediate filament organization       4741.0, 4747.0, 9118.0 
+GO:2000649 BP 2.82e-05    3/61    16/16056 D09 regulation of sodium ion transmembrane transporter activity 6324.0, 6327.0, 6330.0 
+GO:0099160 CC 1.89e-10    4/61     4/16056 D07 postsynaptic intermediate filament cytoskeleton 4741.0, 4744.0, 4747.0, 9118.0 
+GO:0005883 CC 2.34e-08    4/61     9/16056 D07 neurofilament                            4741.0, 4744.0, 4747.0, 9118.0 
+GO:0001518 CC 2.49e-07    4/61    15/16056 D07 voltage-gated sodium channel complex     6323.0, 6324.0, 6327.0, 6330.0 
+GO:0098685 CC 1.14e-06    6/61    90/16056 D04 Schaffer collateral - CA1 synapse        4744.0, 4747.0, 9118.0, 9590.0, 10815.0, 22854.0 
+GO:0030315 CC 1.56e-05    4/61    40/16056 D02 T-tubule                                 6323.0, 6324.0, 6327.0, 113146.0 
+GO:0030424 CC 1.90e-05    8/61   305/16056 D05 axon                                     3737.0, 4741.0, 4744.0, 4747.0, 5979.0, 6323.0, 55605.0, 127833.0 
+GO:0097418 CC 1.41e-04    2/61     5/16056 D04 neurofibrillary tangle                   4741.0, 4744.0 
+GO:0005654 CC 7.25e-05    2/61  3491/16056 D02 nucleoplasm                              6014.0, 6323.0 
+GO:0099184 MF 5.22e-08    3/61     3/16056 D04 structural constituent of postsynaptic intermediate filament cytoskeleton 4744.0, 4747.0, 9118.0 
+GO:0086006 MF 5.19e-07    3/61     5/16056 D10 voltage-gated sodium channel activity involved in cardiac muscle cell action potential 6324.0, 6327.0, 6330.0 
+GO:0005200 MF 8.25e-06    5/61    73/16056 D02 structural constituent of cytoskeleton   4741.0, 4744.0, 4747.0, 9118.0, 23136.0 
