@@ -25,16 +25,20 @@ mkdir wgcna_functional_enrichment/dlpfc/
 mkdir wgcna_functional_enrichment/hippocampus/
 
 # Caudate
-cp -v ../../../caudate/goatools/_m/* wgcna_functional_enrichment/caudate/
+cp -v ../../../caudate/goatools_analysis/_m/module* wgcna_functional_enrichment/caudate/
+cp -v ../../../caudate/goatools_analysis/_m/GO* wgcna_functional_enrichment/caudate/
 
 # Dentate Gyrus
-cp -v ../../../dentateGyrus/goatools/_m/* wgcna_functional_enrichment/dentateGyrus/
+cp -v ../../../dentateGyrus/goatools_analysis/_m/module* wgcna_functional_enrichment/dentateGyrus/
+cp -v ../../../dentateGyrus/goatools_analysis/_m/GO* wgcna_functional_enrichment/dentateGyrus/
 
 # DLPFC
-cp -v ../../../dlpfc/goatools/_m/* wgcna_functional_enrichment/dlpfc/
+cp -v ../../../dlpfc/goatools_analysis/_m/module* wgcna_functional_enrichment/dlpfc/
+cp -v ../../../dlpfc/goatools_analysis/_m/GO* wgcna_functional_enrichment/dlpfc/
 
 # Hippocampus
-cp -v ../../../hippocampus/goatools/_m/* wgcna_functional_enrichment/hippocampus/
+cp -v ../../../hippocampus/goatools_analysis/_m/module* wgcna_functional_enrichment/hippocampus/
+cp -v ../../../hippocampus/goatools_analysis/_m/GO* wgcna_functional_enrichment/hippocampus/
 
 ## Tar zip
 tar -czvf WGCNA_DEG_enrichment_modules_GO_analysis.tar.gz wgcna_functional_enrichment
