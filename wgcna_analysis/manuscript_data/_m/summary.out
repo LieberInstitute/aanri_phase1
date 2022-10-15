@@ -1,0 +1,78 @@
+**** Job starts ****
+2022-08-27T12:57:51-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 1698377
+Job name: wgcna_functional_enrichment_tar
+Hostname: compute-127.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     6) COMMUNITY_CENTOS7_DEFAULT_ENV
+  2) stata/17          7) JHPCE_CENTOS7_DEFAULT_ENV
+  3) JHPCE_tools/1.0   8) python/3.7.3
+  4) sge/8.1.9         9) emacs/28.1
+  5) gcc/4.4.7
+
+ 
+
+**** Run script ****
+‘../../caudate/goatools/_m/GO_analysis_module_violet.txt’ -> ‘wgcna_functional_enrichment/caudate/GO_analysis_module_violet.txt’
+‘../../caudate/goatools/_m/GO_analysis_module_violet.xlsx’ -> ‘wgcna_functional_enrichment/caudate/GO_analysis_module_violet.xlsx’
+‘../../caudate/goatools/_m/module_annotated.csv’ -> ‘wgcna_functional_enrichment/caudate/module_annotated.csv’
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_black.txt’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_black.txt’
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_black.xlsx’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_black.xlsx’
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_darkgrey.txt’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_darkgrey.txt’
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_darkgrey.xlsx’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_darkgrey.xlsx’
+cp: cannot stat ‘../../dentateGyrus/goatools/_m/GO_analysis_module_darkolivegreen.*’: No such file or directory
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_lightcyan.txt’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_lightcyan.txt’
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_lightcyan.xlsx’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_lightcyan.xlsx’
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_magenta.txt’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_magenta.txt’
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_magenta.xlsx’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_magenta.xlsx’
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_skyblue.txt’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_skyblue.txt’
+‘../../dentateGyrus/goatools/_m/GO_analysis_module_skyblue.xlsx’ -> ‘wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_skyblue.xlsx’
+‘../../dentateGyrus/goatools/_m/module_annotated.csv’ -> ‘wgcna_functional_enrichment/dentateGyrus/module_annotated.csv’
+‘../../dlpfc/goatools/_m/GO_analysis_module_black.txt’ -> ‘wgcna_functional_enrichment/dlpfc/GO_analysis_module_black.txt’
+‘../../dlpfc/goatools/_m/GO_analysis_module_black.xlsx’ -> ‘wgcna_functional_enrichment/dlpfc/GO_analysis_module_black.xlsx’
+‘../../dlpfc/goatools/_m/GO_analysis_module_cyan.txt’ -> ‘wgcna_functional_enrichment/dlpfc/GO_analysis_module_cyan.txt’
+‘../../dlpfc/goatools/_m/GO_analysis_module_cyan.xlsx’ -> ‘wgcna_functional_enrichment/dlpfc/GO_analysis_module_cyan.xlsx’
+‘../../dlpfc/goatools/_m/GO_analysis_module_darkred.txt’ -> ‘wgcna_functional_enrichment/dlpfc/GO_analysis_module_darkred.txt’
+‘../../dlpfc/goatools/_m/GO_analysis_module_darkred.xlsx’ -> ‘wgcna_functional_enrichment/dlpfc/GO_analysis_module_darkred.xlsx’
+‘../../dlpfc/goatools/_m/GO_analysis_module_darkturquoise.txt’ -> ‘wgcna_functional_enrichment/dlpfc/GO_analysis_module_darkturquoise.txt’
+‘../../dlpfc/goatools/_m/GO_analysis_module_darkturquoise.xlsx’ -> ‘wgcna_functional_enrichment/dlpfc/GO_analysis_module_darkturquoise.xlsx’
+‘../../dlpfc/goatools/_m/module_annotated.csv’ -> ‘wgcna_functional_enrichment/dlpfc/module_annotated.csv’
+‘../../hippocampus/goatools/_m/GO_analysis_module_brown.txt’ -> ‘wgcna_functional_enrichment/hippocampus/GO_analysis_module_brown.txt’
+‘../../hippocampus/goatools/_m/GO_analysis_module_brown.xlsx’ -> ‘wgcna_functional_enrichment/hippocampus/GO_analysis_module_brown.xlsx’
+‘../../hippocampus/goatools/_m/module_annotated.csv’ -> ‘wgcna_functional_enrichment/hippocampus/module_annotated.csv’
+wgcna_functional_enrichment/
+wgcna_functional_enrichment/dentateGyrus/
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_black.xlsx
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_lightcyan.txt
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_skyblue.txt
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_darkgrey.xlsx
+wgcna_functional_enrichment/dentateGyrus/module_annotated.csv
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_magenta.xlsx
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_darkgrey.txt
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_lightcyan.xlsx
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_magenta.txt
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_black.txt
+wgcna_functional_enrichment/dentateGyrus/GO_analysis_module_skyblue.xlsx
+wgcna_functional_enrichment/hippocampus/
+wgcna_functional_enrichment/hippocampus/GO_analysis_module_brown.xlsx
+wgcna_functional_enrichment/hippocampus/module_annotated.csv
+wgcna_functional_enrichment/hippocampus/GO_analysis_module_brown.txt
+wgcna_functional_enrichment/caudate/
+wgcna_functional_enrichment/caudate/GO_analysis_module_violet.xlsx
+wgcna_functional_enrichment/caudate/GO_analysis_module_violet.txt
+wgcna_functional_enrichment/caudate/module_annotated.csv
+wgcna_functional_enrichment/dlpfc/
+wgcna_functional_enrichment/dlpfc/GO_analysis_module_cyan.xlsx
+wgcna_functional_enrichment/dlpfc/GO_analysis_module_darkturquoise.txt
+wgcna_functional_enrichment/dlpfc/GO_analysis_module_darkred.xlsx
+wgcna_functional_enrichment/dlpfc/GO_analysis_module_darkred.txt
+wgcna_functional_enrichment/dlpfc/module_annotated.csv
+wgcna_functional_enrichment/dlpfc/GO_analysis_module_darkturquoise.xlsx
+wgcna_functional_enrichment/dlpfc/GO_analysis_module_cyan.txt
+wgcna_functional_enrichment/dlpfc/GO_analysis_module_black.txt
+wgcna_functional_enrichment/dlpfc/GO_analysis_module_black.xlsx
+**** Job ends ****
+2022-08-27T12:57:52-0400
