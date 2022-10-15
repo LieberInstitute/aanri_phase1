@@ -1,0 +1,29 @@
+**** Job starts ****
+2022-10-05T08:54:43-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 167888
+Job name: wgcna_functional_enrichment_tar
+Hostname: compute-089.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     6) COMMUNITY_CENTOS7_DEFAULT_ENV
+  2) stata/17          7) JHPCE_CENTOS7_DEFAULT_ENV
+  3) JHPCE_tools/1.0   8) python/3.7.3
+  4) sge/8.1.9         9) emacs/28.1
+  5) gcc/4.4.7
+
+ 
+
+**** Run script ****
+cp: cannot stat ‘../../../caudate/goatools/_m/*’: No such file or directory
+cp: cannot stat ‘../../../dentateGyrus/goatools/_m/*’: No such file or directory
+cp: cannot stat ‘../../../dlpfc/goatools/_m/*’: No such file or directory
+cp: cannot stat ‘../../../hippocampus/goatools/_m/*’: No such file or directory
+wgcna_functional_enrichment/
+wgcna_functional_enrichment/caudate/
+wgcna_functional_enrichment/hippocampus/
+wgcna_functional_enrichment/dentateGyrus/
+wgcna_functional_enrichment/dlpfc/
+**** Job ends ****
+2022-10-05T08:54:43-0400
