@@ -1,0 +1,41 @@
+GO:0051607 BP 7.34e-38   25/48   165/16076 D07 defense response to virus                103.0, 2537.0, 3433.0, 3434.0, 3437.0, 4599.0, 4600.0, 4938.0, 4939.0, 4940.0, 6772.0, 9636.0, 10346.0, 10379.0, 10964.0, 23586.0, 51191.0, 55601.0, 57169.0, 64135.0, 79132.0, 83666.0, 91351.0, 91543.0, 151636.0 
+GO:0009615 BP 6.12e-30   18/48    83/16076 D05 response to virus                        103.0, 3433.0, 3434.0, 3437.0, 4599.0, 4600.0, 4938.0, 4939.0, 4940.0, 9111.0, 9636.0, 10346.0, 10561.0, 23586.0, 55601.0, 64135.0, 79132.0, 91543.0 
+GO:0045087 BP 3.20e-27   23/48   310/16076 D06 innate immune response                   103.0, 2537.0, 3430.0, 3433.0, 3437.0, 4599.0, 4600.0, 4940.0, 6737.0, 7706.0, 10346.0, 10392.0, 23586.0, 51191.0, 54625.0, 54809.0, 55601.0, 57169.0, 64135.0, 79132.0, 83666.0, 91543.0, 151636.0 
+GO:0045071 BP 3.11e-16    9/48    33/16076 D06 negative regulation of viral genome replication 3434.0, 4599.0, 4938.0, 4939.0, 4940.0, 9636.0, 57169.0, 64135.0, 91543.0 
+GO:0032728 BP 1.29e-11    7/48    37/16076 D09 positive regulation of interferon-beta production 4938.0, 4939.0, 4940.0, 9636.0, 23586.0, 64135.0, 79132.0 
+GO:0060339 BP 8.16e-10    5/48    16/16076 D08 negative regulation of type I interferon-mediated signaling pathway 103.0, 4938.0, 4940.0, 9636.0, 11274.0 
+GO:0070106 BP 1.04e-09    4/48     6/16076 D07 interleukin-27-mediated signaling pathway 4599.0, 4938.0, 4939.0, 6772.0 
+GO:0042742 BP 2.78e-08    6/48    62/16076 D06 defense response to bacterium            4938.0, 4939.0, 4940.0, 9636.0, 10392.0, 57169.0 
+GO:0060700 BP 9.97e-08    3/48     4/16076 D07 regulation of ribonuclease activity      4938.0, 4939.0, 4940.0 
+GO:0032760 BP 1.30e-07    6/48    80/16076 D09 positive regulation of tumor necrosis factor production 4938.0, 4939.0, 4940.0, 10392.0, 23586.0, 64135.0 
+GO:0140374 BP 2.62e-07    4/48    19/16076 D08 antiviral innate immune response         3434.0, 4599.0, 4938.0, 23586.0 
+GO:0002230 BP 4.92e-07    4/48    22/16076 D08 positive regulation of defense response to virus by host 6772.0, 23586.0, 83666.0, 151636.0 
+GO:0032020 BP 4.97e-07    3/48     6/16076 D08 ISG15-protein conjugation                7318.0, 9636.0, 51191.0 
+GO:0002753 BP 8.67e-07    3/48     7/16076 D11 cytosolic pattern recognition receptor signaling pathway 23586.0, 64135.0, 79132.0 
+GO:0046596 BP 4.05e-06    3/48    11/16076 D05 regulation of viral entry into host cell 6737.0, 7706.0, 10346.0 
+GO:0002481 BP 8.73e-06    2/48     2/16076 D06 antigen processing and presentation of exogenous protein antigen via MHC class Ib, TAP-dependent 567.0, 6891.0 
+GO:0034344 BP 8.73e-06    2/48     2/16076 D07 regulation of type III interferon production 23586.0, 64135.0 
+GO:0006952 BP 1.04e-05    4/48    46/16076 D03 defense response                         4599.0, 4600.0, 6772.0, 10392.0 
+GO:0098586 BP 1.04e-05    4/48    46/16076 D06 cellular response to virus               103.0, 2537.0, 4938.0, 64135.0 
+GO:0071360 BP 1.36e-05    3/48    16/16076 D07 cellular response to exogenous dsRNA     3434.0, 23586.0, 64135.0 
+GO:0045824 BP 1.98e-05    3/48    18/16076 D07 negative regulation of innate immune response 6737.0, 9111.0, 79132.0 
+GO:1900245 BP 2.61e-05    2/48     3/16076 D10 positive regulation of MDA-5 signaling pathway 55601.0, 79132.0 
+GO:0071659 BP 2.61e-05    2/48     3/16076 D09 negative regulation of IP-10 production  4938.0, 4940.0 
+GO:0032727 BP 2.75e-05    3/48    20/16076 D09 positive regulation of interferon-alpha production 6772.0, 23586.0, 64135.0 
+GO:2000342 BP 5.22e-05    2/48     4/16076 D09 negative regulation of chemokine (C-X-C motif) ligand 2 production 4938.0, 4940.0 
+GO:0002237 BP 5.22e-05    2/48     4/16076 D04 response to molecule of bacterial origin 567.0, 6891.0 
+GO:0039530 BP 5.22e-05    2/48     4/16076 D12 MDA-5 signaling pathway                  4940.0, 64135.0 
+GO:0005737 CC 7.88e-10   33/48  4208/16076 D02 cytoplasm                                103.0, 3430.0, 3433.0, 3434.0, 3437.0, 4599.0, 4600.0, 4938.0, 4940.0, 5720.0, 5721.0, 6737.0, 6772.0, 7318.0, 9111.0, 9636.0, 10346.0, 10379.0, 10392.0, 10561.0, 10964.0, 23586.0, 51191.0, 54625.0, 54809.0, 55601.0, 64135.0, 79132.0, 83666.0, 91351.0, 129607.0, 151636.0, 219285.0 
+GO:0005829 CC 1.64e-08   33/48  4696/16076 D02 cytosol                                  567.0, 3430.0, 3433.0, 3434.0, 3437.0, 4599.0, 4600.0, 4938.0, 4939.0, 4940.0, 5696.0, 5698.0, 5720.0, 5721.0, 6737.0, 6772.0, 7318.0, 7706.0, 9111.0, 9636.0, 10346.0, 10379.0, 10392.0, 11274.0, 23586.0, 51191.0, 54625.0, 54739.0, 54809.0, 55601.0, 64135.0, 83666.0, 151636.0 
+GO:0000502 CC 1.84e-05    4/48    53/16076 D05 proteasome complex                       5696.0, 5698.0, 5720.0, 5721.0 
+GO:0008537 CC 2.61e-05    2/48     3/16076 D02 proteasome activator complex             5720.0, 5721.0 
+GO:0070721 CC 2.61e-05    2/48     3/16076 D04 ISGF3 complex                            6772.0, 10379.0 
+GO:1990111 CC 5.22e-05    2/48     4/16076 D06 spermatoproteasome complex               5696.0, 5698.0 
+GO:0003725 MF 3.20e-13    9/48    67/16076 D05 double-stranded RNA binding              103.0, 4938.0, 4939.0, 4940.0, 23586.0, 55601.0, 64135.0, 79132.0, 91351.0 
+GO:0001730 MF 2.50e-08    3/48     3/16076 D06 2'-5'-oligoadenylate synthetase activity 4938.0, 4939.0, 4940.0 
+GO:0003727 MF 8.93e-08    5/48    38/16076 D05 single-stranded RNA binding              23586.0, 55601.0, 64135.0, 79132.0, 91351.0 
+GO:0003724 MF 1.73e-06    5/48    68/16076 D04 RNA helicase activity                    23586.0, 55601.0, 64135.0, 79132.0, 91351.0 
+GO:1990404 MF 1.36e-05    3/48    16/16076 D05 NAD+-protein ADP-ribosyltransferase activity 54625.0, 64761.0, 83666.0 
+GO:0003950 MF 2.34e-05    3/48    19/16076 D05 NAD+ ADP-ribosyltransferase activity     54625.0, 64761.0, 83666.0 
+GO:0044389 MF 3.20e-05    3/48    21/16076 D04 ubiquitin-like protein ligase binding    6772.0, 83666.0, 151636.0 
+GO:0005524 MF 8.57e-05   13/48  1311/16076 D08 ATP binding                              4938.0, 4939.0, 4940.0, 6891.0, 7318.0, 10392.0, 23586.0, 55601.0, 64135.0, 79132.0, 91351.0, 129607.0, 162394.0 

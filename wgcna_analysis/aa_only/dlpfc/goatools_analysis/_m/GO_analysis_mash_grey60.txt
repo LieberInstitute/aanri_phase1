@@ -1,0 +1,6 @@
+GO:0007224 BP 1.96e-06   7/126    75/16076 D06 smoothened signaling pathway             2121.0, 2735.0, 2736.0, 2737.0, 5727.0, 9283.0, 388585.0 
+GO:0009954 BP 4.59e-06   4/126    15/16076 D04 proximal/distal pattern formation        2735.0, 2736.0, 2737.0, 4038.0 
+GO:1990787 BP 4.65e-06   3/126     5/16076 D11 negative regulation of hh target transcription factor activity 2735.0, 2736.0, 2737.0 
+GO:0030850 BP 1.61e-05   3/126     7/16076 D05 prostate gland development               2735.0, 5727.0, 6662.0 
+GO:1990788 CC 1.87e-06   3/126     4/16076 D02 GLI-SUFU complex                         2735.0, 2736.0, 2737.0 
+GO:0043235 CC 8.80e-06   9/126   173/16076 D02 receptor complex                         558.0, 1271.0, 1956.0, 2047.0, 2261.0, 3693.0, 4853.0, 9283.0, 10461.0 

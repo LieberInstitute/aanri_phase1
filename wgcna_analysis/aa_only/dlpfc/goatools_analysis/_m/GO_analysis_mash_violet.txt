@@ -1,0 +1,9 @@
+GO:0070373 BP 2.53e-09    6/35    58/16076 D09 negative regulation of ERK1 and ERK2 cascade 1846.0, 1848.0, 10253.0, 81848.0, 200734.0, 399473.0 
+GO:1902747 BP 9.43e-08    3/35     5/16076 D07 negative regulation of lens fiber cell differentiation 10253.0, 200734.0, 399473.0 
+GO:0043409 BP 8.33e-07    4/35    34/16076 D08 negative regulation of MAPK cascade      1846.0, 1848.0, 200734.0, 399473.0 
+GO:0000785 CC 1.38e-05    9/35   701/16076 D02 chromatin                                1958.0, 1959.0, 1961.0, 2119.0, 5914.0, 7071.0, 8013.0, 8553.0, 266743.0 
+GO:0003700 MF 4.54e-06    7/35   317/16076 D02 DNA-binding transcription factor activity 1958.0, 1959.0, 1961.0, 2119.0, 5914.0, 7071.0, 8553.0 
+GO:0001228 MF 4.93e-06    7/35   321/16076 D04 DNA-binding transcription activator activity, RNA polymerase II-specific 1958.0, 1959.0, 1961.0, 2119.0, 7071.0, 8013.0, 266743.0 
+GO:1990837 MF 5.68e-06    7/35   328/16076 D06 sequence-specific double-stranded DNA binding 1958.0, 1959.0, 1961.0, 2119.0, 5914.0, 7071.0, 8553.0 
+GO:0055106 MF 1.38e-05    2/35     3/16076 D03 ubiquitin-protein transferase regulator activity 10221.0, 28951.0 
+GO:0004860 MF 4.93e-05    3/35    33/16076 D05 protein kinase inhibitor activity        10221.0, 28951.0, 81848.0 

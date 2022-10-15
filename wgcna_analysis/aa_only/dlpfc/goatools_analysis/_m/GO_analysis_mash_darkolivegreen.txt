@@ -1,0 +1,13 @@
+GO:0045944 BP 1.72e-07   11/28   917/16076 D11 positive regulation of transcription by RNA polymerase II 467.0, 2294.0, 2353.0, 2354.0, 3164.0, 3491.0, 3725.0, 3726.0, 9314.0, 9592.0, 64651.0 
+GO:0035914 BP 3.29e-07    4/28    34/16076 D04 skeletal muscle cell differentiation     467.0, 2353.0, 3164.0, 7832.0 
+GO:0006357 BP 4.44e-06   11/28  1272/16076 D10 regulation of transcription by RNA polymerase II 467.0, 2294.0, 2353.0, 2354.0, 3164.0, 3725.0, 3726.0, 9314.0, 55422.0, 57018.0, 64651.0 
+GO:0140467 BP 5.29e-06    3/28    20/16076 D04 integrated stress response signaling     2353.0, 3725.0, 3726.0 
+GO:0071277 BP 1.12e-05    4/28    81/16076 D06 cellular response to calcium ion         2353.0, 2354.0, 3725.0, 3726.0 
+GO:0035976 CC 4.72e-08    3/28     5/16076 D04 transcription factor AP-1 complex        2353.0, 3725.0, 3726.0 
+GO:0000785 CC 1.77e-06    9/28   701/16076 D02 chromatin                                467.0, 2294.0, 2353.0, 2354.0, 3164.0, 3725.0, 3726.0, 9314.0, 64651.0 
+GO:0005667 CC 5.83e-06    5/28   152/16076 D02 transcription regulator complex          2294.0, 3164.0, 3725.0, 3726.0, 9314.0 
+GO:0090575 CC 2.38e-05    4/28    98/16076 D03 RNA polymerase II transcription regulator complex 467.0, 2353.0, 3725.0, 3726.0 
+GO:0001228 MF 2.23e-09    9/28   321/16076 D04 DNA-binding transcription activator activity, RNA polymerase II-specific 467.0, 2294.0, 2353.0, 2354.0, 3164.0, 3725.0, 3726.0, 9314.0, 64651.0 
+GO:1990837 MF 1.13e-06    7/28   328/16076 D06 sequence-specific double-stranded DNA binding 467.0, 2353.0, 2354.0, 3164.0, 3725.0, 3726.0, 9314.0 
+GO:0000981 MF 1.25e-06   10/28   882/16076 D03 DNA-binding transcription factor activity, RNA polymerase II-specific 467.0, 2294.0, 2353.0, 2354.0, 3164.0, 3725.0, 3726.0, 9314.0, 55422.0, 64651.0 
+GO:0000978 MF 1.38e-05    9/28   901/16076 D09 RNA polymerase II cis-regulatory region sequence-specific DNA binding 467.0, 2294.0, 2353.0, 2354.0, 3164.0, 3725.0, 3726.0, 9314.0, 55422.0 

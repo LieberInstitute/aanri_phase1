@@ -1,0 +1,9 @@
+GO:0043194 CC 4.50e-06    3/28    19/16076 D02 axon initial segment                     3736.0, 3737.0, 6323.0 
+GO:0099160 CC 1.75e-05    2/28     4/16076 D07 postsynaptic intermediate filament cytoskeleton 4741.0, 4744.0 
+GO:0097418 CC 2.92e-05    2/28     5/16076 D04 neurofibrillary tangle                   4741.0, 4744.0 
+GO:0030672 CC 3.12e-05    4/28   105/16076 D08 synaptic vesicle membrane                6843.0, 22987.0, 57084.0, 127833.0 
+GO:0005883 CC 1.05e-04    2/28     9/16076 D07 neurofilament                            4741.0, 4744.0 
+GO:0044224 CC 1.31e-04    2/28    10/16076 D02 juxtaparanode region of axon             3736.0, 3737.0 
+GO:0030424 CC 1.56e-04    5/28   302/16076 D05 axon                                     3737.0, 4741.0, 4744.0, 6323.0, 127833.0 
+GO:0099508 MF 5.63e-07    3/28    10/16076 D08 voltage-gated ion channel activity involved in regulation of presynaptic membrane potential 3736.0, 3737.0, 6323.0 
+GO:1905030 MF 8.77e-06    2/28     3/16076 D08 voltage-gated ion channel activity involved in regulation of postsynaptic membrane potential 3736.0, 3737.0 
