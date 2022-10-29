@@ -11,7 +11,8 @@ def main():
         for i, parquet_file in enumerate(data_dir.glob('*.parquet')):
             write_header = i == 0
             pd.read_parquet(parquet_file)\
-              .to_csv(tgz_handle, header=write_header, index=False, sep='\t')
+              .to_csv(tgz_handle, header=write_header, index=False,
+                      sep='\t', compression="gzip")
 
 
 if __name__ == "__main__":

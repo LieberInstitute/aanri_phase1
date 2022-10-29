@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -cwd
 #$ -l caracol,mem_free=50G,h_vmem=50G,h_fsize=100G
-#$ -N cis_tensorqtl
+#$ -N postprocessing_gpu
 #$ -o ./summary.log
 #$ -e ./summary.log
 #$ -m e
@@ -36,12 +36,10 @@ export CUDA_VISIBLE_DEVICES=$(echo "$avail_gpus" | head -n $NUM_GPUS | \
                                   paste -sd ",")
 
 ## Edit with your job command
-FEATURE="exons"
-
-ln -sfn ../_h/genotypeio.py .
+ANCESTRY="AA"
 
 echo "**** Run tensorQTL ****"
-python ../_h/eqtl_tensorqtl.py --feature $FEATURE
+python ../_h/post_processing.py --ancestry $ANCESTRY
 
 echo "**** Job ends ****"
 date

@@ -1,6 +1,6 @@
 #!/bin/bash
 #$ -cwd
-#$ -l caracol,mem_free=50G,h_vmem=50G,h_fsize=100G
+#$ -l gpu,mem_free=50G,h_vmem=50G,h_fsize=100G
 #$ -N susie_gpu
 #$ -o ./summary.log
 #$ -e ./summary.log

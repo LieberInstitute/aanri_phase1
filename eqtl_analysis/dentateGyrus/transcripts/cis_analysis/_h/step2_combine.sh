@@ -21,7 +21,7 @@ module load htslib
 module list
 
 ## Edit with your job command
-FEATURE="transcripts"
+FEATURE="exons"
 
 echo "**** Combine parquet files ****"
 python ../_h/combine_parquet.py

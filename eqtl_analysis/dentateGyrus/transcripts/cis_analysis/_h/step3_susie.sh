@@ -36,7 +36,7 @@ export CUDA_VISIBLE_DEVICES=$(echo "$avail_gpus" | head -n $NUM_GPUS | \
                                   paste -sd ",")
 
 ## Edit with your job command
-FEATURE="transcripts"
+FEATURE="exons"
 ANCESTRY="AA"
 
 ln -sfn ../_h/genotypeio.py .
