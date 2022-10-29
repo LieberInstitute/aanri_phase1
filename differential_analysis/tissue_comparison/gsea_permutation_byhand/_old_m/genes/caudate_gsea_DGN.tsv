@@ -1,0 +1,2 @@
+ID	Description	setSize	enrichmentScore	NES	pvalue	p.adjust	qvalues	rank	leading_edge	core_enrichment
+C0409979	Neonatal Systemic lupus erythematosus	15	-0.971968628026952	-1.80373159572593	4.22965406253917e-08	0.000443436931916606	0.000443436931916606	223	tags=33%, list=2%, signal=33%	HLA-B/HLA-DPB1/C4A/C4B/HLA-DQB1
