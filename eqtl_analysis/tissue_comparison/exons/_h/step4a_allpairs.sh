@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -l mem_free=30G,h_vmem=30G,h_fsize=100G
+#$ -l mem_free=50G,h_vmem=50G,h_fsize=100G
 #$ -N mash_allpairs_chunking
 #$ -o ./allpairs_mash.log
 #$ -e ./allpairs_mash.log

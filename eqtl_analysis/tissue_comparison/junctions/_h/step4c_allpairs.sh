@@ -1,10 +1,11 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -l mem_free=50G,h_vmem=50G,h_fsize=100G
-#$ -N mash_allpairs_chunking
-#$ -o ./chunking.log
-#$ -e ./chunking.log
+#$ -t 1-2:1
+#$ -l mem_free=5G,h_vmem=5G,h_fsize=100G
+#$ -N mash_allpairs_combine
+#$ -o ./allpairs_mash.log
+#$ -e ./allpairs_mash.log
 #$ -m e -M jade.benjamin@libd.org
 
 echo "**** Job starts ****"
@@ -17,13 +18,13 @@ echo "Job name: ${JOB_NAME}"
 echo "Hostname: ${HOSTNAME}"
 
 ## List current modules for reproducibility
-module load R
 module list
 
 ## Job command
-echo "**** Run mashr prep ****"
-mkdir output
-Rscript ../_h/generate_chunks.R --chunk_size 1250 --output output
+echo "**** Run combine mash results ****"
+LABELS=("lfsr" "posterior_mean")
+python ../_h/combine_results.py \
+       --output output --label ${LABELS[$SGE_TASK_ID-1]}
 
 echo "**** Job ends ****"
 date
