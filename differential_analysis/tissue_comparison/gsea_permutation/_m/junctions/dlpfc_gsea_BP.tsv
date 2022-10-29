@@ -1,0 +1,2 @@
+ID	Description	setSize	enrichmentScore	NES	pvalue	p.adjust	qvalues	rank	leading_edge	core_enrichment
+GO:0097428	protein maturation by iron-sulfur cluster transfer	13	0.919046154340218	1.9910796155498	9.69333707342404e-06	0.0427670031679469	0.0427670031679469	1	tags=8%, list=0%, signal=8%	BOLA2

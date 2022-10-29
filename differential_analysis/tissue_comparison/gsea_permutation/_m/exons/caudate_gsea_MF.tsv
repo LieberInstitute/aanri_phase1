@@ -1,0 +1,2 @@
+ID	Description	setSize	enrichmentScore	NES	pvalue	p.adjust	qvalues	rank	leading_edge	core_enrichment
+GO:0003823	antigen binding	22	-0.731501821707174	-2.04950943214337	3.29636411159053e-05	0.03131545906011	0.03131545906011	2080	tags=59%, list=16%, signal=50%	SPON2/PPP2R1A/DHCR24/EP400/TAP2/HLA-C/TAP1/MAML1/HLA-B/HLA-F/HLA-A/KLRD1/HLA-DPB1
