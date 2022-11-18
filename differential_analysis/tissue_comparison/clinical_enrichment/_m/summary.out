@@ -360,3 +360,1693 @@ WARNING: ignoring environment value of R_HOME
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 **** Job ends ****
 2022-10-05T08:07:59-0400
+**** Job starts ****
+2022-11-09T09:18:41-0500
+**** JHPCE info ****
+User: jbenjami
+Job id: 872928
+Job name: clinical_enrichment_fishers
+Hostname: compute-124.cm.cluster
+
+The following have been reloaded with a version change:
+  1) gcc/4.4.7 => gcc/9.1.0
+
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) COMMUNITY_CENTOS7_DEFAULT_ENV   9) gcc/9.1.0
+  2) stata/17          6) JHPCE_CENTOS7_DEFAULT_ENV      10) pandoc/2.7.3
+  3) JHPCE_tools/1.0   7) python/3.7.3
+  4) sge/8.1.9         8) emacs/28.1
+
+ 
+
+**** Run enrichment analysis ****
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.4313050294709501
+            Iterations: 16
+            Function evaluations: 18
+            Gradient evaluations: 16
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.058808319883479516
+            Iterations: 33
+            Function evaluations: 34
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.018422263067020793
+            Iterations: 42
+            Function evaluations: 47
+            Gradient evaluations: 42
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.13978803503499837
+            Iterations: 23
+            Function evaluations: 25
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02909484495078903
+            Iterations: 39
+            Function evaluations: 44
+            Gradient evaluations: 39
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11957870073899779
+            Iterations: 12
+            Function evaluations: 13
+            Gradient evaluations: 12
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5368749247397898
+            Iterations: 16
+            Function evaluations: 17
+            Gradient evaluations: 16
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.30265287860107887
+            Iterations: 20
+            Function evaluations: 22
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1902191533024926
+            Iterations: 25
+            Function evaluations: 25
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.028476469523771898
+            Iterations: 42
+            Function evaluations: 48
+            Gradient evaluations: 42
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.3270378641750152
+            Iterations: 25
+            Function evaluations: 26
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.024059971003733412
+            Iterations: 38
+            Function evaluations: 43
+            Gradient evaluations: 38
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.2556247897869509
+            Iterations: 22
+            Function evaluations: 23
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04859308756051004
+            Iterations: 37
+            Function evaluations: 40
+            Gradient evaluations: 37
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.045359180089850244
+            Iterations: 36
+            Function evaluations: 41
+            Gradient evaluations: 36
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.056880921516247095
+            Iterations: 33
+            Function evaluations: 35
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.43135786953040556
+            Iterations: 17
+            Function evaluations: 18
+            Gradient evaluations: 17
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05887030626962818
+            Iterations: 28
+            Function evaluations: 29
+            Gradient evaluations: 28
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.018414280360742354
+            Iterations: 41
+            Function evaluations: 46
+            Gradient evaluations: 41
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1397537589564976
+            Iterations: 21
+            Function evaluations: 23
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02911755811482088
+            Iterations: 37
+            Function evaluations: 42
+            Gradient evaluations: 37
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11957826169711125
+            Iterations: 21
+            Function evaluations: 22
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5369354058040723
+            Iterations: 14
+            Function evaluations: 15
+            Gradient evaluations: 14
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.30266000772891677
+            Iterations: 19
+            Function evaluations: 22
+            Gradient evaluations: 19
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1902191628537842
+            Iterations: 24
+            Function evaluations: 24
+            Gradient evaluations: 24
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02845156829124463
+            Iterations: 45
+            Function evaluations: 51
+            Gradient evaluations: 45
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.32677767816877346
+            Iterations: 25
+            Function evaluations: 26
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02404704468221791
+            Iterations: 44
+            Function evaluations: 49
+            Gradient evaluations: 44
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.25562507957852937
+            Iterations: 20
+            Function evaluations: 21
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0486605374335211
+            Iterations: 37
+            Function evaluations: 41
+            Gradient evaluations: 37
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04537843053356124
+            Iterations: 34
+            Function evaluations: 39
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05687400641516002
+            Iterations: 33
+            Function evaluations: 35
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.4312589903887755
+            Iterations: 17
+            Function evaluations: 18
+            Gradient evaluations: 17
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05887029820792888
+            Iterations: 20
+            Function evaluations: 21
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.018436258776935204
+            Iterations: 40
+            Function evaluations: 45
+            Gradient evaluations: 40
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.13977757106144442
+            Iterations: 22
+            Function evaluations: 25
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.029061993925649645
+            Iterations: 38
+            Function evaluations: 43
+            Gradient evaluations: 38
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11958401476841164
+            Iterations: 22
+            Function evaluations: 23
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5369390640599858
+            Iterations: 14
+            Function evaluations: 15
+            Gradient evaluations: 14
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.30266749620088385
+            Iterations: 20
+            Function evaluations: 22
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1902017803215503
+            Iterations: 33
+            Function evaluations: 33
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.028473588165490133
+            Iterations: 42
+            Function evaluations: 49
+            Gradient evaluations: 42
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.32699130586577274
+            Iterations: 24
+            Function evaluations: 25
+            Gradient evaluations: 24
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02406166853765904
+            Iterations: 34
+            Function evaluations: 39
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.25567807057407965
+            Iterations: 21
+            Function evaluations: 21
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04868812915817074
+            Iterations: 31
+            Function evaluations: 34
+            Gradient evaluations: 31
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.045385032307201756
+            Iterations: 35
+            Function evaluations: 40
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.056866245378100554
+            Iterations: 34
+            Function evaluations: 36
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.43123925608594843
+            Iterations: 17
+            Function evaluations: 18
+            Gradient evaluations: 17
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05887207662400329
+            Iterations: 26
+            Function evaluations: 27
+            Gradient evaluations: 26
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.018436758032936085
+            Iterations: 40
+            Function evaluations: 45
+            Gradient evaluations: 40
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.13978579805824004
+            Iterations: 23
+            Function evaluations: 25
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02908748224528317
+            Iterations: 38
+            Function evaluations: 43
+            Gradient evaluations: 38
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11956138708095589
+            Iterations: 12
+            Function evaluations: 13
+            Gradient evaluations: 12
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5369070716959344
+            Iterations: 16
+            Function evaluations: 17
+            Gradient evaluations: 16
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.3026670164053913
+            Iterations: 20
+            Function evaluations: 22
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.19021912025957954
+            Iterations: 24
+            Function evaluations: 25
+            Gradient evaluations: 24
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02848666709950163
+            Iterations: 38
+            Function evaluations: 44
+            Gradient evaluations: 38
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.32690286659495954
+            Iterations: 23
+            Function evaluations: 24
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.024061401276848936
+            Iterations: 36
+            Function evaluations: 41
+            Gradient evaluations: 36
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.25565507206937976
+            Iterations: 21
+            Function evaluations: 21
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.048688103932855074
+            Iterations: 30
+            Function evaluations: 33
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04536350712245697
+            Iterations: 36
+            Function evaluations: 41
+            Gradient evaluations: 36
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.056824090160932074
+            Iterations: 34
+            Function evaluations: 36
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.4452616490990047
+            Iterations: 16
+            Function evaluations: 17
+            Gradient evaluations: 16
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.06364983482532437
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.018979772795289434
+            Iterations: 42
+            Function evaluations: 48
+            Gradient evaluations: 42
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.14515108775156454
+            Iterations: 21
+            Function evaluations: 22
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.029442940088452236
+            Iterations: 35
+            Function evaluations: 36
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11728349482389636
+            Iterations: 24
+            Function evaluations: 26
+            Gradient evaluations: 24
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5417925009844979
+            Iterations: 15
+            Function evaluations: 16
+            Gradient evaluations: 15
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.3066465901758628
+            Iterations: 22
+            Function evaluations: 23
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1938845906354128
+            Iterations: 24
+            Function evaluations: 24
+            Gradient evaluations: 24
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.030003803010736522
+            Iterations: 34
+            Function evaluations: 36
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.33532959527662465
+            Iterations: 20
+            Function evaluations: 21
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.025103684746300862
+            Iterations: 27
+            Function evaluations: 32
+            Gradient evaluations: 27
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.25304200691116113
+            Iterations: 20
+            Function evaluations: 20
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.055844727428594594
+            Iterations: 37
+            Function evaluations: 42
+            Gradient evaluations: 37
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04995943673018986
+            Iterations: 30
+            Function evaluations: 33
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05546319161372465
+            Iterations: 39
+            Function evaluations: 44
+            Gradient evaluations: 39
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.42196395673947973
+            Iterations: 15
+            Function evaluations: 16
+            Gradient evaluations: 15
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0593312141999494
+            Iterations: 32
+            Function evaluations: 35
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.014409966052318389
+            Iterations: 44
+            Function evaluations: 50
+            Gradient evaluations: 44
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.14422614317808935
+            Iterations: 23
+            Function evaluations: 25
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0322588933143639
+            Iterations: 35
+            Function evaluations: 38
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11481059465254927
+            Iterations: 22
+            Function evaluations: 22
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.535402701459549
+            Iterations: 15
+            Function evaluations: 16
+            Gradient evaluations: 15
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.30500596881297587
+            Iterations: 21
+            Function evaluations: 22
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.18319046937902322
+            Iterations: 22
+            Function evaluations: 22
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.028218207626860514
+            Iterations: 43
+            Function evaluations: 47
+            Gradient evaluations: 43
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.32131710290917154
+            Iterations: 26
+            Function evaluations: 26
+            Gradient evaluations: 26
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.022386620477890393
+            Iterations: 34
+            Function evaluations: 36
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.2483338907278012
+            Iterations: 25
+            Function evaluations: 25
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05427766180990206
+            Iterations: 41
+            Function evaluations: 46
+            Gradient evaluations: 41
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.046892887316740975
+            Iterations: 34
+            Function evaluations: 39
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05286548514171216
+            Iterations: 31
+            Function evaluations: 34
+            Gradient evaluations: 31
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.4434164129951429
+            Iterations: 16
+            Function evaluations: 17
+            Gradient evaluations: 16
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.06191429597210905
+            Iterations: 18
+            Function evaluations: 19
+            Gradient evaluations: 18
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.01588551549068662
+            Iterations: 28
+            Function evaluations: 32
+            Gradient evaluations: 28
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.14823866153295584
+            Iterations: 22
+            Function evaluations: 25
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.032044661165283705
+            Iterations: 39
+            Function evaluations: 45
+            Gradient evaluations: 39
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.12205521922623311
+            Iterations: 23
+            Function evaluations: 24
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5445286362824305
+            Iterations: 15
+            Function evaluations: 16
+            Gradient evaluations: 15
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.30407118182294873
+            Iterations: 19
+            Function evaluations: 21
+            Gradient evaluations: 19
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.197629662554295
+            Iterations: 32
+            Function evaluations: 32
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02927202143144125
+            Iterations: 43
+            Function evaluations: 47
+            Gradient evaluations: 43
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.32947177899845265
+            Iterations: 26
+            Function evaluations: 27
+            Gradient evaluations: 26
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02668992760435137
+            Iterations: 42
+            Function evaluations: 46
+            Gradient evaluations: 42
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.26528004741948313
+            Iterations: 21
+            Function evaluations: 22
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05470592077966776
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.050712666125423744
+            Iterations: 33
+            Function evaluations: 36
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.058372553570250944
+            Iterations: 34
+            Function evaluations: 39
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.44050167498508275
+            Iterations: 16
+            Function evaluations: 18
+            Gradient evaluations: 16
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.06193203937523066
+            Iterations: 25
+            Function evaluations: 26
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.017933322922901892
+            Iterations: 40
+            Function evaluations: 42
+            Gradient evaluations: 40
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1508361822088317
+            Iterations: 27
+            Function evaluations: 28
+            Gradient evaluations: 27
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.03005182282657304
+            Iterations: 36
+            Function evaluations: 37
+            Gradient evaluations: 36
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.12062728172773203
+            Iterations: 24
+            Function evaluations: 26
+            Gradient evaluations: 24
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5417193241880361
+            Iterations: 18
+            Function evaluations: 19
+            Gradient evaluations: 18
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.30148504853476554
+            Iterations: 20
+            Function evaluations: 22
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.19460146496253922
+            Iterations: 25
+            Function evaluations: 25
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.03205386524786433
+            Iterations: 35
+            Function evaluations: 36
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.33237979559932557
+            Iterations: 23
+            Function evaluations: 25
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.025725588022629364
+            Iterations: 38
+            Function evaluations: 44
+            Gradient evaluations: 38
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.26404939509468023
+            Iterations: 23
+            Function evaluations: 23
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0547074440203751
+            Iterations: 30
+            Function evaluations: 35
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04832810477111742
+            Iterations: 34
+            Function evaluations: 38
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.058753468206958
+            Iterations: 32
+            Function evaluations: 37
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.41697464879774837
+            Iterations: 17
+            Function evaluations: 18
+            Gradient evaluations: 17
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05375294836228788
+            Iterations: 34
+            Function evaluations: 38
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.01785268120541338
+            Iterations: 27
+            Function evaluations: 32
+            Gradient evaluations: 27
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.13438985803917883
+            Iterations: 26
+            Function evaluations: 27
+            Gradient evaluations: 26
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0286538677841062
+            Iterations: 39
+            Function evaluations: 43
+            Gradient evaluations: 39
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.12181712559578356
+            Iterations: 19
+            Function evaluations: 20
+            Gradient evaluations: 19
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.53186220865553
+            Iterations: 18
+            Function evaluations: 19
+            Gradient evaluations: 18
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.29847371141258205
+            Iterations: 22
+            Function evaluations: 23
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.18649825027256225
+            Iterations: 25
+            Function evaluations: 25
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02666101052309692
+            Iterations: 41
+            Function evaluations: 46
+            Gradient evaluations: 41
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.31867934542110127
+            Iterations: 23
+            Function evaluations: 23
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.023002385732099537
+            Iterations: 47
+            Function evaluations: 53
+            Gradient evaluations: 47
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.25807792529955664
+            Iterations: 22
+            Function evaluations: 22
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04112440904902173
+            Iterations: 38
+            Function evaluations: 39
+            Gradient evaluations: 38
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.040707885476039436
+            Iterations: 35
+            Function evaluations: 37
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.058181672216776226
+            Iterations: 28
+            Function evaluations: 29
+            Gradient evaluations: 28
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.440278050063814
+            Iterations: 17
+            Function evaluations: 18
+            Gradient evaluations: 17
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05838321951310102
+            Iterations: 32
+            Function evaluations: 36
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.022134562787105627
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1349130349088694
+            Iterations: 22
+            Function evaluations: 24
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.025938142478379556
+            Iterations: 33
+            Function evaluations: 36
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.12415162285044114
+            Iterations: 22
+            Function evaluations: 24
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5384058054838392
+            Iterations: 16
+            Function evaluations: 17
+            Gradient evaluations: 16
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.3003264726885225
+            Iterations: 22
+            Function evaluations: 23
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1969941066152966
+            Iterations: 25
+            Function evaluations: 25
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.028378081807236707
+            Iterations: 47
+            Function evaluations: 50
+            Gradient evaluations: 47
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.33197251945613476
+            Iterations: 21
+            Function evaluations: 22
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.025593555476939693
+            Iterations: 44
+            Function evaluations: 48
+            Gradient evaluations: 44
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.2626755852072781
+            Iterations: 22
+            Function evaluations: 22
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04275231597871819
+            Iterations: 31
+            Function evaluations: 33
+            Gradient evaluations: 31
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04382736900982892
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.06065686732726048
+            Iterations: 40
+            Function evaluations: 45
+            Gradient evaluations: 40
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.41895079249462613
+            Iterations: 17
+            Function evaluations: 18
+            Gradient evaluations: 17
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05586658504255391
+            Iterations: 32
+            Function evaluations: 35
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02083053932457254
+            Iterations: 45
+            Function evaluations: 46
+            Gradient evaluations: 45
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.13132780267264588
+            Iterations: 22
+            Function evaluations: 24
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02600266788089105
+            Iterations: 39
+            Function evaluations: 44
+            Gradient evaluations: 39
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11709841596746147
+            Iterations: 23
+            Function evaluations: 24
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5293268056916001
+            Iterations: 15
+            Function evaluations: 16
+            Gradient evaluations: 15
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.3012268596166315
+            Iterations: 20
+            Function evaluations: 22
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1828206266978766
+            Iterations: 23
+            Function evaluations: 23
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02742364687220145
+            Iterations: 42
+            Function evaluations: 45
+            Gradient evaluations: 42
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.3245217652710248
+            Iterations: 23
+            Function evaluations: 24
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.021423398577545265
+            Iterations: 38
+            Function evaluations: 40
+            Gradient evaluations: 38
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.2460352459971189
+            Iterations: 25
+            Function evaluations: 25
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04261403097558945
+            Iterations: 35
+            Function evaluations: 40
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.040009282755162134
+            Iterations: 34
+            Function evaluations: 38
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05525741406120837
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.4221220425862681
+            Iterations: 19
+            Function evaluations: 20
+            Gradient evaluations: 19
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05587030241221504
+            Iterations: 31
+            Function evaluations: 34
+            Gradient evaluations: 31
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.018834114046133908
+            Iterations: 48
+            Function evaluations: 51
+            Gradient evaluations: 48
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.1287194318675582
+            Iterations: 22
+            Function evaluations: 24
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02804607416176619
+            Iterations: 26
+            Function evaluations: 30
+            Gradient evaluations: 26
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11842470259672494
+            Iterations: 24
+            Function evaluations: 26
+            Gradient evaluations: 24
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.5322080176276932
+            Iterations: 16
+            Function evaluations: 17
+            Gradient evaluations: 16
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.30372251899673125
+            Iterations: 20
+            Function evaluations: 23
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.18596824549963975
+            Iterations: 25
+            Function evaluations: 25
+            Gradient evaluations: 25
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.024828787248433546
+            Iterations: 47
+            Function evaluations: 52
+            Gradient evaluations: 47
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.3216086987931609
+            Iterations: 28
+            Function evaluations: 28
+            Gradient evaluations: 28
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02240030136130249
+            Iterations: 48
+            Function evaluations: 54
+            Gradient evaluations: 48
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.24743150170127243
+            Iterations: 23
+            Function evaluations: 23
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0427574617253992
+            Iterations: 35
+            Function evaluations: 40
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.04248780252232476
+            Iterations: 26
+            Function evaluations: 31
+            Gradient evaluations: 26
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05491861283003595
+            Iterations: 20
+            Function evaluations: 21
+            Gradient evaluations: 20
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11584010115354328
+            Iterations: 23
+            Function evaluations: 24
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.09554343027572583
+            Iterations: 26
+            Function evaluations: 29
+            Gradient evaluations: 26
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.054827872864024144
+            Iterations: 23
+            Function evaluations: 28
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.716866535194416e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.716866535194416e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0541254081063799
+            Iterations: 23
+            Function evaluations: 28
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.005264615552191457
+            Iterations: 34
+            Function evaluations: 42
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.007306972170931276
+            Iterations: 44
+            Function evaluations: 46
+            Gradient evaluations: 44
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.003065310758048143
+            Iterations: 36
+            Function evaluations: 45
+            Gradient evaluations: 36
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11581907859117387
+            Iterations: 23
+            Function evaluations: 24
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.09552668798394195
+            Iterations: 36
+            Function evaluations: 39
+            Gradient evaluations: 36
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05482695120912356
+            Iterations: 30
+            Function evaluations: 36
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.714145645502004e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.714145645502004e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.054122200835193826
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.005242958248943361
+            Iterations: 55
+            Function evaluations: 63
+            Gradient evaluations: 55
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.007336241554267742
+            Iterations: 43
+            Function evaluations: 45
+            Gradient evaluations: 43
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.003072441568178266
+            Iterations: 35
+            Function evaluations: 43
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11583238772965457
+            Iterations: 21
+            Function evaluations: 22
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.09555084761521891
+            Iterations: 29
+            Function evaluations: 33
+            Gradient evaluations: 29
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05479425667721888
+            Iterations: 33
+            Function evaluations: 39
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.716180711308596e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.716180711308596e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05413124002466293
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.005262373713211001
+            Iterations: 34
+            Function evaluations: 42
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.007345304908764663
+            Iterations: 47
+            Function evaluations: 49
+            Gradient evaluations: 47
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0030479563594585104
+            Iterations: 64
+            Function evaluations: 73
+            Gradient evaluations: 64
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11583673872056868
+            Iterations: 23
+            Function evaluations: 24
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.09557220033710237
+            Iterations: 29
+            Function evaluations: 32
+            Gradient evaluations: 29
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.054830729535317514
+            Iterations: 30
+            Function evaluations: 35
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.71578924331745e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.71578924331745e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.054115435481589945
+            Iterations: 40
+            Function evaluations: 45
+            Gradient evaluations: 40
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.005254165642420235
+            Iterations: 58
+            Function evaluations: 67
+            Gradient evaluations: 58
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.007278760677848415
+            Iterations: 42
+            Function evaluations: 44
+            Gradient evaluations: 42
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0030726002372415216
+            Iterations: 36
+            Function evaluations: 45
+            Gradient evaluations: 36
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11303885126080163
+            Iterations: 34
+            Function evaluations: 37
+            Gradient evaluations: 34
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0927355835118466
+            Iterations: 30
+            Function evaluations: 35
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.055529069711001355
+            Iterations: 35
+            Function evaluations: 39
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.722693526769403e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.722693526769403e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05660132962340623
+            Iterations: 31
+            Function evaluations: 36
+            Gradient evaluations: 31
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.004527349654452321
+            Iterations: 57
+            Function evaluations: 63
+            Gradient evaluations: 57
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.008533039014222688
+            Iterations: 51
+            Function evaluations: 56
+            Gradient evaluations: 51
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0009900422363001437
+            Iterations: 37
+            Function evaluations: 42
+            Gradient evaluations: 37
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11896696116815406
+            Iterations: 30
+            Function evaluations: 31
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.09196779937821997
+            Iterations: 37
+            Function evaluations: 43
+            Gradient evaluations: 37
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.051868281208803
+            Iterations: 35
+            Function evaluations: 40
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.568972914845926e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.568972914845926e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0542186099453075
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0075538369260181775
+            Iterations: 57
+            Function evaluations: 65
+            Gradient evaluations: 57
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.008640913612696746
+            Iterations: 29
+            Function evaluations: 34
+            Gradient evaluations: 29
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0036822461175065246
+            Iterations: 60
+            Function evaluations: 63
+            Gradient evaluations: 60
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11214108220262313
+            Iterations: 35
+            Function evaluations: 41
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.08987159246278624
+            Iterations: 29
+            Function evaluations: 31
+            Gradient evaluations: 29
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.056931609191214365
+            Iterations: 35
+            Function evaluations: 40
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.941999850894638e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.941999850894638e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05615721646879708
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.005311767269147285
+            Iterations: 46
+            Function evaluations: 51
+            Gradient evaluations: 46
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.008723051244667861
+            Iterations: 49
+            Function evaluations: 54
+            Gradient evaluations: 49
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.002875940448651715
+            Iterations: 62
+            Function evaluations: 66
+            Gradient evaluations: 62
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.114008010545511
+            Iterations: 23
+            Function evaluations: 24
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.08982947449816217
+            Iterations: 27
+            Function evaluations: 28
+            Gradient evaluations: 27
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05711112217570808
+            Iterations: 30
+            Function evaluations: 35
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.837944321040589e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.837944321040589e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05663089227037301
+            Iterations: 33
+            Function evaluations: 37
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.006141755236899714
+            Iterations: 50
+            Function evaluations: 54
+            Gradient evaluations: 50
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0064873421087003474
+            Iterations: 50
+            Function evaluations: 53
+            Gradient evaluations: 50
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.002889304962677055
+            Iterations: 32
+            Function evaluations: 34
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11848224868216589
+            Iterations: 23
+            Function evaluations: 24
+            Gradient evaluations: 23
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0982204255922435
+            Iterations: 30
+            Function evaluations: 31
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05412759313497102
+            Iterations: 35
+            Function evaluations: 40
+            Gradient evaluations: 35
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.711130082318035e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.711130082318035e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05159406377320866
+            Iterations: 29
+            Function evaluations: 30
+            Gradient evaluations: 29
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.005906838879544904
+            Iterations: 57
+            Function evaluations: 59
+            Gradient evaluations: 57
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.006016961404124531
+            Iterations: 53
+            Function evaluations: 56
+            Gradient evaluations: 53
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.00480257209720703
+            Iterations: 61
+            Function evaluations: 65
+            Gradient evaluations: 61
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11264138336428954
+            Iterations: 22
+            Function evaluations: 23
+            Gradient evaluations: 22
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.09889920569030608
+            Iterations: 29
+            Function evaluations: 30
+            Gradient evaluations: 29
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05764807877519397
+            Iterations: 40
+            Function evaluations: 42
+            Gradient evaluations: 40
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.857113633644446e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.857113633644446e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05397338821090478
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0027950265727115604
+            Iterations: 60
+            Function evaluations: 65
+            Gradient evaluations: 60
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.005963308825021932
+            Iterations: 58
+            Function evaluations: 63
+            Gradient evaluations: 58
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.002384303922250928
+            Iterations: 56
+            Function evaluations: 61
+            Gradient evaluations: 56
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11927865591653634
+            Iterations: 21
+            Function evaluations: 23
+            Gradient evaluations: 21
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.10093938361833982
+            Iterations: 30
+            Function evaluations: 34
+            Gradient evaluations: 30
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.052609288093946285
+            Iterations: 31
+            Function evaluations: 35
+            Gradient evaluations: 31
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.49195975428643e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.49195975428643e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05211586476169284
+            Iterations: 33
+            Function evaluations: 38
+            Gradient evaluations: 33
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.005173432804908359
+            Iterations: 60
+            Function evaluations: 67
+            Gradient evaluations: 60
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.005954609114208416
+            Iterations: 54
+            Function evaluations: 58
+            Gradient evaluations: 54
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0032129263001469954
+            Iterations: 61
+            Function evaluations: 66
+            Gradient evaluations: 61
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.11755008709758068
+            Iterations: 19
+            Function evaluations: 20
+            Gradient evaluations: 19
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.10086069673819259
+            Iterations: 28
+            Function evaluations: 32
+            Gradient evaluations: 28
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05259772294601094
+            Iterations: 44
+            Function evaluations: 48
+            Gradient evaluations: 44
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.597750657138763e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 8.597750657138763e-11
+            Iterations: 32
+            Function evaluations: 33
+            Gradient evaluations: 32
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.05163098874005498
+            Iterations: 39
+            Function evaluations: 40
+            Gradient evaluations: 39
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.004376882947029419
+            Iterations: 44
+            Function evaluations: 50
+            Gradient evaluations: 44
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.00802199202282754
+            Iterations: 49
+            Function evaluations: 53
+            Gradient evaluations: 49
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0031520937522553248
+            Iterations: 58
+            Function evaluations: 65
+            Gradient evaluations: 58
+-----
+numpy               1.21.6
+pandas              1.3.5
+session_info        1.0.0
+statsmodels         0.13.2
+-----
+Python 3.7.3 (default, Sep  6 2019, 16:02:24) [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Linux-3.10.0-1160.el7.x86_64-x86_64-with-centos-7.9.2009-Core
+-----
+Session information updated at 2022-11-09 09:20
+**** Job ends ****
+2022-11-09T09:20:19-0500
+**** Job starts ****
+2022-11-09T10:15:00-0500
+**** JHPCE info ****
+User: jbenjami
+Job id: 872969
+Job name: plot_enrichment
+Hostname: compute-124.cm.cluster
+Loading conda_R/4.1.x
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) conda/3-4.6.14
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV      11) conda_R/4.1.x
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Plot enrichment results ****
+WARNING: ignoring environment value of R_HOME
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ tibble  3.1.8      ✔ dplyr   1.0.10
+✔ tidyr   1.2.0      ✔ stringr 1.4.1 
+✔ readr   2.1.2      ✔ forcats 0.5.2 
+✔ purrr   0.3.4      
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] "2022-11-09 10:15:06 EST"
+   user  system elapsed 
+  2.918   0.243   5.530 
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.1.2 Patched (2021-11-04 r81138)
+ os       CentOS Linux 7 (Core)
+ system   x86_64, linux-gnu
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       US/Eastern
+ date     2022-11-09
+ pandoc   2.13 @ /jhpce/shared/jhpce/core/conda/miniconda3-4.6.14/envs/svnR-4.1.x/bin/pandoc
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package       * version date (UTC) lib source
+ abind           1.4-5   2016-07-21 [2] CRAN (R 4.1.0)
+ assertthat      0.2.1   2019-03-21 [2] CRAN (R 4.1.0)
+ backports       1.4.1   2021-12-13 [2] CRAN (R 4.1.2)
+ broom           1.0.1   2022-08-29 [2] CRAN (R 4.1.2)
+ cachem          1.0.6   2021-08-19 [2] CRAN (R 4.1.2)
+ car             3.1-0   2022-06-15 [2] CRAN (R 4.1.2)
+ carData         3.0-5   2022-01-06 [2] CRAN (R 4.1.2)
+ cellranger      1.1.0   2016-07-27 [2] CRAN (R 4.1.0)
+ cli             3.3.0   2022-04-25 [2] CRAN (R 4.1.2)
+ colorspace      2.0-3   2022-02-21 [2] CRAN (R 4.1.2)
+ crayon          1.5.1   2022-03-26 [2] CRAN (R 4.1.2)
+ data.table      1.14.2  2021-09-27 [2] CRAN (R 4.1.2)
+ DBI             1.1.3   2022-06-18 [2] CRAN (R 4.1.2)
+ dbplyr          2.2.1   2022-06-27 [2] CRAN (R 4.1.2)
+ digest          0.6.29  2021-12-01 [2] CRAN (R 4.1.2)
+ dplyr         * 1.0.10  2022-09-01 [2] CRAN (R 4.1.2)
+ ellipsis        0.3.2   2021-04-29 [2] CRAN (R 4.1.0)
+ fansi           1.0.3   2022-03-24 [2] CRAN (R 4.1.2)
+ farver          2.1.1   2022-07-06 [2] CRAN (R 4.1.2)
+ fastmap         1.1.0   2021-01-25 [2] CRAN (R 4.1.0)
+ forcats       * 0.5.2   2022-08-19 [2] CRAN (R 4.1.2)
+ fs              1.5.2   2021-12-08 [2] CRAN (R 4.1.2)
+ gargle          1.2.0   2021-07-02 [2] CRAN (R 4.1.0)
+ generics        0.1.3   2022-07-05 [2] CRAN (R 4.1.2)
+ ggfittext       0.9.1   2021-01-30 [1] CRAN (R 4.1.2)
+ ggplot2       * 3.3.6   2022-05-03 [2] CRAN (R 4.1.2)
+ ggpubr          0.4.0   2020-06-27 [2] CRAN (R 4.1.2)
+ ggsignif        0.6.3   2021-09-09 [2] CRAN (R 4.1.2)
+ glue            1.6.2   2022-02-24 [2] CRAN (R 4.1.2)
+ googledrive     2.0.0   2021-07-08 [2] CRAN (R 4.1.0)
+ googlesheets4   1.0.1   2022-08-13 [2] CRAN (R 4.1.2)
+ gtable          0.3.1   2022-09-01 [2] CRAN (R 4.1.2)
+ haven           2.5.1   2022-08-22 [2] CRAN (R 4.1.2)
+ hms             1.1.2   2022-08-19 [2] CRAN (R 4.1.2)
+ httr            1.4.4   2022-08-17 [2] CRAN (R 4.1.2)
+ jsonlite        1.8.0   2022-02-22 [2] CRAN (R 4.1.2)
+ labeling        0.4.2   2020-10-20 [2] CRAN (R 4.1.0)
+ lifecycle       1.0.1   2021-09-24 [2] CRAN (R 4.1.2)
+ lubridate       1.8.0   2021-10-07 [2] CRAN (R 4.1.2)
+ magrittr        2.0.3   2022-03-30 [2] CRAN (R 4.1.2)
+ memoise         2.0.1   2021-11-26 [2] CRAN (R 4.1.2)
+ modelr          0.1.9   2022-08-19 [2] CRAN (R 4.1.2)
+ munsell         0.5.0   2018-06-12 [2] CRAN (R 4.1.0)
+ pillar          1.8.1   2022-08-19 [2] CRAN (R 4.1.2)
+ pkgconfig       2.0.3   2019-09-22 [2] CRAN (R 4.1.0)
+ purrr         * 0.3.4   2020-04-17 [2] CRAN (R 4.1.0)
+ R6              2.5.1   2021-08-19 [2] CRAN (R 4.1.2)
+ ragg            1.2.2   2022-02-21 [2] CRAN (R 4.1.2)
+ readr         * 2.1.2   2022-01-30 [2] CRAN (R 4.1.2)
+ readxl          1.4.1   2022-08-17 [2] CRAN (R 4.1.2)
+ reprex          2.0.2   2022-08-17 [2] CRAN (R 4.1.2)
+ rlang           1.0.5   2022-08-31 [2] CRAN (R 4.1.2)
+ rstatix         0.7.0   2021-02-13 [2] CRAN (R 4.1.2)
+ rvest           1.0.3   2022-08-19 [2] CRAN (R 4.1.2)
+ scales          1.2.1   2022-08-20 [2] CRAN (R 4.1.2)
+ sessioninfo     1.2.2   2021-12-06 [2] CRAN (R 4.1.2)
+ shades          1.4.0   2019-08-02 [1] CRAN (R 4.1.2)
+ stringi         1.7.8   2022-07-11 [2] CRAN (R 4.1.2)
+ stringr       * 1.4.1   2022-08-20 [2] CRAN (R 4.1.2)
+ svglite         2.1.0   2022-02-03 [2] CRAN (R 4.1.2)
+ systemfonts     1.0.4   2022-02-11 [2] CRAN (R 4.1.2)
+ textshaping     0.3.6   2021-10-13 [2] CRAN (R 4.1.2)
+ tibble        * 3.1.8   2022-07-22 [2] CRAN (R 4.1.2)
+ tidyr         * 1.2.0   2022-02-01 [2] CRAN (R 4.1.2)
+ tidyselect      1.1.2   2022-02-21 [2] CRAN (R 4.1.2)
+ tidyverse     * 1.3.2   2022-07-18 [2] CRAN (R 4.1.2)
+ tzdb            0.3.0   2022-03-28 [2] CRAN (R 4.1.2)
+ utf8            1.2.2   2021-07-24 [2] CRAN (R 4.1.0)
+ vctrs           0.4.1   2022-04-13 [2] CRAN (R 4.1.2)
+ withr           2.5.0   2022-03-03 [2] CRAN (R 4.1.2)
+ xml2            1.3.3   2021-11-30 [2] CRAN (R 4.1.2)
+
+ [1] /users/jbenjami/R/4.1.x
+ [2] /jhpce/shared/jhpce/core/conda/miniconda3-4.6.14/envs/svnR-4.1.x/R/4.1.x/lib64/R/site-library
+ [3] /jhpce/shared/jhpce/core/conda/miniconda3-4.6.14/envs/svnR-4.1.x/R/4.1.x/lib64/R/library
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+**** Job ends ****
+2022-11-09T10:15:07-0500
+**** Job starts ****
+2022-11-11T09:04:47-0500
+**** JHPCE info ****
+User: jbenjami
+Job id: 1127901
+Job name: clinical_overlap
+Hostname: compute-119.cm.cluster
+
+The following have been reloaded with a version change:
+  1) gcc/4.4.7 => gcc/9.1.0
+
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) COMMUNITY_CENTOS7_DEFAULT_ENV   9) gcc/9.1.0
+  2) stata/17          6) JHPCE_CENTOS7_DEFAULT_ENV      10) pandoc/2.7.3
+  3) JHPCE_tools/1.0   7) python/3.7.3
+  4) sge/8.1.9         8) emacs/28.1
+
+ 
+
+**** Run enrichment analysis ****
+-----
+numpy               1.21.6
+pandas              1.3.5
+pybiomart           0.2.0
+session_info        1.0.0
+-----
+Python 3.7.3 (default, Sep  6 2019, 16:02:24) [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Linux-3.10.0-1160.el7.x86_64-x86_64-with-centos-7.9.2009-Core
+-----
+Session information updated at 2022-11-11 09:05
+**** Job ends ****
+2022-11-11T09:05:58-0500
