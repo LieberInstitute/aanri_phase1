@@ -1,4 +1,0 @@
-#!/bin/bash
-
-python ../_h/eGenes_enrichment.py
-mv -v nohup.out summary.log
