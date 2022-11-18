@@ -1,0 +1,29 @@
+## This script combines files
+import argparse
+import pandas as pd
+from glob import iglob
+
+def combine_expression(tissue, feature):
+    pattern = "../_m/%s/%s/pred*" % (tissue, feature)
+    df = pd.DataFrame()
+    for filename in iglob(pattern):
+        dx = pd.read_csv(filename, sep='\t', index_col=0)
+        df = pd.concat([df, dx], axis=1)
+    return df.T
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--tissue', type=str)
+    parser.add_argument('--feature', type=str)
+    args=parser.parse_args()
+
+    ## Running script
+    tissue = args.tissue; feature = args.feature
+    combine_expression(tissue, feature)\
+        .to_csv("%s.predicted_expression.%s.txt.gz" %
+                (feature, tissue), sep='\t')
+
+
+if __name__ == "__main__":
+    main()
