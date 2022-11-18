@@ -1,4 +1,0 @@
-Caudate: Predicted vs Observed (n=536):		r2 = 0.527, rho = 0.726, p-value < 8.400818e-89
-Dentate.Gyrus: Predicted vs Observed (n=1368):		r2 = 0.274, rho = 0.524, p-value < 3.458716e-97
-DLPFC: Predicted vs Observed (n=612):		r2 = 0.473, rho = 0.688, p-value < 6.082451e-87
-Hippocampus: Predicted vs Observed (n=649):		r2 = 0.392, rho = 0.626, p-value < 7.627212e-72
