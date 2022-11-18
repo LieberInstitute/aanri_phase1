@@ -1,4 +1,4 @@
-Caudate: Predicted vs Observed (n=759):		r2 = 0.252, rho = 0.502, p-value < 1.288746e-49
-Dentate.Gyrus: Predicted vs Observed (n=604):		r2 = 0.100, rho = 0.317, p-value < 1.591327e-15
-DLPFC: Predicted vs Observed (n=649):		r2 = 0.256, rho = 0.506, p-value < 1.723600e-43
-Hippocampus: Predicted vs Observed (n=588):		r2 = 0.236, rho = 0.486, p-value < 3.363795e-36
+Caudate: Predicted vs Observed (n=759):		r2 = 0.259, rho = 0.509, p-value < 2.673726e-51
+Dentate.Gyrus: Predicted vs Observed (n=604):		r2 = 0.094, rho = 0.307, p-value < 1.325381e-14
+DLPFC: Predicted vs Observed (n=649):		r2 = 0.261, rho = 0.511, p-value < 2.201243e-44
+Hippocampus: Predicted vs Observed (n=588):		r2 = 0.231, rho = 0.481, p-value < 2.463691e-35

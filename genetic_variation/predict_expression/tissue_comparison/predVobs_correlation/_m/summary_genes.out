@@ -1,10 +1,10 @@
 **** Job starts ****
-2022-11-03T17:56:17-0400
+2022-11-09T16:04:22-0500
 **** JHPCE info ****
 User: jbenjami
-Job id: 634702
+Job id: 1042966
 Job name: effect_size_genes
-Hostname: compute-106.cm.cluster
+Hostname: compute-124.cm.cluster
 
 Currently Loaded Modules:
   1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
@@ -34,6 +34,6 @@ session_info        1.0.0
 Python 3.7.3 (default, Sep  6 2019, 16:02:24) [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
 Linux-3.10.0-1160.el7.x86_64-x86_64-with-centos-7.9.2009-Core
 -----
-Session information updated at 2022-11-03 17:59
+Session information updated at 2022-11-09 16:06
 **** Job ends ****
-2022-11-03T17:59:32-0400
+2022-11-09T16:06:59-0500
