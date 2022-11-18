@@ -1,6 +1,6 @@
 #!/bin/bash
 #$ -cwd
-#$ -l caracol,mem_free=40G,h_vmem=40G,h_fsize=100G
+#$ -l caracol,mem_free=30G,h_vmem=30G,h_fsize=50G
 #$ -N predExpr_gpu_caudate_gene
 #$ -o ./caudate_summary.log
 #$ -e ./caudate_summary.log
