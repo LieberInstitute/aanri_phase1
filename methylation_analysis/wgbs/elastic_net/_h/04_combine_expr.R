@@ -5,8 +5,7 @@ suppressPackageStartupMessages({
 })
 
 read_data <- function(fname){
-    return(data.table::fread(fname) %>%
-           column_to_rownames("V1"))
+    return(read.csv(fname, row.names=1))
 }
 
 #### MAIN
