@@ -11,4 +11,4 @@ FEATURE="exons"
 TISSUE="caudate"
 
 module load R
-Rscript ../_h/generate_covs.R --feature $FEATURE --region $TISSUE
+Rscript ../_h/exonrate_covs.R --feature $FEATURE --region $TISSUE

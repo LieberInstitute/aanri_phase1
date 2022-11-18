@@ -2,6 +2,7 @@
 import pandas as pd
 import session_info
 from os import environ
+from pyhere import here
 from functools import lru_cache
 from scipy.stats import fisher_exact
 from statsmodels.stats.multitest import multipletests
@@ -23,9 +24,8 @@ def get_eqtl(tissue):
 def get_background(tissue):
     new_tissue1 = tissue.replace(" ", ".")
     new_tissue2 = tissue.replace(" ", "_")
-    fn = "/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/"+\
-        "differential_analysis/tissue_comparison/_m/genes/"+\
-        "lfsr_feature_4tissues.txt.gz"
+    fn = here("differential_analysis/tissue_comparison/_m/genes/",
+              "lfsr_feature_4tissues.txt.gz")
     de_df = pd.read_csv(fn, sep='\t', usecols=["Effect", new_tissue1])
     return list(set(de_df.Effect) | set(get_eqtl(tissue).gene_id))
 
@@ -39,9 +39,8 @@ def get_eGene(tissue):
 
 @lru_cache()
 def get_ancestry_deg(tissue, direction):
-    fn = "/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/"+\
-        "differential_analysis/tissue_comparison/summary_table/"+\
-        "_m/BrainSeq_ancestry_4features_4regions.txt.gz"
+    fn = here("differential_analysis/tissue_comparison/summary_table/",
+              "_m/BrainSeq_ancestry_4features_4regions.txt.gz")
     df = pd.read_csv(fn, sep='\t')
     df = df[(df["Tissue"] == tissue) & (df["Type"] == "Gene")].copy()
     df["ensemblID"] = df.gencodeID.str.replace("\\..*", "", regex=True)

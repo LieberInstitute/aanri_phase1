@@ -11,4 +11,4 @@ FEATURE="transcripts"
 TISSUE="caudate"
 
 module load R
-Rscript ../_h/generate_covs.R --feature $FEATURE --region $TISSUE
+Rscript ../_h/transcriptrate_covs.R --feature $FEATURE --region $TISSUE

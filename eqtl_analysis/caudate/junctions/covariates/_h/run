@@ -11,4 +11,4 @@ FEATURE="junctions"
 TISSUE="caudate"
 
 module load R
-Rscript ../_h/generate_covs.R --feature $FEATURE --region $TISSUE
+Rscript ../_h/junctionrate_covs.R --feature $FEATURE --region $TISSUE
