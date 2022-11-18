@@ -1,6 +1,7 @@
 suppressMessages({
     library(here)
     library(dplyr)
+    library(bsseq)
     library(argparse)
     library(bigstatsr)
 })
@@ -24,8 +25,8 @@ sge_id  <- args$sge_id
 k_fold  <- args$k_fold
 
                                         # read covariates
-regions <- list("caudate"="caudate", "dentateGyrus"="dg",
-                "dlpfc"="dlpfc", "hippocampus"="hippo")
+regions <- list("caudate"="caudate", "dlpfc"="dlpfc",
+                "hippocampus"="hippo")
 fn <- here("differential_analysis/", tissue,
            "_m/", feature,"/voomSVA.RData")
 load(fn)
@@ -57,7 +58,11 @@ idx <- intersect(rownames(cov),rownames(p))
 p   <- p[match(idx,rownames(p)),]
 cov <- cov[match(idx,rownames(cov)),]
 
-                                        # keep samples with genotypes
+                                        # load methylation data
+flist <- list("hippocampus"=paste0("Hippocampus_chr",chr,"BSobj_Genotypes.rda"),
+              "dlpfc"=paste0("dlpfc_chr",chr,"BSobj_GenotypesDosage.rda"),
+              "caudate"=paste0("Caudate_chr",chr,"BSobj_Genotypes.rda"))
+
 pfam <- paste(tissue,feature,"gwas/chr1_brnum.psam",sep="/")
 ind  <- read.table(pfam,comment.char="", header=TRUE)
 id   <- intersect(rownames(p),ind[,1])

@@ -1,11 +1,9 @@
 #!/bin/bash
 #$ -cwd
-#$ -l mem_free=1G,h_vmem=1G,h_fsize=10G
-#$ -N enet_gene_caudate
-#$ -o ./logs/gene/caudate_$TASK_ID.log
-#$ -e ./logs/gene/caudate_$TASK_ID.log
-#$ -t 1-200
-#$ -tc 50
+#$ -l h_fsize=10G
+#$ -N summary_gene_hippocampus
+#$ -o ./summary.log
+#$ -e ./summary.log
 
 echo "**** Job starts ****"
 date
@@ -23,12 +21,11 @@ module load R
 module list
 
 ## Edit with your job command
-FEATURE="genes"; TISSUE="caudate"; KFOLD=5
+FEATURE="genes"; TISSUE="hippocampus"
 
 echo "**** Run combine files ****"
-Rscript ../_h/01_elastic_net.R \
-	--feature $FEATURE --tissue $TISSUE \
-	--sge_id $SGE_TASK_ID --k_fold $KFOLD
+Rscript ../_h/03_summary.R \
+	--feature $FEATURE --tissue $TISSUE
 
 echo "**** Job ends ****"
 date

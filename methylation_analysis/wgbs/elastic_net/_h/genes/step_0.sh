@@ -1,11 +1,10 @@
 #!/bin/bash
 #$ -cwd
 #$ -l mem_free=1G,h_vmem=1G,h_fsize=10G
-#$ -N enet_gene_caudate
-#$ -o ./logs/gene/caudate_$TASK_ID.log
-#$ -e ./logs/gene/caudate_$TASK_ID.log
-#$ -t 1-200
-#$ -tc 50
+#$ -N chunk_gene
+#$ -o ./summary.log
+#$ -e ./summary.log
+#$ -m e
 
 echo "**** Job starts ****"
 date
@@ -18,17 +17,19 @@ echo "Hostname: ${HOSTNAME}"
 
 ## List current modules for reproducibility
 module load gcc/9.1.0
-module load pandoc
 module load R
 module list
 
 ## Edit with your job command
-FEATURE="genes"; TISSUE="caudate"; KFOLD=5
+FEATURE="genes"; CHUNKS=200
 
 echo "**** Run combine files ****"
-Rscript ../_h/01_elastic_net.R \
-	--feature $FEATURE --tissue $TISSUE \
-	--sge_id $SGE_TASK_ID --k_fold $KFOLD
+Rscript ../_h/00_data_split.R --feature $FEATURE \
+	--tissue "caudate" --chunks $CHUNKS
+Rscript ../_h/00_data_split.R --feature $FEATURE \
+	--tissue "dlpfc" --chunks $CHUNKS
+Rscript ../_h/00_data_split.R --feature $FEATURE \
+	--tissue "hippocampus" --chunks $CHUNKS
 
 echo "**** Job ends ****"
 date

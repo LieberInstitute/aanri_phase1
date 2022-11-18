@@ -1,9 +1,10 @@
 #!/bin/bash
 #$ -cwd
 #$ -l mem_free=1G,h_vmem=1G,h_fsize=10G
-#$ -N enet_gene_caudate
-#$ -o ./logs/gene/caudate_$TASK_ID.log
-#$ -e ./logs/gene/caudate_$TASK_ID.log
+#$ -q shared.q@compute-0[9]*,shared.q@compute-1*&!*111
+#$ -N enet_gene_hippocampus
+#$ -o ./logs/gene/hippocampus_$TASK_ID.log
+#$ -e ./logs/gene/hippocampus_$TASK_ID.log
 #$ -t 1-200
 #$ -tc 50
 
@@ -23,7 +24,7 @@ module load R
 module list
 
 ## Edit with your job command
-FEATURE="genes"; TISSUE="caudate"; KFOLD=5
+FEATURE="genes"; TISSUE="hippocampus"; KFOLD=5
 
 echo "**** Run combine files ****"
 Rscript ../_h/01_elastic_net.R \

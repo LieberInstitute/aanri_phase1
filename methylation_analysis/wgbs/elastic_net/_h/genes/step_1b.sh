@@ -1,9 +1,9 @@
 #!/bin/bash
 #$ -cwd
 #$ -l mem_free=1G,h_vmem=1G,h_fsize=10G
-#$ -N enet_gene_caudate
-#$ -o ./logs/gene/caudate_$TASK_ID.log
-#$ -e ./logs/gene/caudate_$TASK_ID.log
+#$ -N enet_gene_dlpfc
+#$ -o ./logs/gene/dlpfc_$TASK_ID.log
+#$ -e ./logs/gene/dlpfc_$TASK_ID.log
 #$ -t 1-200
 #$ -tc 50
 
@@ -23,7 +23,7 @@ module load R
 module list
 
 ## Edit with your job command
-FEATURE="genes"; TISSUE="caudate"; KFOLD=5
+FEATURE="genes"; TISSUE="dlpfc"; KFOLD=5
 
 echo "**** Run combine files ****"
 Rscript ../_h/01_elastic_net.R \
