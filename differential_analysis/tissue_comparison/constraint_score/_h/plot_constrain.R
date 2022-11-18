@@ -18,6 +18,23 @@ load_data <- function(feature){
     }
 }
 
+plot_errplot <- function(feature){
+    xlabel = paste0("LOEUF decile bin (",feature,")")
+    ylabel = ifelse(tolower(feature) == "gene",
+                    "Ancestry-Associated DEGs\n(Mean lfsr)",
+                    "Ancestry-Associated DE\n(Mean lfsr)")
+    errplt <- load_data(feature) %>%
+        #mutate(LOEUF_decile = (oe_lof_upper_bin + 0.5) * 10) %>%
+        ggerrorplot(x="oe_lof_upper_bin", y="lfsr", color="Tissue",
+                    palette="npg", ylab=ylabel, xlab=xlabel,
+                    desc_stat="mean_ci", error.plot="pointrange",
+                    position=position_dodge(0.5),
+                    ggtheme=theme_pubr(base_size=15)) +
+        font("xy.title", face="bold", size=20)
+    save_plot(errplt, paste0("constrain_correlation_errorplot_",
+                             tolower(feature)), 7, 7)
+}
+
 plot_corr <- function(feature){
     ylabel = paste(feature, "Constrain (LOEUF)")
     xlabel = ifelse(tolower(feature) == "gene", "DEGs (lfsr)", "DE (lfsr)")
@@ -49,6 +66,8 @@ plot_density <- function(feature, variable){
 }
 
 #### MAIN
+plot_errplot("Gene")
+plot_errplot("Transcript")
 plot_corr("Gene")
 plot_corr("Transcript")
 plot_density("Gene", "Constrained")

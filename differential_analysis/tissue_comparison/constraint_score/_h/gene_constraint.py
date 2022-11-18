@@ -4,13 +4,15 @@ ancestry-related DEGs.
 """
 import numpy as np
 import pandas as pd
+from pyhere import here
 from functools import lru_cache
 from statsmodels.stats.multitest import fdrcorrection
 from scipy.stats import fisher_exact, ttest_ind, pearsonr
 
 @lru_cache()
 def load_constraint():
-    fn = "../../../../input/database/_m/gnomad/gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz"
+    fn = here("input/database/_m/gnomad/",
+              "gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz")
     return pd.read_csv(fn, sep="\t", compression="gzip")\
              .loc[:, ["gene", "oe_lof_upper", "oe_lof_upper_bin", "p"]]\
              .dropna()
@@ -18,12 +20,11 @@ def load_constraint():
 
 @lru_cache()
 def get_annotation(feature="genes"):
-    base_loc = "/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input/text_files_counts/"
     config = {
-        "genes": "%s/_m/caudate/gene_annotation.tsv" % base_loc,
-        "transcripts": "%s/_m/caudate/tx_annotation.tsv" % base_loc,
-        "exons": "%s/_m/caudate/exon_annotation.tsv" % base_loc,
-        "junctions": "%s/_m/caudate/jxn_annotation.tsv" % base_loc,
+        "genes": here("input/text_files_counts/_m/caudate/gene_annotation.tsv"),
+        "transcripts": here("input/text_files_counts/_m/caudate/tx_annotation.tsv"),
+        "exons": here("input/text_files_counts/_m/caudate/exon_annotation.tsv"),
+        "junctions": here("input/text_files_counts/_m/caudate/jxn_annotation.tsv"),
     }
     return pd.read_csv(config[feature], sep='\t')
 
@@ -48,7 +49,8 @@ def annotate_degs(tissue):
 
 @lru_cache()
 def annot_effect_size(tissue):
-    return pd.read_csv("../../_m/genes/posterior_mean_feature_4tissues.txt.gz",sep='\t')\
+    return pd.read_csv("../../_m/genes/posterior_mean_feature_4tissues.txt.gz",
+                       sep='\t')\
              .loc[:, ["Effect", tissue]]\
              .rename(columns={tissue: "beta"})\
              .merge(annotate_degs(tissue), on="Effect").dropna()

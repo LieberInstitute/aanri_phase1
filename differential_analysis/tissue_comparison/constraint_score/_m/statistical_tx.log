@@ -1,0 +1,13 @@
+Preform statistical analysis!
+Caudate
+T-test:		 T-stat > -47.710, p-value < 0.0e+00
+Pearson corr: rho > -0.049, p-value < 8.6e-13
+Dentate.Gyrus
+T-test:		 T-stat > -57.227, p-value < 0.0e+00
+Pearson corr: rho > -0.046, p-value < 1.7e-11
+DLPFC
+T-test:		 T-stat > -42.433, p-value < 0.0e+00
+Pearson corr: rho > -0.045, p-value < 9.0e-11
+Hippocampus
+T-test:		 T-stat > -43.455, p-value < 0.0e+00
+Pearson corr: rho > -0.043, p-value < 3.2e-10

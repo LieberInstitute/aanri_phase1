@@ -17,6 +17,8 @@ echo "Job name: ${JOB_NAME}"
 echo "Hostname: ${HOSTNAME}"
 
 ## List current modules for reproducibility
+module load gcc/9.1.0
+module load pandoc
 module load R
 module list
 
