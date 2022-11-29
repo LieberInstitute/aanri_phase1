@@ -1,0 +1,3 @@
+Caudate: Predicted vs Observed (n=1202):	r2 = 0.552, rho = 0.743, p-value = 1.592e-211
+DLPFC: Predicted vs Observed (n=990):	r2 = 0.528, rho = 0.726, p-value = 4.428e-163
+Hippocampus: Predicted vs Observed (n=959):	r2 = 0.534, rho = 0.731, p-value = 4.552e-161

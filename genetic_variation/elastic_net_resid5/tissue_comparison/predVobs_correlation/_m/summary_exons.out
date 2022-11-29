@@ -1,10 +1,10 @@
 **** Job starts ****
-2022-11-14T02:24:46-0500
+2022-11-29T08:14:55-0500
 **** JHPCE info ****
 User: jbenjami
-Job id: 1143753
+Job id: 1260645
 Job name: effect_size_exons
-Hostname: compute-129.cm.cluster
+Hostname: compute-146.cm.cluster
 
 Currently Loaded Modules:
   1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
@@ -16,6 +16,18 @@ Currently Loaded Modules:
 
 **** Run mash results summarization ****
 R[write to console]: Loading required package: ggplot2
+
+R[write to console]: Learn more about the underlying theory at https://ggplot2-book.org/
+
+R[write to console]: `geom_smooth()` using formula 'y ~ x'
+
+R[write to console]: `geom_smooth()` using formula 'y ~ x'
+
+R[write to console]: `geom_smooth()` using formula 'y ~ x'
+
+R[write to console]: `geom_smooth()` using formula 'y ~ x'
+
+R[write to console]: `geom_smooth()` using formula 'y ~ x'
 
 R[write to console]: `geom_smooth()` using formula 'y ~ x'
 
@@ -35,6 +47,6 @@ session_info        1.0.0
 Python 3.7.3 (default, Sep  6 2019, 16:02:24) [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
 Linux-3.10.0-1160.el7.x86_64-x86_64-with-centos-7.9.2009-Core
 -----
-Session information updated at 2022-11-14 02:27
+Session information updated at 2022-11-29 08:17
 **** Job ends ****
-2022-11-14T02:27:00-0500
+2022-11-29T08:17:10-0500
