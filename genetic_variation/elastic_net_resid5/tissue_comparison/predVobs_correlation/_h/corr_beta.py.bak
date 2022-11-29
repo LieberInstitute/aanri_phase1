@@ -60,36 +60,20 @@ def merge_data(feature):
 def get_sig(tissue, feature, lfsr = 0.05):
     shared_features = set(get_deg(tissue, feature).Effect) & \
         set(merge_data(feature).index)
-    return merge_data(feature).loc[shared_features]
-
-
-@lru_cache()
-def get_sig_eGene(tissue, feature, lfsr = 0.05):
-    shared_features = set(get_deg(tissue, feature).Effect) & \
-        set(merge_data(feature).index)
     shared_egenes = shared_features & set(get_eGene(tissue, feature, lfsr).gene_id)
     return merge_data(feature).loc[shared_egenes]
 
 
-@lru_cache()
-def get_sig_select(tissue, feature, lfsr = 0.05):
-    shared_features = set(get_deg(tissue, feature).Effect) & \
-        set(merge_data(feature).index)
-    shared_egenes = shared_features - set(get_eGene(tissue, feature, lfsr).gene_id)
-    return merge_data(feature).loc[shared_egenes]
+def corr_beta(tissue, feature, lfsr = 0.05):
+    return spearmanr(get_sig(tissue, feature, lfsr)["%s_pred" % tissue],
+                     get_sig(tissue, feature, lfsr)["%s_obs" % tissue])
 
 
-def corr_beta(fnc, tissue, feature, lfsr = 0.05):
-    return spearmanr(fnc(tissue, feature, lfsr)[f"{tissue}_pred"],
-                     fnc(tissue, feature, lfsr)[f"{tissue}_obs"])
-
-
-def plotNsave_corr(fnc, tissue, feature, label):
+def plotNsave_corr(tissue, feature):
     pandas2ri.activate()
-    globalenv['df'] = fnc(tissue, feature)
+    globalenv['df'] = get_sig(tissue, feature)
     globalenv['tissue'] = tissue
     globalenv['feature'] = feature
-    globalenv['label'] = label
     r('''
     library(ggpubr)
     save_plot <- function(p, fn, w, h){
@@ -100,8 +84,7 @@ def plotNsave_corr(fnc, tissue, feature, label):
     ## Plotting
     xlab = "Observed\n(Effect Size)"
     ylab = "Predicted\n(Effect Size)"
-    fn = paste(feature, "effectsize_scatter_predVobs",
-               tolower(tissue), label, sep=".")
+    fn = paste(feature, "effectsize_scatter_predVobs", tolower(tissue), sep="_")
     pp = ggscatter(df, x=paste0(tissue,"_obs"), y=paste0(tissue,"_pred"),
                    add="reg.line", size=1, xlab=xlab, ylab=ylab, alpha=0.5,
                    panel.labs.font=list(face="bold"),
@@ -114,30 +97,21 @@ def plotNsave_corr(fnc, tissue, feature, label):
     ''')
 
 
-def calculate_rho(fnc, feature, label):
-    with open(f"rho_statistics_{feature}.{label}.log", "w") as f:
-        for tissue in ["Caudate", "DLPFC", "Hippocampus"]:
-            ## Correlated effect sizes
-            n = fnc(tissue, feature, 0.05).shape[0]
-            rho, pval = corr_beta(fnc, tissue, feature)
-            print(f"{tissue}: Predicted vs Observed (n={n}):\t"+\
-                  f"r2 = {rho**2:.3f}, rho = {rho:.3f}, "+\
-                  f"p-value = {pval:.3e}", file=f)
-
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--feature', type=str)
     args=parser.parse_args()
-    ## Plotting correlation
-    for tissue in ["Caudate", "DLPFC", "Hippocampus"]:
-        plotNsave_corr(get_sig, tissue, args.feature, "DE")
-        plotNsave_corr(get_sig_eGene, tissue, args.feature, "eGene")
-        plotNsave_corr(get_sig_select, tissue, args.feature, "non_eGene")
-    ## Calculate rho, DE overlap
-    calculate_rho(get_sig, args.feature, "DE")
-    calculate_rho(get_sig_eGene, args.feature, "eGene")
-    calculate_rho(get_sig_select, args.feature, "non_eGene")
+    for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
+        plotNsave_corr(tissue, args.feature)
+    ## Calculate rho
+    with open("rho_statistics_%s.log" % args.feature, "w") as f:
+        for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
+            ## Correlated effect sizes
+            n = get_sig(tissue, args.feature, 0.05).shape[0]
+            rho, pval = corr_beta(tissue, args.feature)
+            print("%s: Predicted vs Observed (n=%d):\t\t" % (tissue, n)+\
+                  "r2 = %.3f, rho = %.3f, p-value < %.6e" %
+                  (rho**2, rho, pval), file=f)
     ## Reproducibility information
     session_info.show()
 
