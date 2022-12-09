@@ -15,7 +15,7 @@ echo "Job name: ${JOB_NAME}"
 echo "Hostname: ${HOSTNAME}"
 
 ## List current modules for reproducibility
-module load R
+module load R/3.6.1
 module list
 
 echo "**** Run confounder analysis ****"

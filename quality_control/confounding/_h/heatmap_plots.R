@@ -1,5 +1,6 @@
 ## This script plots correlation between potential confounders.
 suppressPackageStartupMessages({
+    library(here)
     library(tidyverse)
 })
 
@@ -11,10 +12,8 @@ save_img <- function(image, fn, w=14, h=7){
 }
 
 pca_norm_data <- function(region){
-    baseloc <- paste0("/dcs04/lieber/statsgen/jbenjami/projects/",
-                      "aanri_phase1/differential_analysis/")
     ## Load voom normalized data
-    load(paste0(baseloc, region, "/_m/genes/voomSVA.RData"))
+    load(here("differential_analysis", region, "_m/genes/voomSVA.RData"))
     ## Transpose expression
     norm_df = v$E %>% t
     ## Calculate PCA
@@ -28,10 +27,9 @@ pca_norm_data <- function(region){
 memNORM <- memoise::memoise(pca_norm_data)
 
 pca_res_data <- function(region){
-    baseloc <- paste0("/dcs04/lieber/statsgen/jbenjami/projects/",
-                      "aanri_phase1/differential_analysis/")
     ## Read in residualized data
-    fname = paste0(baseloc,region,"/_m/genes/residualized_expression.tsv")
+    fname = here("differential_analysis", region,
+                 "_m/genes/residualized_expression.tsv")
     res_df = data.table::fread(fname) %>% column_to_rownames("V1") %>% t
     ## Calculate PCA
     pca_df = prcomp(res_df, center=TRUE)$x[, 1:20]
@@ -42,36 +40,38 @@ pca_res_data <- function(region){
 }
 memRES <- memoise::memoise(pca_res_data)
 
+get_mds <- function(){
+    mds_file <- here("input/genotypes/old_mds/_m/LIBD_Brain_TopMed.mds")
+    mds = data.table::fread(mds_file) %>%
+        rename_at(.vars = vars(starts_with("C")),
+                  function(x){sub("C", "snpPC", x)}) %>%
+        mutate_if(is.character, as.factor)
+    return(mds)
+}
+memMDS <- memoise::memoise(get_mds)
+
 get_pheno <- function(region){
-    baseloc <- paste0("/dcs04/lieber/statsgen/jbenjami/projects/",
-                      "aanri_phase1/differential_analysis/")
+                                        # Load shared variables
+    vars <- data.table::fread("../../_m/shared_variables.tsv")
     ## Load voom normalized data
-    load(paste0(baseloc, region, "/_m/genes/voomSVA.RData"))
+    load(here("differential_analysis", region, "/_m/genes/voomSVA.RData"))
     dfx = v$design %>% as.data.frame %>% select(starts_with("qPC")) %>%
         rownames_to_column("RNum") %>%
         pivot_longer(!RNum, names_to="Covariate", values_to="Variable")
     dfx$Covariate <- factor(dfx$Covariate, levels = paste0('qPC', 1:20))
     dfy = v$targets %>% as.data.frame %>%
-        mutate(concordMapRate=mapply(function(r, n) {sum(r*n)/sum(n)},
-                                     concordMapRate, numMapped)) %>%
+        inner_join(memMDS() %>% select("FID", "snpPC1", "snpPC2", "snpPC3"),
+           by=c("BrNum"="FID")) %>% distinct(RNum, .keep_all = TRUE) %>%
+        select(all_of(vars$Variables)) %>% column_to_rownames("RNum") %>%
+        select(-c("BrNum", "Dx", "Race")) %>%
         mutate(across(where(is.character), as.factor)) %>%
         mutate(across(where(is.factor), as.numeric)) %>%
-        mutate(across(where(is.logical), as.numeric)) %>%
-        select(Afr,Sex,Age,RIN,mitoRate,rRNA_rate,totalAssignedGene,
-               overallMapRate, concordMapRate)
-    rownames(dfy) <- rownames(v$targets)
+        mutate(across(where(is.logical), as.numeric))
     dfy = dfy %>% rownames_to_column("RNum") %>%
         pivot_longer(!RNum, names_to="Covariate", values_to="Variable")
     return(bind_rows(dfy, dfx) %>% mutate_if(is.character, as.factor))
 }
 memPHENO <- memoise::memoise(get_pheno)
-
-## prep_data <- function(covars){
-##     df = covars %>%
-##         pivot_longer(!RNum, names_to="Covariate", values_to="Variable")
-##     return(df)
-## }
-## memEST <- memoise::memoise(prep_data)
 
 merge_expr <- function(covars, fnc, region){
     df <- inner_join(memPHENO(region), fnc(region), by="RNum")
@@ -124,7 +124,7 @@ fit_model <- function(covars, region, norm, identity){
                                 labels = c("<= 0.005","<= 0.01","<= 0.05","> 0.05"),
                                 include.lowest = TRUE),
                p.fdr = p.adjust(p.value, "fdr"),
-               log.p.bonf = -log10(p.bonf+10**(-300)))
+               log.p.bonf = -log10(p.bonf+10**(-100)))
     print(est_fit %>% count(p.bonf.cat))
     return(est_fit)
 }
@@ -173,7 +173,6 @@ tile_plot <- function(covars, region, norm=TRUE, identity=TRUE){
 
 #### Correlation with expression PCs ####
 for(region in c("caudate", "dentateGyrus", "dlpfc", "hippocampus")){
-    outdir <- region
     ## Get covariates
     covarsCont = memPHENO(region)
     ## Plotting
