@@ -1,24 +1,12 @@
 ## Select and filter data for MDD analysis
 suppressPackageStartupMessages({
+    library(here)
     library(dplyr)
-    library(argparse)
     library(SummarizedExperiment)
 })
-
-                                        # Create parser object
-parser <- ArgumentParser()
-parser$add_argument("-r", "--region", type="character", default="caudate",
-                    help="Brain region to extract [default: %default]")
-args <- parser$parse_args()
-
-                                        # Function from jaffelab github
 merge_rse_metrics <- function(rse) {
+                                        # Function from jaffelab github
     stopifnot(is(rse, 'RangedSummarizedExperiment'))
-    rse$numMapped = sapply(rse$numMapped, sum)
-    rse$numReads = sapply(rse$numReads, sum)
-    rse$numUnmapped = sapply(rse$numUnmapped, sum)
-    rse$mitoMapped = sapply(rse$mitoMapped, sum)
-    rse$totalMapped = sapply(rse$totalMapped, sum)
     rse$overallMapRate = mapply(function(r, n) {
         sum(r*n)/sum(n)
     }, rse$overallMapRate, rse$numReads)
@@ -31,12 +19,16 @@ merge_rse_metrics <- function(rse) {
     rse$totalAssignedGene = mapply(function(r, n) {
         sum(r*n)/sum(n)
     }, rse$totalAssignedGene, rse$numMapped)
+    rse$numMapped = sapply(rse$numMapped, sum)
+    rse$numReads = sapply(rse$numReads, sum)
+    rse$numUnmapped = sapply(rse$numUnmapped, sum)
+    rse$mitoMapped = sapply(rse$mitoMapped, sum)
+    rse$totalMapped = sapply(rse$totalMapped, sum)
     return(rse)
 }
 
 get_mds <- function(){
-    baseloc  <- "/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input"
-    mds_file <- paste0(baseloc,"/genotypes/old_mds/_m/LIBD_Brain_TopMed.mds")
+    mds_file <- here("input/genotypes/old_mds/_m/LIBD_Brain_TopMed.mds")
     mds = data.table::fread(mds_file) %>%
         rename_at(.vars = vars(starts_with("C")),
                   function(x){sub("C", "snpPC", x)}) %>%
@@ -46,17 +38,19 @@ get_mds <- function(){
 memMDS <- memoise::memoise(get_mds)
 
 prep_data <- function(region){
-    baseloc  <- "/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input"
-    ancestry <- paste0(baseloc,"/ancestry_structure/structure.out_ancestry",
-                       "_proportion_raceDemo_compare")
-    counts_lt = list("caudate"=paste0(baseloc,"/counts/_m/caudate_brainseq_",
-                                      "phase3_hg38_rseGene_merged_n464.rda"), 
-                     "dentateGyrus"=paste0(baseloc,"/counts/_m/astellas_dg_",
-                                           "hg38_rseGene_n263.rda"),
-                     "dlpfc"=paste0(baseloc,"/counts/_m/dlpfc_ribozero_brainseq",
-                                    "_phase2_hg38_rseGene_merged_n453.rda"),
-                     "hippocampus"=paste0(baseloc,"/counts/_m/hippo_brainseq_",
-                                          "phase2_hg38_rseGene_merged_n447.rda"))
+    ancestry <- here("input/ancestry_structure/",
+                     "structure.out_ancestry_proportion_raceDemo_compare")
+    counts_lt = list("caudate"=here("input/counts/_m/",
+                                    paste0("caudate_brainseq_phase3_hg38",
+                                           "_rseGene_merged_n464.rda")),
+                     "dentateGyrus"=here("input/counts/_m/",
+                                         "astellas_dg_hg38_rseGene_n263.rda"),
+                     "dlpfc"=here("input/counts/_m/",
+                                  paste0("dlpfc_ribozero_brainseq_phase2",
+                                         "_hg38_rseGene_merged_n453.rda")),
+                     "hippocampus"=here("input/counts/_m/",
+                                        paste0("hippo_brainseq_phase2_hg38",
+                                               "_rseGene_merged_n447.rda")))
     load(counts_lt[[region]], verbose=TRUE)
     rse_df = rse_gene
     keepIndex = which((rse_df$Dx %in% c("Control", "Schizo")) & 
@@ -86,9 +80,28 @@ check_dup <- function(df){
     return(cytominer::correlation_threshold(variables, sample, cutoff=0.90))
 }
 
-remove_variables <- function(pheno_df){
+check_corr <- function(df){
+    sample <- df %>% select_if(is.numeric)
+    dt = sample %>% corrr::correlate() %>%
+        corrr::stretch() %>% tidyr::drop_na() %>%
+        filter(abs(r) > 0.90) %>%
+        distinct(r, .keep_all=TRUE)
+    varX <- distinct(dt, x)$x
+    varX <- varX[-which(varX %in% intersect(varX, distinct(dt, y)$y))]
+    vars <- unique(c(distinct(dt, x)$x, distinct(dt, y)$y))
+    return(setdiff(vars, varX))
+}
+
+old_remove_variables <- function(pheno_df){
     if(length(check_dup(pheno_df)) != 0){
         pheno_df <- pheno_df %>% select(-check_dup(pheno_df))
+    }
+    return(pheno_df)
+}
+
+remove_variables <- function(pheno_df){
+    if(length(check_corr(pheno_df)) != 0){
+        pheno_df <- pheno_df %>% select(-check_corr(pheno_df))
     }
     return(pheno_df)
 }
@@ -101,12 +114,21 @@ dlpfc   <- prep_data("dlpfc")
 hippo   <- prep_data("hippocampus")
                                         # Drop correlated
 caudate <- remove_variables(caudate)
-#gyrus   <- remove_variables(gyrus) ## by hand, drop only concordMapRate
+gyrus   <- remove_variables(gyrus)
 dlpfc   <- remove_variables(dlpfc)
 hippo   <- remove_variables(hippo)
-print(cor.test(gyrus$concordMapRate, gyrus$overallMapRate))
-
-## Limitation is gyrus available data
+                                        # Commone variables
+vars <- intersect(colnames(caudate),
+                  intersect(colnames(gyrus),
+                            intersect(colnames(dlpfc), colnames(hippo))))
+data.frame("Variables"=vars) %>%
+    data.table::fwrite("shared_variables.tsv", sep='\t')
+                                        # Save variables that
+                                        # are not highly correlated
+caudate %>% data.table::fwrite("caudate_expression_covs.tsv", sep='\t')
+gyrus %>% data.table::fwrite("dentateGyrus_expression_covs.tsv", sep='\t')
+dlpfc %>% data.table::fwrite("dlpfc_expression_covs.tsv", sep='\t')
+hippo %>% data.table::fwrite("hippocampus_expression_covs.tsv", sep='\t')
 
 ## Reproducibility
 Sys.time()
