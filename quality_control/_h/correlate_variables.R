@@ -123,12 +123,12 @@ vars <- intersect(colnames(caudate),
                             intersect(colnames(dlpfc), colnames(hippo))))
 data.frame("Variables"=vars) %>%
     data.table::fwrite("shared_variables.tsv", sep='\t')
-                                        # Save variables that
-                                        # are not highly correlated
-caudate %>% data.table::fwrite("caudate_expression_covs.tsv", sep='\t')
-gyrus %>% data.table::fwrite("dentateGyrus_expression_covs.tsv", sep='\t')
-dlpfc %>% data.table::fwrite("dlpfc_expression_covs.tsv", sep='\t')
-hippo %>% data.table::fwrite("hippocampus_expression_covs.tsv", sep='\t')
+##                                         # Save variables that
+##                                         # are not highly correlated
+## caudate %>% data.table::fwrite("caudate_expression_covs.tsv", sep='\t')
+## gyrus %>% data.table::fwrite("dentateGyrus_expression_covs.tsv", sep='\t')
+## dlpfc %>% data.table::fwrite("dlpfc_expression_covs.tsv", sep='\t')
+## hippo %>% data.table::fwrite("hippocampus_expression_covs.tsv", sep='\t')
 
 ## Reproducibility
 Sys.time()
