@@ -77,14 +77,14 @@ prep_data <- function(region){
 check_dup <- function(df){
     sample <- df %>% select_if(is.numeric)
     variables <- names(sample)
-    return(cytominer::correlation_threshold(variables, sample, cutoff=0.90))
+    return(cytominer::correlation_threshold(variables, sample, cutoff=0.95))
 }
 
 check_corr <- function(df){
     sample <- df %>% select_if(is.numeric)
     dt = sample %>% corrr::correlate() %>%
         corrr::stretch() %>% tidyr::drop_na() %>%
-        filter(abs(r) > 0.90) %>%
+        filter(abs(r) > 0.95) %>%
         distinct(r, .keep_all=TRUE)
     varX <- distinct(dt, x)$x
     varX <- varX[-which(varX %in% intersect(varX, distinct(dt, y)$y))]
