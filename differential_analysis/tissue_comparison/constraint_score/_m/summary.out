@@ -1,10 +1,10 @@
 **** Job starts ****
-Wed Nov  2 13:49:59 EDT 2022
+Tue Jan  3 12:46:48 EST 2023
 **** JHPCE info ****
 User: jbenjami
-Job id: 621837
+Job id: 1386813
 Job name: gene_constrain
-Hostname: compute-057.cm.cluster
+Hostname: compute-119.cm.cluster
 
 The following have been reloaded with a version change:
   1) gcc/4.4.7 => gcc/9.1.0
@@ -21,13 +21,13 @@ Currently Loaded Modules:
 **** Run enrichment analysis ****
 **** Plot correlation ****
 WARNING: ignoring environment value of R_HOME
-`geom_smooth()` using formula 'y ~ x'
-`geom_smooth()` using formula 'y ~ x'
-`geom_smooth()` using formula 'y ~ x'
-`geom_smooth()` using formula 'y ~ x'
-[1] "2022-11-02 13:51:12 EDT"
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+[1] "2023-01-03 12:47:43 EST"
    user  system elapsed 
- 36.382   1.033  41.762 
+ 21.196   0.586  30.003 
 ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.0.3 (2020-10-10)
@@ -38,7 +38,7 @@ WARNING: ignoring environment value of R_HOME
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       US/Eastern
- date     2022-11-02
+ date     2023-01-03
  pandoc   2.7.3 @ /jhpce/shared/jhpce/core/pandoc/2.7.3/bin/pandoc
 
 ─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -47,28 +47,27 @@ WARNING: ignoring environment value of R_HOME
  assertthat    0.2.1   2019-03-21 [2] CRAN (R 4.0.3)
  backports     1.4.1   2021-12-13 [1] CRAN (R 4.0.3)
  broom         1.0.1   2022-08-29 [1] CRAN (R 4.0.3)
- car           3.1-0   2022-06-15 [1] CRAN (R 4.0.3)
+ car           3.1-1   2022-10-19 [1] CRAN (R 4.0.3)
  carData       3.0-5   2022-01-06 [1] CRAN (R 4.0.3)
  cli           3.4.1   2022-09-23 [1] CRAN (R 4.0.3)
  colorspace    2.0-3   2022-02-21 [1] CRAN (R 4.0.3)
  data.table    1.14.0  2021-02-21 [2] CRAN (R 4.0.3)
  DBI           1.1.1   2021-01-15 [2] CRAN (R 4.0.3)
- digest        0.6.29  2021-12-01 [1] CRAN (R 4.0.3)
  dplyr       * 1.0.10  2022-09-01 [1] CRAN (R 4.0.3)
  fansi         1.0.3   2022-03-24 [1] CRAN (R 4.0.3)
  farver        2.1.1   2022-07-06 [1] CRAN (R 4.0.3)
  generics      0.1.3   2022-07-05 [1] CRAN (R 4.0.3)
- ggplot2     * 3.3.6   2022-05-03 [1] CRAN (R 4.0.3)
- ggpubr      * 0.4.0   2020-06-27 [1] CRAN (R 4.0.3)
+ ggplot2     * 3.4.0   2022-11-04 [1] CRAN (R 4.0.3)
+ ggpubr      * 0.5.0   2022-11-16 [1] CRAN (R 4.0.3)
  ggsci         2.9     2018-05-14 [1] CRAN (R 4.0.3)
- ggsignif      0.6.3   2021-09-09 [1] CRAN (R 4.0.3)
+ ggsignif      0.6.4   2022-10-13 [1] CRAN (R 4.0.3)
  glue          1.6.2   2022-02-24 [1] CRAN (R 4.0.3)
  gtable        0.3.1   2022-09-01 [1] CRAN (R 4.0.3)
  labeling      0.4.2   2020-10-20 [2] CRAN (R 4.0.3)
  lattice       0.20-41 2020-04-02 [2] CRAN (R 4.0.3)
- lifecycle     1.0.2   2022-09-09 [1] CRAN (R 4.0.3)
+ lifecycle     1.0.3   2022-10-07 [1] CRAN (R 4.0.3)
  magrittr      2.0.3   2022-03-30 [1] CRAN (R 4.0.3)
- Matrix        1.5-0   2022-09-10 [1] CRAN (R 4.0.3)
+ Matrix        1.5-3   2022-11-11 [1] CRAN (R 4.0.3)
  mgcv          1.8-33  2020-08-27 [2] CRAN (R 4.0.3)
  munsell       0.5.0   2018-06-12 [2] CRAN (R 4.0.3)
  nlme          3.1-149 2020-08-23 [2] CRAN (R 4.0.3)
@@ -76,17 +75,17 @@ WARNING: ignoring environment value of R_HOME
  pkgconfig     2.0.3   2019-09-22 [2] CRAN (R 4.0.3)
  purrr         0.3.4   2020-04-17 [2] CRAN (R 4.0.3)
  R6            2.5.1   2021-08-19 [1] CRAN (R 4.0.3)
- rlang         1.0.5   2022-08-31 [1] CRAN (R 4.0.3)
- rstatix       0.7.0   2021-02-13 [1] CRAN (R 4.0.3)
+ rlang         1.0.6   2022-09-24 [1] CRAN (R 4.0.3)
+ rstatix       0.7.1   2022-11-09 [1] CRAN (R 4.0.3)
  scales        1.2.1   2022-08-20 [1] CRAN (R 4.0.3)
  sessioninfo   1.2.2   2021-12-06 [1] CRAN (R 4.0.3)
  svglite       2.1.0   2022-02-03 [1] CRAN (R 4.0.3)
  systemfonts   1.0.4   2022-02-11 [1] CRAN (R 4.0.3)
  tibble        3.1.8   2022-07-22 [1] CRAN (R 4.0.3)
  tidyr         1.2.1   2022-09-08 [1] CRAN (R 4.0.3)
- tidyselect    1.1.2   2022-02-21 [1] CRAN (R 4.0.3)
+ tidyselect    1.2.0   2022-10-10 [1] CRAN (R 4.0.3)
  utf8          1.2.2   2021-07-24 [1] CRAN (R 4.0.3)
- vctrs         0.4.2   2022-09-29 [1] CRAN (R 4.0.3)
+ vctrs         0.5.1   2022-11-16 [1] CRAN (R 4.0.3)
  withr         2.5.0   2022-03-03 [1] CRAN (R 4.0.3)
 
  [1] /users/jbenjami/R/x86_64-pc-linux-gnu-library/4.0
@@ -94,14 +93,14 @@ WARNING: ignoring environment value of R_HOME
 
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 **** Job ends ****
-Wed Nov  2 13:51:13 EDT 2022
+Tue Jan  3 12:47:45 EST 2023
 **** Job starts ****
-2022-11-02T13:51:28-0400
+2023-01-03T12:48:18-0500
 **** JHPCE info ****
 User: jbenjami
-Job id: 621838
+Job id: 1386819
 Job name: plot_enrichment
-Hostname: compute-124.cm.cluster
+Hostname: compute-119.cm.cluster
 
 The following have been reloaded with a version change:
   1) gcc/4.4.7 => gcc/9.1.0
@@ -117,9 +116,9 @@ Currently Loaded Modules:
 
 **** Plot enrichment results ****
 WARNING: ignoring environment value of R_HOME
-[1] "2022-11-02 13:51:34 EDT"
+[1] "2023-01-03 12:48:28 EST"
    user  system elapsed 
-  3.240   0.285   5.403 
+  3.255   0.256  10.044 
 ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.0.3 (2020-10-10)
@@ -130,83 +129,85 @@ WARNING: ignoring environment value of R_HOME
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       US/Eastern
- date     2022-11-02
+ date     2023-01-03
  pandoc   2.7.3 @ /jhpce/shared/jhpce/core/pandoc/2.7.3/bin/pandoc
 
 ─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
- package     * version date (UTC) lib source
- abind         1.4-5   2016-07-21 [1] CRAN (R 4.0.3)
- assertthat    0.2.1   2019-03-21 [2] CRAN (R 4.0.3)
- backports     1.4.1   2021-12-13 [1] CRAN (R 4.0.3)
- broom         1.0.1   2022-08-29 [1] CRAN (R 4.0.3)
- cachem        1.0.6   2021-08-19 [1] CRAN (R 4.0.3)
- car           3.1-0   2022-06-15 [1] CRAN (R 4.0.3)
- carData       3.0-5   2022-01-06 [1] CRAN (R 4.0.3)
- cellranger    1.1.0   2016-07-27 [2] CRAN (R 4.0.3)
- cli           3.4.1   2022-09-23 [1] CRAN (R 4.0.3)
- colorspace    2.0-3   2022-02-21 [1] CRAN (R 4.0.3)
- crayon        1.5.1   2022-03-26 [1] CRAN (R 4.0.3)
- data.table    1.14.0  2021-02-21 [2] CRAN (R 4.0.3)
- DBI           1.1.1   2021-01-15 [2] CRAN (R 4.0.3)
- dbplyr        2.2.1   2022-06-27 [1] CRAN (R 4.0.3)
- digest        0.6.29  2021-12-01 [1] CRAN (R 4.0.3)
- dplyr       * 1.0.10  2022-09-01 [1] CRAN (R 4.0.3)
- ellipsis      0.3.2   2021-04-29 [1] CRAN (R 4.0.3)
- fansi         1.0.3   2022-03-24 [1] CRAN (R 4.0.3)
- farver        2.1.1   2022-07-06 [1] CRAN (R 4.0.3)
- fastmap       1.1.0   2021-01-25 [2] CRAN (R 4.0.3)
- forcats     * 0.5.1   2021-01-27 [2] CRAN (R 4.0.3)
- fs            1.5.2   2021-12-08 [1] CRAN (R 4.0.3)
- generics      0.1.3   2022-07-05 [1] CRAN (R 4.0.3)
- ggfittext     0.9.1   2021-01-30 [1] CRAN (R 4.0.3)
- ggplot2     * 3.3.6   2022-05-03 [1] CRAN (R 4.0.3)
- ggpubr        0.4.0   2020-06-27 [1] CRAN (R 4.0.3)
- ggsignif      0.6.3   2021-09-09 [1] CRAN (R 4.0.3)
- glue          1.6.2   2022-02-24 [1] CRAN (R 4.0.3)
- gtable        0.3.1   2022-09-01 [1] CRAN (R 4.0.3)
- haven         2.5.1   2022-08-22 [1] CRAN (R 4.0.3)
- hms           1.1.2   2022-08-19 [1] CRAN (R 4.0.3)
- httr          1.4.4   2022-08-17 [1] CRAN (R 4.0.3)
- jsonlite      1.8.1   2022-10-01 [1] CRAN (R 4.0.3)
- labeling      0.4.2   2020-10-20 [2] CRAN (R 4.0.3)
- lifecycle     1.0.2   2022-09-09 [1] CRAN (R 4.0.3)
- lubridate     1.8.0   2021-10-07 [1] CRAN (R 4.0.3)
- magrittr      2.0.3   2022-03-30 [1] CRAN (R 4.0.3)
- memoise       2.0.1   2021-11-26 [1] CRAN (R 4.0.3)
- modelr        0.1.8   2020-05-19 [2] CRAN (R 4.0.3)
- munsell       0.5.0   2018-06-12 [2] CRAN (R 4.0.3)
- pillar        1.8.1   2022-08-19 [1] CRAN (R 4.0.3)
- pkgconfig     2.0.3   2019-09-22 [2] CRAN (R 4.0.3)
- purrr       * 0.3.4   2020-04-17 [2] CRAN (R 4.0.3)
- R6            2.5.1   2021-08-19 [1] CRAN (R 4.0.3)
- Rcpp          1.0.9   2022-07-08 [1] CRAN (R 4.0.3)
- readr       * 2.1.3   2022-10-01 [1] CRAN (R 4.0.3)
- readxl        1.3.1   2019-03-13 [2] CRAN (R 4.0.3)
- reprex        2.0.1   2021-08-05 [1] CRAN (R 4.0.3)
- rlang         1.0.5   2022-08-31 [1] CRAN (R 4.0.3)
- rstatix       0.7.0   2021-02-13 [1] CRAN (R 4.0.3)
- rstudioapi    0.14    2022-08-22 [1] CRAN (R 4.0.3)
- rvest         1.0.2   2021-10-16 [1] CRAN (R 4.0.3)
- scales        1.2.1   2022-08-20 [1] CRAN (R 4.0.3)
- sessioninfo   1.2.2   2021-12-06 [1] CRAN (R 4.0.3)
- shades        1.4.0   2019-08-02 [1] CRAN (R 4.0.3)
- stringi       1.7.8   2022-07-11 [1] CRAN (R 4.0.3)
- stringr     * 1.4.1   2022-08-20 [1] CRAN (R 4.0.3)
- svglite       2.1.0   2022-02-03 [1] CRAN (R 4.0.3)
- systemfonts   1.0.4   2022-02-11 [1] CRAN (R 4.0.3)
- tibble      * 3.1.8   2022-07-22 [1] CRAN (R 4.0.3)
- tidyr       * 1.2.1   2022-09-08 [1] CRAN (R 4.0.3)
- tidyselect    1.1.2   2022-02-21 [1] CRAN (R 4.0.3)
- tidyverse   * 1.3.1   2021-04-15 [1] CRAN (R 4.0.3)
- tzdb          0.3.0   2022-03-28 [1] CRAN (R 4.0.3)
- utf8          1.2.2   2021-07-24 [1] CRAN (R 4.0.3)
- vctrs         0.4.2   2022-09-29 [1] CRAN (R 4.0.3)
- withr         2.5.0   2022-03-03 [1] CRAN (R 4.0.3)
- xml2          1.3.3   2021-11-30 [1] CRAN (R 4.0.3)
+ package       * version date (UTC) lib source
+ abind           1.4-5   2016-07-21 [1] CRAN (R 4.0.3)
+ assertthat      0.2.1   2019-03-21 [2] CRAN (R 4.0.3)
+ backports       1.4.1   2021-12-13 [1] CRAN (R 4.0.3)
+ broom           1.0.1   2022-08-29 [1] CRAN (R 4.0.3)
+ cachem          1.0.6   2021-08-19 [1] CRAN (R 4.0.3)
+ car             3.1-1   2022-10-19 [1] CRAN (R 4.0.3)
+ carData         3.0-5   2022-01-06 [1] CRAN (R 4.0.3)
+ cellranger      1.1.0   2016-07-27 [2] CRAN (R 4.0.3)
+ cli             3.4.1   2022-09-23 [1] CRAN (R 4.0.3)
+ colorspace      2.0-3   2022-02-21 [1] CRAN (R 4.0.3)
+ crayon          1.5.2   2022-09-29 [1] CRAN (R 4.0.3)
+ data.table      1.14.0  2021-02-21 [2] CRAN (R 4.0.3)
+ DBI             1.1.1   2021-01-15 [2] CRAN (R 4.0.3)
+ dbplyr          2.2.1   2022-06-27 [1] CRAN (R 4.0.3)
+ dplyr         * 1.0.10  2022-09-01 [1] CRAN (R 4.0.3)
+ ellipsis        0.3.2   2021-04-29 [1] CRAN (R 4.0.3)
+ fansi           1.0.3   2022-03-24 [1] CRAN (R 4.0.3)
+ farver          2.1.1   2022-07-06 [1] CRAN (R 4.0.3)
+ fastmap         1.1.0   2021-01-25 [2] CRAN (R 4.0.3)
+ forcats       * 0.5.1   2021-01-27 [2] CRAN (R 4.0.3)
+ fs              1.5.2   2021-12-08 [1] CRAN (R 4.0.3)
+ gargle          1.2.1   2022-09-08 [1] CRAN (R 4.0.3)
+ generics        0.1.3   2022-07-05 [1] CRAN (R 4.0.3)
+ ggfittext       0.9.1   2021-01-30 [1] CRAN (R 4.0.3)
+ ggplot2       * 3.4.0   2022-11-04 [1] CRAN (R 4.0.3)
+ ggpubr          0.5.0   2022-11-16 [1] CRAN (R 4.0.3)
+ ggsignif        0.6.4   2022-10-13 [1] CRAN (R 4.0.3)
+ glue            1.6.2   2022-02-24 [1] CRAN (R 4.0.3)
+ googledrive     2.0.0   2021-07-08 [1] CRAN (R 4.0.3)
+ googlesheets4   1.0.1   2022-08-13 [1] CRAN (R 4.0.3)
+ gtable          0.3.1   2022-09-01 [1] CRAN (R 4.0.3)
+ haven           2.5.1   2022-08-22 [1] CRAN (R 4.0.3)
+ hms             1.1.2   2022-08-19 [1] CRAN (R 4.0.3)
+ httr            1.4.4   2022-08-17 [1] CRAN (R 4.0.3)
+ jsonlite        1.8.3   2022-10-21 [1] CRAN (R 4.0.3)
+ labeling        0.4.2   2020-10-20 [2] CRAN (R 4.0.3)
+ lifecycle       1.0.3   2022-10-07 [1] CRAN (R 4.0.3)
+ lubridate       1.9.0   2022-11-06 [1] CRAN (R 4.0.3)
+ magrittr        2.0.3   2022-03-30 [1] CRAN (R 4.0.3)
+ memoise         2.0.1   2021-11-26 [1] CRAN (R 4.0.3)
+ modelr          0.1.8   2020-05-19 [2] CRAN (R 4.0.3)
+ munsell         0.5.0   2018-06-12 [2] CRAN (R 4.0.3)
+ pillar          1.8.1   2022-08-19 [1] CRAN (R 4.0.3)
+ pkgconfig       2.0.3   2019-09-22 [2] CRAN (R 4.0.3)
+ purrr         * 0.3.4   2020-04-17 [2] CRAN (R 4.0.3)
+ R6              2.5.1   2021-08-19 [1] CRAN (R 4.0.3)
+ Rcpp            1.0.9   2022-07-08 [1] CRAN (R 4.0.3)
+ readr         * 2.1.3   2022-10-01 [1] CRAN (R 4.0.3)
+ readxl          1.3.1   2019-03-13 [2] CRAN (R 4.0.3)
+ reprex          2.0.2   2022-08-17 [1] CRAN (R 4.0.3)
+ rlang           1.0.6   2022-09-24 [1] CRAN (R 4.0.3)
+ rstatix         0.7.1   2022-11-09 [1] CRAN (R 4.0.3)
+ rvest           1.0.3   2022-08-19 [1] CRAN (R 4.0.3)
+ scales          1.2.1   2022-08-20 [1] CRAN (R 4.0.3)
+ sessioninfo     1.2.2   2021-12-06 [1] CRAN (R 4.0.3)
+ shades          1.4.0   2019-08-02 [1] CRAN (R 4.0.3)
+ stringi         1.7.8   2022-07-11 [1] CRAN (R 4.0.3)
+ stringr       * 1.4.1   2022-08-20 [1] CRAN (R 4.0.3)
+ svglite         2.1.0   2022-02-03 [1] CRAN (R 4.0.3)
+ systemfonts     1.0.4   2022-02-11 [1] CRAN (R 4.0.3)
+ tibble        * 3.1.8   2022-07-22 [1] CRAN (R 4.0.3)
+ tidyr         * 1.2.1   2022-09-08 [1] CRAN (R 4.0.3)
+ tidyselect      1.2.0   2022-10-10 [1] CRAN (R 4.0.3)
+ tidyverse     * 1.3.2   2022-07-18 [1] CRAN (R 4.0.3)
+ timechange      0.1.1   2022-11-04 [1] CRAN (R 4.0.3)
+ tzdb            0.3.0   2022-03-28 [1] CRAN (R 4.0.3)
+ utf8            1.2.2   2021-07-24 [1] CRAN (R 4.0.3)
+ vctrs           0.5.1   2022-11-16 [1] CRAN (R 4.0.3)
+ withr           2.5.0   2022-03-03 [1] CRAN (R 4.0.3)
+ xml2            1.3.3   2021-11-30 [1] CRAN (R 4.0.3)
 
  [1] /users/jbenjami/R/x86_64-pc-linux-gnu-library/4.0
  [2] /jhpce/shared/jhpce/core/R/4.0.3/lib64/R/library
 
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 **** Job ends ****
-2022-11-02T13:51:35-0400
+2023-01-03T12:48:29-0500
