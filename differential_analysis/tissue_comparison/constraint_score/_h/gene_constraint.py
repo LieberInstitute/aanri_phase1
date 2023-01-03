@@ -14,7 +14,7 @@ def load_constraint():
     fn = here("input/database/_m/gnomad/",
               "gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz")
     return pd.read_csv(fn, sep="\t", compression="gzip")\
-             .loc[:, ["gene", "oe_lof_upper", "oe_lof_upper_bin", "p"]]\
+             .loc[:, ["gene", "pLI", "oe_lof_upper", "oe_lof_upper_bin", "p"]]\
              .dropna()
 
 
@@ -66,7 +66,7 @@ def merge_data(tissue):
     return df
 
 
-def cal_fishers(dfx, binx):
+def old_cal_fishers(dfx, binx):
     """
     This function preforms enrichment examining constrained (<5) versus
     non-constrained (>5) using the LOEUF upper bound bins.
@@ -75,10 +75,27 @@ def cal_fishers(dfx, binx):
     Enrichment (OR > 1): DEGs are within more constrained genes.
     """
     ## Low values indicate more constrained
-    table = [[sum((dfx["lfsr"]<0.05) & ((dfx["oe_lof_upper_bin"]<binx))),
-              sum((dfx["lfsr"]<0.05) & ((dfx["oe_lof_upper_bin"]>=binx)))],
-             [sum((dfx["lfsr"]>=0.05) & ((dfx["oe_lof_upper_bin"]<binx))),
-              sum((dfx["lfsr"]>=0.05) & ((dfx["oe_lof_upper_bin"]>=binx)))]]
+    table = [[sum((dfx["lfsr"]<0.05) & ((dfx["oe_lof_upper_bin"]==binx))),
+              sum((dfx["lfsr"]<0.05) & ((dfx["oe_lof_upper_bin"]!=binx)))],
+             [sum((dfx["lfsr"]>=0.05) & ((dfx["oe_lof_upper_bin"]==binx))),
+              sum((dfx["lfsr"]>=0.05) & ((dfx["oe_lof_upper_bin"]!=binx)))]]
+    #print(table)
+    return fisher_exact(table)
+
+
+def cal_fishers(dfx):
+    """
+    This function preforms enrichment examining constrained (<5) versus
+    non-constrained (>5) using the LOEUF upper bound bins.
+
+    Depletion  (OR < 1): DEGs are within less constrained genes.
+    Enrichment (OR > 1): DEGs are within more constrained genes.
+    """
+    ## High values (>.9) indicate more constrained
+    table = [[sum((dfx["lfsr"]<0.05) & ((dfx["pLI"]<0.9))),
+              sum((dfx["lfsr"]<0.05) & ((dfx["pLI"]>=0.9)))],
+             [sum((dfx["lfsr"]>=0.05) & ((dfx["pLI"]<0.9))),
+              sum((dfx["lfsr"]>=0.05) & ((dfx["pLI"]>=0.9)))]]
     #print(table)
     return fisher_exact(table)
 
@@ -96,14 +113,14 @@ def constraint_comparison():
             print("Pearson corr: rho > %.3f, p-value < %.1e" % (rho, pval2), file=f)        
 
 
-def enrichment_analysis():
+def old_enrichment_analysis():
     ## Enrichment analysis
     dt = pd.DataFrame(); dft = pd.DataFrame()
     for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
         df = merge_data(tissue)
         tissue_lt = []; oddratio = []; pvalues = []; bins = []
-        for upper_bin in range(1,9):
-            odds, pval = cal_fishers(df, upper_bin)
+        for upper_bin in range(0,10):
+            odds, pval = old_cal_fishers(df, upper_bin)
             bins.append(upper_bin); oddratio.append(odds)
             pvalues.append(pval); tissue_lt.append(tissue)
         fdr = fdrcorrection(pvalues)[1]
@@ -114,9 +131,27 @@ def enrichment_analysis():
     return dt, dft
 
 
+def enrichment_analysis():
+    ## Enrichment analysis
+    dft = pd.DataFrame(); tissue_lt = []; oddratio = []; pvalues = []
+    for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
+        df = merge_data(tissue)
+        odds, pval = cal_fishers(df)
+        oddratio.append(odds)
+        pvalues.append(pval)
+        tissue_lt.append(tissue)
+        dft = pd.concat([dft, df])
+    fdr = fdrcorrection(pvalues)[1]
+    dt = pd.DataFrame({"Tissue": tissue_lt, "Odds_Ratio": oddratio,
+                       "P_value": pvalues, "FDR": fdr})
+    return dt, dft
+
+
 def main():
     dt, dft = enrichment_analysis()
-    dt.to_csv("constrain_enrichment.tsv", sep='\t', index=False)
+    dx, _ = old_enrichment_analysis()
+    dt.to_csv("constrain_enrichment_pLI.tsv", sep='\t', index=False)
+    dx.to_csv("constrain_enrichment.tsv", sep='\t', index=False)
     dft.to_csv("brainseq_degs_constrain_score.tsv", sep='\t', index=False)
     ## Additional statistics
     constraint_comparison()

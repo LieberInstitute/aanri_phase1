@@ -4,26 +4,28 @@ ancestry-related DEGs.
 """
 import numpy as np
 import pandas as pd
+from pyhere import here
 from functools import lru_cache
 from statsmodels.stats.multitest import fdrcorrection
 from scipy.stats import fisher_exact, ttest_ind, pearsonr
 
 @lru_cache()
 def load_constraint():
-    fn = "../../../../input/database/_m/gnomad/gnomad.v2.1.1.lof_metrics.by_transcript.txt.bgz"
+    fn = here("input/database/_m/gnomad/",
+              "gnomad.v2.1.1.lof_metrics.by_transcript.txt.bgz")
     return pd.read_csv(fn, sep="\t", compression="gzip")\
-             .loc[:, ["gene", "transcript", "canonical", "oe_lof_upper", "oe_lof_upper_bin", "p"]]\
+             .loc[:, ["gene", "transcript", "canonical", "pLI", "oe_lof_upper",
+                      "oe_lof_upper_bin", "p"]]\
              .dropna()
 
 
 @lru_cache()
 def get_annotation(feature="transcripts"):
-    base_loc = "/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input/text_files_counts/"
     config = {
-        "genes": "%s/_m/caudate/gene_annotation.tsv" % base_loc,
-        "transcripts": "%s/_m/caudate/tx_annotation.tsv" % base_loc,
-        "exons": "%s/_m/caudate/exon_annotation.tsv" % base_loc,
-        "junctions": "%s/_m/caudate/jxn_annotation.tsv" % base_loc,
+        "genes": here("input/text_files_counts/_m/caudate/gene_annotation.tsv"),
+        "transcripts": here("input/text_files_counts/_m/caudate/tx_annotation.tsv"),
+        "exons": here("input/text_files_counts/_m/caudate/exon_annotation.tsv"),
+        "junctions": here("input/text_files_counts/_m/caudate/jxn_annotation.tsv"),
     }
     return pd.read_csv(config[feature], sep='\t')
 
@@ -66,19 +68,36 @@ def merge_data(tissue):
     return df
 
 
-def cal_fishers(dfx, binx):
+def old_cal_fishers(dfx, binx):
     """
     This function preforms enrichment examining constrained (<5) versus
     non-constrained (>5) using the LOEUF upper bound bins.
 
-    Depletion  (OR < 1): DEGs are within less constrained transcripts.
-    Enrichment (OR > 1): DEGs are within more constrained transcripts.
+    Depletion  (OR < 1): DEGs are within less constrained genes.
+    Enrichment (OR > 1): DEGs are within more constrained genes.
     """
     ## Low values indicate more constrained
-    table = [[sum((dfx["lfsr"]<0.05) & ((dfx["oe_lof_upper_bin"]<binx))),
-              sum((dfx["lfsr"]<0.05) & ((dfx["oe_lof_upper_bin"]>=binx)))],
-             [sum((dfx["lfsr"]>=0.05) & ((dfx["oe_lof_upper_bin"]<binx))),
-              sum((dfx["lfsr"]>=0.05) & ((dfx["oe_lof_upper_bin"]>=binx)))]]
+    table = [[sum((dfx["lfsr"]<0.05) & ((dfx["oe_lof_upper_bin"]==binx))),
+              sum((dfx["lfsr"]<0.05) & ((dfx["oe_lof_upper_bin"]!=binx)))],
+             [sum((dfx["lfsr"]>=0.05) & ((dfx["oe_lof_upper_bin"]==binx))),
+              sum((dfx["lfsr"]>=0.05) & ((dfx["oe_lof_upper_bin"]!=binx)))]]
+    #print(table)
+    return fisher_exact(table)
+
+
+def cal_fishers(dfx):
+    """
+    This function preforms enrichment examining constrained (<5) versus
+    non-constrained (>5) using the LOEUF upper bound bins.
+
+    Depletion  (OR < 1): DEGs are within less constrained genes.
+    Enrichment (OR > 1): DEGs are within more constrained genes.
+    """
+    ## High values (>.9) indicate more constrained
+    table = [[sum((dfx["lfsr"]<0.05) & ((dfx["pLI"]<0.9))),
+              sum((dfx["lfsr"]<0.05) & ((dfx["pLI"]>=0.9)))],
+             [sum((dfx["lfsr"]>=0.05) & ((dfx["pLI"]<0.9))),
+              sum((dfx["lfsr"]>=0.05) & ((dfx["pLI"]>=0.9)))]]
     #print(table)
     return fisher_exact(table)
 
@@ -96,7 +115,7 @@ def constraint_comparison():
             print("Pearson corr: rho > %.3f, p-value < %.1e" % (rho, pval2), file=f)        
 
 
-def enrichment_analysis():
+def old_enrichment_analysis():
     ## Enrichment analysis
     dt = pd.DataFrame(); dft = pd.DataFrame()
     for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
@@ -105,11 +124,11 @@ def enrichment_analysis():
         for canon_tx in [True, False, 'All']:
             for upper_bin in range(1,9):
                 if canon_tx == "All":
-                    odds, pval = cal_fishers(df, upper_bin)
+                    odds, pval = old_cal_fishers(df, upper_bin)
                 elif canon_tx:
-                    odds, pval = cal_fishers(df[(df["canonical"])], upper_bin)
+                    odds, pval = old_cal_fishers(df[(df["canonical"])], upper_bin)
                 else:
-                    odds, pval = cal_fishers(df[~(df["canonical"])], upper_bin)
+                    odds, pval = old_cal_fishers(df[~(df["canonical"])], upper_bin)
                 bins.append(upper_bin); oddratio.append(odds)
                 pvalues.append(pval); tissue_lt.append(tissue)
                 canonical.append(canon_tx);
@@ -121,9 +140,34 @@ def enrichment_analysis():
     return dt, dft
 
 
+def enrichment_analysis():
+    ## Enrichment analysis
+    dt = pd.DataFrame(); dft = pd.DataFrame()
+    for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
+        df = merge_data(tissue)
+        tissue_lt = []; oddratio = []; pvalues = []; canonical = [];
+        for canon_tx in [True, False, 'All']:
+            if canon_tx == "All":
+                odds, pval = cal_fishers(df)
+            elif canon_tx:
+                odds, pval = cal_fishers(df[(df["canonical"])])
+            else:
+                odds, pval = cal_fishers(df[~(df["canonical"])])
+            canonical.append(canon_tx); oddratio.append(odds)
+            pvalues.append(pval); tissue_lt.append(tissue)
+        fdr = fdrcorrection(pvalues)[1]
+        dt = pd.concat([dt, pd.DataFrame({"Tissue": tissue_lt, "Canonical": canonical,
+                                          "Odds_Ratio": oddratio,
+                                          "P_value": pvalues, "FDR": fdr})])
+        dft = pd.concat([dft, df])
+    return dt, dft
+
+
 def main():
     dt, dft = enrichment_analysis()
-    dt.to_csv("constrain_enrichment_tx.tsv", sep='\t', index=False)
+    dx, _ = old_enrichment_analysis()
+    dt.to_csv("constrain_enrichment_pLI_tx.tsv", sep='\t', index=False)
+    dx.to_csv("constrain_enrichment_tx.tsv", sep='\t', index=False)
     dft.to_csv("brainseq_degs_constrain_score_tx.tsv", sep='\t', index=False)
     ## Additional statistics
     constraint_comparison()
