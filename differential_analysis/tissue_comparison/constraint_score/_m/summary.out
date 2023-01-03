@@ -1,10 +1,10 @@
 **** Job starts ****
-Tue Jan  3 12:46:48 EST 2023
+Tue Jan  3 14:58:11 EST 2023
 **** JHPCE info ****
 User: jbenjami
-Job id: 1386813
+Job id: 1390391
 Job name: gene_constrain
-Hostname: compute-119.cm.cluster
+Hostname: compute-151.cm.cluster
 
 The following have been reloaded with a version change:
   1) gcc/4.4.7 => gcc/9.1.0
@@ -25,9 +25,9 @@ WARNING: ignoring environment value of R_HOME
 `geom_smooth()` using formula = 'y ~ x'
 `geom_smooth()` using formula = 'y ~ x'
 `geom_smooth()` using formula = 'y ~ x'
-[1] "2023-01-03 12:47:43 EST"
+[1] "2023-01-03 14:59:07 EST"
    user  system elapsed 
- 21.196   0.586  30.003 
+ 20.619   0.498  29.490 
 ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.0.3 (2020-10-10)
@@ -93,14 +93,14 @@ WARNING: ignoring environment value of R_HOME
 
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 **** Job ends ****
-Tue Jan  3 12:47:45 EST 2023
+Tue Jan  3 14:59:09 EST 2023
 **** Job starts ****
-2023-01-03T12:48:18-0500
+2023-01-03T14:59:21-0500
 **** JHPCE info ****
 User: jbenjami
-Job id: 1386819
+Job id: 1390392
 Job name: plot_enrichment
-Hostname: compute-119.cm.cluster
+Hostname: compute-151.cm.cluster
 
 The following have been reloaded with a version change:
   1) gcc/4.4.7 => gcc/9.1.0
@@ -116,9 +116,9 @@ Currently Loaded Modules:
 
 **** Plot enrichment results ****
 WARNING: ignoring environment value of R_HOME
-[1] "2023-01-03 12:48:28 EST"
+[1] "2023-01-03 14:59:31 EST"
    user  system elapsed 
-  3.255   0.256  10.044 
+  3.126   0.185   9.773 
 ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.0.3 (2020-10-10)
@@ -210,4 +210,4 @@ WARNING: ignoring environment value of R_HOME
 
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 **** Job ends ****
-2023-01-03T12:48:29-0500
+2023-01-03T14:59:32-0500

@@ -122,7 +122,7 @@ def old_enrichment_analysis():
         df = merge_data(tissue)
         tissue_lt = []; oddratio = []; pvalues = []; bins = []; canonical = [];
         for canon_tx in [True, False, 'All']:
-            for upper_bin in range(1,9):
+            for upper_bin in range(0,10):
                 if canon_tx == "All":
                     odds, pval = old_cal_fishers(df, upper_bin)
                 elif canon_tx:
