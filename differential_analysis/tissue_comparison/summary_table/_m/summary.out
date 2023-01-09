@@ -1,10 +1,10 @@
 **** Job starts ****
-2022-07-21T10:09:46-0400
+2023-01-09T12:42:13-0500
 **** JHPCE info ****
 User: jbenjami
-Job id: 1457609
+Job id: 1724633
 Job name: summarize_degs
-Hostname: compute-124.cm.cluster
+Hostname: compute-119.cm.cluster
 
 Currently Loaded Modules:
   1) matlab/R2019a     6) COMMUNITY_CENTOS7_DEFAULT_ENV
@@ -16,5 +16,52 @@ Currently Loaded Modules:
  
 
 **** Run summarize results ****
+/users/jbenjami/.local/lib/python3.7/site-packages/gtfparse/read_gtf.py:154: FutureWarning: The error_bad_lines argument has been deprecated and will be removed in a future version.
+
+
+  features=features)
+/users/jbenjami/.local/lib/python3.7/site-packages/gtfparse/read_gtf.py:154: FutureWarning: The warn_bad_lines argument has been deprecated and will be removed in a future version.
+
+
+  features=features)
+INFO:root:Extracted GTF attributes: ['gene_id', 'gene_type', 'gene_status', 'gene_name', 'level', 'havana_gene', 'transcript_id', 'transcript_type', 'transcript_status', 'transcript_name', 'transcript_support_level', 'tag', 'havana_transcript', 'exon_number', 'exon_id', 'ont', 'protein_id', 'ccdsid']
+
+Summary:
+(2570, 11)
+gene_type
+3prime_overlapping_ncRNA                 1
+Mt_tRNA                                  2
+TEC                                     79
+TR_V_pseudogene                          1
+antisense                              229
+lincRNA                                273
+macro_lncRNA                             1
+miRNA                                    9
+misc_RNA                                11
+polymorphic_pseudogene                   2
+processed_pseudogene                   166
+processed_transcript                    49
+protein_coding                        1437
+scRNA                                    1
+scaRNA                                   2
+sense_intronic                          85
+sense_overlapping                       14
+snRNA                                   13
+snoRNA                                  29
+transcribed_processed_pseudogene        30
+transcribed_unitary_pseudogene           1
+transcribed_unprocessed_pseudogene      78
+unitary_pseudogene                       5
+unprocessed_pseudogene                  52
+dtype: int64
+-----
+gtfparse            1.2.1
+pandas              1.3.5
+session_info        1.0.0
+-----
+Python 3.7.3 (default, Sep  6 2019, 16:02:24) [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Linux-3.10.0-1160.el7.x86_64-x86_64-with-centos-7.9.2009-Core
+-----
+Session information updated at 2023-01-09 12:45
 **** Job ends ****
-2022-07-21T10:10:43-0400
+2023-01-09T12:45:33-0500

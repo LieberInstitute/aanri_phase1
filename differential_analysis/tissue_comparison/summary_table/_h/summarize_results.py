@@ -2,8 +2,21 @@
 This script summarized DE results using mash model.
 """
 import pandas as pd
+import session_info
+from gtfparse import read_gtf
 from functools import lru_cache
 
+@lru_cache()
+def get_gtf():
+    gtf_file = "/dcl02/lieber/apaquola/genome/human/gencode25/gtf.CHR/"+\
+        "_m/gencode.v25.annotation.gtf"
+    return read_gtf(gtf_file)
+
+
+def gene_annotation():
+    gtf = get_gtf()[get_gtf()["feature"] == "transcript"]
+    return gtf[["transcript_id", "gene_id", "gene_name", "gene_type",
+                "seqname", "start", "end", "strand"]]
 
 @lru_cache()
 def get_mash_degs(feature, tissue, fdr):
@@ -44,11 +57,23 @@ def annotate_degs(feature, tissue, fdr):
 
 @lru_cache()
 def extract_features(tissue, fdr):
+    # Gene annotation
+    gtf_annot = gene_annotation()
+    annot_gene = gtf_annot.loc[:, ["gene_id", "gene_type"]].drop_duplicates()
+    annot_tx   = gtf_annot.loc[:, ["transcript_id", "gene_type"]]
     # Extract DE from mash model
-    genes = annotate_degs("genes", tissue, fdr)
-    trans = annotate_degs("transcripts", tissue, fdr)
-    exons = annotate_degs("exons", tissue, fdr)
-    juncs = annotate_degs("junctions", tissue, fdr)
+    genes = annotate_degs("genes", tissue, fdr)\
+        .merge(annot_gene, left_on="gencodeID", right_on="gene_id", how="left")\
+        .drop("gene_id", axis=1)
+    trans = annotate_degs("transcripts", tissue, fdr)\
+        .merge(annot_tx, left_on="Effect", right_on="transcript_id", how="left")\
+        .drop("transcript_id", axis=1)
+    exons = annotate_degs("exons", tissue, fdr)\
+        .merge(annot_gene, left_on="gencodeID", right_on="gene_id", how="left")\
+        .drop("gene_id", axis=1)
+    juncs = annotate_degs("junctions", tissue, fdr)\
+        .merge(annot_gene, left_on="gencodeID", right_on="gene_id", how="left")\
+        .drop("gene_id", axis=1)
     return genes, trans, exons, juncs
 
 
@@ -92,6 +117,16 @@ def main():
         data2 = get_DEGs_result_by_tissue(tissue, 1)
         bigdata1.append(data1); bigdata2.append(data2)
     df1 = pd.concat(bigdata1); df2 = pd.concat(bigdata2)
+    # Summary
+    with open("effect_sizes.log", mode="w") as f:
+        print("Effect size:", file=f)
+        print(df1.loc[:, ["Tissue", "Type", "posterior_mean"]]\
+              .groupby(["Tissue", "Type"]).describe().to_string(), file=f)
+    print("\nSummary:")
+    gene = df1[(df1["Type"] == "Gene")].drop_duplicates(subset="gencodeID")
+    print(gene.shape)
+    print(gene.groupby("gene_type").size())
+    # Output
     cols = ["Tissue", "Effect", "gencodeID", "Symbol", "seqnames", "start", "end",
             "lfsr", "posterior_mean", "Type"]
     df1.sort_values(["Tissue", "Type", "lfsr", "posterior_mean"]).loc[:, cols]\
@@ -99,6 +134,8 @@ def main():
     df2.sort_values(["Tissue", "Type", "lfsr", "posterior_mean"]).loc[:, cols]\
        .to_csv("BrainSeq_ancestry_4features_4regions_allFeatures.txt.gz",
                sep='\t', index=False)
+    # Session infomation
+    session_info.show()
 
 
 if __name__ == "__main__":
