@@ -1,12 +1,36 @@
-Caudate vs NI_fdr:	  Odds Ratio > 2.206, p-value < 7.9e-10
-Caudate vs L_fdr:	  Odds Ratio > 1.971, p-value < 2.2e-06
-Caudate vs S_fdr:	  Odds Ratio > 1.201, p-value < 8.2e-02
-Dentate.Gyrus vs NI_fdr:	  Odds Ratio > 1.629, p-value < 2.5e-04
-Dentate.Gyrus vs L_fdr:	  Odds Ratio > 1.645, p-value < 6.7e-04
-Dentate.Gyrus vs S_fdr:	  Odds Ratio > 1.204, p-value < 8.0e-02
-DLPFC vs NI_fdr:	  Odds Ratio > 2.100, p-value < 1.3e-07
-DLPFC vs L_fdr:	  Odds Ratio > 1.976, p-value < 1.1e-05
-DLPFC vs S_fdr:	  Odds Ratio > 1.363, p-value < 1.3e-02
-Hippocampus vs NI_fdr:	  Odds Ratio > 1.916, p-value < 4.7e-06
-Hippocampus vs L_fdr:	  Odds Ratio > 1.932, p-value < 2.3e-05
-Hippocampus vs S_fdr:	  Odds Ratio > 1.180, p-value < 1.3e-01
+Up:	Caudate vs NI_fdr:	Odds Ratio > 2.191, p-value < 3.2e-05
+Down:	Caudate vs NI_fdr:	Odds Ratio > 2.217, p-value < 8.3e-06
+All:	Caudate vs NI_fdr:	Odds Ratio > 2.206, p-value < 1.1e-09
+Up:	Caudate vs L_fdr:	Odds Ratio > 2.715, p-value < 3.4e-07
+Down:	Caudate vs L_fdr:	Odds Ratio > 1.353, p-value < 1.9e-01
+All:	Caudate vs L_fdr:	Odds Ratio > 1.971, p-value < 3.4e-06
+Up:	Caudate vs S_fdr:	Odds Ratio > 1.489, p-value < 2.4e-02
+Down:	Caudate vs S_fdr:	Odds Ratio > 0.957, p-value < 8.5e-01
+All:	Caudate vs S_fdr:	Odds Ratio > 1.201, p-value < 1.5e-01
+Up:	Dentate.Gyrus vs NI_fdr:	Odds Ratio > 1.442, p-value < 4.8e-02
+Down:	Dentate.Gyrus vs NI_fdr:	Odds Ratio > 1.913, p-value < 2.2e-03
+All:	Dentate.Gyrus vs NI_fdr:	Odds Ratio > 1.629, p-value < 4.1e-04
+Up:	Dentate.Gyrus vs L_fdr:	Odds Ratio > 1.411, p-value < 8.1e-02
+Down:	Dentate.Gyrus vs L_fdr:	Odds Ratio > 1.986, p-value < 3.5e-03
+All:	Dentate.Gyrus vs L_fdr:	Odds Ratio > 1.645, p-value < 1.1e-03
+Up:	Dentate.Gyrus vs S_fdr:	Odds Ratio > 1.156, p-value < 4.0e-01
+Down:	Dentate.Gyrus vs S_fdr:	Odds Ratio > 1.242, p-value < 2.9e-01
+All:	Dentate.Gyrus vs S_fdr:	Odds Ratio > 1.204, p-value < 1.5e-01
+Up:	DLPFC vs NI_fdr:	Odds Ratio > 2.128, p-value < 4.9e-05
+Down:	DLPFC vs NI_fdr:	Odds Ratio > 2.022, p-value < 1.3e-03
+All:	DLPFC vs NI_fdr:	Odds Ratio > 2.100, p-value < 2.0e-07
+Up:	DLPFC vs L_fdr:	Odds Ratio > 2.101, p-value < 2.6e-04
+Down:	DLPFC vs L_fdr:	Odds Ratio > 1.745, p-value < 2.9e-02
+All:	DLPFC vs L_fdr:	Odds Ratio > 1.976, p-value < 1.6e-05
+Up:	DLPFC vs S_fdr:	Odds Ratio > 1.382, p-value < 7.5e-02
+Down:	DLPFC vs S_fdr:	Odds Ratio > 1.297, p-value < 2.2e-01
+All:	DLPFC vs S_fdr:	Odds Ratio > 1.363, p-value < 2.2e-02
+Up:	Hippocampus vs NI_fdr:	Odds Ratio > 1.932, p-value < 4.1e-04
+Down:	Hippocampus vs NI_fdr:	Odds Ratio > 1.875, p-value < 7.5e-03
+All:	Hippocampus vs NI_fdr:	Odds Ratio > 1.916, p-value < 6.5e-06
+Up:	Hippocampus vs L_fdr:	Odds Ratio > 2.189, p-value < 8.6e-05
+Down:	Hippocampus vs L_fdr:	Odds Ratio > 1.502, p-value < 1.3e-01
+All:	Hippocampus vs L_fdr:	Odds Ratio > 1.932, p-value < 3.8e-05
+Up:	Hippocampus vs S_fdr:	Odds Ratio > 1.255, p-value < 2.0e-01
+Down:	Hippocampus vs S_fdr:	Odds Ratio > 1.038, p-value < 8.2e-01
+All:	Hippocampus vs S_fdr:	Odds Ratio > 1.180, p-value < 2.2e-01

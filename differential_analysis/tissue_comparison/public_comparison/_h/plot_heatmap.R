@@ -23,7 +23,9 @@ gen_data <- function(){
                `log2(OR)` = log2(OR+err),
                p.fdr.cat=cut(FDR, breaks=c(1,0.05,0.01,0.005,0),
                              labels=c("<= 0.005","<= 0.01","<= 0.05","> 0.05"),
-                             include.lowest=TRUE))
+                             include.lowest=TRUE)) %>%
+        mutate(across(Direction, factor, levels=c("All", "Down", "Up")))
+    levels(dt$Direction) <- c("All", "Upregulated in AA", "Downregulated in AA")
     return(dt)
 }
 memDF <- memoise::memoise(gen_data)
@@ -33,25 +35,26 @@ plot_tile <- function(){
     tile_plot <- memDF() %>%
         mutate(Conditions = factor(Conditions,
                                    levels=c("Non-infected", "Listeria", "Salmonella"))) %>%
-        ggplot(aes(x = Conditions, y = Tissue, fill = `log2(OR)`,
+        ggplot(aes(y = Conditions, x = Tissue, fill = `log2(OR)`,
                    label = ifelse(p.fdr.sig,
                                   format(round(`-log10(FDR)`,1), nsmall=1), ""))) +
-        ylab('Ancestry-Related DEGs') + xlab("Nédélec et al. pop-DE") + 
-        geom_tile(color = "grey") + ggfittext::geom_fit_text(contrast = TRUE) +
+        xlab('Ancestry-Related DEGs') + ylab("Nédélec et al. pop-DE") +
+        facet_grid(.~Direction) + geom_tile(color = "grey") +
+        ggfittext::geom_fit_text(contrast = TRUE) +
         scale_fill_gradientn(colors=c("blue", "white", "red"),
                              values=scales::rescale(c(-y1/2, 0, y1)),
                              limits=c(-y1/2,y1)) +
         ggpubr::theme_pubr(base_size = 20, border=FALSE) +
         theme(axis.text.x = element_text(angle = 45, hjust=1),
               legend.position="right",
-              axis.title=element_text(face="bold"),
+              axis.title=element_text(face="bold", size=24),
               strip.text = element_text(face="bold"))
     return(tile_plot)
 }
 
 ## MAIN
 tile_plot <- plot_tile()
-save_plot(tile_plot, "tileplot_enrichment_nedelec", 6.5, 4)
+save_plot(tile_plot, "tileplot_enrichment_nedelec", 12, 5)
 
 ## Reproducibility information
 Sys.time()
