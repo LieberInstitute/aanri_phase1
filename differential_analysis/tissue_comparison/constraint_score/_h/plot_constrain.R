@@ -35,11 +35,11 @@ plot_errplot <- function(feature){
                              tolower(feature)), 7, 7)
 }
 
-plot_corr <- function(feature){
+plot_corr <- function(feature, variable){
     ylabel = paste(feature, "Constrain (LOEUF)")
     xlabel = ifelse(tolower(feature) == "gene", "DEGs (lfsr)", "DE (lfsr)")
     corr <- load_data(feature) %>%
-        ggscatter(x="lfsr", y="oe_lof_upper", facet.by="Tissue",
+        ggscatter(x=variable, y="oe_lof_upper", facet.by="Tissue",
                   color="black", alpha=0.2, xlab=xlabel, ylab=ylabel,
                   add="reg.line", panel.labs.font=list(face="bold"),
                   add.params=list(color="blue", fill="lightgray"),
@@ -48,7 +48,8 @@ plot_corr <- function(feature){
                                       label.y=3, label.sep="\n"),
                   ggtheme=theme_pubr(base_size=15, border=TRUE), ncol=4) +
         font("xy.title", face="bold", size=20)
-    save_plot(corr, paste0("constrain_correlation_lfsr_",tolower(feature)), 16, 4)
+    fn = paste("constrain_correlation", variable, tolower(feature), sep="_")
+    save_plot(corr, fn, 16, 4)
 }
 
 plot_density <- function(feature, variable){
@@ -68,8 +69,10 @@ plot_density <- function(feature, variable){
 #### MAIN
 plot_errplot("Gene")
 plot_errplot("Transcript")
-plot_corr("Gene")
-plot_corr("Transcript")
+plot_corr("Gene", "lfsr")
+plot_corr("Gene", "beta")
+plot_corr("Transcript", "lfsr")
+plot_corr("Transcript", "beta")
 plot_density("Gene", "Constrained")
 plot_density("Gene", "oe_lof_upper_bin")
 plot_density("Transcript", "Constrained")

@@ -1,10 +1,10 @@
 **** Job starts ****
-Tue Jan  3 14:58:11 EST 2023
+Fri Jan  6 20:53:08 EST 2023
 **** JHPCE info ****
 User: jbenjami
-Job id: 1390391
+Job id: 1401692
 Job name: gene_constrain
-Hostname: compute-151.cm.cluster
+Hostname: compute-114.cm.cluster
 
 The following have been reloaded with a version change:
   1) gcc/4.4.7 => gcc/9.1.0
@@ -25,9 +25,13 @@ WARNING: ignoring environment value of R_HOME
 `geom_smooth()` using formula = 'y ~ x'
 `geom_smooth()` using formula = 'y ~ x'
 `geom_smooth()` using formula = 'y ~ x'
-[1] "2023-01-03 14:59:07 EST"
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+[1] "2023-01-06 20:54:54 EST"
    user  system elapsed 
- 20.619   0.498  29.490 
+ 43.090   1.311  69.700 
 ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.0.3 (2020-10-10)
@@ -38,7 +42,7 @@ WARNING: ignoring environment value of R_HOME
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       US/Eastern
- date     2023-01-03
+ date     2023-01-06
  pandoc   2.7.3 @ /jhpce/shared/jhpce/core/pandoc/2.7.3/bin/pandoc
 
 ─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -93,14 +97,14 @@ WARNING: ignoring environment value of R_HOME
 
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 **** Job ends ****
-Tue Jan  3 14:59:09 EST 2023
+Fri Jan  6 20:54:56 EST 2023
 **** Job starts ****
-2023-01-03T14:59:21-0500
+2023-01-06T20:55:08-0500
 **** JHPCE info ****
 User: jbenjami
-Job id: 1390392
+Job id: 1401693
 Job name: plot_enrichment
-Hostname: compute-151.cm.cluster
+Hostname: compute-114.cm.cluster
 
 The following have been reloaded with a version change:
   1) gcc/4.4.7 => gcc/9.1.0
@@ -116,9 +120,9 @@ Currently Loaded Modules:
 
 **** Plot enrichment results ****
 WARNING: ignoring environment value of R_HOME
-[1] "2023-01-03 14:59:31 EST"
+[1] "2023-01-06 20:55:29 EST"
    user  system elapsed 
-  3.126   0.185   9.773 
+  5.220   0.519  17.441 
 ─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.0.3 (2020-10-10)
@@ -129,7 +133,7 @@ WARNING: ignoring environment value of R_HOME
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
  tz       US/Eastern
- date     2023-01-03
+ date     2023-01-06
  pandoc   2.7.3 @ /jhpce/shared/jhpce/core/pandoc/2.7.3/bin/pandoc
 
 ─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -210,4 +214,4 @@ WARNING: ignoring environment value of R_HOME
 
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 **** Job ends ****
-2023-01-03T14:59:32-0500
+2023-01-06T20:55:30-0500
