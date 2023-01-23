@@ -29,9 +29,9 @@ extract_bed <- function(tissue){
 }
 
 plot_circos_4tissue <- function(caudate, dlpfc, hippo, gyrus){
-    lgd_points = Legend(at=c("Increased association with AA", "Decreased association with AA"),
+    lgd_points = Legend(at=c("Increased EA proportion", "Increased AA proportion"),
                         type="points", legend_gp=gpar(col = c("red", "blue")),
-                        title_position="topleft", title="Ancestry Proportion",
+                        title_position="topleft", title="Genetic Ancestry",
                         background="#FFFFFF")
     circos.clear() # clear plot if there is any
     circos.par("start.degree" = 0, "cell.padding" = c(0, 0, 0, 0),
