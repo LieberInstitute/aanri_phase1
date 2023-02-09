@@ -68,6 +68,7 @@ def cal_enrichment(tissue):
           len(no_main.intersection(yes_interact))],
          [len(yes_main.intersection(no_interact)),
           len(no_main.intersection(no_interact))]]
+    print(m)
     return fisher_exact(m)
 
 
@@ -75,6 +76,7 @@ def enrichment_loop():
     dt = pd.DataFrame()
     or_lt = []; pval_lt = []; tissue_lt = []
     for tissue in ["Caudate", "Dentate Gyrus", "DLPFC", "Hippocampus"]:
+        print(tissue)
         oddratio, pvals = cal_enrichment(tissue)
         or_lt.append(oddratio); pval_lt.append(pvals);
         tissue_lt.append(tissue)
