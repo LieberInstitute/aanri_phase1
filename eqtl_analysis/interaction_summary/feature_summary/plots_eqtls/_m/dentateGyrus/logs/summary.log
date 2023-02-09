@@ -1,0 +1,101 @@
+**** Job starts ****
+Tue Jan 24 08:14:50 EST 2023
+**** JHPCE info ****
+User: jbenjami
+Job id: 2775031
+Job name: eQTLplots_dentateGyrus
+Hostname: compute-140.cm.cluster
+
+The following have been reloaded with a version change:
+  1) gcc/4.4.7 => gcc/9.1.0
+
+Loading LIBD module for plink/2.0
+Plink is invoked with the command 'plink2'.
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) COMMUNITY_CENTOS7_DEFAULT_ENV   9) gcc/9.1.0
+  2) stata/17          6) JHPCE_CENTOS7_DEFAULT_ENV      10) plink/2.0
+  3) JHPCE_tools/1.0   7) python/3.7.3                   11) pandoc/2.7.3
+  4) sge/8.1.9         8) emacs/28.1                     12) R/4.0.3
+
+ 
+
+**** Run combine files ****
+WARNING: ignoring environment value of R_HOME
+PLINK v2.00a3LM 64-bit Intel (17 Dec 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to dentateGyrus/out/p_temp.log.
+Options in effect:
+  --export A
+  --extract dentateGyrus/out/p.variants
+  --out dentateGyrus/out/p_temp
+  --pfile /dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input/genotypes/all_samples/_m/TOPMed_LIBD_AA_EA
+
+Start time: Tue Jan 24 08:14:53 2023
+515623 MiB RAM detected; reserving 257811 MiB for main workspace.
+Allocated 1452 MiB successfully, after larger attempt(s) failed.
+Using up to 48 threads (change this with --threads).
+1938 samples (725 females, 1209 males, 4 ambiguous; 1938 founders) loaded from
+/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input/genotypes/all_samples/_m/TOPMed_LIBD_AA_EA.psam.
+7678274 variants loaded from
+/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input/genotypes/all_samples/_m/TOPMed_LIBD_AA_EA.pvar.
+Note: No phenotype data present.
+--extract: 23 variants remaining.
+23 variants remaining after main filters.
+--export A pass 1/1: loading... 0%0%4%8%13%17%21%26%30%34%39%43%47%52%56%60%65%69%73%78%82%86%95% writing... 0%0%1%1%2%2%3%3%4%4%5%5%6%6%7%7%8%8%9%9%10%10%11%11%12%12%13%13%14%14%15%15%16%16%17%17%18%18%19%19%20%20%21%21%22%22%23%23%24%24%25%25%26%26%27%27%28%28%29%29%30%30%31%31%32%32%33%33%34%34%35%35%36%36%37%37%38%38%39%39%40%40%41%41%42%42%43%43%44%44%45%45%46%46%47%47%48%48%49%50%50%51%51%52%52%53%53%54%54%55%55%56%56%57%57%58%58%59%59%60%60%61%61%62%62%63%63%64%64%65%65%66%66%67%67%68%68%69%69%70%70%71%71%72%72%73%73%74%74%75%75%76%76%77%77%78%78%79%79%80%80%81%81%82%82%83%83%84%84%85%85%86%86%87%87%88%88%89%89%90%90%91%91%92%92%93%93%94%94%95%95%96%96%97%97%98%98%99% done.
+--export A: dentateGyrus/out/p_temp.raw written.
+End time: Tue Jan 24 08:14:54 2023
+1 
+2 
+3 
+Error in `select()`:
+! Problem while evaluating `all_of(c(gene_id, variant_id, "Race"))`.
+Backtrace:
+     ▆
+  1. ├─global plot_eqtl(variant_id, gene_id, gene_name, eqtl_annot)
+  2. │ └─... %>% ...
+  3. ├─ggpubr::ggboxplot(...)
+  4. ├─tidyr::drop_na(.)
+  5. ├─dplyr::select(., all_of(c(gene_id, variant_id, "Race")))
+  6. ├─dplyr:::select.data.frame(., all_of(c(gene_id, variant_id, "Race")))
+  7. │ ├─dplyr:::tidyselect_fix_call(...)
+  8. │ │ └─base::withCallingHandlers(...)
+  9. │ └─tidyselect::eval_select(expr(c(...)), .data)
+ 10. │   └─tidyselect:::eval_select_impl(...)
+ 11. │     ├─tidyselect:::with_subscript_errors(...)
+ 12. │     │ └─rlang::try_fetch(...)
+ 13. │     │   └─base::withCallingHandlers(...)
+ 14. │     └─tidyselect:::vars_select_eval(...)
+ 15. │       └─tidyselect:::walk_data_tree(expr, data_mask, context_mask)
+ 16. │         └─tidyselect:::eval_c(expr, data_mask, context_mask)
+ 17. │           └─tidyselect:::reduce_sels(node, data_mask, context_mask, init = init)
+ 18. │             └─tidyselect:::walk_data_tree(new, data_mask, context_mask)
+ 19. │               └─tidyselect:::eval_context(expr, context_mask, call = error_call)
+ 20. │                 ├─tidyselect:::with_chained_errors(...)
+ 21. │                 │ └─rlang::try_fetch(...)
+ 22. │                 │   ├─base::tryCatch(...)
+ 23. │                 │   │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 24. │                 │   │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 25. │                 │   │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 26. │                 │   └─base::withCallingHandlers(...)
+ 27. │                 └─rlang::eval_tidy(as_quosure(expr, env), context_mask)
+ 28. ├─tidyselect::all_of(c(gene_id, variant_id, "Race"))
+ 29. │ └─tidyselect:::as_indices_impl(x, vars = vars, strict = TRUE)
+ 30. │   └─tidyselect:::chr_as_locations(x, vars, call = call, arg = arg)
+ 31. │     └─vctrs::vec_as_location(...)
+ 32. ├─vctrs (local) `<fn>`()
+ 33. │ └─vctrs:::stop_subscript_oob(...)
+ 34. │   └─vctrs:::stop_subscript(...)
+ 35. │     └─rlang::abort(...)
+ 36. │       └─rlang:::signal_abort(cnd, .file)
+ 37. │         └─base::signalCondition(cnd)
+ 38. ├─rlang (local) `<fn>`(`<vctrs___>`)
+ 39. │ └─handlers[[1L]](cnd)
+ 40. │   └─rlang::abort(msg, call = call, parent = cnd)
+ 41. │     └─rlang:::signal_abort(cnd, .file)
+ 42. │       └─base::signalCondition(cnd)
+ 43. └─dplyr (local) `<fn>`(`<rlng_rrr>`)
+ 44.   └─rlang::cnd_signal(cnd)
+Execution halted
+**** Job ends ****
+Tue Jan 24 08:14:57 EST 2023
