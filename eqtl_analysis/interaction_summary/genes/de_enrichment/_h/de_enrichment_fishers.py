@@ -69,6 +69,7 @@ def cal_enrichment(tissue, direction):
           len(no_de.intersection(yes_eGene))],
          [len(yes_de.intersection(no_eGene)),
           len(no_de.intersection(no_eGene))]]
+    print(m)
     return fisher_exact(m)
 
 
@@ -77,8 +78,10 @@ def enrichment_loop():
                 "down": "Increased in AA"}
     dt = pd.DataFrame()
     for direction in ["all", "up", "down"]:
+        print(direction)
         or_lt = []; pval_lt = []; tissue_lt = []
         for tissue in ["Caudate", "Dentate Gyrus", "DLPFC", "Hippocampus"]:
+            print(tissue)
             oddratio, pvals = cal_enrichment(tissue, direction)
             or_lt.append(oddratio); pval_lt.append(pvals);
             tissue_lt.append(tissue)
