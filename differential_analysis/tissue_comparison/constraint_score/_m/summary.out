@@ -215,3 +215,23 @@ WARNING: ignoring environment value of R_HOME
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 **** Job ends ****
 2023-01-06T20:55:30-0500
+**** Job starts ****
+Wed Feb  1 08:02:05 EST 2023
+**** JHPCE info ****
+User: jbenjami
+Job id: 2877347
+Job name: gene_constrain
+Hostname: compute-103.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     6) COMMUNITY_CENTOS7_DEFAULT_ENV
+  2) stata/17          7) JHPCE_CENTOS7_DEFAULT_ENV
+  3) JHPCE_tools/1.0   8) python/3.7.3
+  4) sge/8.1.9         9) emacs/28.1
+  5) gcc/4.4.7
+
+ 
+
+**** Run selection ****
+**** Job ends ****
+Wed Feb  1 08:02:07 EST 2023
