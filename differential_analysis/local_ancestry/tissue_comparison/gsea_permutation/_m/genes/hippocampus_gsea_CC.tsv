@@ -1,0 +1,3 @@
+ID	Description	setSize	enrichmentScore	NES	pvalue	p.adjust	qvalue	rank	leading_edge	core_enrichment
+GO:0032040	small-subunit processome	37	0.727600347434173	2.08618232829264	1.94651043541672e-05	0.0135477126305004	0.0135477126305004	1	tags=3%, list=0%, signal=3%	PWP2
+GO:0030686	90S preribosome	27	0.738178014258213	2.02572583382599	0.000131005703303558	0.0455899847496383	0.0455899847496383	1	tags=4%, list=0%, signal=4%	PWP2
