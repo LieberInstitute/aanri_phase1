@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -l h_fsize=50G
+#$ -l mem_free=10.0G,h_vmem=10G,h_fsize=50G
 #$ -N run_mash
 #$ -o ./mash_exon.out
 #$ -e ./mash_exon.out
