@@ -68,8 +68,7 @@ def annotate_degs(feature, tissue, fdr):
 
 
 @lru_cache()
-def extract_features(tissue, fdr):
-    # Gene annotation
+def extract_features(tissue, fdr=0.05):
     gtf_annot = gene_annotation()
     annot_gene = gtf_annot[:, ["gene_id", "gene_type"]]\
                           .unique().to_arrow().to_pandas()
@@ -106,8 +105,8 @@ def print_summary(tissue, fdr=0.05):
             tt = len(set(trans[variable]))
             ee = len(set(exons[variable]))
             jj = len(set(juncs[variable]))
-            print("\nGene:\t\t%d\nTranscript:\t%d\nExon:\t\t%d\nJunction:\t%d\n" %
-                  (gg, tt, ee, jj), file=f)
+            print(f"\nGene:\t\t{gg}\nTranscript:\t{tt}"+\
+                  f"\nExon:\t\t{ee}\nJunction:\t{jj}\n", file=f)
 
 
 def get_DEGs_result_by_tissue(tissue, fdr=0.05):
@@ -121,58 +120,6 @@ def get_DEGs_result_by_tissue(tissue, fdr=0.05):
                            .astype("category")\
                            .cat.reorder_categories(["Gene", "Transcript",
                                                     "Exon", "Junction"])
-    df["region"] = tissue
-    return df
-
-
-@lru_cache()
-def extract_partial(tissue, fdr=0.05):
-    gtf_annot = gene_annotation()
-    annot_gene = gtf_annot[:, ["gene_id", "gene_type"]]\
-                          .unique().to_arrow().to_pandas()
-    annot_tx   = gtf_annot[:, ["transcript_id", "gene_id", "gene_type"]]\
-        .to_arrow().to_pandas()
-    # Extract DE from mash model
-    genes = annotate_degs("genes", tissue, fdr)\
-        .merge(annot_gene, left_on="gencodeid", right_on="gene_id", how="left")\
-        .drop("gencodeid", axis=1)
-    trans = annotate_degs("transcripts", tissue, fdr)\
-        .merge(annot_tx, left_on="feature_id", right_on="transcript_id", how="left")\
-        .drop(["gencodeid", "transcript_id"], axis=1)
-    exons = annotate_degs("exons", tissue, fdr)\
-        .merge(annot_gene, left_on="gencodeid", right_on="gene_id", how="left")\
-        .drop("gencodeid", axis=1)
-    return genes, trans, exons
-
-
-def print_partial(tissue, fdr=0.05):
-    genes, trans, exons = extract_partial(tissue, fdr)
-    if tissue == "Caudate":
-        w_mode = "w"
-    else:
-        w_mode = "a"
-    statement = "Significant DE (lfsr < 0.05) in %s" % tissue
-    with open("summarize_results.log", mode=w_mode) as f:
-        print(statement, file=f)
-        for variable in ["feature_id", "gene_id"]:
-            print(variable, file=f)
-            gg = len(set(genes[variable]))
-            tt = len(set(trans[variable]))
-            ee = len(set(exons[variable]))
-            print(f"\nGene:\t\t{gg}\nTranscript:\t{tt}"+\
-                  f"\nExon:\t\t{ee}\n", file=f)
-
-
-def get_DEGs_result_by_tissue_partial(tissue, fdr=0.05):
-    genes, trans, exons = extract_partial(tissue, fdr)
-    genes["feature_type"] = "Gene"
-    trans["feature_type"] = "Transcript"
-    exons["feature_type"] = "Exon"
-    df = pd.concat([genes, trans, exons])
-    df["feature_type"] = df.feature_type\
-                           .astype("category")\
-                           .cat.reorder_categories(["Gene", "Transcript",
-                                                    "Exon"])
     df["region"] = tissue
     return df
 
@@ -206,30 +153,7 @@ def combine_all_feature():
 
 def main():
     # Genes and Transcripts
-    bigdata1 = []; bigdata2 = [];
-    for tissue in ["Caudate", "Dentate Gyrus", "DLPFC", "Hippocampus"]:
-        print_partial(tissue)
-        data1 = get_DEGs_result_by_tissue_partial(tissue)
-        data2 = get_DEGs_result_by_tissue_partial(tissue, 1)
-        bigdata1.append(data1); bigdata2.append(data2)
-    df1 = pd.concat(bigdata1); df2 = pd.concat(bigdata2)
-    with open("effect_sizes.log", mode="w") as f:
-        print("Effect size:", file=f)
-        print(df1.loc[:, ["region", "feature_type", "posterior_mean"]]\
-              .groupby(["region", "feature_type"]).describe().to_string(), file=f)
-    print("\nSummary:")
-    gene = df1[(df1["feature_type"] == "Gene")]\
-        .drop_duplicates(subset="gene_id")
-    print(gene.shape)
-    print(gene.groupby("gene_type").size())
-    # Output
-    cols = ["region", "feature_id", "gene_id", "symbol", "seqnames", "start", "end",
-            "lfsr", "posterior_mean", "feature_type"]
-    df1.sort_values(["region", "feature_type", "lfsr", "posterior_mean"]).loc[:, cols]\
-       .to_csv("BrainSeq_ancestry_4features_4regions.txt.gz",sep='\t', index=False)
-    df2.sort_values(["region", "feature_type", "lfsr", "posterior_mean"]).loc[:, cols]\
-       .to_csv("BrainSeq_ancestry_4features_4regions_allFeatures.txt.gz",
-               sep='\t', index=False)
+    combine_all_feature()    
     # Session infomation
     session_info.show()
 
