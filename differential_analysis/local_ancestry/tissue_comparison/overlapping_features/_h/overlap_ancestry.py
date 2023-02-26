@@ -38,32 +38,42 @@ def prepare_data(feature, tissue):
                     suffixes=["_global", "_local"])
 
 
-def cal_fishers_feature(feature, tissue):
+def cal_fishers_feature(feature, tissue, direction):
     df = prepare_data(feature, tissue)
+    if direction == 'Up': ## using global ancestry
+        df = df[(df['continous'] > 0)].copy()
+    elif direction == 'Down':
+        df = df[(df['continous'] < 0)].copy()
+    else:
+        df = df
     table = [[np.sum((df['lfsr_global']<=0.05) & (df['lfsr_local']<=0.05)),
               np.sum((df['lfsr_global']<=0.05) & (df['lfsr_local']>0.05))],
              [np.sum((df['lfsr_global']>0.05)  & (df['lfsr_local']<=0.05)),
               np.sum((df['lfsr_global']>0.05)  & (df['lfsr_local']>0.05))]]
-    print(f"Overlap: {table[0][0]} ({table[0][0] / np.sum(table[0]):.1%})")
+    print(f"Overlap {direction}: {table[0][0]} ({table[0][0] / np.sum(table[0]):.1%})")
     return fisher_exact(table)
 
 
 def calculate_enrichment():
-    region_lt = []; feat_lt = []; fdr_lt = []; pval_lt = []; oddratio_lt = []
+    region_lt = []; feat_lt = []; fdr_lt = []; pval_lt = [];
+    dir_lt = []; oddratio_lt = []
     for feature in ['Gene', 'Transcript', 'Exon', 'Junction']:
         print(feature)
-        pvals = []
         for tissue in ["Caudate", "Dentate Gyrus", "DLPFC", "Hippocampus"]:
             print(tissue)
-            odd_ratio, pval = cal_fishers_feature(feature, tissue)
-            pvals.append(pval); region_lt.append(tissue)
-            oddratio_lt.append(odd_ratio); feat_lt.append(feature)
-        _, fdr = fdrcorrection(pvals) # FDR correction per feature
-        pval_lt = np.concatenate((pval_lt, pvals))
-        fdr_lt = np.concatenate((fdr_lt, fdr))
+            pvals = []
+            for direction in ['Up', 'Down', 'All']:
+                odd_ratio, pval = cal_fishers_feature(feature, tissue, direction)
+                pvals.append(pval); region_lt.append(tissue)
+                oddratio_lt.append(odd_ratio); feat_lt.append(feature)
+                dir_lt.append(direction)
+            _, fdr = fdrcorrection(pvals) # FDR correction per feature
+            pval_lt = np.concatenate((pval_lt, pvals))
+            fdr_lt = np.concatenate((fdr_lt, fdr))
     # Generate DataFrame
     return pd.DataFrame({'Region': region_lt, 'Feature': feat_lt,
-                         'OR': oddratio_lt, 'PValue': pval_lt, "FDR": fdr_lt})
+                         'OR': oddratio_lt, 'PValue': pval_lt, "FDR": fdr_lt,
+                         'Direction': dir_lt})
 
 
 def main():

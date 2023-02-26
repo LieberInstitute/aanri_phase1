@@ -16,6 +16,7 @@ echo "Job name: ${JOB_NAME}"
 echo "Hostname: ${HOSTNAME}"
 
 module load pandoc
+module load python
 
 module list
 
