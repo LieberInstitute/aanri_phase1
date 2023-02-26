@@ -75,6 +75,15 @@ prep_data <- function(feature){
                                         "[", 1)
                                         # Generate phenotypes
     pheno = colData(rse_df) |> as.data.frame()
+                                        # Fix junction names
+    if(feature == "junctions"){
+        rowData(rse_df)$feature_id <- rownames(rse_df)
+        gnames <- rownames(rowData(rse_df))
+        gnames <- gsub("\\(-\\)", "_minus",
+                        gsub("\\(\\+\\)", "_plus", gnames))
+        gnames <- janitor::make_clean_names(gnames)
+        rownames(rse_df) <- gnames
+    }
                                         # Generate DGE list
     x <- edgeR::DGEList(counts=assays(rse_df)$counts[, pheno$RNum], 
                         genes=rowData(rse_df), samples=pheno)
@@ -152,7 +161,15 @@ extract_de_loop <- function(feature, ID){
     efit   <- memFIT(feature, feature_id)
     bhat   <- efit$coefficients[, 2] ## local ancestry
     shat   <- efit$stdev.unscaled[, 2] / sqrt(dim(efit$design)[1])
-    return(data.frame("feature_id"=feature_id, "bhat"=bhat, "shat"=shat[1]))
+    if(feature == "junctions"){
+        x <- memFILTER(feature, feature_id)
+        old_id = x$genes[feature_id, "feature_id"]
+        return(data.frame("feature_id"=old_id, "bhat"=bhat,
+                          "shat"=shat[1], "clean_id"=feature_id))
+    } else {
+        return(data.frame("feature_id"=feature_id, "bhat"=bhat,
+                          "shat"=shat[1]))
+    }
 }
 
 #### MAIN analysis

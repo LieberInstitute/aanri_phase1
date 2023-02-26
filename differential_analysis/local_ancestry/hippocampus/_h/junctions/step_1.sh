@@ -1,8 +1,8 @@
 #$ -cwd
 #$ -R y
 #$ -t 1-1250:1
-#$ -tc 25
-#$ -l mem_free=10.0G,h_vmem=10G,h_fsize=50G
+#$ -tc 75
+#$ -l mem_free=15.0G,h_vmem=15G,h_fsize=50G
 #$ -N 'local_jxn_hippocampus'
 #$ -o ./summary_jxn.out
 #$ -e ./summary_jxn.out

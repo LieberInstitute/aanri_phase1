@@ -24,7 +24,7 @@ echo "**** Run sensitivity analysis for DE ****"
 FEATURE="junctions"
 Rscript  ../_h/02_combine_expr.R --feature $FEATURE
 
-find $FEATURE/ -type f -name '*.ancestry' -delete
+##find $FEATURE/ -type f -name '*.ancestry' -delete
 
 echo "**** Job ends ****"
 date -Is
