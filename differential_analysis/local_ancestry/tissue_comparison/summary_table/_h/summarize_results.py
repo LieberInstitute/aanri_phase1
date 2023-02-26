@@ -55,7 +55,7 @@ def get_mash_es(feature, tissue):
            .loc[:, ["feature_id", new_tissue]]\
            .rename(columns={new_tissue: "posterior_mean"})
     ## Flip sign to match global ancestry
-    df["posterior"] = df["posterior_mean"] * -1
+    df["posterior_mean"] = df["posterior_mean"] * -1
     return df
 
 
