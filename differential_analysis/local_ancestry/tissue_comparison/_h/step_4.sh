@@ -1,11 +1,10 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -l mem_free=15G,h_vmem=15G,h_fsize=50G
+#$ -l mem_free=15.0G,h_vmem=15G,h_fsize=50G
 #$ -N run_mash
 #$ -o ./mash_jxn.out
 #$ -e ./mash_jxn.out
-#$ -t 1-10:1
 
 echo "**** Job starts ****"
 date
@@ -19,7 +18,7 @@ echo "Hostname: ${HOSTNAME}"
 ## List current modules for reproducibility
 module load gcc/9.1.0
 module load pandoc
-module load R
+module load conda_R/4.2.x
 
 module list
 
@@ -27,8 +26,7 @@ module list
 FEATURE="junctions"
 
 echo "**** Prepare and run mash modeling ****"
-Rscript ../_h/extract_effectsizes.R \
-	--feature $FEATURE --perm_num=$SGE_TASK_ID
+Rscript ../_h/extract_effectsizes.R --feature $FEATURE
 
 echo "**** Job ends ****"
 date
