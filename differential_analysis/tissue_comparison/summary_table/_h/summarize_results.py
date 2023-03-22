@@ -3,6 +3,7 @@ This script summarized DE results using mash model.
 """
 import pandas as pd
 import session_info
+from pyhere import here
 from gtfparse import read_gtf
 from functools import lru_cache
 
@@ -36,12 +37,15 @@ def get_mash_es(feature, tissue):
 
 @lru_cache()
 def get_annotation(feature):
-    base_loc = "/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input/text_files_counts/"
     config = {
-        "genes": "%s/_m/caudate/gene_annotation.tsv" % base_loc,
-        "transcripts": "%s/_m/caudate/tx_annotation.tsv" % base_loc,
-        "exons": "%s/_m/caudate/exon_annotation.tsv" % base_loc,
-        "junctions": "%s/_m/caudate/jxn_annotation.tsv" % base_loc,
+        "genes": here("input/text_files_counts/_m",
+                      "caudate/gene_annotation.tsv"),
+        "transcripts": here("input/text_files_counts/_m",
+                            "caudate/tx_annotation.tsv"),
+        "exons": here("input/text_files_counts/_m",
+                      "caudate/exon_annotation.tsv"),
+        "junctions": here("input/text_files_counts/_m",
+                          "caudate/jxn_annotation.tsv"),
     }
     return pd.read_csv(config[feature], sep='\t')\
              .loc[:, ["names", "seqnames", "start", "end", "Symbol", "gencodeID"]]
@@ -59,8 +63,8 @@ def annotate_degs(feature, tissue, fdr):
 def extract_features(tissue, fdr):
     # Gene annotation
     gtf_annot = gene_annotation()
-    annot_gene = gtf_annot.loc[:, ["gene_id", "gene_type"]].drop_duplicates()
-    annot_tx   = gtf_annot.loc[:, ["transcript_id", "gene_type"]]
+    annot_gene = gtf_annot.loc[:, ["gene_id", "gene_type", "strand"]].drop_duplicates()
+    annot_tx   = gtf_annot.loc[:, ["transcript_id", "gene_type", "strand"]]
     # Extract DE from mash model
     genes = annotate_degs("genes", tissue, fdr)\
         .merge(annot_gene, left_on="gencodeID", right_on="gene_id", how="left")\
@@ -128,7 +132,7 @@ def main():
     print(gene.groupby("gene_type").size())
     # Output
     cols = ["Tissue", "Effect", "gencodeID", "Symbol", "seqnames", "start", "end",
-            "lfsr", "posterior_mean", "Type"]
+            "strand", "gene_type", "lfsr", "posterior_mean", "Type"]
     df1.sort_values(["Tissue", "Type", "lfsr", "posterior_mean"]).loc[:, cols]\
        .to_csv("BrainSeq_ancestry_4features_4regions.txt.gz",sep='\t', index=False)
     df2.sort_values(["Tissue", "Type", "lfsr", "posterior_mean"]).loc[:, cols]\

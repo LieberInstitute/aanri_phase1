@@ -1,11 +1,10 @@
 #!/bin/bash
 #$ -cwd
 #$ -R y
-#$ -l mem_free=10.0G,h_vmem=10G,h_fsize=50G
+#$ -l mem_free=20.0G,h_vmem=20G,h_fsize=50G
 #$ -N 'summarize_degs'
 #$ -o ./summary.out
 #$ -e ./summary.out
-#$ -m e -M jade.benjamin@libd.org
 
 echo "**** Job starts ****"
 date -Is
@@ -19,7 +18,7 @@ echo "Hostname: ${HOSTNAME}"
 module list
 
 echo "**** Run summarize results ****"
-python  ../_h/summarize_results.py
+python3  ../_h/summarize_results.py
 
 echo "**** Job ends ****"
 date -Is
