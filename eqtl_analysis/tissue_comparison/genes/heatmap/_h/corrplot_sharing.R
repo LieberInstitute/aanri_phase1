@@ -9,7 +9,7 @@ plot_heatmap <- function(feature, factor){
     pdf(file = paste0("sharing_heatmap_",config[[as.character(factor)]],
                       "_all_",feature,".pdf"), width = 6, height = 6)
     x = get_pairwise_sharing(m2, factor=factor, lfsr_thresh = 1)
-    corrplot(x,method='color',is.corr=FALSE,col.lim=c(0.5,1),
+    corrplot(x,method='color',is.corr=FALSE,col.lim=c(0.75,1),
              type='upper',addCoef.col="white",tl.col="black", tl.srt=45,
              title='Pairwise Sharing by Magnitude',
              mar=c(4,0,4,0), col=viridisLite::mako(25, direction=-1))
@@ -18,7 +18,7 @@ plot_heatmap <- function(feature, factor){
     pdf(file = paste0("sharing_heatmap_",config[[as.character(factor)]],
                       "_sig_",feature,".pdf"), width = 6, height = 6)
     x = get_pairwise_sharing(m2, factor=factor, lfsr_thresh = 0.05)
-    corrplot(x,method='color',is.corr=FALSE,col.lim=c(0.5,1),
+    corrplot(x,method='color',is.corr=FALSE,col.lim=c(0.75,1),
              type='upper',addCoef.col="white",tl.col="black",tl.srt=45,
              title='Pairwise Sharing by Magnitude',
              mar=c(4,0,4,0), col=viridisLite::mako(25, direction=-1))
