@@ -32,7 +32,8 @@ generate_dataframe <- function(){
     }
     go_terms <- bind_rows(df_list) %>% filter(qvalues < 0.25) %>% pull(ID) %>% unique
     return( bind_rows(df_list) %>% filter(ID %in% go_terms) %>%
-            mutate(p.fdr.sig=qvalues < 0.25,
+            mutate(NES=NES*-1, # Match direction with global
+                   p.fdr.sig=qvalues < 0.25,
                    p.fdr.cat=cut(qvalues, breaks=c(1,0.05,0.01,0.005,0),
                                  labels=c("<= 0.005","<= 0.01","<= 0.05","> 0.05"),
                                  include.lowest=TRUE)) )
