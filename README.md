@@ -29,6 +29,6 @@ This license lets others remix, tweak, and build upon our work non-commercially 
 
 ## Citation
 
-If you use anything in this repository please cite the following pre-print:
+If you use anything in this repository please cite the following pre-print: https://doi.org/10.1101/2023.03.28.534458
 
 ## Files
