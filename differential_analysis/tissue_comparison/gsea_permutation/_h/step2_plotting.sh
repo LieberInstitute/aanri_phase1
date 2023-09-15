@@ -5,7 +5,6 @@
 #$ -N gsea_plotting
 #$ -o ./summary.out
 #$ -e ./summary.out
-#$ -m e -M jade.benjamin@libd.org
 
 echo "**** Job starts ****"
 date
