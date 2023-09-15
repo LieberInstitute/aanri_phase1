@@ -1,0 +1,461 @@
+go	cluster	parent	score	size	term	parentTerm	termUniqueness	termUniquenessWithinCluster	termDispensability	Ont	Tissue
+GO:0051606	1	GO:0051606	4.41726865337156	4	detection of stimulus	detection of stimulus	0.886127906976744	0.2638	0	BP	Caudate
+GO:0050776	2	GO:0050776	3.79214708996697	32	regulation of immune response	regulation of immune response	0.638267441860465	0.395642857142857	0	BP	Caudate
+GO:0002250	2	GO:0050776	3.72256427529486	434	adaptive immune response	regulation of immune response	0.710093023255814	0.442964285714286	0.727	BP	Caudate
+GO:0002683	2	GO:0050776	3.72256427529486	1	negative regulation of immune system process	regulation of immune response	0.718488372093023	0.442142857142857	0.758	BP	Caudate
+GO:0002252	2	GO:0050776	3.72256427529486	0	immune effector process	regulation of immune response	0.738744186046512	0.399464285714286	0.6	BP	Caudate
+GO:0050906	1	GO:0051606	3.72256427529486	2	detection of stimulus involved in sensory perception	detection of stimulus	0.81596511627907	0.2668	0.968	BP	Caudate
+GO:0045087	3	GO:0045087	3.60048696323444	527	innate immune response	innate immune response	0.650127906976744	0.574	0	BP	Caudate
+GO:0032102	4	GO:0032102	2.99174165532639	0	negative regulation of response to external stimulus	negative regulation of response to external stimulus	0.80103488372093	0.60575	0	BP	Caudate
+GO:0009617	5	GO:0009617	2.93215031857189	116	response to bacterium	response to bacterium	0.859976744186047	0.389833333333333	0	BP	Caudate
+GO:0006954	3	GO:0045087	2.77461093404764	419	inflammatory response	innate immune response	0.882139534883721	0.5936	0.753	BP	Caudate
+GO:0003341	6	GO:0003341	2.71892658936333	63	cilium movement	cilium movement	0.951290697674419	0.4368	0	BP	Caudate
+GO:0060285	7	GO:0060285	2.71892658936333	15	cilium-dependent cell motility	cilium-dependent cell motility	0.952279069767442	0.3825	0	BP	Caudate
+GO:0001539	7	GO:0060285	2.71892658936333	0	cilium or flagellum-dependent cell motility	cilium-dependent cell motility	0.952279069767442	0.3825	0.999	BP	Caudate
+GO:0002832	5	GO:0009617	2.67727029927927	0	negative regulation of response to biotic stimulus	response to bacterium	0.81296511627907	0.409666666666667	0.622	BP	Caudate
+GO:0007600	8	GO:0007600	2.67657051920204	11	sensory perception	sensory perception	0.908930232558139	0.50725	0	BP	Caudate
+GO:0002460	2	GO:0050776	2.67657051920204	0	adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	regulation of immune response	0.720395348837209	0.456428571428571	0.681	BP	Caudate
+GO:0045824	5	GO:0009617	2.67657051920204	24	negative regulation of innate immune response	response to bacterium	0.641872093023256	0.412666666666667	0.597	BP	Caudate
+GO:0006956	2	GO:0050776	2.60554203745363	29	complement activation	regulation of immune response	0.663197674418605	0.412964285714286	0.765	BP	Caudate
+GO:0002443	2	GO:0050776	2.42943458972403	1	leukocyte mediated immunity	regulation of immune response	0.743755813953488	0.407642857142857	0.562	BP	Caudate
+GO:0002478	2	GO:0050776	2.37214160718397	0	antigen processing and presentation of exogenous peptide antigen	regulation of immune response	0.788255813953488	0.488464285714286	0.449	BP	Caudate
+GO:0050778	2	GO:0050776	2.37214160718397	20	positive regulation of immune response	regulation of immune response	0.634186046511628	0.404392857142857	0.959	BP	Caudate
+GO:0060294	7	GO:0060285	2.37214160718397	12	cilium movement involved in cell motility	cilium-dependent cell motility	0.910941860465116	0.385166666666667	0.993	BP	Caudate
+GO:0035082	6	GO:0003341	2.37214160718397	32	axoneme assembly	cilium movement	0.946941860465116	0.3666	0.656	BP	Caudate
+GO:0050777	2	GO:0050776	2.33352747516614	13	negative regulation of immune response	regulation of immune response	0.668720930232558	0.449178571428571	0.814	BP	Caudate
+GO:0050907	1	GO:0051606	2.33352747516614	1	detection of chemical stimulus involved in sensory perception	detection of stimulus	0.805	0.261	0.954	BP	Caudate
+GO:0002504	2	GO:0050776	2.21011815533311	1	antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	regulation of immune response	0.785488372093023	0.483178571428572	0.461	BP	Caudate
+GO:0019884	2	GO:0050776	2.01013996087505	2	antigen processing and presentation of exogenous antigen	regulation of immune response	0.787372093023256	0.487321428571429	0.455	BP	Caudate
+GO:0009593	1	GO:0051606	2.01013996087505	1	detection of chemical stimulus	detection of stimulus	0.877348837209302	0.2674	0.962	BP	Caudate
+GO:0007606	8	GO:0007600	2.00757575543952	15	sensory perception of chemical stimulus	sensory perception	0.91193023255814	0.51925	0.93	BP	Caudate
+GO:0007171	9	GO:0007171	1.91575842357026	7	activation of transmembrane receptor protein tyrosine kinase activity	activation of transmembrane receptor protein tyrosine kinase activity	0.875127906976744	0.7045	0	BP	Caudate
+GO:0019886	2	GO:0050776	1.91575842357026	41	antigen processing and presentation of exogenous peptide antigen via MHC class II	regulation of immune response	0.788872093023256	0.487928571428571	0.44	BP	Caudate
+GO:0019882	2	GO:0050776	1.91575842357026	24	antigen processing and presentation	regulation of immune response	0.771476744186047	0.452607142857143	0.509	BP	Caudate
+GO:0006958	2	GO:0050776	1.91575842357026	33	complement activation, classical pathway	regulation of immune response	0.66753488372093	0.396464285714286	0.701	BP	Caudate
+GO:0016064	2	GO:0050776	1.91575842357026	20	immunoglobulin mediated immune response	regulation of immune response	0.700220930232558	0.392285714285714	0.624	BP	Caudate
+GO:0019724	2	GO:0050776	1.91575842357026	4	B cell mediated immunity	regulation of immune response	0.699558139534884	0.391107142857143	0.626	BP	Caudate
+GO:0002697	2	GO:0050776	1.91294080983854	0	regulation of immune effector process	regulation of immune response	0.707011627906977	0.381214285714286	0.741	BP	Caudate
+GO:0002449	2	GO:0050776	1.89710145616412	0	lymphocyte mediated immunity	regulation of immune response	0.74696511627907	0.413571428571429	0.548	BP	Caudate
+GO:0048002	2	GO:0050776	1.8766445428917	3	antigen processing and presentation of peptide antigen	regulation of immune response	0.77556976744186	0.460928571428572	0.493	BP	Caudate
+GO:0002274	10	GO:0002274	1.86953777903624	1	myeloid leukocyte activation	myeloid leukocyte activation	0.74243023255814	0.3436	0	BP	Caudate
+GO:0003094	8	GO:0007600	1.83861856088477	19	glomerular filtration	sensory perception	0.930232558139535	0.4975	0.519	BP	Caudate
+GO:0019221	11	GO:0019221	1.81052248517256	149	cytokine-mediated signaling pathway	cytokine-mediated signaling pathway	0.868418604651163	0.619	0	BP	Caudate
+GO:0002495	2	GO:0050776	1.72585776154777	3	antigen processing and presentation of peptide antigen via MHC class II	regulation of immune response	0.784941860465116	0.481035714285714	0.46	BP	Caudate
+GO:0002698	2	GO:0050776	1.72585776154777	0	negative regulation of immune effector process	regulation of immune response	0.713151162790698	0.409285714285714	0.654	BP	Caudate
+GO:0009595	1	GO:0051606	1.72585776154777	4	detection of biotic stimulus	detection of stimulus	0.875662790697674	0.3758	0.797	BP	Caudate
+GO:0031341	12	GO:0031341	1.62547838375258	0	regulation of cell killing	regulation of cell killing	0.937104651162791	0.505	0	BP	Caudate
+GO:0097205	8	GO:0007600	1.62547838375258	2	renal filtration	sensory perception	0.929941860465116	0.496	0.522	BP	Caudate
+GO:0001578	6	GO:0003341	1.62547838375258	38	microtubule bundle formation	cilium movement	0.948383720930233	0.366	0.667	BP	Caudate
+GO:0050731	9	GO:0007171	1.56414804504211	93	positive regulation of peptidyl-tyrosine phosphorylation	activation of transmembrane receptor protein tyrosine kinase activity	0.909093023255814	0.7045	0.591	BP	Caudate
+GO:0060759	11	GO:0019221	1.56414804504211	0	regulation of response to cytokine stimulus	cytokine-mediated signaling pathway	0.851116279069768	0.619	0.762	BP	Caudate
+GO:0031348	4	GO:0032102	1.56414804504211	0	negative regulation of defense response	negative regulation of response to external stimulus	0.80746511627907	0.61575	0.658	BP	Caudate
+GO:1903034	3	GO:0045087	1.56414804504211	1	regulation of response to wounding	innate immune response	0.833627906976744	0.4452	0.456	BP	Caudate
+GO:0002455	2	GO:0050776	1.56414804504211	4	humoral immune response mediated by circulating immunoglobulin	regulation of immune response	0.721802325581395	0.431392857142857	0.562	BP	Caudate
+GO:0002688	7	GO:0060285	1.56414804504211	0	regulation of leukocyte chemotaxis	cilium-dependent cell motility	0.657453488372093	0.419833333333333	0.564	BP	Caudate
+GO:0070286	6	GO:0003341	1.56414804504211	20	axonemal dynein complex assembly	cilium movement	0.947744186046512	0.3874	0.624	BP	Caudate
+GO:0001819	13	GO:0001819	1.56414804504211	66	positive regulation of cytokine production	positive regulation of cytokine production	0.818697674418605	0.327333333333333	0	BP	Caudate
+GO:0001817	13	GO:0001819	1.56414804504211	64	regulation of cytokine production	positive regulation of cytokine production	0.830337209302326	0.298	0.927	BP	Caudate
+GO:0032640	13	GO:0001819	1.56414804504211	0	tumor necrosis factor production	positive regulation of cytokine production	0.885732558139535	0.291111111111111	0.74	BP	Caudate
+GO:0032680	13	GO:0001819	1.56414804504211	12	regulation of tumor necrosis factor production	positive regulation of cytokine production	0.846523255813954	0.290444444444444	0.742	BP	Caudate
+GO:0015850	14	GO:0015850	1.56353910785524	0	organic hydroxy compound transport	organic hydroxy compound transport	1	1	0	BP	Caudate
+GO:0070372	4	GO:0032102	1.56353910785524	30	regulation of ERK1 and ERK2 cascade	negative regulation of response to external stimulus	0.84346511627907	0.565	0.446	BP	Caudate
+GO:0002831	5	GO:0009617	1.53025282439211	0	regulation of response to biotic stimulus	response to bacterium	0.811127906976744	0.390166666666667	0.723	BP	Caudate
+GO:0071706	13	GO:0001819	1.53025282439211	0	tumor necrosis factor superfamily cytokine production	positive regulation of cytokine production	0.88546511627907	0.29	0.742	BP	Caudate
+GO:1903555	13	GO:0001819	1.53025282439211	0	regulation of tumor necrosis factor superfamily cytokine production	positive regulation of cytokine production	0.846151162790698	0.289222222222222	0.745	BP	Caudate
+GO:0006775	15	GO:0006775	1.51832662735684	0	fat-soluble vitamin metabolic process	fat-soluble vitamin metabolic process	0.983069767441861	1	0	BP	Caudate
+GO:0001910	12	GO:0031341	1.51832662735684	1	regulation of leukocyte mediated cytotoxicity	regulation of cell killing	0.714127906976744	0.505	0.99	BP	Caudate
+GO:0043410	4	GO:0032102	1.47135690279113	169	positive regulation of MAPK cascade	negative regulation of response to external stimulus	0.819569767441861	0.552	0.473	BP	Caudate
+GO:0030217	10	GO:0002274	1.47135690279113	44	T cell differentiation	myeloid leukocyte activation	0.735302325581395	0.4444	0.716	BP	Caudate
+GO:0042742	5	GO:0009617	1.47135690279113	151	defense response to bacterium	response to bacterium	0.850383720930233	0.390833333333333	0.918	BP	Caudate
+GO:0001816	13	GO:0001819	1.47135690279113	7	cytokine production	positive regulation of cytokine production	0.877848837209302	0.298444444444444	0.925	BP	Caudate
+GO:0061041	3	GO:0045087	1.46281056570027	7	regulation of wound healing	innate immune response	0.835523255813954	0.4452	0.449	BP	Caudate
+GO:0003352	6	GO:0003341	1.44967169191009	6	regulation of cilium movement	cilium movement	0.921337209302326	0.484	0.869	BP	Caudate
+GO:0050829	5	GO:0009617	1.44967169191009	99	defense response to Gram-negative bacterium	response to bacterium	0.866709302325582	0.4455	0.801	BP	Caudate
+GO:0002690	7	GO:0060285	1.41737381726967	14	positive regulation of leukocyte chemotaxis	cilium-dependent cell motility	0.651883720930233	0.4275	0.554	BP	Caudate
+GO:0002275	10	GO:0002274	1.41737381726967	0	myeloid cell activation involved in immune response	myeloid leukocyte activation	0.675337209302326	0.378	0.925	BP	Caudate
+GO:0019883	2	GO:0050776	1.40896389825086	2	antigen processing and presentation of endogenous antigen	regulation of immune response	0.790976744186047	0.498464285714286	0.456	BP	Caudate
+GO:0001911	2	GO:0050776	1.40896389825086	0	negative regulation of leukocyte mediated cytotoxicity	regulation of immune response	0.719604651162791	0.448071428571429	0.577	BP	Caudate
+GO:1903707	2	GO:0050776	1.40183825344129	2	negative regulation of hemopoiesis	regulation of immune response	0.69246511627907	0.500464285714286	0.643	BP	Caudate
+GO:0050867	10	GO:0002274	1.39260022311435	3	positive regulation of cell activation	myeloid leukocyte activation	0.84043023255814	0.4486	0.709	BP	Caudate
+GO:0002253	2	GO:0050776	1.38101752628252	2	activation of immune response	regulation of immune response	0.644523255813954	0.418428571428572	0.921	BP	Caudate
+GO:0071674	7	GO:0060285	1.37842527138414	1	mononuclear cell migration	cilium-dependent cell motility	0.775488372093023	0.4355	0.595	BP	Caudate
+GO:1901615	16	GO:1901615	1.37259054176067	0	organic hydroxy compound metabolic process	organic hydroxy compound metabolic process	0.97753488372093	1	0	BP	Caudate
+GO:1903706	2	GO:0050776	1.37259054176067	11	regulation of hemopoiesis	regulation of immune response	0.681348837209302	0.479535714285714	0.736	BP	Caudate
+GO:0042730	3	GO:0045087	1.37259054176067	21	fibrinolysis	innate immune response	0.767209302325581	0.4708	0.472	BP	Caudate
+GO:0071605	13	GO:0001819	1.37259054176067	0	monocyte chemotactic protein-1 production	positive regulation of cytokine production	0.906790697674418	0.434444444444444	0.615	BP	Caudate
+GO:0071637	13	GO:0001819	1.37259054176067	0	regulation of monocyte chemotactic protein-1 production	positive regulation of cytokine production	0.873488372093023	0.433444444444444	0.618	BP	Caudate
+GO:0042116	10	GO:0002274	1.37259054176067	20	macrophage activation	myeloid leukocyte activation	0.758453488372093	0.3742	0.932	BP	Caudate
+GO:0004888	1	GO:0004888	2.69520205567029	155	transmembrane signaling receptor activity	transmembrane signaling receptor activity	0.908176470588235	0.479666666666667	0	MF	Caudate
+GO:0019838	3	GO:0019838	1.91403239204887	37	growth factor binding	growth factor binding	0.971764705882353	1	0	MF	Caudate
+GO:0023023	2	GO:0023023	1.91403239204887	0	MHC protein complex binding	MHC protein complex binding	0.929411764705882	0.5085	0	MF	Caudate
+GO:0023026	2	GO:0023023	1.75775533427277	33	MHC class II protein complex binding	MHC protein complex binding	0.929647058823529	0.5085	0.983	MF	Caudate
+GO:0042605	4	GO:0042605	1.69686398208064	50	peptide antigen binding	peptide antigen binding	0.932882352941176	0.5375	0	MF	Caudate
+GO:0043394	5	GO:0043394	1.66256896770515	15	proteoglycan binding	proteoglycan binding	0.947588235294118	0.759	0	MF	Caudate
+GO:0008201	5	GO:0043394	1.66256896770515	178	heparin binding	proteoglycan binding	0.957764705882353	0.759	0.482	MF	Caudate
+GO:1901618	6	GO:1901618	1.66256896770515	0	organic hydroxy compound transmembrane transporter activity	organic hydroxy compound transmembrane transporter activity	0.919470588235294	0.65775	0	MF	Caudate
+GO:0140375	1	GO:0004888	1.66256896770515	1	immune receptor activity	transmembrane signaling receptor activity	0.922823529411765	0.562666666666667	0.68	MF	Caudate
+GO:0004930	1	GO:0004888	1.58316149481899	685	G protein-coupled receptor activity	transmembrane signaling receptor activity	0.911	0.495666666666667	0.881	MF	Caudate
+GO:0008525	6	GO:1901618	1.57450632875045	10	phosphatidylcholine transporter activity	organic hydroxy compound transmembrane transporter activity	0.925647058823529	0.684	0.397	MF	Caudate
+GO:0008514	6	GO:1901618	1.57450632875045	29	organic anion transmembrane transporter activity	organic hydroxy compound transmembrane transporter activity	0.893705882352941	0.54825	0.524	MF	Caudate
+GO:0003823	4	GO:0042605	1.57450632875045	67	antigen binding	peptide antigen binding	0.931941176470588	0.5375	0.925	MF	Caudate
+GO:0043236	7	GO:0043236	1.57450632875045	25	laminin binding	laminin binding	0.919941176470588	0.5225	0	MF	Caudate
+GO:0001848	8	GO:0001848	1.40603866661418	6	complement binding	complement binding	0.974529411764706	1	0	MF	Caudate
+GO:0008028	6	GO:1901618	1.40603866661418	21	monocarboxylic acid transmembrane transporter activity	organic hydroxy compound transmembrane transporter activity	0.901882352941177	0.583	0.448	MF	Caudate
+GO:0050840	7	GO:0043236	1.40534970601712	30	extracellular matrix binding	laminin binding	0.930764705882353	0.5225	0.955	MF	Caudate
+GO:0042611	1	GO:0042611	3.05982624817529	0	MHC protein complex	MHC protein complex	0.8591875	1	0	CC	Caudate
+GO:0031012	2	GO:0031012	2.25397578519556	240	extracellular matrix	extracellular matrix	0.765375	0.30925	0	CC	Caudate
+GO:0030312	2	GO:0031012	2.25397578519556	0	external encapsulating structure	extracellular matrix	0.765375	0.30925	0.991	CC	Caudate
+GO:0009897	3	GO:0009897	2.19305882810021	454	external side of plasma membrane	external side of plasma membrane	0.7488125	0.526	0	CC	Caudate
+GO:0031514	4	GO:0031514	2.09222020218184	115	motile cilium	motile cilium	0.9075625	0.536	0	CC	Caudate
+GO:0009986	5	GO:0009986	1.92020309187705	722	cell surface	cell surface	0.944125	1	0	CC	Caudate
+GO:0016324	6	GO:0016324	1.91037875617473	426	apical plasma membrane	apical plasma membrane	0.7900625	0.511	0	CC	Caudate
+GO:0062023	2	GO:0031012	1.91037875617473	480	collagen-containing extracellular matrix	extracellular matrix	0.76725	0.309	0.956	CC	Caudate
+GO:0045177	6	GO:0016324	1.75076665651422	75	apical part of cell	apical plasma membrane	0.938875	0.511	0.978	CC	Caudate
+GO:0097014	4	GO:0031514	1.75076665651422	1	ciliary plasm	motile cilium	0.886875	0.435666666666667	0.696	CC	Caudate
+GO:0005930	4	GO:0031514	1.75076665651422	151	axoneme	motile cilium	0.886875	0.435666666666667	0.696	CC	Caudate
+GO:0098552	3	GO:0009897	1.55808150421297	0	side of membrane	external side of plasma membrane	0.9041875	0.526	0.948	CC	Caudate
+GO:0030666	7	GO:0030666	1.47163009961567	71	endocytic vesicle membrane	endocytic vesicle membrane	0.9335625	1	0	CC	Caudate
+GO:0005604	2	GO:0031012	1.45546290786789	93	basement membrane	extracellular matrix	0.792625	0.379	0.816	CC	Caudate
+GO:0005581	9	GO:0005581	1.3531557051536	60	collagen trimer	collagen trimer	0.984625	1	0	CC	Caudate
+GO:0072562	8	GO:0072562	1.3531557051536	141	blood microparticle	blood microparticle	1	1	0	CC	Caudate
+GO:0006954	1	GO:0006954	4.75966570665551	419	inflammatory response	inflammatory response	0.883882352941176	0.38075	0	BP	Dentate Gyrus
+GO:0045229	2	GO:0045229	3.77843407229542	0	external encapsulating structure organization	external encapsulating structure organization	0.952964705882353	0.47075	0	BP	Dentate Gyrus
+GO:0043062	2	GO:0045229	3.77843407229542	1	extracellular structure organization	external encapsulating structure organization	0.952964705882353	0.47075	0.345	BP	Dentate Gyrus
+GO:0030198	2	GO:0045229	3.77843407229542	161	extracellular matrix organization	external encapsulating structure organization	0.945294117647059	0.3075	0.997	BP	Dentate Gyrus
+GO:0032102	5	GO:0032102	2.24077472493663	0	negative regulation of response to external stimulus	negative regulation of response to external stimulus	0.785894117647059	0.480555555555556	0	BP	Dentate Gyrus
+GO:0051346	4	GO:0051346	2.24077472493663	9	negative regulation of hydrolase activity	negative regulation of hydrolase activity	0.915976470588235	0.325	0	BP	Dentate Gyrus
+GO:1904064	3	GO:1904064	2.24077472493663	1	positive regulation of cation transmembrane transport	positive regulation of cation transmembrane transport	0.885176470588235	0.2648	0	BP	Dentate Gyrus
+GO:0034767	3	GO:1904064	2.24077472493663	3	positive regulation of monoatomic ion transmembrane transport	positive regulation of cation transmembrane transport	0.884094117647059	0.2588	0.988	BP	Dentate Gyrus
+GO:0032964	9	GO:0032964	2.23569165681784	10	collagen biosynthetic process	collagen biosynthetic process	0.978976470588235	1	0	BP	Dentate Gyrus
+GO:0007631	6	GO:0007631	2.23569165681784	31	feeding behavior	feeding behavior	0.932764705882353	1	0	BP	Dentate Gyrus
+GO:0003073	8	GO:0003073	2.23569165681784	12	regulation of systemic arterial blood pressure	regulation of systemic arterial blood pressure	0.837929411764706	0.314571428571429	0	BP	Dentate Gyrus
+GO:0071774	7	GO:0071774	2.23569165681784	7	response to fibroblast growth factor	response to fibroblast growth factor	0.888658823529412	0.264714285714286	0	BP	Dentate Gyrus
+GO:1903035	5	GO:0032102	2.20121093760009	0	negative regulation of response to wounding	negative regulation of response to external stimulus	0.800929411764706	0.475444444444444	0.603	BP	Dentate Gyrus
+GO:0043278	11	GO:0043278	2.13698943239144	24	response to morphine	response to morphine	0.934282352941177	0.482	0	BP	Dentate Gyrus
+GO:0014072	11	GO:0043278	2.13698943239144	0	response to isoquinoline alkaloid	response to morphine	0.934282352941177	0.482	1	BP	Dentate Gyrus
+GO:0043270	3	GO:1904064	2.13698943239144	4	positive regulation of monoatomic ion transport	positive regulation of cation transmembrane transport	0.893317647058824	0.3036	0.966	BP	Dentate Gyrus
+GO:0048514	10	GO:0048514	2.13698943239144	18	blood vessel morphogenesis	blood vessel morphogenesis	0.8766	0.285333333333333	0	BP	Dentate Gyrus
+GO:0001944	10	GO:0048514	2.13698943239144	15	vasculature development	blood vessel morphogenesis	0.874952941176471	0.284666666666667	0.965	BP	Dentate Gyrus
+GO:0040036	7	GO:0071774	2.13698943239144	6	regulation of fibroblast growth factor receptor signaling pathway	response to fibroblast growth factor	0.823105882352941	0.274	0.899	BP	Dentate Gyrus
+GO:0034368	12	GO:0034368	2.13698943239144	0	protein-lipid complex remodeling	protein-lipid complex remodeling	0.936482352941176	0.2126	0	BP	Dentate Gyrus
+GO:0034369	12	GO:0034368	2.13698943239144	1	plasma lipoprotein particle remodeling	protein-lipid complex remodeling	0.846011764705882	0.2116	1	BP	Dentate Gyrus
+GO:0001819	14	GO:0001819	2.10976630764526	66	positive regulation of cytokine production	positive regulation of cytokine production	0.78504705882353	0.325166666666667	0	BP	Dentate Gyrus
+GO:0001568	10	GO:0048514	2.10976630764526	41	blood vessel development	blood vessel morphogenesis	0.875388235294118	0.282833333333333	0.975	BP	Dentate Gyrus
+GO:0044344	7	GO:0071774	2.10976630764526	29	cellular response to fibroblast growth factor stimulus	response to fibroblast growth factor	0.888623529411765	0.262571428571429	0.996	BP	Dentate Gyrus
+GO:1900047	13	GO:1900047	2.10976630764526	1	negative regulation of hemostasis	negative regulation of hemostasis	0.863470588235294	0.2406	0	BP	Dentate Gyrus
+GO:0030195	13	GO:1900047	2.10976630764526	17	negative regulation of blood coagulation	negative regulation of hemostasis	0.678105882352941	0.2406	0.999	BP	Dentate Gyrus
+GO:0071363	7	GO:0071774	2.08360653257968	57	cellular response to growth factor stimulus	response to fibroblast growth factor	0.887094117647059	0.348428571428571	0.823	BP	Dentate Gyrus
+GO:0050819	16	GO:0050819	2.06625735868041	6	negative regulation of coagulation	negative regulation of coagulation	0.839341176470588	0.5225	0	BP	Dentate Gyrus
+GO:0045087	15	GO:0045087	2.06625735868041	527	innate immune response	innate immune response	0.850364705882353	0.457	0	BP	Dentate Gyrus
+GO:0002832	15	GO:0045087	2.06625735868041	0	negative regulation of response to biotic stimulus	innate immune response	0.825752941176471	0.4445	0.641	BP	Dentate Gyrus
+GO:0003044	8	GO:0003073	2.06625735868041	1	regulation of systemic arterial blood pressure mediated by a chemical signal	regulation of systemic arterial blood pressure	0.842870588235294	0.326	0.963	BP	Dentate Gyrus
+GO:0010951	4	GO:0051346	1.97864979309767	61	negative regulation of endopeptidase activity	negative regulation of hydrolase activity	0.853964705882353	0.29125	0.935	BP	Dentate Gyrus
+GO:0034367	12	GO:0034368	1.89472933346627	0	protein-containing complex remodeling	protein-lipid complex remodeling	0.946741176470588	0.3872	0.998	BP	Dentate Gyrus
+GO:0034764	3	GO:1904064	1.89472933346627	0	positive regulation of transmembrane transport	positive regulation of cation transmembrane transport	0.885329411764706	0.303	0.969	BP	Dentate Gyrus
+GO:0040037	7	GO:0071774	1.89472933346627	26	negative regulation of fibroblast growth factor receptor signaling pathway	response to fibroblast growth factor	0.803788235294118	0.291428571428571	0.872	BP	Dentate Gyrus
+GO:0001501	17	GO:0001501	1.88165221459268	127	skeletal system development	skeletal system development	0.900058823529412	0.6205	0	BP	Dentate Gyrus
+GO:0045824	15	GO:0045087	1.85202104773365	24	negative regulation of innate immune response	innate immune response	0.787835294117647	0.4225	0.754	BP	Dentate Gyrus
+GO:0008543	7	GO:0071774	1.85202104773365	85	fibroblast growth factor receptor signaling pathway	response to fibroblast growth factor	0.853411764705882	0.261285714285714	0.976	BP	Dentate Gyrus
+GO:0001816	14	GO:0001819	1.83968577063696	7	cytokine production	positive regulation of cytokine production	0.859070588235294	0.314333333333333	0.925	BP	Dentate Gyrus
+GO:0001503	20	GO:0001503	1.83147825955105	73	ossification	ossification	0.924	1	0	BP	Dentate Gyrus
+GO:0009612	19	GO:0009612	1.83147825955105	54	response to mechanical stimulus	response to mechanical stimulus	0.9024	1	0	BP	Dentate Gyrus
+GO:0035914	18	GO:0035914	1.83147825955105	43	skeletal muscle cell differentiation	skeletal muscle cell differentiation	0.960058823529412	1	0	BP	Dentate Gyrus
+GO:1903034	5	GO:0032102	1.83147825955105	1	regulation of response to wounding	negative regulation of response to external stimulus	0.815635294117647	0.525333333333333	0.428	BP	Dentate Gyrus
+GO:0002029	5	GO:0032102	1.83147825955105	6	desensitization of G protein-coupled receptor signaling pathway	negative regulation of response to external stimulus	0.835741176470588	0.488	0.538	BP	Dentate Gyrus
+GO:0022401	5	GO:0032102	1.83147825955105	1	negative adaptation of signaling pathway	negative regulation of response to external stimulus	0.835447058823529	0.487111111111111	0.54	BP	Dentate Gyrus
+GO:1905063	10	GO:0048514	1.83147825955105	0	regulation of vascular associated smooth muscle cell differentiation	blood vessel morphogenesis	0.861541176470588	0.388166666666667	0.674	BP	Dentate Gyrus
+GO:0008217	8	GO:0003073	1.83147825955105	73	regulation of blood pressure	regulation of systemic arterial blood pressure	0.832623529411765	0.313285714285714	0.951	BP	Dentate Gyrus
+GO:0001525	10	GO:0048514	1.83147825955105	259	angiogenesis	blood vessel morphogenesis	0.878788235294118	0.2965	0.97	BP	Dentate Gyrus
+GO:0010466	4	GO:0051346	1.83147825955105	76	negative regulation of peptidase activity	negative regulation of hydrolase activity	0.850529411764706	0.286	0.964	BP	Dentate Gyrus
+GO:0061045	5	GO:0032102	1.70540592583155	19	negative regulation of wound healing	negative regulation of response to external stimulus	0.783917647058824	0.418111111111111	0.864	BP	Dentate Gyrus
+GO:0023058	5	GO:0032102	1.69439943993515	0	adaptation of signaling pathway	negative regulation of response to external stimulus	0.857764705882353	0.540666666666667	0.367	BP	Dentate Gyrus
+GO:0003012	8	GO:0003073	1.69439943993515	2	muscle system process	regulation of systemic arterial blood pressure	0.892717647058823	0.445857142857143	0.564	BP	Dentate Gyrus
+GO:0031347	1	GO:0006954	1.69439943993515	0	regulation of defense response	inflammatory response	0.803364705882353	0.38275	0.74	BP	Dentate Gyrus
+GO:0030212	22	GO:0030212	1.6551024268508	9	hyaluronan metabolic process	hyaluronan metabolic process	0.963117647058824	1	0	BP	Dentate Gyrus
+GO:0002063	17	GO:0001501	1.6551024268508	17	chondrocyte development	skeletal system development	0.912635294117647	0.6205	0.759	BP	Dentate Gyrus
+GO:0009617	15	GO:0045087	1.6551024268508	116	response to bacterium	innate immune response	0.882035294117647	0.501	0.777	BP	Dentate Gyrus
+GO:0045737	21	GO:0045737	1.6551024268508	40	positive regulation of cyclin-dependent protein serine/threonine kinase activity	positive regulation of cyclin-dependent protein serine/threonine kinase activity	0.868470588235294	0.4416	0	BP	Dentate Gyrus
+GO:0050729	1	GO:0006954	1.6551024268508	118	positive regulation of inflammatory response	inflammatory response	0.785211764705882	0.35975	0.827	BP	Dentate Gyrus
+GO:0032731	14	GO:0001819	1.6551024268508	77	positive regulation of interleukin-1 beta production	positive regulation of cytokine production	0.816482352941176	0.312166666666667	0.775	BP	Dentate Gyrus
+GO:0071827	12	GO:0034368	1.6551024268508	0	plasma lipoprotein particle organization	protein-lipid complex remodeling	0.878	0.3058	0.968	BP	Dentate Gyrus
+GO:0001934	21	GO:0045737	1.65029701562431	219	positive regulation of protein phosphorylation	positive regulation of cyclin-dependent protein serine/threonine kinase activity	0.849552941176471	0.4318	0.74	BP	Dentate Gyrus
+GO:0035886	10	GO:0048514	1.5549993446548	3	vascular associated smooth muscle cell differentiation	blood vessel morphogenesis	0.889305882352941	0.368166666666667	0.704	BP	Dentate Gyrus
+GO:0032103	5	GO:0032102	1.51911397976211	0	positive regulation of response to external stimulus	negative regulation of response to external stimulus	0.779494117647059	0.546666666666667	0.82	BP	Dentate Gyrus
+GO:0006936	8	GO:0003073	1.51865964152942	81	muscle contraction	regulation of systemic arterial blood pressure	0.895235294117647	0.456714285714286	0.55	BP	Dentate Gyrus
+GO:1904031	21	GO:0045737	1.46183546191745	3	positive regulation of cyclin-dependent protein kinase activity	positive regulation of cyclin-dependent protein serine/threonine kinase activity	0.867811764705882	0.4398	0.995	BP	Dentate Gyrus
+GO:0050727	1	GO:0006954	1.46183546191745	102	regulation of inflammatory response	inflammatory response	0.794541176470588	0.31825	0.91	BP	Dentate Gyrus
+GO:0050731	21	GO:0045737	1.45720796480142	93	positive regulation of peptidyl-tyrosine phosphorylation	positive regulation of cyclin-dependent protein serine/threonine kinase activity	0.866470588235294	0.475	0.661	BP	Dentate Gyrus
+GO:0042730	16	GO:0050819	1.40840482381783	21	fibrinolysis	negative regulation of coagulation	0.691294117647059	0.5225	0.955	BP	Dentate Gyrus
+GO:0051386	7	GO:0071774	1.40840482381783	2	regulation of neurotrophin TRK receptor signaling pathway	response to fibroblast growth factor	0.849341176470588	0.470142857142857	0.581	BP	Dentate Gyrus
+GO:0070278	2	GO:0045229	1.40840482381783	4	extracellular matrix constituent secretion	external encapsulating structure organization	0.935176470588235	0.4185	0.775	BP	Dentate Gyrus
+GO:0050776	5	GO:0032102	1.40386603920493	32	regulation of immune response	negative regulation of response to external stimulus	0.832082352941177	0.600555555555556	0.515	BP	Dentate Gyrus
+GO:0001990	8	GO:0003073	1.40386603920493	0	regulation of systemic arterial blood pressure by hormone	regulation of systemic arterial blood pressure	0.8448	0.333428571428571	0.951	BP	Dentate Gyrus
+GO:0071825	12	GO:0034368	1.40386603920493	0	protein-lipid complex subunit organization	protein-lipid complex remodeling	0.941388235294118	0.3052	0.971	BP	Dentate Gyrus
+GO:0050878	13	GO:1900047	1.39202822679485	4	regulation of body fluid levels	negative regulation of hemostasis	0.889870588235294	0.314	0.847	BP	Dentate Gyrus
+GO:0051047	3	GO:1904064	1.37909103032894	5	positive regulation of secretion	positive regulation of cation transmembrane transport	0.893388235294118	0.3858	0.753	BP	Dentate Gyrus
+GO:0001817	14	GO:0001819	1.3784500467766	64	regulation of cytokine production	positive regulation of cytokine production	0.803235294117647	0.313666666666667	0.927	BP	Dentate Gyrus
+GO:0008015	8	GO:0003073	1.37804640506862	32	blood circulation	regulation of systemic arterial blood pressure	0.882658823529412	0.345857142857143	0.819	BP	Dentate Gyrus
+GO:1900046	13	GO:1900047	1.3772801875305	1	regulation of hemostasis	negative regulation of hemostasis	0.886529411764706	0.2364	0.976	BP	Dentate Gyrus
+GO:0030193	13	GO:1900047	1.3772801875305	10	regulation of blood coagulation	negative regulation of hemostasis	0.690388235294118	0.2364	0.975	BP	Dentate Gyrus
+GO:0007586	23	GO:0007586	1.37253337095854	26	digestion	digestion	0.931411764705882	1	0	BP	Dentate Gyrus
+GO:0032570	11	GO:0043278	1.36373758692239	33	response to progesterone	response to morphine	0.909941176470588	0.630666666666667	0.554	BP	Dentate Gyrus
+GO:2000379	21	GO:0045737	1.34818317634018	31	positive regulation of reactive oxygen species metabolic process	positive regulation of cyclin-dependent protein serine/threonine kinase activity	0.897129411764706	0.6518	0.396	BP	Dentate Gyrus
+GO:0052548	4	GO:0051346	1.34818317634018	8	regulation of endopeptidase activity	negative regulation of hydrolase activity	0.878082352941176	0.33675	0.801	BP	Dentate Gyrus
+GO:0032611	14	GO:0001819	1.34818317634018	0	interleukin-1 beta production	positive regulation of cytokine production	0.877505882352941	0.306166666666667	0.71	BP	Dentate Gyrus
+GO:0032651	14	GO:0001819	1.34818317634018	9	regulation of interleukin-1 beta production	positive regulation of cytokine production	0.832764705882353	0.3055	0.712	BP	Dentate Gyrus
+GO:0005539	1	GO:0005539	8.04378926596184	26	glycosaminoglycan binding	glycosaminoglycan binding	0.920730769230769	0.401333333333333	0	MF	Dentate Gyrus
+GO:0008201	1	GO:0005539	4.94179838784996	178	heparin binding	glycosaminoglycan binding	0.886884615384615	0.409666666666667	0.962	MF	Dentate Gyrus
+GO:0004888	2	GO:0004888	3.99360716841691	155	transmembrane signaling receptor activity	transmembrane signaling receptor activity	0.966115384615385	0.5595	0	MF	Dentate Gyrus
+GO:0030546	3	GO:0030546	3.99360716841691	3	signaling receptor activator activity	signaling receptor activator activity	0.776	0.352888888888889	0	MF	Dentate Gyrus
+GO:0048018	3	GO:0030546	3.79965467489585	67	receptor ligand activity	signaling receptor activator activity	0.757076923076923	0.353777777777778	0.987	MF	Dentate Gyrus
+GO:0030545	3	GO:0030546	3.43825680989174	4	signaling receptor regulator activity	signaling receptor activator activity	0.775807692307692	0.352333333333333	0.981	MF	Dentate Gyrus
+GO:0005201	4	GO:0005201	2.94717576087428	172	extracellular matrix structural constituent	extracellular matrix structural constituent	0.965961538461538	0.5575	0	MF	Dentate Gyrus
+GO:0004930	2	GO:0004888	2.53037587980349	685	G protein-coupled receptor activity	transmembrane signaling receptor activity	0.966115384615385	0.5595	0.881	MF	Dentate Gyrus
+GO:0008083	3	GO:0030546	2.34394292439799	180	growth factor activity	signaling receptor activator activity	0.784846153846154	0.427222222222222	0.847	MF	Dentate Gyrus
+GO:0019838	5	GO:0019838	2.3107309582567	37	growth factor binding	growth factor binding	0.978038461538462	1	0	MF	Dentate Gyrus
+GO:1901681	6	GO:1901681	2.15191944127102	0	sulfur compound binding	sulfur compound binding	0.952153846153846	1	0	MF	Dentate Gyrus
+GO:0005540	1	GO:0005539	2.04395402112272	29	hyaluronic acid binding	glycosaminoglycan binding	0.928269230769231	0.452333333333333	0.834	MF	Dentate Gyrus
+GO:0061135	3	GO:0030546	1.81809375595896	1	endopeptidase regulator activity	signaling receptor activator activity	0.772923076923077	0.344	0.604	MF	Dentate Gyrus
+GO:0004866	3	GO:0030546	1.81809375595896	39	endopeptidase inhibitor activity	signaling receptor activator activity	0.762615384615385	0.314222222222222	0.6	MF	Dentate Gyrus
+GO:0001228	7	GO:0001228	1.8008650616917	533	DNA-binding transcription activator activity, RNA polymerase II-specific	DNA-binding transcription activator activity, RNA polymerase II-specific	0.961884615384615	0.5045	0	MF	Dentate Gyrus
+GO:0001216	7	GO:0001228	1.78220685715321	15	DNA-binding transcription activator activity	DNA-binding transcription activator activity, RNA polymerase II-specific	0.961884615384615	0.5045	0.991	MF	Dentate Gyrus
+GO:0030414	3	GO:0030546	1.78220685715321	15	peptidase inhibitor activity	signaling receptor activator activity	0.763192307692308	0.315888888888889	0.604	MF	Dentate Gyrus
+GO:0050840	8	GO:0050840	1.70800603956641	30	extracellular matrix binding	extracellular matrix binding	0.988653846153846	1	0	MF	Dentate Gyrus
+GO:0008330	9	GO:0008330	1.66177446769717	12	protein tyrosine/threonine phosphatase activity	protein tyrosine/threonine phosphatase activity	0.977346153846154	0.7055	0	MF	Dentate Gyrus
+GO:0004867	3	GO:0030546	1.66177446769717	118	serine-type endopeptidase inhibitor activity	signaling receptor activator activity	0.775576923076923	0.351666666666667	0.559	MF	Dentate Gyrus
+GO:0071814	10	GO:0071814	1.56424130433712	0	protein-lipid complex binding	protein-lipid complex binding	0.9515	0.5005	0	MF	Dentate Gyrus
+GO:0071813	10	GO:0071814	1.56424130433712	7	lipoprotein particle binding	protein-lipid complex binding	0.9515	0.5005	0.999	MF	Dentate Gyrus
+GO:0030020	4	GO:0005201	1.5389222937037	76	extracellular matrix structural constituent conferring tensile strength	extracellular matrix structural constituent	0.965961538461538	0.5575	0.885	MF	Dentate Gyrus
+GO:0017017	9	GO:0008330	1.39948352805094	16	MAP kinase tyrosine/serine/threonine phosphatase activity	protein tyrosine/threonine phosphatase activity	0.977346153846154	0.7055	0.589	MF	Dentate Gyrus
+GO:0019955	11	GO:0019955	1.3884254637584	45	cytokine binding	cytokine binding	0.978153846153846	1	0	MF	Dentate Gyrus
+GO:0004857	3	GO:0030546	1.34726197906019	39	enzyme inhibitor activity	signaling receptor activator activity	0.772846153846154	0.343777777777778	0.642	MF	Dentate Gyrus
+GO:0031012	1	GO:0031012	8.93299797167092	240	extracellular matrix	extracellular matrix	0.54	0.351	0	CC	Dentate Gyrus
+GO:0030312	1	GO:0031012	8.93299797167092	0	external encapsulating structure	extracellular matrix	0.54	0.351	0.991	CC	Dentate Gyrus
+GO:0062023	1	GO:0031012	8.4173724216439	480	collagen-containing extracellular matrix	extracellular matrix	0.5492	0.362666666666667	0.956	CC	Dentate Gyrus
+GO:0009986	2	GO:0009986	2.31228848179466	722	cell surface	cell surface	0.8212	0.553	0	CC	Dentate Gyrus
+GO:0009897	2	GO:0009986	1.45303558340967	454	external side of plasma membrane	cell surface	0.6116	0.553	0.894	CC	Dentate Gyrus
+GO:0045087	1	GO:0045087	3.72958940694808	527	innate immune response	innate immune response	0.698421568627451	0.370428571428571	0	BP	DLPFC
+GO:0006954	3	GO:0006954	3.55701810755274	419	inflammatory response	inflammatory response	0.902107843137255	0.485666666666667	0	BP	DLPFC
+GO:0001816	2	GO:0001816	3.55701810755274	7	cytokine production	cytokine production	0.811794117647059	0.269952380952381	0	BP	DLPFC
+GO:0001817	2	GO:0001816	3.55701810755274	64	regulation of cytokine production	cytokine production	0.760127450980392	0.269142857142857	0.985	BP	DLPFC
+GO:0001819	2	GO:0001816	3.51164216268554	66	positive regulation of cytokine production	cytokine production	0.731862745098039	0.279428571428571	0.925	BP	DLPFC
+GO:0002250	4	GO:0002250	3.2911866523793	434	adaptive immune response	adaptive immune response	0.748794117647059	0.428866666666667	0	BP	DLPFC
+GO:0002252	4	GO:0002250	3.2911866523793	0	immune effector process	adaptive immune response	0.759352941176471	0.379433333333333	0.564	BP	DLPFC
+GO:0050776	4	GO:0002250	2.79780674620472	32	regulation of immune response	adaptive immune response	0.674490196078431	0.373566666666667	0.727	BP	DLPFC
+GO:0002478	4	GO:0002250	2.72838299678766	0	antigen processing and presentation of exogenous peptide antigen	adaptive immune response	0.810588235294118	0.510266666666667	0.429	BP	DLPFC
+GO:0002443	4	GO:0002250	2.72388211688765	1	leukocyte mediated immunity	adaptive immune response	0.763470588235294	0.389966666666667	0.53	BP	DLPFC
+GO:0050778	4	GO:0002250	2.62408883541775	20	positive regulation of immune response	adaptive immune response	0.651558823529412	0.371966666666667	0.707	BP	DLPFC
+GO:0032640	2	GO:0001816	2.62408883541775	0	tumor necrosis factor production	cytokine production	0.826088235294118	0.307428571428571	0.779	BP	DLPFC
+GO:0032680	2	GO:0001816	2.62408883541775	12	regulation of tumor necrosis factor production	cytokine production	0.783421568627451	0.306428571428571	0.779	BP	DLPFC
+GO:0002460	4	GO:0002250	2.55466799677891	0	adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	adaptive immune response	0.757754901960784	0.444333333333333	0.934	BP	DLPFC
+GO:0071706	2	GO:0001816	2.55466799677891	0	tumor necrosis factor superfamily cytokine production	cytokine production	0.825696078431372	0.306095238095238	0.781	BP	DLPFC
+GO:1903555	2	GO:0001816	2.55466799677891	0	regulation of tumor necrosis factor superfamily cytokine production	cytokine production	0.782843137254902	0.304952380952381	0.781	BP	DLPFC
+GO:0019884	4	GO:0002250	2.54040469239198	2	antigen processing and presentation of exogenous antigen	adaptive immune response	0.810186274509804	0.509066666666667	0.434	BP	DLPFC
+GO:0032602	2	GO:0001816	2.54040469239198	1	chemokine production	cytokine production	0.833637254901961	0.339	0.747	BP	DLPFC
+GO:0032642	2	GO:0001816	2.54040469239198	4	regulation of chemokine production	cytokine production	0.792509803921569	0.338142857142857	0.746	BP	DLPFC
+GO:0048002	4	GO:0002250	2.40720081543991	3	antigen processing and presentation of peptide antigen	adaptive immune response	0.79906862745098	0.483233333333333	0.468	BP	DLPFC
+GO:0032102	5	GO:0032102	2.40720081543991	0	negative regulation of response to external stimulus	negative regulation of response to external stimulus	0.825803921568627	0.4792	0	BP	DLPFC
+GO:0002683	4	GO:0002250	2.40720081543991	1	negative regulation of immune system process	adaptive immune response	0.736823529411765	0.458666666666667	0.542	BP	DLPFC
+GO:0002449	4	GO:0002250	2.40720081543991	0	lymphocyte mediated immunity	adaptive immune response	0.76656862745098	0.396733333333333	0.517	BP	DLPFC
+GO:0006956	4	GO:0002250	2.38395869102811	29	complement activation	adaptive immune response	0.675205882352941	0.3688	0.571	BP	DLPFC
+GO:0072567	2	GO:0001816	2.31407145069608	0	chemokine (C-X-C motif) ligand 2 production	cytokine production	0.851264705882353	0.406380952380952	0.637	BP	DLPFC
+GO:2000341	2	GO:0001816	2.31407145069608	3	regulation of chemokine (C-X-C motif) ligand 2 production	cytokine production	0.81528431372549	0.405333333333333	0.637	BP	DLPFC
+GO:0032760	2	GO:0001816	2.30680286030052	114	positive regulation of tumor necrosis factor production	cytokine production	0.759754901960784	0.315714285714286	0.737	BP	DLPFC
+GO:0002697	4	GO:0002250	2.26634729127477	0	regulation of immune effector process	adaptive immune response	0.717362745098039	0.358333333333333	0.531	BP	DLPFC
+GO:1903557	2	GO:0001816	2.20934794690401	0	positive regulation of tumor necrosis factor superfamily cytokine production	cytokine production	0.758882352941177	0.313571428571429	0.74	BP	DLPFC
+GO:0035082	6	GO:0035082	2.04091429790289	32	axoneme assembly	axoneme assembly	0.956382352941177	0.5185	0	BP	DLPFC
+GO:0032729	2	GO:0001816	2.04041173977372	90	positive regulation of type II interferon production	cytokine production	0.772333333333333	0.368571428571429	0.722	BP	DLPFC
+GO:0150146	7	GO:0150146	2.00540077814486	0	cell junction disassembly	cell junction disassembly	0.975401960784314	1	0	BP	DLPFC
+GO:0031347	3	GO:0006954	1.91295094194998	0	regulation of defense response	inflammatory response	0.830176470588235	0.553666666666667	0.74	BP	DLPFC
+GO:0002504	4	GO:0002250	1.91295094194998	1	antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	adaptive immune response	0.808470588235294	0.504966666666667	0.439	BP	DLPFC
+GO:0002699	4	GO:0002250	1.91295094194998	0	positive regulation of immune effector process	adaptive immune response	0.699205882352941	0.367466666666667	0.51	BP	DLPFC
+GO:0002526	3	GO:0006954	1.88974287943887	18	acute inflammatory response	inflammatory response	0.917352941176471	0.532666666666667	0.803	BP	DLPFC
+GO:0060285	8	GO:0060285	1.83951002460052	15	cilium-dependent cell motility	cilium-dependent cell motility	0.984421568627451	0.5005	0	BP	DLPFC
+GO:0001539	8	GO:0060285	1.83951002460052	0	cilium or flagellum-dependent cell motility	cilium-dependent cell motility	0.984421568627451	0.5005	0.999	BP	DLPFC
+GO:0002831	1	GO:0045087	1.81245323945264	0	regulation of response to biotic stimulus	innate immune response	0.835088235294118	0.318714285714286	0.749	BP	DLPFC
+GO:0032606	2	GO:0001816	1.78862628007786	0	type I interferon production	cytokine production	0.839254901960784	0.367809523809524	0.756	BP	DLPFC
+GO:0032479	2	GO:0001816	1.78862628007786	9	regulation of type I interferon production	cytokine production	0.797539215686275	0.366428571428571	0.756	BP	DLPFC
+GO:0043062	6	GO:0035082	1.78490706355408	1	extracellular structure organization	axoneme assembly	0.964617647058824	0.619166666666667	0.318	BP	DLPFC
+GO:0030198	6	GO:0035082	1.78490706355408	161	extracellular matrix organization	axoneme assembly	0.958225490196078	0.5105	0.318	BP	DLPFC
+GO:0035886	9	GO:0035886	1.78490706355408	3	vascular associated smooth muscle cell differentiation	vascular associated smooth muscle cell differentiation	0.913098039215686	0.4158	0	BP	DLPFC
+GO:0032609	2	GO:0001816	1.78490706355408	0	type II interferon production	cytokine production	0.840088235294118	0.370809523809524	0.75	BP	DLPFC
+GO:0032649	2	GO:0001816	1.78490706355408	5	regulation of type II interferon production	cytokine production	0.798705882352941	0.369571428571429	0.75	BP	DLPFC
+GO:0045229	6	GO:0035082	1.76494668919287	0	external encapsulating structure organization	axoneme assembly	0.964617647058824	0.619166666666667	0.318	BP	DLPFC
+GO:0007340	10	GO:0007340	1.73457974998309	19	acrosome reaction	acrosome reaction	1	1	0	BP	DLPFC
+GO:0007584	5	GO:0032102	1.73457974998309	56	response to nutrient	negative regulation of response to external stimulus	0.906362745098039	0.545	0.49	BP	DLPFC
+GO:0016064	4	GO:0002250	1.73457974998309	20	immunoglobulin mediated immune response	adaptive immune response	0.735	0.3737	0.859	BP	DLPFC
+GO:0019724	4	GO:0002250	1.73457974998309	4	B cell mediated immunity	adaptive immune response	0.734421568627451	0.3724	0.862	BP	DLPFC
+GO:0002224	1	GO:0045087	1.73457974998309	31	toll-like receptor signaling pathway	innate immune response	0.665774509803922	0.363428571428571	0.763	BP	DLPFC
+GO:0050922	5	GO:0032102	1.71780844642591	4	negative regulation of chemotaxis	negative regulation of response to external stimulus	0.844558823529412	0.5266	0.841	BP	DLPFC
+GO:0050867	11	GO:0050867	1.71297669832405	3	positive regulation of cell activation	positive regulation of cell activation	0.78778431372549	0.38525	0	BP	DLPFC
+GO:0002221	4	GO:0002250	1.70567466179779	13	pattern recognition receptor signaling pathway	adaptive immune response	0.63328431372549	0.4223	0.624	BP	DLPFC
+GO:0002764	4	GO:0002250	1.70457859616061	1	immune response-regulating signaling pathway	adaptive immune response	0.686392156862745	0.4092	0.672	BP	DLPFC
+GO:0019882	4	GO:0002250	1.70147002919661	24	antigen processing and presentation	adaptive immune response	0.795774509803922	0.474966666666667	0.482	BP	DLPFC
+GO:0033273	5	GO:0032102	1.6963962445329	1	response to vitamin	negative regulation of response to external stimulus	0.909637254901961	0.5548	0.47	BP	DLPFC
+GO:0034142	1	GO:0045087	1.6963962445329	19	toll-like receptor 4 signaling pathway	innate immune response	0.681039215686275	0.388857142857143	0.723	BP	DLPFC
+GO:0031341	12	GO:0031341	1.6963962445329	0	regulation of cell killing	regulation of cell killing	0.923480392156863	0.2695	0	BP	DLPFC
+GO:0070663	13	GO:0070663	1.6963962445329	2	regulation of leukocyte proliferation	regulation of leukocyte proliferation	0.906254901960784	0.238833333333333	0	BP	DLPFC
+GO:1904018	9	GO:0035886	1.6865824290381	1	positive regulation of vasculature development	vascular associated smooth muscle cell differentiation	0.802627450980392	0.3942	0.622	BP	DLPFC
+GO:0045766	9	GO:0035886	1.6865824290381	178	positive regulation of angiogenesis	vascular associated smooth muscle cell differentiation	0.802529411764706	0.3914	0.621	BP	DLPFC
+GO:0032722	2	GO:0001816	1.6865824290381	44	positive regulation of chemokine production	cytokine production	0.766098039215686	0.337095238095238	0.72	BP	DLPFC
+GO:0019886	4	GO:0002250	1.67812437439332	41	antigen processing and presentation of exogenous peptide antigen via MHC class II	adaptive immune response	0.811274509803922	0.510033333333333	0.42	BP	DLPFC
+GO:0006958	4	GO:0002250	1.67812437439332	33	complement activation, classical pathway	adaptive immune response	0.680735294117647	0.359333333333333	0.763	BP	DLPFC
+GO:1905954	14	GO:1905954	1.6675851405547	0	positive regulation of lipid localization	positive regulation of lipid localization	0.917892156862745	1	0	BP	DLPFC
+GO:0042730	5	GO:0032102	1.66742745828679	21	fibrinolysis	negative regulation of response to external stimulus	0.766686274509804	0.5412	0.803	BP	DLPFC
+GO:0032944	13	GO:0070663	1.65810125851218	0	regulation of mononuclear cell proliferation	regulation of leukocyte proliferation	0.90671568627451	0.240833333333333	0.99	BP	DLPFC
+GO:0009617	1	GO:0045087	1.6547437177143	116	response to bacterium	innate immune response	0.889950980392157	0.443428571428571	0.777	BP	DLPFC
+GO:0002253	4	GO:0002250	1.64950419991588	2	activation of immune response	adaptive immune response	0.659019607843137	0.3833	0.681	BP	DLPFC
+GO:0032481	2	GO:0001816	1.64950419991588	25	positive regulation of type I interferon production	cytokine production	0.7705	0.364142857142857	0.729	BP	DLPFC
+GO:0070665	13	GO:0070663	1.64950419991588	6	positive regulation of leukocyte proliferation	regulation of leukocyte proliferation	0.869205882352941	0.265166666666667	0.954	BP	DLPFC
+GO:0001578	6	GO:0035082	1.63768758820003	38	microtubule bundle formation	axoneme assembly	0.959392156862745	0.518666666666667	0.983	BP	DLPFC
+GO:0035456	15	GO:0035456	1.60666105911243	14	response to interferon-beta	response to interferon-beta	0.942294117647059	1	0	BP	DLPFC
+GO:0001912	12	GO:0031341	1.60122808642193	1	positive regulation of leukocyte mediated cytotoxicity	regulation of cell killing	0.699872549019608	0.26775	0.963	BP	DLPFC
+GO:0009593	17	GO:0009593	1.55492463772381	1	detection of chemical stimulus	detection of chemical stimulus	0.922960784313726	0.5315	0	BP	DLPFC
+GO:0002501	16	GO:0002501	1.55492463772381	0	peptide antigen assembly with MHC protein complex	peptide antigen assembly with MHC protein complex	0.788441176470588	0.5045	0	BP	DLPFC
+GO:0002396	16	GO:0002501	1.55492463772381	0	MHC protein complex assembly	peptide antigen assembly with MHC protein complex	0.963990196078431	0.5045	0.991	BP	DLPFC
+GO:0030449	4	GO:0002250	1.55492463772381	8	regulation of complement activation	adaptive immune response	0.696735294117647	0.408466666666667	0.518	BP	DLPFC
+GO:0006959	4	GO:0002250	1.55374247497334	60	humoral immune response	adaptive immune response	0.764019607843137	0.461	0.63	BP	DLPFC
+GO:0031343	12	GO:0031341	1.54417414863039	1	positive regulation of cell killing	regulation of cell killing	0.887852941176471	0.269	0.969	BP	DLPFC
+GO:0050906	17	GO:0009593	1.5382859852282	2	detection of stimulus involved in sensory perception	detection of chemical stimulus	0.864735294117647	0.5315	0.937	BP	DLPFC
+GO:1903707	4	GO:0002250	1.5382859852282	2	negative regulation of hemopoiesis	adaptive immune response	0.677519607843137	0.5261	0.464	BP	DLPFC
+GO:0002495	4	GO:0002250	1.5382859852282	3	antigen processing and presentation of peptide antigen via MHC class II	adaptive immune response	0.807598039215686	0.503	0.438	BP	DLPFC
+GO:0002720	4	GO:0002250	1.53802712136276	14	positive regulation of cytokine production involved in immune response	adaptive immune response	0.583019607843137	0.4236	0.557	BP	DLPFC
+GO:0002705	4	GO:0002250	1.53802712136276	0	positive regulation of leukocyte mediated immunity	adaptive immune response	0.705529411764706	0.3764	0.483	BP	DLPFC
+GO:0001910	12	GO:0031341	1.5253302143102	1	regulation of leukocyte mediated cytotoxicity	regulation of cell killing	0.716892156862745	0.26925	0.99	BP	DLPFC
+GO:0070661	13	GO:0070663	1.51634067672784	2	leukocyte proliferation	regulation of leukocyte proliferation	0.951137254901961	0.259333333333333	0.966	BP	DLPFC
+GO:0042116	11	GO:0050867	1.5114328424041	20	macrophage activation	positive regulation of cell activation	0.767803921568627	0.524	0.661	BP	DLPFC
+GO:0070286	6	GO:0035082	1.5034010623849	20	axonemal dynein complex assembly	axoneme assembly	0.955901960784314	0.534333333333333	0.952	BP	DLPFC
+GO:0001818	2	GO:0001816	1.47783668606976	33	negative regulation of cytokine production	cytokine production	0.765549019607843	0.331333333333333	0.874	BP	DLPFC
+GO:0050670	13	GO:0070663	1.38421266038188	0	regulation of lymphocyte proliferation	regulation of leukocyte proliferation	0.632764705882353	0.241666666666667	0.988	BP	DLPFC
+GO:0031295	11	GO:0050867	1.38116519570172	42	T cell costimulation	positive regulation of cell activation	0.692509803921569	0.455	0.806	BP	DLPFC
+GO:0002455	4	GO:0002250	1.38116519570172	4	humoral immune response mediated by circulating immunoglobulin	adaptive immune response	0.749254901960784	0.399	0.778	BP	DLPFC
+GO:0001568	9	GO:0035886	1.38116519570172	41	blood vessel development	vascular associated smooth muscle cell differentiation	0.900627450980392	0.3938	0.712	BP	DLPFC
+GO:0045824	1	GO:0045087	1.36289533385984	24	negative regulation of innate immune response	innate immune response	0.688598039215686	0.348	0.754	BP	DLPFC
+GO:0032026	18	GO:0032026	1.34427550034966	12	response to magnesium ion	response to magnesium ion	0.944627450980392	1	0	BP	DLPFC
+GO:0050678	13	GO:0070663	1.34427550034966	18	regulation of epithelial cell proliferation	regulation of leukocyte proliferation	0.917627450980392	0.454166666666667	0.669	BP	DLPFC
+GO:1905063	9	GO:0035886	1.34427550034966	0	regulation of vascular associated smooth muscle cell differentiation	vascular associated smooth muscle cell differentiation	0.891637254901961	0.4312	0.966	BP	DLPFC
+GO:0002696	11	GO:0050867	1.34427550034966	0	positive regulation of leukocyte activation	positive regulation of cell activation	0.628970588235294	0.37975	0.992	BP	DLPFC
+GO:0002832	1	GO:0045087	1.34410685524982	0	negative regulation of response to biotic stimulus	innate immune response	0.840794117647059	0.355142857142857	0.641	BP	DLPFC
+GO:0019838	2	GO:0019838	3.04987879246346	37	growth factor binding	growth factor binding	0.954857142857143	1	0	MF	DLPFC
+GO:0004888	1	GO:0004888	3.04987879246346	155	transmembrane signaling receptor activity	transmembrane signaling receptor activity	1	1	0	MF	DLPFC
+GO:0030020	4	GO:0030020	2.09495381509011	76	extracellular matrix structural constituent conferring tensile strength	extracellular matrix structural constituent conferring tensile strength	0.936785714285714	0.5575	0	MF	DLPFC
+GO:0030545	3	GO:0030545	2.09495381509011	4	signaling receptor regulator activity	signaling receptor regulator activity	0.860071428571429	0.347	0	MF	DLPFC
+GO:0023023	5	GO:0023023	1.90637640836761	0	MHC protein complex binding	MHC protein complex binding	0.915642857142857	0.5085	0	MF	DLPFC
+GO:0030546	3	GO:0030545	1.86583422850224	3	signaling receptor activator activity	signaling receptor regulator activity	0.859428571428571	0.344	0.981	MF	DLPFC
+GO:0005201	4	GO:0030020	1.77393209854157	172	extracellular matrix structural constituent	extracellular matrix structural constituent conferring tensile strength	0.936785714285714	0.5575	0.885	MF	DLPFC
+GO:0030246	6	GO:0030246	1.73529348661546	181	carbohydrate binding	carbohydrate binding	0.981642857142857	1	0	MF	DLPFC
+GO:0048018	3	GO:0030545	1.73529348661546	67	receptor ligand activity	signaling receptor regulator activity	0.810428571428572	0.345	0.978	MF	DLPFC
+GO:0001848	7	GO:0001848	1.68461452596811	6	complement binding	complement binding	0.959857142857143	1	0	MF	DLPFC
+GO:0023026	5	GO:0023023	1.68461452596811	33	MHC class II protein complex binding	MHC protein complex binding	0.915857142857143	0.5085	0.983	MF	DLPFC
+GO:0043394	8	GO:0043394	1.63811237205835	15	proteoglycan binding	proteoglycan binding	0.959285714285714	1	0	MF	DLPFC
+GO:0019955	9	GO:0019955	1.63811237205835	45	cytokine binding	cytokine binding	0.899714285714286	0.5625	0	MF	DLPFC
+GO:0019956	9	GO:0019955	1.44349963390345	5	chemokine binding	cytokine binding	0.904214285714286	0.5625	0.875	MF	DLPFC
+GO:0031012	1	GO:0031012	6.27450428232419	240	extracellular matrix	extracellular matrix	0.7845	0.351	0	CC	DLPFC
+GO:0030312	1	GO:0031012	6.27450428232419	0	external encapsulating structure	extracellular matrix	0.7845	0.351	0.991	CC	DLPFC
+GO:0009986	3	GO:0009986	5.46497861758332	722	cell surface	cell surface	0.9255	1	0	CC	DLPFC
+GO:0009897	2	GO:0009897	5.46497861758332	454	external side of plasma membrane	external side of plasma membrane	0.702	0.526	0	CC	DLPFC
+GO:0062023	1	GO:0031012	4.40670355629252	480	collagen-containing extracellular matrix	extracellular matrix	0.789	0.362666666666667	0.956	CC	DLPFC
+GO:0098552	2	GO:0009897	3.53282815008503	0	side of membrane	external side of plasma membrane	0.872083333333333	0.526	0.948	CC	DLPFC
+GO:0042611	5	GO:0042611	3.31557669874126	0	MHC protein complex	MHC protein complex	0.81925	1	0	CC	DLPFC
+GO:0005581	4	GO:0005581	3.31557669874126	60	collagen trimer	collagen trimer	0.953833333333333	0.846	0	CC	DLPFC
+GO:0072562	6	GO:0072562	1.87212984013033	141	blood microparticle	blood microparticle	1	1	0	CC	DLPFC
+GO:0043235	4	GO:0005581	1.87212984013033	248	receptor complex	collagen trimer	0.950666666666667	0.846	0.308	CC	DLPFC
+GO:0030667	7	GO:0030667	1.63639742255244	105	secretory granule membrane	secretory granule membrane	0.89625	0.67	0	CC	DLPFC
+GO:0030666	7	GO:0030667	1.59730954064534	71	endocytic vesicle membrane	secretory granule membrane	0.899083333333333	0.67	0.66	CC	DLPFC
+GO:0009617	1	GO:0009617	3.00982438558431	116	response to bacterium	response to bacterium	0.826845070422535	0.336166666666667	0	BP	Hippocampus
+GO:0006954	3	GO:0006954	2.53643836018126	419	inflammatory response	inflammatory response	0.903901408450704	1	0	BP	Hippocampus
+GO:0045087	4	GO:0045087	2.53643836018126	527	innate immune response	innate immune response	0.671732394366197	0.446363636363636	0	BP	Hippocampus
+GO:0001578	2	GO:0001578	2.53643836018126	38	microtubule bundle formation	microtubule bundle formation	0.965760563380282	0.4395	0	BP	Hippocampus
+GO:0035082	2	GO:0001578	2.53643836018126	32	axoneme assembly	microtubule bundle formation	0.965661971830986	0.43675	0.983	BP	Hippocampus
+GO:0050777	4	GO:0045087	2.53643836018126	13	negative regulation of immune response	innate immune response	0.708478873239437	0.415681818181818	0.633	BP	Hippocampus
+GO:0032640	5	GO:0032640	2.53643836018126	0	tumor necrosis factor production	tumor necrosis factor production	0.834661971830986	0.294333333333333	0	BP	Hippocampus
+GO:0032680	5	GO:0032640	2.53643836018126	12	regulation of tumor necrosis factor production	tumor necrosis factor production	0.797478873239437	0.293466666666667	0.999	BP	Hippocampus
+GO:0071706	5	GO:0032640	2.47232938067333	0	tumor necrosis factor superfamily cytokine production	tumor necrosis factor production	0.834338028169014	0.293133333333333	0.995	BP	Hippocampus
+GO:1903555	5	GO:0032640	2.47232938067333	0	regulation of tumor necrosis factor superfamily cytokine production	tumor necrosis factor production	0.797098591549296	0.292266666666667	0.995	BP	Hippocampus
+GO:0002832	6	GO:0002832	2.45741846425359	0	negative regulation of response to biotic stimulus	negative regulation of response to biotic stimulus	0.791014084507042	0.387333333333333	0	BP	Hippocampus
+GO:0002443	4	GO:0045087	2.45741846425359	1	leukocyte mediated immunity	innate immune response	0.771887323943662	0.337090909090909	0.556	BP	Hippocampus
+GO:0002252	4	GO:0045087	2.45741846425359	0	immune effector process	innate immune response	0.772140845070423	0.337	0.594	BP	Hippocampus
+GO:0002250	4	GO:0045087	2.30473062111133	434	adaptive immune response	innate immune response	0.762971830985916	0.41	0.72	BP	Hippocampus
+GO:0007600	7	GO:0007600	2.29661393331819	11	sensory perception	sensory perception	0.908929577464789	0.4308	0	BP	Hippocampus
+GO:0006959	4	GO:0045087	2.29661393331819	60	humoral immune response	innate immune response	0.771070422535211	0.424045454545455	0.661	BP	Hippocampus
+GO:0006956	4	GO:0045087	2.29661393331819	29	complement activation	innate immune response	0.681380281690141	0.3215	0.596	BP	Hippocampus
+GO:0002237	1	GO:0009617	2.29661393331819	9	response to molecule of bacterial origin	response to bacterium	0.832197183098592	0.303833333333333	0.914	BP	Hippocampus
+GO:0032609	5	GO:0032640	2.28453904910928	0	type II interferon production	tumor necrosis factor production	0.852098591549296	0.374666666666667	0.623	BP	Hippocampus
+GO:0032649	5	GO:0032640	2.28453904910928	5	regulation of type II interferon production	tumor necrosis factor production	0.816	0.373533333333333	0.623	BP	Hippocampus
+GO:0032760	5	GO:0032640	2.28453904910928	114	positive regulation of tumor necrosis factor production	tumor necrosis factor production	0.786943661971831	0.299533333333333	0.954	BP	Hippocampus
+GO:1903557	5	GO:0032640	2.17533046683749	0	positive regulation of tumor necrosis factor superfamily cytokine production	tumor necrosis factor production	0.786281690140845	0.2976	0.952	BP	Hippocampus
+GO:0032102	6	GO:0002832	2.16147226506253	0	negative regulation of response to external stimulus	negative regulation of response to biotic stimulus	0.796478873239437	0.467666666666667	0.614	BP	Hippocampus
+GO:0050679	8	GO:0050679	2.08798826655224	71	positive regulation of epithelial cell proliferation	positive regulation of epithelial cell proliferation	0.926704225352113	1	0	BP	Hippocampus
+GO:0001819	5	GO:0032640	2.07326100578672	66	positive regulation of cytokine production	tumor necrosis factor production	0.77530985915493	0.3044	0.74	BP	Hippocampus
+GO:0043269	9	GO:0043269	2.05887456240099	7	regulation of monoatomic ion transport	regulation of monoatomic ion transport	0.945605633802817	0.8285	0	BP	Hippocampus
+GO:0032729	5	GO:0032640	2.04000006958094	90	positive regulation of type II interferon production	tumor necrosis factor production	0.802647887323944	0.368866666666667	0.604	BP	Hippocampus
+GO:0070286	2	GO:0001578	1.92194159967555	20	axonemal dynein complex assembly	microtubule bundle formation	0.966661971830986	0.4525	0.936	BP	Hippocampus
+GO:0002455	4	GO:0045087	1.87162528326668	4	humoral immune response mediated by circulating immunoglobulin	innate immune response	0.73787323943662	0.310090909090909	0.557	BP	Hippocampus
+GO:0002698	4	GO:0045087	1.77659556791854	0	negative regulation of immune effector process	innate immune response	0.728239436619718	0.348272727272727	0.492	BP	Hippocampus
+GO:0002507	4	GO:0045087	1.68418426776178	2	tolerance induction	innate immune response	0.819577464788732	0.625863636363636	0.444	BP	Hippocampus
+GO:0032637	5	GO:0032640	1.68418426776178	1	interleukin-8 production	tumor necrosis factor production	0.853661971830986	0.380866666666667	0.613	BP	Hippocampus
+GO:0032677	5	GO:0032640	1.68418426776178	4	regulation of interleukin-8 production	tumor necrosis factor production	0.818140845070423	0.3798	0.613	BP	Hippocampus
+GO:0032757	5	GO:0032640	1.68418426776178	68	positive regulation of interleukin-8 production	tumor necrosis factor production	0.805549295774648	0.377133333333333	0.592	BP	Hippocampus
+GO:0002449	4	GO:0045087	1.68418426776178	0	lymphocyte mediated immunity	innate immune response	0.773492957746479	0.341	0.543	BP	Hippocampus
+GO:0016064	4	GO:0045087	1.68418426776178	20	immunoglobulin mediated immune response	innate immune response	0.731507042253521	0.303727272727273	0.618	BP	Hippocampus
+GO:0045824	6	GO:0002832	1.68418426776178	24	negative regulation of innate immune response	negative regulation of response to biotic stimulus	0.651901408450704	0.3035	0.959	BP	Hippocampus
+GO:0019724	4	GO:0045087	1.68418426776178	4	B cell mediated immunity	innate immune response	0.730943661971831	0.302363636363636	0.62	BP	Hippocampus
+GO:0031348	6	GO:0002832	1.67678444402383	0	negative regulation of defense response	negative regulation of response to biotic stimulus	0.816154929577465	0.4625	0.59	BP	Hippocampus
+GO:0003014	7	GO:0007600	1.6736321709651	10	renal system process	sensory perception	0.927760563380282	0.5958	0.602	BP	Hippocampus
+GO:0042044	9	GO:0043269	1.66829363883243	3	fluid transport	regulation of monoatomic ion transport	0.995169014084507	0.8285	0.343	BP	Hippocampus
+GO:0002920	4	GO:0045087	1.66829363883243	2	regulation of humoral immune response	innate immune response	0.742746478873239	0.440681818181818	0.564	BP	Hippocampus
+GO:0050776	4	GO:0045087	1.66829363883243	32	regulation of immune response	innate immune response	0.696070422535211	0.368727272727273	0.768	BP	Hippocampus
+GO:0001911	10	GO:0001911	1.66829363883243	0	negative regulation of leukocyte mediated cytotoxicity	negative regulation of leukocyte mediated cytotoxicity	0.719394366197183	0.368666666666667	0	BP	Hippocampus
+GO:0002704	4	GO:0045087	1.66334615555823	0	negative regulation of leukocyte mediated immunity	innate immune response	0.729971830985916	0.347818181818182	0.466	BP	Hippocampus
+GO:0002460	4	GO:0045087	1.65209172451931	0	adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	innate immune response	0.769211267605634	0.420863636363636	0.675	BP	Hippocampus
+GO:0071216	1	GO:0009617	1.65209172451931	0	cellular response to biotic stimulus	response to bacterium	0.865295774647887	0.3985	0.664	BP	Hippocampus
+GO:0031341	10	GO:0001911	1.65209172451931	0	regulation of cell killing	negative regulation of leukocyte mediated cytotoxicity	0.929647887323944	0.398	0.9	BP	Hippocampus
+GO:0002831	6	GO:0002832	1.61990833611684	0	regulation of response to biotic stimulus	negative regulation of response to biotic stimulus	0.795507042253521	0.442333333333333	0.859	BP	Hippocampus
+GO:0002683	4	GO:0045087	1.61990833611684	1	negative regulation of immune system process	innate immune response	0.747352112676056	0.427318181818182	0.57	BP	Hippocampus
+GO:0031342	10	GO:0001911	1.61990833611684	0	negative regulation of cell killing	negative regulation of leukocyte mediated cytotoxicity	0.908450704225352	0.366666666666667	0.994	BP	Hippocampus
+GO:0031664	1	GO:0009617	1.61990833611684	4	regulation of lipopolysaccharide-mediated signaling pathway	response to bacterium	0.79469014084507	0.312333333333333	0.726	BP	Hippocampus
+GO:0032496	1	GO:0009617	1.61990833611684	138	response to lipopolysaccharide	response to bacterium	0.83343661971831	0.303	0.901	BP	Hippocampus
+GO:0006958	4	GO:0045087	1.61990833611684	33	complement activation, classical pathway	innate immune response	0.678056338028169	0.289727272727273	0.546	BP	Hippocampus
+GO:0051606	11	GO:0051606	1.58651158706501	4	detection of stimulus	detection of stimulus	0.931042253521127	1	0	BP	Hippocampus
+GO:0045229	2	GO:0001578	1.54003663568767	0	external encapsulating structure organization	microtubule bundle formation	0.983915492957746	0.76425	0.323	BP	Hippocampus
+GO:0060285	12	GO:0060285	1.54003663568767	15	cilium-dependent cell motility	cilium-dependent cell motility	0.982704225352113	0.5005	0	BP	Hippocampus
+GO:0001539	12	GO:0060285	1.54003663568767	0	cilium or flagellum-dependent cell motility	cilium-dependent cell motility	0.982704225352113	0.5005	0.999	BP	Hippocampus
+GO:0031663	1	GO:0009617	1.54003663568767	43	lipopolysaccharide-mediated signaling pathway	response to bacterium	0.817225352112676	0.276833333333333	0.778	BP	Hippocampus
+GO:0046596	13	GO:0046596	1.53631804227572	18	regulation of viral entry into host cell	regulation of viral entry into host cell	0.884295774647887	0.393	0	BP	Hippocampus
+GO:0019233	7	GO:0007600	1.48059656829234	55	sensory perception of pain	sensory perception	0.917605633802817	0.4336	0.798	BP	Hippocampus
+GO:0075294	13	GO:0046596	1.48059656829234	0	positive regulation by symbiont of entry into host	regulation of viral entry into host cell	0.874154929577465	0.365333333333333	0.904	BP	Hippocampus
+GO:0046598	13	GO:0046596	1.48059656829234	14	positive regulation of viral entry into host cell	regulation of viral entry into host cell	0.873971830985916	0.361	0.917	BP	Hippocampus
+GO:0030449	4	GO:0045087	1.48059656829234	8	regulation of complement activation	innate immune response	0.69787323943662	0.349909090909091	0.539	BP	Hippocampus
+GO:0002707	4	GO:0045087	1.48059656829234	0	negative regulation of lymphocyte mediated immunity	innate immune response	0.73043661971831	0.346909090909091	0.46	BP	Hippocampus
+GO:0002697	4	GO:0045087	1.40376183595887	0	regulation of immune effector process	innate immune response	0.732169014084507	0.322863636363636	0.558	BP	Hippocampus
+GO:0032635	5	GO:0032640	1.39855383607872	0	interleukin-6 production	tumor necrosis factor production	0.854366197183099	0.387533333333333	0.641	BP	Hippocampus
+GO:0032675	5	GO:0032640	1.39855383607872	12	regulation of interleukin-6 production	tumor necrosis factor production	0.817323943661972	0.386333333333333	0.641	BP	Hippocampus
+GO:0051931	7	GO:0007600	1.37546149255537	0	regulation of sensory perception	sensory perception	0.866084507042254	0.4408	0.723	BP	Hippocampus
+GO:0051930	7	GO:0007600	1.37546149255537	30	regulation of sensory perception of pain	sensory perception	0.861788732394366	0.3798	0.723	BP	Hippocampus
+GO:0034134	6	GO:0002832	1.35937602093495	6	toll-like receptor 2 signaling pathway	negative regulation of response to biotic stimulus	0.696028169014085	0.456666666666667	0.654	BP	Hippocampus
+GO:0004888	1	GO:0004888	3.13166878569295	155	transmembrane signaling receptor activity	transmembrane signaling receptor activity	0.924444444444444	0.66	0	MF	Hippocampus
+GO:0019838	3	GO:0019838	2.07712997488099	37	growth factor binding	growth factor binding	0.955444444444444	1	0	MF	Hippocampus
+GO:0005539	2	GO:0005539	2.07712997488099	26	glycosaminoglycan binding	glycosaminoglycan binding	0.878444444444444	0.678666666666667	0	MF	Hippocampus
+GO:0043394	2	GO:0005539	2.07712997488099	15	proteoglycan binding	glycosaminoglycan binding	0.811333333333333	0.518666666666667	0.497	MF	Hippocampus
+GO:0140375	1	GO:0004888	1.70262120609688	1	immune receptor activity	transmembrane signaling receptor activity	0.924444444444444	0.66	0.68	MF	Hippocampus
+GO:0019840	4	GO:0019840	1.70262120609688	0	isoprenoid binding	isoprenoid binding	0.873111111111111	0.5005	0	MF	Hippocampus
+GO:0005501	4	GO:0019840	1.70262120609688	8	retinoid binding	isoprenoid binding	0.873111111111111	0.5005	0.999	MF	Hippocampus
+GO:0019955	5	GO:0019955	1.48080438411118	45	cytokine binding	cytokine binding	0.955444444444444	1	0	MF	Hippocampus
+GO:0043395	2	GO:0005539	1.44931280381789	18	heparan sulfate proteoglycan binding	glycosaminoglycan binding	0.816444444444444	0.528666666666667	0.467	MF	Hippocampus
+GO:0031012	1	GO:0031012	3.34375527894625	240	extracellular matrix	extracellular matrix	0.804294117647059	0.328	0	CC	Hippocampus
+GO:0030312	1	GO:0031012	3.34375527894625	0	external encapsulating structure	extracellular matrix	0.804294117647059	0.328	0.991	CC	Hippocampus
+GO:0005930	2	GO:0005930	3.11703014850997	151	axoneme	axoneme	0.763470588235294	0.244	0	CC	Hippocampus
+GO:0097014	2	GO:0005930	3.11703014850997	1	ciliary plasm	axoneme	0.763352941176471	0.2436	0.997	CC	Hippocampus
+GO:0062023	1	GO:0031012	2.97652152919911	480	collagen-containing extracellular matrix	extracellular matrix	0.805411764705882	0.328	0.956	CC	Hippocampus
+GO:0030666	3	GO:0030666	1.8287073128867	71	endocytic vesicle membrane	endocytic vesicle membrane	0.894823529411765	0.67	0	CC	Hippocampus
+GO:0098552	4	GO:0098552	1.70260864897527	0	side of membrane	side of membrane	0.909705882352941	0.526	0	CC	Hippocampus
+GO:0009897	4	GO:0098552	1.59857389131131	454	external side of plasma membrane	side of membrane	0.773823529411765	0.526	0.948	CC	Hippocampus
+GO:0005858	2	GO:0005930	1.59857389131131	14	axonemal dynein complex	axoneme	0.76164705882353	0.3252	0.861	CC	Hippocampus
+GO:0009986	5	GO:0009986	1.48977605563543	722	cell surface	cell surface	0.947411764705882	1	0	CC	Hippocampus
+GO:0005581	8	GO:0005581	1.34264205048925	60	collagen trimer	collagen trimer	0.971235294117647	1	0	CC	Hippocampus
+GO:0042611	7	GO:0042611	1.34264205048925	0	MHC protein complex	MHC protein complex	0.862294117647059	1	0	CC	Hippocampus
+GO:0072562	6	GO:0072562	1.34264205048925	141	blood microparticle	blood microparticle	1	1	0	CC	Hippocampus
+GO:0030667	3	GO:0030666	1.34264205048925	105	secretory granule membrane	endocytic vesicle membrane	0.890823529411765	0.67	0.66	CC	Hippocampus
+GO:0098644	1	GO:0031012	1.34264205048925	0	complex of collagen trimers	extracellular matrix	0.837941176470588	0.4355	0.741	CC	Hippocampus
+GO:0099568	2	GO:0005930	1.34264205048925	0	cytoplasmic region	axoneme	0.76664705882353	0.2568	0.955	CC	Hippocampus
+GO:0032838	2	GO:0005930	1.34264205048925	0	plasma membrane bounded cell projection cytoplasm	axoneme	0.764705882352941	0.2496	0.967	CC	Hippocampus
