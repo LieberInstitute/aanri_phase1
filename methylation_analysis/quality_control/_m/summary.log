@@ -1,0 +1,119 @@
+**** Job starts ****
+Wed Sep 20 18:47:52 EDT 2023
+**** JHPCE info ****
+User: jbenjami
+Job id: 3728189
+Job name: vmr_corr_snps
+Hostname: compute-103.cm.cluster
+Loading conda_R/4.3.x
+
+The following have been reloaded with a version change:
+  1) gcc/4.4.7 => gcc/9.1.0
+
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) COMMUNITY_CENTOS7_DEFAULT_ENV   9) conda/3-4.11.0
+  2) stata/17          6) JHPCE_CENTOS7_DEFAULT_ENV      10) conda_R/4.3.x
+  3) JHPCE_tools/1.0   7) python/3.9.10                  11) gcc/9.1.0
+  4) sge/8.1.9         8) emacs/28.1                     12) pandoc/2.7.3
+
+ 
+
+**** Annotate VMRs ****
+WARNING: ignoring environment value of R_HOME
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[1] "Caudate"
+# A tibble: 1 × 2
+  p.bonf.cat     n
+  <fct>      <int>
+1 > 0.05        50
+# A tibble: 3 × 12
+  SNP_PCs VMR_PCs term    estimate std.error statistic p.value p.bonf p.bonf.sig
+  <chr>   <chr>   <chr>      <dbl>     <dbl>     <dbl>   <dbl>  <dbl> <lgl>     
+1 snpPC10 PC1     VMR_var -5.89e-6   2.71e-6     -2.17  0.0327  1     FALSE     
+2 snpPC10 PC5     VMR_var -1.45e-5   7.17e-6     -2.03  0.0457  1     FALSE     
+3 snpPC7  PC1     VMR_var  8.76e-6   3.58e-6      2.44  0.0166  0.828 FALSE     
+# ℹ 3 more variables: p.bonf.cat <fct>, p.fdr <dbl>, log.p.bonf <dbl>
+[1] "DLPFC"
+# A tibble: 1 × 2
+  p.bonf.cat     n
+  <fct>      <int>
+1 > 0.05        50
+# A tibble: 2 × 12
+  SNP_PCs VMR_PCs term    estimate std.error statistic p.value p.bonf p.bonf.sig
+  <chr>   <chr>   <chr>      <dbl>     <dbl>     <dbl>   <dbl>  <dbl> <lgl>     
+1 snpPC3  PC1     VMR_var -6.94e-6   2.93e-6     -2.37  0.0207      1 FALSE     
+2 snpPC8  PC1     VMR_var -4.13e-6   1.91e-6     -2.16  0.0342      1 FALSE     
+# ℹ 3 more variables: p.bonf.cat <fct>, p.fdr <dbl>, log.p.bonf <dbl>
+[1] "Hippocampus"
+# A tibble: 1 × 2
+  p.bonf.cat     n
+  <fct>      <int>
+1 > 0.05        50
+# A tibble: 2 × 12
+  SNP_PCs VMR_PCs term    estimate std.error statistic p.value p.bonf p.bonf.sig
+  <chr>   <chr>   <chr>      <dbl>     <dbl>     <dbl>   <dbl>  <dbl> <lgl>     
+1 snpPC4  PC3     VMR_var -1.06e-5   4.53e-6     -2.35  0.0217      1 FALSE     
+2 snpPC7  PC4     VMR_var  1.65e-5   8.20e-6      2.01  0.0483      1 FALSE     
+# ℹ 3 more variables: p.bonf.cat <fct>, p.fdr <dbl>, log.p.bonf <dbl>
+[1] "Reproducibility information:"
+[1] "2023-09-20 18:48:09 EDT"
+   user  system elapsed 
+  2.922   0.262   7.181 
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.3.1 Patched (2023-09-15 r85179)
+ os       CentOS Linux 7 (Core)
+ system   x86_64, linux-gnu
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       US/Eastern
+ date     2023-09-20
+ pandoc   2.7.3 @ /jhpce/shared/jhpce/core/pandoc/2.7.3/bin/pandoc
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package     * version date (UTC) lib source
+ backports     1.4.1   2021-12-13 [2] CRAN (R 4.3.0)
+ broom         1.0.5   2023-06-09 [2] CRAN (R 4.3.1)
+ cli           3.6.1   2023-03-23 [2] CRAN (R 4.3.0)
+ data.table    1.14.8  2023-02-17 [2] CRAN (R 4.3.0)
+ dplyr       * 1.1.3   2023-09-03 [2] CRAN (R 4.3.1)
+ fansi         1.0.4   2023-01-22 [2] CRAN (R 4.3.0)
+ generics      0.1.3   2022-07-05 [2] CRAN (R 4.3.0)
+ glue          1.6.2   2022-02-24 [2] CRAN (R 4.3.0)
+ here          1.0.1   2020-12-13 [2] CRAN (R 4.3.0)
+ lifecycle     1.0.3   2022-10-07 [2] CRAN (R 4.3.0)
+ magrittr      2.0.3   2022-03-30 [2] CRAN (R 4.3.0)
+ pillar        1.9.0   2023-03-22 [2] CRAN (R 4.3.0)
+ pkgconfig     2.0.3   2019-09-22 [2] CRAN (R 4.3.0)
+ purrr         1.0.2   2023-08-10 [2] CRAN (R 4.3.1)
+ R6            2.5.1   2021-08-19 [2] CRAN (R 4.3.0)
+ rlang         1.1.1   2023-04-28 [2] CRAN (R 4.3.0)
+ rprojroot     2.0.3   2022-04-02 [2] CRAN (R 4.3.0)
+ sessioninfo   1.2.2   2021-12-06 [2] CRAN (R 4.3.0)
+ tibble        3.2.1   2023-03-20 [2] CRAN (R 4.3.0)
+ tidyr         1.3.0   2023-01-24 [2] CRAN (R 4.3.0)
+ tidyselect    1.2.0   2022-10-10 [2] CRAN (R 4.3.0)
+ utf8          1.2.3   2023-01-31 [2] CRAN (R 4.3.0)
+ vctrs         0.6.3   2023-06-14 [2] CRAN (R 4.3.1)
+ withr         2.5.0   2022-03-03 [2] CRAN (R 4.3.0)
+
+ [1] /users/jbenjami/R/4.3.x
+ [2] /jhpce/shared/jhpce/core/conda/miniconda3-4.11.0/envs/svnR-4.3.x/R/4.3.x/lib64/R/site-library
+ [3] /jhpce/shared/jhpce/core/conda/miniconda3-4.11.0/envs/svnR-4.3.x/R/4.3.x/lib64/R/library
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+**** Job ends ****
+Wed Sep 20 18:48:18 EDT 2023
