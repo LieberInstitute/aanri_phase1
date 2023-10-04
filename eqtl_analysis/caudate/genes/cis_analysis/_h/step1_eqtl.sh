@@ -4,7 +4,6 @@
 #$ -N cis_tensorqtl
 #$ -o ./summary.log
 #$ -e ./summary.log
-#$ -m e
 
 echo "**** Job starts ****"
 date
