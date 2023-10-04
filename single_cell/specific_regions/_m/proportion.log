@@ -1,0 +1,38 @@
+**** Job starts ****
+Sun Sep 24 12:05:01 EDT 2023
+**** JHPCE info ****
+User: jbenjami
+Job id: 3741416
+Job name: prop_transfer
+Hostname: compute-124.cm.cluster
+Loading conda_R/4.3.x
+
+The following have been reloaded with a version change:
+  1) gcc/4.4.7 => gcc/9.1.0
+
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) COMMUNITY_CENTOS7_DEFAULT_ENV   9) conda/3-4.11.0
+  2) stata/17          6) JHPCE_CENTOS7_DEFAULT_ENV      10) conda_R/4.3.x
+  3) JHPCE_tools/1.0   7) python/3.9.10                  11) gcc/9.1.0
+  4) sge/8.1.9         8) emacs/28.1                     12) pandoc/2.7.3
+
+ 
+
+**** Run cell type proportions ****
+WARNING: ignoring environment value of R_HOME
+Registered S3 methods overwritten by 'zellkonverter':
+  method                                             from      
+  py_to_r.numpy.ndarray                              reticulate
+  py_to_r.pandas.core.arrays.categorical.Categorical reticulate
+ℹ Using stored X_name value 'counts'
+Performing arcsin square root transformation of proportions
+group variable has > 2 levels, ANOVA will be performed
+[1] "Micro"
+[1] BaselineProp   PropMean.DLPFC PropMean.HPC   PropMean.NAc   Fstatistic    
+[6] P.Value        FDR           
+<0 rows> (or 0-length row.names)
+terminate called without an active exception
+/cm/local/apps/sge/sge-8.1.9/default/spool/compute-124/job_scripts/3741416: line 27: 93101 Aborted                 (core dumped) Rscript ../_h/05.cell_proportion.R
+**** Job ends ****
+Sun Sep 24 12:06:23 EDT 2023
