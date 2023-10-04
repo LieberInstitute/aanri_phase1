@@ -67,7 +67,7 @@ cov  <- cov[is.element(rownames(cov),id),]
                                         # regress out covariates
 res <- p
 for(i in 1:length(genes)){
-	d       <- as.data.frame(cbind(y=p[,i],cov))
+    d       <- as.data.frame(cbind(y=p[,i],cov))
 	model   <- lm(y ~ .,data=d)
 	res[,i] <- resid(model)
 }

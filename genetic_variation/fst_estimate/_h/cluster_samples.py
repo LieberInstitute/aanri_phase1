@@ -1,30 +1,31 @@
-import functools
+#### This script clusters SNPs within eGenes
 import pandas as pd
+from pyhere import here
+from functools import lru_cache
 
 
-@functools.lru_cache()
+@lru_cache()
 def get_fam():
-    fam_file = "/ceph/projects/brainseq/genotype/download/topmed/"+\
-        "convert2plink/filter_maf_01/_m/LIBD_Brain_TopMed.fam"
+    fam_file = here("input/genotypes/_m/TOPMed_LIBD_AA.fam")
     return pd.read_csv(fam_file, sep='\t', header=None,
                        names=["FID", "IID", "V2", "V3", "Sex", "Pheno"])
 
-@functools.lru_cache()
+@lru_cache()
 def generate_cluster():
-    ancestry_file = "../../../input/ancestry_structure/structure."+\
-        "out_ancestry_proportion_raceDemo_compare"
+    ancestry_file = here("input/ancestry_structure",
+                         "structure.out_ancestry_proportion_raceDemo_compare")
     df = get_fam().merge(pd.read_csv(ancestry_file, sep='\t'),
                          left_on="FID", right_on="id")
     return df.loc[:, ["FID", "IID", "group"]].drop_duplicates(subset="FID")
 
 
-@functools.lru_cache()
+@lru_cache()
 def get_phenotypes():
-    pheno_file = "../../../input/phenotypes/merged/_m/individual_phenotypes.csv"
+    pheno_file = here("input/phenotypes/merged/_m/individual_phenotypes.csv")
     return pd.read_csv(pheno_file)
 
 
-@functools.lru_cache()
+@lru_cache()
 def get_expr_data():
     dt = generate_cluster().merge(get_phenotypes(), left_on="FID",
                                   right_on="BrNum")
@@ -32,7 +33,7 @@ def get_expr_data():
                   ["FID", "IID", "group"]]
 
 
-@functools.lru_cache()
+@lru_cache()
 def update_ids():
     df = get_expr_data()
     df["New_IID"] = df.FID
