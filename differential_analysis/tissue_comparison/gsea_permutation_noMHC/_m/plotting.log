@@ -1,0 +1,47 @@
+**** Job starts ****
+Tue Sep 12 11:02:38 EDT 2023
+**** JHPCE info ****
+User: jbenjami
+Job id: 3707762
+Job name: go_plotting
+Hostname: compute-068.cm.cluster
+Loading conda_R/4.3.x
+
+The following have been reloaded with a version change:
+  1) gcc/4.4.7 => gcc/9.1.0
+
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) COMMUNITY_CENTOS7_DEFAULT_ENV   9) conda/3-4.11.0
+  2) stata/17          6) JHPCE_CENTOS7_DEFAULT_ENV      10) conda_R/4.3.x
+  3) JHPCE_tools/1.0   7) python/3.9.10                  11) gcc/9.1.0
+  4) sge/8.1.9         8) emacs/28.1                     12) pandoc/2.7.3
+
+ 
+
+**** Run GOseq ****
+WARNING: ignoring environment value of R_HOME
+Error in `purrr::map()`:
+ℹ In index: 1.
+Caused by error in `data.table::fread()`:
+! File 'genes/caudate_enrich_BP.tsv' does not exist or is non-readable. getwd()=='/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/differential_analysis/tissue_comparison/gsea_permutation_noMHC/_m'
+Backtrace:
+     ▆
+  1. ├─data.table::fwrite(...)
+  2. ├─dplyr::bind_rows(purrr::map(tissues, similarity_go))
+  3. │ └─rlang::list2(...)
+  4. ├─purrr::map(tissues, similarity_go)
+  5. │ └─purrr:::map_("list", .x, .f, ..., .progress = .progress)
+  6. │   ├─purrr:::with_indexed_errors(...)
+  7. │   │ └─base::withCallingHandlers(...)
+  8. │   ├─purrr:::call_with_cleanup(...)
+  9. │   └─global .f(.x[[i]], ...)
+ 10. │     └─data.table::fread(fn)
+ 11. │       └─base::stop(...)
+ 12. └─base::.handleSimpleError(...)
+ 13.   └─purrr (local) h(simpleError(msg, call))
+ 14.     └─cli::cli_abort(...)
+ 15.       └─rlang::abort(...)
+Execution halted
+**** Job ends ****
+Tue Sep 12 11:03:04 EDT 2023

@@ -1,0 +1,2 @@
+ID	Description	setSize	enrichmentScore	NES	pvalue	p.adjust	qvalue	rank	leading_edge	core_enrichment
+GO:0005347	ATP transmembrane transporter activity	11	-0.963978432354419	-1.67279246849918	8.12150206822725e-06	0.00820271708890953	0.00820271708890953	116	tags=36%, list=1%, signal=36%	SLC25A17/SLC17A9/SLC25A6/SLC25A41
