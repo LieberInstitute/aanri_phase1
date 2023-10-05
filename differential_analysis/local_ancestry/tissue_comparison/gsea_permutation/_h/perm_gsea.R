@@ -42,7 +42,8 @@ get_annotation <- function(feature){
     dt <- data.table::fread(fn) |>
         mutate(ensembl_id=gsub("\\..*", "", gencodeID)) |>
         dplyr::rename("feature_id"="names") |>
-        inner_join(memBIOMART(), by=c("ensembl_id"="ensembl_gene_id")) |>
+        inner_join(memBIOMART(), by=c("ensembl_id"="ensembl_gene_id"),
+                   relationship="many-to-many") |>
         distinct(feature_id, .keep_all = TRUE) |>
         dplyr::select(feature_id, ensembl_id, entrezgene_id)
     return(dt)
@@ -68,6 +69,21 @@ get_geneList <- function(dt){
     geneList <- tmp |> pull("beta")
     names(geneList) <- tmp$entrezgene_id
     return(geneList |> sort(decreasing=TRUE))
+}
+
+run_enrichGO <- function(dt, ont, label){
+                                        # GSEA with GO terms
+    ego <- enrichGO(gene     = get_genes(dt),
+                    universe = names(get_geneList(dt)),
+                    OrgDb    = org.Hs.eg.db,
+                    ont      = ont,
+                    keyType  = "ENTREZID")
+                                        # Save results
+    if(dim(ego)[1] != 0){
+        fn = paste0(label, "_", ont, ".tsv")
+        ego <- setReadable(ego, "org.Hs.eg.db")
+        ego |> as.data.frame() |> data.table::fwrite(fn, sep='\t')
+    }
 }
 
 run_gseGO <- function(dt, ont, label){
@@ -129,6 +145,19 @@ for(tissue in c("Caudate", "Dentate Gyrus", "DLPFC", "Hippocampus")){
     }
     run_gseDGN(dt, "DGN", label1)
     run_enichmentDGN(dt, label2)
+}
+
+                                        # Enrichment of all DEGs
+feature <- "Gene"
+new_feature <- paste0(tolower(feature), "s")
+for(tissue in c("Caudate", "Dentate Gyrus", "DLPFC", "Hippocampus")){
+    print(tissue)
+    dt <- add_entrez(feature, tissue)
+    label2 = paste0(new_feature,"/",gsub(" ", "_",tolower(tissue)),"_enrich")
+    for(ONT in c("BP", "MF", "CC")){
+        print(ONT)
+        run_enrichGO(dt, ONT, label2)
+    }
 }
 
 #### Reproducibility information
