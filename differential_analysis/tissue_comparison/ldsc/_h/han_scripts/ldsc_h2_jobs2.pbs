@@ -1,0 +1,15 @@
+#!/bin/bash
+#$ -N ldsc_h2_jobs2.txt
+#$ -cwd
+#$ -l mem_free=10G,h_vmem=10G,h_fsize=10G,neuron
+#$ -t 1-20
+#$ -o ./ldsc_h2_jobs2.txt_err_out
+#$ -e ./ldsc_h2_jobs2.txt_err_out
+
+echo "**** Job starts ****"
+date
+source activate ldsc
+perl /users/shan/script/job_batch.pl --jfile ldsc_h2_jobs2.txt --nrun 1 --n $SGE_TASK_ID
+
+echo "**** Job ends ****"
+date

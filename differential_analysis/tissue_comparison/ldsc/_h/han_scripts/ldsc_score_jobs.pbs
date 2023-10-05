@@ -1,0 +1,16 @@
+#!/bin/bash
+#$ -N ldsc_score_jobs.txt
+#$ -cwd
+#$ -l mem_free=4G,h_vmem=4G,h_fsize=10G,
+#$ -q shared.q@compute-0[9]*,shared.q@compute-1*&!*111&!*092
+#$ -t 1-106
+#$ -o ./ldsc_score_jobs.txt_err_out
+#$ -e ./ldsc_score_jobs.txt_err_out
+
+echo "**** Job starts ****"
+date
+source activate ldsc
+perl /users/shan/script/job_batch.pl --jfile ldsc_score_jobs.txt --nrun 10 --n $SGE_TASK_ID
+
+echo "**** Job ends ****"
+date

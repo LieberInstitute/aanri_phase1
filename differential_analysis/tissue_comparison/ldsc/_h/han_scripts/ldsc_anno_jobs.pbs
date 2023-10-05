@@ -1,0 +1,15 @@
+#!/bin/bash
+#$ -N ldsc_anno_jobs.txt
+#$ -cwd
+#$ -l mem_free=4G,h_vmem=4G,h_fsize=10G,neuron
+#$ -t 1-53
+#$ -o ./ldsc_anno_jobs.txt_err_out
+#$ -e ./ldsc_anno_jobs.txt_err_out
+
+echo "**** Job starts ****"
+date
+source activate ldsc
+perl /users/shan/script/job_batch.pl --jfile ldsc_anno_jobs.txt --nrun 20 --n $SGE_TASK_ID
+
+echo "**** Job ends ****"
+date
