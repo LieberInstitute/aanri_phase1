@@ -1,0 +1,67 @@
+**** Job starts ****
+2023-08-08T11:30:59-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 3670078
+Job name: comparison_de
+Hostname: compute-121.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     6) COMMUNITY_CENTOS7_DEFAULT_ENV
+  2) stata/17          7) JHPCE_CENTOS7_DEFAULT_ENV
+  3) JHPCE_tools/1.0   8) python/3.9.10
+  4) sge/8.1.9         9) emacs/28.1
+  5) gcc/4.4.7
+
+ 
+
+**** Comparison of Black and Black v White results ****
+Ancestry specific:
+region         feature_type
+Caudate        Exon            3766
+               Gene             732
+               Junction        1145
+               Transcript      1621
+DLPFC          Exon            4027
+               Gene             566
+               Junction        1131
+               Transcript      1865
+Dentate Gyrus  Exon            3699
+               Gene             639
+               Junction        1203
+               Transcript      2557
+Hippocampus    Exon            3148
+               Gene             584
+               Junction        1205
+               Transcript      2093
+dtype: int64
+Environmental specific:
+region         feature_type
+Caudate        Exon            15505
+               Gene             2336
+               Junction         4585
+               Transcript       3816
+DLPFC          Exon            18641
+               Gene             2809
+               Junction         5635
+               Transcript       5621
+Dentate Gyrus  Exon            11010
+               Gene             1861
+               Junction         3700
+               Transcript       6083
+Hippocampus    Exon            16518
+               Gene             2377
+               Junction         4731
+               Transcript       5294
+dtype: int64
+-----
+pandas              2.0.2
+pyhere              1.0.0
+session_info        1.0.0
+-----
+Python 3.9.10 (main, Feb 22 2022, 16:34:24) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17
+-----
+Session information updated at 2023-08-08 11:31
+**** Job ends ****
+2023-08-08T11:31:11-0400
