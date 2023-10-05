@@ -1,0 +1,31 @@
+**** Job starts ****
+Thu Jun  1 08:07:15 EDT 2023
+**** JHPCE info ****
+User: jbenjami
+Job id: 3218195
+Job name: extract_mhc_genes
+Hostname: compute-145.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) pandoc/2.7.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.9.10
+
+ 
+
+**** Run generate supplement ****
+INFO:root:Extracted GTF attributes: ['gene_id', 'gene_type', 'gene_status', 'gene_name', 'level', 'havana_gene', 'transcript_id', 'transcript_type', 'transcript_status', 'transcript_name', 'transcript_support_level', 'tag', 'havana_transcript', 'exon_number', 'exon_id', 'ont', 'protein_id', 'ccdsid']
+-----
+gtfparse            NA
+polars              0.16.8
+pyhere              1.0.0
+pyranges            0.0.127
+session_info        1.0.0
+-----
+Python 3.9.10 (main, Feb 22 2022, 16:34:24) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17
+-----
+Session information updated at 2023-06-01 08:11
+**** Job ends ****
+Thu Jun  1 08:11:16 EDT 2023

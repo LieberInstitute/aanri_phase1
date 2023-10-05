@@ -1,0 +1,31 @@
+**** Job starts ****
+Thu Jun  1 15:51:18 EDT 2023
+**** JHPCE info ****
+User: jbenjami
+Job id: 3219083
+Job name: mhc_enrichment
+Hostname: compute-103.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) pandoc/2.7.3
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV
+  4) sge/8.1.9         8) python/3.9.10
+
+ 
+
+**** Run enrichment ****
+[[4, 616], [36, 7711]]
+[[13, 640], [62, 7738]]
+[[17, 1256], [98, 15449]]
+[[7, 542], [56, 7500]]
+[[2, 446], [50, 8217]]
+[[9, 988], [106, 15717]]
+[[6, 519], [44, 7455]]
+[[7, 543], [58, 8188]]
+[[13, 1062], [102, 15643]]
+[[5, 531], [42, 7587]]
+[[4, 485], [64, 8102]]
+[[9, 1016], [106, 15689]]
+**** Job ends ****
+Thu Jun  1 15:51:27 EDT 2023
