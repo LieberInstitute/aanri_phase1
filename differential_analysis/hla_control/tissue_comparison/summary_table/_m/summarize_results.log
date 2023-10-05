@@ -1,0 +1,60 @@
+Significant DE (lfsr < 0.05) in Caudate
+feature_id
+
+Gene:		1283
+Transcript:	1800
+Exon:		5320
+Junction:	1592
+
+gene_id
+
+Gene:		1283
+Transcript:	1605
+Exon:		3012
+Junction:	1091
+
+Significant DE (lfsr < 0.05) in Dentate Gyrus
+feature_id
+
+Gene:		1283
+Transcript:	3278
+Exon:		5477
+Junction:	1930
+
+gene_id
+
+Gene:		1283
+Transcript:	2816
+Exon:		3210
+Junction:	1412
+
+Significant DE (lfsr < 0.05) in DLPFC
+feature_id
+
+Gene:		1107
+Transcript:	2328
+Exon:		5484
+Junction:	1626
+
+gene_id
+
+Gene:		1107
+Transcript:	2061
+Exon:		3138
+Junction:	1146
+
+Significant DE (lfsr < 0.05) in Hippocampus
+feature_id
+
+Gene:		1145
+Transcript:	2430
+Exon:		5191
+Junction:	1778
+
+gene_id
+
+Gene:		1145
+Transcript:	2108
+Exon:		3025
+Junction:	1265
+
