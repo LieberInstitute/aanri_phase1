@@ -1,8 +1,8 @@
 **** Job starts ****
-Sun Sep 24 12:05:01 EDT 2023
+Wed Oct  4 20:02:34 EDT 2023
 **** JHPCE info ****
 User: jbenjami
-Job id: 3741416
+Job id: 3750183
 Job name: prop_transfer
 Hostname: compute-124.cm.cluster
 Loading conda_R/4.3.x
@@ -33,6 +33,6 @@ group variable has > 2 levels, ANOVA will be performed
 [6] P.Value        FDR           
 <0 rows> (or 0-length row.names)
 terminate called without an active exception
-/cm/local/apps/sge/sge-8.1.9/default/spool/compute-124/job_scripts/3741416: line 27: 93101 Aborted                 (core dumped) Rscript ../_h/05.cell_proportion.R
+/cm/local/apps/sge/sge-8.1.9/default/spool/compute-124/job_scripts/3750183: line 27: 10482 Aborted                 (core dumped) Rscript ../_h/05.cell_proportion.R
 **** Job ends ****
-Sun Sep 24 12:06:23 EDT 2023
+Wed Oct  4 20:06:16 EDT 2023
