@@ -1,0 +1,2 @@
+ID	Description	setSize	enrichmentScore	NES	pvalue	p.adjust	qvalue	rank	leading_edge	core_enrichment
+GO:0016235	aggresome	27	0.837750206210957	1.97280586104325	2.88319810032874e-05	0.0199805628352782	0.0199805628352782	59	tags=15%, list=0%, signal=15%	PRKCQ/HSPA1A/HSPA1B/BAG3

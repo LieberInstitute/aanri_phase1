@@ -1,0 +1,2 @@
+ID	Description	setSize	enrichmentScore	NES	pvalue	p.adjust	qvalue	rank	leading_edge	core_enrichment
+GO:0097242	amyloid-beta clearance	28	0.808300541108771	2.05420007841324	7.83489748229737e-06	0.0421595833522421	0.0421595833522421	921	tags=32%, list=7%, signal=30%	C5AR1/LDLR/CD36/ABCA7/ITGB2/LRP2/ITGAM/IFNGR1/C3

@@ -1,0 +1,2 @@
+ID	Description	setSize	enrichmentScore	NES	pvalue	p.adjust	qvalue	rank	leading_edge	core_enrichment
+GO:0032040	small-subunit processome	36	-0.730248892378441	-2.05698166155757	9.02256634065685e-06	0.00623459334139388	0.00623459334139388	2	tags=11%, list=0%, signal=11%	UTP14C/RPS7/IMP3/PWP2
