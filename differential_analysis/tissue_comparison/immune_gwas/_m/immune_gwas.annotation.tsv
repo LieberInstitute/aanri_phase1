@@ -1,0 +1,1033 @@
+trait	candidate_genes	dataset
+CD62L- myeloid cDC AC	FCGR2A	Orru_2013
+CD62L- myeloid cDC AC	FCGR2A	Orru_2013
+CD62L- myeloid cDC AC	HSPA6	Orru_2013
+CD62L- myeloid cDC AC	FCGR2A	Orru_2013
+CD62L- myeloid cDC AC	FCGR3A	Orru_2013
+TD CD4+ %GP	GALM	Orru_2013
+TD CD4+ %GP	GALM	Orru_2013
+CD45RA- CD28- CD8br %P	DHX57	Orru_2013
+CD4+ CD8dim AC	 VPS24	Orru_2013
+CD4+ CD8dim AC	CD8A	Orru_2013
+CD62L- plasmacytoid cDC %P	PLAC8	Orru_2013
+CD62L- plasmacytoid cDC %P	PLAC8 	Orru_2013
+CD62L- plasmacytoid cDC %P	COQ2	Orru_2013
+CD62L- plasmacytoid cDC %P	HPSE	Orru_2013
+CD45RA- CD8+ AC	HLA-E 	Orru_2013
+CD45RA- CD8+ AC	HCG27 	Orru_2013
+CD45RA- CD8+ AC	ABCF1 	Orru_2013
+CD45RA- CD8+ AC	C2	Orru_2013
+CD45RA- CD8+ AC	PSORS1C3	Orru_2013
+CD45RA- CD8+ AC	RPP21	Orru_2013
+CD45RA- CD8+ AC	TRIM39	Orru_2013
+CD45RA- CD8+ AC	 ZKSCAN2	Orru_2013
+CD45RA- CD8+ AC	HLA-E	Orru_2013
+CD45RA- CD8+ AC	HLA-E	Orru_2013
+CD45RA- CD8+ AC	GNL1	Orru_2013
+CD45RA- CD28+ CD8+ %P	VARS2	Orru_2013
+CD45RA- CD28+ CD8+ %P	IER3	Orru_2013
+CD45RA- CD28+ CD8+ %P	ZFP57	Orru_2013
+CD45RA- CD28+ CD8+ %P	HLA-B	Orru_2013
+CD45RA- CD28+ CD8+ %P	HLA-B	Orru_2013
+CD45RA- CD28+ CD8+ %P	HLA-B	Orru_2013
+CD45RA- CD28+ CD8+ %P	HLA-B	Orru_2013
+CD4+ CD8dim %P	LOC642073	Orru_2013
+CD4+ CD8dim %P	LOC642073	Orru_2013
+CD4+ CD8dim %P	RPL34	Orru_2013
+CD4+ CD8dim %P	LOC642073	Orru_2013
+CD4+ CD8dim %P	LST1	Orru_2013
+CD4+ CD8dim %P	RPL34	Orru_2013
+CD4+ CD8dim %P	LOC642073	Orru_2013
+CD4+ CD8dim %P	IER3	Orru_2013
+CD4+ CD8dim %P	RPL34	Orru_2013
+CD4+ CD8dim %P	LOC642073	Orru_2013
+CD4+ CD8dim %P	RPL34	Orru_2013
+CD4+ CD8dim %P	IER3	Orru_2013
+CD4+ CD8dim %P	AOAH	Orru_2013
+CD4+ CD8dim %P	HLA-DQA1	Orru_2013
+CD4+ CD8dim %P	LOC642073	Orru_2013
+CD4+ CD8dim %P	LOC642073	Orru_2013
+CD4+ CD8dim %P	HLA-DOB	Orru_2013
+CD4+ CD8dim %P	LOC642073	Orru_2013
+CD4+ CD8dim %P	GTF2H4	Orru_2013
+CD4+ CD8dim %P	LOC642073	Orru_2013
+CD4+ CD8dim %P	HMGA1	Orru_2013
+CD4+ CD8dim %P	BTNL2	Orru_2013
+CD4+ CD8dim %P	HLA-DRB1	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	RPL34	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	RPL34	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	RPL34	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	RPL34	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	RPL34	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	RPL34	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	RPL34	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	RPL34	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	AOAH	Orru_2013
+CD45RA- CD28- CD8+ AC	ARHGAP24	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	AOAH	Orru_2013
+CD45RA- CD28- CD8+ AC	ARHGAP24	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	AOAH	Orru_2013
+CD45RA- CD28- CD8+ AC	ARHGAP24	Orru_2013
+CD45RA- CD28- CD8+ AC	LOC642073	Orru_2013
+CD45RA- CD28- CD8+ AC	RPL34	Orru_2013
+CD45RA- CD28- CD8+ AC	AOAH	Orru_2013
+CD45RA- CD28- CD8+ AC	HLA-DOB	Orru_2013
+CD45RA- CD28- CD8+ AC	HLA-DOB	Orru_2013
+CD45RA- CD28- CD8+ AC	AOAH	Orru_2013
+CD39+ CD8+ %GP	C10orf61	Orru_2013
+CD39+ CD8+ %GP	ENTPD1	Orru_2013
+CD39+ CD8+ %GP	ALDH18A1	Orru_2013
+CD39+ activated CD4+ Treg %P	ENTPD1	Orru_2013
+CD39+ activated CD4+ Treg %P	ENTPD1	Orru_2013
+naive (CD4+ CD8+) AC	CD4	Orru_2013
+T lymphocyte AC	SH2B3	Orru_2013
+NK %GP	SLFN12L	Orru_2013
+NK %GP	CCL1	Orru_2013
+CD69 in CD16hi NK cells	S1PR1	Patin_2018
+CD16 in CD16hi NK cells	FCGR3A	Patin_2018
+CD32 in basophils	FCGR2B	Patin_2018
+CD62L in eosinophils	SELL	Patin_2018
+CD8a in CD69+ CD16hi NK cells	CD8A	Patin_2018
+CD8a+ CD56hi NK cells	ACOXL / BCL2L11	Patin_2018
+HLA-DR in cDC3	HLA-DRA	Patin_2018
+HLA-DR in cDC1	HLA-DRB1	Patin_2018
+HLA-DR in pDC	HLA-DRB1	Patin_2018
+CD24 in IgM+ marginal zone B cells	CD24	Patin_2018
+CD203c in basophils	ENPP3	Patin_2018
+CCR7 in CD4+ naïve T cells	TMEM8A	Patin_2018
+FCεRI in eosinophils	ALOX15	Patin_2018
+ratio of CD16 MFI in CD16hi and CD56hi NK cells	ACTL9	Patin_2018
+CCR7 on naive CD8+ T cell	CCR7	Orru_2020
+CD127 on CD28+ CD45RA+ CD8+ T cell	PGAP6	Orru_2020
+CD45 on CD14+ monocyte	HBG2	Orru_2020
+CD127 on CD45RA+ CD4+ T cell	IL7R	Orru_2020
+CD127 on CD45RA+ CD4+ T cell	PGAP6	Orru_2020
+CD25 on CD45RA- CD4 not regulatory T cell	TBX20	Orru_2020
+CD45 on HLA DR+ T cell	CIITA	Orru_2020
+CD25 on CD45RA- CD4 not regulatory T cell	IL2RA	Orru_2020
+CD45 on HLA DR+ CD4+ T cell	CIITA	Orru_2020
+CD25 on CD39+ CD4 regulatory T cell	IL2RA	Orru_2020
+CD127 on CD28+ CD4+ T cell	ZBTB37	Orru_2020
+CD25 on resting CD4 regulatory T cell	IL2RA	Orru_2020
+CD25 on CD39+ activated CD4 regulatory T cell	ENTPD1	Orru_2020
+CD25 on secreting CD4 regulatory T cell	IL2RA	Orru_2020
+CD127 on granulocyte	CDK6	Orru_2020
+CD127 on granulocyte	TSPOAP1	Orru_2020
+CD127 on CD28+ CD45RA+ CD8+ T cell	HECW1	Orru_2020
+CCR7 on naive CD8+ T cell	PGAP6	Orru_2020
+CD127 on CD4+ T cell	PGAP6	Orru_2020
+CD45 on granulocyte	FCER1G	Orru_2020
+CD25 on CD45RA- CD4 not regulatory T cell	JUP	Orru_2020
+CD25 on CD39+ CD4 regulatory T cell	ENTPD1	Orru_2020
+CD127 on CD28+ CD4+ T cell	PGAP6	Orru_2020
+CD127 on CD28+ CD4-CD8- T cell	TSTD3	Orru_2020
+CD25 on CD39+ activated CD4 regulatory T cell	IL2RA	Orru_2020
+CD127 on granulocyte	MPO	Orru_2020
+CD127 on granulocyte	MPO	Orru_2020
+CD25 on CD39+ secreting CD4 regulatory T cell	IL2RA	Orru_2020
+CD33 on basophil	GCSAML	Orru_2020
+CD33 on basophil	CD33	Orru_2020
+CD33 on Immature Myeloid-Derived Suppressor Cells	CD33	Orru_2020
+CD33 on CD33+ HLA DR+	CD33	Orru_2020
+CD33 on CD33+ HLA DR+ CD14-	CD33	Orru_2020
+CD4 on monocyte	CD4	Orru_2020
+CD4 on monocyte	DHX38	Orru_2020
+CD25 on CD4+ T cell	IL2RA	Orru_2020
+CD62L- myeloid Dendritic Cell Absolute Count	FCGR3A	Orru_2020
+CD62L- myeloid Dendritic Cell %Dendritic Cell	C1orf112	Orru_2020
+CD62L- myeloid Dendritic Cell %Dendritic Cell	FCGR3A	Orru_2020
+T/B cell	GSDMA	Orru_2020
+CD62L- CD86+ myeloid Dendritic Cell Absolute Count	FCGR3A	Orru_2020
+CD4+ T cell Absolute Count	ATXN2	Orru_2020
+CD4+CD8+ T cell Absolute Count	ZDHHC13	Orru_2020
+CD4+CD8+ T cell Absolute Count	CD4	Orru_2020
+CD4+CD8+ T cell %T cell	CD4	Orru_2020
+CD8dim T cell Absolute Count	SLFN12L	Orru_2020
+CD25 on CD39+ CD4+ T cell	TCTN3	Orru_2020
+CD25 on CD39+ CD4+ T cell	ENTPD1-AS1	Orru_2020
+CD25 on CD28+ CD4+ T cell	IL2RA	Orru_2020
+FSC-A on myeloid Dendritic Cell	FCGR3A	Orru_2020
+FSC-A on plasmacytoid Dendritic Cell	ERN1	Orru_2020
+FSC-A on plasmacytoid Dendritic Cell	ERN1	Orru_2020
+FSC-A on monocyte	LYZ	Orru_2020
+FSC-A on granulocyte	CDK6	Orru_2020
+FSC-A on CD14+ monocyte	HBB	Orru_2020
+FSC-A on Natural Killer	SLFN12L	Orru_2020
+FSC-A on Natural Killer	FAM53B	Orru_2020
+FSC-A on Natural Killer	HBB	Orru_2020
+FSC-A on HLA DR+ Natural Killer	LINC02572	Orru_2020
+FSC-A on HLA DR+ Natural Killer	FCGR2A	Orru_2020
+FSC-A on Natural Killer T	HBB	Orru_2020
+CD62L- Dendritic Cell %Dendritic Cell	FCGR3A	Orru_2020
+CD86+ myeloid Dendritic Cell Absolute Count	FCGR3A	Orru_2020
+CD86+ myeloid Dendritic Cell %Dendritic Cell	FCGR3A	Orru_2020
+CD86+ plasmacytoid Dendritic Cell %Dendritic Cell	RPS23P10	Orru_2020
+CD62L- myeloid Dendritic Cell Absolute Count	C1orf112	Orru_2020
+T/B cell	RAP1GAP2	Orru_2020
+T/B cell	TNFSF13B	Orru_2020
+CD62L- CD86+ myeloid Dendritic Cell %Dendritic Cell	FCGR3A	Orru_2020
+CD4+ T cell %T cell	TSTD3	Orru_2020
+CD16 on CD14- CD16+ monocyte	FCGR2A	Orru_2020
+CD62L- monocyte Absolute Count	C1orf112	Orru_2020
+CD62L- monocyte Absolute Count	B4GALT7	Orru_2020
+CD62L- monocyte Absolute Count	FCGR3A	Orru_2020
+CD62L- monocyte Absolute Count	SELL	Orru_2020
+CD62L- monocyte %monocyte	STT3B	Orru_2020
+CD62L- monocyte %monocyte	PRKD1	Orru_2020
+CD62L- monocyte %monocyte	SELP	Orru_2020
+CD62L- monocyte %monocyte	C1orf112	Orru_2020
+CD62L- monocyte %monocyte	C1orf112	Orru_2020
+CD11c+ CD62L- monocyte Absolute Count	FCGR3A	Orru_2020
+CD11c+ HLA DR++ monocyte %monocyte	LPP	Orru_2020
+Plasmacytoid Dendritic Cell Absolute Count	LCT-AS1	Orru_2020
+Dendritic Cell Absolute Count	FCGR3A	Orru_2020
+CD62L- Dendritic Cell Absolute Count	FCGR3A	Orru_2020
+CD62L- Dendritic Cell %Dendritic Cell	C1orf112	Orru_2020
+CD33 on CD14+ monocyte	CD33	Orru_2020
+CD33 on CD14+ monocyte	CD33	Orru_2020
+CD33 on CD33+ HLA DR+ CD14dim	CD33	Orru_2020
+CD33 on CD33dim HLA DR+ CD11b+	FCGR2A	Orru_2020
+CD33 on CD33dim HLA DR+ CD11b+	CD33	Orru_2020
+CD33 on CD33dim HLA DR+ CD11b-	FCGR2A	Orru_2020
+CD33 on CD33dim HLA DR+ CD11b-	CD33	Orru_2020
+CD33 on Granulocytic Myeloid-Derived Suppressor Cells	CD33	Orru_2020
+CD33 on Granulocytic Myeloid-Derived Suppressor Cells	CD33	Orru_2020
+CD33 on CD66b++ myeloid cell	CD33	Orru_2020
+CD33 on Monocytic Myeloid-Derived Suppressor Cells	CD33	Orru_2020
+CD33 on CD33dim HLA DR-	SIGLECL1	Orru_2020
+CD33 on CD33dim HLA DR-	GCSAML	Orru_2020
+CD8dim T cell Absolute Count	TSTD3	Orru_2020
+CD8dim T cell %T cell	TSTD3	Orru_2020
+CD4-CD8- T cell Absolute Count	SLFN12L	Orru_2020
+CD4-CD8- T cell Absolute Count	TSTD3	Orru_2020
+CD4-CD8- T cell Absolute Count	CD8A	Orru_2020
+CD4-CD8- T cell %T cell	TSTD3	Orru_2020
+CD4-CD8- T cell %T cell	CD8A	Orru_2020
+Lymphocyte Absolute Count	ATXN2	Orru_2020
+T cell Absolute Count	ATXN2	Orru_2020
+T cell %lymphocyte	SLFN12L	Orru_2020
+CD4+ T cell %leukocyte	TSTD3	Orru_2020
+CD4+CD8+ T cell %leukocyte	CD4	Orru_2020
+CD4+ CD8dim T cell Absolute Count	CD8A	Orru_2020
+CD4+ CD8dim T cell %lymphocyte	CD8A	Orru_2020
+CD4+ CD8dim T cell %lymphocyte	CD8A	Orru_2020
+CD4+ CD8dim T cell %leukocyte	CD8A	Orru_2020
+Natural Killer T %lymphocyte	SLFN12L	Orru_2020
+Natural Killer T %lymphocyte	PLEC	Orru_2020
+Natural Killer T %lymphocyte	TSTD3	Orru_2020
+HLA DR+ CD4+ T cell Absolute Count	DELEC1	Orru_2020
+HLA DR+ CD4+ T cell Absolute Count	CIITA	Orru_2020
+HLA DR+ CD4+ T cell %T cell	CIITA	Orru_2020
+HLA DR+ CD4+ T cell %lymphocyte	DELEC1	Orru_2020
+HLA DR+ CD4+ T cell %lymphocyte	CIITA	Orru_2020
+HLA DR+ CD8+ T cell Absolute Count	DELEC1	Orru_2020
+HLA DR+ CD8+ T cell Absolute Count	CIITA	Orru_2020
+HLA DR+ CD8+ T cell %T cell	SLC35F2	Orru_2020
+HLA DR+ CD8+ T cell %T cell	CIITA	Orru_2020
+HLA DR+ CD8+ T cell %lymphocyte	HLA-DRB1	Orru_2020
+HLA DR+ CD8+ T cell %lymphocyte	CIITA	Orru_2020
+CD8dim Natural Killer T Absolute Count	SLFN12L	Orru_2020
+CD8dim Natural Killer T Absolute Count	TSTD3	Orru_2020
+CD8dim Natural Killer T %T cell	PARP10	Orru_2020
+CD8dim T cell %leukocyte	TSTD3	Orru_2020
+CD4-CD8- T cell %leukocyte	SLFN12L	Orru_2020
+CD4-CD8- T cell %leukocyte	TSTD3	Orru_2020
+CD4-CD8- T cell %leukocyte	CD8A	Orru_2020
+CD8+ and CD8dim T cell %leukocyte	SLFN13	Orru_2020
+HLA DR+ T cell Absolute Count	CIITA	Orru_2020
+HLA DR+ T cell%T cell	DELEC1	Orru_2020
+HLA DR+ T cell%T cell	CIITA	Orru_2020
+HLA DR+ T cell%lymphocyte	DELEC1	Orru_2020
+HLA DR+ T cell%lymphocyte	HLA-DRB1	Orru_2020
+HLA DR+ T cell%lymphocyte	CIITA	Orru_2020
+Natural Killer T Absolute Count	PLEC	Orru_2020
+Natural Killer T Absolute Count	SLFN12L	Orru_2020
+Natural Killer T Absolute Count	TSTD3	Orru_2020
+Natural Killer T %T cell	PLEC	Orru_2020
+Natural Killer T %T cell	TSTD3	Orru_2020
+Memory B cell %B cell	DLEU2	Orru_2020
+Memory B cell %B cell	NAT8	Orru_2020
+Memory B cell Absolute Count	TNFSF13B	Orru_2020
+Naive-mature B cell %B cell	NAT8	Orru_2020
+Naive-mature B cell %B cell	DLEU2	Orru_2020
+IgD+ CD24+ B cell %B cell	DLEU2	Orru_2020
+IgD+ CD24+ B cell Absolute Count	DLEU2	Orru_2020
+CD24+ CD27+ B cell %B cell	ALMS1	Orru_2020
+CD24+ CD27+ B cell %B cell	DLEU2	Orru_2020
+CD24+ CD27+ B cell Absolute Count	DLEU2	Orru_2020
+CD24+ CD27+ B cell Absolute Count	TNFSF13B	Orru_2020
+B cell %CD3- lymphocyte	TNFSF13B	Orru_2020
+B cell %CD3- lymphocyte	SLFN12L	Orru_2020
+B cell %lymphocyte	RAP1GAP2	Orru_2020
+B cell %lymphocyte	TNFSF13B	Orru_2020
+Natural Killer Absolute Count	CLIC4	Orru_2020
+Natural Killer Absolute Count	SLFN12L	Orru_2020
+Natural Killer %CD3- lymphocyte	CLIC4	Orru_2020
+Natural Killer %CD3- lymphocyte	TNFSF13B	Orru_2020
+Natural Killer %CD3- lymphocyte	SLFN12L	Orru_2020
+Natural Killer %lymphocyte	SLFN12L	Orru_2020
+Natural Killer %lymphocyte	CLIC4	Orru_2020
+Natural Killer %lymphocyte	SLFN12L	Orru_2020
+HLA DR+ Natural Killer Absolute Count	BCL2A1	Orru_2020
+HLA DR+ Natural Killer Absolute Count	FCGR3A	Orru_2020
+HLA DR+ Natural Killer %Natural Killer	SLFN12L	Orru_2020
+HLA DR+ Natural Killer %Natural Killer	BCL2A1	Orru_2020
+HLA DR+ Natural Killer  %CD3- lymphocyte	BCL2A1	Orru_2020
+Granulocyte Absolute Count	ACKR1	Orru_2020
+Granulocyte Absolute Count	S1PR4	Orru_2020
+CD8dim Natural Killer T %T cell	TSTD3	Orru_2020
+CD8dim Natural Killer T %lymphocyte	PARP10	Orru_2020
+CD8dim Natural Killer T %lymphocyte	SLFN12L	Orru_2020
+CD8dim Natural Killer T %lymphocyte	TSTD3	Orru_2020
+CD4-CD8- Natural Killer T Absolute Count	SLFN12L	Orru_2020
+CD4-CD8- Natural Killer T Absolute Count	CD8A	Orru_2020
+CD4-CD8- Natural Killer T Absolute Count	TSTD3	Orru_2020
+CD4-CD8- Natural Killer T %T cell	CD8A	Orru_2020
+CD4-CD8- Natural Killer T %T cell	TSTD3	Orru_2020
+CD4-CD8- Natural Killer T %lymphocyte	SLFN12L	Orru_2020
+CD4-CD8- Natural Killer T %lymphocyte	CD8A	Orru_2020
+CD4-CD8- Natural Killer T %lymphocyte	TSTD3	Orru_2020
+CD3- lymphocyte %lymphocyte	SLFN12L	Orru_2020
+CD3- lymphocyte %leukocyte	SLFN12L	Orru_2020
+B cell Absolute Count	TNFSF13B	Orru_2020
+IgD+ CD38+ B cell Absolute Count	MRPS9-AS2	Orru_2020
+IgD+ CD38+ B cell Absolute Count	EBF1	Orru_2020
+IgD+ CD38- B cell %B cell	PRKN	Orru_2020
+IgD+ CD38- B cell Absolute Count	TNFSF13B	Orru_2020
+Unswitched memory B cell %B cell	DLEU2	Orru_2020
+Unswitched memory B cell Absolute Count	TNFSF13B	Orru_2020
+IgD- CD27- B cell %B cell	CD27-AS1	Orru_2020
+IgD- CD27- B cell %B cell	CMTM6	Orru_2020
+IgD- CD27- B cell %B cell	CD40	Orru_2020
+IgD+ B cell Absolute Count	TNFSF13B	Orru_2020
+IgD- CD27- B cell Absolute Count	CD27-AS1	Orru_2020
+IgD- CD27- B cell Absolute Count	CD40	Orru_2020
+Switched memory B cell Absolute Count	TNFSF13B	Orru_2020
+Plasma Blast-Plasma Cell %B cell	MSR1	Orru_2020
+IgD+ CD24+ B cell %lymphocyte	TNFSF13B	Orru_2020
+CD24+ CD27+ B cell %lymphocyte	RAP1GAP2	Orru_2020
+CD24+ CD27+ B cell %lymphocyte	DLEU2	Orru_2020
+CD24+ CD27+ B cell %lymphocyte	TNFSF13B	Orru_2020
+IgD+ CD38+ B cell %B cell	CD38	Orru_2020
+CD4 regulatory T cell %CD4+ T cell	RBM17	Orru_2020
+CD4 regulatory T cell %T cell	RBM17	Orru_2020
+Resting CD4 regulatory T cell Absolute Count	HNRNPLL	Orru_2020
+Resting CD4 regulatory T cell Absolute Count	GALM	Orru_2020
+Resting CD4 regulatory T cell Absolute Count	GALM	Orru_2020
+Resting CD4 regulatory T cell %CD4 regulatory T cell	LAX1	Orru_2020
+Resting CD4 regulatory T cell %CD4 regulatory T cell	HNRNPLL	Orru_2020
+Resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	Orru_2020
+Resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	Orru_2020
+Resting CD4 regulatory T cell %CD4+ T cell	HNRNPLL	Orru_2020
+Resting CD4 regulatory T cell %CD4+ T cell	GALM	Orru_2020
+Resting CD4 regulatory T cell %CD4+ T cell	GALM	Orru_2020
+CD39+ resting CD4 regulatory T cell Absolute Count	GALM	Orru_2020
+CD39+ resting CD4 regulatory T cell Absolute Count	CC2D2B	Orru_2020
+CD39+ resting CD4 regulatory T cell Absolute Count	ENTPD1-AS1	Orru_2020
+CD39+ resting CD4 regulatory T cell %resting CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD39+ resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	Orru_2020
+CD39+ resting CD4 regulatory T cell %CD4 regulatory T cell	CC2D2B	Orru_2020
+CD39+ resting CD4 regulatory T cell %CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+Activated CD4 regulatory T cell %CD4 regulatory T cell	LINC02789	Orru_2020
+CD39+ activated CD4 regulatory T cell Absolute Count	ENTPD1	Orru_2020
+CD39+ activated CD4 regulatory T cell Absolute Count	ENTPD1	Orru_2020
+CD39+ activated CD4 regulatory T cell %activated CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD39+ activated CD4 regulatory T cell %activated CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD39+ activated CD4 regulatory T cell %activated CD4 regulatory T cell	ENTPD1	Orru_2020
+CD39+ activated CD4 regulatory T cell %CD4 regulatory T cell	ENTPD1	Orru_2020
+CD39+ activated CD4 regulatory T cell %CD4 regulatory T cell	ENTPD1	Orru_2020
+Secreting CD4 regulatory T cell Absolute Count	IL2RA	Orru_2020
+Secreting CD4 regulatory T cell %CD4 regulatory T cell	LAX1	Orru_2020
+Secreting CD4 regulatory T cell %CD4 regulatory T cell	HNRNPLL	Orru_2020
+Secreting CD4 regulatory T cell %CD4 regulatory T cell	GALM	Orru_2020
+Secreting CD4 regulatory T cell %CD4 regulatory T cell	GALM	Orru_2020
+Secreting CD4 regulatory T cell %CD4+ T cell	ELMO1	Orru_2020
+Secreting CD4 regulatory T cell %CD4+ T cell	GALM	Orru_2020
+CD39+ secreting CD4 regulatory T cell Absolute Count	ENTPD1	Orru_2020
+CD39+ secreting CD4 regulatory T cell Absolute Count	ENTPD1	Orru_2020
+CD39+ secreting CD4 regulatory T cell %secreting CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD39+ secreting CD4 regulatory T cell %secreting CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD39+ secreting CD4 regulatory T cell %secreting CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD39+ secreting CD4 regulatory T cell %CD4 regulatory T cell	ENTPD1	Orru_2020
+CD39+ secreting CD4 regulatory T cell %CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD39+ secreting CD4 regulatory T cell %CD4 regulatory T cell	ENTPD1	Orru_2020
+Activated & resting CD4 regulatory T cell Absolute Count	GALM	Orru_2020
+Activated & resting CD4 regulatory T cell %CD4 regulatory T cell	LAX1	Orru_2020
+Activated & resting CD4 regulatory T cell %CD4 regulatory T cell	ATL2	Orru_2020
+Activated & resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	Orru_2020
+Activated & resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	Orru_2020
+Activated & resting CD4 regulatory T cell %CD4+ T cell	GALM	Orru_2020
+Activated & secreting CD4 regulatory T cell Absolute Count	IL2RA	Orru_2020
+Activated & secreting CD4 regulatory T cell %CD4 regulatory T cell	LAX1	Orru_2020
+Activated & secreting CD4 regulatory T cell %CD4 regulatory T cell	HNRNPLL	Orru_2020
+Activated & secreting CD4 regulatory T cell %CD4 regulatory T cell	GALM	Orru_2020
+Activated & secreting CD4 regulatory T cell %CD4 regulatory T cell	GALM	Orru_2020
+Activated & secreting CD4 regulatory T cell %CD4+ T cell	ELMO1	Orru_2020
+Activated & secreting CD4 regulatory T cell %CD4+ T cell	GALM	Orru_2020
+Activated & secreting CD4 regulatory T cell %CD4+ T cell	IL2RA	Orru_2020
+Activated & secreting CD4 regulatory T cell %CD4+ T cell	IL2RA	Orru_2020
+CD25++ CD4+ T cell Absolute Count	IL2RA	Orru_2020
+CD25++ CD4+ T cell %CD4+ T cell	IL2RA	Orru_2020
+IgD- CD38dim B cell %lymphocyte	TNFSF13B	Orru_2020
+IgD- CD38- B cell %lymphocyte	TNFSF13B	Orru_2020
+IgD+ CD38+ B cell %lymphocyte	CD38	Orru_2020
+IgD+ CD38+ B cell %lymphocyte	MRPS9-AS2	Orru_2020
+IgD+ CD38dim B cell %lymphocyte	TNFSF13B	Orru_2020
+IgD+ CD38- B cell %lymphocyte	TNFSF13B	Orru_2020
+Unswitched memory B cell %lymphocyte	DLEU2	Orru_2020
+Unswitched memory B cell %lymphocyte	TNFSF13B	Orru_2020
+IgD- CD27- B cell %lymphocyte	CMTM6	Orru_2020
+IgD- CD27- B cell %lymphocyte	CD40	Orru_2020
+Switched memory B cell %lymphocyte	RAP1GAP2	Orru_2020
+Switched memory B cell %lymphocyte	TNFSF13B	Orru_2020
+Memory B cell %lymphocyte	RAP1GAP2	Orru_2020
+Memory B cell %lymphocyte	DLEU2	Orru_2020
+Memory B cell %lymphocyte	TNFSF13B	Orru_2020
+IgD+ CD24+ B cell %lymphocyte	LINC02318	Orru_2020
+IgD+ CD24+ B cell %lymphocyte	RAP1GAP2	Orru_2020
+IgD+ CD24+ B cell %lymphocyte	DLEU2	Orru_2020
+CD20- CD38- B cell %B cell	NUBPL	Orru_2020
+IgD+ B cell %Lymphocyte	RAP1GAP2	Orru_2020
+IgD+ B cell %Lymphocyte	TNFSF13B	Orru_2020
+Central Memory CD4+ T cell Absolute Count	ATXN2	Orru_2020
+Central Memory CD4+ T cell %CD4+ T cell	PLXDC1	Orru_2020
+Central Memory CD4+ T cell %CD4+ T cell	GALM	Orru_2020
+Naive CD4+ T cell %CD4+ T cell	GALM	Orru_2020
+Effector Memory CD4+ T cell %T cell	KLRC2	Orru_2020
+Terminally Differentiated CD4+ T cell Absolute Count	GALM	Orru_2020
+Terminally Differentiated CD4+ T cell %CD4+ T cell	GALM	Orru_2020
+Terminally Differentiated CD4+ T cell %T cell	GALM	Orru_2020
+Naive CD8+ T cell Absolute Count	ACOXL	Orru_2020
+Naive CD8+ T cell %CD8+ T cell	AGAP1	Orru_2020
+Naive CD8+ T cell %T cell	ACOXL	Orru_2020
+Effector Memory CD8+ T cell %CD8+ T cell	GALM	Orru_2020
+Terminally Differentiated CD8+ T cell Absolute Count	GALM	Orru_2020
+Terminally Differentiated CD8+ T cell %CD8+ T cell	GALM	Orru_2020
+Terminally Differentiated CD8+ T cell %CD8+ T cell	GALM	Orru_2020
+Terminally Differentiated CD8+ T cell %T cell	GALM	Orru_2020
+CD45RA+ CD8+ T cell Absolute Count	HLA-DQA1	Orru_2020
+CD45RA+ CD8+ T cell Absolute Count	GALM	Orru_2020
+CD45RA+ CD8+ T cell %CD8+ T cell	GALM	Orru_2020
+CD45RA+ CD8+ T cell %CD8+ T cell	GALM	Orru_2020
+CD45RA+ CD8+ T cell %T cell	GALM	Orru_2020
+Effector Memory CD4-CD8- T cell Absolute Count	CD8B	Orru_2020
+Effector Memory CD4-CD8- T cell Absolute Count	SLFN12L	Orru_2020
+Effector Memory CD4-CD8- T cell Absolute Count	TSTD3	Orru_2020
+Effector Memory CD4-CD8- T cell %CD4-CD8- T cell	ZFAT	Orru_2020
+Effector Memory CD4-CD8- T cell %CD4-CD8- T cell	GALM	Orru_2020
+Effector Memory CD4-CD8- T cell %T cell	CD8A	Orru_2020
+Effector Memory CD4-CD8- T cell %T cell	TSTD3	Orru_2020
+Terminally Differentiated CD4-CD8- T cell Absolute Count	GALM	Orru_2020
+Terminally Differentiated CD4-CD8- T cell %CD4-CD8- T cell	GALM	Orru_2020
+Terminally Differentiated CD4-CD8- T cell %T cell	CD8A	Orru_2020
+Terminally Differentiated CD4-CD8- T cell %T cell	GALM	Orru_2020
+Naive CD4+ T cell %T cell	UBE2G1	Orru_2020
+Transitional B cell Absolute Count	EBF1	Orru_2020
+CD28- CD4-CD8- T cell %CD4-CD8- T cell	SLFN12L	Orru_2020
+CD28- CD4-CD8- T cell Absolute Count	CD8B	Orru_2020
+CD28- CD4-CD8- T cell Absolute Count	SLFN12L	Orru_2020
+CD28+ CD4-CD8- T cell %CD4-CD8- T cell	SLFN12L	Orru_2020
+CD39+ CD4+ T cell %T cell	ENTPD1	Orru_2020
+CD39+ CD4+ T cell %T cell	ALDH18A1	Orru_2020
+CD39+ CD4+ T cell %CD4+ T cell	ENTPD1	Orru_2020
+CD39+ CD4+ T cell %CD4+ T cell	ALDH18A1	Orru_2020
+CD39+ CD4+ T cell Absolute Count	ENTPD1	Orru_2020
+CD28- CD8dim T cell %T cell	ACOXL	Orru_2020
+CD28- CD8dim T cell %T cell	SLFN12L	Orru_2020
+CD28- CD8dim T cell %T cell	TSTD3	Orru_2020
+CD25++ CD4+ T cell %CD4+ T cell	IL2RA	Orru_2020
+CD25++ CD4+ T cell %T cell	TSTD3	Orru_2020
+CD25++ CD4+ T cell %T cell	IL2RA	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count	CYP4F3	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count	GALM	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count	HNRNPLL	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count	GALM	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell %CD4+ T cell	HNRNPLL	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell %CD4+ T cell	GALM	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell %CD4+ T cell	GALM	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell %T cell	GALM	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell %T cell	HNRNPLL	Orru_2020
+CD25++ CD45RA+ CD4 not regulatory T cell %T cell	GALM	Orru_2020
+CD25++ CD45RA- CD4 not regulatory T cell Absolute Count	TSTD3	Orru_2020
+CD25++ CD45RA- CD4 not regulatory T cell Absolute Count	IL2RA	Orru_2020
+CD25++ CD45RA- CD4 not regulatory T cell %CD4+ T cell	IL2RA	Orru_2020
+CD25++ CD45RA- CD4 not regulatory T cell %T cell	TSTD3	Orru_2020
+CD25++ CD45RA- CD4 not regulatory T cell %T cell	IL2RA	Orru_2020
+CD45RA- CD4+ T cell Absolute Count	ATXN2	Orru_2020
+CD45RA- CD4+ T cell %CD4+ T cell	GALM	Orru_2020
+CD45RA- CD4+ T cell %T cell	TSTD3	Orru_2020
+CD45RA- CD4+ T cell %T cell	GALM	Orru_2020
+CD25++ CD8+ T cell %T cell	IL2RA	Orru_2020
+CD25++ CD8+ T cell %T cell	EML6	Orru_2020
+CD25++ CD8+ T cell %CD8+ T cell	EML6	Orru_2020
+CD25++ CD8+ T cell Absolute Count	ROBO2	Orru_2020
+CD25++ CD8+ T cell Absolute Count	EML6	Orru_2020
+CD25++ CD8+ T cell Absolute Count	KLHL14	Orru_2020
+CD28- CD8+ T cell %T cell	LINC01149	Orru_2020
+CD28- CD8+ T cell %CD8+ T cell	PART1	Orru_2020
+CD28- CD8+ T cell %CD8+ T cell	SLFN12L	Orru_2020
+CD28- CD8+ T cell Absolute Count	SLFN12L	Orru_2020
+CD28+ CD45RA+ CD8+ T cell %T cell	PSMB11	Orru_2020
+CD28+ CD45RA+ CD8+ T cell %T cell	GALM	Orru_2020
+CD28+ CD45RA+ CD8+ T cell Absolute Count	FGF13	Orru_2020
+CD28+ CD45RA+ CD8+ T cell Absolute Count	GALM	Orru_2020
+CD28+ CD45RA- CD8+ T cell %CD8+ T cell	HLA-B	Orru_2020
+CD19 on unswitched memory B cell	CR2	Orru_2020
+CD19 on switched memory B cell	ATP2A1	Orru_2020
+CD19 on switched memory B cell	CR2	Orru_2020
+CD19 on IgD+ B cell	CR2	Orru_2020
+CD19 on transitional B cell	CR2	Orru_2020
+CD20 on B cell	MS4A12	Orru_2020
+CD20 on CD24+ CD27+ B cell	MS4A14	Orru_2020
+CD20 on CD24+ CD27+ B cell	DKKL1	Orru_2020
+CD20 on IgD+ CD24+ B cell	DKKL1	Orru_2020
+CD20 on IgD+ CD24- B cell	MS4A12	Orru_2020
+CD20 on IgD+ CD38- B cell	PAX5	Orru_2020
+CD33+ HLA DR+ CD14- %CD33+ HLA DR+	CD33	Orru_2020
+CD33+ HLA DR+ CD14dim Absolute Count	MIR3976HG	Orru_2020
+CD33+ HLA DR+ CD14dim %CD33+ HLA DR+	MCC	Orru_2020
+CD33- HLA DR- Absolute Count	SLFN12L	Orru_2020
+CD33dim HLA DR+ CD11b+ Absolute Count	FCGR2A	Orru_2020
+CD33dim HLA DR+ CD11b+ %CD33dim HLA DR+	BCL2A1	Orru_2020
+CD33dim HLA DR+ CD11b+ %CD33dim HLA DR+	FCGR2A	Orru_2020
+CD33dim HLA DR+ CD11b- Absolute Count	ZFHX3	Orru_2020
+CD33dim HLA DR+ CD11b- Absolute Count	BCL2A1	Orru_2020
+CD33dim HLA DR+ CD11b- %CD33dim HLA DR+	BCL2A1	Orru_2020
+CD33dim HLA DR+ CD11b- %CD33dim HLA DR+	FCGR2A	Orru_2020
+Monocytic Myeloid-Derived Suppressor Cells Absolute Count	CD33	Orru_2020
+CD33dim HLA DR- Absolute Count	CD33	Orru_2020
+BAFF-R on CD20- CD38- B cell	MIEF1	Orru_2020
+CD28- CD8dim T cell %CD8dim T cell	SLFN12L	Orru_2020
+CD28- CD8dim T cell Absolute Count	ACOXL	Orru_2020
+CD28- CD8dim T cell Absolute Count	SLFN12L	Orru_2020
+CD28- CD8dim T cell Absolute Count	TSTD3	Orru_2020
+CD28+ CD45RA+ CD8dim T cell %T cell	CD8B	Orru_2020
+CD28+ CD45RA+ CD8dim T cell %T cell	GALM	Orru_2020
+CD28+ CD45RA+ CD8dim T cell %CD8dim T cell	TSTD3	Orru_2020
+CD28+ CD45RA+ CD8dim T cell %CD8dim T cell	GALM	Orru_2020
+CD28+ CD45RA+ CD8dim T cell Absolute Count	CD8B	Orru_2020
+CD28+ CD45RA+ CD8dim T cell Absolute Count	GALM	Orru_2020
+CD39+ CD8+ T cell %T cell	ENTPD1	Orru_2020
+CD39+ CD8+ T cell %T cell	ALDH18A1	Orru_2020
+CD39+ CD8+ T cell %CD8+ T cell	ENTPD1	Orru_2020
+CD39+ CD8+ T cell %CD8+ T cell	ALDH18A1	Orru_2020
+CD39+ CD8+ T cell Absolute Count	ENTPD1	Orru_2020
+CD39+ CD8+ T cell Absolute Count	ALDH18A1	Orru_2020
+CD28- CD4-CD8- T cell %T cell	SLFN12L	Orru_2020
+CD28- CD4-CD8- T cell %T cell	TSTD3	Orru_2020
+CD28- CD4-CD8- T cell %T cell	CD8A	Orru_2020
+CD14- CD16- Absolute Count	CDK6	Orru_2020
+CD14- CD16- Absolute Count	LYZ	Orru_2020
+CD14+ CD16- monocyte Absolute Count	CDK6	Orru_2020
+CD14+ CD16- monocyte Absolute Count	ITGA4	Orru_2020
+CD14- CD16+ monocyte %monocyte	BCL2A1	Orru_2020
+Immature Myeloid-Derived Suppressor Cells Absolute Count	CD33	Orru_2020
+Immature Myeloid-Derived Suppressor Cells %CD33dim HLA DR- CD66b-	HOXD11	Orru_2020
+Immature Myeloid-Derived Suppressor Cells %CD33dim HLA DR- CD66b-	CD33	Orru_2020
+CD19 on CD20- CD38- B cell	KASH5	Orru_2020
+CD19 on CD24+ CD27+ B cell	CR2	Orru_2020
+CD19 on IgD+ CD24+ B cell	RRN3P2	Orru_2020
+CD19 on IgD+ CD24+ B cell	CR2	Orru_2020
+CD19 on IgD+ CD24- B cell	CR2	Orru_2020
+CD19 on IgD+ CD38- B cell	CR2	Orru_2020
+CD19 on IgD+ CD38+ B cell	FHIT	Orru_2020
+CD19 on IgD+ CD38+ B cell	CR2	Orru_2020
+CD19 on IgD+ CD38dim B cell	CR2	Orru_2020
+CD19 on IgD- CD38dim B cell	CR2	Orru_2020
+CD19 on memory B cell	CR2	Orru_2020
+CD19 on naive-mature B cell	RBBP5	Orru_2020
+CD19 on naive-mature B cell	CR2	Orru_2020
+CD19 on unswitched memory B cell	RRN3P2	Orru_2020
+BAFF-R on IgD+ CD24- B cell	FCGR2A	Orru_2020
+BAFF-R on IgD+ CD38+ B cell	FCGR2A	Orru_2020
+BAFF-R on IgD+ CD38dim B cell	FCGR2A	Orru_2020
+BAFF-R on IgD- CD24- B cell	FCGR2A	Orru_2020
+BAFF-R on IgD- CD27- B cell	FCGR2A	Orru_2020
+BAFF-R on IgD- CD38dim B cell	FCGR2A	Orru_2020
+BAFF-R on naive-mature B cell	FCGR2A	Orru_2020
+BAFF-R on switched memory B cell	FCGR2A	Orru_2020
+BAFF-R on IgD+ B cell	FCGR2A	Orru_2020
+CCR2 on monocyte	FCGR2A	Orru_2020
+CCR2 on monocyte	CCR3	Orru_2020
+CCR2 on granulocyte	CDK6	Orru_2020
+CD14 on CD33dim HLA DR+ CD11b+	FCGR2A	Orru_2020
+CD4 on CD4+ T cell	ATXN2	Orru_2020
+CD4 on CD4+ T cell	CD4	Orru_2020
+CD4 on Central Memory CD4+ T cell	CD4	Orru_2020
+CD4 on naive CD4+ T cell	ATXN2	Orru_2020
+CD4 on naive CD4+ T cell	CD4	Orru_2020
+CD4 on Effector Memory CD4+ T cell	HLA-DQA1	Orru_2020
+CD4 on Effector Memory CD4+ T cell	CD4	Orru_2020
+CD4 on CD45RA+ CD4+ T cell	CD4	Orru_2020
+CD19 on B cell	RABEP2	Orru_2020
+CD39 on CD39+ CD8+ T cell	ENTPD1-AS1	Orru_2020
+CD39 on CD39+ activated CD4 regulatory T cell	ENTPD1	Orru_2020
+CD39 on CD39+ activated CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD39 on CD39+ activated CD4 regulatory T cell	ENTPD1	Orru_2020
+CX3CR1 on CD14+ CD16+ monocyte	FCGR2A	Orru_2020
+CX3CR1 on CD14+ CD16- monocyte	FCGR2A	Orru_2020
+PDL-1 on CD14+ CD16+ monocyte	FCGR2A	Orru_2020
+PDL-1 on CD14- CD16-	LYZ	Orru_2020
+PDL-1 on monocyte	KMT2C	Orru_2020
+PDL-1 on monocyte	FCGR2A	Orru_2020
+CCR2 on CD14- CD16-	LYZ	Orru_2020
+CCR2 on CD14+ CD16- monocyte	CDCP1	Orru_2020
+CCR2 on CD14+ CD16- monocyte	CCR3	Orru_2020
+CD64 on monocyte	TOX	Orru_2020
+CD64 on monocyte	HYDIN	Orru_2020
+CD64 on monocyte	FCGR2A	Orru_2020
+CCR2 on monocyte	CCR3	Orru_2020
+HLA DR on CD14- CD16-	HLA-DRB5	Orru_2020
+HLA DR on monocyte	LYZ	Orru_2020
+CD64 on CD14+ CD16+ monocyte	HYDIN	Orru_2020
+CD64 on CD14+ CD16+ monocyte	FCGR2A	Orru_2020
+CX3CR1 on CD14- CD16+ monocyte	PELATON	Orru_2020
+CX3CR1 on CD14- CD16+ monocyte	FCGR2A	Orru_2020
+CCR2 on myeloid Dendritic Cell	FCGR3A	Orru_2020
+CCR2 on CD62L+ myeloid Dendritic Cell	CCR3	Orru_2020
+CCR2 on plasmacytoid Dendritic Cell	GPR146	Orru_2020
+CCR2 on plasmacytoid Dendritic Cell	CCR2	Orru_2020
+CCR2 on CD62L+ plasmacytoid Dendritic Cell	GPR146	Orru_2020
+CCR2 on CD62L+ plasmacytoid Dendritic Cell	CCR2	Orru_2020
+CCR2 on monocyte	LIMD1	Orru_2020
+CD39 on CD39+ secreting CD4 regulatory T cell	ENTPD1	Orru_2020
+CD39 on CD39+ secreting CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD39 on CD39+ CD4+ T cell	ENTPD1	Orru_2020
+CD39 on CD39+ CD4+ T cell	ENTPD1-AS1	Orru_2020
+CD39 on CD39+ CD4+ T cell	ENTPD1-AS1	Orru_2020
+CD39 on granulocyte	CDK6	Orru_2020
+CD80 on myeloid Dendritic Cell	BACH2	Orru_2020
+CD80 on myeloid Dendritic Cell	RPAP2	Orru_2020
+CD80 on CD62L+ myeloid Dendritic Cell	BACH2	Orru_2020
+CD80 on CD62L+ myeloid Dendritic Cell	RPAP2	Orru_2020
+CD80 on CD62L+ myeloid Dendritic Cell	NISCH	Orru_2020
+CD80 on monocyte	NEK4	Orru_2020
+CD80 on monocyte	RPAP2	Orru_2020
+CD45 on CD33- HLA DR+	HNRNPA1P48	Orru_2020
+CD45 on CD33- HLA DR+	SIGLECL1	Orru_2020
+CD45 on CD33- HLA DR+	CD33	Orru_2020
+CD45 on CD33dim HLA DR-	ELOVL6	Orru_2020
+CD45 on Immature Myeloid-Derived Suppressor Cells	CD33	Orru_2020
+CD45 on Immature Myeloid-Derived Suppressor Cells	CD33	Orru_2020
+CD8 on Central Memory CD8+ T cell	CD8B	Orru_2020
+CD8 on Central Memory CD8+ T cell	HLA-B	Orru_2020
+CD8 on Central Memory CD8+ T cell	CD8A	Orru_2020
+CD8 on naive CD8+ T cell	HLA-B	Orru_2020
+CD8 on naive CD8+ T cell	CD8A	Orru_2020
+CD8 on Effector Memory CD8+ T cell	CD8A	Orru_2020
+CD8 on CD8+ T cell	CD8B	Orru_2020
+CD8 on CD8+ T cell	HLA-C	Orru_2020
+CD8 on CD8+ T cell	CD8A	Orru_2020
+CD8 on Natural Killer T	CD8A	Orru_2020
+CD8 on HLA DR+ CD8+ T cell	CD8A	Orru_2020
+CD4 on CD39+ CD4+ T cell	TCTN3	Orru_2020
+CD4 on CD39+ CD4+ T cell	ENTPD1	Orru_2020
+CD4 on CD28+ CD4+ T cell	CD4	Orru_2020
+CD4 on CD4 regulatory T cell	CD4	Orru_2020
+CD4 on resting CD4 regulatory T cell	CD4	Orru_2020
+CD4 on activated CD4 regulatory T cell	CD4	Orru_2020
+CD4 on CD39+ activated CD4 regulatory T cell	CD4	Orru_2020
+CD4 on secreting CD4 regulatory T cell	CD4	Orru_2020
+CD4 on CD39+ secreting CD4 regulatory T cell	ENTPD1	Orru_2020
+CD4 on activated & secreting CD4 regulatory T cell	CD4	Orru_2020
+SSC-A on myeloid Dendritic Cell	LYZ	Orru_2020
+SSC-A on myeloid Dendritic Cell	HBB	Orru_2020
+SSC-A on myeloid Dendritic Cell	FAM117B	Orru_2020
+SSC-A on plasmacytoid Dendritic Cell	ERN1	Orru_2020
+SSC-A on plasmacytoid Dendritic Cell	HBB	Orru_2020
+SSC-A on monocyte	PLEC	Orru_2020
+SSC-A on monocyte	CDK6	Orru_2020
+SSC-A on monocyte	IFI30	Orru_2020
+SSC-A on monocyte	LYZ	Orru_2020
+SSC-A on CD14+ monocyte	CDK6	Orru_2020
+SSC-A on CD14+ monocyte	IFI30	Orru_2020
+SSC-A on CD14+ monocyte	LYZ	Orru_2020
+SSC-A on B cell	HBB	Orru_2020
+SSC-A on Natural Killer	FAM53B	Orru_2020
+SSC-A on granulocyte	RASSF1	Orru_2020
+SSC-A on granulocyte	CDK6	Orru_2020
+SSC-A on granulocyte	DEFA10P	Orru_2020
+SSC-A on granulocyte	CDK6	Orru_2020
+SSC-A on lymphocyte	TTC28	Orru_2020
+SSC-A on T cell	MFSD4A	Orru_2020
+SSC-A on T cell	TTC28	Orru_2020
+SSC-A on HLA DR+ T cell	CIITA	Orru_2020
+CD20 on IgD- CD38dim B cell	MS4A1	Orru_2020
+CD20 on IgD- CD38dim B cell	VARS1	Orru_2020
+CD20 on IgD- CD38dim B cell	DKKL1	Orru_2020
+CD20 on memory B cell	MB	Orru_2020
+CD20 on memory B cell	MS4A1	Orru_2020
+CD20 on memory B cell	TEAD2	Orru_2020
+CD20 on naive-mature B cell	SUGCT	Orru_2020
+CD20 on naive-mature B cell	MS4A12	Orru_2020
+CD20 on unswitched memory B cell	TEAD2	Orru_2020
+CD20 on switched memory B cell	VWA7	Orru_2020
+CD20 on switched memory B cell	MS4A14	Orru_2020
+CD20 on switched memory B cell	DKKL1	Orru_2020
+CD40 on monocytes	FCGR2A	Orru_2020
+CD40 on monocytes	CD40	Orru_2020
+CD64 on CD14+ CD16- monocyte	TOX	Orru_2020
+CD64 on CD14+ CD16- monocyte	HYDIN	Orru_2020
+CD64 on CD14+ CD16- monocyte	FCGR2A	Orru_2020
+HLA DR on CD14+ CD16- monocyte	LYZ	Orru_2020
+CD40 on CD14- CD16+ monocyte	FCGR2A	Orru_2020
+CD40 on CD14- CD16+ monocyte	CD40	Orru_2020
+HLA DR on CD14+ monocyte	LYZ	Orru_2020
+CX3CR1 on monocyte	FCGR2A	Orru_2020
+CD28 on CD39+ resting CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD86 on granulocyte	CDK6	Orru_2020
+CCR7 on naive CD4+ T cell	LINC00343	Orru_2020
+CCR7 on naive CD4+ T cell	PGAP6	Orru_2020
+CCR7 on naive CD4+ T cell	CCR7	Orru_2020
+CD40 on CD14+ CD16- monocyte	NINJ1	Orru_2020
+CD40 on CD14+ CD16- monocyte	FCGR2A	Orru_2020
+CD40 on CD14+ CD16- monocyte	CD40	Orru_2020
+CD40 on CD14+ CD16+ monocyte	FCGR2A	Orru_2020
+CD40 on CD14+ CD16+ monocyte	CD40	Orru_2020
+CD14 on CD14+ CD16+ monocyte	FCGR2A	Orru_2020
+HLA DR on CD14- CD16+ monocyte	LPP	Orru_2020
+HLA DR on CD14- CD16+ monocyte	CIITA	Orru_2020
+CD40 on monocytes	ATE1	Orru_2020
+CD40 on monocytes	CDKL5	Orru_2020
+HVEM on Terminally Differentiated CD4+ T cell	TNFRSF14-AS1	Orru_2020
+HVEM on CD45RA- CD4+ T cell	TNFRSF14	Orru_2020
+HVEM on CD8+ T cell	TNFRSF14	Orru_2020
+HVEM on Central Memory CD8+ T cell	TNFRSF14	Orru_2020
+CD16-CD56 on Natural Killer T	NCAM1	Orru_2020
+CD16-CD56 on Natural Killer T	TSTD3	Orru_2020
+CD16-CD56 on Natural Killer	NCAM1	Orru_2020
+CD28 on CD39+ activated CD4 regulatory T cell	ENTPD1-AS1	Orru_2020
+CD28 on CD39+ activated CD4 regulatory T cell	CD28	Orru_2020
+CD28 on secreting CD4 regulatory T cell	HNRNPLL	Orru_2020
+CD28 on CD39+ secreting CD4 regulatory T cell	ENTPD1	Orru_2020
+CD28 on CD39+ secreting CD4 regulatory T cell	ENTPD1	Orru_2020
+CD28 on CD45RA+ CD4+ T cell	BACH2	Orru_2020
+CD28 on CD45RA- CD4 not regulatory T cell	CD28	Orru_2020
+CD28 on CD39+ CD4+ T cell	ALDH18A1	Orru_2020
+CD28 on CD39+ CD4+ T cell	ENTPD1	Orru_2020
+CD28 on CD28+ CD45RA- CD8+ T cell	KRT18P39	Orru_2020
+CD28 on CD28+ CD4+ T cell	CD28	Orru_2020
+CD28 on CD28+ CD4+ T cell	BACH2	Orru_2020
+CD28 on CD28+ CD4-CD8- T cell	TSTD3	Orru_2020
+CD28 on CD28+ CD45RA+ CD8+ T cell	BACH2	Orru_2020
+CD28 on CD28+ CD45RA+ CD8+ T cell	BACH2	Orru_2020
+CD28 on CD39+ CD8+ T cell	CD28	Orru_2020
+CD28 on CD39+ CD8+ T cell	ENTPD1-AS1	Orru_2020
+CD28 on CD4+ T cell	CD28	Orru_2020
+CD28 on CD4+ T cell	BACH2	Orru_2020
+CD28 on CD4 regulatory T cell	CD28	Orru_2020
+CD28 on resting CD4 regulatory T cell	BACH2	Orru_2020
+CD28 on resting CD4 regulatory T cell	BACH2	Orru_2020
+IgD on unswitched memory B cell	IGHD	Orru_2020
+IgD on IgD+ B cell	CCDC32	Orru_2020
+IgD on IgD+ B cell	IGHD	Orru_2020
+IgD on transitional B cell	SNX8	Orru_2020
+IgD on transitional B cell	IGHD	Orru_2020
+BAFF-R on B cell	FCGR2A	Orru_2020
+BAFF-R on CD20- B cell	GADL1	Orru_2020
+BAFF-R on CD20- B cell	TNFRSF13C	Orru_2020
+CD62L on CD62L+ myeloid Dendritic Cell	C1orf112	Orru_2020
+CD62L on CD62L+ myeloid Dendritic Cell	C1orf112	Orru_2020
+CD62L on CD62L+ plasmacytoid Dendritic Cell	SELP	Orru_2020
+CD62L on CD62L+ plasmacytoid Dendritic Cell	C1orf112	Orru_2020
+CD62L on CD62L+ Dendritic Cell	C1orf112	Orru_2020
+CD62L on monocyte	SELP	Orru_2020
+CD62L on monocyte	C1orf112	Orru_2020
+CD62L on monocyte	SELL	Orru_2020
+CD3 on naive CD8+ T cell	PGAP6	Orru_2020
+CD3 on naive CD8+ T cell	CD247	Orru_2020
+CD20 on IgD+ CD38- B cell	MS4A1	Orru_2020
+CD20 on IgD+ CD38- B cell	TEAD2	Orru_2020
+CD20 on IgD+ CD38+ B cell	KASH5	Orru_2020
+CD20 on IgD+ CD38+ B cell	MS4A12	Orru_2020
+CD20 on IgD+ CD38dim B cell	CIITA	Orru_2020
+CD20 on IgD+ CD38dim B cell	MS4A12	Orru_2020
+CD20 on IgD- CD24- B cell	HLA-DQB1	Orru_2020
+CD20 on IgD- CD24- B cell	TEAD2	Orru_2020
+CD20 on IgD- CD27- B cell	TEAD2	Orru_2020
+CD20 on IgD- CD27- B cell	CD40	Orru_2020
+CD20 on IgD- CD38- B cell	VWA7	Orru_2020
+CD20 on IgD- CD38- B cell	MS4A14	Orru_2020
+CD20 on IgD- CD38- B cell	DKKL1	Orru_2020
+CD3 on CD4 regulatory T cell	CXCR5	Orru_2020
+CD3 on CD4 regulatory T cell	CD247	Orru_2020
+CD3 on CD4 regulatory T cell	CD247	Orru_2020
+CD3 on CD4 regulatory T cell	CD247	Orru_2020
+CD3 on resting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on resting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on resting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on resting CD4 regulatory T cell	CXCR5	Orru_2020
+CD3 on resting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on resting CD4 regulatory T cell	CD247	Orru_2020
+CD34 on Hematopoietic Stem Cell	ATP8B4	Orru_2020
+CD34 on Hematopoietic Stem Cell	CCDC162P	Orru_2020
+HVEM on T cell	TNFRSF14	Orru_2020
+HVEM on Effector Memory CD8+ T cell	TNFRSF14	Orru_2020
+HVEM on CD4+ T cell	TNFRSF14	Orru_2020
+HVEM on Central Memory CD4+ T cell	TNFRSF14	Orru_2020
+CD3 on Terminally Differentiated CD4+ T cell	CD247	Orru_2020
+CD3 on CD45RA- CD4+ T cell	CD247	Orru_2020
+CD3 on CD45RA- CD4+ T cell	CD247	Orru_2020
+CD3 on Central Memory CD8+ T cell	CD247	Orru_2020
+CD3 on Central Memory CD8+ T cell	CD247	Orru_2020
+CD3 on HLA DR+ T cell	CD247	Orru_2020
+CD3 on HLA DR+ T cell	CD247	Orru_2020
+CD3 on HLA DR+ T cell	CIITA	Orru_2020
+CD3 on HLA DR+ T cell	CD247	Orru_2020
+CD3 on Natural Killer T	TSTD3	Orru_2020
+CD3 on HLA DR+ CD4+ T cell	ABLIM1	Orru_2020
+CD3 on HLA DR+ CD4+ T cell	CD247	Orru_2020
+CD3 on HLA DR+ CD8+ T cell	GPA33	Orru_2020
+CD3 on HLA DR+ CD8+ T cell	CD247	Orru_2020
+CD3 on CD39+ resting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on activated CD4 regulatory T cell	CXCR5	Orru_2020
+CD3 on activated CD4 regulatory T cell	CD247	Orru_2020
+CD3 on activated CD4 regulatory T cell	CREG1	Orru_2020
+CD3 on activated CD4 regulatory T cell	CD247	Orru_2020
+CD3 on activated CD4 regulatory T cell	CD247	Orru_2020
+CD3 on CD39+ activated CD4 regulatory T cell	CREG1	Orru_2020
+CD3 on CD39+ activated CD4 regulatory T cell	CD247	Orru_2020
+CD3 on CD39+ activated CD4 regulatory T cell	ENTPD1	Orru_2020
+CD3 on CD39+ activated CD4 regulatory T cell	CD247	Orru_2020
+CD3 on secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on CD39+ secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on CD39+ secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on activated & secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on activated & secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on activated & secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on activated & secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on activated & secreting CD4 regulatory T cell	CD247	Orru_2020
+CD3 on CD45RA+ CD4+ T cell	PGAP6	Orru_2020
+CD3 on CD45RA+ CD4+ T cell	CD247	Orru_2020
+CD3 on CD45RA+ CD4+ T cell	CD247	Orru_2020
+CD3 on CD45RA+ CD4+ T cell	CD247	Orru_2020
+CD3 on CD45RA+ CD4+ T cell	LZTFL1	Orru_2020
+CD3 on CD45RA+ CD4+ T cell	CXCR5	Orru_2020
+CD3 on CD45RA+ CD4+ T cell	CD247	Orru_2020
+CD3 on CD45RA+ CD4+ T cell	CD247	Orru_2020
+CD3 on CD8+ T cell	CD247	Orru_2020
+CD3 on CD8+ T cell	CD247	Orru_2020
+CD3 on CD8+ T cell	CD247	Orru_2020
+CD3 on CD8+ T cell	CD247	Orru_2020
+CD3 on CD8+ T cell	CD247	Orru_2020
+CD3 on CD8+ T cell	CD247	Orru_2020
+CD3 on CD39+ CD4+ T cell	CD247	Orru_2020
+CD3 on CD39+ CD4+ T cell	CD247	Orru_2020
+CD3 on CD39+ CD4+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD4+ T cell	POU2F1	Orru_2020
+CD3 on CD28+ CD4+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA- CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA- CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA- CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA- CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA- CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA- CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA+ CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA+ CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA+ CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA+ CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA+ CD8+ T cell	CD247	Orru_2020
+CD3 on CD28+ CD45RA+ CD8+ T cell	CD247	Orru_2020
+CD3 on CD28- CD8+ T cell	PPP2R2C	Orru_2020
+CD3 on CD28- CD8+ T cell	CD247	Orru_2020
+CD3 on CD39+ CD8+ T cell	CD247	Orru_2020
+CD3 on CD39+ CD8+ T cell	CD247	Orru_2020
+CD3 on CD4+ T cell	POU2F1	Orru_2020
+CD3 on CD4+ T cell	CD247	Orru_2020
+CD3 on CD4 regulatory T cell	CD247	Orru_2020
+CD3 on CD4 regulatory T cell	CD247	Orru_2020
+HLA DR on HLA DR+ T cell	CIITA	Orru_2020
+HLA DR on HLA DR+ CD4+ T cell	CIITA	Orru_2020
+HLA DR on B cell	CIITA	Orru_2020
+HLA DR on B cell	CIITA	Orru_2020
+HLA DR on HLA DR+ Natural Killer	FCGR3A	Orru_2020
+HLA DR on HLA DR+ Natural Killer	CIITA	Orru_2020
+CD8 on CD28+ CD45RA- CD8+ T cell	CD8B	Orru_2020
+CD8 on CD28+ CD45RA- CD8+ T cell	RMND5A	Orru_2020
+CD8 on CD28+ CD45RA+ CD8+ T cell	RNF103-CHMP3	Orru_2020
+CD8 on CD28+ CD45RA+ CD8+ T cell	CCHCR1	Orru_2020
+CD8 on CD28+ CD45RA+ CD8+ T cell	CD8B	Orru_2020
+CD8 on CD39+ CD8+ T cell	ALDH18A1	Orru_2020
+CD8 on CD39+ CD8+ T cell	HCG17	Orru_2020
+CD8 on CD39+ CD8+ T cell	CD8B	Orru_2020
+CD38 on IgD+ CD38+ B cell	CD38	Orru_2020
+CD38 on IgD+ CD38dim B cell	CD38	Orru_2020
+CD38 on IgD- CD38dim B cell	CD38	Orru_2020
+CD38 on naive-mature B cell	CD38	Orru_2020
+CD38 on IgD+ B cell	CD38	Orru_2020
+CD38 on transitional B cell	INKA2	Orru_2020
+CD38 on transitional B cell	CD38	Orru_2020
+IgD on IgD+ CD24+ B cell	IGHD	Orru_2020
+IgD on IgD+ CD24- B cell	KLC1	Orru_2020
+IgD on IgD+ CD24- B cell	CDK13	Orru_2020
+IgD on IgD+ CD24- B cell	SCN4A	Orru_2020
+IgD on IgD+ CD24- B cell	CCDC32	Orru_2020
+IgD on IgD+ CD24- B cell	IGHD	Orru_2020
+IgD on IgD+ CD38-  B cell	IGHD	Orru_2020
+IgD on IgD+ CD38+ B cell	CCDC32	Orru_2020
+IgD on IgD+ CD38+ B cell	SNX8	Orru_2020
+IgD on IgD+ CD38+ B cell	IGHD	Orru_2020
+IgD on IgD+ CD38dim B cell	CDK13	Orru_2020
+IgD on IgD+ CD38dim B cell	SCN4A	Orru_2020
+IgD on IgD+ CD38dim B cell	CCDC32	Orru_2020
+IgD on IgD+ CD38dim B cell	IGHD	Orru_2020
+CD20 on IgD+ B cell	MS4A12	Orru_2020
+CD20 on transitional B cell	MS4A12	Orru_2020
+CD24 on CD24+ CD27+ B cell	LINC02532	Orru_2020
+CD24 on IgD+ CD24+ B cell	HMSD	Orru_2020
+CD24 on IgD+ CD24+ B cell	GRIK2	Orru_2020
+CD24 on IgD+ CD24+ B cell	SEC63	Orru_2020
+CD24 on IgD+ CD24+ B cell	LINC02532	Orru_2020
+CD24 on IgD+ CD38- B cell	LINC02532	Orru_2020
+CD24 on IgD+ CD38+ B cell	LINC02532	Orru_2020
+CD24 on IgD- CD38- B cell	LINC02532	Orru_2020
+CD24 on IgD- CD38dim B cell	LINC02532	Orru_2020
+CD24 on memory B cell	GRIK2	Orru_2020
+CD24 on memory B cell	LINC02532	Orru_2020
+CD24 on unswitched memory B cell	HMSD	Orru_2020
+CD24 on unswitched memory B cell	LINC02532	Orru_2020
+CD24 on switched memory B cell	LINC02532	Orru_2020
+CD24 on transitional B cell	LINC02532	Orru_2020
+CD25 on B cell	NINJ1	Orru_2020
+CD25 on CD24+ CD27+ B cell	NINJ1	Orru_2020
+CD25 on CD24+ CD27+ B cell	RPL32P23	Orru_2020
+CD25 on IgD+ CD24+ B cell	RPL32P23	Orru_2020
+CD25 on IgD+ CD24- B cell	IGHD	Orru_2020
+CD25 on IgD+ CD24- B cell	NINJ1	Orru_2020
+CD25 on IgD+ CD38- B cell	NINJ1	Orru_2020
+CD25 on IgD+ CD38+ B cell	NINJ1	Orru_2020
+CD25 on IgD+ CD38+ B cell	IGHD	Orru_2020
+CD25 on IgD+ CD38dim B cell	PKD1L1	Orru_2020
+CD25 on IgD- CD24- B cell	PLCG2	Orru_2020
+CD25 on IgD- CD27- B cell	CD40	Orru_2020
+CD25 on IgD- CD38- B cell	GLIS3	Orru_2020
+CD25 on IgD- CD38- B cell	IL2RA	Orru_2020
+CD25 on IgD- CD38dim B cell	NINJ1	Orru_2020
+CD25 on memory B cell	NINJ1	Orru_2020
+CD25 on memory B cell	RPL32P23	Orru_2020
+CD3 on naive CD8+ T cell	CD247	Orru_2020
+CD3 on naive CD8+ T cell	CD247	Orru_2020
+CD3 on naive CD8+ T cell	CD247	Orru_2020
+CD3 on naive CD8+ T cell	CD247	Orru_2020
+CD3 on naive CD8+ T cell	CD247	Orru_2020
+CD3 on Effector Memory CD8+ T cell	CD247	Orru_2020
+CD3 on Effector Memory CD8+ T cell	SRSF10P1	Orru_2020
+CD3 on Effector Memory CD8+ T cell	CD247	Orru_2020
+CD3 on Effector Memory CD8+ T cell	CD247	Orru_2020
+CD3 on Effector Memory CD8+ T cell	CD247	Orru_2020
+CD3 on Terminally Differentiated CD8+ T cell	PPP2R2C	Orru_2020
+CD3 on Terminally Differentiated CD8+ T cell	CD247	Orru_2020
+CD3 on Central Memory CD4+ T cell	LZTFL1	Orru_2020
+CD3 on Central Memory CD4+ T cell	CD247	Orru_2020
+CD3 on Central Memory CD4+ T cell	CD247	Orru_2020
+CD3 on Central Memory CD4+ T cell	CD247	Orru_2020
+CD3 on Naive CD4+ T cell	PGAP6	Orru_2020
+CD3 on Naive CD4+ T cell	CD247	Orru_2020
+CD3 on Naive CD4+ T cell	LZTFL1	Orru_2020
+CD3 on Naive CD4+ T cell	CD247	Orru_2020
+CD3 on Naive CD4+ T cell	CD247	Orru_2020
+CD3 on Naive CD4+ T cell	CXCR5	Orru_2020
+CD3 on Naive CD4+ T cell	CD247	Orru_2020
+CD3 on Naive CD4+ T cell	CD247	Orru_2020
+CD3 on Effector Memory CD4+ T cell	CD247	Orru_2020
+CD27 on IgD- CD38dim B cell	LAPTM5	Orru_2020
+CD27 on IgD- CD38dim B cell	CD27-AS1	Orru_2020
+CD27 on IgD- CD38dim B cell	FCGR2A	Orru_2020
+CD27 on IgD- CD38dim B cell	CMTM6	Orru_2020
+CD27 on IgD- CD38dim B cell	CD40	Orru_2020
+CD27 on memory B cell	NCAPD2	Orru_2020
+CD27 on memory B cell	CMTM6	Orru_2020
+CD27 on memory B cell	CD40	Orru_2020
+CD27 on unswitched memory B cell	IGHD	Orru_2020
+CD27 on unswitched memory B cell	FCGR2A	Orru_2020
+CD27 on unswitched memory B cell	CD27-AS1	Orru_2020
+CD27 on unswitched memory B cell	CMTM6	Orru_2020
+CD27 on unswitched memory B cell	CD40	Orru_2020
+CD27 on Plasma Blast-Plasma Cell	FCGR2A	Orru_2020
+CD27 on Plasma Blast-Plasma Cell	CD38	Orru_2020
+CD27 on switched memory B cell	LAPTM5	Orru_2020
+CD27 on switched memory B cell	CD27-AS1	Orru_2020
+CD27 on switched memory B cell	FCGR2A	Orru_2020
+CD27 on switched memory B cell	CMTM6	Orru_2020
+CD27 on switched memory B cell	CD40	Orru_2020
+CD38 on IgD+ CD24- B cell	CD38	Orru_2020
+CD38 on IgD+ CD38+ B cell	MTPAP	Orru_2020
+CD25 on naive-mature B cell	NINJ1	Orru_2020
+CD25 on unswitched memory B cell	NINJ1	Orru_2020
+CD25 on unswitched memory B cell	RPL32P23	Orru_2020
+CD25 on transitional B cell	IGHD	Orru_2020
+CD27 on CD24+ CD27+ B cell	LAPTM5	Orru_2020
+CD27 on CD24+ CD27+ B cell	CD27-AS1	Orru_2020
+CD27 on CD24+ CD27+ B cell	FCGR2A	Orru_2020
+CD27 on CD24+ CD27+ B cell	CMTM6	Orru_2020
+CD27 on CD24+ CD27+ B cell	CD40	Orru_2020
+CD27 on IgD+ CD24+ B cell	CD27-AS1	Orru_2020
+CD27 on IgD+ CD24+ B cell	CMTM6	Orru_2020
+CD27 on IgD+ CD24+ B cell	CD40	Orru_2020
+CD27 on IgD- CD38- B cell	FCGR2A	Orru_2020
+CD27 on IgD- CD38- B cell	CD27-AS1	Orru_2020
+CD27 on IgD- CD38- B cell	CMTM6	Orru_2020
+CD27 on IgD- CD38- B cell	CD40	Orru_2020
+CD27 on IgD- CD38+ B cell	CD40	Orru_2020
+CD27 on IgD- CD38+ B cell	CD27-AS1	Orru_2020
+HLA DR on Dendritic Cell	HLA-DRB9	Orru_2020
+HLA DR on Dendritic Cell	FCGR3A	Orru_2020
+HLA DR on CD33dim HLA DR+ CD11b+	CIITA	Orru_2020
+HLA DR on CD33dim HLA DR+ CD11b+	LPP	Orru_2020
+HLA DR on CD33dim HLA DR+ CD11b-	CIITA	Orru_2020
+CD11b on CD33+ HLA DR+ CD14dim	FCGR2A	Orru_2020
+CD45RA on naive CD4+ T cell	JAZF1	Orru_2020
+CD45RA on naive CD4+ T cell	GALM	Orru_2020
+CD45RA on naive CD4+ T cell	HNRNPLL	Orru_2020
+CD45RA on naive CD4+ T cell	GALM	Orru_2020
+CD45RA on naive CD8+ T cell	GALM	Orru_2020
+CD45RA on naive CD8+ T cell	HNRNPLL	Orru_2020
+CD45RA on Terminally Differentiated CD8+ T cell	GALM	Orru_2020
+CD45RA on resting CD4 regulatory T cell	GALM	Orru_2020
+CD45RA on resting CD4 regulatory T cell	HNRNPLL	Orru_2020
+CD45RA on resting CD4 regulatory T cell	GALM	Orru_2020
+CD45RA on CD39+ resting CD4 regulatory T cell	HNRNPLL	Orru_2020
+HLA DR on myeloid Dendritic Cell	FCGR3A	Orru_2020
+HLA DR on plasmacytoid Dendritic Cell	PRKRA	Orru_2020
+HLA DR on plasmacytoid Dendritic Cell	CIITA	Orru_2020
+HLA DR on plasmacytoid Dendritic Cell	TVP23A	Orru_2020
+SSC-A on Natural Killer T	MAML2	Orru_2020
+SSC-A on Natural Killer T	NFILZ	Orru_2020
+CD11c on myeloid Dendritic Cell	LDLRAP1	Orru_2020
+CD11c on myeloid Dendritic Cell	ITGAM	Orru_2020
+CD11c on CD62L+ myeloid Dendritic Cell	ITGAM	Orru_2020
+CD11c on CD62L+ myeloid Dendritic Cell	LDLRAP1	Orru_2020
+CD11c on monocyte	FCGR2A	Orru_2020
+CD11c on granulocyte	ADAMTS4	Orru_2020
+CD11c on granulocyte	SIGLEC5	Orru_2020
+CD11c on granulocyte	FCGR2A	Orru_2020
+CD11c on granulocyte	ITGAX	Orru_2020
+CD11b on CD14+ monocyte	FCGR2A	Orru_2020
+CD11b on Monocytic Myeloid-Derived Suppressor Cells	FCGR2A	Orru_2020
+CD11b on CD33dim HLA DR-	ITGB2	Orru_2020
+CD11b on basophil	ITGB2	Orru_2020
+CD11b on basophil	ITGB2	Orru_2020

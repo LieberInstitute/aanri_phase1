@@ -1,0 +1,265 @@
+trait	candidate_genes	mhc	region
+CD45RA- CD8+ AC	C2	Yes	Caudate
+CD45RA- CD28+ CD8+ %P	HLA-B	Yes	Caudate
+CD45RA- CD28+ CD8+ %P	HLA-B	Yes	Caudate
+CD45RA- CD28+ CD8+ %P	HLA-B	Yes	Caudate
+CD45RA- CD28+ CD8+ %P	HLA-B	Yes	Caudate
+CD28+ CD45RA- CD8+ T cell %CD8+ T cell	HLA-B	Yes	Caudate
+CD8 on Central Memory CD8+ T cell	HLA-B	Yes	Caudate
+CD8 on naive CD8+ T cell	HLA-B	Yes	Caudate
+CD20 on IgD- CD24- B cell	HLA-DQB1	Yes	Caudate
+CD62L- plasmacytoid cDC %P	HPSE	No	Caudate
+naive (CD4+ CD8+) AC	CD4	No	Caudate
+CD24 in IgM+ marginal zone B cells	CD24	No	Caudate
+CD45 on HLA DR+ T cell	CIITA	No	Caudate
+CD45 on HLA DR+ CD4+ T cell	CIITA	No	Caudate
+CD127 on granulocyte	CDK6	No	Caudate
+CD127 on granulocyte	MPO	No	Caudate
+CD127 on granulocyte	MPO	No	Caudate
+CD4 on monocyte	CD4	No	Caudate
+CD4+CD8+ T cell Absolute Count	CD4	No	Caudate
+CD4+CD8+ T cell %T cell	CD4	No	Caudate
+FSC-A on granulocyte	CDK6	No	Caudate
+CD4+CD8+ T cell %leukocyte	CD4	No	Caudate
+HLA DR+ CD4+ T cell Absolute Count	CIITA	No	Caudate
+HLA DR+ CD4+ T cell %T cell	CIITA	No	Caudate
+HLA DR+ CD4+ T cell %lymphocyte	CIITA	No	Caudate
+HLA DR+ CD8+ T cell Absolute Count	CIITA	No	Caudate
+HLA DR+ CD8+ T cell %T cell	CIITA	No	Caudate
+HLA DR+ CD8+ T cell %lymphocyte	CIITA	No	Caudate
+HLA DR+ T cell Absolute Count	CIITA	No	Caudate
+HLA DR+ T cell%T cell	CIITA	No	Caudate
+HLA DR+ T cell%lymphocyte	CIITA	No	Caudate
+CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count	CYP4F3	No	Caudate
+CD14- CD16- Absolute Count	CDK6	No	Caudate
+CD14+ CD16- monocyte Absolute Count	CDK6	No	Caudate
+CCR2 on granulocyte	CDK6	No	Caudate
+CD4 on CD4+ T cell	CD4	No	Caudate
+CD4 on Central Memory CD4+ T cell	CD4	No	Caudate
+CD4 on naive CD4+ T cell	CD4	No	Caudate
+CD4 on Effector Memory CD4+ T cell	CD4	No	Caudate
+CD4 on CD45RA+ CD4+ T cell	CD4	No	Caudate
+CD39 on granulocyte	CDK6	No	Caudate
+CD4 on CD28+ CD4+ T cell	CD4	No	Caudate
+CD4 on CD4 regulatory T cell	CD4	No	Caudate
+CD4 on resting CD4 regulatory T cell	CD4	No	Caudate
+CD4 on activated CD4 regulatory T cell	CD4	No	Caudate
+CD4 on CD39+ activated CD4 regulatory T cell	CD4	No	Caudate
+CD4 on secreting CD4 regulatory T cell	CD4	No	Caudate
+CD4 on activated & secreting CD4 regulatory T cell	CD4	No	Caudate
+SSC-A on monocyte	CDK6	No	Caudate
+SSC-A on CD14+ monocyte	CDK6	No	Caudate
+SSC-A on granulocyte	CDK6	No	Caudate
+SSC-A on granulocyte	CDK6	No	Caudate
+SSC-A on HLA DR+ T cell	CIITA	No	Caudate
+CD86 on granulocyte	CDK6	No	Caudate
+HLA DR on CD14- CD16+ monocyte	CIITA	No	Caudate
+HVEM on CD45RA- CD4+ T cell	TNFRSF14	No	Caudate
+HVEM on CD8+ T cell	TNFRSF14	No	Caudate
+HVEM on Central Memory CD8+ T cell	TNFRSF14	No	Caudate
+CD20 on IgD+ CD38dim B cell	CIITA	No	Caudate
+CD34 on Hematopoietic Stem Cell	CCDC162P	No	Caudate
+HVEM on T cell	TNFRSF14	No	Caudate
+HVEM on Effector Memory CD8+ T cell	TNFRSF14	No	Caudate
+HVEM on CD4+ T cell	TNFRSF14	No	Caudate
+HVEM on Central Memory CD4+ T cell	TNFRSF14	No	Caudate
+CD3 on HLA DR+ T cell	CIITA	No	Caudate
+HLA DR on HLA DR+ T cell	CIITA	No	Caudate
+HLA DR on HLA DR+ CD4+ T cell	CIITA	No	Caudate
+HLA DR on B cell	CIITA	No	Caudate
+HLA DR on B cell	CIITA	No	Caudate
+HLA DR on HLA DR+ Natural Killer	CIITA	No	Caudate
+CD25 on IgD- CD24- B cell	PLCG2	No	Caudate
+HLA DR on CD33dim HLA DR+ CD11b+	CIITA	No	Caudate
+HLA DR on CD33dim HLA DR+ CD11b-	CIITA	No	Caudate
+HLA DR on plasmacytoid Dendritic Cell	CIITA	No	Caudate
+CD11c on myeloid Dendritic Cell	ITGAM	No	Caudate
+CD11c on CD62L+ myeloid Dendritic Cell	ITGAM	No	Caudate
+CD20 on switched memory B cell	VWA7	Yes	Dentate Gyrus
+CD20 on IgD- CD38- B cell	VWA7	Yes	Dentate Gyrus
+TD CD4+ %GP	GALM	No	Dentate Gyrus
+TD CD4+ %GP	GALM	No	Dentate Gyrus
+CD45 on HLA DR+ T cell	CIITA	No	Dentate Gyrus
+CD45 on HLA DR+ CD4+ T cell	CIITA	No	Dentate Gyrus
+HLA DR+ CD4+ T cell Absolute Count	CIITA	No	Dentate Gyrus
+HLA DR+ CD4+ T cell %T cell	CIITA	No	Dentate Gyrus
+HLA DR+ CD4+ T cell %lymphocyte	CIITA	No	Dentate Gyrus
+HLA DR+ CD8+ T cell Absolute Count	CIITA	No	Dentate Gyrus
+HLA DR+ CD8+ T cell %T cell	CIITA	No	Dentate Gyrus
+HLA DR+ CD8+ T cell %lymphocyte	CIITA	No	Dentate Gyrus
+HLA DR+ T cell Absolute Count	CIITA	No	Dentate Gyrus
+HLA DR+ T cell%T cell	CIITA	No	Dentate Gyrus
+HLA DR+ T cell%lymphocyte	CIITA	No	Dentate Gyrus
+Granulocyte Absolute Count	ACKR1	No	Dentate Gyrus
+Resting CD4 regulatory T cell Absolute Count	GALM	No	Dentate Gyrus
+Resting CD4 regulatory T cell Absolute Count	GALM	No	Dentate Gyrus
+Resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	No	Dentate Gyrus
+Resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	No	Dentate Gyrus
+Resting CD4 regulatory T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+Resting CD4 regulatory T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+CD39+ resting CD4 regulatory T cell Absolute Count	GALM	No	Dentate Gyrus
+CD39+ resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	No	Dentate Gyrus
+Secreting CD4 regulatory T cell %CD4 regulatory T cell	GALM	No	Dentate Gyrus
+Secreting CD4 regulatory T cell %CD4 regulatory T cell	GALM	No	Dentate Gyrus
+Secreting CD4 regulatory T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+Activated & resting CD4 regulatory T cell Absolute Count	GALM	No	Dentate Gyrus
+Activated & resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	No	Dentate Gyrus
+Activated & resting CD4 regulatory T cell %CD4 regulatory T cell	GALM	No	Dentate Gyrus
+Activated & resting CD4 regulatory T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+Activated & secreting CD4 regulatory T cell %CD4 regulatory T cell	GALM	No	Dentate Gyrus
+Activated & secreting CD4 regulatory T cell %CD4 regulatory T cell	GALM	No	Dentate Gyrus
+Activated & secreting CD4 regulatory T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+Central Memory CD4+ T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+Naive CD4+ T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+Terminally Differentiated CD4+ T cell Absolute Count	GALM	No	Dentate Gyrus
+Terminally Differentiated CD4+ T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+Terminally Differentiated CD4+ T cell %T cell	GALM	No	Dentate Gyrus
+Effector Memory CD8+ T cell %CD8+ T cell	GALM	No	Dentate Gyrus
+Terminally Differentiated CD8+ T cell Absolute Count	GALM	No	Dentate Gyrus
+Terminally Differentiated CD8+ T cell %CD8+ T cell	GALM	No	Dentate Gyrus
+Terminally Differentiated CD8+ T cell %CD8+ T cell	GALM	No	Dentate Gyrus
+Terminally Differentiated CD8+ T cell %T cell	GALM	No	Dentate Gyrus
+CD45RA+ CD8+ T cell Absolute Count	GALM	No	Dentate Gyrus
+CD45RA+ CD8+ T cell %CD8+ T cell	GALM	No	Dentate Gyrus
+CD45RA+ CD8+ T cell %CD8+ T cell	GALM	No	Dentate Gyrus
+CD45RA+ CD8+ T cell %T cell	GALM	No	Dentate Gyrus
+Effector Memory CD4-CD8- T cell %CD4-CD8- T cell	GALM	No	Dentate Gyrus
+Terminally Differentiated CD4-CD8- T cell Absolute Count	GALM	No	Dentate Gyrus
+Terminally Differentiated CD4-CD8- T cell %CD4-CD8- T cell	GALM	No	Dentate Gyrus
+Terminally Differentiated CD4-CD8- T cell %T cell	GALM	No	Dentate Gyrus
+CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count	CYP4F3	No	Dentate Gyrus
+CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count	GALM	No	Dentate Gyrus
+CD25++ CD45RA+ CD4 not regulatory T cell Absolute Count	GALM	No	Dentate Gyrus
+CD25++ CD45RA+ CD4 not regulatory T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+CD25++ CD45RA+ CD4 not regulatory T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+CD25++ CD45RA+ CD4 not regulatory T cell %T cell	GALM	No	Dentate Gyrus
+CD25++ CD45RA+ CD4 not regulatory T cell %T cell	GALM	No	Dentate Gyrus
+CD45RA- CD4+ T cell %CD4+ T cell	GALM	No	Dentate Gyrus
+CD45RA- CD4+ T cell %T cell	GALM	No	Dentate Gyrus
+CD28+ CD45RA+ CD8+ T cell %T cell	GALM	No	Dentate Gyrus
+CD28+ CD45RA+ CD8+ T cell Absolute Count	GALM	No	Dentate Gyrus
+CD28+ CD45RA+ CD8dim T cell %T cell	GALM	No	Dentate Gyrus
+CD28+ CD45RA+ CD8dim T cell %CD8dim T cell	GALM	No	Dentate Gyrus
+CD28+ CD45RA+ CD8dim T cell Absolute Count	GALM	No	Dentate Gyrus
+SSC-A on HLA DR+ T cell	CIITA	No	Dentate Gyrus
+HLA DR on CD14- CD16+ monocyte	CIITA	No	Dentate Gyrus
+HVEM on CD45RA- CD4+ T cell	TNFRSF14	No	Dentate Gyrus
+HVEM on CD8+ T cell	TNFRSF14	No	Dentate Gyrus
+HVEM on Central Memory CD8+ T cell	TNFRSF14	No	Dentate Gyrus
+CD20 on IgD+ CD38dim B cell	CIITA	No	Dentate Gyrus
+HVEM on T cell	TNFRSF14	No	Dentate Gyrus
+HVEM on Effector Memory CD8+ T cell	TNFRSF14	No	Dentate Gyrus
+HVEM on CD4+ T cell	TNFRSF14	No	Dentate Gyrus
+HVEM on Central Memory CD4+ T cell	TNFRSF14	No	Dentate Gyrus
+CD3 on HLA DR+ T cell	CIITA	No	Dentate Gyrus
+HLA DR on HLA DR+ T cell	CIITA	No	Dentate Gyrus
+HLA DR on HLA DR+ CD4+ T cell	CIITA	No	Dentate Gyrus
+HLA DR on B cell	CIITA	No	Dentate Gyrus
+HLA DR on B cell	CIITA	No	Dentate Gyrus
+HLA DR on HLA DR+ Natural Killer	CIITA	No	Dentate Gyrus
+CD25 on IgD- CD24- B cell	PLCG2	No	Dentate Gyrus
+CD27 on IgD- CD38dim B cell	LAPTM5	No	Dentate Gyrus
+CD27 on switched memory B cell	LAPTM5	No	Dentate Gyrus
+CD27 on CD24+ CD27+ B cell	LAPTM5	No	Dentate Gyrus
+HLA DR on CD33dim HLA DR+ CD11b+	CIITA	No	Dentate Gyrus
+HLA DR on CD33dim HLA DR+ CD11b-	CIITA	No	Dentate Gyrus
+CD45RA on naive CD4+ T cell	GALM	No	Dentate Gyrus
+CD45RA on naive CD4+ T cell	GALM	No	Dentate Gyrus
+CD45RA on naive CD8+ T cell	GALM	No	Dentate Gyrus
+CD45RA on Terminally Differentiated CD8+ T cell	GALM	No	Dentate Gyrus
+CD45RA on resting CD4 regulatory T cell	GALM	No	Dentate Gyrus
+CD45RA on resting CD4 regulatory T cell	GALM	No	Dentate Gyrus
+HLA DR on plasmacytoid Dendritic Cell	CIITA	No	Dentate Gyrus
+CD11c on granulocyte	ITGAX	No	Dentate Gyrus
+CD11b on CD33dim HLA DR-	ITGB2	No	Dentate Gyrus
+CD11b on basophil	ITGB2	No	Dentate Gyrus
+CD11b on basophil	ITGB2	No	Dentate Gyrus
+CD20 on IgD- CD24- B cell	HLA-DQB1	Yes	DLPFC
+CD24 in IgM+ marginal zone B cells	CD24	No	DLPFC
+T/B cell	TNFSF13B	No	DLPFC
+Memory B cell Absolute Count	TNFSF13B	No	DLPFC
+CD24+ CD27+ B cell Absolute Count	TNFSF13B	No	DLPFC
+B cell %CD3- lymphocyte	TNFSF13B	No	DLPFC
+B cell %lymphocyte	TNFSF13B	No	DLPFC
+Natural Killer %CD3- lymphocyte	TNFSF13B	No	DLPFC
+Granulocyte Absolute Count	ACKR1	No	DLPFC
+B cell Absolute Count	TNFSF13B	No	DLPFC
+IgD+ CD38- B cell Absolute Count	TNFSF13B	No	DLPFC
+Unswitched memory B cell Absolute Count	TNFSF13B	No	DLPFC
+IgD+ B cell Absolute Count	TNFSF13B	No	DLPFC
+Switched memory B cell Absolute Count	TNFSF13B	No	DLPFC
+IgD+ CD24+ B cell %lymphocyte	TNFSF13B	No	DLPFC
+CD24+ CD27+ B cell %lymphocyte	TNFSF13B	No	DLPFC
+IgD+ CD38+ B cell %B cell	CD38	No	DLPFC
+IgD- CD38dim B cell %lymphocyte	TNFSF13B	No	DLPFC
+IgD- CD38- B cell %lymphocyte	TNFSF13B	No	DLPFC
+IgD+ CD38+ B cell %lymphocyte	CD38	No	DLPFC
+IgD+ CD38dim B cell %lymphocyte	TNFSF13B	No	DLPFC
+IgD+ CD38- B cell %lymphocyte	TNFSF13B	No	DLPFC
+Unswitched memory B cell %lymphocyte	TNFSF13B	No	DLPFC
+Switched memory B cell %lymphocyte	TNFSF13B	No	DLPFC
+Memory B cell %lymphocyte	TNFSF13B	No	DLPFC
+IgD+ B cell %Lymphocyte	TNFSF13B	No	DLPFC
+CCR2 on monocyte	LIMD1	No	DLPFC
+HVEM on CD45RA- CD4+ T cell	TNFRSF14	No	DLPFC
+HVEM on CD8+ T cell	TNFRSF14	No	DLPFC
+HVEM on Central Memory CD8+ T cell	TNFRSF14	No	DLPFC
+HVEM on T cell	TNFRSF14	No	DLPFC
+HVEM on Effector Memory CD8+ T cell	TNFRSF14	No	DLPFC
+HVEM on CD4+ T cell	TNFRSF14	No	DLPFC
+HVEM on Central Memory CD4+ T cell	TNFRSF14	No	DLPFC
+CD38 on IgD+ CD38+ B cell	CD38	No	DLPFC
+CD38 on IgD+ CD38dim B cell	CD38	No	DLPFC
+CD38 on IgD- CD38dim B cell	CD38	No	DLPFC
+CD38 on naive-mature B cell	CD38	No	DLPFC
+CD38 on IgD+ B cell	CD38	No	DLPFC
+CD38 on transitional B cell	CD38	No	DLPFC
+CD25 on IgD- CD24- B cell	PLCG2	No	DLPFC
+CD27 on Plasma Blast-Plasma Cell	CD38	No	DLPFC
+CD38 on IgD+ CD24- B cell	CD38	No	DLPFC
+CD11c on myeloid Dendritic Cell	ITGAM	No	DLPFC
+CD11c on CD62L+ myeloid Dendritic Cell	ITGAM	No	DLPFC
+CD11b on CD33dim HLA DR-	ITGB2	No	DLPFC
+CD11b on basophil	ITGB2	No	DLPFC
+CD11b on basophil	ITGB2	No	DLPFC
+CD20 on IgD- CD24- B cell	HLA-DQB1	Yes	Hippocampus
+CD62L- plasmacytoid cDC %P	HPSE	No	Hippocampus
+CD45 on HLA DR+ T cell	CIITA	No	Hippocampus
+CD45 on HLA DR+ CD4+ T cell	CIITA	No	Hippocampus
+HLA DR+ CD4+ T cell Absolute Count	CIITA	No	Hippocampus
+HLA DR+ CD4+ T cell %T cell	CIITA	No	Hippocampus
+HLA DR+ CD4+ T cell %lymphocyte	CIITA	No	Hippocampus
+HLA DR+ CD8+ T cell Absolute Count	CIITA	No	Hippocampus
+HLA DR+ CD8+ T cell %T cell	CIITA	No	Hippocampus
+HLA DR+ CD8+ T cell %lymphocyte	CIITA	No	Hippocampus
+HLA DR+ T cell Absolute Count	CIITA	No	Hippocampus
+HLA DR+ T cell%T cell	CIITA	No	Hippocampus
+HLA DR+ T cell%lymphocyte	CIITA	No	Hippocampus
+IgD+ CD38+ B cell %B cell	CD38	No	Hippocampus
+IgD+ CD38+ B cell %lymphocyte	CD38	No	Hippocampus
+CCR2 on monocyte	LIMD1	No	Hippocampus
+SSC-A on HLA DR+ T cell	CIITA	No	Hippocampus
+HLA DR on CD14- CD16+ monocyte	CIITA	No	Hippocampus
+CD20 on IgD+ CD38dim B cell	CIITA	No	Hippocampus
+CD34 on Hematopoietic Stem Cell	CCDC162P	No	Hippocampus
+CD3 on HLA DR+ T cell	CIITA	No	Hippocampus
+HLA DR on HLA DR+ T cell	CIITA	No	Hippocampus
+HLA DR on HLA DR+ CD4+ T cell	CIITA	No	Hippocampus
+HLA DR on B cell	CIITA	No	Hippocampus
+HLA DR on B cell	CIITA	No	Hippocampus
+HLA DR on HLA DR+ Natural Killer	CIITA	No	Hippocampus
+CD38 on IgD+ CD38+ B cell	CD38	No	Hippocampus
+CD38 on IgD+ CD38dim B cell	CD38	No	Hippocampus
+CD38 on IgD- CD38dim B cell	CD38	No	Hippocampus
+CD38 on naive-mature B cell	CD38	No	Hippocampus
+CD38 on IgD+ B cell	CD38	No	Hippocampus
+CD38 on transitional B cell	CD38	No	Hippocampus
+CD25 on IgD- CD24- B cell	PLCG2	No	Hippocampus
+CD27 on IgD- CD38dim B cell	LAPTM5	No	Hippocampus
+CD27 on Plasma Blast-Plasma Cell	CD38	No	Hippocampus
+CD27 on switched memory B cell	LAPTM5	No	Hippocampus
+CD38 on IgD+ CD24- B cell	CD38	No	Hippocampus
+CD27 on CD24+ CD27+ B cell	LAPTM5	No	Hippocampus
+HLA DR on CD33dim HLA DR+ CD11b+	CIITA	No	Hippocampus
+HLA DR on CD33dim HLA DR+ CD11b-	CIITA	No	Hippocampus
+HLA DR on plasmacytoid Dendritic Cell	CIITA	No	Hippocampus
