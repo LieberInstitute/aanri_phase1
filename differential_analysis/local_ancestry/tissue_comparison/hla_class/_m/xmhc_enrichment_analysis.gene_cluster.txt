@@ -1,0 +1,145 @@
+Region	Direction	Gene_Cluster	OR	PValue	FDR
+Caudate	Up	Histone	3.7272102835835543	0.06149583069841036	0.29090870596729607
+Caudate	Down	Histone	2.870530209617756	0.08326883431579427	0.29976780353685933
+Caudate	All	Histone	3.236689827263536	0.009449254729395085	0.14634661826900816
+Caudate	Up	Solute carrier		1.0	1.0
+Caudate	Down	Solute carrier	0.0	1.0	1.0
+Caudate	All	Solute carrier	0.0	1.0	1.0
+Caudate	Up	Zinc finger protein	0.61968702015747	0.5765153730080955	1.0
+Caudate	Down	Zinc finger protein	1.673240883410375	0.4035387468239625	0.9393391368317804
+Caudate	All	Zinc finger protein	1.0367739993981342	1.0	1.0
+Caudate	Up	histone		1.0	1.0
+Caudate	Down	histone		1.0	1.0
+Caudate	All	histone		1.0	1.0
+Caudate	Up	HLA class I	5.58659217877095	0.16810435599289453	0.5227893597834261
+Caudate	Down	HLA class I	4.301939058171745	0.31234381056162724	0.8649520907860447
+Caudate	All	HLA class I	4.952105263157895	0.03887093793710413	0.2798707531471497
+Caudate	Up	Butyrophilin	inf	0.4174840608141246	0.9393391368317804
+Caudate	Down	Butyrophilin	inf	0.028509188571815572	0.2565826971463402
+Caudate	All	Butyrophilin	inf	0.012195551522417346	0.14634661826900816
+Caudate	Up	Vomeronasal receptor		1.0	1.0
+Caudate	Down	Vomeronasal receptor		1.0	1.0
+Caudate	All	Vomeronasal receptor		1.0	1.0
+Caudate	Up	Olfactory receptor		1.0	1.0
+Caudate	Down	Olfactory receptor		1.0	1.0
+Caudate	All	Olfactory receptor		1.0	1.0
+Caudate	Up	Tumor necrosis factor		1.0	1.0
+Caudate	Down	Tumor necrosis factor		1.0	1.0
+Caudate	All	Tumor necrosis factor		1.0	1.0
+Caudate	Up	Lymphocyte antigen	1.3954171562867215	1.0	1.0
+Caudate	Down	Lymphocyte antigen		1.0	1.0
+Caudate	All	Lymphocyte antigen	1.4137620192307692	1.0	1.0
+Caudate	Up	Heat shock protein	inf	0.17426311992780869	0.5227893597834261
+Caudate	Down	Heat shock protein	inf	0.41102123356926185	0.9393391368317804
+Caudate	All	Heat shock protein	inf	0.07109442575438903	0.29090870596729607
+Caudate	Up	HLA class II	inf	0.07272717649182402	0.29090870596729607
+Caudate	Down	HLA class II	inf	0.06939956060772216	0.29090870596729607
+Caudate	All	HLA class II	inf	0.0050504145382008455	0.14634661826900816
+Dentate Gyrus	Up	Histone	0.9443375040102663	1.0	1.0
+Dentate Gyrus	Down	Histone	5.810536491058483	0.16326684111928985	0.9417234783684458
+Dentate Gyrus	All	Histone	1.2552146129732336	0.6349187850250118	1.0
+Dentate Gyrus	Up	Solute carrier		1.0	1.0
+Dentate Gyrus	Down	Solute carrier	0.0	1.0	1.0
+Dentate Gyrus	All	Solute carrier	0.0	1.0	1.0
+Dentate Gyrus	Up	Zinc finger protein	0.7551066217732885	0.7957148969111039	1.0
+Dentate Gyrus	Down	Zinc finger protein	0.48357487922705317	0.6860484679662855	1.0
+Dentate Gyrus	All	Zinc finger protein	0.6824937736000642	0.5104064460487747	1.0
+Dentate Gyrus	Up	histone		1.0	1.0
+Dentate Gyrus	Down	histone		1.0	1.0
+Dentate Gyrus	All	histone		1.0	1.0
+Dentate Gyrus	Up	HLA class I	5.675805675805676	0.043559376932133555	0.392034392389202
+Dentate Gyrus	Down	HLA class I	5.810536491058483	0.16326684111928985	0.9417234783684458
+Dentate Gyrus	All	HLA class I	5.743008678881389	0.01186772080531331	0.21279515882228864
+Dentate Gyrus	Up	Butyrophilin	0.0	1.0	1.0
+Dentate Gyrus	Down	Butyrophilin	0.0	0.5746851741695285	1.0
+Dentate Gyrus	All	Butyrophilin	0.0	0.33674913478786656	1.0
+Dentate Gyrus	Up	Vomeronasal receptor		1.0	1.0
+Dentate Gyrus	Down	Vomeronasal receptor		1.0	1.0
+Dentate Gyrus	All	Vomeronasal receptor		1.0	1.0
+Dentate Gyrus	Up	Olfactory receptor		1.0	1.0
+Dentate Gyrus	Down	Olfactory receptor		1.0	1.0
+Dentate Gyrus	All	Olfactory receptor		1.0	1.0
+Dentate Gyrus	Up	Tumor necrosis factor		1.0	1.0
+Dentate Gyrus	Down	Tumor necrosis factor		1.0	1.0
+Dentate Gyrus	All	Tumor necrosis factor		1.0	1.0
+Dentate Gyrus	Up	Lymphocyte antigen	2.8342939481268012	0.45370230128384503	1.0
+Dentate Gyrus	Down	Lymphocyte antigen		1.0	1.0
+Dentate Gyrus	All	Lymphocyte antigen	2.8685287743799663	0.450228628596096	1.0
+Dentate Gyrus	Up	Heat shock protein	inf	0.017732929901857385	0.21279515882228864
+Dentate Gyrus	Down	Heat shock protein		1.0	1.0
+Dentate Gyrus	All	Heat shock protein	inf	0.017269564619804594	0.21279515882228864
+Dentate Gyrus	Up	HLA class II	2.835175396444017	0.28015507258338274	1.0
+Dentate Gyrus	Down	HLA class II	2.9038647342995167	0.4468100583396041	1.0
+Dentate Gyrus	All	HLA class II	2.869429053240183	0.18311289857164226	0.9417234783684458
+DLPFC	Up	Histone	2.0076891946580333	0.2001134308074174	0.6003402924222522
+DLPFC	Down	Histone	4.184984781873521	0.11086219168384728	0.3991038900618502
+DLPFC	All	Histone	2.5133862261348403	0.03140412483557413	0.20094130999919105
+DLPFC	Up	Solute carrier		1.0	1.0
+DLPFC	Down	Solute carrier	0.0	1.0	1.0
+DLPFC	All	Solute carrier	0.0	1.0	1.0
+DLPFC	Up	Zinc finger protein	0.5191703331238215	0.3110578326601303	0.8613909212126686
+DLPFC	Down	Zinc finger protein	2.510825439783491	0.19044750022729887	0.6003402924222522
+DLPFC	All	Zinc finger protein	1.0084718149234277	1.0	1.0
+DLPFC	Up	histone		1.0	1.0
+DLPFC	Down	histone		1.0	1.0
+DLPFC	All	histone		1.0	1.0
+DLPFC	Up	HLA class I	5.467442592010066	0.03324898433829316	0.20094130999919105
+DLPFC	Down	HLA class I		1.0	1.0
+DLPFC	All	HLA class I	5.65266243282853	0.032187046563128235	0.20094130999919105
+DLPFC	Up	Butyrophilin		1.0	1.0
+DLPFC	Down	Butyrophilin	inf	0.007328700083790188	0.14746753556113817
+DLPFC	All	Butyrophilin	inf	0.008192640864507677	0.14746753556113817
+DLPFC	Up	Vomeronasal receptor		1.0	1.0
+DLPFC	Down	Vomeronasal receptor		1.0	1.0
+DLPFC	All	Vomeronasal receptor		1.0	1.0
+DLPFC	Up	Olfactory receptor		1.0	1.0
+DLPFC	Down	Olfactory receptor		1.0	1.0
+DLPFC	All	Olfactory receptor		1.0	1.0
+DLPFC	Up	Tumor necrosis factor		1.0	1.0
+DLPFC	Down	Tumor necrosis factor		1.0	1.0
+DLPFC	All	Tumor necrosis factor		1.0	1.0
+DLPFC	Up	Lymphocyte antigen	inf	0.39072847682119205	1.0
+DLPFC	Down	Lymphocyte antigen	0.0	1.0	1.0
+DLPFC	All	Lymphocyte antigen	1.6136326663413048	1.0	1.0
+DLPFC	Up	Heat shock protein	inf	0.05961780013580407	0.23847120054321627
+DLPFC	Down	Heat shock protein		1.0	1.0
+DLPFC	All	Heat shock protein	inf	0.055999641726958364	0.23847120054321627
+DLPFC	Up	HLA class II	inf	0.05961780013580407	0.23847120054321627
+DLPFC	Down	HLA class II	3.3452702702702704	0.5603000856711526	1.0
+DLPFC	All	HLA class II	8.073416897281458	0.033490218333198506	0.20094130999919105
+Hippocampus	Up	Histone	0.6322302558398221	0.5668602834096297	1.0
+Hippocampus	Down	Histone	5.967765675596114	0.012501925757868924	0.28344209098082074
+Hippocampus	All	Histone	1.6827684827684828	0.21568570432396456	0.7058804868784294
+Hippocampus	Up	Solute carrier	0.0	1.0	1.0
+Hippocampus	Down	Solute carrier		1.0	1.0
+Hippocampus	All	Solute carrier	0.0	1.0	1.0
+Hippocampus	Up	Zinc finger protein	0.8047972066897756	0.8132717316020208	1.0
+Hippocampus	Down	Zinc finger protein	2.2071939625600314	0.30211531816447135	0.8366270349169976
+Hippocampus	All	Zinc finger protein	1.1088688263409452	0.8444637344627592	1.0
+Hippocampus	Up	histone		1.0	1.0
+Hippocampus	Down	histone		1.0	1.0
+Hippocampus	All	histone		1.0	1.0
+Hippocampus	Up	HLA class I	3.166203059805285	0.2526282587329996	0.7578847761989989
+Hippocampus	Down	HLA class I	1.3233480176211454	1.0	1.0
+Hippocampus	All	HLA class I	2.588285714285714	0.19087588341955858	0.7014426610254141
+Hippocampus	Up	Butyrophilin	inf	0.4414469650521152	1.0
+Hippocampus	Down	Butyrophilin	inf	0.03429082611821522	0.41148991341858265
+Hippocampus	All	Butyrophilin	inf	0.015746782832267818	0.28344209098082074
+Hippocampus	Up	Vomeronasal receptor		1.0	1.0
+Hippocampus	Down	Vomeronasal receptor		1.0	1.0
+Hippocampus	All	Vomeronasal receptor		1.0	1.0
+Hippocampus	Up	Olfactory receptor		1.0	1.0
+Hippocampus	Down	Olfactory receptor		1.0	1.0
+Hippocampus	All	Olfactory receptor		1.0	1.0
+Hippocampus	Up	Tumor necrosis factor		1.0	1.0
+Hippocampus	Down	Tumor necrosis factor		1.0	1.0
+Hippocampus	All	Tumor necrosis factor		1.0	1.0
+Hippocampus	Up	Lymphocyte antigen	inf	0.19484518361817058	0.7014426610254141
+Hippocampus	Down	Lymphocyte antigen		1.0	1.0
+Hippocampus	All	Lymphocyte antigen	inf	0.19009979820777567	0.7014426610254141
+Hippocampus	Up	Heat shock protein	inf	0.4414469650521152	1.0
+Hippocampus	Down	Heat shock protein	inf	0.1852398051765426	0.7014426610254141
+Hippocampus	All	Heat shock protein	inf	0.08287433005398115	0.5539238878659746
+Hippocampus	Up	HLA class II	inf	0.08598711770614224	0.5539238878659746
+Hippocampus	Down	HLA class II	2.6474735605170387	0.581027213710722	1.0
+Hippocampus	All	HLA class II	6.471218397371804	0.09232064797766242	0.5539238878659746

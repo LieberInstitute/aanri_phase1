@@ -1,0 +1,44 @@
+GENE
+EITHER
+Local (Caudate):		 r2 ~ 0.163	rho > 0.403	p-value < 5.6e-270
+Local (Dentate Gyrus):		 r2 ~ 0.124	rho > 0.351	p-value < 3.4e-131
+Local (DLPFC):		 r2 ~ 0.178	rho > 0.422	p-value < 1.3e-274
+Local (Hippocampus):		 r2 ~ 0.156	rho > 0.395	p-value < 2.2e-267
+SHARED
+Local (Caudate):		 r2 ~ 0.364	rho > 0.603	p-value < 1.6e-91
+Local (Dentate Gyrus):		 r2 ~ 0.320	rho > 0.566	p-value < 2.3e-49
+Local (DLPFC):		 r2 ~ 0.337	rho > 0.581	p-value < 3.6e-68
+Local (Hippocampus):		 r2 ~ 0.394	rho > 0.628	p-value < 1.6e-83
+TRANSCRIPT
+EITHER
+Local (Caudate):		 r2 ~ 0.114	rho > 0.338	p-value < 5.3e-211
+Local (Dentate Gyrus):		 r2 ~ 0.124	rho > 0.352	p-value < 9.5e-177
+Local (DLPFC):		 r2 ~ 0.111	rho > 0.334	p-value < 2.4e-198
+Local (Hippocampus):		 r2 ~ 0.100	rho > 0.317	p-value < 3.9e-195
+SHARED
+Local (Caudate):		 r2 ~ 0.264	rho > 0.514	p-value < 2.4e-35
+Local (Dentate Gyrus):		 r2 ~ 0.251	rho > 0.501	p-value < 7.3e-49
+Local (DLPFC):		 r2 ~ 0.170	rho > 0.412	p-value < 3.5e-29
+Local (Hippocampus):		 r2 ~ 0.244	rho > 0.494	p-value < 2.1e-47
+EXON
+EITHER
+Local (Caudate):		 r2 ~ 0.170	rho > 0.413	p-value < 0.0e+00
+Local (Dentate Gyrus):		 r2 ~ 0.146	rho > 0.382	p-value < 0.0e+00
+Local (DLPFC):		 r2 ~ 0.177	rho > 0.421	p-value < 0.0e+00
+Local (Hippocampus):		 r2 ~ 0.153	rho > 0.391	p-value < 0.0e+00
+SHARED
+Local (Caudate):		 r2 ~ 0.435	rho > 0.659	p-value < 0.0e+00
+Local (Dentate Gyrus):		 r2 ~ 0.375	rho > 0.612	p-value < 4.2e-251
+Local (DLPFC):		 r2 ~ 0.440	rho > 0.663	p-value < 0.0e+00
+Local (Hippocampus):		 r2 ~ 0.488	rho > 0.698	p-value < 0.0e+00
+JUNCTION
+EITHER
+Local (Caudate):		 r2 ~ 0.156	rho > 0.395	p-value < 0.0e+00
+Local (Dentate Gyrus):		 r2 ~ 0.145	rho > 0.381	p-value < 0.0e+00
+Local (DLPFC):		 r2 ~ 0.159	rho > 0.398	p-value < 0.0e+00
+Local (Hippocampus):		 r2 ~ 0.141	rho > 0.376	p-value < 0.0e+00
+SHARED
+Local (Caudate):		 r2 ~ 0.432	rho > 0.657	p-value < 7.9e-148
+Local (Dentate Gyrus):		 r2 ~ 0.430	rho > 0.656	p-value < 2.4e-119
+Local (DLPFC):		 r2 ~ 0.443	rho > 0.666	p-value < 1.4e-151
+Local (Hippocampus):		 r2 ~ 0.415	rho > 0.644	p-value < 4.8e-144
