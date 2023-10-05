@@ -1,0 +1,34 @@
+**** Job starts ****
+2023-10-02T16:44:25-0400
+**** JHPCE info ****
+User: jbenjami
+Job id: 3749078
+Job name: celltype_enrichment_fishers
+Hostname: compute-110.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     6) COMMUNITY_CENTOS7_DEFAULT_ENV
+  2) stata/17          7) JHPCE_CENTOS7_DEFAULT_ENV
+  3) JHPCE_tools/1.0   8) python/3.9.10
+  4) sge/8.1.9         9) emacs/28.1
+  5) gcc/4.4.7
+
+ 
+
+**** Run enrichment analysis ****
+/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/differential_analysis/tissue_comparison/public_comparison/microglia_ad/_m/../_h/01.enrichment_fishers.py:99: DeprecationWarning: In a future version of polars, the default `aggregate_function` will change from `'first'` to `None`. Please pass `'first'` to keep the current behaviour, or `None` to accept the new one.
+  annot = dt.with_row_count("id")\
+-----
+polars              0.18.6
+pybiomart           0.2.0
+pyhere              1.0.0
+scipy               1.8.1
+session_info        1.0.0
+statsmodels         0.14.0
+-----
+Python 3.9.10 (main, Feb 22 2022, 16:34:24) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17
+-----
+Session information updated at 2023-10-02 16:44
+**** Job ends ****
+2023-10-02T16:44:45-0400
