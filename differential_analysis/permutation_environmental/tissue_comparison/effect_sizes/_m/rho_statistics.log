@@ -1,0 +1,9 @@
+Caudate vs Dentate Gyrus:			 rho > 0.493, p-value < 3.7e-240
+Caudate vs DLPFC:			 rho > 0.709, p-value < 0.0e+00
+Caudate vs Hippocampus:			 rho > 0.760, p-value < 0.0e+00
+Dentate Gyrus vs DLPFC:			 rho > 0.598, p-value < 0.0e+00
+Dentate Gyrus vs Hippocampus:			 rho > 0.619, p-value < 0.0e+00
+DLPFC vs Dentate Gyrus:			 rho > 0.598, p-value < 0.0e+00
+DLPFC vs Hippocampus:			 rho > 0.764, p-value < 0.0e+00
+Hippocampus vs Dentate Gyrus:			 rho > 0.619, p-value < 0.0e+00
+Hippocampus vs DLPFC:			 rho > 0.764, p-value < 0.0e+00

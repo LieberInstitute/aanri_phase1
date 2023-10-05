@@ -1,0 +1,44 @@
+GENE
+EITHER
+Environmental (Caudate):		 r2 ~ 0.187	rho > 0.432	p-value < 7.0e-129
+Environmental (Dentate Gyrus):		 r2 ~ 0.184	rho > 0.429	p-value < 1.3e-97
+Environmental (DLPFC):		 r2 ~ 0.240	rho > 0.490	p-value < 1.7e-182
+Environmental (Hippocampus):		 r2 ~ 0.205	rho > 0.452	p-value < 3.6e-134
+SHARED
+Environmental (Caudate):		 r2 ~ 0.402	rho > 0.634	p-value < 3.9e-62
+Environmental (Dentate Gyrus):		 r2 ~ 0.367	rho > 0.605	p-value < 3.5e-37
+Environmental (DLPFC):		 r2 ~ 0.410	rho > 0.640	p-value < 5.1e-60
+Environmental (Hippocampus):		 r2 ~ 0.436	rho > 0.660	p-value < 1.4e-56
+TRANSCRIPT
+EITHER
+Environmental (Caudate):		 r2 ~ 0.180	rho > 0.424	p-value < 9.8e-131
+Environmental (Dentate Gyrus):		 r2 ~ 0.084	rho > 0.290	p-value < 3.7e-87
+Environmental (DLPFC):		 r2 ~ 0.134	rho > 0.367	p-value < 1.6e-124
+Environmental (Hippocampus):		 r2 ~ 0.114	rho > 0.338	p-value < 1.9e-107
+SHARED
+Environmental (Caudate):		 r2 ~ 0.460	rho > 0.678	p-value < 1.6e-45
+Environmental (Dentate Gyrus):		 r2 ~ 0.173	rho > 0.416	p-value < 2.6e-26
+Environmental (DLPFC):		 r2 ~ 0.338	rho > 0.581	p-value < 3.5e-55
+Environmental (Hippocampus):		 r2 ~ 0.302	rho > 0.549	p-value < 1.1e-44
+EXON
+EITHER
+Environmental (Caudate):		 r2 ~ 0.226	rho > 0.475	p-value < 0.0e+00
+Environmental (Dentate Gyrus):		 r2 ~ 0.180	rho > 0.424	p-value < 0.0e+00
+Environmental (DLPFC):		 r2 ~ 0.217	rho > 0.466	p-value < 0.0e+00
+Environmental (Hippocampus):		 r2 ~ 0.249	rho > 0.499	p-value < 0.0e+00
+SHARED
+Environmental (Caudate):		 r2 ~ 0.534	rho > 0.731	p-value < 2.0e-250
+Environmental (Dentate Gyrus):		 r2 ~ 0.483	rho > 0.695	p-value < 3.7e-135
+Environmental (DLPFC):		 r2 ~ 0.584	rho > 0.764	p-value < 1.5e-292
+Environmental (Hippocampus):		 r2 ~ 0.624	rho > 0.790	p-value < 2.7e-304
+JUNCTION
+EITHER
+Environmental (Caudate):		 r2 ~ 0.232	rho > 0.481	p-value < 1.2e-215
+Environmental (Dentate Gyrus):		 r2 ~ 0.175	rho > 0.418	p-value < 3.3e-122
+Environmental (DLPFC):		 r2 ~ 0.200	rho > 0.448	p-value < 2.3e-209
+Environmental (Hippocampus):		 r2 ~ 0.219	rho > 0.468	p-value < 4.4e-205
+SHARED
+Environmental (Caudate):		 r2 ~ 0.456	rho > 0.675	p-value < 1.4e-64
+Environmental (Dentate Gyrus):		 r2 ~ 0.467	rho > 0.683	p-value < 7.0e-46
+Environmental (DLPFC):		 r2 ~ 0.480	rho > 0.693	p-value < 7.5e-72
+Environmental (Hippocampus):		 r2 ~ 0.499	rho > 0.707	p-value < 3.1e-73
