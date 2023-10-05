@@ -2,27 +2,33 @@
 
 import numpy as np
 import pandas as pd
+from pyhere import here
 from functools import lru_cache
 from scipy.stats import fisher_exact
 from statsmodels.stats.multitest import fdrcorrection
 
 @lru_cache()
 def get_celltype_genes():
-    fn = '../../../../input/celltypes/_m/Zeisel_single_cell.tsv'
+    fn = here('input/celltypes/_m/Zeisel_single_cell.tsv')
     return pd.read_csv(fn, sep='\t', index_col=0)
 
 
 @lru_cache()
 def get_annotation():
-    base_loc = "/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/input/text_files_counts/"
+    base_loc = here("input/text_files_counts")
     config = {
-        "genes": "%s/_m/caudate/gene_annotation.tsv" % base_loc,
-        "transcripts": "%s/_m/caudate/tx_annotation.tsv" % base_loc,
-        "exons": "%s/_m/caudate/exon_annotation.tsv" % base_loc,
-        "junctions": "%s/_m/caudate/jxn_annotation.tsv" % base_loc,
+        "genes": here("input/text_files_counts/_m",
+                      "caudate/gene_annotation.tsv"),
+        "transcripts": here("input/text_files_counts/_m",
+                            "caudate/tx_annotation.tsv"),
+        "exons": here("input/text_files_counts/_m",
+                      "caudate/exon_annotation.tsv"),
+        "junctions": here("input/text_files_counts/_m",
+                          "caudate/jxn_annotation.tsv"),
     }
     return pd.read_csv(config["genes"], sep='\t')\
-             .loc[:, ["names", "seqnames", "start", "end", "Symbol", "gencodeID"]]
+             .loc[:, ["names", "seqnames", "start",
+                      "end", "Symbol", "gencodeID"]]
 
 
 @lru_cache()
@@ -68,6 +74,7 @@ def cal_fishers_direction(celltype, direction, tissue):
               np.sum((df['lfsr']<0.05) & (df[celltype] == 0))],
              [np.sum((df['lfsr']>0.05) & (df[celltype] == 1)), 
               np.sum((df['lfsr']>0.05) & (df[celltype] == 0))]]
+    print(table)
     return fisher_exact(table)
 
 
