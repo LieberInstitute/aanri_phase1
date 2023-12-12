@@ -47,12 +47,14 @@ Supplementary data (V2): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.841
 
 | Description              | Location                                                                                         |
 | ------------------------ | ------------------------------------------------------------------------------------------------ |
+| Genetic ancestry estimates | [structure.out](./ancestry_structure/structure.out_ancestry_proportion_raceDemo_compare)       |
+| ------------------------ | ------------------------------------------------------------------------------------------------ |
 | Caudate counts           | [https://erwinpaquolalab.libd.org/caudate_eqtl/](https://erwinpaquolalab.libd.org/caudate_eqtl/) |
 | DLPFC counts (total RNA) | [https://eqtl.brainseq.org/phase2/](https://eqtl.brainseq.org/phase2/)                           |
 | Hippocampus counts       | [https://eqtl.brainseq.org/phase2/](https://eqtl.brainseq.org/phase2/)                           |
 | Dentate gyrus counts     | [http://research.libd.org/dg_hippo_paper/data.html](http://research.libd.org/dg_hippo_paper/data.html) |
 | ------------------------ | ------------------------------------------------------------------------------------------------ |
-| Caudate FASTQ            | dbGaP accession |
+| Caudate FASTQ            | dbGaP accession `phs003495.v1.p1` |
 | DLPFC FASTQ              | Globus collection `jhpce#bsp2-dlpfc`                                                             |
 | Hippocampus FASTQ        | Globus collection `jhpce#bsp2-hippo`                                                             |
 | Dentate gyrus FASTQ      | SRA [SRP241159](https://trace.ncbi.nlm.nih.gov/Traces/?view=study&acc=SRP241159)                 |
