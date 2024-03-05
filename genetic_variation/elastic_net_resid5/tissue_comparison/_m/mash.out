@@ -1,0 +1,495 @@
+**** Job starts ****
+Wed Nov  9 16:13:25 EST 2022
+**** JHPCE info ****
+User: jbenjami
+Job id: 1042975
+Job name: run_mash
+Hostname: compute-129.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/3.6.1
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV      11) pandoc/2.7.3
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run mash model ****
+ - Computing 16434 x 393 likelihood matrix.
+ - Likelihood calculations took 5.75 seconds.
+ - Fitting model with 393 mixture components.
+ - Model fitting took 51.40 seconds.
+ - Computing posterior matrices.
+ - Computation allocated took 0.70 seconds.
+                Caudate Dentate Gyrus     DLPFC Hippocampus
+Caudate       1.0000000     0.1841481 0.3036068   0.3037694
+Dentate Gyrus 0.1841481     1.0000000 0.1764706   0.2047847
+DLPFC         0.3036068     0.1764706 1.0000000   0.3587553
+Hippocampus   0.3037694     0.2047847 0.3587553   1.0000000
+[1] 7026
+         null      ED_PCA_1      ED_PCA_2      ED_PCA_3      ED_PCA_4 
+ 3.676746e-02  1.212658e-01  1.358570e-01  0.000000e+00  0.000000e+00 
+      ED_tPCA      identity       Caudate Dentate Gyrus         DLPFC 
+ 3.959156e-01  0.000000e+00  3.897665e-02  1.032443e-01  5.115132e-02 
+  Hippocampus equal_effects  simple_het_1  simple_het_2  simple_het_3 
+ 2.056775e-02  5.045933e-05  0.000000e+00  7.891272e-02  1.729085e-02 
+[1] "2022-11-09 16:14:39 EST"
+   user  system elapsed 
+ 69.023   1.676  73.695 
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value                       
+ version  R version 3.6.1 (2019-07-05)
+ os       CentOS Linux 7 (Core)       
+ system   x86_64, linux-gnu           
+ ui       X11                         
+ language (EN)                        
+ collate  en_US.UTF-8                 
+ ctype    en_US.UTF-8                 
+ tz       US/Eastern                  
+ date     2022-11-09                  
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package     * version date       lib source        
+ abind         1.4-5   2016-07-21 [1] CRAN (R 3.6.1)
+ argparse    * 2.1.5   2022-04-20 [1] CRAN (R 3.6.1)
+ ashr        * 2.2-54  2022-02-22 [1] CRAN (R 3.6.1)
+ assertthat    0.2.1   2019-03-21 [2] CRAN (R 3.6.1)
+ backports     1.2.1   2020-12-09 [2] CRAN (R 3.6.1)
+ broom         0.8.0   2022-04-13 [1] CRAN (R 3.6.1)
+ car           3.0-13  2022-05-02 [1] CRAN (R 3.6.1)
+ carData       3.0-5   2022-01-06 [1] CRAN (R 3.6.1)
+ cli           3.3.0   2022-04-25 [1] CRAN (R 3.6.1)
+ colorspace    2.0-0   2020-11-11 [2] CRAN (R 3.6.1)
+ crayon        1.5.1   2022-03-26 [1] CRAN (R 3.6.1)
+ data.table    1.14.2  2021-09-27 [1] CRAN (R 3.6.1)
+ DBI           1.1.2   2021-12-20 [1] CRAN (R 3.6.1)
+ digest        0.6.29  2021-12-01 [1] CRAN (R 3.6.1)
+ dplyr       * 1.0.9   2022-04-28 [1] CRAN (R 3.6.1)
+ ellipsis      0.3.2   2021-04-29 [1] CRAN (R 3.6.1)
+ fansi         1.0.3   2022-03-24 [1] CRAN (R 3.6.1)
+ farver        2.0.3   2020-01-16 [2] CRAN (R 3.6.1)
+ findpython    1.0.7   2021-01-27 [1] CRAN (R 3.6.1)
+ generics      0.1.2   2022-01-31 [1] CRAN (R 3.6.1)
+ ggplot2     * 3.3.6   2022-05-03 [1] CRAN (R 3.6.1)
+ ggpubr      * 0.4.0   2020-06-27 [1] CRAN (R 3.6.1)
+ ggsignif      0.6.3   2021-09-09 [1] CRAN (R 3.6.1)
+ glue          1.6.2   2022-02-24 [1] CRAN (R 3.6.1)
+ gtable        0.3.0   2019-03-25 [2] CRAN (R 3.6.1)
+ invgamma      1.1     2017-05-07 [1] CRAN (R 3.6.1)
+ irlba         2.3.3   2019-02-05 [2] CRAN (R 3.6.1)
+ jsonlite      1.8.0   2022-02-22 [1] CRAN (R 3.6.1)
+ labeling      0.4.2   2020-10-20 [2] CRAN (R 3.6.1)
+ lattice       0.20-41 2020-04-02 [2] CRAN (R 3.6.1)
+ lifecycle     1.0.1   2021-09-24 [1] CRAN (R 3.6.1)
+ magrittr      2.0.3   2022-03-30 [1] CRAN (R 3.6.1)
+ mashr       * 0.2.57  2022-01-25 [1] CRAN (R 3.6.1)
+ Matrix        1.2-17  2019-03-22 [2] CRAN (R 3.6.1)
+ mixsqp        0.3-43  2020-05-14 [1] CRAN (R 3.6.1)
+ munsell       0.5.0   2018-06-12 [2] CRAN (R 3.6.1)
+ mvtnorm       1.1-3   2021-10-08 [1] CRAN (R 3.6.1)
+ pillar        1.8.1   2022-08-19 [1] CRAN (R 3.6.1)
+ pkgconfig     2.0.3   2019-09-22 [2] CRAN (R 3.6.1)
+ plyr          1.8.6   2020-03-03 [2] CRAN (R 3.6.1)
+ purrr         0.3.4   2020-04-17 [1] CRAN (R 3.6.1)
+ R6            2.5.0   2020-10-28 [2] CRAN (R 3.6.1)
+ Rcpp          1.0.8.3 2022-03-17 [1] CRAN (R 3.6.1)
+ rlang         1.0.2   2022-03-04 [1] CRAN (R 3.6.1)
+ rmeta         3.0     2018-03-20 [1] CRAN (R 3.6.1)
+ rstatix       0.7.0   2021-02-13 [1] CRAN (R 3.6.1)
+ scales        1.1.1   2020-05-11 [2] CRAN (R 3.6.1)
+ sessioninfo   1.1.1   2018-11-05 [2] CRAN (R 3.6.1)
+ softImpute    1.4-1   2021-05-09 [1] CRAN (R 3.6.1)
+ SQUAREM       2021.1  2021-01-13 [1] CRAN (R 3.6.1)
+ stringi       1.5.3   2020-09-09 [2] CRAN (R 3.6.1)
+ stringr       1.4.0   2019-02-10 [2] CRAN (R 3.6.1)
+ svglite       2.1.0   2022-02-03 [1] CRAN (R 3.6.1)
+ systemfonts   1.0.4   2022-02-11 [1] CRAN (R 3.6.1)
+ tibble        3.1.7   2022-05-03 [1] CRAN (R 3.6.1)
+ tidyr         1.2.0   2022-02-01 [1] CRAN (R 3.6.1)
+ tidyselect    1.1.2   2022-02-21 [1] CRAN (R 3.6.1)
+ truncnorm     1.0-8   2018-02-27 [1] CRAN (R 3.6.1)
+ utf8          1.2.2   2021-07-24 [1] CRAN (R 3.6.1)
+ vctrs         0.4.1   2022-04-13 [1] CRAN (R 3.6.1)
+ withr         2.3.0   2020-09-22 [2] CRAN (R 3.6.1)
+
+[1] /users/jbenjami/R/x86_64-pc-linux-gnu-library/3.6
+[2] /jhpce/shared/jhpce/core/R/3.6.1/lib64/R/library
+**** Job ends ****
+Wed Nov  9 16:14:46 EST 2022
+**** Job starts ****
+Fri Nov 11 15:42:12 EST 2022
+**** JHPCE info ****
+User: jbenjami
+Job id: 1129048
+Job name: run_mash
+Hostname: compute-072.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/3.6.1
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV      11) pandoc/2.7.3
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run mash model ****
+ - Computing 37465 x 393 likelihood matrix.
+ - Likelihood calculations took 42.87 seconds.
+ - Fitting model with 393 mixture components.
+ - Model fitting took 249.47 seconds.
+ - Computing posterior matrices.
+ - Computation allocated took 6.71 seconds.
+                Caudate Dentate Gyrus     DLPFC Hippocampus
+Caudate       1.0000000     0.1727099 0.2229528   0.2105731
+Dentate Gyrus 0.1727099     1.0000000 0.1600329   0.1722973
+DLPFC         0.2229528     0.1600329 1.0000000   0.2529064
+Hippocampus   0.2105731     0.1722973 0.2529064   1.0000000
+[1] 15072
+         null      ED_PCA_1      ED_PCA_2      ED_PCA_3      ED_PCA_4 
+ 1.729928e-02  1.555838e-01  1.609657e-01  8.527818e-03  0.000000e+00 
+      ED_tPCA      identity       Caudate Dentate Gyrus         DLPFC 
+ 2.670944e-01  8.122398e-02  4.530853e-02  1.341790e-01  6.386195e-02 
+  Hippocampus equal_effects  simple_het_1  simple_het_2  simple_het_3 
+ 5.308690e-02  7.798115e-05  0.000000e+00  0.000000e+00  1.279059e-02 
+[1] "2022-11-11 15:48:41 EST"
+   user  system elapsed 
+370.069   8.109 388.218 
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value                       
+ version  R version 3.6.1 (2019-07-05)
+ os       CentOS Linux 7 (Core)       
+ system   x86_64, linux-gnu           
+ ui       X11                         
+ language (EN)                        
+ collate  en_US.UTF-8                 
+ ctype    en_US.UTF-8                 
+ tz       US/Eastern                  
+ date     2022-11-11                  
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package     * version date       lib source        
+ abind         1.4-5   2016-07-21 [1] CRAN (R 3.6.1)
+ argparse    * 2.1.5   2022-04-20 [1] CRAN (R 3.6.1)
+ ashr        * 2.2-54  2022-02-22 [1] CRAN (R 3.6.1)
+ assertthat    0.2.1   2019-03-21 [2] CRAN (R 3.6.1)
+ backports     1.2.1   2020-12-09 [2] CRAN (R 3.6.1)
+ broom         0.8.0   2022-04-13 [1] CRAN (R 3.6.1)
+ car           3.0-13  2022-05-02 [1] CRAN (R 3.6.1)
+ carData       3.0-5   2022-01-06 [1] CRAN (R 3.6.1)
+ cli           3.3.0   2022-04-25 [1] CRAN (R 3.6.1)
+ colorspace    2.0-0   2020-11-11 [2] CRAN (R 3.6.1)
+ crayon        1.5.1   2022-03-26 [1] CRAN (R 3.6.1)
+ data.table    1.14.2  2021-09-27 [1] CRAN (R 3.6.1)
+ DBI           1.1.2   2021-12-20 [1] CRAN (R 3.6.1)
+ digest        0.6.29  2021-12-01 [1] CRAN (R 3.6.1)
+ dplyr       * 1.0.9   2022-04-28 [1] CRAN (R 3.6.1)
+ ellipsis      0.3.2   2021-04-29 [1] CRAN (R 3.6.1)
+ fansi         1.0.3   2022-03-24 [1] CRAN (R 3.6.1)
+ farver        2.0.3   2020-01-16 [2] CRAN (R 3.6.1)
+ findpython    1.0.7   2021-01-27 [1] CRAN (R 3.6.1)
+ generics      0.1.2   2022-01-31 [1] CRAN (R 3.6.1)
+ ggplot2     * 3.3.6   2022-05-03 [1] CRAN (R 3.6.1)
+ ggpubr      * 0.4.0   2020-06-27 [1] CRAN (R 3.6.1)
+ ggsignif      0.6.3   2021-09-09 [1] CRAN (R 3.6.1)
+ glue          1.6.2   2022-02-24 [1] CRAN (R 3.6.1)
+ gtable        0.3.0   2019-03-25 [2] CRAN (R 3.6.1)
+ invgamma      1.1     2017-05-07 [1] CRAN (R 3.6.1)
+ irlba         2.3.3   2019-02-05 [2] CRAN (R 3.6.1)
+ jsonlite      1.8.0   2022-02-22 [1] CRAN (R 3.6.1)
+ labeling      0.4.2   2020-10-20 [2] CRAN (R 3.6.1)
+ lattice       0.20-41 2020-04-02 [2] CRAN (R 3.6.1)
+ lifecycle     1.0.1   2021-09-24 [1] CRAN (R 3.6.1)
+ magrittr      2.0.3   2022-03-30 [1] CRAN (R 3.6.1)
+ mashr       * 0.2.57  2022-01-25 [1] CRAN (R 3.6.1)
+ Matrix        1.2-17  2019-03-22 [2] CRAN (R 3.6.1)
+ mixsqp        0.3-43  2020-05-14 [1] CRAN (R 3.6.1)
+ munsell       0.5.0   2018-06-12 [2] CRAN (R 3.6.1)
+ mvtnorm       1.1-3   2021-10-08 [1] CRAN (R 3.6.1)
+ pillar        1.8.1   2022-08-19 [1] CRAN (R 3.6.1)
+ pkgconfig     2.0.3   2019-09-22 [2] CRAN (R 3.6.1)
+ plyr          1.8.6   2020-03-03 [2] CRAN (R 3.6.1)
+ purrr         0.3.4   2020-04-17 [1] CRAN (R 3.6.1)
+ R6            2.5.0   2020-10-28 [2] CRAN (R 3.6.1)
+ Rcpp          1.0.8.3 2022-03-17 [1] CRAN (R 3.6.1)
+ rlang         1.0.2   2022-03-04 [1] CRAN (R 3.6.1)
+ rmeta         3.0     2018-03-20 [1] CRAN (R 3.6.1)
+ rstatix       0.7.0   2021-02-13 [1] CRAN (R 3.6.1)
+ scales        1.1.1   2020-05-11 [2] CRAN (R 3.6.1)
+ sessioninfo   1.1.1   2018-11-05 [2] CRAN (R 3.6.1)
+ softImpute    1.4-1   2021-05-09 [1] CRAN (R 3.6.1)
+ SQUAREM       2021.1  2021-01-13 [1] CRAN (R 3.6.1)
+ stringi       1.5.3   2020-09-09 [2] CRAN (R 3.6.1)
+ stringr       1.4.0   2019-02-10 [2] CRAN (R 3.6.1)
+ svglite       2.1.0   2022-02-03 [1] CRAN (R 3.6.1)
+ systemfonts   1.0.4   2022-02-11 [1] CRAN (R 3.6.1)
+ tibble        3.1.7   2022-05-03 [1] CRAN (R 3.6.1)
+ tidyr         1.2.0   2022-02-01 [1] CRAN (R 3.6.1)
+ tidyselect    1.1.2   2022-02-21 [1] CRAN (R 3.6.1)
+ truncnorm     1.0-8   2018-02-27 [1] CRAN (R 3.6.1)
+ utf8          1.2.2   2021-07-24 [1] CRAN (R 3.6.1)
+ vctrs         0.4.1   2022-04-13 [1] CRAN (R 3.6.1)
+ withr         2.3.0   2020-09-22 [2] CRAN (R 3.6.1)
+
+[1] /users/jbenjami/R/x86_64-pc-linux-gnu-library/3.6
+[2] /jhpce/shared/jhpce/core/R/3.6.1/lib64/R/library
+**** Job ends ****
+Fri Nov 11 15:48:42 EST 2022
+**** Job starts ****
+Mon Nov 14 02:19:53 EST 2022
+**** JHPCE info ****
+User: jbenjami
+Job id: 1143752
+Job name: run_mash
+Hostname: compute-129.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/3.6.1
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV      11) pandoc/2.7.3
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run mash model ****
+ - Computing 70149 x 407 likelihood matrix.
+ - Likelihood calculations took 23.68 seconds.
+ - Fitting model with 407 mixture components.
+ - Model fitting took 215.09 seconds.
+ - Computing posterior matrices.
+ - Computation allocated took 3.19 seconds.
+                Caudate Dentate Gyrus     DLPFC Hippocampus
+Caudate       1.0000000     0.1545039 0.2273067   0.2271161
+Dentate Gyrus 0.1545039     1.0000000 0.1610462   0.1809723
+DLPFC         0.2273067     0.1610462 1.0000000   0.2652646
+Hippocampus   0.2271161     0.1809723 0.2652646   1.0000000
+[1] 29098
+         null      ED_PCA_1      ED_PCA_2      ED_PCA_3      ED_PCA_4 
+  0.007851557   0.160357182   0.101201680   0.013682378   0.000000000 
+      ED_tPCA      identity       Caudate Dentate Gyrus         DLPFC 
+  0.307793904   0.102045642   0.072808064   0.126408087   0.059043463 
+  Hippocampus equal_effects  simple_het_1  simple_het_2  simple_het_3 
+  0.036282378   0.000000000   0.000000000   0.000000000   0.012525665 
+[1] "2022-11-14 02:24:41 EST"
+   user  system elapsed 
+281.680   2.273 287.214 
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value                       
+ version  R version 3.6.1 (2019-07-05)
+ os       CentOS Linux 7 (Core)       
+ system   x86_64, linux-gnu           
+ ui       X11                         
+ language (EN)                        
+ collate  en_US.UTF-8                 
+ ctype    en_US.UTF-8                 
+ tz       US/Eastern                  
+ date     2022-11-14                  
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package     * version date       lib source        
+ abind         1.4-5   2016-07-21 [1] CRAN (R 3.6.1)
+ argparse    * 2.1.5   2022-04-20 [1] CRAN (R 3.6.1)
+ ashr        * 2.2-54  2022-02-22 [1] CRAN (R 3.6.1)
+ assertthat    0.2.1   2019-03-21 [2] CRAN (R 3.6.1)
+ backports     1.2.1   2020-12-09 [2] CRAN (R 3.6.1)
+ broom         0.8.0   2022-04-13 [1] CRAN (R 3.6.1)
+ car           3.0-13  2022-05-02 [1] CRAN (R 3.6.1)
+ carData       3.0-5   2022-01-06 [1] CRAN (R 3.6.1)
+ cli           3.3.0   2022-04-25 [1] CRAN (R 3.6.1)
+ colorspace    2.0-0   2020-11-11 [2] CRAN (R 3.6.1)
+ crayon        1.5.1   2022-03-26 [1] CRAN (R 3.6.1)
+ data.table    1.14.2  2021-09-27 [1] CRAN (R 3.6.1)
+ DBI           1.1.2   2021-12-20 [1] CRAN (R 3.6.1)
+ digest        0.6.29  2021-12-01 [1] CRAN (R 3.6.1)
+ dplyr       * 1.0.9   2022-04-28 [1] CRAN (R 3.6.1)
+ ellipsis      0.3.2   2021-04-29 [1] CRAN (R 3.6.1)
+ fansi         1.0.3   2022-03-24 [1] CRAN (R 3.6.1)
+ farver        2.0.3   2020-01-16 [2] CRAN (R 3.6.1)
+ findpython    1.0.7   2021-01-27 [1] CRAN (R 3.6.1)
+ generics      0.1.2   2022-01-31 [1] CRAN (R 3.6.1)
+ ggplot2     * 3.3.6   2022-05-03 [1] CRAN (R 3.6.1)
+ ggpubr      * 0.4.0   2020-06-27 [1] CRAN (R 3.6.1)
+ ggsignif      0.6.3   2021-09-09 [1] CRAN (R 3.6.1)
+ glue          1.6.2   2022-02-24 [1] CRAN (R 3.6.1)
+ gtable        0.3.0   2019-03-25 [2] CRAN (R 3.6.1)
+ invgamma      1.1     2017-05-07 [1] CRAN (R 3.6.1)
+ irlba         2.3.3   2019-02-05 [2] CRAN (R 3.6.1)
+ jsonlite      1.8.0   2022-02-22 [1] CRAN (R 3.6.1)
+ labeling      0.4.2   2020-10-20 [2] CRAN (R 3.6.1)
+ lattice       0.20-41 2020-04-02 [2] CRAN (R 3.6.1)
+ lifecycle     1.0.1   2021-09-24 [1] CRAN (R 3.6.1)
+ magrittr      2.0.3   2022-03-30 [1] CRAN (R 3.6.1)
+ mashr       * 0.2.57  2022-01-25 [1] CRAN (R 3.6.1)
+ Matrix        1.2-17  2019-03-22 [2] CRAN (R 3.6.1)
+ mixsqp        0.3-43  2020-05-14 [1] CRAN (R 3.6.1)
+ munsell       0.5.0   2018-06-12 [2] CRAN (R 3.6.1)
+ mvtnorm       1.1-3   2021-10-08 [1] CRAN (R 3.6.1)
+ pillar        1.8.1   2022-08-19 [1] CRAN (R 3.6.1)
+ pkgconfig     2.0.3   2019-09-22 [2] CRAN (R 3.6.1)
+ plyr          1.8.6   2020-03-03 [2] CRAN (R 3.6.1)
+ purrr         0.3.4   2020-04-17 [1] CRAN (R 3.6.1)
+ R6            2.5.0   2020-10-28 [2] CRAN (R 3.6.1)
+ Rcpp          1.0.8.3 2022-03-17 [1] CRAN (R 3.6.1)
+ rlang         1.0.2   2022-03-04 [1] CRAN (R 3.6.1)
+ rmeta         3.0     2018-03-20 [1] CRAN (R 3.6.1)
+ rstatix       0.7.0   2021-02-13 [1] CRAN (R 3.6.1)
+ scales        1.1.1   2020-05-11 [2] CRAN (R 3.6.1)
+ sessioninfo   1.1.1   2018-11-05 [2] CRAN (R 3.6.1)
+ softImpute    1.4-1   2021-05-09 [1] CRAN (R 3.6.1)
+ SQUAREM       2021.1  2021-01-13 [1] CRAN (R 3.6.1)
+ stringi       1.5.3   2020-09-09 [2] CRAN (R 3.6.1)
+ stringr       1.4.0   2019-02-10 [2] CRAN (R 3.6.1)
+ svglite       2.1.0   2022-02-03 [1] CRAN (R 3.6.1)
+ systemfonts   1.0.4   2022-02-11 [1] CRAN (R 3.6.1)
+ tibble        3.1.7   2022-05-03 [1] CRAN (R 3.6.1)
+ tidyr         1.2.0   2022-02-01 [1] CRAN (R 3.6.1)
+ tidyselect    1.1.2   2022-02-21 [1] CRAN (R 3.6.1)
+ truncnorm     1.0-8   2018-02-27 [1] CRAN (R 3.6.1)
+ utf8          1.2.2   2021-07-24 [1] CRAN (R 3.6.1)
+ vctrs         0.4.1   2022-04-13 [1] CRAN (R 3.6.1)
+ withr         2.3.0   2020-09-22 [2] CRAN (R 3.6.1)
+
+[1] /users/jbenjami/R/x86_64-pc-linux-gnu-library/3.6
+[2] /jhpce/shared/jhpce/core/R/3.6.1/lib64/R/library
+**** Job ends ****
+Mon Nov 14 02:24:42 EST 2022
+**** Job starts ****
+Fri Nov 18 07:55:39 EST 2022
+**** JHPCE info ****
+User: jbenjami
+Job id: 1235523
+Job name: run_mash
+Hostname: compute-106.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/3.6.1
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV      11) pandoc/2.7.3
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run mash model ****
+Error in data.table::fread(fn) : 
+  File 'junctions/bhat_de_4tissues.tsv' does not exist or is non-readable. getwd()=='/dcs04/lieber/statsgen/jbenjami/projects/aanri_phase1/genetic_variation/elastic_net_resid5/tissue_comparison/_m'
+Calls: run_mashr ... get_bhat -> %>% -> distinct -> mutate -> <Anonymous>
+Execution halted
+**** Job ends ****
+Fri Nov 18 07:55:50 EST 2022
+**** Job starts ****
+Fri Nov 18 08:23:32 EST 2022
+**** JHPCE info ****
+User: jbenjami
+Job id: 1237974
+Job name: run_mash
+Hostname: compute-057.cm.cluster
+
+Currently Loaded Modules:
+  1) matlab/R2019a     5) gcc/4.4.7                       9) emacs/28.1
+  2) stata/17          6) COMMUNITY_CENTOS7_DEFAULT_ENV  10) R/3.6.1
+  3) JHPCE_tools/1.0   7) JHPCE_CENTOS7_DEFAULT_ENV      11) pandoc/2.7.3
+  4) sge/8.1.9         8) python/3.7.3
+
+ 
+
+**** Run mash model ****
+ - Computing 93055 x 393 likelihood matrix.
+ - Likelihood calculations took 92.12 seconds.
+ - Fitting model with 393 mixture components.
+ - Model fitting took 579.58 seconds.
+ - Computing posterior matrices.
+ - Computation allocated took 18.63 seconds.
+                Caudate Dentate Gyrus     DLPFC Hippocampus
+Caudate       1.0000000     0.1432774 0.1666000   0.1703015
+Dentate Gyrus 0.1432774     1.0000000 0.1329991   0.1597141
+DLPFC         0.1666000     0.1329991 1.0000000   0.1740855
+Hippocampus   0.1703015     0.1597141 0.1740855   1.0000000
+[1] 38210
+         null      ED_PCA_1      ED_PCA_2      ED_PCA_3      ED_PCA_4 
+  0.007631584   0.095632717   0.001074708   0.016841070   0.020232253 
+      ED_tPCA      identity       Caudate Dentate Gyrus         DLPFC 
+  0.539717731   0.035849300   0.068610589   0.076618177   0.066886483 
+  Hippocampus equal_effects  simple_het_1  simple_het_2  simple_het_3 
+  0.050161066   0.000000000   0.000000000   0.016654963   0.004089358 
+[1] "2022-11-18 08:38:10 EST"
+   user  system elapsed 
+854.812  18.105 877.148 
+─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────
+ setting  value                       
+ version  R version 3.6.1 (2019-07-05)
+ os       CentOS Linux 7 (Core)       
+ system   x86_64, linux-gnu           
+ ui       X11                         
+ language (EN)                        
+ collate  en_US.UTF-8                 
+ ctype    en_US.UTF-8                 
+ tz       US/Eastern                  
+ date     2022-11-18                  
+
+─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────
+ package     * version date       lib source        
+ abind         1.4-5   2016-07-21 [1] CRAN (R 3.6.1)
+ argparse    * 2.1.5   2022-04-20 [1] CRAN (R 3.6.1)
+ ashr        * 2.2-54  2022-02-22 [1] CRAN (R 3.6.1)
+ assertthat    0.2.1   2019-03-21 [2] CRAN (R 3.6.1)
+ backports     1.2.1   2020-12-09 [2] CRAN (R 3.6.1)
+ broom         0.8.0   2022-04-13 [1] CRAN (R 3.6.1)
+ car           3.0-13  2022-05-02 [1] CRAN (R 3.6.1)
+ carData       3.0-5   2022-01-06 [1] CRAN (R 3.6.1)
+ cli           3.3.0   2022-04-25 [1] CRAN (R 3.6.1)
+ colorspace    2.0-0   2020-11-11 [2] CRAN (R 3.6.1)
+ crayon        1.5.1   2022-03-26 [1] CRAN (R 3.6.1)
+ data.table    1.14.2  2021-09-27 [1] CRAN (R 3.6.1)
+ DBI           1.1.2   2021-12-20 [1] CRAN (R 3.6.1)
+ digest        0.6.29  2021-12-01 [1] CRAN (R 3.6.1)
+ dplyr       * 1.0.9   2022-04-28 [1] CRAN (R 3.6.1)
+ ellipsis      0.3.2   2021-04-29 [1] CRAN (R 3.6.1)
+ fansi         1.0.3   2022-03-24 [1] CRAN (R 3.6.1)
+ farver        2.0.3   2020-01-16 [2] CRAN (R 3.6.1)
+ findpython    1.0.7   2021-01-27 [1] CRAN (R 3.6.1)
+ generics      0.1.2   2022-01-31 [1] CRAN (R 3.6.1)
+ ggplot2     * 3.3.6   2022-05-03 [1] CRAN (R 3.6.1)
+ ggpubr      * 0.4.0   2020-06-27 [1] CRAN (R 3.6.1)
+ ggsignif      0.6.3   2021-09-09 [1] CRAN (R 3.6.1)
+ glue          1.6.2   2022-02-24 [1] CRAN (R 3.6.1)
+ gtable        0.3.0   2019-03-25 [2] CRAN (R 3.6.1)
+ invgamma      1.1     2017-05-07 [1] CRAN (R 3.6.1)
+ irlba         2.3.3   2019-02-05 [2] CRAN (R 3.6.1)
+ jsonlite      1.8.0   2022-02-22 [1] CRAN (R 3.6.1)
+ labeling      0.4.2   2020-10-20 [2] CRAN (R 3.6.1)
+ lattice       0.20-41 2020-04-02 [2] CRAN (R 3.6.1)
+ lifecycle     1.0.1   2021-09-24 [1] CRAN (R 3.6.1)
+ magrittr      2.0.3   2022-03-30 [1] CRAN (R 3.6.1)
+ mashr       * 0.2.57  2022-01-25 [1] CRAN (R 3.6.1)
+ Matrix        1.2-17  2019-03-22 [2] CRAN (R 3.6.1)
+ mixsqp        0.3-43  2020-05-14 [1] CRAN (R 3.6.1)
+ munsell       0.5.0   2018-06-12 [2] CRAN (R 3.6.1)
+ mvtnorm       1.1-3   2021-10-08 [1] CRAN (R 3.6.1)
+ pillar        1.8.1   2022-08-19 [1] CRAN (R 3.6.1)
+ pkgconfig     2.0.3   2019-09-22 [2] CRAN (R 3.6.1)
+ plyr          1.8.6   2020-03-03 [2] CRAN (R 3.6.1)
+ purrr         0.3.4   2020-04-17 [1] CRAN (R 3.6.1)
+ R6            2.5.0   2020-10-28 [2] CRAN (R 3.6.1)
+ Rcpp          1.0.8.3 2022-03-17 [1] CRAN (R 3.6.1)
+ rlang         1.0.2   2022-03-04 [1] CRAN (R 3.6.1)
+ rmeta         3.0     2018-03-20 [1] CRAN (R 3.6.1)
+ rstatix       0.7.0   2021-02-13 [1] CRAN (R 3.6.1)
+ scales        1.1.1   2020-05-11 [2] CRAN (R 3.6.1)
+ sessioninfo   1.1.1   2018-11-05 [2] CRAN (R 3.6.1)
+ softImpute    1.4-1   2021-05-09 [1] CRAN (R 3.6.1)
+ SQUAREM       2021.1  2021-01-13 [1] CRAN (R 3.6.1)
+ stringi       1.5.3   2020-09-09 [2] CRAN (R 3.6.1)
+ stringr       1.4.0   2019-02-10 [2] CRAN (R 3.6.1)
+ svglite       2.1.0   2022-02-03 [1] CRAN (R 3.6.1)
+ systemfonts   1.0.4   2022-02-11 [1] CRAN (R 3.6.1)
+ tibble        3.1.7   2022-05-03 [1] CRAN (R 3.6.1)
+ tidyr         1.2.0   2022-02-01 [1] CRAN (R 3.6.1)
+ tidyselect    1.1.2   2022-02-21 [1] CRAN (R 3.6.1)
+ truncnorm     1.0-8   2018-02-27 [1] CRAN (R 3.6.1)
+ utf8          1.2.2   2021-07-24 [1] CRAN (R 3.6.1)
+ vctrs         0.4.1   2022-04-13 [1] CRAN (R 3.6.1)
+ withr         2.3.0   2020-09-22 [2] CRAN (R 3.6.1)
+
+[1] /users/jbenjami/R/x86_64-pc-linux-gnu-library/3.6
+[2] /jhpce/shared/jhpce/core/R/3.6.1/lib64/R/library
+**** Job ends ****
+Fri Nov 18 08:38:11 EST 2022
