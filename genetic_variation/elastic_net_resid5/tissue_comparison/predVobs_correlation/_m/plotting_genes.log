@@ -1,0 +1,145 @@
+**** Job starts ****
+Tue Mar  5 03:34:45 PM EST 2024
+**** JHPCE info ****
+User: jbenjami
+Job id: 2908000
+Job name: corrplot_genes
+Node name: 
+Hostname: compute-096
+Task id: 
+Loading R/4.3
+
+Currently Loaded Modules:
+  1) JHPCE_ROCKY9_DEFAULT_ENV   3) conda/3-23.3.1
+  2) JHPCE_tools/3.0            4) R/4.3
+
+ 
+
+**** Run correlation plotting ****
+****************************
+** Hopkins NEWS and Notes **
+****************************
+
+News and updates for the R installation will be sent to bit-help, so consider subscribing
+
+An automatic user library has been created (in case it did not already exist) as
+    /users/jbenjami/R/4.3 
+install.packages and R CMD INSTALL will automatically install to this directory, so there is no need for a -l or a lib argument to these functions.
+
+Loading required package: utils
+The following packages are installed in both /users/jbenjami/R/4.3 and system-wide
+                Package User_Version System_Version
+1             batchelor       1.18.1         1.16.0
+2              beachmat       2.18.1         2.16.0
+3                    BH     1.84.0-0       1.81.0.1
+4               Biobase       2.62.0         2.60.0
+5          BiocGenerics       0.48.1         0.46.0
+6         BiocNeighbors       1.20.2         1.18.0
+7          BiocSingular       1.18.0         1.16.0
+8                  brio        1.1.4          1.1.3
+9                 bslib        0.6.1          0.5.1
+10                  cli        3.6.2          3.6.1
+11           commonmark        1.9.1          1.9.0
+12                cpp11        0.4.7          0.4.6
+13            crosstalk        1.2.1          1.2.0
+14                 curl        5.2.0          5.0.2
+15           data.table       1.15.0         1.14.8
+16                  DBI        1.2.2          1.1.3
+17         DelayedArray       0.28.0         0.26.7
+18   DelayedMatrixStats       1.24.0         1.22.6
+19               deldir        2.0-2          1.0.9
+20                 desc        1.4.3          1.4.2
+21               digest       0.6.34         0.6.33
+22                dplyr        1.1.4          1.1.3
+23                dqrng        0.3.2          0.3.1
+24                e1071       1.7-14         1.7.13
+25             evaluate         0.23           0.21
+26                fansi        1.0.6          1.0.4
+27                  FNN        1.1.4        1.1.3.2
+28               future       1.33.1         1.33.0
+29         GenomeInfoDb       1.38.6         1.36.3
+30     GenomeInfoDbData       1.2.11         1.2.10
+31        GenomicRanges       1.54.1         1.52.0
+32              ggplot2        3.4.4          3.4.3
+33              ggrepel        0.9.5          0.9.3
+34                 glue        1.7.0          1.6.2
+35            HDF5Array       1.30.1         1.28.1
+36            htmltools        0.5.7          0.5.6
+37          htmlwidgets        1.6.4          1.6.2
+38               httpuv       1.6.14         1.6.11
+39              IRanges       2.36.0         2.34.1
+40             jsonlite        1.8.8          1.8.7
+41                knitr         1.45           1.44
+42                later        1.3.2          1.3.1
+43            lifecycle        1.0.4          1.0.3
+44                limma       3.58.1         3.56.2
+45              listenv        0.9.1          0.9.0
+46                 lme4     1.1-35.1         1.1.34
+47               Matrix        1.6-5        1.6.1.1
+48       MatrixGenerics       1.14.0         1.12.3
+49          matrixStats        1.2.0          1.0.0
+50              memoise        2.0.1          2.0.1
+51           parallelly       1.37.0         1.36.0
+52             pkgbuild        1.4.3          1.4.2
+53              pkgload        1.3.4        1.3.2.1
+54               plotly       4.10.4         4.10.2
+55                 plyr        1.8.9          1.8.8
+56             processx        3.8.3          3.8.2
+57                   ps        1.7.6          1.7.5
+58                 ragg        1.2.7          1.2.5
+59                 Rcpp       1.0.12         1.0.11
+60            RcppAnnoy       0.0.22         0.0.21
+61            RcppEigen    0.3.3.9.4      0.3.3.9.3
+62             RcppHNSW        0.6.0          0.5.0
+63       ResidualMatrix       1.12.0         1.10.0
+64                rhdf5       2.46.1         2.44.0
+65         rhdf5filters       1.14.1         1.12.1
+66                rlang        1.1.3          1.1.1
+67            rprojroot        2.0.4          2.0.3
+68                Rtsne         0.17           0.16
+69                   s2        1.1.6          1.1.4
+70             S4Arrays        1.2.0          1.0.6
+71            S4Vectors       0.40.2         0.38.1
+72                 sass        0.4.8          0.4.7
+73         ScaledMatrix       1.10.0          1.8.1
+74               scales        1.3.0          1.2.1
+75              scuttle       1.12.0         1.10.2
+76                shiny        1.8.0          1.7.5
+77 SingleCellExperiment       1.24.0         1.22.0
+78                   sp        2.1-3          2.0.0
+79    sparseMatrixStats       1.14.0         1.12.2
+80              stringi        1.8.3         1.7.12
+81              stringr        1.5.1          1.5.0
+82 SummarizedExperiment       1.32.0         1.30.2
+83          systemfonts        1.0.5          1.0.4
+84             testthat        3.2.1         3.1.10
+85          textshaping        0.3.7          0.3.6
+86                tidyr        1.3.1          1.3.0
+87              tinytex         0.49           0.46
+88                 utf8        1.2.4          1.2.3
+89                vctrs        0.6.5          0.6.3
+90                vipor        0.4.7          0.4.5
+91              viridis        0.6.5          0.6.4
+92                waldo        0.5.2          0.5.1
+93                withr        3.0.0          2.5.0
+94                   wk        0.9.1          0.8.0
+95                 xfun         0.42           0.40
+96              XVector       0.42.0         0.40.0
+97                 yaml        2.3.8          2.3.7
+98             zlibbioc       1.48.0         1.46.0
+User installed packages will override the system ones, irrespective of version
+******* End NEWS ***********
+R[write to console]: Loading required package: ggplot2
+
+-----
+pandas              2.2.1
+pyhere              1.0.0
+rpy2                3.5.12
+session_info        1.0.0
+-----
+Python 3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]
+Linux-5.14.0-284.11.1.el9_2.x86_64-x86_64-with-glibc2.34
+-----
+Session information updated at 2024-03-05 15:38
+**** Job ends ****
+2024-03-05T15:38:56-05:00

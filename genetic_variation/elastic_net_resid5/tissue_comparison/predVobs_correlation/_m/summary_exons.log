@@ -1,0 +1,28 @@
+**** Job starts ****
+Tue Mar  5 03:31:08 PM EST 2024
+**** JHPCE info ****
+User: jbenjami
+Job id: 2907993
+Job name: corr_exons
+Node name: 
+Hostname: compute-095
+Task id: 
+
+Currently Loaded Modules:
+  1) JHPCE_ROCKY9_DEFAULT_ENV   2) JHPCE_tools/3.0
+
+ 
+
+**** Run correlation ****
+-----
+pandas              2.2.0
+pyhere              1.0.0
+scipy               1.8.1
+session_info        1.0.0
+-----
+Python 3.9.16 (main, Dec  8 2022, 00:00:00) [GCC 11.3.1 20221121 (Red Hat 11.3.1-4)]
+Linux-5.14.0-284.11.1.el9_2.x86_64-x86_64-with-glibc2.34
+-----
+Session information updated at 2024-03-05 15:35
+**** Job ends ****
+2024-03-05T15:35:42-05:00
