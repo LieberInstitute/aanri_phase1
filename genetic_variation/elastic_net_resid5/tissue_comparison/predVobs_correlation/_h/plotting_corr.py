@@ -7,7 +7,6 @@ import session_info
 import pandas as pd
 from pyhere import here
 from functools import lru_cache
-from scipy.stats import spearmanr
 from rpy2.robjects.packages import importr
 from rpy2.robjects import r, globalenv, pandas2ri
 
@@ -19,13 +18,13 @@ def map_feature(feature):
 @lru_cache()
 def get_mash_pred(feature):
     # get effect size
-    fn = "../../_m/%s/posterior_mean_feature_4tissues.txt.gz" % feature
+    fn = f"../../_m/{feature}/posterior_mean_feature_4tissues.txt.gz"
     return pd.read_csv(fn, sep='\t', index_col=0)
 
 
 @lru_cache()
 def get_mash_obs(feature):
-    fn = here("differential_analysis/tissue_comparison/_m/%s/" % feature,
+    fn = here(f"differential_analysis/tissue_comparison/_m/{feature}/",
               "posterior_mean_feature_4tissues.txt.gz")
     return pd.read_csv(fn, sep='\t', index_col=0)
 
@@ -60,20 +59,31 @@ def merge_data(feature):
 def get_sig(tissue, feature, lfsr = 0.05):
     shared_features = set(get_deg(tissue, feature).Effect) & \
         set(merge_data(feature).index)
+    return merge_data(feature).loc[list(shared_features)]
+
+
+@lru_cache()
+def get_sig_eGene(tissue, feature, lfsr = 0.05):
+    shared_features = set(get_deg(tissue, feature).Effect) & \
+        set(merge_data(feature).index)
     shared_egenes = shared_features & set(get_eGene(tissue, feature, lfsr).gene_id)
-    return merge_data(feature).loc[shared_egenes]
+    return merge_data(feature).loc[list(shared_egenes)]
 
 
-def corr_beta(tissue, feature, lfsr = 0.05):
-    return spearmanr(get_sig(tissue, feature, lfsr)["%s_pred" % tissue],
-                     get_sig(tissue, feature, lfsr)["%s_obs" % tissue])
+@lru_cache()
+def get_sig_select(tissue, feature, lfsr = 0.05):
+    shared_features = set(get_deg(tissue, feature).Effect) & \
+        set(merge_data(feature).index)
+    shared_egenes = shared_features - set(get_eGene(tissue, feature, lfsr).gene_id)
+    return merge_data(feature).loc[list(shared_egenes)]
 
 
-def plotNsave_corr(tissue, feature):
+def plotNsave_corr(fnc, tissue, feature, label):
     pandas2ri.activate()
-    globalenv['df'] = get_sig(tissue, feature)
+    globalenv['df'] = fnc(tissue, feature)
     globalenv['tissue'] = tissue
     globalenv['feature'] = feature
+    globalenv['label'] = label
     r('''
     library(ggpubr)
     save_plot <- function(p, fn, w, h){
@@ -84,7 +94,8 @@ def plotNsave_corr(tissue, feature):
     ## Plotting
     xlab = "Observed\n(Effect Size)"
     ylab = "Predicted\n(Effect Size)"
-    fn = paste(feature, "effectsize_scatter_predVobs", tolower(tissue), sep="_")
+    fn = paste(feature, "effectsize_scatter_predVobs",
+               tolower(tissue), label, sep=".")
     pp = ggscatter(df, x=paste0(tissue,"_obs"), y=paste0(tissue,"_pred"),
                    add="reg.line", size=1, xlab=xlab, ylab=ylab, alpha=0.5,
                    panel.labs.font=list(face="bold"),
@@ -101,17 +112,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--feature', type=str)
     args=parser.parse_args()
+    ## Plotting correlation
     for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
-        plotNsave_corr(tissue, args.feature)
-    ## Calculate rho
-    with open("rho_statistics_%s.log" % args.feature, "w") as f:
-        for tissue in ["Caudate", "Dentate.Gyrus", "DLPFC", "Hippocampus"]:
-            ## Correlated effect sizes
-            n = get_sig(tissue, args.feature, 0.05).shape[0]
-            rho, pval = corr_beta(tissue, args.feature)
-            print("%s: Predicted vs Observed (n=%d):\t\t" % (tissue, n)+\
-                  "r2 = %.3f, rho = %.3f, p-value < %.6e" %
-                  (rho**2, rho, pval), file=f)
+        plotNsave_corr(get_sig, tissue, args.feature, "DE")
+        plotNsave_corr(get_sig_eGene, tissue, args.feature, "eGene")
+        plotNsave_corr(get_sig_select, tissue, args.feature, "non_eGene")
     ## Reproducibility information
     session_info.show()
 

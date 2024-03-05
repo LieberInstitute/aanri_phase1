@@ -1,12 +1,11 @@
 #!/bin/bash
 #SBATCH --partition=shared,bluejay
-#SBATCH --job-name=corr_jxn
+#SBATCH --job-name=corrplot_genes
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=jbenja13@jh.edu
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=1
-#SBATCH --mem=10gb
-#SBATCH --output=summary_junctions.log
+#SBATCH --output=plotting_genes.log
 
 echo "**** Job starts ****"
 date
@@ -21,11 +20,14 @@ echo "Task id: ${SLURM_ARRAY_TASK_ID}"
 
 ## List current modules for reproducibility
 
+module load R
 module list
 
-echo "**** Run correlation ****"
-FEATURE="junctions"
-python ../_h/corr_beta.py --feature $FEATURE
+export LD_LIBRARY_PATH="/jhpce/shared/community/core/conda_R/4.3/R/lib64/R/lib:$LD_LIBRARY_PATH"
+
+echo "**** Run correlation plotting ****"
+FEATURE="genes"
+python ../_h/plotting_corr.py --feature $FEATURE
 
 echo "**** Job ends ****"
 date -Is

@@ -1,22 +1,25 @@
 #!/bin/bash
-#$ -cwd
-#$ -R y
-#$ -l mem_free=15G,h_vmem=15G,h_fsize=50G
-#$ -N 'effect_size_genes'
-#$ -o ./summary_genes.out
-#$ -e ./summary_genes.out
-#$ -m e -M jade.benjamin@libd.org
+#SBATCH --partition=shared,bluejay
+#SBATCH --job-name=corr_genes
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=jbenja13@jh.edu
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=1
+#SBATCH --output=summary_genes.log
 
 echo "**** Job starts ****"
-date -Is
+date
 
 echo "**** JHPCE info ****"
 echo "User: ${USER}"
-echo "Job id: ${JOB_ID}"
-echo "Job name: ${JOB_NAME}"
+echo "Job id: ${SLURM_JOBID}"
+echo "Job name: ${SLURM_JOB_NAME}"
+echo "Node name: ${SLURM_NODENAME}"
 echo "Hostname: ${HOSTNAME}"
+echo "Task id: ${SLURM_ARRAY_TASK_ID}"
 
-module load R
+## List current modules for reproducibility
+
 module list
 
 echo "**** Run mash results summarization ****"
