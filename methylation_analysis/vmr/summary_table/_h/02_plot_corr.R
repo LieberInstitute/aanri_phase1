@@ -71,7 +71,7 @@ gg <- plot_correlation(TRUE)
 save_plot(gg, "ancestry_DMRs.comparison.scatter.signif", 14, 5)
 
                                         # Save results
-generate_dataframe() |>
+generate_dataframe(FALSE) |>
     data.table::fwrite("dmr_global_local_combined_3regions.csv")
 
 #### Reproducibility information
