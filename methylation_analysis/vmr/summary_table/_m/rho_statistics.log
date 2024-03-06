@@ -1,0 +1,6 @@
+Significant (False)	 Caudate:	 rho >  0.468	 p-value <  0.00e+00
+Significant (False)	 DLPFC:	 rho >  0.477	 p-value <  0.00e+00
+Significant (False)	 Hippocampus:	 rho >  0.481	 p-value <  0.00e+00
+Significant (True)	 Caudate:	 rho >  0.751	 p-value <  1.09e-90
+Significant (True)	 DLPFC:	 rho >  0.822	 p-value <  5.63e-65
+Significant (True)	 Hippocampus:	 rho >  0.804	 p-value <  6.09e-63
