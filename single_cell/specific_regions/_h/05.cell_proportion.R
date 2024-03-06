@@ -89,12 +89,13 @@ plot_prop <- function(sce, transform="logit"){
     bar <- ggbarplot(df, x="clusters", y="Freq", fill="region",
                      add="mean_se", palette="npg",
                      position=position_dodge(),
-                     xlab="Celltypes", ylab="sin^-1(Proportion)",
+                     xlab="Celltypes", ylab="Arcsin(Proportion)",
                      ggtheme=theme_pubr(base_size=15))
-    bxp <- ggboxplot(df, x="region", y="Freq", fill="region",
-                     palette="npg", add="jitter", facet.by="clusters",
-                     scales="free", panel.labs.font=list(face="bold"),
-                     xlab="Celltypes", ylab="sin^-1(Proportion)",
+    bxp <- ggboxplot(df, x="clusters", y="Freq", color="region",
+                     palette="npg", add="jitter",
+                     #facet.by="clusters", scales="free",
+                     panel.labs.font=list(face="bold"),
+                     xlab="Celltypes", ylab="Arcsin(Proportion)",
                      ggtheme=theme_pubr(base_size=15, border=TRUE))
     return(list("BAR"=bar, "BOX"=bxp, "DATA"=df))
 }
