@@ -45,29 +45,25 @@ Supplementary data (V2): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.841
 
 ### Data availability
 
-| Description              | Location                                                                                         |
-| ------------------------ | ------------------------------------------------------------------------------------------------ |
-| Genetic ancestry estimates | [structure.out](./ancestry_structure/structure.out_ancestry_proportion_raceDemo_compare)       |
-| ------------------------ | ------------------------------------------------------------------------------------------------ |
-| Caudate counts           | [https://erwinpaquolalab.libd.org/caudate_eqtl/](https://erwinpaquolalab.libd.org/caudate_eqtl/) |
-| DLPFC counts (total RNA) | [https://eqtl.brainseq.org/phase2/](https://eqtl.brainseq.org/phase2/)                           |
-| Hippocampus counts       | [https://eqtl.brainseq.org/phase2/](https://eqtl.brainseq.org/phase2/)                           |
-| Dentate gyrus counts     | [http://research.libd.org/dg_hippo_paper/data.html](http://research.libd.org/dg_hippo_paper/data.html) |
-| ------------------------ | ------------------------------------------------------------------------------------------------ |
-| Caudate FASTQ            | dbGaP accession `phs003495.v1.p1` |
-| DLPFC FASTQ              | Globus collection `jhpce#bsp2-dlpfc`                                                             |
-| Hippocampus FASTQ        | Globus collection `jhpce#bsp2-hippo`                                                             |
-| Dentate gyrus FASTQ      | SRA [SRP241159](https://trace.ncbi.nlm.nih.gov/Traces/?view=study&acc=SRP241159)                 |
-| ------------------------ | ------------------------------------------------------------------------------------------------ |
-| Genotypes                | dbGaP accession [phs000979.v3.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v3.p2) |
-| ------------------------ | ------------------------------------------------------------------------------------------------ |
-| Caudate DNAm (CpG)       | [file 1](https://libd-wgbs-sczd.s3.amazonaws.com/CpGassays.h5)                                   |
-|                          | [file 2](https://libd-wgbs-sczd.s3.amazonaws.com/CpGse.rds)                                      |
-| DLPFC DNAm   (CpG)       | [batch 1](https://libd-wgbs-sczd.s3.amazonaws.com/batch1_bs_combined_DLPFC_CpG.rda)              |
-|                          | [batch 2](https://libd-wgbs-sczd.s3.amazonaws.com/batch2_bs_combined_DLPFC_CpG.rda)              |
-| Hippocampus DNAm (CpG)   | [batch 1](https://libd-wgbs-sczd.s3.amazonaws.com/batch1_bs_combined_Hippocampus_CpG.rda)        |
-|                          | [batch 2](https://libd-wgbs-sczd.s3.amazonaws.com/batch2_bs_combined_Hippocampus_CpG.rda)        |
-| ------------------------ | ------------------------------------------------------------------------------------------------ |
+| Description                | Location                                                                                                                |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Genetic ancestry estimates | [structure.out](./ancestry_structure/structure.out_ancestry_proportion_raceDemo_compare)                                |
+| Caudate counts             | [https://erwinpaquolalab.libd.org/caudate_eqtl/](https://erwinpaquolalab.libd.org/caudate_eqtl/)                        |
+| DLPFC counts (total RNA)   | [https://eqtl.brainseq.org/phase2/](https://eqtl.brainseq.org/phase2/)                                                  |
+| Hippocampus counts         | [https://eqtl.brainseq.org/phase2/](https://eqtl.brainseq.org/phase2/)                                                  |
+| Dentate gyrus counts       | [http://research.libd.org/dg_hippo_paper/data.html](http://research.libd.org/dg_hippo_paper/data.html)                  |
+| Caudate FASTQ              | dbGaP accession `phs003495.v1.p1`                                                                                       |
+| DLPFC FASTQ                | Globus collection `jhpce#bsp2-dlpfc`                                                                                    |
+| Hippocampus FASTQ          | Globus collection `jhpce#bsp2-hippo`                                                                                    |
+| Dentate gyrus FASTQ        | SRA [SRP241159](https://trace.ncbi.nlm.nih.gov/Traces/?view=study&acc=SRP241159)                                        |
+| Genotypes                  | dbGaP accession [phs000979.v3.p2](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000979.v3.p2) |
+| Caudate DNAm (CpG)         | [file 1](https://libd-wgbs-sczd.s3.amazonaws.com/CpGassays.h5)                                                          |
+|                            | [file 2](https://libd-wgbs-sczd.s3.amazonaws.com/CpGse.rds)                                                             |
+| DLPFC DNAm   (CpG)         | [batch 1](https://libd-wgbs-sczd.s3.amazonaws.com/batch1_bs_combined_DLPFC_CpG.rda)                                     |
+|                            | [batch 2](https://libd-wgbs-sczd.s3.amazonaws.com/batch2_bs_combined_DLPFC_CpG.rda)                                     |
+| Hippocampus DNAm (CpG)     | [batch 1](https://libd-wgbs-sczd.s3.amazonaws.com/batch1_bs_combined_Hippocampus_CpG.rda)                               |
+|                            | [batch 2](https://libd-wgbs-sczd.s3.amazonaws.com/batch2_bs_combined_Hippocampus_CpG.rda)                               |
+
 
 The caudate DNAm uses h5 file storage method. To load this data in to `R`, please use the
 `loadHDF5SummarizedExperiment` function to the parent directory where you downloaded the part 1
