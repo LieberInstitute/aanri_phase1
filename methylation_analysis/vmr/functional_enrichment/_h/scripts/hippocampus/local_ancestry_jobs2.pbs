@@ -1,0 +1,15 @@
+#!/bin/bash
+#$ -N local_ancestry_jobs.txt
+#$ -cwd
+#$ -l mem_free=4G,h_vmem=4G,h_fsize=10G,neuron
+#$ -t 201-331
+#$ -o ./local_ancestry_jobs.txt_err_out
+#$ -e ./local_ancestry_jobs.txt_err_out
+
+echo "**** Job starts ****"
+date
+module load conda_R/4.0
+perl /users/shan/script/job_batch.pl --jfile local_ancestry_jobs.txt --nrun 30 --n $SGE_TASK_ID
+
+echo "**** Job ends ****"
+date
